@@ -1,15 +1,10 @@
 ---
 title: Comments_on_Home
-createdAt: 2005-02-25T10:41-05:00
-editedAt: 2005-02-25T10:42-05:00
+createdAt: 2005-02-06T16:36-05:00
+editedAt: 2005-02-25T10:41-05:00
 ---
 
 === 10 Comments. ===
-
-You probably want to leave a comment at [Comments_on_the_lack_thereof Comments on The Lack Thereof] instead of here. Just so you know.
-
-----
-
 Test of comment count system.
 
 -- awwaiid 2004-03-18 22:31 UTC
