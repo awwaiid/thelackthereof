@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
 createdAt: 2005-03-16T14:14-05:00
-editedAt: 2005-03-17T20:04-05:00
+editedAt: 2005-03-16T14:14-05:00
 ---
 
-=== 18 Comments. ===
+=== 17 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -121,13 +121,6 @@ What is linktrim for us to get <a href="http://linktrim.com/wellbutrin" target=_
 ----
 
 Learn more about linktrim  <a href="http://linktrim.com/wellbutrin" target=_blank>linktrim</a> and see yourself. http://linktrim.com/wellbutrin
-
--- [http://linktrim.com/wellbutrin Angela Greenblatt] 2005-03-16 19:14 UTC
-
-
-----
-
-Guess that is linktrim  <a href="http://linktrim.com/wellbutrin" target=_blank>linktrim</a>, nothing else. http://linktrim.com/wellbutrin
 
 -- [http://linktrim.com/wellbutrin Angela Greenblatt] 2005-03-16 19:14 UTC
 
