@@ -283,10 +283,3 @@ The arguments would all have to admit that zyrtec 1 for us to get <a href="http:
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
 
 
-----
-
-Is zyrtec 1 but if <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> stays. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
-
-
