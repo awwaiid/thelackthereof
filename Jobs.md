@@ -1,7 +1,7 @@
 ---
 title: Jobs
-createdAt: 2005-04-03T20:25-04:00
-editedAt: 2005-04-03T20:26-04:00
+createdAt: 2005-04-03T20:04-04:00
+editedAt: 2005-04-03T20:25-04:00
 ---
 
 This page is to help me organize my job search.
@@ -11,8 +11,6 @@ This page is to help me organize my job search.
 [http://information-technology.careerbuilder.com/it.ic/Arizona_Tempe Career Builder - Tempe, AZ]
 
 [http://www.workzoo.com/US-jobs/IT-Telecoms/Developers/Perl Work Zoo US Perl jobs]
-
-[http://plug.phoenix.az.us/modules.php?op=modload&name=News&file=index&catid=4 Plug News on jobs]
 
 == Job applications ==
 
@@ -34,7 +32,4 @@ http://www.jobsearch.org/seeker/jobsearch/quick?action=JobSearchViewJob&JobSearc
 
 [http://www.jobsearch.org/seeker/jobsearch/quick?action=JobSearchViewJob&JobSearch_JobId=18326802&JobSearchType=JobSearch Perl internet programming] - fun. they want me to write Perl/C code as a pre-employment test.
 
-[http://www.resumeware.net/c4s_joint_rw/college/job_detail.cfm?recnum=14&totalrecs=21 General Dynamics] - Entry Level Software Engineer I
-
-[http://www.resumeware.net/c4s_joint_rw/college/job_detail.cfm?recnum=9&totalrecs=21 General Dynamics] - College Level Software Engineer I
 
