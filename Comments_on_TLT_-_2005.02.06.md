@@ -52,10 +52,3 @@ What is zyrtec 1 works for me <a href="http://zyrtec-1.uni.cc" target=_blank>zyr
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
 
 
-----
-
-Best offer today is zyrtec 1  <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a>. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
-
-
