@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
-createdAt: 2005-03-16T14:12-05:00
-editedAt: 2005-03-16T14:13-05:00
+createdAt: 2005-03-15T14:14-05:00
+editedAt: 2005-03-16T14:12-05:00
 ---
 
-=== 5 Comments. ===
+=== 4 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -32,12 +32,5 @@ This is a tricky extension to make work... it took me several tries and some cus
 This page has been recently updated, now the extension is much easier to install (thanks to the author, Todd Neal). $$e^x$$ four-ever!!
 
 -- [http://thelackthereof.org/ awwaiid] 2005-03-15 19:13 UTC
-
-
-----
-
-Well, linktrim and search for <a href="http://linktrim.com/wellbutrin" target=_blank>linktrim</a> tomorrow. http://linktrim.com/wellbutrin
-
--- [http://linktrim.com/wellbutrin Angela Greenblatt] 2005-03-16 19:12 UTC
 
 
