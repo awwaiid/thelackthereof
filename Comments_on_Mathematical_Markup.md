@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
-createdAt: 2005-04-01T23:42-05:00
+createdAt: 2005-04-01T17:45-05:00
 editedAt: 2005-04-01T23:42-05:00
 ---
 
-=== 15 Comments. ===
+=== 14 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -95,12 +95,5 @@ Great deal on spyware remove works for me <a href="http://spyware-remove.vladimi
 I looked into the problem of web sites off <a href="http://web-sites.msk.su/" target=_blank>web sites</a> to go. http://web-sites.msk.su/
 
 -- [http://web-sites.msk.su/ Tony Piller] 2005-04-01 22:45 UTC
-
-
-----
-
-Learn more about web sites to be <a href="http://web-sites.ashgabad.su/" target=_blank>web sites</a> etc... http://web-sites.ashgabad.su/
-
--- [http://web-sites.ashgabad.su/ Wesley Mann] 2005-04-02 04:42 UTC
 
 
