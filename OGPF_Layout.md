@@ -1,21 +1,8 @@
 ---
 title: OGPF_Layout
-createdAt: 2005-02-19T19:11-05:00
-editedAt: 2005-02-19T20:06-05:00
+createdAt: 2005-02-19T19:08-05:00
+editedAt: 2005-02-19T19:11-05:00
 ---
-
-<graph align=right>
-digraph {
-  node [shape = box];
-  Genotype -> Phenotype;
-  Phenotype -> "Fitness Test";
-  Population -> "Selection Method";
-  Population -> Genotype;
-  "Selection Method" -> "Fitness Test";
-  "Fitness Test" -> Phenotype;
-}
-</graph>
-I've attempted to modularize the various aspects of [[OGPF]] so that each piece is independent for the others. This is unfortunately not completely possible, due to the interdependent nature of the very problem.
 
 In order to avoid a situation in which there is tons of junk in one directory, OGPF uses a directory heirarchy to hold all of its bits and pieces.
 
@@ -34,6 +21,17 @@ The real trick is the two second-level items, since they do practically the same
 Okay, so now a genotype specification gets two signatures. The first makes declares the bits needed to be compatable with the entire system, the second declares the bits needed to be compatable with a set of fitnessTests. The first part is pretty much invariant for the whole framework, whereas the second would vary for each genotype/test.
 
 ----
+<graph align=right>
+digraph {
+  node [shape = box];
+  Genotype -> Phenotype;
+  Phenotype -> "Fitness Test";
+  Population -> "Selection Method";
+  Population -> Genotype;
+  "Selection Method" -> "Fitness Test";
+  "Fitness Test" -> Phenotype;
+}
+</graph>
 (copy/paste from an outgoing email)
 * Genotype - specifies and manipulates a single genome
 * Fitness Test - Tests a genome for fitness. In GP this means
