@@ -4,7 +4,7 @@ createdAt: 2005-03-30T17:33-05:00
 editedAt: 2005-03-30T17:33-05:00
 ---
 
-=== 33 Comments. ===
+=== 32 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -219,13 +219,6 @@ Guess that is spyware remove  <a href="http://spyware-remove.belgorod.ru/" targe
 ----
 
  spyware remove  <a href="http://spyware-remove.belgorod.ru/" target=_blank>spyware remove</a>, nothing else. http://spyware-remove.belgorod.ru/
-
--- [http://spyware-remove.belgorod.ru/ Roland Blancaflor] 2005-03-30 22:33 UTC
-
-
-----
-
- spyware remove  <a href="http://spyware-remove.belgorod.ru/" target=_blank>spyware remove</a> and on. http://spyware-remove.belgorod.ru/
 
 -- [http://spyware-remove.belgorod.ru/ Roland Blancaflor] 2005-03-30 22:33 UTC
 
