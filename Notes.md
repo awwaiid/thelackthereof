@@ -1,15 +1,8 @@
 ---
 title: Notes
-createdAt: 2005-03-03T22:37-05:00
+createdAt: 2005-03-03T15:53-05:00
 editedAt: 2005-03-03T22:37-05:00
 ---
-
-
-== New News Item
-
-blah
-
-----
 
 This is just a scratch page for random junk.
 
