@@ -4,7 +4,7 @@ createdAt: 2005-03-19T05:43-05:00
 editedAt: 2005-03-19T05:43-05:00
 ---
 
-=== 30 Comments. ===
+=== 29 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -197,13 +197,6 @@ I need work at home for us to get <a href="http://work-at-home.mordovia.ru/" tar
 ----
 
  work at home and find details of <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a>!!! http://work-at-home.mordovia.ru/
-
--- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:43 UTC
-
-
-----
-
-Well, work at home compares to <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a>. http://work-at-home.mordovia.ru/
 
 -- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:43 UTC
 
