@@ -4,7 +4,7 @@ createdAt: 2005-03-26T07:28-05:00
 editedAt: 2005-03-26T07:28-05:00
 ---
 
-=== 14 Comments. ===
+=== 13 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -86,13 +86,6 @@ Be sure to read new cars off <a href="http://new-cars.vladimir.ru/" target=_blan
 ----
 
 Today, new cars and <a href="http://new-cars.vladimir.ru/" target=_blank>new cars</a> now. http://new-cars.vladimir.ru/
-
--- [http://new-cars.vladimir.ru/ Tony Piller] 2005-03-26 12:28 UTC
-
-
-----
-
- new cars then <a href="http://new-cars.vladimir.ru/" target=_blank>new cars</a> to go. http://new-cars.vladimir.ru/
 
 -- [http://new-cars.vladimir.ru/ Tony Piller] 2005-03-26 12:28 UTC
 
