@@ -1,10 +1,10 @@
 ---
 title: Home
-createdAt: 2005-02-07T14:11-05:00
-editedAt: 2005-05-03T23:43-04:00
+createdAt: 2004-08-25T23:53-04:00
+editedAt: 2005-02-07T14:11-05:00
 ---
 
-Welcome to http://thelackthereof.org/. This is the website of Brock Wilcox - It's dual purpose is to inform others as to my existence and activities, and also to help me organize my [[Web-of-Beliefs]]. Please leave your [http://thelackthereof.org/wiki.pl/Comments_on_The_Lack_Thereof Comments on The Lack Thereof], so that I can make this site useful. Well... actually it is useful to me and that's what matters most. But I'll take feedback anyway :)
+Welcome to http://thelackthereof.org/. This is the website of Brock Wilcox - It's dual purpose is to inform others as to my existence and activities, and also to help me organize my [[Web-of-Beliefs]]. Please leave your [[Comments on The Lack Thereof]], so that I can make this site useful. Well... actually it is useful to me and that's what matters most. But I'll take feedback anyway :)
 
 The major sections are at the top and side navigation bars, and described below. Other things can be found through the search feature at the bottom of every page, and by browsing around. If you want to add content, please see the [[Text Formatting Rules]] and practice in the [[SandBox]]. This website is run by [http://www.oddmuse.org/ OddMuse].
 
