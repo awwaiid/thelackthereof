@@ -164,10 +164,3 @@ True zyrtec 1 for us to get <a href="http://zyrtec-1.uni.cc" target=_blank>zyrte
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
 
 
-----
-
-To be informed on zyrtec 1 but <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a>. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
-
-
