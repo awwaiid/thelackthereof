@@ -17,10 +17,3 @@ Guess that is literotica xxx  <a href="http://literotica-xxx.uni.cc" target=_bla
 -- [http://literotica-xxx.uni.cc Jim Dultz] 2005-02-06 19:35 UTC
 
 
-----
-
-Best offer today is literotica xxx  <a href="http://literotica-xxx.uni.cc" target=_blank>literotica xxx</a>. http://literotica-xxx.uni.cc
-
--- [http://literotica-xxx.uni.cc Jim Dultz] 2005-02-06 19:35 UTC
-
-
