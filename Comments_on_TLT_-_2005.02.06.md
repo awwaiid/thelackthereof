@@ -269,10 +269,3 @@ Take a look at zyrtec 1 and find details of <a href="http://zyrtec-1.uni.cc" tar
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
 
 
-----
-
-The arguments would all have to admit that zyrtec 1 for us to get <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a>. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
-
-
