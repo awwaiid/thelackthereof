@@ -1,7 +1,7 @@
 ---
 title: VladimirBot
-createdAt: 2003-10-10T01:35-04:00
-editedAt: 2003-10-10T01:35-04:00
+createdAt: 2003-10-10T01:42-04:00
+editedAt: 2003-10-10T01:42-04:00
 ---
 
 == A personal information robot ==
@@ -22,7 +22,6 @@ Context Levels
 
 See the [[VladimirBot Module API]] for specific information on the outer construction of a module. Modules could, of course, themselves be split into many modules... the moderator doesn't care one bit. The very important thing is that modules should decide whether they can handle the input as quickly as possible so that the moderator can give other modules a chance to try.
 
-On the natural language front, please see my work on using an [[Earley Parser]] to write context-free, non-deterministic, complex grammars for some of the modules.
-
+On the natural language front, please see my work on using an [[Earley Parser]] to write context-free, non-deterministic, complex grammars for some of the modules. I've put this over at [[VladimirBot Earley Parsing]].
 
 
