@@ -1,10 +1,10 @@
 ---
 title: Comments_on_The_Lack_Thereof
-createdAt: 2005-02-24T06:59-05:00
-editedAt: 2005-02-24T07:00-05:00
+createdAt: 2005-02-19T14:51-05:00
+editedAt: 2005-02-24T06:59-05:00
 ---
 
-=== 11 Comments. ===
+=== 10 Comments. ===
 Please add comments (or just say hello) on the overall site here!
 ----
 Nobody loves me. *sniff*
@@ -73,14 +73,5 @@ Say, would the graphiz/dot language module be available somehow?
 Yeah, all my modules currently in use are at http://thelackthereof.org/wiki_data/modules and also see http://www.oddmuse.org for lots of other plugins. Graphviz/dot itself must be installed separately on your server though.
 
 -- awwaiid 2005-02-19 19:49 UTC
-
-
-----
-
-Hello, just wanted to let you know that in Safari when you put "clear:both" in the hr tag, the hr is moved to the bottom of the sidebar, as it's a float element... so all the content is moved as well. I'm also using sidebar.pl for my site and only use clear:left which is a pain when I want to float a picture to the right... 
-
--- [http://george.makasoft.net George]
-
--- Anonymous 2005-02-24 11:59 UTC
 
 
