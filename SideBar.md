@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2005-02-16T04:13-05:00
-editedAt: 2005-06-11T19:38-04:00
+createdAt: 2005-02-06T16:12-05:00
+editedAt: 2005-02-16T04:13-05:00
 ---
 
 === GoodStuff ===
@@ -12,7 +12,8 @@ editedAt: 2005-06-11T19:38-04:00
 
 <SimpleChanges>
 
-<h3>[http://thelackthereof.org/wiki.pl/TLT TLT]</h3><Calendar>
+<h3>[http://thelackthereof.org/wiki.pl/TLT TLT]</h3>
+<Calendar>
 
 <h3>[[Links]]</h3>
 * [http://epfarms.org/ Eggplant Farms]
