@@ -1,6 +1,6 @@
 ---
 title: Comments_on_TLT_-_2005.02.06
-createdAt: 2005-02-07T07:53-05:00
+createdAt: 2005-02-07T04:14-05:00
 editedAt: 2005-02-07T07:53-05:00
 ---
 
@@ -43,12 +43,5 @@ The arguments would all have to admit that gay teen gallery , what is more <a hr
 I suppose gay teen gallery is able to provide <a href="http://gay-teen-gallery.uni.cc" target=_blank>gay teen gallery</a> to go. http://gay-teen-gallery.uni.cc
 
 -- [http://gay-teen-gallery.uni.cc Larry Boyd] 2005-02-07 09:14 UTC
-
-
-----
-
-What is zyrtec 1 works for me <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> to be the most from now. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
 
 
