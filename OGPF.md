@@ -1,6 +1,6 @@
 ---
 title: OGPF
-createdAt: 2005-02-16T03:27-05:00
+createdAt: 2005-02-16T03:25-05:00
 editedAt: 2005-02-16T03:27-05:00
 ---
 
@@ -21,7 +21,6 @@ The goal of [[OGPF]] is to create a modular framework for building genetic progr
 * do <nowiki> "darcs get http://thelackthereof.org/projects/ocaml/ogpf " </nowiki> to join development (see [[Darcs]])
 * http://www.eeaax.polytechnique.fr/EO/eo/tutorial/html/eoBottomUp.html
 
-and see some other stuff
 == Status ==
 The framework itself is now functional, but to be useful to others I must still implement some common components. For example, I am now implementing Koza-lisp style genotype (just simple functions and terminals) in a couple different ways; I need to implement a Koza-style population management scheme, and using these reproduce some Koza-style problems (straight from the Genetic Programming books, probably). There are still some modularity issues.
 
