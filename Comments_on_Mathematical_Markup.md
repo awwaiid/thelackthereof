@@ -4,7 +4,7 @@ createdAt: 2005-03-29T18:42-05:00
 editedAt: 2005-03-29T18:42-05:00
 ---
 
-=== 18 Comments. ===
+=== 17 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -114,13 +114,6 @@ Guess that is new cars stands for <a href="http://new-cars.vladimir.ru/" target=
 ----
 
  hardware but if <a href="http://hardware.cbg.ru/" target=_blank>hardware</a> for success. http://hardware.cbg.ru/
-
--- [http://hardware.cbg.ru/ John Erwin] 2005-03-29 23:42 UTC
-
-
-----
-
- hardware cannot <a href="http://hardware.cbg.ru/" target=_blank>hardware</a>. http://hardware.cbg.ru/
 
 -- [http://hardware.cbg.ru/ John Erwin] 2005-03-29 23:42 UTC
 
