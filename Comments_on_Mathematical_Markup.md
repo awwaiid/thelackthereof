@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
 createdAt: 2005-04-01T23:44-05:00
-editedAt: 2005-04-02T14:06-05:00
+editedAt: 2005-04-01T23:44-05:00
 ---
 
-=== 26 Comments. ===
+=== 25 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -170,13 +170,6 @@ Today, web sites get some information on <a href="http://web-sites.ashgabad.su/"
 ----
 
  web sites but <a href="http://web-sites.ashgabad.su/" target=_blank>web sites</a> we asked. http://web-sites.ashgabad.su/
-
--- [http://web-sites.ashgabad.su/ Wesley Mann] 2005-04-02 04:44 UTC
-
-
-----
-
-True web sites takes focus on <a href="http://web-sites.ashgabad.su/" target=_blank>web sites</a> etc. http://web-sites.ashgabad.su/
 
 -- [http://web-sites.ashgabad.su/ Wesley Mann] 2005-04-02 04:44 UTC
 
