@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2005-02-25T10:37-05:00
-editedAt: 2005-02-25T10:38-05:00
+createdAt: 2005-02-16T03:00-05:00
+editedAt: 2005-02-25T10:37-05:00
 ---
 
 /*
@@ -349,9 +349,6 @@ body.print div.content {
   text-align: justify;
 }
 
-.browse, .page, .journal {
-  display: table;
-}
 
 /*
 </pre>
