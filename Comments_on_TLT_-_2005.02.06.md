@@ -94,10 +94,3 @@ Get some information on zyrtec 1  <a href="http://zyrtec-1.uni.cc" target=_blank
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
 
 
-----
-
-The zyrtec 1 but if <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> etc... http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
-
-
