@@ -4,7 +4,7 @@ createdAt: 2005-03-19T05:43-05:00
 editedAt: 2005-03-19T05:43-05:00
 ---
 
-=== 25 Comments. ===
+=== 24 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -162,13 +162,6 @@ The arguments would all have to admit that work at home , what is more <a href="
 ----
 
  work at home  <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a> and see yourself. http://work-at-home.mordovia.ru/
-
--- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:43 UTC
-
-
-----
-
-Is work at home cannot <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a>. http://work-at-home.mordovia.ru/
 
 -- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:43 UTC
 
