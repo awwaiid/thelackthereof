@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
-createdAt: 2005-03-19T05:42-05:00
+createdAt: 2005-03-17T20:04-05:00
 editedAt: 2005-03-19T05:42-05:00
 ---
 
-=== 6 Comments. ===
+=== 5 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -32,11 +32,4 @@ This is a tricky extension to make work... it took me several tries and some cus
 This page has been recently updated, now the extension is much easier to install (thanks to the author, Todd Neal). $$e^x$$ four-ever!!
 
 -- [http://thelackthereof.org/ awwaiid] 2005-03-15 19:13 UTC
-
-----
-
-Be sure to read work at home works for me <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a> but it depends... http://work-at-home.mordovia.ru/
-
--- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:42 UTC
-
 
