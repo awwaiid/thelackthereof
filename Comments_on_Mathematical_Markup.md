@@ -4,7 +4,7 @@ createdAt: 2005-03-16T14:13-05:00
 editedAt: 2005-03-16T14:13-05:00
 ---
 
-=== 14 Comments. ===
+=== 13 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -93,13 +93,6 @@ Guess that is linktrim  <a href="http://linktrim.com/wellbutrin" target=_blank>l
 ----
 
 Great deal on linktrim , what is more <a href="http://linktrim.com/wellbutrin" target=_blank>linktrim</a> and see yourself. http://linktrim.com/wellbutrin
-
--- [http://linktrim.com/wellbutrin Angela Greenblatt] 2005-03-16 19:13 UTC
-
-
-----
-
-We appreciate linktrim the <a href="http://linktrim.com/wellbutrin" target=_blank>linktrim</a> else. http://linktrim.com/wellbutrin
 
 -- [http://linktrim.com/wellbutrin Angela Greenblatt] 2005-03-16 19:13 UTC
 
