@@ -1,11 +1,11 @@
 ---
 title: OGPF
-createdAt: 2005-02-19T20:12-05:00
-editedAt: 2005-02-19T20:13-05:00
+createdAt: 2005-02-17T00:02-05:00
+editedAt: 2005-02-19T20:12-05:00
 ---
 
 == OCaml Genetic Programming Framework ==
-There are four basic components most GP frameworks:
+There are four basic components to any GP solution:
 
 * Problem-centric fitness test
 * Genotype/Phenotype specification
@@ -14,7 +14,6 @@ There are four basic components most GP frameworks:
 
 The goal of [[OGPF]] is to create a modular framework for building genetic programming systems in [[OCaml]]. It is also an experiment in modular framework design in [[OCaml]], making heavy use of [[Functors]]. OGPF seeks to be a clean, elegant, and efficient solution to the question "How do I do genetic programming in OCaml?"
 
-If you are interested in [[OGPF]] please [email mailto:awwaiid@thelackthereof.org email me] and I'll help you get started. The more people who use the system and contribute components the easier everything will get.
 == See Also ==
 * [http://thelackthereof.org/projects/ocaml/ogpf/ The OGPF project directory]
 * [http://thelackthereof.org/projects/ocaml/ogpf/snapshots/ Snapshots of the code]
