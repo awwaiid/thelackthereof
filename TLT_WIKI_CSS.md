@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2005-02-16T02:58-05:00
-editedAt: 2005-02-16T03:00-05:00
+createdAt: 2004-12-12T19:10-05:00
+editedAt: 2005-02-16T02:58-05:00
 ---
 
 /*
@@ -96,10 +96,6 @@ h1 {
 
 h2, h3 {
   margin-bottom: 0.2em;
-}
-
-div.sectionlink {
-  float: right;
 }
 
 div.cal {
