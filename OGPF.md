@@ -1,7 +1,7 @@
 ---
 title: OGPF
-createdAt: 2005-02-19T20:43-05:00
-editedAt: 2005-04-08T21:41-04:00
+createdAt: 2005-02-19T20:41-05:00
+editedAt: 2005-02-19T20:43-05:00
 ---
 
 == OCaml Genetic Programming Framework ==
@@ -14,8 +14,8 @@ If you are interested in using [[OGPF]] please [mailto:awwaiid@thelackthereof.or
 * [http://thelackthereof.org/projects/ocaml/ogpf/ The OGPF project directory]
 * [http://thelackthereof.org/projects/ocaml/ogpf/snapshots/ Snapshots of the code]
 * [[OGPF Background]]
-* do <nowiki> "darcs get http://thelackthereof.org/projects/ocaml/ogpf" </nowiki> to join development (see [[Darcs]])
-* http://www.lri.fr/~marc/EO/eo/tutorial/html/eoBottomUp.html
+* do <nowiki> "darcs get http://thelackthereof.org/projects/ocaml/ogpf " </nowiki> to join development (see [[Darcs]])
+* http://www.eeaax.polytechnique.fr/EO/eo/tutorial/html/eoBottomUp.html
 
 == Status ==
 The framework itself is now functional, but to be useful to others I must still implement some common components. For example, I am now implementing Koza-lisp style genotype (just simple functions and terminals) in a couple different ways; I need to implement a Koza-style population management scheme, and using these reproduce some Koza-style problems (straight from the Genetic Programming books, probably). There are still some modularity issues.
