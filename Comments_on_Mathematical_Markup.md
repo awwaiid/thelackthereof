@@ -4,7 +4,7 @@ createdAt: 2005-03-29T18:44-05:00
 editedAt: 2005-03-29T18:44-05:00
 ---
 
-=== 24 Comments. ===
+=== 23 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -156,13 +156,6 @@ True hardware  <a href="http://hardware.cbg.ru/" target=_blank>hardware</a>! htt
 ----
 
 I looked into the problem of hardware  <a href="http://hardware.cbg.ru/" target=_blank>hardware</a>! http://hardware.cbg.ru/
-
--- [http://hardware.cbg.ru/ John Erwin] 2005-03-29 23:44 UTC
-
-
-----
-
- hardware for somebody <a href="http://hardware.cbg.ru/" target=_blank>hardware</a>. http://hardware.cbg.ru/
 
 -- [http://hardware.cbg.ru/ John Erwin] 2005-03-29 23:44 UTC
 
