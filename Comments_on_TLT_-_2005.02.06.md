@@ -234,10 +234,3 @@ Some zyrtec 1 cannot <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a>
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
 
 
-----
-
-Get some information on zyrtec 1 to be <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> and see yourself. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
-
-
