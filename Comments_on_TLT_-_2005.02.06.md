@@ -297,10 +297,3 @@ Learn more about zyrtec 1 but <a href="http://zyrtec-1.uni.cc" target=_blank>zyr
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
 
 
-----
-
-From now on, let's zyrtec 1  <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> now. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
-
-
