@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2005-02-05T01:00-05:00
-editedAt: 2005-02-06T14:35-05:00
+createdAt: 2004-12-12T19:05-05:00
+editedAt: 2005-02-05T01:00-05:00
 ---
 
 === GoodStuff ===
@@ -9,6 +9,9 @@ editedAt: 2005-02-06T14:35-05:00
 * [[Contize]]
 * [[OGPF]]
 * [[Notes]]
+
+
+<h3>[http://thelackthereof.org/wiki.pl/Changes Changes]</h3>
 
 <SimpleChanges>
 
