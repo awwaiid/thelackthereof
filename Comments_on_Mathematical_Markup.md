@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
-createdAt: 2005-03-29T18:42-05:00
+createdAt: 2005-03-26T07:28-05:00
 editedAt: 2005-03-29T18:42-05:00
 ---
 
-=== 17 Comments. ===
+=== 16 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -109,12 +109,5 @@ Today, new cars and <a href="http://new-cars.vladimir.ru/" target=_blank>new car
 Guess that is new cars stands for <a href="http://new-cars.vladimir.ru/" target=_blank>new cars</a>, that is all. http://new-cars.vladimir.ru/
 
 -- [http://new-cars.vladimir.ru/ Tony Piller] 2005-03-26 12:28 UTC
-
-
-----
-
- hardware but if <a href="http://hardware.cbg.ru/" target=_blank>hardware</a> for success. http://hardware.cbg.ru/
-
--- [http://hardware.cbg.ru/ John Erwin] 2005-03-29 23:42 UTC
 
 
