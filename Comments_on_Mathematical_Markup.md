@@ -4,7 +4,7 @@ createdAt: 2005-04-02T14:08-05:00
 editedAt: 2005-04-02T14:08-05:00
 ---
 
-=== 47 Comments. ===
+=== 46 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -317,13 +317,6 @@ I need web sites , what is more <a href="http://web-sites.msk.su/" target=_blank
 ----
 
 Is web sites get some information on <a href="http://web-sites.msk.su/" target=_blank>web sites</a>. http://web-sites.msk.su/
-
--- [http://web-sites.msk.su/ Tom McCown] 2005-04-02 19:08 UTC
-
-
-----
-
- web sites is able to provide <a href="http://web-sites.msk.su/" target=_blank>web sites</a>. http://web-sites.msk.su/
 
 -- [http://web-sites.msk.su/ Tom McCown] 2005-04-02 19:08 UTC
 
