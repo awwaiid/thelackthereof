@@ -1,10 +1,10 @@
 ---
 title: Comments_on_The_Lack_Thereof
-createdAt: 2005-02-25T12:27-05:00
-editedAt: 2005-02-25T14:32-05:00
+createdAt: 2005-02-25T10:39-05:00
+editedAt: 2005-02-25T12:27-05:00
 ---
 
-=== 14 Comments. ===
+=== 13 Comments. ===
 Please add comments (or just say hello) on the overall site here!
 ----
 Nobody loves me. *sniff*
@@ -97,16 +97,5 @@ Well I tried that and it seemed to have other subtle effects (on my site anyway)
 Thanks for the tip! :)
 
 -- [http://thelackthereof.org/ awwaiid] 2005-02-25 15:39 UTC
-
-
-----
-
-Well... I've been all day with this on my site... css support in different browsers is hell :)
-
-I managed to correct the width problems with that solution, but I get the feeling it's still exploiting a bug... 
-
-I ended up with a css tables layout for the sidebar, which IE doesn't support... oh, well...
-
--- [http://george.makasoft.net/en George] 2005-02-25 17:27 UTC
 
 
