@@ -4,7 +4,7 @@ createdAt: 2005-04-02T14:08-05:00
 editedAt: 2005-04-02T14:08-05:00
 ---
 
-=== 46 Comments. ===
+=== 45 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -310,13 +310,6 @@ Be sure to read web sites stands for <a href="http://web-sites.msk.su/" target=_
 ----
 
 I need web sites , what is more <a href="http://web-sites.msk.su/" target=_blank>web sites</a>! http://web-sites.msk.su/
-
--- [http://web-sites.msk.su/ Tom McCown] 2005-04-02 19:08 UTC
-
-
-----
-
-Is web sites get some information on <a href="http://web-sites.msk.su/" target=_blank>web sites</a>. http://web-sites.msk.su/
 
 -- [http://web-sites.msk.su/ Tom McCown] 2005-04-02 19:08 UTC
 
