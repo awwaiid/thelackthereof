@@ -4,7 +4,7 @@ createdAt: 2005-04-01T23:44-05:00
 editedAt: 2005-04-01T23:44-05:00
 ---
 
-=== 24 Comments. ===
+=== 23 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -156,13 +156,6 @@ From now on, let's web sites  <a href="http://web-sites.ashgabad.su/" target=_bl
 ----
 
 Best offer today is web sites  <a href="http://web-sites.ashgabad.su/" target=_blank>web sites</a>. http://web-sites.ashgabad.su/
-
--- [http://web-sites.ashgabad.su/ Wesley Mann] 2005-04-02 04:44 UTC
-
-
-----
-
-Today, web sites get some information on <a href="http://web-sites.ashgabad.su/" target=_blank>web sites</a>. http://web-sites.ashgabad.su/
 
 -- [http://web-sites.ashgabad.su/ Wesley Mann] 2005-04-02 04:44 UTC
 
