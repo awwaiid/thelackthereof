@@ -4,7 +4,7 @@ createdAt: 2005-03-19T05:42-05:00
 editedAt: 2005-03-19T05:42-05:00
 ---
 
-=== 15 Comments. ===
+=== 14 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -92,13 +92,6 @@ Guess that is work at home  <a href="http://work-at-home.mordovia.ru/" target=_b
 ----
 
 What is work at home  <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a>, that is all. http://work-at-home.mordovia.ru/
-
--- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:42 UTC
-
-
-----
-
- work at home but if <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a>. http://work-at-home.mordovia.ru/
 
 -- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:42 UTC
 
