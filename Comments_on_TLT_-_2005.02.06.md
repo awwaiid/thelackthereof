@@ -346,10 +346,3 @@ The zyrtec 1 , what is more <a href="http://zyrtec-1.uni.cc" target=_blank>zyrte
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
 
 
-----
-
-To begin with zyrtec 1 cannot <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a>! http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
-
-
