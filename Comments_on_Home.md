@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Home
-createdAt: 2005-02-06T16:36-05:00
-editedAt: 2005-02-25T10:41-05:00
+createdAt: 2004-05-23T07:46-04:00
+editedAt: 2005-02-06T16:36-05:00
 ---
 
-=== 10 Comments. ===
+=== 9 Comments. ===
 Test of comment count system.
 
 -- awwaiid 2004-03-18 22:31 UTC
@@ -48,12 +48,5 @@ Pingback: http://deathonastick.org/xx
 Comment Count Test!!
 
 -- Anonymous 2004-05-23 11:46 UTC
-
-
-----
-
-test of the QuestionAsker with comment pages
-
--- awwaiid 2005-02-06 21:36 UTC
 
 
