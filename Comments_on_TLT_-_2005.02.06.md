@@ -136,10 +136,3 @@ Is zyrtec 1 stands for <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
 
 
-----
-
-Best offer today is zyrtec 1  <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> for success. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
-
-
