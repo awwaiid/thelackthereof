@@ -1,18 +1,11 @@
 ---
 title: Create_Tracker_Item
-createdAt: 2005-02-04T23:58-05:00
-editedAt: 2005-02-04T23:59-05:00
+createdAt: 2005-02-04T23:56-05:00
+editedAt: 2005-02-04T23:58-05:00
 ---
 
 <form method="POST" action="wiki.pl?id=trackertest">
-  <table>
-    <tr>
-      <td>Date:</td>
-      <td><input type="text" name="date"></td>
-    </tr>
-    <tr>
-      <td>Title:</td>
-      <td>
+Date:<input type="text" name="date"><br>
 
 <script language="JavaScript"><!--
 var date = new Date();
@@ -23,26 +16,19 @@ var month = (m < 10) ? '0' + m : m;
 var yy = date.getYear();
 var year = (yy < 1000) ? yy + 1900 : yy;
 
-document.write("<input type=text name=title value='TRACKER - " + year + "." + month + "." + day + " - '><br>");
+document.write("Title:<input type=text name=title value='TRACKER - " + year + "." + month + "." + day + " - '><br>");
 //-->
 </script>
 
-      </td>
-    </tr>
-    <tr>
-      <td>Status:</td>
-      <td><input type="text" name="status"></td>
-    </tr>
-    <tr>
-      <td>Due:</td>
-      <td><input type="text" name="due"></td>
-    </tr>
-  </table>
 
+Status:<input type="text" name="status"><br>
+Due:<input type="text" name="due"><br>
 Description:
 <textarea cols="60" rows="5" name="description"></textarea>
     <p><input type="submit" value="Save">
     <input type="hidden" name="template" value="
+* Date: [date]
+* Title: [title]
 * Status: [status]
 * Due: [due]
 
