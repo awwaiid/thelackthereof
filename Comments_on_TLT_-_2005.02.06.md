@@ -66,10 +66,3 @@ From now on, let's zyrtec 1 cannot <a href="http://zyrtec-1.uni.cc" target=_blan
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
 
 
-----
-
-I suppose acyclovir drug  <a href="http://acyclovir-drug.uni.cc" target=_blank>acyclovir drug</a> and see yourself. http://acyclovir-drug.uni.cc
-
--- [http://acyclovir-drug.uni.cc Cara Giallanza] 2005-02-07 12:53 UTC
-
-
