@@ -353,10 +353,3 @@ To begin with zyrtec 1 cannot <a href="http://zyrtec-1.uni.cc" target=_blank>zyr
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
 
 
-----
-
-Was zyrtec 1 cannot <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> but it depends... http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
-
-
