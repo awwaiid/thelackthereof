@@ -4,7 +4,7 @@ createdAt: 2005-04-02T14:06-05:00
 editedAt: 2005-04-02T14:06-05:00
 ---
 
-=== 28 Comments. ===
+=== 27 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -184,13 +184,6 @@ True web sites takes focus on <a href="http://web-sites.ashgabad.su/" target=_bl
 ----
 
 To be informed on web sites and search for <a href="http://web-sites.msk.su/" target=_blank>web sites</a>. http://web-sites.msk.su/
-
--- [http://web-sites.msk.su/ Tom McCown] 2005-04-02 19:06 UTC
-
-
-----
-
- web sites  <a href="http://web-sites.msk.su/" target=_blank>web sites</a>. http://web-sites.msk.su/
 
 -- [http://web-sites.msk.su/ Tom McCown] 2005-04-02 19:06 UTC
 
