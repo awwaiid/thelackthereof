@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2005-02-16T03:00-05:00
-editedAt: 2005-02-25T10:37-05:00
+createdAt: 2005-02-16T02:58-05:00
+editedAt: 2005-02-16T03:00-05:00
 ---
 
 /*
@@ -101,10 +101,6 @@ h2, h3 {
 div.sectionlink {
   float: right;
 }
-
-div.sectionlink a:before { content:"["; }
-div.sectionlink a:after { content:"]"; }
-
 
 div.cal {
   font-size: 11px;
