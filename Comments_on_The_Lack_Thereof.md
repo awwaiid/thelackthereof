@@ -1,10 +1,10 @@
 ---
 title: Comments_on_The_Lack_Thereof
-createdAt: 2005-02-25T10:39-05:00
-editedAt: 2005-02-25T12:27-05:00
+createdAt: 2005-02-25T07:16-05:00
+editedAt: 2005-02-25T10:39-05:00
 ---
 
-=== 13 Comments. ===
+=== 12 Comments. ===
 Please add comments (or just say hello) on the overall site here!
 ----
 Nobody loves me. *sniff*
@@ -88,14 +88,5 @@ UPDATE: looking around on the web, it seems that Safari is doing the right thing
 Just add that I've solved this issue in my site by changing the display of the browse, page and journal classes to "table". This works fine in Safari and in Firefox. Haven't tested it in IE... I don't know if I'm exploiting a bug or if this is actually the correct behaviour...
 
 -- [http://george.makasoft.net/en George] 2005-02-25 12:16 UTC
-
-
-----
-
-Well I tried that and it seemed to have other subtle effects (on my site anyway). Maybe this weekend I can go at it in more depth.
-
-Thanks for the tip! :)
-
--- [http://thelackthereof.org/ awwaiid] 2005-02-25 15:39 UTC
 
 
