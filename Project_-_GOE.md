@@ -1,11 +1,8 @@
 ---
 title: Project_-_GOE
-createdAt: 2003-08-31T19:24-04:00
-editedAt: 2003-08-31T19:24-04:00
+createdAt: 2003-08-31T19:40-04:00
+editedAt: 2003-08-31T19:40-04:00
 ---
 
-<include "Project - GOE (abstract)">
-
-This is also a test of the journal thing. I'm not sure if it displays this whole page, or if it just displays the first bit. If it displays the whole page then I might have to seperate out the abstract or something. Yeah.
-
+In Goe Object Environment I'm trying to create a smalltalk-like environment in Perl. This is possible through use of GTK bindings for a environment browser and Perl's own reflexive nature. This project has a lot of potential but I only touch it every other year or so.
 
