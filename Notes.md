@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2005-02-05T00:02-05:00
-editedAt: 2005-02-06T11:36-05:00
+createdAt: 2005-01-26T15:13-05:00
+editedAt: 2005-02-05T00:02-05:00
 ---
 
 This is just a scratch page for random junk.
@@ -33,5 +33,4 @@ A good introduction to quantum computing / entanglement - http://plato.stanford.
 [http://www.sciam.com/print_version.cfm?articleID=000CB565-F330-11BE-AD0683414B7F0000 artilce on self-esteem]
 
 
-[[Create Tracker Item]]
 
