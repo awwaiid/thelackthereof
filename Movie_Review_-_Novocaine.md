@@ -1,10 +1,12 @@
 ---
 title: Movie_Review_-_Novocaine
-createdAt: 2003-11-15T22:53-05:00
-editedAt: 2003-11-15T22:53-05:00
+createdAt: 2003-11-15T22:54-05:00
+editedAt: 2003-11-15T22:54-05:00
 ---
 
-[http://us.imdb.com/title/tt0234354/ Novocaine], staring Steve Martin, Helena Bonham Carter, and Laura Dern.
+IMDB: [http://us.imdb.com/title/tt0234354/ Novocaine]
+
+Staring: Steve Martin, Helena Bonham Carter, and Laura Dern
 
 In this movie Dr. Frank Sangster (Steve Martin) is a Dentist gets pulled into a world of lies, sex, drugs, and murder.
 
