@@ -1,7 +1,7 @@
 ---
 title: Links
-createdAt: 2005-02-08T14:30-05:00
-editedAt: 2005-10-22T20:19-04:00
+createdAt: 2004-06-10T15:05-04:00
+editedAt: 2005-02-08T14:30-05:00
 ---
 
 Here is a collection of links to other things of interest. Feel free to add your own... if I don't like them then I will delete them!
@@ -28,7 +28,6 @@ Here is a collection of links to other things of interest. Feel free to add your
 == Programming ==
 * http://scala.epfl.ch/ - The Scala Programming Language. Object-oriented, functional, strongly typed.
 * http://www.sysprog.net/quotes.html - Great quotes
-* http://www.amzi.com/AdventureInProlog/ - Someday I'll learn more Prolog
 
 == Web-Development Stuff ==
 * http://www.crazilocks.com/building-web-applications.html - A good overview of what to do and what not to do when creating web-driven applications
