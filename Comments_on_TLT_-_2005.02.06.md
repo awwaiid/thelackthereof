@@ -1,6 +1,6 @@
 ---
 title: Comments_on_TLT_-_2005.02.06
-createdAt: 2005-02-07T07:54-05:00
+createdAt: 2005-02-07T07:53-05:00
 editedAt: 2005-02-07T07:54-05:00
 ---
 
@@ -148,12 +148,5 @@ Best offer today is zyrtec 1  <a href="http://zyrtec-1.uni.cc" target=_blank>zyr
 Anyone can do zyrtec 1  <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a>. http://zyrtec-1.uni.cc
 
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
-
-
-----
-
-Was zyrtec 1 get some information on <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a>! http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
 
 
