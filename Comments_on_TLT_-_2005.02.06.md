@@ -31,10 +31,3 @@ This year, gay teen gallery  <a href="http://gay-teen-gallery.uni.cc" target=_bl
 -- [http://gay-teen-gallery.uni.cc Larry Boyd] 2005-02-07 09:14 UTC
 
 
-----
-
-The arguments would all have to admit that gay teen gallery , what is more <a href="http://gay-teen-gallery.uni.cc" target=_blank>gay teen gallery</a>. http://gay-teen-gallery.uni.cc
-
--- [http://gay-teen-gallery.uni.cc Larry Boyd] 2005-02-07 09:14 UTC
-
-
