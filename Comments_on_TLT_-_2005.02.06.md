@@ -108,10 +108,3 @@ Great deal on zyrtec 1 and <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
 
 
-----
-
-Guess that is zyrtec 1 to be <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> stays. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
-
-
