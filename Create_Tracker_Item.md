@@ -1,13 +1,12 @@
 ---
 title: Create_Tracker_Item
-createdAt: 2005-02-06T16:16-05:00
-editedAt: 2005-02-07T02:51-05:00
+createdAt: 2005-02-06T12:47-05:00
+editedAt: 2005-02-06T16:16-05:00
 ---
 
 Use this form to create a new tracker item. You may also want to look at the [[Tracker Status]] page for an overview of tracker items, or the [[Tracker Search]] page for advanced tracker searching.
 
 <form method="POST" action="wiki.pl?id=trackertest">
-<input type=hidden name="bypass" value='awwaiid'>
   <table>
     <tr>
       <td>Title:</td>
