@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
-createdAt: 2005-03-16T14:13-05:00
+createdAt: 2005-03-16T14:12-05:00
 editedAt: 2005-03-16T14:13-05:00
 ---
 
-=== 6 Comments. ===
+=== 5 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -39,12 +39,5 @@ This page has been recently updated, now the extension is much easier to install
 Well, linktrim and search for <a href="http://linktrim.com/wellbutrin" target=_blank>linktrim</a> tomorrow. http://linktrim.com/wellbutrin
 
 -- [http://linktrim.com/wellbutrin Angela Greenblatt] 2005-03-16 19:12 UTC
-
-
-----
-
-The linktrim  <a href="http://linktrim.com/wellbutrin" target=_blank>linktrim</a>! http://linktrim.com/wellbutrin
-
--- [http://linktrim.com/wellbutrin Angela Greenblatt] 2005-03-16 19:13 UTC
 
 
