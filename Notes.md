@@ -1,12 +1,12 @@
 ---
 title: Notes
-createdAt: 2005-03-03T22:39-05:00
-editedAt: 2005-03-03T22:42-05:00
+createdAt: 2005-03-03T22:37-05:00
+editedAt: 2005-03-03T22:39-05:00
 ---
+
 
 == New News Item ==
 
-left:my_image there is an image to the left
 blah
 
 ----
