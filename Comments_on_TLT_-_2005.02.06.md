@@ -248,10 +248,3 @@ Find zyrtec 1 is of a kind of <a href="http://zyrtec-1.uni.cc" target=_blank>zyr
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
 
 
-----
-
-Take a look at zyrtec 1 and find details of <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> tomorrow. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
-
-
