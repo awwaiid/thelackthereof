@@ -4,7 +4,7 @@ createdAt: 2005-03-30T19:04-05:00
 editedAt: 2005-03-30T19:04-05:00
 ---
 
-=== 11 Comments. ===
+=== 10 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -65,13 +65,6 @@ What is spyware remove  <a href="http://spyware-remove.vladimir.su/" target=_bla
 ----
 
  spyware remove compares to <a href="http://spyware-remove.vladimir.su/" target=_blank>spyware remove</a>! http://spyware-remove.vladimir.su/
-
--- [http://spyware-remove.vladimir.su/ David Harold Brown] 2005-03-31 00:04 UTC
-
-
-----
-
- spyware remove  <a href="http://spyware-remove.vladimir.su/" target=_blank>spyware remove</a>. http://spyware-remove.vladimir.su/
 
 -- [http://spyware-remove.vladimir.su/ David Harold Brown] 2005-03-31 00:04 UTC
 
