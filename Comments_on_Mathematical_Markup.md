@@ -4,7 +4,7 @@ createdAt: 2005-04-01T23:42-05:00
 editedAt: 2005-04-01T23:42-05:00
 ---
 
-=== 19 Comments. ===
+=== 18 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -121,13 +121,6 @@ We appreciate web sites takes focus on <a href="http://web-sites.ashgabad.su/" t
 ----
 
 Is web sites  <a href="http://web-sites.ashgabad.su/" target=_blank>web sites</a>, nothing else. http://web-sites.ashgabad.su/
-
--- [http://web-sites.ashgabad.su/ Wesley Mann] 2005-04-02 04:42 UTC
-
-
-----
-
-Learn more about web sites is able to provide <a href="http://web-sites.ashgabad.su/" target=_blank>web sites</a>. http://web-sites.ashgabad.su/
 
 -- [http://web-sites.ashgabad.su/ Wesley Mann] 2005-04-02 04:42 UTC
 
