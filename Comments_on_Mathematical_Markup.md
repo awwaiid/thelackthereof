@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
 createdAt: 2005-03-26T07:27-05:00
-editedAt: 2005-03-26T07:28-05:00
+editedAt: 2005-03-26T07:27-05:00
 ---
 
-=== 12 Comments. ===
+=== 11 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -72,13 +72,6 @@ I need new cars but <a href="http://new-cars.vladimir.ru/" target=_blank>new car
 ----
 
  new cars to be <a href="http://new-cars.vladimir.ru/" target=_blank>new cars</a>! http://new-cars.vladimir.ru/
-
--- [http://new-cars.vladimir.ru/ Tony Piller] 2005-03-26 12:27 UTC
-
-
-----
-
-Be sure to read new cars off <a href="http://new-cars.vladimir.ru/" target=_blank>new cars</a> etc. http://new-cars.vladimir.ru/
 
 -- [http://new-cars.vladimir.ru/ Tony Piller] 2005-03-26 12:27 UTC
 
