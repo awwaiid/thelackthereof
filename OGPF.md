@@ -1,6 +1,6 @@
 ---
 title: OGPF
-createdAt: 2005-02-16T03:43-05:00
+createdAt: 2005-02-16T03:28-05:00
 editedAt: 2005-02-16T03:43-05:00
 ---
 
@@ -35,6 +35,4 @@ Other things that this thing needs (long-term stuff):
 == Documentation ==
 [[OGPF Layout]]
 
-
-ping
 
