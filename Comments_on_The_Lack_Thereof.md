@@ -1,7 +1,7 @@
 ---
 title: Comments_on_The_Lack_Thereof
-createdAt: 2005-02-25T14:32-05:00
-editedAt: 2005-02-25T15:35-05:00
+createdAt: 2005-02-25T12:27-05:00
+editedAt: 2005-02-25T14:32-05:00
 ---
 
 === 14 Comments. ===
@@ -107,7 +107,6 @@ I managed to correct the width problems with that solution, but I get the feelin
 
 I ended up with a css tables layout for the sidebar, which IE doesn't support... oh, well...
 
-UPDATE: I give up :) I'd rather not use clear:both for the hr tag and have a site that's more compatible... now I use only clear:left which makes floating images to the right a pain... 
-
 -- [http://george.makasoft.net/en George] 2005-02-25 17:27 UTC
+
 
