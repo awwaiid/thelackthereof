@@ -1,7 +1,7 @@
 ---
 title: Comments_on_TLT_-_2005.02.06
 createdAt: 2005-02-07T04:14-05:00
-editedAt: 2005-02-07T07:53-05:00
+editedAt: 2005-02-07T04:14-05:00
 ---
 
 === 1 Comment. ===
@@ -34,13 +34,6 @@ This year, gay teen gallery  <a href="http://gay-teen-gallery.uni.cc" target=_bl
 ----
 
 The arguments would all have to admit that gay teen gallery , what is more <a href="http://gay-teen-gallery.uni.cc" target=_blank>gay teen gallery</a>. http://gay-teen-gallery.uni.cc
-
--- [http://gay-teen-gallery.uni.cc Larry Boyd] 2005-02-07 09:14 UTC
-
-
-----
-
-I suppose gay teen gallery is able to provide <a href="http://gay-teen-gallery.uni.cc" target=_blank>gay teen gallery</a> to go. http://gay-teen-gallery.uni.cc
 
 -- [http://gay-teen-gallery.uni.cc Larry Boyd] 2005-02-07 09:14 UTC
 
