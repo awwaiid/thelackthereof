@@ -4,7 +4,7 @@ createdAt: 2005-03-30T19:03-05:00
 editedAt: 2005-03-30T19:03-05:00
 ---
 
-=== 7 Comments. ===
+=== 6 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -37,13 +37,6 @@ This page has been recently updated, now the extension is much easier to install
 ----
 
  spyware remove off <a href="http://spyware-remove.vladimir.su/" target=_blank>spyware remove</a>. http://spyware-remove.vladimir.su/
-
--- [http://spyware-remove.vladimir.su/ David Harold Brown] 2005-03-31 00:03 UTC
-
-
-----
-
-Was spyware remove get some information on <a href="http://spyware-remove.vladimir.su/" target=_blank>spyware remove</a>. http://spyware-remove.vladimir.su/
 
 -- [http://spyware-remove.vladimir.su/ David Harold Brown] 2005-03-31 00:03 UTC
 
