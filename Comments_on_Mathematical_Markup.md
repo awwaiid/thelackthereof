@@ -4,7 +4,7 @@ createdAt: 2005-04-02T14:07-05:00
 editedAt: 2005-04-02T14:07-05:00
 ---
 
-=== 35 Comments. ===
+=== 34 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -233,13 +233,6 @@ I looked into the problem of web sites the <a href="http://web-sites.msk.su/" ta
 ----
 
 To begin with web sites creates the need for <a href="http://web-sites.msk.su/" target=_blank>web sites</a>. http://web-sites.msk.su/
-
--- [http://web-sites.msk.su/ Tom McCown] 2005-04-02 19:07 UTC
-
-
-----
-
- web sites  <a href="http://web-sites.msk.su/" target=_blank>web sites</a>. http://web-sites.msk.su/
 
 -- [http://web-sites.msk.su/ Tom McCown] 2005-04-02 19:07 UTC
 
