@@ -1,7 +1,7 @@
 ---
 title: OGPF
 createdAt: 2005-02-16T03:27-05:00
-editedAt: 2005-02-16T03:28-05:00
+editedAt: 2005-02-16T03:27-05:00
 ---
 
 == OCaml Genetic Programming Framework ==
@@ -35,7 +35,5 @@ Other things that this thing needs (long-term stuff):
 
 == Documentation ==
 [[OGPF Layout]]
-
-I like doc-you-tay-shun!
 
 
