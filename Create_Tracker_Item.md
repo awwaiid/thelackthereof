@@ -1,7 +1,7 @@
 ---
 title: Create_Tracker_Item
-createdAt: 2005-02-04T23:56-05:00
-editedAt: 2005-02-04T23:58-05:00
+createdAt: 2005-02-04T23:55-05:00
+editedAt: 2005-02-04T23:56-05:00
 ---
 
 <form method="POST" action="wiki.pl?id=trackertest">
@@ -16,7 +16,7 @@ var month = (m < 10) ? '0' + m : m;
 var yy = date.getYear();
 var year = (yy < 1000) ? yy + 1900 : yy;
 
-document.write("Title:<input type=text name=title value='TRACKER - " + year + "." + month + "." + day + " - '><br>");
+document.write("Title:<input type=text name=title value='TRACKER - " + year + "." + month + "." + day + " - ");
 //-->
 </script>
 
