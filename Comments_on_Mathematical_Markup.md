@@ -4,7 +4,7 @@ createdAt: 2005-03-19T05:44-05:00
 editedAt: 2005-03-19T05:44-05:00
 ---
 
-=== 39 Comments. ===
+=== 38 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -260,13 +260,6 @@ Great deal on work at home might want to be informed on <a href="http://work-at-
 ----
 
  work at home for us to get <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a> tomorrow. http://work-at-home.mordovia.ru/
-
--- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:44 UTC
-
-
-----
-
-Today, work at home off <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a>! http://work-at-home.mordovia.ru/
 
 -- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:44 UTC
 
