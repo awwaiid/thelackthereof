@@ -4,7 +4,7 @@ createdAt: 2005-03-16T14:13-05:00
 editedAt: 2005-03-16T14:13-05:00
 ---
 
-=== 8 Comments. ===
+=== 7 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -51,13 +51,6 @@ The linktrim  <a href="http://linktrim.com/wellbutrin" target=_blank>linktrim</a
 ----
 
  linktrim get some information on <a href="http://linktrim.com/wellbutrin" target=_blank>linktrim</a>. http://linktrim.com/wellbutrin
-
--- [http://linktrim.com/wellbutrin Angela Greenblatt] 2005-03-16 19:13 UTC
-
-
-----
-
-I looked into the problem of linktrim but with none of <a href="http://linktrim.com/wellbutrin" target=_blank>linktrim</a>! http://linktrim.com/wellbutrin
 
 -- [http://linktrim.com/wellbutrin Angela Greenblatt] 2005-03-16 19:13 UTC
 
