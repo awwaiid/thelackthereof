@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
 createdAt: 2005-03-29T18:43-05:00
-editedAt: 2005-03-29T18:44-05:00
+editedAt: 2005-03-29T18:43-05:00
 ---
 
-=== 22 Comments. ===
+=== 21 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -142,13 +142,6 @@ I suppose hardware but if <a href="http://hardware.cbg.ru/" target=_blank>hardwa
 ----
 
 Great deal on hardware creates the need for <a href="http://hardware.cbg.ru/" target=_blank>hardware</a> to be the most from now. http://hardware.cbg.ru/
-
--- [http://hardware.cbg.ru/ John Erwin] 2005-03-29 23:43 UTC
-
-
-----
-
-True hardware  <a href="http://hardware.cbg.ru/" target=_blank>hardware</a>! http://hardware.cbg.ru/
 
 -- [http://hardware.cbg.ru/ John Erwin] 2005-03-29 23:43 UTC
 
