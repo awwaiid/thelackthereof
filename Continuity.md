@@ -1,7 +1,7 @@
 ---
 title: Continuity
-createdAt: 2005-02-05T01:16-05:00
-editedAt: 2005-04-04T22:46-04:00
+createdAt: 2005-01-21T19:05-05:00
+editedAt: 2005-02-05T01:16-05:00
 ---
 
 == Continuation-Based Web-Programming Framework for Perl ==
@@ -46,4 +46,5 @@ For comments there is a link at the bottom of this page, but also feel free to e
 * http://thelackthereof.org/projects/perl/Continuity/eg/guess/ - Guessing game example source
 * http://freshmeat.net/projects/continuityperl/ - Freshmeat entry
 
+<b>Note:</b> This project is completely unrelated to http://www.ashpool.com/continuity/
 
