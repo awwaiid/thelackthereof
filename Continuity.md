@@ -1,20 +1,20 @@
 ---
 title: Continuity
 createdAt: 2005-04-04T22:46-04:00
-editedAt: 2005-04-04T22:47-04:00
+editedAt: 2005-04-04T22:46-04:00
 ---
 
 == Continuation-Based Web-Programming Framework for Perl ==
 This is a slightly ''different'' approach to web-programming. Here we view a web application a lot more like a command-line driven program. Instead of your program being restarted with each request, we will pretend that your program picks up right where it left off. Here is a small example of a function in this context:
 
-<code><pre>
+<code>
 sub addTwo {
   my ($self) = @_;
   my $a = $self->getNum("Enter first number: ");
   my $b = $self->getNum("Enter second number: ");
   $self->disp("The sum of $a and $b is " . ($a + $b));
 }
-</pre></code>
+</code>
 
 Now looking at this code it is very clear what is going on. First we prompt the user for the first number by calling the getNum method. At this point the progam is suspended, waiting for input from the user. The user sees a webpage with the prompt and an input box. Once they submit their answer, the program picks up where it left off, putting the value given into $a. The process is repeated for getting the second number and putting it into $b.
 
