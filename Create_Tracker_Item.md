@@ -1,7 +1,7 @@
 ---
 title: Create_Tracker_Item
-createdAt: 2005-02-07T02:51-05:00
-editedAt: 2005-08-24T18:59-04:00
+createdAt: 2005-02-06T16:16-05:00
+editedAt: 2005-02-07T02:51-05:00
 ---
 
 Use this form to create a new tracker item. You may also want to look at the [[Tracker Status]] page for an overview of tracker items, or the [[Tracker Search]] page for advanced tracker searching.
@@ -44,7 +44,7 @@ document.write("<input type=text name=title size=50 value='TRACKER - " + year + 
 
     <p><input type="submit" value="Save">
     <input type="hidden" name="template" value="
-* Status: [status] (open, closed)
+* Status: [status]
 * Due: [due]
 
 [description]    
