@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
 createdAt: 2005-03-19T05:43-05:00
-editedAt: 2005-03-19T05:44-05:00
+editedAt: 2005-03-19T05:43-05:00
 ---
 
-=== 37 Comments. ===
+=== 36 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -246,13 +246,6 @@ From now on, let's work at home creates the need for <a href="http://work-at-hom
 ----
 
 Guess that is work at home is able to provide <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a>. http://work-at-home.mordovia.ru/
-
--- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:43 UTC
-
-
-----
-
-Great deal on work at home might want to be informed on <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a>! http://work-at-home.mordovia.ru/
 
 -- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:43 UTC
 
