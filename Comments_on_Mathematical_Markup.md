@@ -4,7 +4,7 @@ createdAt: 2005-03-19T05:43-05:00
 editedAt: 2005-03-19T05:43-05:00
 ---
 
-=== 34 Comments. ===
+=== 33 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -225,13 +225,6 @@ From now on, let's work at home creates the need for <a href="http://work-at-hom
 ----
 
 We are seriously concerned on  work at home off <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a>! http://work-at-home.mordovia.ru/
-
--- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:43 UTC
-
-
-----
-
- work at home  <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a>! http://work-at-home.mordovia.ru/
 
 -- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:43 UTC
 
