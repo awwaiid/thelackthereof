@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2005-02-06T16:12-05:00
-editedAt: 2005-02-16T04:13-05:00
+createdAt: 2005-02-06T16:07-05:00
+editedAt: 2005-02-06T16:12-05:00
 ---
 
 === GoodStuff ===
@@ -26,4 +26,7 @@ editedAt: 2005-02-16T04:13-05:00
 === Themes ===
 * [http://thelackthereof.org/wiki.pl?action=browse;id=Home;theme=default Black Theme]
 * [http://thelackthereof.org/wiki.pl?action=browse;id=Home;theme=white White Theme]
+
+----
+<small><center>[http://thelackthereof.org/wiki.pl?action=edit;id=SideBar Edit]</center></small>
 
