@@ -1,11 +1,11 @@
 ---
 title: Notes
 createdAt: 2005-03-03T22:37-05:00
-editedAt: 2005-03-03T22:39-05:00
+editedAt: 2005-03-03T22:37-05:00
 ---
 
 
-== New News Item ==
+== New News Item
 
 blah
 
