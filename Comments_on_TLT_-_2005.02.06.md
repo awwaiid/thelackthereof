@@ -1,7 +1,7 @@
 ---
 title: Comments_on_TLT_-_2005.02.06
-createdAt: 2005-02-07T07:55-05:00
-editedAt: 2005-02-07T07:54-05:00
+createdAt: 2005-02-07T07:54-05:00
+editedAt: 2005-02-07T07:55-05:00
 ---
 
 === 1 Comment. ===
@@ -400,12 +400,5 @@ Great deal on zyrtec 1  <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1<
 To begin with zyrtec 1 works for me <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a>! http://zyrtec-1.uni.cc
 
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
-
-
-----
-
-This year, zyrtec 1 to me <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> etc... http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:55 UTC
 
 
