@@ -4,7 +4,7 @@ createdAt: 2005-03-26T07:28-05:00
 editedAt: 2005-03-26T07:28-05:00
 ---
 
-=== 15 Comments. ===
+=== 14 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -93,13 +93,6 @@ Today, new cars and <a href="http://new-cars.vladimir.ru/" target=_blank>new car
 ----
 
  new cars then <a href="http://new-cars.vladimir.ru/" target=_blank>new cars</a> to go. http://new-cars.vladimir.ru/
-
--- [http://new-cars.vladimir.ru/ Tony Piller] 2005-03-26 12:28 UTC
-
-
-----
-
- new cars made easy <a href="http://new-cars.vladimir.ru/" target=_blank>new cars</a>, that is all. http://new-cars.vladimir.ru/
 
 -- [http://new-cars.vladimir.ru/ Tony Piller] 2005-03-26 12:28 UTC
 
