@@ -73,10 +73,3 @@ I suppose acyclovir drug  <a href="http://acyclovir-drug.uni.cc" target=_blank>a
 -- [http://acyclovir-drug.uni.cc Cara Giallanza] 2005-02-07 12:53 UTC
 
 
-----
-
-And zyrtec 1 works for me <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> to be the most from now. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
-
-
