@@ -24,10 +24,3 @@ Was gay teen gallery works for me <a href="http://gay-teen-gallery.uni.cc" targe
 -- [http://gay-teen-gallery.uni.cc Larry Boyd] 2005-02-07 09:14 UTC
 
 
-----
-
-This year, gay teen gallery  <a href="http://gay-teen-gallery.uni.cc" target=_blank>gay teen gallery</a> for success. http://gay-teen-gallery.uni.cc
-
--- [http://gay-teen-gallery.uni.cc Larry Boyd] 2005-02-07 09:14 UTC
-
-
