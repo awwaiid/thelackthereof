@@ -1,10 +1,10 @@
 ---
 title: Comments_on_The_Lack_Thereof
-createdAt: 2005-02-25T15:35-05:00
-editedAt: 2005-07-05T19:12-04:00
+createdAt: 2005-02-25T14:32-05:00
+editedAt: 2005-02-25T15:35-05:00
 ---
 
-=== 15 Comments. ===
+=== 14 Comments. ===
 Please add comments (or just say hello) on the overall site here!
 ----
 Nobody loves me. *sniff*
@@ -110,11 +110,4 @@ I ended up with a css tables layout for the sidebar, which IE doesn't support...
 UPDATE: I give up :) I'd rather not use clear:both for the hr tag and have a site that's more compatible... now I use only clear:left which makes floating images to the right a pain... 
 
 -- [http://george.makasoft.net/en George] 2005-02-25 17:27 UTC
-
-----
-
-hehe. I think I went through that a long time ago. Some of my friends use safari, and I told them that if my site annoys them enough to send me a patched CSS that still works in firefox/IE :). Lazy way out, I know. I thought that I'd go fix it myself someday but then never got around to it.
-
--- awwaiid 2005-02-25 20:35 UTC
-
 
