@@ -1,10 +1,10 @@
 ---
 title: Comments_on_The_Lack_Thereof
-createdAt: 2005-02-19T13:38-05:00
-editedAt: 2005-02-19T14:49-05:00
+createdAt: 2004-08-16T02:10-04:00
+editedAt: 2005-02-19T13:38-05:00
 ---
 
-=== 9 Comments. ===
+=== 8 Comments. ===
 Please add comments (or just say hello) on the overall site here!
 ----
 Nobody loves me. *sniff*
@@ -58,13 +58,5 @@ Thanks for the nice remarks, Jeff. Yeah, I think that the multiple-sidebar reque
 One thing that someone set up, which I was thinking of customizing, is an email->wiki gateway, but more specifically an email->blog gateway. Someday.
 
 -- awwaiid 2004-08-16 06:10 UTC
-
-
-----
-
-Hi .. Very creative use of Oddmuse to build this website. I like it..
-Say, would the graphiz/dot language module be available somehow?
-
--- [http://mailto:bobmc@futureway.com BobMc] 2005-02-19 18:38 UTC
 
 
