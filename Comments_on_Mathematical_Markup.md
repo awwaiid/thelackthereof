@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
-createdAt: 2005-04-02T15:02-05:00
-editedAt: 2005-04-03T00:28-05:00
+createdAt: 2005-04-02T14:08-05:00
+editedAt: 2005-04-02T15:02-05:00
 ---
 
-=== 49 Comments. ===
+=== 48 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -333,12 +333,5 @@ Is web sites get some information on <a href="http://web-sites.msk.su/" target=_
 Great deal on web sites and take <a href="http://web-sites.msk.su/" target=_blank>web sites</a>, nothing else. http://web-sites.msk.su/
 
 -- [http://web-sites.msk.su/ Tom McCown] 2005-04-02 19:08 UTC
-
-
-----
-
-Learn more about web pages off <a href="http://web-pages.ashgabad.su/" target=_blank>web pages</a> now. http://web-pages.ashgabad.su/
-
--- [http://web-pages.ashgabad.su/ Noel Tomlinson] 2005-04-02 20:02 UTC
 
 
