@@ -1,7 +1,7 @@
 ---
 title: An_Introduction_to_Programming_via_Perl
-createdAt: 2004-03-24T04:48-05:00
-editedAt: 2005-02-08T12:37-05:00
+createdAt: 2005-02-08T12:56-05:00
+editedAt: 2005-02-08T12:56-05:00
 ---
 
 == Introduction ==
@@ -17,4 +17,23 @@ Nowadays just getting started programming can be a challenge. It is like you hav
 There are solutions, however. Pre-packaged, easy-to-install languages. Web-based interfaces so that there is not even an installation step. Perhaps a [http://www.knoppix.org/ knoppix-like] CD which boots right into a programming prompt. Or all three!
 
 ... to be continued! ...
+
+----
+
+== Getting Set Up ==
+Things you'll need:
+* A text editor (wordpad for example)
+* Perl
+
+== Lessons ==
+* [[Lesson 00 - Philosophy]]
+* [[Lesson 01 - Printing]]
+* [[Lesson 02 - Variables]]
+* [[Lesson 03 - Input]]
+* [[Lesson 04 - Math]]
+* [[Lesson 05 - IF THEN ELSE]]
+* lists of things
+* while loop
+* ... lesson N - Genie in a bottle
+
 
