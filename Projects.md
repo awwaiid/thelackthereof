@@ -1,7 +1,7 @@
 ---
 title: Projects
-createdAt: 2005-02-25T10:44-05:00
-editedAt: 2005-03-03T22:31-05:00
+createdAt: 2005-02-16T03:50-05:00
+editedAt: 2005-02-25T10:44-05:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
@@ -12,7 +12,6 @@ If you were to ask me what I'm working on right now, I might say one of these.
 * [[Continuity]] - Continuation-based web-application framework for Perl
 * [[OGPF]] - OCaml Genetic Programming Framework
 * [[Oddmuse EditSection]] - Edit things on a per-section basis in oddmuse
-* [[Gecko-based html2ps]] - Render html -> postscript using the gecko rendering engine
 == Backburner ==
 If you had asked me what I was working on last week, or if you ask me next week, I might mention one of these.
 * [[Contize]] - Provide a perl object with a way to fake continuations
