@@ -227,10 +227,3 @@ The zyrtec 1 find <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> st
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
 
 
-----
-
-Some zyrtec 1 cannot <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a>!!! http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:54 UTC
-
-
