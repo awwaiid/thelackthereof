@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
 createdAt: 2005-04-02T14:06-05:00
-editedAt: 2005-04-02T14:07-05:00
+editedAt: 2005-04-02T14:06-05:00
 ---
 
-=== 31 Comments. ===
+=== 30 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -205,13 +205,6 @@ We are seriously concerned on  web sites works for me <a href="http://web-sites.
 ----
 
 I looked into the problem of web sites the <a href="http://web-sites.msk.su/" target=_blank>web sites</a> etc... http://web-sites.msk.su/
-
--- [http://web-sites.msk.su/ Tom McCown] 2005-04-02 19:06 UTC
-
-
-----
-
- web sites  <a href="http://web-sites.msk.su/" target=_blank>web sites</a> now. http://web-sites.msk.su/
 
 -- [http://web-sites.msk.su/ Tom McCown] 2005-04-02 19:06 UTC
 
