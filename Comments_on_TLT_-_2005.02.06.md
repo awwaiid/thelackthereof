@@ -17,10 +17,3 @@ OK... I fixed the comment pages. Now you do have to answer the question, but you
 -- [http://gay-teen-gallery.uni.cc Larry Boyd] 2005-02-07 09:14 UTC
 
 
-----
-
-Was gay teen gallery works for me <a href="http://gay-teen-gallery.uni.cc" target=_blank>gay teen gallery</a>, that is all. http://gay-teen-gallery.uni.cc
-
--- [http://gay-teen-gallery.uni.cc Larry Boyd] 2005-02-07 09:14 UTC
-
-
