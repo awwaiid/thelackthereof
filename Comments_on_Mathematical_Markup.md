@@ -4,7 +4,7 @@ createdAt: 2005-03-19T05:43-05:00
 editedAt: 2005-03-19T05:43-05:00
 ---
 
-=== 28 Comments. ===
+=== 27 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -183,13 +183,6 @@ Anyone can do work at home to you <a href="http://work-at-home.mordovia.ru/" tar
 ----
 
 I suppose work at home takes focus on <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a>, that is all. http://work-at-home.mordovia.ru/
-
--- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:43 UTC
-
-
-----
-
-I need work at home for us to get <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a> else. http://work-at-home.mordovia.ru/
 
 -- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:43 UTC
 
