@@ -129,10 +129,3 @@ True zyrtec 1 get some information on <a href="http://zyrtec-1.uni.cc" target=_b
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
 
 
-----
-
-Is zyrtec 1 stands for <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> but it depends... http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
-
-
