@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2005-02-08T16:26-05:00
-editedAt: 2005-02-15T17:17-05:00
+createdAt: 2005-02-08T16:06-05:00
+editedAt: 2005-02-08T16:26-05:00
 ---
 
 This is just a scratch page for random junk.
@@ -37,5 +37,4 @@ A good introduction to quantum computing / entanglement - http://plato.stanford.
 
 http://www.math2.org/eulermb/pod/EulerMB/Coroutine.html
 More perl coroutines (continuations?) 
-http://www.math2.org/mmb/area/dev
 
