@@ -1,7 +1,7 @@
 ---
 title: Contize
-createdAt: 2004-07-27T05:01-04:00
-editedAt: 2007-09-28T12:28-04:00
+createdAt: 2004-07-24T15:56-04:00
+editedAt: 2004-07-27T05:01-04:00
 ---
 
 == Fake Continuations for a Perl Object ==
@@ -37,7 +37,7 @@ sub display {
 sub getNum {
   my $self = shift;
   $self->display(<<"END");
-    <form method="POST">
+    <form method=POST">
       Enter Guess: <input name="num">
       <input type=submit value="Guess"> <input type=submit name="done"><br>
     </form>
