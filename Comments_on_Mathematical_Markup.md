@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
 createdAt: 2005-04-03T00:28-05:00
-editedAt: 2010-12-02T22:25-05:00
+editedAt: 2005-04-03T00:28-05:00
 ---
 
-=== 5 Comments. ===
+=== 49 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
