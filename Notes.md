@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2005-03-10T16:47-05:00
-editedAt: 2005-04-30T00:33-04:00
+createdAt: 2005-03-03T22:42-05:00
+editedAt: 2005-03-10T16:47-05:00
 ---
 
 == New News Item ==
@@ -53,7 +53,5 @@ http://www.math2.org/mmb/area/dev
 LJ:mousetrout
 
 http://linux.ucla.edu/events/meeting-20040217/procmail+spamassassin-2004-02-17.pdf
-
-Idea: Automatic parser generator (generator). Given inputs and AST outputs, figure out a parser.
 
 
