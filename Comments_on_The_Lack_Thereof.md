@@ -1,10 +1,10 @@
 ---
 title: Comments_on_The_Lack_Thereof
-createdAt: 2005-02-25T07:16-05:00
-editedAt: 2005-02-25T10:39-05:00
+createdAt: 2005-02-25T05:40-05:00
+editedAt: 2005-02-25T07:16-05:00
 ---
 
-=== 12 Comments. ===
+=== 11 Comments. ===
 Please add comments (or just say hello) on the overall site here!
 ----
 Nobody loves me. *sniff*
@@ -82,11 +82,4 @@ Hello, just wanted to let you know that in Safari when you put "clear:both" in t
 UPDATE: looking around on the web, it seems that Safari is doing the right thing, the CSS specs say that a clear element must be placed under all the floated elements earlier in the code, even if from other blocks...
 
 -- [http://george.makasoft.net George] 2005-02-24 11:59 UTC
-
-----
-
-Just add that I've solved this issue in my site by changing the display of the browse, page and journal classes to "table". This works fine in Safari and in Firefox. Haven't tested it in IE... I don't know if I'm exploiting a bug or if this is actually the correct behaviour...
-
--- [http://george.makasoft.net/en George] 2005-02-25 12:16 UTC
-
 
