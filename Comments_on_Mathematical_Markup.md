@@ -4,7 +4,7 @@ createdAt: 2005-04-02T14:07-05:00
 editedAt: 2005-04-02T14:07-05:00
 ---
 
-=== 43 Comments. ===
+=== 42 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -289,13 +289,6 @@ What is web sites  <a href="http://web-sites.msk.su/" target=_blank>web sites</a
 ----
 
  web sites  <a href="http://web-sites.msk.su/" target=_blank>web sites</a>. http://web-sites.msk.su/
-
--- [http://web-sites.msk.su/ Tom McCown] 2005-04-02 19:07 UTC
-
-
-----
-
-We appreciate web sites works for me <a href="http://web-sites.msk.su/" target=_blank>web sites</a> and see yourself. http://web-sites.msk.su/
 
 -- [http://web-sites.msk.su/ Tom McCown] 2005-04-02 19:07 UTC
 
