@@ -122,10 +122,3 @@ True zyrtec 1 get some information on <a href="http://zyrtec-1.uni.cc" target=_b
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
 
 
-----
-
- zyrtec 1 get some information on <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a>. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
-
-
