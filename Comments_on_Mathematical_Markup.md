@@ -4,7 +4,7 @@ createdAt: 2005-03-19T05:43-05:00
 editedAt: 2005-03-19T05:43-05:00
 ---
 
-=== 22 Comments. ===
+=== 21 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -141,13 +141,6 @@ Great deal on work at home who is <a href="http://work-at-home.mordovia.ru/" tar
 ----
 
  work at home made easy <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a>. http://work-at-home.mordovia.ru/
-
--- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:43 UTC
-
-
-----
-
- work at home and search for <a href="http://work-at-home.mordovia.ru/" target=_blank>work at home</a>. http://work-at-home.mordovia.ru/
 
 -- [http://work-at-home.mordovia.ru/ Stephen Homsy] 2005-03-19 10:43 UTC
 
