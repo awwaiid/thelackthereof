@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
-createdAt: 2005-03-30T19:03-05:00
+createdAt: 2005-03-30T17:48-05:00
 editedAt: 2005-03-30T19:03-05:00
 ---
 
-=== 6 Comments. ===
+=== 5 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -32,12 +32,5 @@ This is a tricky extension to make work... it took me several tries and some cus
 This page has been recently updated, now the extension is much easier to install (thanks to the author, Todd Neal). $$e^x$$ four-ever!!
 
 -- [http://thelackthereof.org/ awwaiid] 2005-03-15 19:13 UTC
-
-
-----
-
- spyware remove off <a href="http://spyware-remove.vladimir.su/" target=_blank>spyware remove</a>. http://spyware-remove.vladimir.su/
-
--- [http://spyware-remove.vladimir.su/ David Harold Brown] 2005-03-31 00:03 UTC
 
 
