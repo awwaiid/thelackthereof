@@ -1,12 +1,10 @@
 ---
 title: OGPF
-createdAt: 2005-02-19T20:40-05:00
-editedAt: 2005-02-19T20:41-05:00
+createdAt: 2005-02-19T20:13-05:00
+editedAt: 2005-02-19T20:40-05:00
 ---
 
 == OCaml Genetic Programming Framework ==
-One of the greatest strengths of [[OCaml]] is in data structure manipulation, which is essentially what makes up a genetic programming framework. Thus OCaml is an excellent choice for such an endevor.
-
 There are four basic components most GP frameworks:
 
 * Problem-centric fitness test
@@ -14,9 +12,9 @@ There are four basic components most GP frameworks:
 * Run parameters (population size, mutation rate, maximum generations, etc)
 * Population management specification
 
-The goal of [[OGPF]] is to create a modular framework for building genetic programming systems in [[OCaml]]. It is additionally an experiment in modular framework design, making heavy use of [[Functors]]. OGPF seeks to be a clean, elegant, and efficient solution to the question "How do I do genetic programming in OCaml?"
+The goal of [[OGPF]] is to create a modular framework for building genetic programming systems in [[OCaml]]. It is also an experiment in modular framework design in [[OCaml]], making heavy use of [[Functors]]. OGPF seeks to be a clean, elegant, and efficient solution to the question "How do I do genetic programming in OCaml?"
 
-If you are interested in using [[OGPF]] please [mailto:awwaiid@thelackthereof.org email me] and I'll help you get started. The more people who use the system and contribute components the easier everything will get.
+If you are interested in [[OGPF]] please [mailto:awwaiid@thelackthereof.org email me] and I'll help you get started. The more people who use the system and contribute components the easier everything will get.
 == See Also ==
 * [http://thelackthereof.org/projects/ocaml/ogpf/ The OGPF project directory]
 * [http://thelackthereof.org/projects/ocaml/ogpf/snapshots/ Snapshots of the code]
