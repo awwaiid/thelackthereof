@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2005-03-02T12:45-05:00
-editedAt: 2005-06-09T15:11-04:00
+createdAt: 2005-03-02T12:37-05:00
+editedAt: 2005-03-02T12:45-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -351,12 +351,4 @@ p {
   margin-bottom: 1em;
 }
 
-
-h2 + br, h3 + br {
-  display: none;
-}
-
-.content {
-  line-height: 1.3em;
-}
 
