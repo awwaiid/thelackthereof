@@ -1,7 +1,7 @@
 ---
 title: OGPF_Layout
-createdAt: 2005-02-19T19:08-05:00
-editedAt: 2005-02-19T19:11-05:00
+createdAt: 2004-05-26T15:23-04:00
+editedAt: 2005-02-19T19:08-05:00
 ---
 
 In order to avoid a situation in which there is tons of junk in one directory, OGPF uses a directory heirarchy to hold all of its bits and pieces.
@@ -21,7 +21,7 @@ The real trick is the two second-level items, since they do practically the same
 Okay, so now a genotype specification gets two signatures. The first makes declares the bits needed to be compatable with the entire system, the second declares the bits needed to be compatable with a set of fitnessTests. The first part is pretty much invariant for the whole framework, whereas the second would vary for each genotype/test.
 
 ----
-<graph align=right>
+<graph>
 digraph {
   node [shape = box];
   Genotype -> Phenotype;
