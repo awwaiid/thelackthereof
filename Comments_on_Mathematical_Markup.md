@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
 createdAt: 2005-03-30T17:32-05:00
-editedAt: 2005-03-30T17:33-05:00
+editedAt: 2005-03-30T17:32-05:00
 ---
 
-=== 31 Comments. ===
+=== 30 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -205,13 +205,6 @@ Find spyware remove to me <a href="http://spyware-remove.belgorod.ru/" target=_b
 ----
 
 What is spyware remove made easy <a href="http://spyware-remove.belgorod.ru/" target=_blank>spyware remove</a>! http://spyware-remove.belgorod.ru/
-
--- [http://spyware-remove.belgorod.ru/ Roland Blancaflor] 2005-03-30 22:32 UTC
-
-
-----
-
-Guess that is spyware remove  <a href="http://spyware-remove.belgorod.ru/" target=_blank>spyware remove</a>. http://spyware-remove.belgorod.ru/
 
 -- [http://spyware-remove.belgorod.ru/ Roland Blancaflor] 2005-03-30 22:32 UTC
 
