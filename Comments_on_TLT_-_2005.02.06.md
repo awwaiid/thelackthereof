@@ -1,7 +1,7 @@
 ---
 title: Comments_on_TLT_-_2005.02.06
 createdAt: 2005-02-07T07:53-05:00
-editedAt: 2005-02-07T07:54-05:00
+editedAt: 2005-02-07T07:53-05:00
 ---
 
 === 1 Comment. ===
@@ -139,13 +139,6 @@ Is zyrtec 1 stands for <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</
 ----
 
 Best offer today is zyrtec 1  <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> for success. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
-
-
-----
-
-Anyone can do zyrtec 1  <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a>. http://zyrtec-1.uni.cc
 
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
 
