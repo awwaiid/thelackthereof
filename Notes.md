@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2005-02-18T02:14-05:00
-editedAt: 2005-03-03T15:53-05:00
+createdAt: 2005-02-15T17:17-05:00
+editedAt: 2005-02-18T02:14-05:00
 ---
 
 This is just a scratch page for random junk.
@@ -41,7 +41,4 @@ http://www.math2.org/mmb/area/dev
 
 [[image:image name]]
 
-
-[[Wikipedia:Japanese language]]
-LJ:mousetrout
 
