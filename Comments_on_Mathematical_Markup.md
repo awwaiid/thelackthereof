@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
-createdAt: 2005-04-01T23:44-05:00
+createdAt: 2005-04-01T23:43-05:00
 editedAt: 2005-04-01T23:44-05:00
 ---
 
-=== 23 Comments. ===
+=== 22 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -151,12 +151,5 @@ Guess that is web sites to me <a href="http://web-sites.ashgabad.su/" target=_bl
 From now on, let's web sites  <a href="http://web-sites.ashgabad.su/" target=_blank>web sites</a> we asked. http://web-sites.ashgabad.su/
 
 -- [http://web-sites.ashgabad.su/ Wesley Mann] 2005-04-02 04:43 UTC
-
-
-----
-
-Best offer today is web sites  <a href="http://web-sites.ashgabad.su/" target=_blank>web sites</a>. http://web-sites.ashgabad.su/
-
--- [http://web-sites.ashgabad.su/ Wesley Mann] 2005-04-02 04:44 UTC
 
 
