@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2005-03-03T15:53-05:00
-editedAt: 2005-03-03T22:37-05:00
+createdAt: 2005-02-18T02:14-05:00
+editedAt: 2005-03-03T15:53-05:00
 ---
 
 This is just a scratch page for random junk.
@@ -44,7 +44,4 @@ http://www.math2.org/mmb/area/dev
 
 [[Wikipedia:Japanese language]]
 LJ:mousetrout
-
-http://linux.ucla.edu/events/meeting-20040217/procmail+spamassassin-2004-02-17.pdf
-
 
