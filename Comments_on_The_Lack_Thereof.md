@@ -1,7 +1,7 @@
 ---
 title: Comments_on_The_Lack_Thereof
-createdAt: 2005-02-19T14:51-05:00
-editedAt: 2005-02-24T06:59-05:00
+createdAt: 2005-02-19T14:49-05:00
+editedAt: 2005-02-19T14:51-05:00
 ---
 
 === 10 Comments. ===
@@ -65,11 +65,12 @@ One thing that someone set up, which I was thinking of customizing, is an email-
 Hi .. Very creative use of Oddmuse to build this website. I like it..
 Say, would the graphiz/dot language module be available somehow?
 
--- [mailto:bobmc@futureway.com BobMc] 2005-02-19 18:38 UTC
+-- [http://mailto:bobmc@futureway.com BobMc] 2005-02-19 18:38 UTC
 
 
 ----
 
+Add your comment here! (erase this first!)
 Yeah, all my modules currently in use are at http://thelackthereof.org/wiki_data/modules and also see http://www.oddmuse.org for lots of other plugins. Graphviz/dot itself must be installed separately on your server though.
 
 -- awwaiid 2005-02-19 19:49 UTC
