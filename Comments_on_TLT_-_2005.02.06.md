@@ -115,10 +115,3 @@ Guess that is zyrtec 1 to be <a href="http://zyrtec-1.uni.cc" target=_blank>zyrt
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
 
 
-----
-
-True zyrtec 1 get some information on <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a> we asked. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:53 UTC
-
-
