@@ -423,10 +423,3 @@ We appreciate zyrtec 1  <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1<
 -- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:55 UTC
 
 
-----
-
-I need zyrtec 1 and take <a href="http://zyrtec-1.uni.cc" target=_blank>zyrtec 1</a>. http://zyrtec-1.uni.cc
-
--- [http://zyrtec-1.uni.cc Martin A. Kline] 2005-02-07 12:55 UTC
-
-
