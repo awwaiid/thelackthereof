@@ -1,7 +1,7 @@
 ---
 title: Comments_on_Mathematical_Markup
 createdAt: 2005-03-15T14:14-05:00
-editedAt: 2005-03-16T14:12-05:00
+editedAt: 2005-03-15T14:14-05:00
 ---
 
 === 4 Comments. ===
@@ -29,7 +29,7 @@ This is a tricky extension to make work... it took me several tries and some cus
 
 ----
 
-This page has been recently updated, now the extension is much easier to install (thanks to the author, Todd Neal). $$e^x$$ four-ever!!
+This page has been recently updated, now the extension is much easier to install (thanks to the author, Todd Neal). $$e^x$$ four-$$\infinity$$!!
 
 -- [http://thelackthereof.org/ awwaiid] 2005-03-15 19:13 UTC
 
