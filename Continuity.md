@@ -6,7 +6,11 @@ editedAt: 2005-04-06T22:38-04:00
 
  bowel syndrome  <a href="http://bowel-syndrome.spb.su/" target=_blank>bowel syndrome</a>. http://bowel-syndrome.spb.su/
 Today, bowel syndrome  <a href="http://bowel-syndrome.spb.su/" target=_blank>bowel syndrome</a>. http://bowel-syndrome.spb.su/
- bowel syndrome and <a href="http://bowel-syndrome.spb.su/" target=_blank>bowel syndrome</a>! http://bowel-syndrome.spb.su/
+== Development ==
+Notes / Ideas:
+* Use cpan:Pixie to store stuff, or rip their storage code. Should work better than the way I'm doing it now.
+* [[ClassDBI-Aware Templates]]
+
 == Comments / Contact ==
 For comments there is a link at the bottom of this page, but also feel free to email me questions and thoughts (mailto:awwaiid@thelackthereof.org). This is of course an ongoing project which needs quite a bit of refinement. Your questions, comments, and contributions will give me the feedback I need to make this system useable and clean. If enough people inquire about this project, I'll set up a mailing list.
 
