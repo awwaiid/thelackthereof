@@ -5,7 +5,9 @@ editedAt: 2005-04-06T22:38-04:00
 ---
 
  bowel syndrome  <a href="http://bowel-syndrome.spb.su/" target=_blank>bowel syndrome</a>. http://bowel-syndrome.spb.su/
-Today, bowel syndrome  <a href="http://bowel-syndrome.spb.su/" target=_blank>bowel syndrome</a>. http://bowel-syndrome.spb.su/
+== Tutorial ==
+Some of you don't want to hear so much discussion... you'd rather see code. So I've started a [[Continuity Tutorials]] page so that you can dive right in. Have fun.
+
 == Development ==
 Notes / Ideas:
 * Use cpan:Pixie to store stuff, or rip their storage code. Should work better than the way I'm doing it now.
