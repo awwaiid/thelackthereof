@@ -1,7 +1,7 @@
 ---
 title: Projects
-createdAt: 2005-04-13T09:48-04:00
-editedAt: 2005-06-11T17:10-04:00
+createdAt: 2005-03-03T22:31-05:00
+editedAt: 2005-04-13T09:48-04:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
@@ -41,4 +41,6 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 * http://gcc.gnu.org - C, C++, Objective-C, Fortran, ...
 * http://squeak.org - Squeak SmallTalk
 * http://java.sun.com - Evil Java
+
+[[Chelseya's new page]]
 
