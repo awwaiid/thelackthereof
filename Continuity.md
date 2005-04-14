@@ -1,50 +1,108 @@
 ---
 title: Continuity
-createdAt: 2005-04-14T17:37-04:00
-editedAt: 2005-04-15T06:25-04:00
+createdAt: 2005-04-14T13:22-04:00
+editedAt: 2005-04-14T17:37-04:00
 ---
 
-== Continuation-Based Web-Programming Framework for Perl ==
-This is a slightly ''different'' approach to web-programming. Here we view a web application a lot more like a command-line driven program. Instead of your program being restarted with each request, we will pretend that your program picks up right where it left off. Here is a small example of a function in this context:
-
-<code>
-sub addTwo {
-  my ($self) = @_;
-  my $a = $self->getNum("Enter first number: ");
-  my $b = $self->getNum("Enter second number: ");
-  $self->disp("The sum of $a and $b is " . ($a + $b));
-}
-</code>
-
-Now looking at this code it is very clear what is going on. First we prompt the user for the first number by calling the getNum method. At this point the progam is suspended, waiting for input from the user. The user sees a webpage with the prompt and an input box. Once they submit their answer, the program picks up where it left off, putting the value given into $a. The process is repeated for getting the second number and putting it into $b.
-
-And thats the idea. This uses some Deep Magic called Continuations to make this work. Unfortunately Perl doesn't directly support this programming language concept (yet), so Continuity utilizes the [[Contize]] module to let Perl ''pretend'' that it has this power. In the tutorials we'll see how this will slightly change the way you code your applications.
-
-== Tutorial ==
-Some of you don't want to hear so much discussion... you'd rather see code. So I've started a [[Continuity Tutorials]] page so that you can dive right in. Have fun.
-
-== Development ==
-Notes / Ideas:
-* Use cpan:Pixie to store stuff, or rip their storage code. Should work better than the way I'm doing it now.
-* [[ClassDBI-Aware Templates]]
-
-== Comments / Contact ==
-For comments there is a link at the bottom of this page, but also feel free to email me questions and thoughts (mailto:awwaiid@thelackthereof.org). This is of course an ongoing project which needs quite a bit of refinement. Your questions, comments, and contributions will give me the feedback I need to make this system useable and clean. If enough people inquire about this project, I'll set up a mailing list.
-
-== Related / Similar Stuff ==
-* http://www.beta4.com/seaside2/ - Seaside2, a smalltalk continuation-based web programming thingie
-* http://borges.rubyforge.org/ - Seaside2, ported to Ruby. pretty much.
-* http://csoki.ki.iif.hu/~vitezg/impostor/ - A similar framework for Python. They use an Apache module though... cheating I'd say :)
-
-== See Also ==
-* cpan:Continuity - CPAN entry for this project
-* [[Contize]]
-* [[Web Programming With Contize]]
-* [[EPFarms Panel]]
-* http://thelackthereof.org/projects/perl/Continuity/ - Current sourcecode
-* http://thelackthereof.org/projects/perl/Continuity/eg/animals/ - Animals example (in progress)
-* http://thelackthereof.org/dev/guess/ - Guessing Game demo
-* http://thelackthereof.org/projects/perl/Continuity/eg/guess/ - Guessing game example source
-* http://freshmeat.net/projects/continuityperl/ - Freshmeat entry
-
+![ adipex buy | http://adipex-buy.unixserverhosting.com/adipex-p-phentermine-vs.html ]
+![ adipex | http://adipex.unixserverhosting.com/online-ordering-adipex.html ]
+![ ambien | http://ambien.unixserverhosting.com/ambien-cost.html ]
+![ phentermine online | http://phentermine-online.199mb.com/buy-37.5mg-phentermine.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/cheap-order-phentermine.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/phentermine-overnight.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/phentermine-37.5mg.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/phentermine-ingredient.html ]
+![ ambien | http://ambien.unixserverhosting.com/side-affect-of-ambien.html ]
+![ buy claritin | http://buy-claritin.frwh.net/claritin-hair-loss.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/online-phentermine-cod.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/adipex-rx.html ]
+![ phentermine order | http://phentermine-order.199mb.com/phentermine-ionamin.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/buy-online.com-phentermine-pill-site.html ]
+![ adipex | http://adipex.unixserverhosting.com/adipex-low-price.html ]
+![ phentermine online | http://phentermine-online.199mb.com/phentermine-diet-drug.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/cheap-diet-online-phentermine-pill.html ]
+![ freeweb hosting | http://freeweb-hosting.com/florida-online-pharmacy-phentermine.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/phentermine-on-line.html ]
+![ carisoprodol | http://carisoprodol.myfreewebs.net/drug-information-carisoprodol.html ]
+![ phentermine online | http://phentermine-online.199mb.com/delivery-diet-phentermine-pill-saturday.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/37.5-mg-phentermine-tablet.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/buy-cheap-cod-online-phentermine.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/budget-drug-phentermine-rx.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/frontier-pharmacy-phentermine.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/adipex-effects-harmful-phentermine.html ]
+![ adipex | http://adipex.unixserverhosting.com/cheap-adipex-cod.html ]
+![ freeweb hosting | http://freeweb-hosting.com/buy-phentermine-weight-loss-pills.html ]
+![ carisoprodol | http://carisoprodol.myfreewebs.net/carisoprodol-withdrawal.html ]
+![ phentermine order | http://phentermine-order.199mb.com/phentermine-ionamin.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/phentermine-mexico.html ]
+![ adipex | http://adipex.unixserverhosting.com/will-ship-adipex-to-virginia.html ]
+![ carisoprodol | http://carisoprodol.myfreewebs.net/carisoprodol-prescription.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/cheap-mexican-pharmacy-phentermine.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/buying-adipex-and-phentermine-over-the-computer.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/consult-free-phentermine.html ]
+![ phentermine order | http://phentermine-order.199mb.com/phentermine-by-cod.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/buy-loss-online.com-phentermine-prescription-viagra-weight.html ]
+![ phentermine online | http://phentermine-online.199mb.com/medication-phentermine-prescription.html ]
+![ phentermine online | http://phentermine-online.199mb.com/buy-cheapest-phentermine-place.html ]
+![ phentermine online | http://phentermine-online.199mb.com/phentermine-picture.html ]
+![ carisoprodol | http://carisoprodol.myfreewebs.net/carisoprodol-side-effects.html ]
+![ phentermine online | http://phentermine-online.199mb.com/phentermine-line-cheap.html ]
+![ claritin buy | http://claritin-buy.frwh.net/claritin-drug-interaction.html ]
+![ carisoprodol | http://carisoprodol.myfreewebs.net/carisoprodol-cheap-online.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/buy-cheap-online-phentermine-prescription.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/adipex-buy-online-phentermine.html ]
+![ buy ambien | http://buy-ambien.unixserverhosting.com/ambien-generic-name.html ]
+![ phentermine online | http://phentermine-online.199mb.com/phentermine-cheapest-cod.html ]
+![ freeweb hosting | http://freeweb-hosting.com/phentermine-review.html ]
+![ freeweb hosting | http://freeweb-hosting.com/free-shipping-cheap-phentermine.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/phentermine-side-effects-danger.html ]
+![ phentermine online | http://phentermine-online.199mb.com/danger-of-phentermine.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/keyword-phentermine.html ]
+![ phentermine online | http://phentermine-online.199mb.com/online-phentermine-rx.html ]
+![ buy ambien | http://buy-ambien.unixserverhosting.com/ambien-hallucinations.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/adipex-here-com-online.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/buy-phentermine-yellow.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/5-mg-phentermine-tablet.html ]
+![ ambien | http://ambien.unixserverhosting.com/ambien-sleep-aid.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/adipex-vs-ionamin.html ]
+![ phentermine order | http://phentermine-order.199mb.com/phentermine-prescription-on-line.html ]
+![ ambien | http://ambien.unixserverhosting.com/ambien-delivered-overnight.html ]
+![ adipex | http://adipex.unixserverhosting.com/weight-loss-adipex-phentermine.html ]
+![ freeweb hosting | http://freeweb-hosting.com/phentermine-saturday-delivery.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/approved-phentermine.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/adipex-cheap-online-order.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/adipex-weight-loss-fedex,-consultations.html ]
+![ freeweb hosting | http://freeweb-hosting.com/phentermine-prices.html ]
+![ freeweb hosting | http://freeweb-hosting.com/consultation-online-online-pharmacy-phentermine.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/phentermine-site.html ]
+![ phentermine online | http://phentermine-online.199mb.com/buy-cheapest-phentermine-online.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/day-phentermine.html ]
+![ freeweb hosting | http://freeweb-hosting.com/www-phentermine-com.html ]
+![ phentermine online | http://phentermine-online.199mb.com/buying-florida-in-phentermine.html ]
+![ phentermine order | http://phentermine-order.199mb.com/buy-phentermine-on-line.html ]
+![ phentermine order | http://phentermine-order.199mb.com/lowest-price-phentermine.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/phentermine-online-prescriptions.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/37-5mg-cheap-phentermine.html ]
+![ phentermine order | http://phentermine-order.199mb.com/eprescribedirectcom-order-phentermine.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/diet-page-phentermine-pill-yellow.html ]
+![ phentermine online | http://phentermine-online.199mb.com/by-cheapest-check-phentermine.html ]
+![ claritin buy | http://claritin-buy.frwh.net/claritin-loratadine.html ]
+![ phentermine order | http://phentermine-order.199mb.com/diet-phentermine-supplement.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/adipex-story.html ]
+![ phentermine order | http://phentermine-order.199mb.com/cheap-phentermine-yellow-online.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/diet-free-phentermine-pill-shipping.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/adipex-meridia-phentermine-xenical.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/adipex-90.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/best-buy-cheap-adipex-paypal.html ]
+![ phentermine online | http://phentermine-online.199mb.com/diet-phentermine-pills.com.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/search-phentermine.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/pharmacy-mexican-pharmacy-viagra-phentermine-order-viagra-cheap-viagra.html ]
+![ buy carisoprodol | http://buy-carisoprodol.myfreewebs.net/carisoprodol-info.html ]
+![ adipex | http://adipex.unixserverhosting.com/adipex-buy-p.html ]
+![ phentermine order | http://phentermine-order.199mb.com/effects-phentermine.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/adipex-loss-testimonials-weight.html ]
+![ ambien | http://ambien.unixserverhosting.com/ambien-online.html ]
+![ phentermine order | http://phentermine-order.199mb.com/diet-pills-phentermine.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/adipex-cheap-phentermine.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/buying-florida-in-phentermine.html ]
 
