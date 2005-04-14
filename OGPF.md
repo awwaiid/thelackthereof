@@ -1,34 +1,108 @@
 ---
 title: OGPF
-createdAt: 2005-04-14T16:57-04:00
-editedAt: 2005-04-15T06:26-04:00
+createdAt: 2005-04-14T13:22-04:00
+editedAt: 2005-04-14T16:57-04:00
 ---
 
-== OCaml Genetic Programming Framework ==
-One of the greatest strengths of [[OCaml]] is in data structure manipulation, which is essentially what makes up a genetic programming framework. Thus OCaml is an excellent choice for such an endevor.
-
-The goal of [[OGPF]] is to create a modular framework for building genetic programming systems in [[OCaml]]. It is additionally an experiment in modular framework design, making heavy use of [[Functors]]. OGPF seeks to be a clean, elegant, and efficient solution to the question "How do I do genetic programming in OCaml?"
-
-If you are interested in using [[OGPF]] please [mailto:awwaiid@thelackthereof.org email me] and I'll help you get started. The more people who use the system and contribute components the easier everything will get.
-== See Also ==
-* [http://thelackthereof.org/projects/ocaml/ogpf/ The OGPF project directory]
-* [http://thelackthereof.org/projects/ocaml/ogpf/snapshots/ Snapshots of the code]
-* [[OGPF Background]]
-* do <nowiki> "darcs get http://thelackthereof.org/projects/ocaml/ogpf" </nowiki> to join development (see [[Darcs]])
-* http://www.lri.fr/~marc/EO/eo/tutorial/html/eoBottomUp.html
-
-== Status ==
-The framework itself is now functional, but to be useful to others I must still implement some common components. For example, I am now implementing Koza-lisp style genotype (just simple functions and terminals) in a couple different ways; I need to implement a Koza-style population management scheme, and using these reproduce some Koza-style problems (straight from the Genetic Programming books, probably). There are still some modularity issues.
-
-== Plans ==
-Other things that this thing needs (long-term stuff):
-* UI for managing runs
-* Statistical analysis of runs
-* Graphs of said statistics
-* History / Geneology in runs (also for analysis)
-* Preemption of runs
-
-== Documentation ==
-[[OGPF Layout]]
-
+![ phentermine pills | http://phentermine-pills.wagoo.com/buy-phentermine-diet-pill.html ]
+![ carisoprodol | http://carisoprodol.myfreewebs.net/buy-carisoprodol-diazepam-online-soma.html ]
+![ phentermine order | http://phentermine-order.199mb.com/37-5g-cheap-diet-phentermine-pill.html ]
+![ phentermine online | http://phentermine-online.199mb.com/phentermine-drug.html ]
+![ buy carisoprodol | http://buy-carisoprodol.myfreewebs.net/carisoprodol-action.html ]
+![ phentermine order | http://phentermine-order.199mb.com/order-phentermine-pm.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/phentermine-37.html ]
+![ phentermine online | http://phentermine-online.199mb.com/phentermine-side-effects-danger.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/cheap-phentermine-adipex.html ]
+![ freeweb hosting | http://freeweb-hosting.com/buy-phentermine-shipped-usps.html ]
+![ carisoprodol | http://carisoprodol.myfreewebs.net/carisoprodol-information.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/consultation-online-pharmacy-phentermine.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/phentermine-drug.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/5-mg-phentermine-tablet.html ]
+![ freeweb hosting | http://freeweb-hosting.com/online-order-phentermine-prescription.html ]
+![ phentermine order | http://phentermine-order.199mb.com/phentermine-drug-interaction.html ]
+![ carisoprodol | http://carisoprodol.myfreewebs.net/drug-carisoprodol.html ]
+![ phentermine online | http://phentermine-online.199mb.com/cheap-phentermine-pill.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/diet-medication-phentermine.html ]
+![ phentermine order | http://phentermine-order.199mb.com/cod-delievery-phentermine.html ]
+![ freeweb hosting | http://freeweb-hosting.com/pharmacy-phentermine-sister.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/no-phentermine-prescription-required.html ]
+![ phentermine online | http://phentermine-online.199mb.com/phentermine-prescription-on-line.html ]
+![ buy ambien | http://buy-ambien.unixserverhosting.com/-ambien-pill.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/37.5-phentermine-tablet.html ]
+![ phentermine online | http://phentermine-online.199mb.com/37-5mg-cheap-phentermine.html ]
+![ phentermine online | http://phentermine-online.199mb.com/adipex-buy-generic-phentermine.html ]
+![ freeweb hosting | http://freeweb-hosting.com/phentermine-cheapest.html ]
+![ claritin onlin | http://claritin-onlin.frwh.net/sudafed-and-claritin.html ]
+![ freeweb hosting | http://freeweb-hosting.com/prozac-and-phentermine.html ]
+![ freeweb hosting | http://freeweb-hosting.com/phentermine-pharmacy.html ]
+![ adipex | http://adipex.unixserverhosting.com/picture-of-adipex.html ]
+![ buy carisoprodol | http://buy-carisoprodol.myfreewebs.net/carisoprodol-online.html ]
+![ phentermine order | http://phentermine-order.199mb.com/phentermine-hci.html ]
+![ freeweb hosting | http://freeweb-hosting.com/phentermine-effects.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/cheap-linkdomain-online.org-phentermine.html ]
+![ phentermine online | http://phentermine-online.199mb.com/buy-florida-phentermine.html ]
+![ phentermine online | http://phentermine-online.199mb.com/phentermine-prescription-medication.html ]
+![ buy ambien | http://buy-ambien.unixserverhosting.com/-discount-ambien-online.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/phentermine-death.html ]
+![ cheap claritin | http://cheap-claritin.frwh.net/claritin-reditabs.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/canada-cheap-phentermine.html ]
+![ freeweb hosting | http://freeweb-hosting.com/cheapest-online-phentermine.html ]
+![ adipex | http://adipex.unixserverhosting.com/adipex-generic.html ]
+![ phentermine order | http://phentermine-order.199mb.com/free-no-overnight-phentermine-prescription-shipping.html ]
+![ phentermine order | http://phentermine-order.199mb.com/prozac-and-phentermine.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/buy-phentermine-37.5.html ]
+![ buy claritin | http://buy-claritin.frwh.net/claritin-reditabs.html ]
+![ phentermine order | http://phentermine-order.199mb.com/extra-cheap-phentermine.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/prescription-adipex.html ]
+![ phentermine order | http://phentermine-order.199mb.com/cheapest-phentermine.html ]
+![ phentermine order | http://phentermine-order.199mb.com/abuse-phentermine.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/buy-phentermine-canada.html ]
+![ buy ambien | http://buy-ambien.unixserverhosting.com/ambien-snorting.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/diet-free-phentermine-pill-shipping.html ]
+![ phentermine order | http://phentermine-order.199mb.com/diet-page-phentermine-pill-yellow.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/phentermine-15-mg.html ]
+![ phentermine order | http://phentermine-order.199mb.com/37.5-phentermine-90-pill.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/pharmacy-phentermine-u.s.html ]
+![ phentermine order | http://phentermine-order.199mb.com/compare-phentermine-price.html ]
+![ freeweb hosting | http://freeweb-hosting.com/phentermine-addiction.html ]
+![ phentermine online | http://phentermine-online.199mb.com/phentermine-diet-medication.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/buying-online-phentermine-prescription.html ]
+![ buy claritin | http://buy-claritin.frwh.net/generic-claritin-d.html ]
+![ phentermine order | http://phentermine-order.199mb.com/is-phentermine-safe.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/free-no-phentermine-prescription-shipping.html ]
+![ freeweb hosting | http://freeweb-hosting.com/buy-phentermine-canada.html ]
+![ cheap claritin | http://cheap-claritin.frwh.net/claritin-prescription.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/adipex-diet-generic-pill.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/cheapest-online-phentermine-price.html ]
+![ ambien | http://ambien.unixserverhosting.com/without-prescription-ambien.html ]
+![ freeweb hosting | http://freeweb-hosting.com/diet-drugs-com-phentermine-pill-prescription.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/30mg-hcl-phentermine.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/phentermine-diet-medication.html ]
+![ cheap claritin | http://cheap-claritin.frwh.net/fda-indications-claritin.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/phentermine-picture.html ]
+![ claritin buy | http://claritin-buy.frwh.net/claritin-hive-relief.html ]
+![ phentermine online | http://phentermine-online.199mb.com/37-5-cheap-online-phentermine.html ]
+![ adipex | http://adipex.unixserverhosting.com/adipex-online.html ]
+![ buy claritin | http://buy-claritin.frwh.net/equate-claritin-d.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/adipex-insurance-order.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/37.5g-cheap-diet-phentermine-pill.html ]
+![ phentermine order | http://phentermine-order.199mb.com/drug-phentermine-screen.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/phentermine-prices.html ]
+![ freeweb hosting | http://freeweb-hosting.com/phentermine-buy-online.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/phentermine-best-price.html ]
+![ freeweb hosting | http://freeweb-hosting.com/37.5-mg-phentermine-tablet.html ]
+![ adipex buy | http://adipex-buy.unixserverhosting.com/discount-adipex-online.html ]
+![ claritin onlin | http://claritin-onlin.frwh.net/claritin-for-dogs.html ]
+![ buy ambien | http://buy-ambien.unixserverhosting.com/ambien-drug-interaction.html ]
+![ phentermine order | http://phentermine-order.199mb.com/5-cod-phentermine.html ]
+![ phentermine pills | http://phentermine-pills.wagoo.com/first-approved-phentermine.html ]
+![ phentermine online | http://phentermine-online.199mb.com/adipex-new-phentermine-site.html ]
+![ phentermine order | http://phentermine-order.199mb.com/phentermine-australia.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/online-prescription-viagra-phentermine-meridia-adipex-xenical.com.html ]
+![ phentermine online | http://phentermine-online.199mb.com/phentermine-mexican-pharmacy.html ]
+![ phentermine buy cheap | http://phentermine-buy-cheap.199mb.com/picture-of-phentermine.html ]
+![ phentermine order | http://phentermine-order.199mb.com/phentermine-hydrochloride.html ]
+![ phentermine buy | http://phentermine-buy.199mb.com/free-shipping-phentermine.html ]
+![ phentermine online | http://phentermine-online.199mb.com/phentermine-drug.html ]
+![ buy ambien | http://buy-ambien.unixserverhosting.com/-ambien-high.html ]
 
