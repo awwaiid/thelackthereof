@@ -1,6 +1,6 @@
 ---
 title: ClassDBI-Aware_Templates
-createdAt: 2005-04-05T01:59-04:00
+createdAt: 2005-04-24T15:18-04:00
 editedAt: 2005-04-24T15:18-04:00
 ---
 
@@ -12,5 +12,7 @@ So this is along the lines of delphi (and other system's) data-aware controls. T
   $tpl->intwine(person => \$person);
   $tpl->render(
     title => 'This is the title of the page!'
+  # ...
+</code>
     
 
