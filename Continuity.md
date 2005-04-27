@@ -1,7 +1,7 @@
 ---
 title: Continuity
-createdAt: 2005-04-27T01:31-04:00
-editedAt: 2005-06-22T18:05-04:00
+createdAt: 2005-04-23T22:18-04:00
+editedAt: 2005-04-27T01:31-04:00
 ---
 
 == Continuation-Based Web-Programming Framework for Perl ==
@@ -35,7 +35,7 @@ For comments there is a link at the bottom of this page, but also feel free to e
 * http://www.beta4.com/seaside2/ - Seaside2, a smalltalk continuation-based web programming thingie
 * http://borges.rubyforge.org/ - Seaside2, ported to Ruby. pretty much.
 * http://csoki.ki.iif.hu/~vitezg/impostor/ - A similar framework for Python. They use an Apache module though... cheating I'd say :)
-* http://rubyforge.org/projects/wee/ - Another Ruby framework... this one doesn't necessarily need continuations, getting by with a nice callback and state serialization system
+
 == See Also ==
 * cpan:Continuity - CPAN entry for this project
 * [[Contize]]
