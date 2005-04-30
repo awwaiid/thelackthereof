@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2005-04-30T00:33-04:00
-editedAt: 2005-04-30T10:51-04:00
+createdAt: 2005-03-10T16:47-05:00
+editedAt: 2005-04-30T00:33-04:00
 ---
 
 == New News Item ==
@@ -55,9 +55,5 @@ LJ:mousetrout
 http://linux.ucla.edu/events/meeting-20040217/procmail+spamassassin-2004-02-17.pdf
 
 Idea: Automatic parser generator (generator). Given inputs and AST outputs, figure out a parser.
-
-I'm still a bit hung up on this whole [[SetDB]] thing, but now that I'm  using cpan:Class::DBI a lot I have much less motivation to actually develop it. So perhaps I should write Class::DBI::Sets or something. Then we could use the class dbi stuff to make sets, then create new sets out of them, which would really be views. hmm... does class::dbi have views? lets see... Looks like cpan:Class::DBI::View exists, but is only good for reading, not writing.
-
-Well the thing that I lose by using a single set class is types. You could make a set of anything, and things in the set wouldn't have to be the same type. Or would they? I could make a rule that says only things of a single type can go into a set. hm. Of course this type could be a tuple. Thats probably what the [[SetDB]] system implied previously anyway, come to think of it.
 
 
