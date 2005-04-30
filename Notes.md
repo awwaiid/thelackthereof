@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2005-04-30T10:51-04:00
-editedAt: 2005-07-06T12:57-04:00
+createdAt: 2005-04-30T00:33-04:00
+editedAt: 2005-04-30T10:51-04:00
 ---
 
 == New News Item ==
@@ -60,5 +60,4 @@ I'm still a bit hung up on this whole [[SetDB]] thing, but now that I'm  using c
 
 Well the thing that I lose by using a single set class is types. You could make a set of anything, and things in the set wouldn't have to be the same type. Or would they? I could make a rule that says only things of a single type can go into a set. hm. Of course this type could be a tuple. Thats probably what the [[SetDB]] system implied previously anyway, come to think of it.
 
-Well cpan:Class::DBI is sort of a subset of what I want. The only types of sets they allow have a one-to-one correspondence with tables.
 
