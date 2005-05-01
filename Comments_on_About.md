@@ -1,6 +1,6 @@
 ---
 title: Comments_on_About
-createdAt: 2005-05-01T12:43-04:00
+createdAt: 2005-05-01T14:09-04:00
 editedAt: 2005-05-01T14:09-04:00
 ---
 
@@ -14,5 +14,12 @@ Simple:
 Operating a channel in one direction only with no ability to operate in the other direction. For example one side of a telephone conversation is all that could be carried by a simplex line.
 
 -- Anonymous 2005-05-01 16:43 UTC
+
+
+----
+
+You're absolutely correct. I'll fix it.
+
+-- awwaiid 2005-05-01 18:09 UTC
 
 
