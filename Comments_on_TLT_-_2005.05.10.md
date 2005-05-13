@@ -1,10 +1,10 @@
 ---
 title: Comments_on_TLT_-_2005.05.10
 createdAt: 2005-05-13T16:04-04:00
-editedAt: 2005-05-17T00:02-04:00
+editedAt: 2005-05-13T16:04-04:00
 ---
 
-=== 4 Comments. ===
+=== 1 Comment. ===
 Some of those vaio stories are pretty funny.
 
 Seems like your new job is easier to swallow morally than the last one.
