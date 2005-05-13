@@ -1,6 +1,6 @@
 ---
 title: Comments_on_TLT_-_2005.05.10
-createdAt: 2005-05-13T16:04-04:00
+createdAt: 2005-05-12T15:10-04:00
 editedAt: 2005-05-13T16:04-04:00
 ---
 
@@ -32,16 +32,5 @@ Leslie Gurney came into the store a couple of weeks ago. She's a D&D Dork now, w
 Happy Anniversaryishness, by the way. (I know I'll forget over the next few days. :p)
 
 -- mandies 2005-05-12 19:10 UTC
-
-
-----
-
-Aww... its a MANDIES!
-
-I will pass the happy-anniversary on to beth.
-
-We are coming down the the valley. specifically I am already down in the valley, and beth will be joining me soon. We will stay at beth's parent's house for a bit, and then get our own place before too long. So then you can come and chill with us in tempeland.
-
--- [http://thelackthereof.org awwaiid] 2005-05-13 20:04 UTC
 
 
