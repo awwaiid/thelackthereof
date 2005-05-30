@@ -1,7 +1,7 @@
 ---
 title: SandBox
-createdAt: 2005-05-30T13:32-04:00
-editedAt: 2005-05-30T13:35-04:00
+createdAt: 2005-05-25T18:33-04:00
+editedAt: 2005-05-30T13:32-04:00
 ---
 
 This is the SandBox! Please edit this page so you can learn a little about how a wiki works. You can also check out the [[Text Formatting Rules]].
@@ -26,7 +26,4 @@ test ... very nice, your question script! thanks!
 
 ----
 Trying the question module...
-
----
-Trying out the question module...
 
