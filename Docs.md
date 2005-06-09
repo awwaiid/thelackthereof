@@ -1,7 +1,7 @@
 ---
 title: Docs
-createdAt: 2005-06-09T08:31-04:00
-editedAt: 2005-07-01T20:28-04:00
+createdAt: 2005-05-11T01:33-04:00
+editedAt: 2005-06-09T08:31-04:00
 ---
 
 I try to keep all of my documents and make them available to anyone who is interested in reading them. For the most part I've been trying to use LaTeX as my source language and then converting to ps, pdf, html, and plain text. One exception that I am now making is Wiki-based documents -- ones that I have composed directly in the wiki. I like having them in the wiki because people can contribute... I like having them in LaTeX because it is fun. Oh well.
