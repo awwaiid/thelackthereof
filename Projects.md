@@ -1,14 +1,13 @@
 ---
 title: Projects
-createdAt: 2005-06-11T17:10-04:00
-editedAt: 2005-06-23T19:34-04:00
+createdAt: 2005-04-13T09:48-04:00
+editedAt: 2005-06-11T17:10-04:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
 
 == Current Projects ==
 If you were to ask me what I'm working on right now, I might say one of these.
-* [[Zend Hacking]] - Feeling my way around
 * [[EPFarms Panel]] - A control panel for hosting clients
 * [[Continuity]] - Continuation-based web-application framework for Perl
 * [[OGPF]] - OCaml Genetic Programming Framework
