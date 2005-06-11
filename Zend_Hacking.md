@@ -1,7 +1,7 @@
 ---
 title: Zend_Hacking
-createdAt: 2005-06-11T18:54-04:00
-editedAt: 2005-06-15T04:15-04:00
+createdAt: 2005-06-11T18:53-04:00
+editedAt: 2005-06-11T18:54-04:00
 ---
 
 Zend (PHP) isn't really documented all that much, besides the source itself. It looks like once you understand the beast the documentation wouldn't be all that necessary -- silly I know, but thats the way it looks.
@@ -11,7 +11,7 @@ Well I'm going to try writing a Zend extension. So I'm having a look at APD and 
 Tips / Documentation recommendations are appreciated if anyone out there knows of some magical wiki in the sky diagraming and analyzing all the components.
 
 == Goal ==
-Well for anyone who doesn't know, I am obsessed with [[Continuation-based Web Programming]]. To this end I've created [[Contize]] for Perl and PHP (which is just a hack, not really continuations). I've examined cpan:Coro::Cont to see if I can get these continuations to serialize, but even the author of that module things it isn't possible. At work I'm doing all of this in PHP, so this is an experiment to see if I can hack up Zend to do (serializable) continuations.
+Well for anyone who doesn't know, I am obsessed with [[Continuation-Based Web Programming]]. To this end I've created [[Contize]] for Perl and PHP (which is just a hack, not really continuations). I've examined cpan:Coro::Cont to see if I can get these continuations to serialize, but even the author of that module things it isn't possible. At work I'm doing all of this in PHP, so this is an experiment to see if I can hack up Zend to do (serializable) continuations.
 
 So I want a few functions:
 * contize($function_name) - Indicate a function/object that I want to be a continuation
