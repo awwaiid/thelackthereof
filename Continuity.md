@@ -1,7 +1,7 @@
 ---
 title: Continuity
-createdAt: 2005-06-22T18:06-04:00
-editedAt: 2005-06-22T18:07-04:00
+createdAt: 2005-06-22T18:05-04:00
+editedAt: 2005-06-22T18:06-04:00
 ---
 
 == Continuation-Based Web-Programming Framework for Perl ==
@@ -9,19 +9,10 @@ This is a slightly ''different'' approach to web-programming. Here we view a web
 
 <graph align=right>
 digraph {
-
   addTwo -> "First getNum";
   "First getNum" -> "wait for input 1";
   "wait for input 1" -> "return 1st result";
   "return 1st result" -> addTwo;
-
-  addTwo -> "Second getNum";
-  "Second getNum" -> "wait for input 2";
-  "wait for input 2" -> "return 2nd result";
-  "return 2nd result" -> addTwo;
-
-  addTwo -> "Display Result";
-
 }
 </graph>
 <code>
