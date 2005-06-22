@@ -1,13 +1,13 @@
 ---
 title: Continuity
-createdAt: 2005-06-22T18:07-04:00
+createdAt: 2005-06-22T18:06-04:00
 editedAt: 2005-06-22T18:07-04:00
 ---
 
 == Continuation-Based Web-Programming Framework for Perl ==
 This is a slightly ''different'' approach to web-programming. Here we view a web application a lot more like a command-line driven program. Instead of your program being restarted with each request, we will pretend that your program picks up right where it left off. Here is a small example of a function in this context:
 
-<graph>
+<graph align=right>
 digraph {
 
   addTwo -> "First getNum";
@@ -24,7 +24,6 @@ digraph {
 
 }
 </graph>
-
 <code>
 sub addTwo {
   my ($self) = @_;
