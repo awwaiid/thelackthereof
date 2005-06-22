@@ -1,7 +1,7 @@
 ---
 title: Continuity
-createdAt: 2005-06-22T18:11-04:00
-editedAt: 2005-06-22T18:12-04:00
+createdAt: 2005-06-22T18:07-04:00
+editedAt: 2005-06-22T18:11-04:00
 ---
 
 == Continuation-Based Web-Programming Framework for Perl ==
@@ -37,22 +37,6 @@ digraph {
 
   addTwo -> "Display Result";
 
-}
-</graph>
-
-<graph>
-digraph {
-  Start -> "Check State";
-  "Check State" -> "First";
-  "Check State" -> "Second";
-  "Check State" -> "Sum";
-  "First" -> "Display HTML for first num, next state is 'Second'";
-  "Second" -> "Display HTML for second num, next state is 'Sum'";
-  "Sum" -> "Display HTML for total, no next state";
-
-  "Display HTML for first num, next state is 'Second'" -> Exit;
-  "Display HTML for second num, next state is 'Sum'" -> Exit;
-  "Display HTML for total, no next state" -> Exit;
 }
 </graph>
 == Tutorial ==
