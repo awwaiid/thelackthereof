@@ -1,6 +1,6 @@
 ---
 title: Continuity_Tutorials
-createdAt: 2005-06-22T18:16-04:00
+createdAt: 2004-10-17T18:56-04:00
 editedAt: 2005-06-22T18:16-04:00
 ---
 
@@ -50,40 +50,4 @@ Here we have to modules going, and in fact you may want to split this into two s
 First, besides doing some declaration stuff, lets look at the Main package. Here we create a new Continuity object, and give it some settings. There is only one manditory parameter, appname. This corresponds to the name of our class, the one which actually holds the application. This one is named Addnums, and you can see its definition above. Addnums doesn't want to worry about printing the standard html header, nor does it want to print out the form tags, so we ask Continuity to take care of these things.
 
 Once we have our Continuity object set up, and have named it $c, we tell it to GO! And that it does.
-
-
-<graph>
-digraph {
-
-  addTwo -> "First getNum";
-  "First getNum" -> "wait for input 1";
-  "wait for input 1" -> "return 1st result";
-  "return 1st result" -> addTwo;
-
-  addTwo -> "Second getNum";
-  "Second getNum" -> "wait for input 2";
-  "wait for input 2" -> "return 2nd result";
-  "return 2nd result" -> addTwo;
-
-  addTwo -> "Display Result";
-
-}
-</graph>
-
-<graph>
-digraph {
-  size = 5;
-  "Start, recieve user input" -> "Check State";
-  "Check State" -> "First";
-  "Check State" -> "Second";
-  "Check State" -> "Sum";
-  "First" -> "Display HTML for first num, next state is 'Second'";
-  "Second" -> "Display HTML for second num, next state is 'Sum'";
-  "Sum" -> "Display HTML for total, no next state";
-
-  "Display HTML for first num, next state is 'Second'" -> Exit;
-  "Display HTML for second num, next state is 'Sum'" -> Exit;
-  "Display HTML for total, no next state" -> Exit;
-}
-</graph>
 
