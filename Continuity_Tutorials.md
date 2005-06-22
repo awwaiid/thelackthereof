@@ -1,7 +1,7 @@
 ---
 title: Continuity_Tutorials
 createdAt: 2005-06-22T18:20-04:00
-editedAt: 2005-07-31T11:09-04:00
+editedAt: 2005-06-22T18:20-04:00
 ---
 
 == Do As I Do ==
@@ -72,7 +72,7 @@ digraph {
 
 <graph>
 digraph {
-  graph [size="8,8"];
+  graph [size="6,6"];
   "Start, recieve user input" -> "Check State";
   "Check State" -> "First";
   "Check State" -> "Second";
