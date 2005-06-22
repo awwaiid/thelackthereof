@@ -72,7 +72,7 @@ digraph {
 
 <graph>
 digraph {
-  graph [size="6,6"];
+  graph [size="4,4"];
   "Start, recieve user input" -> "Check State";
   "Check State" -> "First";
   "Check State" -> "Second";
