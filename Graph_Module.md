@@ -1,7 +1,7 @@
 ---
 title: Graph_Module
 createdAt: 2005-06-22T17:40-04:00
-editedAt: 2005-06-22T18:33-04:00
+editedAt: 2005-06-22T17:40-04:00
 ---
 
 The graph module uses GraphViz to draw graphs. Here are some examples I've put together, but much fancier thinges are possible. See http://www.research.att.com/sw/tools/graphviz/refs.html for GraphViz documentation, and see http://www.research.att.com/sw/tools/graphviz/examples/ for some examples.
@@ -30,7 +30,7 @@ digraph {
       </TABLE>
     >
   ];
-  struct1:barid1 -> struct0:barid0;
+  struct0:barid0 -> struct1:barid1;
 }
 </graph>
 
