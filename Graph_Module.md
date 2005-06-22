@@ -1,25 +1,10 @@
 ---
 title: Graph_Module
-createdAt: 2005-06-22T16:57-04:00
-editedAt: 2005-06-22T17:40-04:00
+createdAt: 2005-06-22T16:51-04:00
+editedAt: 2005-06-22T16:57-04:00
 ---
 
 The graph module uses GraphViz to draw graphs. Here are some examples I've put together, but much fancier thinges are possible. See http://www.research.att.com/sw/tools/graphviz/refs.html for GraphViz documentation, and see http://www.research.att.com/sw/tools/graphviz/examples/ for some examples.
-
-
-<graph>
-digraph {
-  "node0" [
-    shape=plaintext
-    label=<<TABLE>
-      <TR><TD>foo</TD></TR>
-      <TR><TD>caption</TD></TR>
-      </TABLE>
-    >
-  ];
-}
-</graph>
-
 
 <graph>
   digraph {
@@ -69,6 +54,15 @@ digraph G {
 </graph>
 
 
-
-----
+<graph>
+digraph {
+  graph [
+    rankdir = "LR"
+  ];
+  "node0" [
+    shape=record
+    label=foo
+  ];
+}
+</graph>
 
