@@ -1,7 +1,7 @@
 ---
 title: Continuity
-createdAt: 2005-06-22T18:12-04:00
-editedAt: 2005-06-22T18:13-04:00
+createdAt: 2005-06-22T18:11-04:00
+editedAt: 2005-06-22T18:12-04:00
 ---
 
 == Continuation-Based Web-Programming Framework for Perl ==
@@ -42,7 +42,7 @@ digraph {
 
 <graph>
 digraph {
-  "Start, recieve user input" -> "Check State";
+  Start -> "Check State";
   "Check State" -> "First";
   "Check State" -> "Second";
   "Check State" -> "Sum";
