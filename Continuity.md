@@ -1,7 +1,7 @@
 ---
 title: Continuity
-createdAt: 2005-06-22T18:13-04:00
-editedAt: 2005-07-19T18:58-04:00
+createdAt: 2005-06-22T18:12-04:00
+editedAt: 2005-06-22T18:13-04:00
 ---
 
 == Continuation-Based Web-Programming Framework for Perl ==
@@ -22,6 +22,39 @@ Now looking at this code it is very clear what is going on. First we prompt the 
 And thats the idea. This uses some Deep Magic called Continuations to make this work. Unfortunately Perl doesn't directly support this programming language concept (yet), so Continuity utilizes the [[Contize]] module to let Perl ''pretend'' that it has this power. In the tutorials we'll see how this will slightly change the way you code your applications.
 
 
+<graph>
+digraph {
+
+  addTwo -> "First getNum";
+  "First getNum" -> "wait for input 1";
+  "wait for input 1" -> "return 1st result";
+  "return 1st result" -> addTwo;
+
+  addTwo -> "Second getNum";
+  "Second getNum" -> "wait for input 2";
+  "wait for input 2" -> "return 2nd result";
+  "return 2nd result" -> addTwo;
+
+  addTwo -> "Display Result";
+
+}
+</graph>
+
+<graph>
+digraph {
+  "Start, recieve user input" -> "Check State";
+  "Check State" -> "First";
+  "Check State" -> "Second";
+  "Check State" -> "Sum";
+  "First" -> "Display HTML for first num, next state is 'Second'";
+  "Second" -> "Display HTML for second num, next state is 'Sum'";
+  "Sum" -> "Display HTML for total, no next state";
+
+  "Display HTML for first num, next state is 'Second'" -> Exit;
+  "Display HTML for second num, next state is 'Sum'" -> Exit;
+  "Display HTML for total, no next state" -> Exit;
+}
+</graph>
 == Tutorial ==
 Some of you don't want to hear so much discussion... you'd rather see code. So I've started a [[Continuity Tutorials]] page so that you can dive right in. Have fun.
 
