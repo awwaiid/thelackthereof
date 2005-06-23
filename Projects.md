@@ -1,7 +1,7 @@
 ---
 title: Projects
-createdAt: 2005-06-23T19:34-04:00
-editedAt: 2005-07-08T19:37-04:00
+createdAt: 2005-06-11T17:10-04:00
+editedAt: 2005-06-23T19:34-04:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
@@ -28,7 +28,6 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 * [[OddMuse Pingback]] - A pingback server for oddmuse comment pages
 * [[OCaml Eval]] - Evaluate OCaml code dynamically
 * [[Graph Module]] - OddMuse plugin to make GraphViz graphs
-* [[The Fridge]] - A javascript/php refridgerator
 
 ----
 
