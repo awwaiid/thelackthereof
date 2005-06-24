@@ -1,10 +1,10 @@
 ---
 title: Comments_on_TLT_-_2005.06.07
-createdAt: 2005-06-24T10:27-04:00
-editedAt: 2005-06-24T10:41-04:00
+createdAt: 2005-06-24T10:00-04:00
+editedAt: 2005-06-24T10:27-04:00
 ---
 
-=== 4 Comments. ===
+=== 3 Comments. ===
 The regular employees (not me - I'm a contractor) here at USGS are getting a commercial timecard system. I think their whole system could be made in a couple of days - it looks as if zero usability testing was done and all but the most simple features break. The manager can't figure out how to work with multiple projects. It apparently stores what project she's in in her session. It sounds like a real piece of junk. I would guess that the program was selected only on the basis of features, not design quality.
 
 I suspect that if someone complained that they had to use the program every day, the out-of-towners who bought the program would say something to the effect of "at least you're only using it for a few minutes every day".
@@ -30,14 +30,5 @@ What programming language are you going to use?
 Python and/or Ocaml.
 
 -- [http://benatkin.com Ben] 2005-06-24 14:00 UTC
-
-
-----
-
-Well I'm doing it in Perl and/or OCaml :). Except that I didn't get today off, so I don't know how well I'll fare.
-
-Whats your email addr?
-
--- [http://thelackthereof.org awwaiid] 2005-06-24 14:27 UTC
 
 
