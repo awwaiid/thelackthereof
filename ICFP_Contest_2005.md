@@ -1,7 +1,7 @@
 ---
 title: ICFP_Contest_2005
-createdAt: 2005-06-26T00:19-04:00
-editedAt: 2005-06-26T00:48-04:00
+createdAt: 2005-06-26T00:06-04:00
+editedAt: 2005-06-26T00:19-04:00
 ---
 
 This is to help coordinate efforts on the ICFP Contest 2005.
@@ -22,7 +22,7 @@ We (david and I) are doing it in Perl for its flexibility and CPAN. So, for exam
 
 ----
 
-Up to now I seem to be taking roughly the same path you are. I implemented random-cop and random-robber this morning. I was thinking about using cpan:Graph to get shortest paths and putting them into a file somehow.
+I seem to be following roughly the same path you are. I implemented random-cop and random-robber this morning. I was thinking about using cpan:Graph to get shortest paths and putting them into a file somehow.
 
 I haven't done AI yet but I plan on working until about 3:00AM tonight and doing the same tomorrow.
 
