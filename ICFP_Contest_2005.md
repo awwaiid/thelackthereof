@@ -1,7 +1,7 @@
 ---
 title: ICFP_Contest_2005
-createdAt: 2005-06-26T00:48-04:00
-editedAt: 2005-06-26T02:51-04:00
+createdAt: 2005-06-26T00:19-04:00
+editedAt: 2005-06-26T00:48-04:00
 ---
 
 This is to help coordinate efforts on the ICFP Contest 2005.
@@ -27,10 +27,4 @@ Up to now I seem to be taking roughly the same path you are. I implemented rando
 I haven't done AI yet but I plan on working until about 3:00AM tonight and doing the same tomorrow.
 
   -- Ben
-
-----
-
-Sweet. Out of curiosity, do you come here to look for updates, or do you look at the RSS feed for the wiki, or what? Just wondering :)
-
---Brock
 
