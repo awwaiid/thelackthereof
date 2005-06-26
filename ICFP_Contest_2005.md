@@ -1,7 +1,7 @@
 ---
 title: ICFP_Contest_2005
-createdAt: 2005-06-26T02:51-04:00
-editedAt: 2005-06-26T03:47-04:00
+createdAt: 2005-06-26T00:48-04:00
+editedAt: 2005-06-26T02:51-04:00
 ---
 
 This is to help coordinate efforts on the ICFP Contest 2005.
@@ -33,16 +33,4 @@ I haven't done AI yet but I plan on working until about 3:00AM tonight and doing
 Sweet. Out of curiosity, do you come here to look for updates, or do you look at the RSS feed for the wiki, or what? Just wondering :)
 
 --Brock
-
-----
-
-I'm not using RSS yet. I typically check your site every two weeks to a month. Generally when I post things anywhere I check back once or twice a day until the discussion is over.
-
-I'm glad you asked, though. It has caused me consider using RSS once again. I'll probably just find a GUI client for Gnome.
-
-I'd like a client where I can add an RSS feed with an expiration date, so a week after I post a comment, my computer will stop polling the comment feed (for pages that have multiple RSS feeds). It would be nice if I could say how many days rather than calculate the date in my head, too.
-
-Know of any good clients for Gnome?
-
-  --Ben
 
