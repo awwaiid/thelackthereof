@@ -1,7 +1,7 @@
 ---
 title: ICFP_Contest_2005
-createdAt: 2005-06-25T23:56-04:00
-editedAt: 2005-06-26T00:06-04:00
+createdAt: 2005-06-25T03:50-04:00
+editedAt: 2005-06-25T23:56-04:00
 ---
 
 This is to help coordinate efforts on the ICFP Contest 2005.
@@ -13,10 +13,4 @@ I'm almost done implementing the protocol and state machines. I switched languag
 After I get done with the stuff mentioned above I'm going to set up the graph data structure. Then I'll work on the AI. I'll probably just use some fuzzy logic. I don't know whether I'll have time for minimax (which I have zero experience with).
 
   --Ben
-
-----
-
-Sweet. So far we've got a random-robber and a random-cop implemented, and we have pseudocode for our AI for the robber and are going to re-use some of those ideas for the cop.
-
-We (david and I) are doing it in Perl for its flexibility and CPAN. So, for example, we are using cpan:Graph to do our graphing. Unfortunately perl is slow, though you'll have the same issue (speed) with python. Not so slow that it is too slow though. at least not yet.
 
