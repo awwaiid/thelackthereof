@@ -1,10 +1,10 @@
 ---
 title: Comments_on_The_Lack_Thereof
-createdAt: 2005-07-05T19:12-04:00
-editedAt: 2005-07-05T23:52-04:00
+createdAt: 2005-02-25T15:35-05:00
+editedAt: 2005-07-05T19:12-04:00
 ---
 
-=== 16 Comments. ===
+=== 15 Comments. ===
 Please add comments (or just say hello) on the overall site here!
 ----
 Nobody loves me. *sniff*
@@ -116,14 +116,5 @@ UPDATE: I give up :) I'd rather not use clear:both for the hr tag and have a sit
 hehe. I think I went through that a long time ago. Some of my friends use safari, and I told them that if my site annoys them enough to send me a patched CSS that still works in firefox/IE :). Lazy way out, I know. I thought that I'd go fix it myself someday but then never got around to it.
 
 -- awwaiid 2005-02-25 20:35 UTC
-
-
-----
-
-It's not Pretty enough. You could do much better awwaiid. The cool Boxs I made you perfect that one time with that one webpage. You know the ones that drop when you go over them but also the coloring you did. It made your website really cool and I told lots of stupid people that don't comprehend about it. They didn't understand how hard it was to make. 
-
-Your Little Sister
-
--- Karisma 2005-07-05 23:12 UTC
 
 
