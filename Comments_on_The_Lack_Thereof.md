@@ -1,10 +1,10 @@
 ---
 title: Comments_on_The_Lack_Thereof
-createdAt: 2005-07-05T23:52-04:00
-editedAt: 2007-03-30T21:08-04:00
+createdAt: 2005-07-05T19:12-04:00
+editedAt: 2005-07-05T23:52-04:00
 ---
 
-=== 17 Comments. ===
+=== 16 Comments. ===
 Please add comments (or just say hello) on the overall site here!
 ----
 Nobody loves me. *sniff*
@@ -125,14 +125,5 @@ It's not Pretty enough. You could do much better awwaiid. The cool Boxs I made y
 Your Little Sister
 
 -- Karisma 2005-07-05 23:12 UTC
-
-
-----
-
-hah. It was hard to make at the time but now its like sooooo easy that everyone and their brother can do it so not me. no sirreee bobski. In this site I'm going for sort of a minimalist look with no flash and glitter stuff.
-
-You want your own website? I can hook you up.
-
--- awwaiid 2005-07-06 03:52 UTC
 
 
