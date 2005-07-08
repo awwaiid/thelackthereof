@@ -1,7 +1,7 @@
 ---
 title: Projects
-createdAt: 2005-07-08T19:37-04:00
-editedAt: 2005-09-12T14:08-04:00
+createdAt: 2005-06-23T19:34-04:00
+editedAt: 2005-07-08T19:37-04:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
@@ -23,12 +23,12 @@ If you had asked me what I was working on last week, or if you ask me next week,
 * [[An Introduction to Programming via Perl]]
 
 == Inactive ==
-I probably won't be doing much with these. This ''could'' mean that they are in a fairly completed state. It could also mean that they are abandoned.
+I probably won't be doing much with these. This ''could'' mean that they are in a fairly completed state. It could also mean that they are abandonded.
 * [[OCaml GrabBag]] - Datastructure for a random-retrieval collection
 * [[OddMuse Pingback]] - A pingback server for oddmuse comment pages
 * [[OCaml Eval]] - Evaluate OCaml code dynamically
 * [[Graph Module]] - OddMuse plugin to make GraphViz graphs
-* [[The Fridge]] - A javascript/php refrigerator
+* [[The Fridge]] - A javascript/php refridgerator
 
 ----
 
