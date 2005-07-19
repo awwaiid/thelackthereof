@@ -1,7 +1,7 @@
 ---
 title: Continuity
-createdAt: 2005-07-19T18:58-04:00
-editedAt: 2005-11-05T17:37-05:00
+createdAt: 2005-06-22T18:13-04:00
+editedAt: 2005-07-19T18:58-04:00
 ---
 
 == Continuation-Based Web-Programming Framework for Perl ==
@@ -29,7 +29,6 @@ Some of you don't want to hear so much discussion... you'd rather see code. So I
 Notes / Ideas:
 * Use cpan:Pixie to store stuff, or rip their storage code. Should work better than the way I'm doing it now.
 * [[ClassDBI-Aware Templates]]
-* [[DOM Templates and AJAX]]
 
 == Comments / Contact ==
 For comments there is a link at the bottom of this page, but also feel free to email me questions and thoughts (mailto:awwaiid@thelackthereof.org). This is of course an ongoing project which needs quite a bit of refinement. Your questions, comments, and contributions will give me the feedback I need to make this system useable and clean. If enough people inquire about this project, I'll set up a mailing list.
