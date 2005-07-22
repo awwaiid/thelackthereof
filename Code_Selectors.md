@@ -1,7 +1,7 @@
 ---
 title: Code_Selectors
-createdAt: 2005-07-22T13:53-04:00
-editedAt: 2005-07-22T13:57-04:00
+createdAt: 2005-07-22T13:23-04:00
+editedAt: 2005-07-22T13:53-04:00
 ---
 
 Here's an idea:
@@ -51,13 +51,5 @@ I'm not actually suggesting we use selectors like this, it is a mere abstraction
     'editable' => true,
   );
 
-or somethin'. maybe a function call would be better, like
-
-  context('view','timesheet', 'row', array(
-    'header' => 'hide',
-    'cells' => 'show',
-    'editable' => true,
-  ));
-
-that way it could assign things in reverse-order... cause we are really going to want to know, as a 'row', what attributes we currently have given the context of "view -> timesheet".
+or somethin'
 
