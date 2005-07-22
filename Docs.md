@@ -1,7 +1,7 @@
 ---
 title: Docs
-createdAt: 2005-07-22T00:22-04:00
-editedAt: 2005-07-22T13:15-04:00
+createdAt: 2005-07-01T20:28-04:00
+editedAt: 2005-07-22T00:22-04:00
 ---
 
 I try to keep all of my documents and make them available to anyone who is interested in reading them. For the most part I've been trying to use LaTeX as my source language and then converting to ps, pdf, html, and plain text. One exception that I am now making is Wiki-based documents -- ones that I have composed directly in the wiki. I like having them in the wiki because people can contribute... I like having them in LaTeX because it is fun. Oh well.
@@ -40,7 +40,7 @@ Here is a list of some of my documents. Remember you can access the non-wiki doc
 "What Eric fails to grasp is that it is that [formalizing hacker customs] is not necessary. In his own words Eric has claimed to observe the consistency of these practices throughout his 20 years of experience in the community. This illustrates exactly how unnecessary it is to do any formalization of this code of conduct."
 * [[Response to Richard Epstein Article]]
 * [[The Sociopath In All Of Us]]
-* [[Predicting the Future]]
+
 == Poems ==
 * [[Zero One Infinity]]
 * [[It's Dark Here Now]]
