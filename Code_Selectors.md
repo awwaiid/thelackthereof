@@ -1,7 +1,7 @@
 ---
 title: Code_Selectors
-createdAt: 2005-07-22T13:57-04:00
-editedAt: 2005-07-22T17:33-04:00
+createdAt: 2005-07-22T13:53-04:00
+editedAt: 2005-07-22T13:57-04:00
 ---
 
 Here's an idea:
@@ -59,5 +59,5 @@ or somethin'. maybe a function call would be better, like
     'editable' => true,
   ));
 
-that way it could assign things in reverse-order... cause we are really going to want to know, as a 'row', what attributes we currently have given the context of "view -> timesheet". Plus the above selectors are just the "contained in" selectors, we might also want class, id, immediate-child, sibling, etc (just think of all the [http://www.w3.org/TR/REC-CSS2/selector.html css2 selectors]).
+that way it could assign things in reverse-order... cause we are really going to want to know, as a 'row', what attributes we currently have given the context of "view -> timesheet".
 
