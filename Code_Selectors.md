@@ -1,7 +1,7 @@
 ---
 title: Code_Selectors
-createdAt: 2005-07-22T17:33-04:00
-editedAt: 2005-07-25T14:43-04:00
+createdAt: 2005-07-22T13:57-04:00
+editedAt: 2005-07-22T17:33-04:00
 ---
 
 Here's an idea:
@@ -37,32 +37,27 @@ I'm working on a timesheet application. Each timesheet has rows (for each projec
 
 I'm not actually suggesting we use selectors like this, it is a mere abstraction. Using actual selectors would be like using XML configuration files, and I am very against that. Instead I'd implement it in code at the very least. Like this:
 
-  $context['row']['attrs'] = {
+  $context['row']['attrs'] = array(
     'header' => 'show',
     'cells' => 'hide',
     'desc' => 'show',
     'editable' => 'no',
-  };
+  );
 
   /* When displayed in the context of a timesheet view */
-  $context['view']['timesheet']['row']['attrs'] = {
+  $context['view']['timesheet']['row']['attrs'] = array(
     'header' => 'hide',
     'cells' => 'show',
     'editable' => true,
-  };
+  );
 
 or somethin'. maybe a function call would be better, like
 
-  context('view','timesheet', 'row', {
+  context('view','timesheet', 'row', array(
     'header' => 'hide',
     'cells' => 'show',
     'editable' => true,
-  });
-
-  # ... later in our row-display code, we might do
-  if($header eq 'show') {
-    # show the header
-  }
+  ));
 
 that way it could assign things in reverse-order... cause we are really going to want to know, as a 'row', what attributes we currently have given the context of "view -> timesheet". Plus the above selectors are just the "contained in" selectors, we might also want class, id, immediate-child, sibling, etc (just think of all the [http://www.w3.org/TR/REC-CSS2/selector.html css2 selectors]).
 
