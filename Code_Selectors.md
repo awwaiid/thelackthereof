@@ -1,7 +1,7 @@
 ---
 title: Code_Selectors
-createdAt: 2005-07-22T13:23-04:00
-editedAt: 2005-07-22T13:53-04:00
+createdAt: 2005-07-22T13:14-04:00
+editedAt: 2005-07-22T13:23-04:00
 ---
 
 Here's an idea:
@@ -35,21 +35,4 @@ I'm working on a timesheet application. Each timesheet has rows (for each projec
     editable: yes;
   }
 
-I'm not actually suggesting we use selectors like this, it is a mere abstraction. Using actual selectors would be like using XML configuration files, and I am very against that. Instead I'd implement it in code at the very least. Like this:
-
-  $context['row']['attrs'] = array(
-    'header' => 'show',
-    'cells' => 'hide',
-    'desc' => 'show',
-    'editable' => 'no',
-  );
-
-  /* When displayed in the context of a timesheet view */
-  $context['view']['timesheet']['row']['attrs'] = array(
-    'header' => 'hide',
-    'cells' => 'show',
-    'editable' => true,
-  );
-
-or somethin'
 
