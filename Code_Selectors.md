@@ -1,10 +1,11 @@
 ---
 title: Code_Selectors
-createdAt: 2005-07-25T14:53-04:00
-editedAt: 2005-08-02T20:05-04:00
+createdAt: 2005-07-25T14:43-04:00
+editedAt: 2005-07-25T14:53-04:00
 ---
 
-This is a technique to provide bits of your program with context-based implicit static parameters. You might find it as a strange sort of configuration system, analogous to how css 'configures' the presentation of HTML elements. If you find yourself passing constant parameters to a procedure so that it will know how to behave in the current context, then this method may be useful. You may also have created wrappers to effectively do the same thing, or you may have even two nearly identical copies of the same procedure.
+
+This is a technique to provide bits of your program with context-based implicit static parameters. If you find yourself passing constant parameters to a procedure so that it will know how to behave in the current context, then this method may be useful. You may also have created wrappers to effectively do the same thing, or you may have even two nearly identical copies of the same procedure.
 
 Example:
 
