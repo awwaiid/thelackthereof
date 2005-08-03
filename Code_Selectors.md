@@ -1,11 +1,11 @@
 ---
 title: Code_Selectors
-createdAt: 2005-08-02T20:06-04:00
-editedAt: 2006-03-06T14:58-05:00
+createdAt: 2005-08-02T20:05-04:00
+editedAt: 2005-08-02T20:06-04:00
 ---
 
 
-Lets contemplate the relationship between HTML and CSS. Imagine that each HTML tag is an object, in the OOP sense of the word. It has a set of attributes, things like align, border, color. It also has one method, render(). When render() is called the object looks at its attributes and decides on how to render itself.
+Lets contemplate the relationship between HTML and CSS. Imagine that each HTML tag is an object, in the OOP sence of the word. It has a set of attributes, things like align, border, color. It also has one method, render(). When render() is called the object looks at its attributes and decides on how to render itself.
 
 Now add CSS into the mix. When the render method is invoked on our tag object it doesn't just look at its own fixed attributes, it additionally queries the CSS to discover other attribute settings it has, given its current relation to neighboring and parent tag-objects. Lets imagine that the CSS is itself a single object, and the tag-object only has to ask for specific attributes from the CSS-object. It is the CSS-object's job to figure out what attribute values to give in the current context of the tag-object.
 
