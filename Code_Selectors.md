@@ -1,17 +1,8 @@
 ---
 title: Code_Selectors
-createdAt: 2005-08-02T20:05-04:00
-editedAt: 2005-08-02T20:06-04:00
+createdAt: 2005-07-25T14:53-04:00
+editedAt: 2005-08-02T20:05-04:00
 ---
-
-
-Lets contemplate the relationship between HTML and CSS. Imagine that each HTML tag is an object, in the OOP sence of the word. It has a set of attributes, things like align, border, color. It also has one method, render(). When render() is called the object looks at its attributes and decides on how to render itself.
-
-Now add CSS into the mix. When the render method is invoked on our tag object it doesn't just look at its own fixed attributes, it additionally queries the CSS to discover other attribute settings it has, given its current relation to neighboring and parent tag-objects. Lets imagine that the CSS is itself a single object, and the tag-object only has to ask for specific attributes from the CSS-object. It is the CSS-object's job to figure out what attribute values to give in the current context of the tag-object.
-
-In the HTML/CSS world we (theoretically) don't really have to use a variety of HTML tags. We could just use DIV for everything, altering the rendered result to look like any other tag through CSS attributes. Standard HTML tags are merely a set of default attribute values. This is because our conceptual tag-objects have only the one method, render(), which works the same way for every tag to apply all the attributes creating a visual result.
-
-----
 
 This is a technique to provide bits of your program with context-based implicit static parameters. You might find it as a strange sort of configuration system, analogous to how css 'configures' the presentation of HTML elements. If you find yourself passing constant parameters to a procedure so that it will know how to behave in the current context, then this method may be useful. You may also have created wrappers to effectively do the same thing, or you may have even two nearly identical copies of the same procedure.
 
