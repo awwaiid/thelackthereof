@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2005-08-19T11:44-04:00
-editedAt: 2005-11-22T17:47-05:00
+createdAt: 2005-06-09T15:11-04:00
+editedAt: 2005-08-19T11:44-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -20,7 +20,7 @@ hr {
 
 body {
   background-color: #000000;
-  color: #f8f8f8;
+  color: #ffffff;
   margin: 5px 0px 5px 0px;
   font-family: arial, sans-serif;
 }
