@@ -1,7 +1,7 @@
 ---
 title: Mathematical_Markup
-createdAt: 2005-08-24T05:29-04:00
-editedAt: 2005-08-24T13:56-04:00
+createdAt: 2005-08-24T05:22-04:00
+editedAt: 2005-08-24T05:29-04:00
 ---
 
 I've taught this wiki to use LaTeX for mathematical markup, using the [http://www.oddmuse.org/cgi-bin/oddmuse/LaTeX_Extension LaTeX module extension] for OddMuse. You simply wrap your math like this: <nowiki>$$ x^2 $$</nowiki> to get something like $$x^2$$. This page is to document some of the ways this can be used. Please choose 'Edit text of this page' at the bottom to play!
@@ -39,6 +39,4 @@ $$\nabla\cdot\vec{B}=0$$
 ----
 
 $$\sigma_{xz}^{i-\frac{1}{2},j-\frac{1}{2}}=\mu^{i-\frac{1}{2},j-\frac{1}{2}}(\frac{\partial u_x^{i-\frac{1}{2},j-\frac{1}{2}}}{\partial z}+\frac{\partial u_z^{i-\frac{1}{2},j-\frac{1}{2}}}{\partial x})$$
-
-----
 
