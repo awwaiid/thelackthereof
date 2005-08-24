@@ -1,7 +1,7 @@
 ---
 title: Create_Tracker_Item
-createdAt: 2005-08-24T19:06-04:00
-editedAt: 2005-08-24T19:09-04:00
+createdAt: 2005-08-24T19:05-04:00
+editedAt: 2005-08-24T19:06-04:00
 ---
 
 Use this form to create a new tracker item. You may also want to look at the [[Tracker Status]] page for an overview of tracker items, or the [[Tracker Search]] page for advanced tracker searching.
@@ -18,7 +18,7 @@ Use this form to create a new tracker item. You may also want to look at the [[T
   <table border=0 cellspacing=3 style="border: 0">
     <tr>
       <th>Title</th>
-      <th>Project</th>
+      <th>Due</th>
     </tr>
     <tr>
       <td>
@@ -37,6 +37,7 @@ document.write("<input type=text name=title size=50 value='TRACKER - " + year + 
 </script>
 <input type="hidden" name="status" value="open">
       </td>
+      <td><input type="text" name="due" size=10></td>
       <td><select name="project">
             <option>Other</option>
             <option>Timesheet</option>
