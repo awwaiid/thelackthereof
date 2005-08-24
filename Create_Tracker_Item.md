@@ -1,6 +1,6 @@
 ---
 title: Create_Tracker_Item
-createdAt: 2005-08-24T18:59-04:00
+createdAt: 2005-02-07T02:51-05:00
 editedAt: 2005-08-24T18:59-04:00
 ---
 
@@ -8,7 +8,7 @@ Use this form to create a new tracker item. You may also want to look at the [[T
 
 <form method="POST" action="wiki.pl?id=trackertest">
 <input type=hidden name="bypass" value='awwaiid'>
-  <table border=0 cellspacing=3>
+  <table>
     <tr>
       <td>Title:</td>
       <td>
