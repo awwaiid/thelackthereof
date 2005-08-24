@@ -1,7 +1,7 @@
 ---
 title: Create_Tracker_Item
-createdAt: 2005-08-24T19:09-04:00
-editedAt: 2005-08-24T19:13-04:00
+createdAt: 2005-08-24T19:06-04:00
+editedAt: 2005-08-24T19:09-04:00
 ---
 
 Use this form to create a new tracker item. You may also want to look at the [[Tracker Status]] page for an overview of tracker items, or the [[Tracker Search]] page for advanced tracker searching.
@@ -32,8 +32,7 @@ var month = (m < 10) ? '0' + m : m;
 var yy = date.getYear();
 var year = (yy < 1000) ? yy + 1900 : yy;
 
-document.write("<input type=text id=titlefield name=title size=50 value='TRACKER - " + year + "." + month + "." + day + " - '><br>");
-document.getElementById('titlefield').focus();
+document.write("<input type=text name=title size=50 value='TRACKER - " + year + "." + month + "." + day + " - '><br>");
 //-->
 </script>
 <input type="hidden" name="status" value="open">
