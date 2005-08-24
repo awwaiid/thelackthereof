@@ -1,14 +1,14 @@
 ---
 title: Mathematical_Markup
 createdAt: 2005-08-24T13:56-04:00
-editedAt: 2005-08-24T13:57-04:00
+editedAt: 2005-08-24T13:56-04:00
 ---
 
 I've taught this wiki to use LaTeX for mathematical markup, using the [http://www.oddmuse.org/cgi-bin/oddmuse/LaTeX_Extension LaTeX module extension] for OddMuse. You simply wrap your math like this: <nowiki>$$ x^2 $$</nowiki> to get something like $$x^2$$. This page is to document some of the ways this can be used. Please choose 'Edit text of this page' at the bottom to play!
 
 We can do nifty integrals, like $$ \int^{\infty}_{0}{x^2} $$. Heck, we can even do summations such as $$ \sum _{i=0} ^{\infty+2} x^2 + 3i $$. Fun, eh?  For limits we can do $$ \lim_{x \rightarrow 0} x^3=0 $$.
 
-$$ \LaTeX\ $$
+$$\LaTeX\$$
 
 Fractions are done like this: $$ \frac{x^2}{\sqrt{3x}} $$ or this: $$ {dy\over dx} $$
 
