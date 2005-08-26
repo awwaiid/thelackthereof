@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2005-08-26T10:14-04:00
-editedAt: 2005-10-13T10:37-04:00
+createdAt: 2005-07-20T18:40-04:00
+editedAt: 2005-08-26T10:14-04:00
 ---
 
 == New News Item ==
@@ -66,6 +66,4 @@ Well cpan:Class::DBI is sort of a subset of what I want. The only types of sets 
 http://kb.mozillazine.org/Move_the_tabbar_(Firefox)
 
 http://wiki.perlchina.org/main/show/haskell+workshop+2005
-
-http://ndiswrapper.sourceforge.net/mediawiki/index.php/List#WMP54GS - beth linux wireless
 
