@@ -1,7 +1,7 @@
 ---
 title: SandBox
-createdAt: 2005-10-18T04:54-04:00
-editedAt: 2005-12-07T13:25-05:00
+createdAt: 2005-05-30T13:35-04:00
+editedAt: 2005-10-18T04:54-04:00
 ---
 
 This is the SandBox! Please edit this page so you can learn a little about how a wiki works. You can also check out the [[Text Formatting Rules]].
@@ -29,10 +29,4 @@ Trying the question module...
 
 ----
 Trying out the question module...
-----
-@QuestionaskerQuestions = (
-  ['What is the first letter of this question?' => sub { shift =~ /W/i }],
-  ['How many letters are in the word "four"?' => sub { shift =~ /4|four/i }],
-  ['Tell me any number between 1 and 10' => sub { $a=shift; ($a > 0 && $a < 11) }]
-);
 
