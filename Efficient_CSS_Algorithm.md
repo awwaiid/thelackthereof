@@ -1,6 +1,6 @@
 ---
 title: Efficient_CSS_Algorithm
-createdAt: 2005-09-08T12:40-04:00
+createdAt: 2005-11-03T17:11-05:00
 editedAt: 2005-11-03T17:11-05:00
 ---
 
@@ -44,4 +44,12 @@ Then if we have some markup:
 We traverse the tree. Lets traverse down to the first 'c' tag. Now we traverse the css hash-tree we built, starting with the current node. We go through the 'c' tag's list of contexts...
 
 Each node has three things -- its tag name, its ID, and its class list.
+
+== See Also ==
+* http://www.dillo.org/CSS.v1.txt
+* http://cthedot.de/cssutils/
+* http://www.w3.org/Style/CSS/SAC/
+* http://ajax.sourceforge.net/cypress/
+* http://search.cpan.org/~iamcal/CSS-1.07/
+
 
