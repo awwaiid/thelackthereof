@@ -1,7 +1,7 @@
 ---
 title: Autobiography
-createdAt: 2005-11-05T01:24-05:00
-editedAt: 2018-03-22T22:30-04:00
+createdAt: 2005-11-05T01:21-05:00
+editedAt: 2005-11-05T01:24-05:00
 ---
 
 I think it would be nice to write an autobiography. Actuall I think it would be neat to write 5 autobiographies, one every 20 years. I've missed the 20-year mark already, so I figure I can start on the first one now. I also want to get started on such a project sooner than later since I will surely forget things, more than I have already forgotten that is.
@@ -55,12 +55,7 @@ digraph {
   "Penny Rosson"
   "Kandy Kay Rosson"
   "Russle Brock Wilcox Sr";
-  "Joseph Rosson Jr (Jody)";
-  "Peggy Wilcox";
-  "Cindy Wilcox";
-  "Billy Wilcox";
-  "Wesley Wilcox";
-  "Harley Wilcox";
+  "Joseph Rosson Jr (Jody)"
   "Robert McCollum";
   "Michael McCollum";
   "Russle Brock Wilcox Jr" [style = "filled", color = "lightgrey"];
@@ -75,18 +70,7 @@ digraph {
   "Garrett Ray Wilcox";
 
   "Russle Brock Wilcox Sr" -> "Russle Eugene Wilcox";
-  "Peggy Wilcox" -> "Russle Eugene Wilcox";
-  "Cindy Wilcox" -> "Russle Eugene Wilcox";
-  "Billy Wilcox" -> "Russle Eugene Wilcox";
-  "Wesley Wilcox" -> "Russle Eugene Wilcox";
-  "Harley Wilcox" -> "Russle Eugene Wilcox";
-
   "Russle Brock Wilcox Sr" -> "Letha Huffman";
-  "Peggy Wilcox" -> "Letha Huffman";;
-  "Cindy Wilcox" -> "Letha Huffman";;
-  "Billy Wilcox" -> "Letha Huffman";;
-  "Wesley Wilcox" -> "Letha Huffman";;
-  "Harley Wilcox" -> "Letha Huffman";;
 
   "Kandy Kay Rosson" -> "Joseph Wesley Rosson";
   "Kandy Kay Rosson" -> "Kay";
@@ -134,5 +118,4 @@ digraph {
 }
 
 </graph>
-
 
