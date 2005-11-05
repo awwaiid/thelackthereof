@@ -1,7 +1,7 @@
 ---
 title: Autobiography
-createdAt: 2005-11-05T01:21-05:00
-editedAt: 2005-11-05T01:24-05:00
+createdAt: 2004-05-15T10:24-04:00
+editedAt: 2005-11-05T01:21-05:00
 ---
 
 I think it would be nice to write an autobiography. Actuall I think it would be neat to write 5 autobiographies, one every 20 years. I've missed the 20-year mark already, so I figure I can start on the first one now. I also want to get started on such a project sooner than later since I will surely forget things, more than I have already forgotten that is.
@@ -27,10 +27,6 @@ So here is the plan: First I will record a timeline of events, a pretty factual 
 * 2003-05-17 : Married to Elizabeth Ann McCollum
 * 2004-05-08 : Graduated from NAU
 * 2004-05-09 : Moved to Boston
-* 2004-06 : Moved to Phoenix
-* 2004-09 : Moved to Flagstaff, began working for Norchem
-* 2005-05 : Moved to Phoenix, began working for SWCA
-* 2005-05 : Became leader of Phoenix Perl Mongers
 
 
 == Family Tree ==
