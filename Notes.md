@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2005-11-05T18:12-05:00
-editedAt: 2005-12-11T19:14-05:00
+createdAt: 2005-10-13T10:37-04:00
+editedAt: 2005-11-05T18:12-05:00
 ---
 
 == New News Item ==
@@ -69,7 +69,6 @@ http://wiki.perlchina.org/main/show/haskell+workshop+2005
 
 http://ndiswrapper.sourceforge.net/mediawiki/index.php/List#WMP54GS - beth linux wireless
 
-http://genie.sis.pitt.edu/
 
 hrm
 
