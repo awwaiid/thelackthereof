@@ -1,10 +1,11 @@
 ---
 title: Docs
-createdAt: 2005-11-22T17:48-05:00
-editedAt: 2006-02-12T03:30-05:00
+createdAt: 2005-09-23T22:22-04:00
+editedAt: 2005-11-22T17:48-05:00
 ---
 
-I try to keep all of my documents and make them available to anyone who is interested in reading them. For the most part I've been trying to use LaTeX as my source language and then converting to ps, pdf, html, and plain text. One exception that I am now making is Wiki-based documents -- ones that I have composed directly in the wiki. I like having them in the wiki because people can contribute... I like having them in LaTeX because it is fun. Oh well. I've also attempted to sort things out by subject -- since most of my documents have to do with school most of the subjects do too.
+I try to keep all of my documents and make them available to anyone who is interested in reading them. For the most part I've been trying to use LaTeX as my source language and then converting to ps, pdf, html, and plain text. One exception that I am now making is Wiki-based documents -- ones that I have composed directly in the wiki. I like having them in the wiki because people can contribute... I like having them in LaTeX because it is fun. Oh well.
+I've also attempted to sort things out by subject -- since most of my documents have to do with school most of the subjects do too.
 
 One thing that I would like to change is my mix of self-authored documents and documents that others have written. My plan is to split docs into two directories: [http://thelackthereof.org/docs/ docs] for my stuff and [http://thelackthereof.org/docs/library/ library] for other people's stuff. For the time being they are a little mixed up, but it should be fairly obvious which work was originally composed and which work has come from other sources. If you have any questions, just ask!
 
