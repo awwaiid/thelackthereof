@@ -1,7 +1,7 @@
 ---
 title: SandBox
-createdAt: 2005-12-07T13:26-05:00
-editedAt: 2006-01-13T14:55-05:00
+createdAt: 2005-12-07T13:25-05:00
+editedAt: 2005-12-07T13:26-05:00
 ---
 
 This is the SandBox! Please edit this page so you can learn a little about how a wiki works. You can also check out the [[Text Formatting Rules]].
@@ -13,6 +13,9 @@ Really. Try it out. Down there at the bottom... the "Edit text of this page" lin
 [[a bit of random nothing]]
 ----
 
+<pre>
+testing pre statement
+</pre>
 
 [[TestingNewPage]]
 
