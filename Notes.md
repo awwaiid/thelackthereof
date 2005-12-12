@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2005-12-11T19:14-05:00
-editedAt: 2006-01-09T15:52-05:00
+createdAt: 2005-11-05T18:12-05:00
+editedAt: 2005-12-11T19:14-05:00
 ---
 
 == New News Item ==
@@ -72,6 +72,4 @@ http://ndiswrapper.sourceforge.net/mediawiki/index.php/List#WMP54GS - beth linux
 http://genie.sis.pitt.edu/
 
 hrm
-
-http://pro.html.it/articoli/id_599/idcat_31/pag_1/pag.html
 
