@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2005-12-30T12:43-05:00
-editedAt: 2005-12-30T12:45-05:00
+createdAt: 2005-11-22T17:47-05:00
+editedAt: 2005-12-30T12:43-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -97,6 +97,10 @@ h2, h3 {
 div.sectionlink {
   float: right;
 }
+
+div.sectionlink a:before { content:"["; }
+div.sectionlink a:after { content:"]"; }
+
 
 div.cal {
   font-size: 11px;
