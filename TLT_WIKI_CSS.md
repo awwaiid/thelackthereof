@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2005-12-30T12:45-05:00
-editedAt: 2006-01-02T19:50-05:00
+createdAt: 2005-12-30T12:43-05:00
+editedAt: 2005-12-30T12:45-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -153,6 +153,10 @@ a:link    { color : #aaaaff; text-decoration : none; }
 a:visited { color : #aaaaff; text-decoration : none; }
 a:active  { color : #ff0000; text-decoration : none; }
 a:hover   { color : #88ff88; text-decoration : none; }
+
+/* I'm not sure what all browsers these will work on... */
+a.outside:before { content:"["; }
+a.outside:after { content:"]"; }
 
 /* nor this */
 span.bar a {
