@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-01-02T19:50-05:00
-editedAt: 2006-02-24T19:31-05:00
+createdAt: 2005-12-30T12:45-05:00
+editedAt: 2006-01-02T19:50-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -358,8 +358,4 @@ h2 + br, h3 + br {
 }
 
 
-.journalBody {
-  -moz-column-count: 2;
-  -moz-column-gap: 1em;
-}
 
