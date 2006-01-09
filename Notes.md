@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2006-01-09T15:52-05:00
-editedAt: 2006-01-09T18:02-05:00
+createdAt: 2005-12-11T19:14-05:00
+editedAt: 2006-01-09T15:52-05:00
 ---
 
 == New News Item ==
@@ -74,12 +74,4 @@ http://genie.sis.pitt.edu/
 hrm
 
 http://pro.html.it/articoli/id_599/idcat_31/pag_1/pag.html
-
-----
-
-* links secretly trigger js which POSTS the page.
-* js detects a visit to a cached page, does a background GET to server to let it know and to display its results
-* if a link detects that it has forked-the-window, maybe it could fork the continuation on the server?
-
-
 
