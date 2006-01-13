@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2006-01-13T03:25-05:00
-editedAt: 2006-01-16T17:44-05:00
+createdAt: 2006-01-12T20:15-05:00
+editedAt: 2006-01-13T03:25-05:00
 ---
 
 == New News Item ==
@@ -83,7 +83,4 @@ http://pro.html.it/articoli/id_599/idcat_31/pag_1/pag.html
 
 
 http://ondras.praha12.net/sql/ - javascript gui sql schema editor
-
-
-http://www.capacious.org/ - free hosting
 
