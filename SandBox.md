@@ -1,7 +1,7 @@
 ---
 title: SandBox
-createdAt: 2006-01-14T00:16-05:00
-editedAt: 2006-03-19T16:10-05:00
+createdAt: 2006-01-13T14:55-05:00
+editedAt: 2006-01-14T00:16-05:00
 ---
 
 This is the SandBox! Please edit this page so you can learn a little about how a wiki works. You can also check out the [[Text Formatting Rules]].
@@ -40,6 +40,4 @@ Trying out the question module...
   ['How many letters are in the word "four"?' => sub { shift =~ /4|four/i }],
   ['Tell me any number between 1 and 10' => sub { $a=shift; ($a > 0 && $a < 11) }]
 );
-----
-I just wanna try the text captcha thingie.
 
