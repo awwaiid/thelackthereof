@@ -1,7 +1,7 @@
 ---
 title: Comments_on_TLT_-_2006.01.12
-createdAt: 2006-01-15T17:43-05:00
-editedAt: 2006-02-24T19:50-05:00
+createdAt: 2006-01-15T17:42-05:00
+editedAt: 2006-01-15T17:43-05:00
 ---
 
 === 1 Comment. ===
@@ -35,7 +35,7 @@ Issues:
 Can you think of any other examples of why the back button is useful, while at the same time presents many usability problems, which could be rectified by the server side handling "back"?
 
 
-I think there's a lot to be learned from this, philosophically. When you click back in the browser, you're going back to the previous navigation state. This is not always the same as going back to the previous program state. When you want to go to the previous program state, it's Undo.
+I think there's a lot to be learned from this, philosophically. When you click back in the browser, you going back to the previous navigation state. This is not always the same as going back to the previous program state. When you want to go to the previous program state, it's Undo.
 
 -- [http://www.benatkin.com/ ben_atkin] 2006-01-15 22:42 UTC
 
