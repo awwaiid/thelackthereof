@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2006-01-31T13:48-05:00
-editedAt: 2006-02-11T19:33-05:00
+createdAt: 2006-01-19T12:15-05:00
+editedAt: 2006-01-31T13:48-05:00
 ---
 
 == New News Item ==
@@ -91,11 +91,4 @@ http://www.inference.phy.cam.ac.uk/mackay/itila/book.html - book on information 
 
 Idea: Dots! The game where you have a grid, take turns placing lines surrounding squares. Might want to look for that book... hmm, I actually think that the math club has that one.
 
-
-The overlapping concepts:
-* Object-DB mapper
-* HTML binding/rendering of ODB widgets
-* Composing of ODB widgets
-* Composing of ODB objects
-* DOM-based template
 
