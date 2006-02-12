@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2006-02-11T19:33-05:00
-editedAt: 2006-02-12T13:21-05:00
+createdAt: 2006-01-31T13:48-05:00
+editedAt: 2006-02-11T19:33-05:00
 ---
 
 == New News Item ==
@@ -98,6 +98,4 @@ The overlapping concepts:
 * Composing of ODB widgets
 * Composing of ODB objects
 * DOM-based template
-
-Full screen degraded digital video - if you get only every nth packet you get every nth pixel. No compression? Very fine-grade...
 
