@@ -1,7 +1,7 @@
 ---
 title: Docs
-createdAt: 2006-02-12T03:30-05:00
-editedAt: 2006-03-01T16:38-05:00
+createdAt: 2005-11-22T17:48-05:00
+editedAt: 2006-02-12T03:30-05:00
 ---
 
 I try to keep all of my documents and make them available to anyone who is interested in reading them. For the most part I've been trying to use LaTeX as my source language and then converting to ps, pdf, html, and plain text. One exception that I am now making is Wiki-based documents -- ones that I have composed directly in the wiki. I like having them in the wiki because people can contribute... I like having them in LaTeX because it is fun. Oh well. I've also attempted to sort things out by subject -- since most of my documents have to do with school most of the subjects do too.
@@ -56,6 +56,5 @@ Here is a list of some of my documents. Remember you can access the non-wiki doc
 * [[WST]] - Women's Studies course stuff
 * [[EPFarms ASCII Logo]]
 * [[Linux on the Compaq z2311]]
-* [[Firefox Extensions I Like]]
 
 
