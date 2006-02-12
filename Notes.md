@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2006-02-12T13:25-05:00
-editedAt: 2006-02-24T14:18-05:00
+createdAt: 2006-02-12T13:21-05:00
+editedAt: 2006-02-12T13:25-05:00
 ---
 
 == New News Item ==
@@ -101,5 +101,5 @@ The overlapping concepts:
 
 Full screen degraded digital video - if you get only every nth packet you get every nth pixel. No compression? Very fine-grade...
 
-Centralized Logic - The core happenings of a program should all be in one spot, easily readable and understandable. Web-MVC spreads things out too much. This is part of the CSS power -- a central spot describing the look of a wide variety of things. Behaviour -- a central spot describing the behaviour of a wide variety of things.
+Centralized Logic - The core happenings of a program should all be in one spot, easily readable and understandable. Web-MVC spreads things out too much.
 
