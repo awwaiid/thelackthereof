@@ -1,7 +1,7 @@
 ---
 title: Mathematical_Markup
-createdAt: 2006-02-16T13:28-05:00
-editedAt: 2006-07-04T12:17-04:00
+createdAt: 2006-02-16T03:54-05:00
+editedAt: 2006-02-16T13:28-05:00
 ---
 
 I've taught this wiki to use LaTeX for mathematical markup, using the [http://www.oddmuse.org/cgi-bin/oddmuse/LaTeX_Extension LaTeX module extension] for OddMuse. You simply wrap your math like this: <nowiki>$$ x^2 $$</nowiki> to get something like $$x^2$$. This page is to document some of the ways this can be used. Please choose 'Edit text of this page' at the bottom to play!
@@ -30,6 +30,9 @@ In order to get $$ \mathcal{P} $$ and $$\mathbb{R} $$ to work, I added these to 
 </pre>
 
 The size of the rendered equations can be tweaked by editing the conversion command in the extension.
+
+----
+$$\alpha_{1}^2 + \beta_{1}^2 = \gamma_{1}^2$$
 
 ----
 
