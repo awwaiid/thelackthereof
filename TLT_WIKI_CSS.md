@@ -1,6 +1,6 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-02-24T19:51-05:00
+createdAt: 2006-02-24T19:33-05:00
 editedAt: 2006-02-24T19:51-05:00
 ---
 
@@ -132,15 +132,11 @@ form {
 div.journal h1 {
   margin: 0px;
   margin-bottom: 0.5em;
-  margin-top: 1em;
-  padding-top: 1em;
+  margin-top: 2px;
   padding-left: 5px;
-  border-color: #747477;
-  border-style: solid;
-  border-width: 0px 0px 1px 0px;
-/*  background-color: #484877; */
+  border: 1px solid white;
+  background-color: #117;
   font-size: small;
-
 }
 
 div.journal h1 a {
