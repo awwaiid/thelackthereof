@@ -1,6 +1,6 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-02-25T05:06-05:00
+createdAt: 2006-02-25T05:01-05:00
 editedAt: 2006-02-25T05:06-05:00
 ---
 
@@ -100,7 +100,6 @@ pre {
 
 h1 {
   border-bottom: 1px solid white;
-  margin-right: 6em;
 }
 
 h2, h3 {
@@ -214,8 +213,6 @@ div.sidebar {
   border-left: 1px solid white;
   width: 155px;
   padding-left: 5px;
-  position: relative;
-  top: -5em;
 }
 
 div.sidebar h3 {
