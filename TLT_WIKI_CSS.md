@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-02-24T19:33-05:00
-editedAt: 2006-02-24T19:51-05:00
+createdAt: 2006-02-24T19:31-05:00
+editedAt: 2006-02-24T19:33-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -16,10 +16,6 @@ hr {
 
 .content hr {
   clear: none;
-}
-
-.gotobar {
-  float: right;
 }
 
 body {
