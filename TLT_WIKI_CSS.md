@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-02-25T05:01-05:00
-editedAt: 2006-02-25T05:06-05:00
+createdAt: 2006-02-25T03:35-05:00
+editedAt: 2006-02-25T05:01-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -187,8 +187,8 @@ span.bar a {
 ul { margin-top: 0; }
 
 div.content {
-  margin-left: 5em;
-  margin-right: 15em;
+  margin-left: 20px;
+  margin-right: 180px;
   text-align: justify;
 }
 
@@ -250,6 +250,100 @@ div.sidebar div.SimpleRc strong {
   display: none;
 }
 
+/* White Theme - all things must be in the body.white space */
+
+body.white {
+  background-color: #ffffff;
+  color: #000000;
+  margin: 5px 0px 5px 0px;
+  font-family: arial, sans-serif;
+}
+
+body.white a.tlt-title {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+body.white img.line {
+  background-color: #000000;
+  height: 2px;
+  width: 100%;
+}
+
+body.white a:link {
+  color : #3d3dab;
+  text-decoration : none;
+  font-weight: bold;
+}
+
+body.white a:visited {
+  color : #3d3dab;
+  text-decoration : none;
+  font-weight: bold;
+}
+
+body.white h1 {
+  border-bottom: 1px solid black;
+}
+
+body.white div.sidebar {
+  border-left: 1px solid black;
+}
+
+body.white div.sidebar h3 {
+  border-bottom: 1px solid black;
+}
+
+body.white div.sidebar h3 a { color: black; }
+
+body.white img.logo {
+  border: 1px solid black;
+  background-color: #aaf;
+  margin: 0.5em;
+}
+
+body.white img.equation {
+  border: 1px solid black;
+  background-color: #aaf;
+  padding: 0.1em;
+}
+
+body.white code {
+  border: 1px solid black;
+  background-color: #bfbfc0;
+}
+
+body.white div.journal h1 {
+  margin: 0px;
+  margin-bottom: 0.5em;
+  margin-top: 2px;
+  padding-left: 5px;
+  border: 1px solid black;
+  background-color: #aaf;
+  font-size: small;
+}
+
+body.white div.journal h1 a {
+  color: #000;
+}
+
+body.white hr {
+  border-top: 1px solid black;
+}
+
+body.white div.cal a.wanted {
+  color: black;
+}
+
+body.white div.cal a.exists {
+  background-color: #eee;
+}
+
+body.white div.cal a.today {
+  color: #f00;
+}
+
+
 body.print div.sidebar {
   display: none;
 }
@@ -274,12 +368,15 @@ h2 + br, h3 + br {
   line-height: 1.4em;
 }
 
-h2 {
-  text-align: left;
-}
+
 
 .footer p {
   display: inline;
 }
 
+
+.journalBody {
+  -moz-column-count: 2;
+  -moz-column-gap: 2em;
+}
 
