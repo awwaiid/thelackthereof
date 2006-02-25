@@ -1,13 +1,8 @@
 ---
 title: SideBar
-createdAt: 2006-02-24T19:39-05:00
-editedAt: 2006-02-26T20:00-05:00
+createdAt: 2005-06-11T19:38-04:00
+editedAt: 2006-02-24T19:39-05:00
 ---
-
-=== Navigation ===
-* [[Projects]]
-* [[Docs]]
-* [[Links]]
 
 === GoodStuff ===
 * [[Continuity]]
@@ -27,4 +22,7 @@ editedAt: 2006-02-26T20:00-05:00
 * [http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe Putty]
 * [http://fridge.tlt42.org/ The Fridge]
 
+=== Themes ===
+* [http://thelackthereof.org/wiki.pl?action=browse;id=Home;theme=default Black Theme]
+* [http://thelackthereof.org/wiki.pl?action=browse;id=Home;theme=white White Theme]
 
