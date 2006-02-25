@@ -1,10 +1,10 @@
 ---
 title: Comments_on_TLT_-_2006.01.12
-createdAt: 2006-01-15T17:42-05:00
-editedAt: 2006-01-15T17:43-05:00
+createdAt: 2006-02-25T03:44-05:00
+editedAt: 2006-02-25T03:44-05:00
 ---
 
-=== 1 Comment. ===
+=== 3 Comments. ===
 I really enjoyed this post. I think it's good to look at what developers should have to worry about and what they should be able to leave to the framework.
 
 I think programming for the back button every time is a pretty good idea. A lot of usability problems are caused by people going back to a page that was generated from an old state. I have this problem on Reddit. As you may or may not have noticed yet, whether or not a page has been viewed by a logged-in user is stored on the server, and regardless of what computer you're on, the links you've already seen are the visted (purple) color. The CSS, though, says to show the link the color the server tells it to, regardless of whether the browser says it's visited. Apparently, they either left out this detail, or they decided that since multiple users could be using a computer, they didn't want the chance that something would come up as read if someone *else* read it.
@@ -35,8 +35,22 @@ Issues:
 Can you think of any other examples of why the back button is useful, while at the same time presents many usability problems, which could be rectified by the server side handling "back"?
 
 
-I think there's a lot to be learned from this, philosophically. When you click back in the browser, you going back to the previous navigation state. This is not always the same as going back to the previous program state. When you want to go to the previous program state, it's Undo.
+I think there's a lot to be learned from this, philosophically. When you click back in the browser, you're going back to the previous navigation state. This is not always the same as going back to the previous program state. When you want to go to the previous program state, it's Undo.
 
 -- [http://www.benatkin.com/ ben_atkin] 2006-01-15 22:42 UTC
+
+
+----
+
+There are two continuation-based Web frameworks I am aware of.  The first is Seaside, written in Smalltalk, and the powere behind Dabble DB.  The other is Wee, written in Ruby.  Both languages have built in continuations.
+
+-- [http://www.jamesbritt.com james] 2006-02-25 00:50 UTC
+
+
+----
+
+Hi James. There are several more out there -- for ruby (using built-in continuations), for java (using hacked-in continuations), and I'm sure others. And my own [http://continuity.tlt42.org/ Continuity] library (not quite a framework) allows continuation web programming in Perl using cpan:Coro.
+
+-- [http://thelackthereof.org/ awwaiid] 2006-02-25 08:44 UTC
 
 
