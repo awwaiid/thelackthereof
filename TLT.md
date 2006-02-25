@@ -1,9 +1,10 @@
 ---
 title: TLT
 createdAt: 2006-02-24T19:53-05:00
-editedAt: 2006-03-03T13:05-05:00
+editedAt: 2006-02-24T19:53-05:00
 ---
 
+== Meta Information ==
 Entries focus on my current projects and life events. If you'd like you can check out the list of [http://thelackthereof.org/wiki.pl?search=%5eTLT%20-&dosearch=Go%21 All Entries] or the [http://thelackthereof.org/wiki.pl?action=rss;rcfilteronly=%5eTLT%20- RSS Feed]. I also have a [http://www.livejournal.com/users/tlt_feed/ LiveJournal syndication feed] for LJ friends.
 <journal 10 "^TLT_-_">
 
