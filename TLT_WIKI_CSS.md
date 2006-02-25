@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
 createdAt: 2006-02-24T19:51-05:00
-editedAt: 2006-02-25T01:53-05:00
+editedAt: 2006-02-24T19:51-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -150,7 +150,6 @@ div.journal h1 a {
 div.journal hr {
   margin-top: 1em;
   margin-bottom: 0px;
-  display: none;
 }
 
 td {
