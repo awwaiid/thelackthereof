@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-02-25T03:35-05:00
-editedAt: 2006-02-25T05:01-05:00
+createdAt: 2006-02-25T02:13-05:00
+editedAt: 2006-02-25T03:35-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -29,7 +29,7 @@ body {
   font-family: arial, sans-serif;
 }
 
-a.tlt-title, a.tlt-title:visited, a.tlt-title:active {
+a.tlt-title, a.tlt-title:visited {
   font-size: 1.6em;
   letter-spacing: 10px;
   padding-bottom: 0;
