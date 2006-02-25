@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-02-25T01:53-05:00
-editedAt: 2006-02-25T02:05-05:00
+createdAt: 2006-02-24T19:51-05:00
+editedAt: 2006-02-25T01:53-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -41,7 +41,7 @@ a.tlt-title, a.tlt-title:visited {
   display: block;
   height: 60px;
   font-face: courier, courier new, monospace;
-  background-color: #323245;
+  background-color: #444;
   color: white;
 }
 
