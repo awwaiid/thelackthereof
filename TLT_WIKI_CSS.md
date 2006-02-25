@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
 createdAt: 2006-02-25T05:06-05:00
-editedAt: 2006-02-26T13:44-05:00
+editedAt: 2006-02-25T05:06-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -215,7 +215,7 @@ div.sidebar {
   width: 155px;
   padding-left: 5px;
   position: relative;
-  top: -4em;
+  top: -5em;
 }
 
 div.sidebar h3 {
