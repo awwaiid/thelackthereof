@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-02-26T13:44-05:00
-editedAt: 2006-03-01T18:31-05:00
+createdAt: 2006-02-25T05:06-05:00
+editedAt: 2006-02-26T13:44-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -100,7 +100,7 @@ pre {
 
 h1 {
   border-bottom: 1px solid white;
-  margin-right: 8em;
+  margin-right: 6em;
 }
 
 h2, h3 {
@@ -189,7 +189,7 @@ ul { margin-top: 0; }
 
 div.content {
   margin-left: 5em;
-  margin-right: 19em;
+  margin-right: 15em;
   text-align: justify;
 }
 
@@ -212,7 +212,7 @@ div.rss strong {
 div.sidebar {
   float: right;
   border-left: 1px solid white;
-  width: 13em;
+  width: 155px;
   padding-left: 5px;
   position: relative;
   top: -4em;
@@ -235,8 +235,8 @@ div.sidebar ul {
 }
 
 div.sidebar li {
-  text-indent: -1em;
-  list-style: none;
+  line-spacing: 0px;
+  list-style: square;
   font-size: 14px;
 }
 
