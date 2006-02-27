@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2006-02-26T20:25-05:00
-editedAt: 2006-02-26T20:26-05:00
+createdAt: 2006-02-26T20:03-05:00
+editedAt: 2006-02-26T20:25-05:00
 ---
 
 === Navigation ===
@@ -15,7 +15,8 @@ editedAt: 2006-02-26T20:26-05:00
 * [[OGPF]]
 * [[Notes]]
 
-<SimpleChanges>[[Changes|...more changes]]
+<SimpleChanges>
+[[Changes|...more links]]
 
 <h3>[http://thelackthereof.org/wiki.pl/TLT TLT]</h3><Calendar>
 
