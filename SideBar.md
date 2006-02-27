@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2006-02-26T20:00-05:00
-editedAt: 2006-02-26T20:03-05:00
+createdAt: 2006-02-24T19:39-05:00
+editedAt: 2006-02-26T20:00-05:00
 ---
 
 === Navigation ===
@@ -16,7 +16,6 @@ editedAt: 2006-02-26T20:03-05:00
 * [[Notes]]
 
 <SimpleChanges>
-[[Changes|...more]]
 
 <h3>[http://thelackthereof.org/wiki.pl/TLT TLT]</h3><Calendar>
 
@@ -27,5 +26,5 @@ editedAt: 2006-02-26T20:03-05:00
 * [http://www.dragongoserver.net/ Go Server]
 * [http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe Putty]
 * [http://fridge.tlt42.org/ The Fridge]
-[[Links|...more]]
+
 
