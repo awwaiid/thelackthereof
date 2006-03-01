@@ -1,7 +1,7 @@
 ---
 title: REST_AJAX_and_Continuations
-createdAt: 2006-03-01T15:07-05:00
-editedAt: 2006-03-01T15:11-05:00
+createdAt: 2006-03-01T14:54-05:00
+editedAt: 2006-03-01T15:07-05:00
 ---
 
 The three amigos are a perfect match for one another, each making up for the other's weaknesses. REST gives us nice URLs, AJAX (and javascript as a whole) gives us more client-poser, and continuity turns the world inside-out on the server side.
@@ -10,13 +10,13 @@ The three amigos are a perfect match for one another, each making up for the oth
 
 Each of the three have aspects I'm interested in, along with giant cans of worms I don't care about for the present discussion.
 
-<b><i>REST - Representational State Transfer</i></b>
+<b>REST - Representational State Transfer</b>
 The part I care about: Each request is mostly-stateless (I except authentication). A URL refers to a noun -- a thing (or list of things) you are viewing or manipulating.  
 
-<b><i>AJAX - Asynchronous JavaScript And XML</i></b>
+<b>AJAX - Asynchronous JavaScript And XML</b>
 The part I care about: Fetch stuff from the server and display the result in the current page without going to another page. Change the minor-state but not the major-state of the page.
 
-<b><i>Continuations</i></b>
+<b>Continuations</b>
 The part I care about: Re-Inversion of control... make it so that the server-side is an ongoing processess instead of one that terminates between each request. Effectively stop programming state machines though explicit lists of states and transfers. Instead use the language's built-in control structures.
 
 == Working together. ==
