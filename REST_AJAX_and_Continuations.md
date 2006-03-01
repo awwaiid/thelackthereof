@@ -1,18 +1,18 @@
 ---
 title: REST_AJAX_and_Continuations
 createdAt: 2006-03-01T14:41-05:00
-editedAt: 2006-03-01T14:54-05:00
+editedAt: 2006-03-01T14:41-05:00
 ---
 
 Each of the three have aspects I'm interested in, along with giant cans of worms I don't care about for the present discussion.
 
-<b>REST - Representational State Transfer</b>
+==== REST - Representational State Transfer ====
 The part I care about: Each request is mostly-stateless (I except authentication). A URL refers to a noun -- a thing (or list of things) you are viewing or manipulating.  
 
-<b>AJAX - Asynchronous JavaScript And XML</b>
+==== AJAX - Asynchronous JavaScript And XML ====
 The part I care about: Fetch stuff from the server and display the result in the current page without going to another page. Change the minor-state but not the major-state of the page.
 
-<b>Continuations</b>
+==== Continuations ====
 The part I care about: Re-Inversion of control... make it so that the server-side is an ongoing processess instead of one that terminates between each request. Effectively stop programming state machines though explicit lists of states and transfers. Instead use the language's built-in control structures.
 
 == How To Work Together ==
