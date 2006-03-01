@@ -1,10 +1,10 @@
 ---
 title: REST_AJAX_and_Continuations
-createdAt: 2006-03-01T15:11-05:00
-editedAt: 2006-03-04T03:54-05:00
+createdAt: 2006-03-01T15:07-05:00
+editedAt: 2006-03-01T15:11-05:00
 ---
 
-Summary: The three amigos are a perfect match for one another, each making up for the other's weaknesses. REST gives us nice URLs, AJAX (and javascript as a whole) gives us more client-poser, and continuity turns the world inside-out on the server side.
+The three amigos are a perfect match for one another, each making up for the other's weaknesses. REST gives us nice URLs, AJAX (and javascript as a whole) gives us more client-poser, and continuity turns the world inside-out on the server side.
 
 == The three amigos. ==
 
@@ -19,7 +19,7 @@ The part I care about: Fetch stuff from the server and display the result in the
 <b><i>Continuations</i></b>
 The part I care about: Re-Inversion of control... make it so that the server-side is an ongoing processess instead of one that terminates between each request. Effectively stop programming state machines though explicit lists of states and transfers. Instead use the language's built-in control structures.
 
-== Desires and goals. ==
+== Working together. ==
 
 Many things on a website are expected to be RESTful. This is how the web works -- we have URLs and when we go to them we see what we see.
 
