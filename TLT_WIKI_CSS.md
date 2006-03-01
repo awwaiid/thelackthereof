@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-03-01T18:31-05:00
-editedAt: 2006-03-03T12:59-05:00
+createdAt: 2006-02-26T13:44-05:00
+editedAt: 2006-03-01T18:31-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -248,7 +248,7 @@ div.sidebar div.SimpleRc p {
 
 div.sidebar div.SimpleRc strong {
   font-weight: normal;
-  font-size: 14px;
+  font-size: small;
   margin-left: 1em;
   display: none;
 }
