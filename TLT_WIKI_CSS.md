@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-03-03T13:07-05:00
-editedAt: 2006-03-03T13:53-05:00
+createdAt: 2006-03-03T12:59-05:00
+editedAt: 2006-03-03T13:07-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -82,7 +82,7 @@ img.graph {
 
 code {
   border: 1px solid #888;
-  background-color: #333340;
+  background-color: #444;
   white-space: pre;
   display: block;
   margin-top: 0.5em;
