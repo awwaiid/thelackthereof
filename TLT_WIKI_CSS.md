@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-03-03T13:53-05:00
-editedAt: 2006-03-04T03:50-05:00
+createdAt: 2006-03-03T13:07-05:00
+editedAt: 2006-03-03T13:53-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -88,7 +88,9 @@ code {
   margin-top: 0.5em;
   margin-left: 2em;
   margin-right: 2em;
-  padding: 0.5em 1em 0.5em 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
   text-align: left;
 }
 
