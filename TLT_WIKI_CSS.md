@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-03-04T03:50-05:00
-editedAt: 2006-03-06T14:31-05:00
+createdAt: 2006-03-03T13:53-05:00
+editedAt: 2006-03-04T03:50-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -85,10 +85,11 @@ code {
   background-color: #333340;
   white-space: pre;
   display: block;
-  margin: 0.5em 2em 0.5em 2em;
+  margin-top: 0.5em;
+  margin-left: 2em;
+  margin-right: 2em;
   padding: 0.5em 1em 0.5em 1em;
   text-align: left;
-  overflow: auto;
 }
 
 pre {
@@ -137,6 +138,7 @@ div.journal h1 {
   border-color: #747477;
   border-style: solid;
   border-width: 0px 0px 1px 0px;
+/*  background-color: #484877; */
   font-size: small;
 
 }
