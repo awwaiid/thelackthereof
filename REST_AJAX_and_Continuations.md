@@ -1,6 +1,6 @@
 ---
 title: REST_AJAX_and_Continuations
-createdAt: 2006-03-04T04:17-05:00
+createdAt: 2006-03-04T04:14-05:00
 editedAt: 2006-03-04T04:17-05:00
 ---
 
@@ -29,9 +29,9 @@ But the point is that I want that functionality; if someone is in the middle of 
 
 == Progressive enhancement. ==
 
+right:progressive_enhancement.png
 Lets start with the base case -- lynx with no javascript. We have two basic things here. First we have RESTful URLs to things. Second we have POST forms for complex processes. Each page gets a PageID, so we can detect if they are trying to re-post a form (and either deal with it or abort). Generally we POST back to the current URL.
 
-left:progressive_enhancement.png
 Next lets add in the ability to execute some basic javascript. We'll add onclick events to all the links on the page. When the link is clicked we'll actually POST the form, changing its action to the href from the link. This gives us the ability to intercept navigation requests when we are in the middle of a complex interaction. We can save the current user data and then decide what to do, either giving them the page they request or insisting that they complete or abort the current process.
 
 Finally we add in complex javascript (AJAX). We divide requests into two types, simple and complex. A simple request does a full-page refresh and possibly changes the URL. A complex request does a background fetch and only updates part of the page. You should't be able to link to step-3 in a 5 step wizard, so we don't update the URL for it. Instead you get a url like http://app.com/add/wizard.
