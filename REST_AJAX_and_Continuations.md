@@ -1,10 +1,10 @@
 ---
 title: REST_AJAX_and_Continuations
-createdAt: 2006-03-04T03:54-05:00
-editedAt: 2006-03-04T04:14-05:00
+createdAt: 2006-03-01T15:11-05:00
+editedAt: 2006-03-04T03:54-05:00
 ---
 
-<i>Summary: The three amigos are a perfect match for one another, each making up for the other's weaknesses. REST gives us nice URLs, AJAX (and javascript as a whole) gives us more client-poser, and continuity turns the world inside-out on the server side.</i>
+Summary: The three amigos are a perfect match for one another, each making up for the other's weaknesses. REST gives us nice URLs, AJAX (and javascript as a whole) gives us more client-poser, and continuity turns the world inside-out on the server side.
 
 == The three amigos. ==
 
@@ -21,11 +21,15 @@ The part I care about: Re-Inversion of control... make it so that the server-sid
 
 == Desires and goals. ==
 
-I want simple, memorable, URLs which reflect the current state of the application and a linkable jump-point. I'd like for the back button to go back to the most recent linkable spot.
+Many things on a website are expected to be RESTful. This is how the web works -- we have URLs and when we go to them we see what we see.
+
+So what I want to do then is to say use RESTful URLs. Then if you are in a complex flow, use AJAX and/or continuations.
+
+AJAX can put the control flow on the client side, without an explicit state machine. Continuations do the same thing, except on the server-side. So continuations can do two things here -- first they can take some of the load off of the client, and second they can be a graceful fallback.
 
 I used to try to make every link on the page secretly be a button. That way when you navigated away from the page the webapp would get the chance to say "wait a second! Are you sure?" if it so desired. But thats a horrible way to do it -- well, if nothing else because its ugly.
 
-But the point is that I want that functionality; if someone is in the middle of a complex process but then navigates to the front-page I want to make sure they get the chance to save their work (or at least that their work is transparently saved).
+Instead we can use some js to look for links and secretly turn them into POSTS during onclick. The js can alter the action attribute of the form to update the URL. If they open-in-new-window the onclick doesn't fire.
 
 == Progressive enhancement. ==
 
