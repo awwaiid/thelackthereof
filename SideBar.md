@@ -1,11 +1,10 @@
 ---
 title: SideBar
-createdAt: 2006-03-05T16:59-05:00
-editedAt: 2006-04-17T20:36-04:00
+createdAt: 2006-02-26T20:26-05:00
+editedAt: 2006-03-05T16:59-05:00
 ---
 
 === Navigation ===
-* [[Home]]
 * [[Projects]]
 * [[Docs]]
 * [[Links]]
