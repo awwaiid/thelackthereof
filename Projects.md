@@ -1,7 +1,7 @@
 ---
 title: Projects
-createdAt: 2006-03-06T14:39-05:00
-editedAt: 2006-04-04T01:36-04:00
+createdAt: 2006-03-06T14:37-05:00
+editedAt: 2006-03-06T14:39-05:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
@@ -11,7 +11,6 @@ If you were to ask me what I'm working on right now, I might say one of these.
 * [[EPFarms Panel]] - A control panel for hosting clients
 * [[Continuity]] - Continuation-based web-application framework for Perl
 rendering engine
-* [[Census Data Extraction]] - Small project to help a researcher correlate some data
 
 == Backburner ==
 If you had asked me what I was working on last week, or if you ask me next week, I might mention one of these.
