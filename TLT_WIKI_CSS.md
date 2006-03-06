@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-03-06T14:31-05:00
-editedAt: 2006-03-10T11:40-05:00
+createdAt: 2006-03-04T03:50-05:00
+editedAt: 2006-03-06T14:31-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -89,10 +89,6 @@ code {
   padding: 0.5em 1em 0.5em 1em;
   text-align: left;
   overflow: auto;
-  -moz-border-radius-topleft: 5px;
-  -moz-border-radius-topright: 5px;
-  -moz-border-radius-bottomright: 5px;
-  -moz-border-radius-bottomleft: 5px;
 }
 
 pre {
