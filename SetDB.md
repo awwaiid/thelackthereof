@@ -1,6 +1,6 @@
 ---
 title: SetDB
-createdAt: 2004-06-12T01:31-04:00
+createdAt: 2006-03-06T14:33-05:00
 editedAt: 2006-03-06T14:33-05:00
 ---
 
@@ -41,7 +41,7 @@ Translating "(person, [book])" into the "person -> has_book -> book" relationshi
 
 === Desired Code Features ===
 Here is some proposed stuff I want to work:
-<pre>
+<code>
   $east_siders = $everyone->filter([school, [address]], "side = 'east'");
 
   $non_east_siders = $everyone->minus($east_siders);
@@ -60,7 +60,7 @@ Here is some proposed stuff I want to work:
   $c->uniqueSize(); # Number of unduplicated elements in $c
   $c->duplicates; # Set of things which are duplicated in $c
   $c->unique(); # Remove duplicates
-</pre>
+</code>
 
 
 === See Also ===
