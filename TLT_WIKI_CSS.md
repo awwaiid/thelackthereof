@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-03-10T11:40-05:00
-editedAt: 2006-03-10T11:42-05:00
+createdAt: 2006-03-06T14:31-05:00
+editedAt: 2006-03-10T11:40-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -9,12 +9,9 @@ editedAt: 2006-03-10T11:42-05:00
 /* Default theme */
 
 hr {
+  clear: both;
   border-top: 1px solid white;
   height: 0px;
-}
-
-.footer {
-  clear: both;
 }
 
 .content hr {
@@ -22,7 +19,7 @@ hr {
 }
 
 .gotobar {
-  display: none;
+  float: right;
 }
 
 body {
@@ -190,11 +187,10 @@ span.bar a {
 
 ul { margin-top: 0; }
 
-.content, .rc {
+div.content {
   margin-left: 5em;
   margin-right: 19em;
   text-align: justify;
-  line-height: 1.4em;
 }
 
 li {
@@ -275,6 +271,10 @@ p {
 
 h2 + br, h3 + br {
   display: none;
+}
+
+.content {
+  line-height: 1.4em;
 }
 
 h2 {
