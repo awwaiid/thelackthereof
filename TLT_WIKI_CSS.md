@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-03-10T11:42-05:00
-editedAt: 2006-05-26T13:37-04:00
+createdAt: 2006-03-10T11:40-05:00
+editedAt: 2006-03-10T11:42-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -190,7 +190,7 @@ span.bar a {
 
 ul { margin-top: 0; }
 
-div.content, div.rc {
+.content, .rc {
   margin-left: 5em;
   margin-right: 19em;
   text-align: justify;
