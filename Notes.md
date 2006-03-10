@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2006-03-10T16:45-05:00
-editedAt: 2006-03-11T11:33-05:00
+createdAt: 2006-02-24T14:21-05:00
+editedAt: 2006-03-10T16:45-05:00
 ---
 
 == New News Item ==
@@ -112,6 +112,4 @@ Centralized Logic - The core happenings of a program should all be in one spot, 
 * [http://ocw.mit.edu/OcwWeb/Electrical-Engineering-and-Computer-Science/6-881Fall-2004/CourseHome/index.htm 6.881 Natural Language Processing, Fall 2004]
 * [http://ocw.mit.edu/OcwWeb/Electrical-Engineering-and-Computer-Science/6-895Fall-2004/CourseHome/index.htm 6.895 Essential Coding Theory, Fall 2004]
 
-
-http://www.pxn8.com/ - online Image Editor
 
