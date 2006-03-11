@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2006-03-11T11:33-05:00
-editedAt: 2006-03-13T18:13-05:00
+createdAt: 2006-03-10T16:45-05:00
+editedAt: 2006-03-11T11:33-05:00
 ---
 
 == New News Item ==
@@ -114,6 +114,4 @@ Centralized Logic - The core happenings of a program should all be in one spot, 
 
 
 http://www.pxn8.com/ - online Image Editor
-
-http://simon.incutio.com/slides/2006/etech/javascript/js-reintroduction-notes.html
 
