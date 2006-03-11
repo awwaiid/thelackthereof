@@ -1,7 +1,7 @@
 ---
 title: Things_I_Love
-createdAt: 2006-03-11T16:29-05:00
-editedAt: 2006-03-11T16:34-05:00
+createdAt: 2006-03-11T16:50-05:00
+editedAt: 2006-03-11T16:50-05:00
 ---
 
 In no particular order, these are a few of my favorite things!
@@ -39,10 +39,15 @@ In no particular order, these are a few of my favorite things!
 * Pet Parrots
 * Talk Like a Pirate Day
 * Pi Day
-* Taoism
+* Philosophical Taoism
 * Phi
 * Science
+* Science Fiction
 * Continuations
 * Abstraction
-
+* Making Friends
+* Learning new Concepts
+* Whiteboards and Chalkboards
+* Nerd Clubs
+* Dancing
 
