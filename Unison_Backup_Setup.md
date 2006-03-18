@@ -1,7 +1,7 @@
 ---
 title: Unison_Backup_Setup
-createdAt: 2006-03-18T03:17-05:00
-editedAt: 2006-03-18T03:24-05:00
+createdAt: 2006-03-18T03:00-05:00
+editedAt: 2006-03-18T03:17-05:00
 ---
 
 I use [http://www.cis.upenn.edu/~bcpierce/unison/ Unison] to keep my important files syncronized between machines. This is a description of how I have it arranged and to some degree automated.
@@ -9,12 +9,10 @@ I use [http://www.cis.upenn.edu/~bcpierce/unison/ Unison] to keep my important f
 I put all my important files into a directory called 'tlt'. This happens to exactly correspond with the root http directory of [http://thelackthereof.org/ my website]. Most things in the directory are fine to be on the web, but things that shouldn't be published are locked through file permissions and .htaccess files. I put this 'tlt' directory into my home directory:
 
 * /home/awwaiid/
-** tlt/ - my main directory, and the root of my website
+** tlt/
 *** private/ - holds private files
 **** mail/ - holds my mail
 **** dotfiles/ - holds my homedir .config files
-*** projects/ - all my own code projects
-*** docs/ - Various documents
 
 I then symlink a few key directories and files from my home directory into this folder. So, for example:
 
@@ -49,12 +47,5 @@ OK, heres another tip -- most of the time there aren't any conflicts. So there i
 awwaiid@feline:~$ unison -batch mirabel
 </code>
 
-This runs unison, from feline to mirabel, syncing my tlt directory on each and skipping any conflicts and giving a report. This is exactly what we need for cron! Here is my entry in my own crontab on feline, along with some stuff to send me shorter email reports:
-
-<code>
-10 3 * * * unison -batch -terse -contactquietly mirabel 2>&1
-</code>
-
-I tend to sync Jill by hand. Actually I have two other machines which automatically get synced, but that is just more of the same.
-
+This runs unison, from feline to mirabel, syncing my tlt directory on each and skipping any conflicts and giving a report.
 
