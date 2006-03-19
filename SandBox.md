@@ -1,7 +1,7 @@
 ---
 title: SandBox
-createdAt: 2006-03-19T16:10-05:00
-editedAt: 2006-10-05T03:10-04:00
+createdAt: 2006-01-14T00:16-05:00
+editedAt: 2006-03-19T16:10-05:00
 ---
 
 This is the SandBox! Please edit this page so you can learn a little about how a wiki works. You can also check out the [[Text Formatting Rules]].
@@ -42,6 +42,4 @@ Trying out the question module...
 );
 ----
 I just wanna try the text captcha thingie.
-----
-questions ask test
 
