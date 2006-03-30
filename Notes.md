@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2006-03-30T17:29-05:00
-editedAt: 2006-04-06T18:23-04:00
+createdAt: 2006-03-13T18:13-05:00
+editedAt: 2006-03-30T17:29-05:00
 ---
 
 == New News Item ==
@@ -119,6 +119,5 @@ http://simon.incutio.com/slides/2006/etech/javascript/js-reintroduction-notes.ht
 
 http://www.math.harvard.edu/~mazur/preprints/when_is_one.pdf
 
-http://www.iamjacksbrain.com/AboutMe.html
 
 
