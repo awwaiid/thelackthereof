@@ -1,7 +1,7 @@
 ---
 title: Projects
-createdAt: 2006-04-04T01:49-04:00
-editedAt: 2006-04-04T13:53-04:00
+createdAt: 2006-04-04T01:44-04:00
+editedAt: 2006-04-04T01:49-04:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
@@ -35,7 +35,7 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 * [[Zend Hacking]] - Feeling my way around (abandonded)
 * [[Contize]] - Provide a perl object with a way to fake continuations (complete and abandonded)
 * [[MHTML]] - An HTML (XML?) Macro language (complete? old)
-* [[Untyped Lambda Calculus in OCaml]] - Exactly what it sounds like (complete? old)
+
 ----
 
 == Tools ==
