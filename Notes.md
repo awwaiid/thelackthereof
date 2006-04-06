@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2006-04-06T18:23-04:00
-editedAt: 2006-04-18T19:49-04:00
+createdAt: 2006-03-30T17:29-05:00
+editedAt: 2006-04-06T18:23-04:00
 ---
 
 == New News Item ==
@@ -121,5 +121,4 @@ http://www.math.harvard.edu/~mazur/preprints/when_is_one.pdf
 
 http://www.iamjacksbrain.com/AboutMe.html
 
-http://www.cavecanen.org/linux/bashtips.php
 
