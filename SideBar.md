@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2006-04-17T20:53-04:00
-editedAt: 2006-11-17T17:45-05:00
+createdAt: 2006-04-17T20:52-04:00
+editedAt: 2006-04-17T20:53-04:00
 ---
 
 === Navigation ===
@@ -18,7 +18,7 @@ editedAt: 2006-11-17T17:45-05:00
 * [[EPFarms Panel]]
 
 === Recent Entries ===
-<headlines>
+<headlines><a href="/?search=^TLT%20-">... all entries</a>
 
 <SimpleChanges>[[Changes|... more changes]]
 
