@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2006-04-17T20:36-04:00
-editedAt: 2006-04-17T20:45-04:00
+createdAt: 2006-03-05T16:59-05:00
+editedAt: 2006-04-17T20:36-04:00
 ---
 
 === Navigation ===
@@ -15,9 +15,6 @@ editedAt: 2006-04-17T20:45-04:00
 * [[Contize]]
 * [[OGPF]]
 * [[Notes]]
-
-=== Recent Entries ===
-<headlines>
 
 <SimpleChanges>[[Changes|... more changes]]
 
