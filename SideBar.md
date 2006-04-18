@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2006-04-17T20:45-04:00
-editedAt: 2006-04-17T20:50-04:00
+createdAt: 2006-04-17T20:36-04:00
+editedAt: 2006-04-17T20:45-04:00
 ---
 
 === Navigation ===
@@ -9,13 +9,12 @@ editedAt: 2006-04-17T20:50-04:00
 * [[Projects]]
 * [[Docs]]
 * [[Links]]
-* [[Notes]]
 
-=== Current Projects ===
+=== GoodStuff ===
 * [[Continuity]]
-* [[Census Data Extraction]]
-* [[Polly]]
-* [[EPFarms Panel]]
+* [[Contize]]
+* [[OGPF]]
+* [[Notes]]
 
 === Recent Entries ===
 <headlines>
