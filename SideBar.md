@@ -18,7 +18,7 @@ editedAt: 2006-04-17T20:51-04:00
 * [[EPFarms Panel]]
 
 === Recent Entries ===
-<headlines>[/?search=^TLT%20- ... all entries]]
+<headlines>[[?search=^TLT%20-|... all entries]]
 
 <SimpleChanges>[[Changes|... more changes]]
 
