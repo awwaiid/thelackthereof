@@ -1,6 +1,6 @@
 ---
 title: SideBar
-createdAt: 2006-04-17T20:52-04:00
+createdAt: 2006-04-17T20:51-04:00
 editedAt: 2006-04-17T20:52-04:00
 ---
 
@@ -18,7 +18,7 @@ editedAt: 2006-04-17T20:52-04:00
 * [[EPFarms Panel]]
 
 === Recent Entries ===
-<headlines>[http://thelackthereof.org/?search=^TLT ... all entries]
+<headlines>[http://thelackthereof.org/?search=^TLT%20- ... all entries]
 
 <SimpleChanges>[[Changes|... more changes]]
 
