@@ -1,6 +1,6 @@
 ---
 title: Music_Naming_Scheme
-createdAt: 2006-05-02T18:35-04:00
+createdAt: 2006-05-02T18:27-04:00
 editedAt: 2006-05-02T18:35-04:00
 ---
 
@@ -51,10 +51,4 @@ Here is a regular expression which can get all of these things:
 == Capitalization ==
 All the first letters of each word shall be capitolized. All other letters will be lowercase, exept for acronyms of course.
 
-== Artist Names ==
-Artists will be named as "Firstname Lastname" (<b>not</b> inverted).
-
-What about the "The" artists? "The Who" "The Refreshments" "The Cranberries"?
-
-The name should appear as it does on the album, as far as middle names or pseudonyms go. I think.
 
