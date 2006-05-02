@@ -1,7 +1,7 @@
 ---
 title: Music_Naming_Scheme
-createdAt: 2006-05-02T18:27-04:00
-editedAt: 2006-05-02T18:35-04:00
+createdAt: 2006-05-02T18:23-04:00
+editedAt: 2006-05-02T18:27-04:00
 ---
 
 == Preamble ==
@@ -28,16 +28,7 @@ As you can see, optional components are:
 
 Here is a regular expression which can get all of these things:
 
-  $filename =~ /
-    ^(.*?)                   # Artist Name
-    \ -\ (.*?)               # Album Name
-    (?=\ -\ Disk\ (\d\d))?   # Disk Number (optional)
-    (?=\ -\ (.*?))?          # Disk Name (optional)
-    \ -\ (\d\d)              # Track Number
-    (?=\ -\ (.*?))?          # Track Artist (optional)
-    \ -\ (.*?)               # Track Name
-    \.(\w+)$                 # File extension
-  /x;
+  /(.*?)\ -\ (.*?)(?=\ -\ Disk\ (\d\d))?(?=\ -\ (.*?))?\ -\ (\d\d)(?=\ -\ (.*?))?\ -\ (.*?)\.(\w+)/
 
 * $1 - Artist Name
 * $2 - Album Name
