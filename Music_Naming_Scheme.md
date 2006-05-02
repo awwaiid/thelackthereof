@@ -1,7 +1,7 @@
 ---
 title: Music_Naming_Scheme
 createdAt: 2006-05-02T18:35-04:00
-editedAt: 2006-05-02T18:37-04:00
+editedAt: 2006-05-02T18:35-04:00
 ---
 
 == Preamble ==
@@ -49,7 +49,7 @@ Here is a regular expression which can get all of these things:
 * $8 - File extension
 
 == Capitalization ==
-All the first letters of each word shall be capitalized. All other letters will be lowercase, exept for acronyms of course.
+All the first letters of each word shall be capitolized. All other letters will be lowercase, exept for acronyms of course.
 
 == Artist Names ==
 Artists will be named as "Firstname Lastname" (<b>not</b> inverted).
