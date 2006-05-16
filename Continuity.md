@@ -1,8 +1,9 @@
 ---
 title: Continuity
-createdAt: 2006-05-16T17:20-04:00
-editedAt: 2007-11-20T18:48-05:00
+createdAt: 2005-11-05T17:37-05:00
+editedAt: 2006-05-16T17:20-04:00
 ---
+
 
 
 I think maybe this is outdated. You should go over to [http://continuity.tlt42.org/ the continuity website] now.
