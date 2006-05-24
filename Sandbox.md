@@ -1,7 +1,7 @@
 ---
 title: Sandbox
-createdAt: 2006-05-24T19:16-04:00
-editedAt: 2007-04-14T13:23-04:00
+createdAt: 2006-05-11T16:11-04:00
+editedAt: 2006-05-24T19:16-04:00
 ---
 
 A test page
@@ -53,7 +53,4 @@ NEJM 1997;337:847-9.
 
 * Lurie P, Wolfe SM. Unethical trials of interventions to reduce perinatal transmission of the human immunodeficiency virus in
 developing countries. NEJM 1997;337:853-6.
-
-
-test
 
