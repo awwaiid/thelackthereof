@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-05-26T13:37-04:00
-editedAt: 2006-06-01T19:47-04:00
+createdAt: 2006-03-10T11:42-05:00
+editedAt: 2006-05-26T13:37-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -46,7 +46,7 @@ a.tlt-title, a.tlt-title:visited, a.tlt-title:active {
   font-face: courier, courier new, monospace;
   background-color: #323245;
   color: white;
-  background: url('/pics/headerbg3.png') repeat-x;
+  background: url('/pics/headerbg2.png') repeat-x;
 }
 
 div.header, div.content, div.footer {
