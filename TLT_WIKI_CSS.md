@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-06-01T19:47-04:00
-editedAt: 2006-06-01T20:52-04:00
+createdAt: 2006-05-26T13:37-04:00
+editedAt: 2006-06-01T19:47-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -32,7 +32,7 @@ body {
   font-family: arial, sans-serif;
 }
 
-#shadow-holder {
+a.tlt-title, a.tlt-title:visited, a.tlt-title:active {
   font-size: 1.6em;
   letter-spacing: 10px;
   padding-bottom: 0;
@@ -40,31 +40,14 @@ body {
   border-bottom: 1px solid #888;
   margin-left: 0px;
   margin-right: 0px;
+  text-align: center;
+  display: block;
   height: 60px;
   font-face: courier, courier new, monospace;
   background-color: #323245;
   color: white;
   background: url('/pics/headerbg3.png') repeat-x;
-  position: relative;
 }
-.tlt-title-shadow,
-a.tlt-title {
-}
-
-.tlt-title-shadow {
-  position: absolute;
-  top: 24px;
-  left: 23px;
-  color: #222;
-}
-
-.tlt-title {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-
-}
-
 
 div.header, div.content, div.footer {
   margin-left: 5px;
