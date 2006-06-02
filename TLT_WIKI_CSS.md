@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-06-01T20:52-04:00
-editedAt: 2006-06-16T02:39-04:00
+createdAt: 2006-06-01T19:47-04:00
+editedAt: 2006-06-01T20:52-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -53,15 +53,15 @@ a.tlt-title {
 
 .tlt-title-shadow {
   position: absolute;
-  top: 34px;
-  left: 153px;
+  top: 24px;
+  left: 23px;
   color: #222;
 }
 
 .tlt-title {
   position: absolute;
-  top: 30px;
-  left: 150px;
+  top: 20px;
+  left: 20px;
 
 }
 
