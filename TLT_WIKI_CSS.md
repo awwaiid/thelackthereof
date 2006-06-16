@@ -1,6 +1,6 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-06-16T02:39-04:00
+createdAt: 2006-06-01T20:52-04:00
 editedAt: 2006-06-16T02:39-04:00
 ---
 
@@ -47,23 +47,24 @@ body {
   background: url('/pics/headerbg3.png') repeat-x;
   position: relative;
 }
-
-#shadow-holder a {
-  color: #000000;
+.tlt-title-shadow,
+a.tlt-title {
 }
 
 .tlt-title-shadow {
   position: absolute;
-  top: 19px;
-  left: 79px;
-  color: #444;
+  top: 34px;
+  left: 153px;
+  color: #222;
 }
 
 .tlt-title {
   position: absolute;
-  top: 20px;
-  left: 80px;
+  top: 30px;
+  left: 150px;
+
 }
+
 
 div.header, div.content, div.footer {
   margin-left: 5px;
