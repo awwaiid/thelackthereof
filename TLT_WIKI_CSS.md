@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-06-16T02:40-04:00
-editedAt: 2006-08-22T11:42-04:00
+createdAt: 2006-06-16T02:39-04:00
+editedAt: 2006-06-16T02:40-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -46,7 +46,6 @@ body {
   color: white;
   background: url('/pics/headerbg3.png') repeat-x;
   position: relative;
-  font-weight: bold;
 }
 
 #shadow-holder a {
