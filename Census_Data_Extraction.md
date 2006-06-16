@@ -1,6 +1,6 @@
 ---
 title: Census_Data_Extraction
-createdAt: 2006-06-16T04:45-04:00
+createdAt: 2006-06-16T04:42-04:00
 editedAt: 2006-06-16T04:45-04:00
 ---
 
@@ -11,8 +11,6 @@ Here I'll describe what I have
 
 == 2000 Census Data ==
 * [ftp://ftp2.census.gov/census_2000/datasets/Summary_File_1 FTP Root for 2000 data]
-* [ftp://ftp2.census.gov/census_2000/datasets/Summary_File_1/Arizona Arizona data]
-* [www.census.gov/prod/cen2000/doc/sf1.pdf Data documentation]
 
 == 1990 Census Data ==
 * [ftp://ftp2.census.gov/census_1990/ FTP Root for 1990 data]
