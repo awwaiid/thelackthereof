@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2006-06-16T02:44-04:00
-editedAt: 2006-11-04T12:52-05:00
+createdAt: 2006-04-18T19:49-04:00
+editedAt: 2006-06-16T02:44-04:00
 ---
 
 == New News Item ==
@@ -124,8 +124,4 @@ http://www.iamjacksbrain.com/AboutMe.html
 http://www.cavecanen.org/linux/bashtips.php
 
 http://list.cs.brown.edu/pipermail/plt-scheme/2006-April/012418.html - Tutorial on writing 'yield' in scheme
-
-
-http://www.netspace.org/~mts/guit_tut/tutorial.htm
-
 
