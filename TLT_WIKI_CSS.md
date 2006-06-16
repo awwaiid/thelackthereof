@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
 createdAt: 2006-06-16T02:39-04:00
-editedAt: 2006-06-16T02:40-04:00
+editedAt: 2006-06-16T02:39-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -33,7 +33,7 @@ body {
 }
 
 #shadow-holder {
-  font-size: 3em;
+  font-size: 1.6em;
   letter-spacing: 10px;
   padding-bottom: 0;
   padding-top: 30px;
