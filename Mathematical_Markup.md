@@ -1,10 +1,10 @@
 ---
 title: Mathematical_Markup
-createdAt: 2006-07-04T12:21-04:00
-editedAt: 2006-07-04T12:22-04:00
+createdAt: 2006-07-04T12:17-04:00
+editedAt: 2006-07-04T12:21-04:00
 ---
 
-I've taught this wiki to use LaTeX for mathematical markup, using the [http://www.oddmuse.org/cgi-bin/oddmuse/LaTeX_Extension LaTeX module extension] for OddMuse. You simply wrap your math like this: <nowiki>$$ x^2 $$</nowiki> to get something like $$x^2$$. This page is to document some of the ways this can be used. Please choose 'Edit text of this page' at the bottom to play!
+I've taught this wiki to use LaTeX for mathematical markup, usingX the [http://www.oddmuse.org/cgi-bin/oddmuse/LaTeX_Extension LaTeX module extension] for OddMuse. You simply wrap your math like this: <nowiki>$$ x^2 $$</nowiki> to get something like $$x^2$$. This page is to document some of the ways this can be used. Please choose 'Edit text of this page' at the bottom to play!
 
 We can do nifty integrals, like $$ \int^{\infty}_{0}{x^2} $$. Heck, we can even do summations such as $$ \sum _{i=0} ^{\infty+2} x^2 + 3i $$. Fun, eh?  For limits we can do $$ \lim_{x \rightarrow 0} x^3=0 $$.
 
@@ -41,10 +41,4 @@ $$\nabla\cdot\vec{B}=0$$
 $$\sigma_{xz}^{i-\frac{1}{2},j-\frac{1}{2}}=\mu^{i-\frac{1}{2},j-\frac{1}{2}}(\frac{\partial u_x^{i-\frac{1}{2},j-\frac{1}{2}}}{\partial z}+\frac{\partial u_z^{i-\frac{1}{2},j-\frac{1}{2}}}{\partial x})$$
 
 ----
-
-This is some added stuff by rja: $x^2$, this is an equation:
-
-\begin{equation}
-\sum_{i \in J}x^i
-\end{equation}
 
