@@ -1,7 +1,7 @@
 ---
 title: Mathematical_Markup
-createdAt: 2006-07-04T12:22-04:00
-editedAt: 2006-09-29T08:59-04:00
+createdAt: 2006-07-04T12:21-04:00
+editedAt: 2006-07-04T12:22-04:00
 ---
 
 I've taught this wiki to use LaTeX for mathematical markup, using the [http://www.oddmuse.org/cgi-bin/oddmuse/LaTeX_Extension LaTeX module extension] for OddMuse. You simply wrap your math like this: <nowiki>$$ x^2 $$</nowiki> to get something like $$x^2$$. This page is to document some of the ways this can be used. Please choose 'Edit text of this page' at the bottom to play!
@@ -42,7 +42,7 @@ $$\sigma_{xz}^{i-\frac{1}{2},j-\frac{1}{2}}=\mu^{i-\frac{1}{2},j-\frac{1}{2}}(\f
 
 ----
 
-This is some added stuff by rja: $$x^2$$, this is an equation:
+This is some added stuff by rja: $x^2$, this is an equation:
 
 \begin{equation}
 \sum_{i \in J}x^i
