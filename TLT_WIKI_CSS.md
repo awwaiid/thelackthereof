@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-08-22T11:42-04:00
-editedAt: 2006-11-19T23:12-05:00
+createdAt: 2006-06-16T02:40-04:00
+editedAt: 2006-08-22T11:42-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -117,10 +117,6 @@ code {
 
 pre {
   text-align: left;
-}
-
-div.content pre {
-  line-height: 1.1em;
 }
 
 h1 {
