@@ -1,7 +1,7 @@
 ---
 title: Projects
 createdAt: 2006-08-29T02:49-04:00
-editedAt: 2006-11-19T23:24-05:00
+editedAt: 2006-08-29T02:49-04:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
@@ -11,7 +11,7 @@ If you were to ask me what I'm working on right now, I might say one of these.
 * [[Continuity]] - Continuation-based web-application framework for Perl
 * [[EPFarms Panel]] - A control panel for hosting clients
 * [[Polly]] - A very simple perl wrapper around some command-line audio players
-* [[Rubik's Cube Solver]] - I finally got my very own Rubik's Cube!
+* [[Rubik's Cube Solution]] - I finally got my very own Rubik's Cube!
 
 == Backburner ==
 If you had asked me what I was working on last week, or if you ask me next week, I might mention one of these.
