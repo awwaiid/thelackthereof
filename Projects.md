@@ -1,6 +1,6 @@
 ---
 title: Projects
-createdAt: 2006-08-29T02:49-04:00
+createdAt: 2006-04-04T13:53-04:00
 editedAt: 2006-08-29T02:49-04:00
 ---
 
@@ -8,10 +8,10 @@ For a raw directory view of my projects, see the [TLT:projects/ projects directo
 
 == Current Projects ==
 If you were to ask me what I'm working on right now, I might say one of these.
-* [[Continuity]] - Continuation-based web-application framework for Perl
 * [[EPFarms Panel]] - A control panel for hosting clients
+* [[Continuity]] - Continuation-based web-application framework for Perl
+* [[Census Data Extraction]] - Small project to help a researcher correlate some data
 * [[Polly]] - A very simple perl wrapper around some command-line audio players
-* [[Rubik's Cube Solution]] - I finally got my very own Rubik's Cube!
 
 == Backburner ==
 If you had asked me what I was working on last week, or if you ask me next week, I might mention one of these.
@@ -35,9 +35,6 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 * [[Contize]] - Provide a perl object with a way to fake continuations (complete and abandonded)
 * [[MHTML]] - An HTML (XML?) Macro language (complete? old)
 * [[Untyped Lambda Calculus in OCaml]] - Exactly what it sounds like (complete? old)
-* [[Census Data Extraction]] - Small project to help a researcher correlate some data
-
-
 ----
 
 == Tools ==
