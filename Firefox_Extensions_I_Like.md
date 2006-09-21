@@ -1,7 +1,7 @@
 ---
 title: Firefox_Extensions_I_Like
-createdAt: 2006-09-21T19:40-04:00
-editedAt: 2006-11-14T15:15-05:00
+createdAt: 2006-09-21T19:39-04:00
+editedAt: 2006-09-21T19:40-04:00
 ---
 
 * [https://addons.mozilla.org/extensions/moreinfo.php?id=785 Tab X]
@@ -11,9 +11,6 @@ editedAt: 2006-11-14T15:15-05:00
 * [https://addons.mozilla.org/extensions/moreinfo.php?id=10 Adblock]
 * [https://addons.mozilla.org/extensions/moreinfo.php?id=11 Add Bookmark Here]
 * [http://users.skynet.be/mgueury/mozilla/download.html HTML Validator]
-* View-Source-With
-* Adblock Plus
-* Selenium Recorder
 
 [http://kb.mozillazine.org/Move_the_tabbar_(Firefox) Sideways tabbar chrome]
 
