@@ -1,7 +1,7 @@
 ---
 title: Mathematical_Markup
-createdAt: 2006-10-04T13:57-04:00
-editedAt: 2008-03-19T22:27-04:00
+createdAt: 2006-09-29T08:59-04:00
+editedAt: 2006-10-04T13:57-04:00
 ---
 
 I've taught this wiki to use LaTeX for mathematical markup, using the [http://www.oddmuse.org/cgi-bin/oddmuse/LaTeX_Extension LaTeX module extension] for OddMuse. You simply wrap your math like this: <nowiki>$$ x^2 $$</nowiki> to get something like $$x^2$$. This page is to document some of the ways this can be used. Please choose 'Edit text of this page' at the bottom to play!
@@ -53,5 +53,4 @@ Try
 
 $$\sum_{i \in J}x^i$$
 
-Interesting that it decided to make it HUGE.
 
