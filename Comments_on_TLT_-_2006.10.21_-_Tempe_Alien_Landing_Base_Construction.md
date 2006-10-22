@@ -1,7 +1,7 @@
 ---
 title: Comments_on_TLT_-_2006.10.21_-_Tempe_Alien_Landing_Base_Construction
-createdAt: 2006-10-21T20:34-04:00
-editedAt: 2006-10-22T11:57-04:00
+createdAt: 2006-10-21T20:33-04:00
+editedAt: 2006-10-21T20:34-04:00
 ---
 
 === 2 Comments. ===
@@ -18,7 +18,7 @@ I was so distracted when I got over the bridge on Mill and to a red light, that 
 
 The center for the arts is a really unusual sight. I, like you, am surprised I hadn't heard of it or seen drawings of it beforehand.
 
-I also notice a couple of giant cranes I didn't see earlier about halfway between University and Rio Salado. Downtown Tempe sure is growing quickly.
+I also notice a couple of giant cranes I didn't see earlier about halfway between University and Rio Salado.
 
 -- [http://www.benatkin.com/ Ben] 2006-10-22 00:33 UTC
 
