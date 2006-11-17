@@ -1,6 +1,6 @@
 ---
 title: SideBar
-createdAt: 2006-11-17T18:06-05:00
+createdAt: 2006-11-17T17:50-05:00
 editedAt: 2006-11-17T18:06-05:00
 ---
 
@@ -11,7 +11,7 @@ editedAt: 2006-11-17T18:06-05:00
 * [[Links]]
 * [[Notes]]
 
-=== Linking Pages ===
+=== References To Page ===
 <reflist>
 
 === Current Projects ===
