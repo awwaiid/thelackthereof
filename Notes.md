@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2006-11-17T17:43-05:00
-editedAt: 2006-11-19T20:56-05:00
+createdAt: 2006-11-04T12:52-05:00
+editedAt: 2006-11-17T17:43-05:00
 ---
 
 == New News Item ==
@@ -133,11 +133,5 @@ http://www.netspace.org/~mts/guit_tut/tutorial.htm
 
 Here are links for my mom:
 http://www.womensmediacenter.com/ex/110106.html
-
-----
-
-<reflist>
-
-tah dah!
 
 
