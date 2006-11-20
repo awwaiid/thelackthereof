@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2006-11-19T23:06-05:00
-editedAt: 2007-03-18T14:17-04:00
+createdAt: 2006-11-19T22:59-05:00
+editedAt: 2006-11-19T23:06-05:00
 ---
 
 == New News Item ==
@@ -141,6 +141,4 @@ http://www.womensmediacenter.com/ex/110106.html
 tah dah!
 
 Tags: fish, mouse, cat fish, fred
-
-this is a test
 
