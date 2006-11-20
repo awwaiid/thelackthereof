@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2006-11-19T23:12-05:00
-editedAt: 2007-08-13T15:47-04:00
+createdAt: 2006-08-22T11:42-04:00
+editedAt: 2006-11-19T23:12-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -306,10 +306,4 @@ h2 {
   display: inline;
 }
 
-.taglist {
-  font-size: 80%;
-  font-weight: bold;
-  margin-bottom: 1em;
-  font-style: italic;
-}
 
