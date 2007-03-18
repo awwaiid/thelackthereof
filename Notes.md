@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2007-03-18T14:17-04:00
-editedAt: 2007-08-20T12:24-04:00
+createdAt: 2006-11-19T23:06-05:00
+editedAt: 2007-03-18T14:17-04:00
 ---
 
 == New News Item ==
@@ -143,9 +143,4 @@ tah dah!
 Tags: fish, mouse, cat fish, fred
 
 this is a test
-
-----
-
-left:Miko_In_Window.jpg This is Miko in the window.
-
 
