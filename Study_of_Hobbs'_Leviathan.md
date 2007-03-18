@@ -1,13 +1,10 @@
 ---
 title: Study_of_Hobbs'_Leviathan
-createdAt: 2007-03-18T14:07-04:00
-editedAt: 2007-03-25T14:30-04:00
+createdAt: 2007-03-18T14:06-04:00
+editedAt: 2007-03-18T14:07-04:00
 ---
 
 We've started a book club to study political philosophy, and are starting with Hobbs. Here are some random notes.
-
-== Part I ==
-Mostly setup I think.
 
 === Chapter 6 ===
 Defines lots of vocabulary, including Good and Evil.
