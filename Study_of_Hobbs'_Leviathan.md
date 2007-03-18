@@ -1,7 +1,7 @@
 ---
 title: Study_of_Hobbs'_Leviathan
-createdAt: 2007-03-18T14:06-04:00
-editedAt: 2007-03-18T14:07-04:00
+createdAt: 2007-03-18T13:57-04:00
+editedAt: 2007-03-18T14:06-04:00
 ---
 
 We've started a book club to study political philosophy, and are starting with Hobbs. Here are some random notes.
@@ -26,6 +26,4 @@ Breaks down the areas of knowledge.
 
 === Chapter 10 ===
 Power is based on the ability to control people. Which is driven based on the people being controlled -- their willingness to be controlled.
-
-
 
