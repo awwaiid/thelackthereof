@@ -1,10 +1,15 @@
 ---
 title: Study_of_Hobbs'_Leviathan
-createdAt: 2007-03-18T13:29-04:00
-editedAt: 2007-03-18T13:57-04:00
+createdAt: 2007-03-25T14:30-04:00
+editedAt: 2007-03-25T14:30-04:00
 ---
 
+Moved to http://aspbc.42t.org/Brock
+
 We've started a book club to study political philosophy, and are starting with Hobbs. Here are some random notes.
+
+== Part I ==
+Mostly setup I think.
 
 === Chapter 6 ===
 Defines lots of vocabulary, including Good and Evil.
@@ -16,12 +21,16 @@ About the goals of discourse.
 
 Science vs Opinion.
 
-=== Chapter 8 ===
+Even opinion has some strucuture, but science has more.
 
+=== Chapter 8 ===
+Goes on and on about madness. One interesting thing is he talks about group-think -- a nation which is mad where the individuals are only a little mad.
 
 === Chapter 9 ===
-
+Breaks down the areas of knowledge.
 
 === Chapter 10 ===
-Power, hounour
+Power is based on the ability to control people. Which is driven based on the people being controlled -- their willingness to be controlled.
+
+
 
