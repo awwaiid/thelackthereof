@@ -1,10 +1,10 @@
 ---
 title: Comments_on_The_Lack_Thereof
-createdAt: 2007-03-31T00:27-04:00
-editedAt: 2007-04-14T18:00-04:00
+createdAt: 2007-03-30T21:08-04:00
+editedAt: 2007-03-31T00:27-04:00
 ---
 
-=== 19 Comments. ===
+=== 18 Comments. ===
 Please add comments (or just say hello) on the overall site here!
 ----
 Nobody loves me. *sniff*
@@ -141,14 +141,5 @@ You want your own website? I can hook you up.
 I'm actually suprised you bothered with myspace enough to put up a link to here... Here I thought you fell off the face of the earth.  I see I've been replaced by cats. - Schnebly
 
 -- schnebly 2007-03-31 01:08 UTC
-
-
-----
-
-Hi Schnebly! Nope... I'm pretty easy to find... as you can see by searching for [http://www.google.com/search?q=brock+wilcox Brock Wilcox] on google :)
-
-How are you doing? Don't know if you'll see this message... but you'd never be replaced by cats!
-
--- [http://thelackthereof.org/ awwaiid] 2007-03-31 04:27 UTC
 
 
