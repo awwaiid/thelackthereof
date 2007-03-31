@@ -1,10 +1,10 @@
 ---
 title: Comments_on_The_Lack_Thereof
-createdAt: 2007-03-30T21:08-04:00
-editedAt: 2007-03-31T00:27-04:00
+createdAt: 2005-07-05T23:52-04:00
+editedAt: 2007-03-30T21:08-04:00
 ---
 
-=== 18 Comments. ===
+=== 17 Comments. ===
 Please add comments (or just say hello) on the overall site here!
 ----
 Nobody loves me. *sniff*
@@ -134,12 +134,5 @@ hah. It was hard to make at the time but now its like sooooo easy that everyone 
 You want your own website? I can hook you up.
 
 -- awwaiid 2005-07-06 03:52 UTC
-
-
-----
-
-I'm actually suprised you bothered with myspace enough to put up a link to here... Here I thought you fell off the face of the earth.  I see I've been replaced by cats. - Schnebly
-
--- schnebly 2007-03-31 01:08 UTC
 
 
