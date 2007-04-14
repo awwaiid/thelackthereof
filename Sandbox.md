@@ -1,15 +1,8 @@
 ---
 title: Sandbox
-createdAt: 2007-04-14T13:23-04:00
+createdAt: 2006-05-24T19:16-04:00
 editedAt: 2007-04-14T13:23-04:00
 ---
-
-==== First Section ====
-This is a first section
-
-==== 2nd Section ====
-This is a second section
-
 
 A test page
 
