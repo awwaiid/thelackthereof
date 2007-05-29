@@ -1,7 +1,7 @@
 ---
 title: Finding_a_DC_Apartment
-createdAt: 2007-05-29T11:41-04:00
-editedAt: 2007-05-30T03:48-04:00
+createdAt: 2007-05-28T23:34-04:00
+editedAt: 2007-05-29T11:41-04:00
 ---
 
 This is for our DC apartment hunt.
@@ -43,16 +43,13 @@ looking at the place and possibly starting the process... will update
 [http://www.rent.com/rentals/washington-dc/washington-dc-and-vicinity/washington/dupont-circle/482926/?tab=overview Sixteen Hundred]
 1600 16th Street, NW
 Washington, DC 20009 
-rent.com phone number: (866) 579-1660 ext. 1400
-$1200/mo, available the 15th 
-Call Carla 202-667-6600
+(866) 579-1660 ext. 1400
 
 [http://www.rent.com/rentals/washington-dc/washington-dc-and-vicinity/washington/dupont-circle/601813/?tab=overview 1830 R Street NW Apartments]
 1830 R Street NW
 Washington, DC 20009 
 (866) 824-8389 ext. 6240
 Probably interested in a 1br, since these are very small and very cheap.
-
 
 [http://www.rent.com/rentals/washington-dc/washington-dc-and-vicinity/washington/dupont-circle/601817/?sp=1&searchrank=7 Rocksboro Apartments, LLC]
 1717 R Street NW
