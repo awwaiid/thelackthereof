@@ -1,7 +1,7 @@
 ---
 title: Finding_a_DC_Apartment
-createdAt: 2007-05-30T03:48-04:00
-editedAt: 2007-06-03T01:48-04:00
+createdAt: 2007-05-29T11:41-04:00
+editedAt: 2007-05-30T03:48-04:00
 ---
 
 This is for our DC apartment hunt.
@@ -24,9 +24,8 @@ Check out the [http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=102663918
 || Eval || Name                                || Address             || Size       || Price       || Notes ||
 ||      || [http://thewestpark.com/ West Park] || 2130 P Street 20037 || studio/1br || $1400/$1700 ||       ||
 
-http://washingtondc.craigslist.org/doc/apa/340351116.html
-1 bdrm in townhouse at fantastic 15th and Church Street location. Private entrance, good sunlight, located on 1st and 2nd floors. Walk to Whole Foods, Dupont and Logan Circles. Extra storage and laundry room on site. Pets Ok. $1350 plus electric, available any time. Call 202.329.9164 for appointment.
-15th Street, NW at Church Street, NW
+
+http://washingtondc.craigslist.org/doc/apa/338416610.html
 
 
 http://washingtondc.craigslist.org/doc/apa/339863362.html
@@ -41,6 +40,12 @@ Available June 1st. Call Dennis at 202-731-9559
 Elizabeth will be contacting Dennis again on Wednesday (5/30) to see about
 looking at the place and possibly starting the process... will update
 
+[http://www.rent.com/rentals/washington-dc/washington-dc-and-vicinity/washington/dupont-circle/482926/?tab=overview Sixteen Hundred]
+1600 16th Street, NW
+Washington, DC 20009 
+rent.com phone number: (866) 579-1660 ext. 1400
+$1200/mo, available the 15th 
+Call Carla 202-667-6600
 
 [http://www.rent.com/rentals/washington-dc/washington-dc-and-vicinity/washington/dupont-circle/601813/?tab=overview 1830 R Street NW Apartments]
 1830 R Street NW
@@ -55,17 +60,4 @@ Washington, DC 20009
 (866) 824-8373 ext. 5526
 Probably interested in a 1br, since these are very small and very cheap (like above).
 
-== Eliminated Apartments ==
-
-http://washingtondc.craigslist.org/doc/apa/338416610.html
-Barclay/Ravenel 
-pretty darn Bad reviews
-
-[http://www.rent.com/rentals/washington-dc/washington-dc-and-vicinity/washington/dupont-circle/482926/?tab=overview Sixteen Hundred]
-1600 16th Street, NW
-Washington, DC 20009 
-rent.com phone number: (866) 579-1660 ext. 1400
-$1200/mo, available the 15th 
-Call Carla 202-667-6600
-Roach Infested (bad reviews)
 
