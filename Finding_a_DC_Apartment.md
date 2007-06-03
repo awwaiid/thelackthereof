@@ -1,7 +1,7 @@
 ---
 title: Finding_a_DC_Apartment
-createdAt: 2007-06-03T01:48-04:00
-editedAt: 2011-11-21T23:44-05:00
+createdAt: 2007-05-30T03:48-04:00
+editedAt: 2007-06-03T01:48-04:00
 ---
 
 This is for our DC apartment hunt.
@@ -54,41 +54,6 @@ Probably interested in a 1br, since these are very small and very cheap.
 Washington, DC 20009 
 (866) 824-8373 ext. 5526
 Probably interested in a 1br, since these are very small and very cheap (like above).
-
-
-== Possibilities Added By Elizabeth ==
-
-http://washingtondc.craigslist.org/doc/apa/340793871.html
-
-$1200 Nice size efficiency for June 9th
-Reply to: hous-340793871@craigslist.org
-Date: 2007-05-30, 1:54PM EDT
-Great size efficiency for $1200.00 all utilities included, hardwood floors, central air and heating, newly renovated kitchen, large walk in closet and cable/Internet ready.
-Our community offers 24 hour front desk, 24 hour emergency maintenance, controlled access and 24 hour laundry. 1600 is located on the corner of 16th and Q minutes from shopping and the red line DuPont Circle metro station.
-For more information or to schedule viewing please contact our office 202/667-6600.
-	
-1600 16th st. at 16 and Q   
-    * cats are OK - purrr
-__________________________________________________________________
-http://washingtondc.craigslist.org/doc/apa/338620456.html
-
-$1700 / 1br - Huge SUN! It's GORGEOUS! in the IOWA. Open House SUN
-Reply to: wardenstaci@yahoo.com
-Date: 2007-05-26, 4:03AM EDT
-Beautiful, southern-facing one bedroom with huge sun in the highly sought after Iowa condominium. I truly loved this apartment.
-    OPEN HOUSE SUNDAY, May 26, from 1:00 - 3:00.
-    ADDRESS: 1325 13th st., NW, #404 (13th and O). Code = #4040.
-Incredibly sunny, beautiful place with hardwoods and tile. All new appliances; washer-dryer and dishwasher in the unit; beautiful cabinets; huge walk-in closet; lots of shelves in bathroom. It is very nicely appointed as I renovated it to live there myself, until transferred out of DC.
-
-The location is fabulous. Steps to 14th street, with the Whole Foods, great bars and restaurants and funky shops. I walked to Dupont Metro to work, no problem (about 6-8 long blocks I think)
-
-If you want more information you can email me on wardenstaci@yahoo.com or email my current tenants c/o Sarah at sarashon@gmail.com. You can also email her if you can't make the open house and need a private showing.
-
-    Available: Monday, June 4th
-    13th St, NW at O st., NW   
-    * cats are OK - purrr    
-______________________________________________________________
-
 
 == Eliminated Apartments ==
 
