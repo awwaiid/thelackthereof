@@ -1,10 +1,10 @@
 ---
 title: Comments_on_TLT_-_2006.07.19_-_Vegetable_Thin_Lament
 createdAt: 2007-06-18T12:05-04:00
-editedAt: 2007-06-21T16:15-04:00
+editedAt: 2007-06-18T12:05-04:00
 ---
 
-=== 16 Comments. ===
+=== 15 Comments. ===
 just cut it in half... then, in half again
 
 -- [http://www.weekendcrew.com mike] 2006-07-28 14:44 UTC
@@ -848,35 +848,6 @@ Somewhere out there a Wheat Thins freak is going to start complaining about how 
 <a href= " http://chinesefreewebs.com/dybupise/index.htm ">gestione dei solleciti pagamento</a>
 
 -- [http://chinesefreewebs.com/pajaze/index.htm  pajaze] 2007-06-17 22:33 UTC
-
-
-----
-
-<a href= " http://chinesefreewebs.com/myvyxe/index.htm ">capitolo bilancio ministero pubblica istruzione</a>
-<a href= " http://chinesefreewebs.com/gulusezati/index.htm ">vendita abbigliamento pelle ingrosso napoli provincia</a>
-<a href= " http://chinesefreewebs.com/gafodo/index.htm ">allergia pelle</a>
-<a href= " http://chinesefreewebs.com/izuhasokap/index.htm ">sito scaricare musica</a>
-<a href= " http://chinesefreewebs.com/hutisufy/index.htm ">corso di tango a torino</a>
-<a href= " http://chinesefreewebs.com/mekymyjawu/index.htm ">midi blue tango</a>
-<a href= " http://chinesefreewebs.com/foxebofuno/index.htm ">agriturismo tramonti</a>
-<a href= " http://chinesefreewebs.com/hoqabo/index.htm ">sotto mini gonna</a>
-<a href= " http://chinesefreewebs.com/fowaty/index.htm ">togliere cemento mattonella</a>
-<a href= " http://chinesefreewebs.com/ozyhev/index.htm ">nemo da colorare</a>
-<a href= " http://chinesefreewebs.com/wejawuki/index.htm ">operazioni straordinaria fusione</a>
-<a href= " http://chinesefreewebs.com/esegyf/index.htm ">omsa calza</a>
-<a href= " http://chinesefreewebs.com/gipapexi/index.htm ">perizoma sotto gonna</a>
-<a href= " http://chinesefreewebs.com/ewixenijov/index.htm ">hotel rivalta di torino</a>
-<a href= " http://chinesefreewebs.com/apilujivet/index.htm ">brandy didder</a>
-<a href= " http://chinesefreewebs.com/uwaxufunal/index.htm ">orario centro vulcano</a>
-<a href= " http://chinesefreewebs.com/isagufyb/index.htm ">nao yamada</a>
-<a href= " http://chinesefreewebs.com/vovyluri/index.htm ">vende</a>
-<a href= " http://chinesefreewebs.com/qucybofujy/index.htm ">hotel interporto rivalta torino</a>
-<a href= " http://chinesefreewebs.com/kikofawu/index.htm ">yasaka</a>
-<a href= " http://chinesefreewebs.com/wynagyqyqi/index.htm ">gossip american star</a>
-<a href= " http://chinesefreewebs.com/wixavyba/index.htm ">fondazione monte dei paschi</a>
-<a href= " http://chinesefreewebs.com/ofozezix/index.htm ">music ambient</a>
-
--- [http://chinesefreewebs.com/qucybofujy/ ybofujy] 2007-06-18 16:05 UTC
 
 
 ----
