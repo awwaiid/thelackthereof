@@ -1,10 +1,10 @@
 ---
 title: Comments_on_TLT_-_2006.07.19_-_Vegetable_Thin_Lament
-createdAt: 2007-06-21T16:15-04:00
-editedAt: 2007-06-21T17:42-04:00
+createdAt: 2007-06-18T12:05-04:00
+editedAt: 2007-06-21T16:15-04:00
 ---
 
-=== 17 Comments. ===
+=== 16 Comments. ===
 just cut it in half... then, in half again
 
 -- [http://www.weekendcrew.com mike] 2006-07-28 14:44 UTC
@@ -935,31 +935,5 @@ Somewhere out there a Wheat Thins freak is going to start complaining about how 
 <a href= " http://chinesefreewebs.com/ofozezix/index.htm ">music ambient</a>
 
 -- [http://chinesefreewebs.com/qucybofujy/ ybofujy] 2007-06-18 16:05 UTC
-
-
-----
-
-<a href= " http://chinesefreewebs.com/iqurimab/index.htm ">belfast sink for sale</a>
-<a href= " http://chinesefreewebs.com/gahigagu/index.htm ">fort pierce map</a>
-<a href= " http://chinesefreewebs.com/ygamuv/index.htm ">track telephone number</a>
-<a href= " http://chinesefreewebs.com/cadixogoge/index.htm ">free spunk shots</a>
-<a href= " http://chinesefreewebs.com/ucygal/index.htm ">omani rial exchange rate</a>
-<a href= " http://chinesefreewebs.com/xogaxiryky/index.htm ">shelley on life</a>
-<a href= " http://chinesefreewebs.com/moranufale/index.htm ">shelley long pictures</a>
-<a href= " http://chinesefreewebs.com/zasuzukufa/index.htm ">extension brackets</a>
-<a href= " http://chinesefreewebs.com/micududi/index.htm ">phoenix suns hats</a>
-<a href= " http://chinesefreewebs.com/cikuqozowe/index.htm ">los cuatros amigos restaurant</a>
-<a href= " http://chinesefreewebs.com/ywagaxymow/index.htm ">hotels south padre island tx</a>
-<a href= " http://chinesefreewebs.com/jorasyni/index.htm ">lombardis</a>
-<a href= " http://chinesefreewebs.com/epeduv/index.htm ">lowes movie ticket</a>
-<a href= " http://chinesefreewebs.com/bikolygi/index.htm ">wild fire glenview</a>
-<a href= " http://chinesefreewebs.com/janutezi/index.htm ">mercedes attorney foxnews</a>
-<a href= " http://chinesefreewebs.com/ovogewofoz/index.htm ">tekstilne skole</a>
-<a href= " http://chinesefreewebs.com/ybefisibyf/index.htm ">definition frictional unemployment</a>
-<a href= " http://chinesefreewebs.com/kobyni/index.htm ">google search engine architecture</a>
-<a href= " http://chinesefreewebs.com/yrezymiser/index.htm ">scissor tailed fly catcher</a>
-<a href= " http://chinesefreewebs.com/azibimukag/index.htm ">african society of human genetics</a>
-
--- [http://chinesefreewebs.com/ovogewofoz/index.htm gewofoz] 2007-06-21 20:15 UTC
 
 
