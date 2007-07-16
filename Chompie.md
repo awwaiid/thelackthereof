@@ -1,6 +1,6 @@
 ---
 title: Chompie
-createdAt: 2007-07-15T22:57-04:00
+createdAt: 2007-07-15T22:59-04:00
 editedAt: 2007-07-15T22:59-04:00
 ---
 
@@ -10,7 +10,6 @@ The goal is to automate a specific type of debugging. After you get tired of spr
 
 Chompie is an automated way to do this last type of debugging. You give it a file and a tester. It will chomp down on your pogram until it's gotten the smallest thing it can while still having the same result from your tester.
 
-See project:perl/chompie
-
+darcs get http://thelackthereof.org/projects/perl/chompie/
 
 
