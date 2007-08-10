@@ -1,10 +1,10 @@
 ---
 title: SandBox
-createdAt: 2007-08-10T19:44-04:00
-editedAt: 2007-08-10T19:46-04:00
+createdAt: 2007-08-10T19:43-04:00
+editedAt: 2007-08-10T19:44-04:00
 ---
 
-Tags: Test, Tagging Demo, Blah
+Tags: Test, Tagging, Blah
 
 This is the SandBox! Please edit this page so you can learn a little about how a wiki works. You can also check out the [[Text Formatting Rules]].
 
