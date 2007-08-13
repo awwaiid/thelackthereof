@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2007-08-13T15:47-04:00
-editedAt: 2007-08-25T02:30-04:00
+createdAt: 2006-11-19T23:12-05:00
+editedAt: 2007-08-13T15:47-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -293,14 +293,6 @@ p {
   margin-bottom: 1em;
 }
 
-/*.content p:first-child:first-letter,*/
-.journalBody p:first-child:first-letter {
-  font-size:3em; 
-  float:left;
-  color:#aaa;   
-  padding: 2px;
-  padding-right: 4px;
-}
 
 h2 + br, h3 + br {
   display: none;
