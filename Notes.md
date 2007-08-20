@@ -1,10 +1,8 @@
 ---
 title: Notes
-createdAt: 2007-08-20T12:24-04:00
-editedAt: 2007-08-27T12:00-04:00
+createdAt: 2007-03-18T14:17-04:00
+editedAt: 2007-08-20T12:24-04:00
 ---
-
-[http://www.amazon.com/gp/registry/wishlist/1N05N79GCH3EG My Amazon Wish List]
 
 == New News Item ==
 
