@@ -1,7 +1,7 @@
 ---
 title: SandBox
-createdAt: 2007-08-20T07:24-04:00
-editedAt: 2007-08-20T07:25-04:00
+createdAt: 2007-08-10T19:46-04:00
+editedAt: 2007-08-20T07:24-04:00
 ---
 
 Tags: Test, Tagging Demo, Blah
@@ -12,5 +12,4 @@ To get you started, here is [[a link to a new page]]. You just surround your lin
 
 Really. Try it out. Down there at the bottom... the "Edit text of this page" link.
 
-<include http://thelackthereof.org/pics/tao.png>
 
