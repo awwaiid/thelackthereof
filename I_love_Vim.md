@@ -1,6 +1,6 @@
 ---
 title: I_love_Vim
-createdAt: 2003-12-23T03:44-05:00
+createdAt: 2007-08-23T14:20-04:00
 editedAt: 2007-08-23T14:20-04:00
 ---
 
@@ -10,4 +10,5 @@ Vim is an improved clone of vi (see [http://www.vim.org/ vim.org]) which is free
 
 I won't go into a holy-war rant on this one because, well, I just like vim better and don't really care about emacs or others. I don't hate them. I don't want to recruit people. I just love vim.
 
+You should check out my [[Vim Configuration]]!
 
