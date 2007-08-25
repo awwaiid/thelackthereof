@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2007-08-25T03:08-04:00
-editedAt: 2007-08-25T03:11-04:00
+createdAt: 2007-08-25T02:53-04:00
+editedAt: 2007-08-25T03:08-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -326,12 +326,5 @@ h1.home a {
 
 h1.home {
   border-color: #000;
-}
-
-
-.journal {
-  float: right;
-  position: relative;
-   margin-top: -5em;
 }
 
