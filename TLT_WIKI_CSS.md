@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2007-08-25T02:30-04:00
-editedAt: 2007-08-25T02:38-04:00
+createdAt: 2007-08-13T15:47-04:00
+editedAt: 2007-08-25T02:30-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -161,7 +161,7 @@ div.journal h1 {
   margin-bottom: 0.5em;
   margin-top: 1em;
   padding-top: 1em;
-  padding-left: 0px;
+  padding-left: 5px;
   border-color: #747477;
   border-style: solid;
   border-width: 0px 0px 1px 0px;
@@ -293,6 +293,15 @@ p {
   margin-bottom: 1em;
 }
 
+/*.content p:first-child:first-letter,*/
+.journalBody p:first-child:first-letter {
+  font-size:3em; 
+  float:left;
+  color:#aaa;   
+  padding: 2px;
+  padding-right: 4px;
+}
+
 h2 + br, h3 + br {
   display: none;
 }
@@ -311,9 +320,4 @@ h2 {
   margin-bottom: 1em;
   font-style: italic;
 }
-
-.journal .date {
-  float: right;
-}
-
 
