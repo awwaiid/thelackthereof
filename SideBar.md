@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2007-08-25T23:36-04:00
-editedAt: 2007-08-25T23:38-04:00
+createdAt: 2006-11-17T18:06-05:00
+editedAt: 2007-08-25T23:36-04:00
 ---
 
 === Navigation ===
@@ -10,15 +10,14 @@ editedAt: 2007-08-25T23:38-04:00
 * [[Docs]]
 * [[Links]]
 * [[Notes]]
-* http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/blog.rss Blog RSS Feed]
-* http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/wiki.rss Site RSS Feed]
-
 
 === Linked Pages ===
 <reflist>
 
 === Current Projects ===
 * [[Continuity]]
+* [[Census Data Extraction]]
+* [[Polly]]
 * [[EPFarms Panel]]
 
 === Recent Entries ===
