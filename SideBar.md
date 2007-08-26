@@ -1,7 +1,7 @@
 ---
 title: SideBar
 createdAt: 2007-08-26T01:11-04:00
-editedAt: 2007-08-26T20:35-04:00
+editedAt: 2007-08-26T01:11-04:00
 ---
 
 === Navigation ===
@@ -20,10 +20,10 @@ editedAt: 2007-08-26T20:35-04:00
 
 === Recent Entries ===
 <headlines>
+* http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/blog.rss Blog RSS Feed]
 
 <SimpleChanges>[[Changes|... more changes]]
 * http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/wiki.rss Site RSS Feed]
-* http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/blog.rss Blog RSS Feed]
 
 <h3>[http://thelackthereof.org/wiki.pl/TLT TLT]</h3><Calendar>
 
