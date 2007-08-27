@@ -1,10 +1,10 @@
 ---
 title: Home
-createdAt: 2007-08-26T22:07-04:00
-editedAt: 2008-05-12T23:19-04:00
+createdAt: 2007-08-26T22:06-04:00
+editedAt: 2007-08-26T22:07-04:00
 ---
 
-http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/blog.rss Blog Feed] &nbsp; &nbsp; http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/wiki.rss Site Feed] &nbsp; &nbsp; http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/projects.rss Project Update (darcs) Feed]
+http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/blog.rss Blog RSS Feed] &nbsp; &nbsp; http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/wiki.rss Site RSS Feed] &nbsp; &nbsp; http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/projects.rss Projects (darcs) RSS Feed]
 <journal 5 "^TLT_-_">
 
 ----
