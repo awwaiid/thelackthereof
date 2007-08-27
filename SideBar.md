@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2007-08-26T20:35-04:00
-editedAt: 2009-02-28T19:53-05:00
+createdAt: 2007-08-26T01:11-04:00
+editedAt: 2007-08-26T20:35-04:00
 ---
 
 === Navigation ===
@@ -10,6 +10,9 @@ editedAt: 2009-02-28T19:53-05:00
 * [[Docs]]
 * [[Links]]
 * [[Notes]]
+
+=== Linked Pages ===
+<reflist>
 
 === Current Projects ===
 * [[Continuity]]
