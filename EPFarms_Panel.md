@@ -1,11 +1,8 @@
 ---
 title: EPFarms_Panel
-createdAt: 2007-08-27T09:11-04:00
+createdAt: 2005-04-27T01:18-04:00
 editedAt: 2007-08-27T09:11-04:00
 ---
-
-== Recent Development Feed ==
-<rss http://thelackthereof.org/darcs-rss/perl-EPFarms-Panel.rss>
 
 == Structure ==
 The panel is built around [[Contize]] (and eventually [[Continuity]]), which gives the whole thing a completely different feel, programming-wise, from other web-based applications. The goal is to remove the obsessive state management from the programmer's tasks and transfer the task back to the language. Instead of the programmer keeping track of the current state in a variable, for example, the current place of execution in the code ''is'' the current state of the program. Since this project was created I started [[Continuity]], so someday the panel will move to use that (and will thus be a little cleaner).
