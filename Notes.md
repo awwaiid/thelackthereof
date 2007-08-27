@@ -1,15 +1,8 @@
 ---
 title: Notes
-createdAt: 2007-08-27T12:00-04:00
-editedAt: 2007-09-28T11:09-04:00
+createdAt: 2007-08-20T12:24-04:00
+editedAt: 2007-08-27T12:00-04:00
 ---
-
-
-Put this in your .screenrc and your terminal's normal scrollback will work for the screen history! WOOT!!!
-
-<code>
-termcapinfo * ti@:te@
-</code>
 
 [http://www.amazon.com/gp/registry/wishlist/1N05N79GCH3EG My Amazon Wish List]
 
