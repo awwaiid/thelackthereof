@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2007-08-30T14:46-04:00
-editedAt: 2008-05-26T18:56-04:00
+createdAt: 2007-08-25T21:14-04:00
+editedAt: 2007-08-30T14:46-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -318,8 +318,7 @@ h2 {
   font-style: italic;
 }
 
-h1 span.date,
-.journal span.date {
+.journal .date {
   float: right;
 }
 
