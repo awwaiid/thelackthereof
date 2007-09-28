@@ -1,8 +1,9 @@
 ---
 title: Notes
-createdAt: 2007-09-28T11:09-04:00
-editedAt: 2007-10-01T23:27-04:00
+createdAt: 2007-08-27T12:00-04:00
+editedAt: 2007-09-28T11:09-04:00
 ---
+
 
 Put this in your .screenrc and your terminal's normal scrollback will work for the screen history! WOOT!!!
 
@@ -156,7 +157,4 @@ this is a test
 
 left:Miko_In_Window.jpg This is Miko in the window.
 
-----
-
-Random thought: Evolved programs work mostly through side-affects. Same is true of evolved biological systems... need to be analyzed not based on intent but rather on influence. What parts of this process can _possibly_ affect this other process?
 
