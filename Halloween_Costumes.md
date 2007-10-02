@@ -1,7 +1,7 @@
 ---
 title: Halloween_Costumes
-createdAt: 2007-10-02T10:35-04:00
-editedAt: 2010-10-29T13:39-04:00
+createdAt: 2007-10-02T07:22-04:00
+editedAt: 2007-10-02T10:35-04:00
 ---
 
 I never want to be the same thing twice... so:
@@ -14,7 +14,7 @@ I never want to be the same thing twice... so:
 * 2001 -
 * 2000 -
 * 1999 - Eggplant
-* 1998 - ... nothing? ... went to a party
+* 1998 -
 * 1997 -
 * 1996 -
 * 1995 - 
@@ -27,14 +27,11 @@ I never want to be the same thing twice... so:
 * 1988 - 
 * 1987 - 
 * 1986 - 
-* 1985 - WWHH-I? - 
+* 1985 - 
 * 1984 - 
 * 1983 - 
 * 1982 - 
-* 1981 - too young? I was zero years old.
+* 1981 - too young?
 
 Robot, Turtle, Zorro.
-
-WWHH -- [[Wilcox Waddell Halloween Hayride]]
-
 
