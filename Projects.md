@@ -1,7 +1,7 @@
 ---
 title: Projects
-createdAt: 2007-11-15T23:08-05:00
-editedAt: 2007-12-17T00:30-05:00
+createdAt: 2007-07-29T22:51-04:00
+editedAt: 2007-11-15T23:08-05:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
@@ -14,7 +14,6 @@ If you were to ask me what I'm working on right now, I might say one of these.
 * [[Chompie]] - Chop a program to pieces
 * [[Oddmuse Editfile]] - Edit a file (especially perl) through oddmuse
 * [[JQuery Autoindent]] - I've always wanted a textbox that auto-indents
-* [[MobileFS]] - Fuse filesystem to cache files for mobile reading
 
 == Backburner ==
 If you had asked me what I was working on last week, or if you ask me next week, I might mention one of these.
