@@ -1,6 +1,6 @@
 ---
 title: Projects
-createdAt: 2007-12-17T00:30-05:00
+createdAt: 2007-11-15T23:08-05:00
 editedAt: 2007-12-17T00:30-05:00
 ---
 
@@ -15,7 +15,6 @@ If you were to ask me what I'm working on right now, I might say one of these.
 * [[Oddmuse Editfile]] - Edit a file (especially perl) through oddmuse
 * [[JQuery Autoindent]] - I've always wanted a textbox that auto-indents
 * [[MobileFS]] - Fuse filesystem to cache files for mobile reading
-* [[dot2html]] - Convert graphviz files to HTML and Javascript
 
 == Backburner ==
 If you had asked me what I was working on last week, or if you ask me next week, I might mention one of these.
