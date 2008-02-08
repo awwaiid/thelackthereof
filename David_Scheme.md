@@ -1,7 +1,7 @@
 ---
 title: David_Scheme
-createdAt: 2008-02-07T22:01-05:00
-editedAt: 2008-02-07T22:17-05:00
+createdAt: 2008-02-07T21:55-05:00
+editedAt: 2008-02-07T22:01-05:00
 ---
 
 <code>
@@ -54,18 +54,23 @@ editedAt: 2008-02-07T22:17-05:00
           (merge (mergesort (car splits)) (mergesort (cadr splits)))))))
 ; ***** END PROVIDED CODE *****
 
+; The splitter could either be unstable, reverse a list, or do a
+; length check, right?  Since reversing a list is no faster than
+; finding the length of a list, I made the merge sort unstable.
 (define splitter
   (lambda (inputlist)
-    (cdr (splitter-recurse 0 inputlist))))
-
-(define splitter-recurse
-  (lambda (depth inputlist)
-    (if (null? inputlist)
-        (list depth '() '())
-        (let ((recursion (splitter-recurse (+ depth 1) (cdr inputlist))))
-          (if (> depth 1)
-              (list (- (car recursion) 2) (cons (car inputlist) (cadr recursion)) '())
-              (list '0 (cadr recursion) (cons (car inputlist) (caddr recursion))))))))
+    ; Our terminating case is 0 or 1 items.
+    (cond
+      ((null? inputlist)
+          (list '() '()))
+      ((null? (cdr inputlist))    
+          (list inputlist '()))
+      (else
+          ; The return value is funky since it's nested, let's put it
+          ; in a let so we can mess with its pieces.
+          (let ((recursion (splitter (cddr inputlist))))
+            (list (cons (car inputlist) (car recursion))
+              (cons (cadr inputlist) (cadr recursion))))))))
 
 (define merge
   (lambda (list1 list2)
