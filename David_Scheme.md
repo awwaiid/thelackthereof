@@ -1,7 +1,7 @@
 ---
 title: David_Scheme
-createdAt: 2008-02-07T23:52-05:00
-editedAt: 2008-02-07T23:59-05:00
+createdAt: 2008-02-07T23:30-05:00
+editedAt: 2008-02-07T23:52-05:00
 ---
 
 <code>
@@ -176,31 +176,15 @@ editedAt: 2008-02-07T23:59-05:00
 (define ttplay
   (lambda (gamepiece rownum colnum)
     (if (checkposition rownum colnum)
-        (let ((trash (set! ttboard
-          (cond
-            ; I hate to abuse cond like this, but 3x3 is not worth recursing!
-            ((eq? rownum 1)
-                (list (rowplaypiece gamepiece colnum (car ttboard)) (cadr ttboard) (caddr ttboard)))
-            ((eq? rownum 2)
-                (list (car ttboard) (rowplaypiece gamepiece colnum (cadr ttboard)) (caddr ttboard)))
-            (else
-                (list (car ttboard) (cadr ttboard) (rowplaypiece gamepiece colnum (caddr ttboard))))))))
-          (ttstat))
+        (set! ttboard (cond
+          ; I hate to abuse cond like this, but 3x3 is not worth recursing!
+          ((eq? rownum 1)
+              ())
+          ((eq? rownum 2)
+              ())
+          (else
+              ())))
         (display "Can't place a piece there! Try again!"))))
-
-; Plays a piece on a particular column.
-; Takes in the piece, the column number, and the whole row.
-; Returns the new row with the piece in place.
-(define rowplaypiece
-  (lambda (gamepiece colnum rowtochange)
-    (cond
-      ; I hate to abuse cond like this, but 3x3 is not worth recursing!
-      ((eq? colnum 1)
-          (cons gamepiece (cdr rowtochange)))
-      ((eq? colnum 2)
-          (list (car rowtochange) gamepiece (cddr rowtochange)))
-      (else
-          (list (car rowtochange) (cadr rowtochange) gamepiece)))))
 
 ; ---------------------------------------------
 ; Some of the code below is based on work by individuals
