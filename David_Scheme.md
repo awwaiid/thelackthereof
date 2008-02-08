@@ -1,7 +1,7 @@
 ---
 title: David_Scheme
-createdAt: 2008-02-07T23:00-05:00
-editedAt: 2008-02-07T23:29-05:00
+createdAt: 2008-02-07T22:41-05:00
+editedAt: 2008-02-07T23:00-05:00
 ---
 
 <code>
@@ -188,86 +188,24 @@ editedAt: 2008-02-07T23:29-05:00
   (lambda (name expect actual)
     (string-append name " ... "
       (if (equal? expect actual)
-          "OK"
-          "Fail"
+          "pass"
+          "fail"
       )
     )
   )
 )
 
-(define x '(1 2 3 4 5 6 7 8 9 10))
-
-(define y '(((a) b) (c d (d (f g) h)) i))
-
-(test "Eck ndelete 1" '(1 2 4 5 7 8 10)
-      (ndelete x 3))
-
-(test "Eck ndelete 2" '(1 2 3 4 5 6 7 8 9 10)
-      (ndelete x 222))
-
-(test "Eck ndelete 3" '(((a) b) i)
-      (ndelete y 2))
-
-(test "ndelete every 3rd" '(a c e)
+(test "ndelete ever 3rd" '(a c e)
   (ndelete '(a b c d e f) 2))
 
 (test "ndelete too big" '(a b c d e f)
       (ndelete '(a b c d e f) 7))
 
-(test "Eck deep-member? 1" (deep-member? 3 x) #t)
-
-(test "Eck deep-member? 2" (deep-member? 444 x) #f)
-
-(test "Eck deep-member? 3" (deep-member? 'f y) #t)
-
-(test "Eck deep-member? 4" (deep-member? 'foo y) #f)
-
-(define z (steamroller x))
-
-(test "Eck steamroller 1 (broken)" z '(a f c d f g e g h e g e e))
-
-(test "Eck splitter 1 (broken)" (splitter z) '((a f c d f g e) (g h e g e e)))
-
-(test "Eck splitter 2" (splitter '(a) ) '((a) ()))
-
 (test "simple split" '((a b c) (d e f))
       (splitter '(a b c d e f)))
 
-(test "uneven split" '((a b c) (d e))
-      (splitter '(a b c d e)))
-
 (test "example split" '((a f c d f g e) (g h e g e e))
       (splitter '(a f c d f g e g h e g e e)))
-
-(define x '(1 3 5 7 9))
-(define y '(2 4 6 8 10))
-
-(test "Eck merge 1" (merge x y) '(1 2 3 4 5 6 7 8 9 10))
-
-(define x1 '(12 23 2 5 64 23 6756 234 2 42 535))
-
-(test "Eck mergesort 1" (mergesort x1) '(2 2 5 12 23 23 42 64 234 535 6756))
-
-(define x2 '(how does he do that cool stuff?))
-(define x3 '(I can "go" 4 "about" 123 sodas k?))
-
-(test "Eck mergesort 2" (mergesort x2) '(cool do does he how stuff? that))
-
-(test "Eck mergesort 3" (mergesort x3) '(4 123 "about" can "go" i k? sodas))
-
-(define temp '((name: addtwo) (args: x) (body: (+ x 2)))) 
-(fn-maker temp)    
-
-(test "Eck func maker 1" (addtwo 5) 7)
-
-(define test-spec
-  '((name: mult-sum-three) (args: x y z) (body: (* (+ x y z) 3))))
-(fn-maker test-spec)
-
-(test "Eck func maker 2" (mult-sum-three 1 2 3) 18)
-
-
-
 
 </code>
 
