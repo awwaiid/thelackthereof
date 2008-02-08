@@ -1,7 +1,7 @@
 ---
 title: David_Scheme
-createdAt: 2008-02-07T21:55-05:00
-editedAt: 2008-02-07T22:01-05:00
+createdAt: 2008-02-07T21:17-05:00
+editedAt: 2008-02-07T21:55-05:00
 ---
 
 <code>
@@ -110,30 +110,6 @@ editedAt: 2008-02-07T22:01-05:00
   (lambda (fn-spec)
     (let ((name (cadar fn-spec)) (params (cdadr fn-spec)) (body (cdaddr fn-spec)))
       (eval `(define ,name (lambda ,params ,@body))))))
-
-; ---------------------------------------------
-
-; Test Suite!
-
-(define test
-  (lambda (name expect actual)
-    (string-append name " ... "
-      (if (equal? expect actual)
-          "pass"
-          "fail"
-      )
-    )
-  )
-)
-
-(test "ndelete ever 3rd" '(a c e)
-  (ndelete '(a b c d e f) 2))
-
-(test "ndelete too big" '(a b c d e f)
-      (ndelete '(a b c d e f) 7))
-
-(test "simple split" '((a b c) (d e f))
-      (splitter '(a b c d e f)))
 
 </code>
 
