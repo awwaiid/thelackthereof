@@ -1,11 +1,10 @@
 ---
 title: David_Scheme
-createdAt: 2008-02-07T22:41-05:00
-editedAt: 2008-02-07T23:00-05:00
+createdAt: 2008-02-07T22:17-05:00
+editedAt: 2008-02-07T22:41-05:00
 ---
 
 <code>
-; ---------------------------------------------
 ; Part I
 
 (define ndelete
@@ -104,7 +103,6 @@ editedAt: 2008-02-07T23:00-05:00
       (else
           (cons (car list1) (merge (cdr list1) list2))))))
 
-; ---------------------------------------------
 ; Part II
 
 ; Yay4Metaquoting
@@ -114,73 +112,6 @@ editedAt: 2008-02-07T23:00-05:00
       (eval `(define ,name (lambda ,params ,@body))))))
 
 ; ---------------------------------------------
-; Part III
-
-; ***** PROVIDED CODE *****
-
-;; Simply checks to make sure a proposed placement position is on the board and not occupied. Returns false if 
-;; the proposed position won't work.
-(define checkposition
-  (lambda (xpos ypos)
-    (not (or (invalid? xpos) (invalid? ypos) 
-             (not (eq? (nth (nth ttboard ypos) xpos) '_)) ))))
-
-;; Just a little helper function to check to see if an x,y position is even on the board.
-(define invalid?
-  (lambda (pos)
-    (if (or (< pos 1) (> pos 3))
-        #t
-        #f)))
-
-;; Helper function.  Returns nth element in an input list.
-(define nth 
-  (lambda (alist num)
-    (if (eq? num 1) (car alist) (nth (cdr alist) (- num 1)))))
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Here is my skeleton for checkwin.  You can decide whether you want to use it or not.  The bottom
-;; line is that we need a way to check rows, cols, diags in the board --- and yet only rows are easily
-;; accessible in our board represention.   The answer: build yourself linear reprs
-;; of cols and diags first, then check to see if there is a "win" along any of them!  
-;; So make-cols makes me a list of the cols; make-diags makes me a list of the diags.  I then just
-;; check each for winner (all x's or all o's) and or the result together.  If one of the results is positive,
-;; it returns the symbol (x or o) for which it was positive.  Hence whole function returns #f (no winner) or the
-;; winning symbol!
-(define checkwin
-  (lambda ()
-    (let ((rows ttboard)
-          (cols (make-cols))
-          (diags (make-diags)))
-      (or (findwinners rows) (findwinners cols) (findwinners diags)))))
-
-; ***** END PROVIDED CODE *****
-
-(define ttboard '((_ _ _) (_ _ _) (_ _ _)))
-
-(define ttnew-game
-  (lambda ()
-    (set! ttboard '((_ _ _) (_ _ _) (_ _ _)))))
-
-(define ttstat
-  (lambda ()
-    (begin 
-      ; I feel so dirty.
-      (display (car ttboard))
-      (display "\n")
-      (display (cadr ttboard))
-      (display "\n")
-      (display (caddr ttboard)))
-      (display "\n")
-    ttboard))
-
-(define ttplay
-  (lambda (gamepiece rownum colnum)
-    ))
-
-; ---------------------------------------------
-; Some of the code below is based on work by individuals
-; other than the author, David E Smith.  However, it is 
-; believed that this code is highly cursory in nature.
 
 ; Test Suite!
 
@@ -203,9 +134,6 @@ editedAt: 2008-02-07T23:00-05:00
 
 (test "simple split" '((a b c) (d e f))
       (splitter '(a b c d e f)))
-
-(test "example split" '((a f c d f g e) (g h e g e e))
-      (splitter '(a f c d f g e g h e g e e)))
 
 </code>
 
