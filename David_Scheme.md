@@ -1,7 +1,7 @@
 ---
 title: David_Scheme
-createdAt: 2008-02-07T22:17-05:00
-editedAt: 2008-02-07T22:41-05:00
+createdAt: 2008-02-07T22:01-05:00
+editedAt: 2008-02-07T22:17-05:00
 ---
 
 <code>
@@ -58,19 +58,14 @@ editedAt: 2008-02-07T22:41-05:00
   (lambda (inputlist)
     (cdr (splitter-recurse 0 inputlist))))
 
-; We need to track the depth as we recurse into the list.
-; Then, as we come back out, count twice as fast.  When we
-; reach 0, time to switch lists.
 (define splitter-recurse
   (lambda (depth inputlist)
-    ; Terminating case is null input, return how deep we are.
     (if (null? inputlist)
         (list depth '() '())
         (let ((recursion (splitter-recurse (+ depth 1) (cdr inputlist))))
-          ; Are we building on the left or the right?
-          (if (> (car recursion) 1)
-              (list (- (car recursion) 2) '() (cons (car inputlist) (caddr recursion)))
-              (list 0 (cons (car inputlist) (cadr recursion)) (caddr recursion)))))))
+          (if (> depth 1)
+              (list (- (car recursion) 2) (cons (car inputlist) (cadr recursion)) '())
+              (list '0 (cadr recursion) (cons (car inputlist) (caddr recursion))))))))
 
 (define merge
   (lambda (list1 list2)
