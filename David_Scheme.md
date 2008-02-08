@@ -1,7 +1,7 @@
 ---
 title: David_Scheme
-createdAt: 2008-02-08T00:09-05:00
-editedAt: 2008-02-08T01:32-05:00
+createdAt: 2008-02-08T00:06-05:00
+editedAt: 2008-02-08T00:09-05:00
 ---
 
 <code>
@@ -175,8 +175,7 @@ editedAt: 2008-02-08T01:32-05:00
 
 (define ttplay
   (lambda (gamepiece rownum colnum)
-    ; Why are these backwards?!
-    (if (checkposition colnum rownum)
+    (if (checkposition rownum colnum)
         (let ((trash (set! ttboard
           (cond
             ; I hate to abuse cond like this, but 3x3 is not worth recursing!
