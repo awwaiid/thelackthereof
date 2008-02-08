@@ -1,10 +1,9 @@
 ---
 title: David_Scheme
-createdAt: 2008-02-07T21:17-05:00
-editedAt: 2008-02-07T21:55-05:00
+createdAt: 2008-02-07T21:16-05:00
+editedAt: 2008-02-07T21:17-05:00
 ---
 
-<code>
 ; Part I
 
 (define ndelete
@@ -111,5 +110,4 @@ editedAt: 2008-02-07T21:55-05:00
     (let ((name (cadar fn-spec)) (params (cdadr fn-spec)) (body (cdaddr fn-spec)))
       (eval `(define ,name (lambda ,params ,@body))))))
 
-</code>
 
