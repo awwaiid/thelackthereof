@@ -1,7 +1,7 @@
 ---
 title: David_Scheme
-createdAt: 2008-02-08T00:06-05:00
-editedAt: 2008-02-08T00:09-05:00
+createdAt: 2008-02-07T23:59-05:00
+editedAt: 2008-02-08T00:06-05:00
 ---
 
 <code>
@@ -201,24 +201,6 @@ editedAt: 2008-02-08T00:09-05:00
           (list (car rowtochange) gamepiece (cddr rowtochange)))
       (else
           (list (car rowtochange) (cadr rowtochange) gamepiece)))))
-
-(define make-cols
-  (lambda ()
-    ttboard))
-
-(define make-diags
-  (lambda ()
-    ttboard))
-
-(define findwinner
-  (lambda (liststocheck)
-    (cond
-      ((null? liststocheck)
-          #f)
-      ((and (eq? (caar liststocheck) (cadar liststocheck)) (eq? (caar liststocheck) (caddar liststocheck)))
-          #t)
-      (else
-          (findwinner (cdr liststocheck))))))
 
 ; ---------------------------------------------
 ; Some of the code below is based on work by individuals
