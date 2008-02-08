@@ -1,7 +1,7 @@
 ---
 title: David_Scheme
-createdAt: 2008-02-07T23:59-05:00
-editedAt: 2008-02-08T00:06-05:00
+createdAt: 2008-02-07T23:52-05:00
+editedAt: 2008-02-07T23:59-05:00
 ---
 
 <code>
@@ -220,7 +220,6 @@ editedAt: 2008-02-08T00:06-05:00
   )
 )
 
-
 (define x '(1 2 3 4 5 6 7 8 9 10))
 
 (define y '(((a) b) (c d (d (f g) h)) i))
@@ -233,9 +232,6 @@ editedAt: 2008-02-08T00:06-05:00
 
 (test "Eck ndelete 3" '(((a) b) i)
       (ndelete y 2))
-
-(test "ndelete all" '()
-      (ndelete '(a b c d e f) 1))
 
 (test "ndelete every 3rd" '(a c e)
   (ndelete '(a b c d e f) 2))
@@ -251,21 +247,11 @@ editedAt: 2008-02-08T00:06-05:00
 
 (test "Eck deep-member? 4" (deep-member? 'foo y) #f)
 
-; Even though it is in there, we are only supposed to look for atoms
-(test "complex deep-member 1" #t
-      (deep-member? '(f g) y))
+(define z (steamroller x))
 
-(test "complex deep-member 2" #f
-      (deep-member? '(g h) y))
+(test "Eck steamroller 1 (broken)" z '(a f c d f g e g h e g e e))
 
-(define z '(a f c d f g e g h e g e e))
-
-(test "Eck steamroller 1" z '(a f c d f g e g h e g e e))
-
-(test "Steamroller deeply" '(a b c d e f g h i j k l m n o p)
-      (steamroller '(a (b (c (d (e (f (g) h) i) j) (k (l (m (n (o (p)))))))))))
-
-(test "Eck splitter 1" (splitter z) '((a f c d f g e) (g h e g e e)))
+(test "Eck splitter 1 (broken)" (splitter z) '((a f c d f g e) (g h e g e e)))
 
 (test "Eck splitter 2" (splitter '(a) ) '((a) ()))
 
@@ -277,12 +263,6 @@ editedAt: 2008-02-08T00:06-05:00
 
 (test "example split" '((a f c d f g e) (g h e g e e))
       (splitter '(a f c d f g e g h e g e e)))
-
-(test "empty split" '(() ())
-      (splitter '()))
-
-(test "single split" '((a) ())
-      (splitter '(a)))
 
 (define x '(1 3 5 7 9))
 (define y '(2 4 6 8 10))
@@ -311,6 +291,7 @@ editedAt: 2008-02-08T00:06-05:00
 
 (test "Eck func maker 2" (mult-sum-three 1 2 3) 18)
 
+
 (set! ttboard '((_ o _) (_ x _) (_ _ x)))
 
 (test "Premaid board - Ech checkposition 1" (checkposition 2 2) #f)
@@ -323,15 +304,13 @@ editedAt: 2008-02-08T00:06-05:00
 
 (test "Eck TTT - move 1" (ttplay 'x 3 3) '((_ _ _) (_ _ _) (_ _ x)))
 (test "Eck TTT - move 2" (ttplay 'o 2 3) '((_ _ _) (_ _ o) (_ _ x)))
-
 ;(test "Eck TTT - move 3" (ttplay 'x 2 3) Can't place a piece there! Try again!
-(ttplay 'x 2 3)
-(test "Eck TTT - move 3" (ttstat) '((_ _ _) (_ _ o) (_ _ x)))
-
 (test "Eck TTT - move 4" (ttplay 'x 1 1) '((x _ _) (_ _ o) (_ _ x)))
 ;(test "Eck TTT - move 5" (ttplay 'o 33 -45) Can't place a piece there! Try again!
 (test "Eck TTT - move 6" (ttplay 'o 3 1) '((x _ _) (_ _ o) (o _ x)))
 ;(test "Eck TTT - move 7 (win)" (ttplay 'x 2 2) '(the winner is: x)
+
+
 
 </code>
 
