@@ -1,7 +1,7 @@
 ---
 title: David_Scheme
-createdAt: 2008-02-07T23:29-05:00
-editedAt: 2008-02-07T23:30-05:00
+createdAt: 2008-02-07T23:00-05:00
+editedAt: 2008-02-07T23:29-05:00
 ---
 
 <code>
@@ -266,24 +266,6 @@ editedAt: 2008-02-07T23:30-05:00
 
 (test "Eck func maker 2" (mult-sum-three 1 2 3) 18)
 
-
-(set! ttboard '((_ o _) (_ x _) (_ _ x)))
-
-(test "Premaid board - Ech checkposition 1" (checkposition 2 2) #f)
-(test "Premaid board - Ech checkposition 2" (checkposition 23 555) #f)
-(test "Premaid board - Ech checkposition 3" (checkposition 1 1) #t)
-
-(ttnew-game)
-
-(test "Eck TTT - Empty board" (ttstat) '((_ _ _) (_ _ _) (_ _ _)))
-
-(test "Eck TTT - move 1" (ttplay 'x 3 3) '((_ _ _) (_ _ _) (_ _ x)))
-(test "Eck TTT - move 2" (ttplay 'o 2 3) '((_ _ _) (_ _ o) (_ _ x)))
-;(test "Eck TTT - move 3" (ttplay 'x 2 3) Can't place a piece there! Try again!
-(test "Eck TTT - move 4" (ttplay 'x 1 1) '((x _ _) (_ _ o) (_ _ x)))
-;(test "Eck TTT - move 5" (ttplay 'o 33 -45) Can't place a piece there! Try again!
-(test "Eck TTT - move 6" (ttplay 'o 3 1) '((x _ _) (_ _ o) (o _ x)))
-;(test "Eck TTT - move 7 (win)" (ttplay 'x 2 2) '(the winner is: x)
 
 
 
