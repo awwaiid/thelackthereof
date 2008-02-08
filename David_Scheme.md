@@ -1,7 +1,7 @@
 ---
 title: David_Scheme
-createdAt: 2008-02-07T23:30-05:00
-editedAt: 2008-02-07T23:52-05:00
+createdAt: 2008-02-07T23:29-05:00
+editedAt: 2008-02-07T23:30-05:00
 ---
 
 <code>
@@ -175,16 +175,7 @@ editedAt: 2008-02-07T23:52-05:00
 
 (define ttplay
   (lambda (gamepiece rownum colnum)
-    (if (checkposition rownum colnum)
-        (set! ttboard (cond
-          ; I hate to abuse cond like this, but 3x3 is not worth recursing!
-          ((eq? rownum 1)
-              ())
-          ((eq? rownum 2)
-              ())
-          (else
-              ())))
-        (display "Can't place a piece there! Try again!"))))
+    ))
 
 ; ---------------------------------------------
 ; Some of the code below is based on work by individuals
