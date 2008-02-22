@@ -1,6 +1,6 @@
 ---
 title: Hybrid_Approach_to_Templating
-createdAt: 2008-02-22T00:48-05:00
+createdAt: 2008-02-22T00:46-05:00
 editedAt: 2008-02-22T00:48-05:00
 ---
 
@@ -25,7 +25,6 @@ my $doc = DSL->new(
 </code>
 
 <code>
-
   <html>
     <head>
       <title>Magical Page</title>
@@ -54,5 +53,4 @@ My current idea is to have them both! Simply make the DSL produce a DOM. Then on
 
 Once we have the DOM tree on the server we can do some other magical things, such as only sending the tree diffs over ajax (as has been done elsewhere I'm sure).
 
-Also in my head is that a similar hybrid approach can work for control flow. The split there is between event handling and sequential flow. The idea is to simply allow both.
 
