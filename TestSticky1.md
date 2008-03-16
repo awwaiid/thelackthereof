@@ -1,7 +1,7 @@
 ---
 title: TestSticky1
-createdAt: 2008-03-16T10:31-04:00
-editedAt: 2008-03-16T10:54-04:00
+createdAt: 2008-03-16T05:01-04:00
+editedAt: 2008-03-16T10:31-04:00
 ---
 
 == hmmm... ==
@@ -11,14 +11,4 @@ editedAt: 2008-03-16T10:54-04:00
 == Really ==
 * Yep
 * [[Projects]]
-
-
-
-
-
-
-
-
-
-
 
