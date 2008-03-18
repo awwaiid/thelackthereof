@@ -12,6 +12,6 @@ editedAt: 2008-03-17T23:07-04:00
 
 [[test1]] 201,215 200x200
 
-[[TestStickyList]] 58,185 340x291
+[[TestStickyList]] 58,185 200x200
 
 
