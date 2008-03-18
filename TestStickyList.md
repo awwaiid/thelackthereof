@@ -4,7 +4,7 @@ createdAt: 2008-03-18T11:35-04:00
 editedAt: 2008-03-18T11:35-04:00
 ---
 
-[[TestSticky1]] 100,76 251x264
+[[TestSticky1]] 100,76 200x200
 
 [[TestSticky2]] 400,231 251x312
 
