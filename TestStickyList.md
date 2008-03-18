@@ -6,7 +6,7 @@ editedAt: 2008-03-18T10:42-04:00
 
 [[TestSticky1]] 64,112 200x200
 
-[[TestSticky2]] 431,188 251x312
+[[TestSticky2]] 80,225 251x312
 
 [[TestSticky3]] 380,236 200x200
 
