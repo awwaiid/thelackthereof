@@ -1,7 +1,7 @@
 ---
 title: TestSticky1
 createdAt: 2008-03-18T11:48-04:00
-editedAt: 2008-03-18T11:56-04:00
+editedAt: 2008-03-18T11:48-04:00
 ---
 
 
@@ -11,6 +11,4 @@ my friend!
 Fun times.
 
 doo dah
-
-I can edit two notes 
 
