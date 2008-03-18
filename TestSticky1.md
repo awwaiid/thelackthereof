@@ -1,7 +1,7 @@
 ---
 title: TestSticky1
-createdAt: 2008-03-18T11:38-04:00
-editedAt: 2008-03-18T11:43-04:00
+createdAt: 2008-03-18T11:36-04:00
+editedAt: 2008-03-18T11:38-04:00
 ---
 
 hmmm
@@ -12,7 +12,4 @@ my friend!
 Fun times.
 
 doo dah
-
-I can edit it!
-
 
