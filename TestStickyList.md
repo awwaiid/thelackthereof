@@ -8,6 +8,6 @@ editedAt: 2008-03-17T22:57-04:00
 
 [[TestSticky2]] 387,172 200x200
 
-[[TestSticky3]] 115,350 200x200
+[[TestSticky3]] 77,351 200x200
 
 
