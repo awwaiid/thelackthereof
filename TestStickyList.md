@@ -1,6 +1,6 @@
 ---
 title: TestStickyList
-createdAt: 2008-03-17T23:00-04:00
+createdAt: 2008-03-17T22:57-04:00
 editedAt: 2008-03-17T23:00-04:00
 ---
 
@@ -8,6 +8,6 @@ editedAt: 2008-03-17T23:00-04:00
 
 [[TestSticky2]] 387,172 200x200
 
-[[TestSticky3]] 164,220 200x200
+[[TestSticky3]] 648,36 200x200
 
 
