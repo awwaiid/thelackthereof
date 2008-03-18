@@ -1,12 +1,12 @@
 ---
 title: TestStickyList
-createdAt: 2008-03-18T11:35-04:00
+createdAt: 2008-03-18T10:42-04:00
 editedAt: 2008-03-18T11:35-04:00
 ---
 
 [[TestSticky1]] 76,67 200x200
 
-[[TestSticky2]] 637,62 251x312
+[[TestSticky2]] 400,231 251x312
 
 [[TestSticky3]] 33,314 200x200
 
