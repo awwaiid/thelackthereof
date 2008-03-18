@@ -1,7 +1,7 @@
 ---
 title: TestSticky2
-createdAt: 2008-03-18T11:47-04:00
-editedAt: 2008-03-18T11:48-04:00
+createdAt: 2008-03-18T11:45-04:00
+editedAt: 2008-03-18T11:47-04:00
 ---
 
 second sticky test page!
@@ -13,5 +13,5 @@ My oh my... I do love [[Wikiness]]!
 
 Check out my [[Projects]] page.
 
-Auto save?
+One edit one time?
 
