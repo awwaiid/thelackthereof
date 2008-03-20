@@ -8,7 +8,7 @@ editedAt: 2008-03-20T13:48-04:00
 
 [[TestSticky2]] 389,298 251x312
 
-[[TestSticky3]] 752,547 200x200
+[[TestSticky3]] 77,163 200x200
 
 [[test1]] 533,78 172x154
 
