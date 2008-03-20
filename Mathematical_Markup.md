@@ -1,7 +1,7 @@
 ---
 title: Mathematical_Markup
-createdAt: 2008-03-19T22:29-04:00
-editedAt: 2008-03-19T22:30-04:00
+createdAt: 2008-03-19T22:27-04:00
+editedAt: 2008-03-19T22:29-04:00
 ---
 
 I've taught this wiki to use LaTeX for mathematical markup, using the [http://www.oddmuse.org/cgi-bin/oddmuse/LaTeX_Extension LaTeX module extension] for OddMuse. You simply wrap your math like this: <nowiki>$$ x^2 $$</nowiki> to get something like $$x^2$$. This page is to document some of the ways this can be used. Please choose 'Edit text of this page' at the bottom to play!
@@ -57,12 +57,16 @@ Interesting that it decided to make it HUGE.
 
 
 What about:
-
-\begin{equation}
-  (\frac{x^2}{y^3})
-  \label{wrong}
-\end{equation}
-
+\begin{center}
+\begin{tabular}{ | l | l | l | }
+\hline
+\multirow{2}{*}{Powers} & \verb|$x^n$| & $x^n$ \\ 
+ & \verb|$x^{2n}$| & $x^{2n}$ \\ \hline
+\multirow{2}{*}{Indices} & \verb|$n_i$| & $n_i$ \\
+ & \verb|$n_{ij}$| & $n_{ij}$ \\
+\hline
+\end{tabular}
+\end{center}
 
 Does it work?
 
