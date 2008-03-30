@@ -1,9 +1,12 @@
 ---
 title: Zombie_Love
-createdAt: 2008-03-30T16:50-04:00
-editedAt: 2008-03-30T17:00-04:00
+createdAt: 2008-03-30T17:04-04:00
+editedAt: 2008-03-30T17:04-04:00
 ---
 
+Recorded March 27 with Liz on guitar: [http://thelackthereof.org/docs/music/zombielove.ogg zombielove.ogg]
+
+(With help from Liz and Jason)
 
  G
   Hey sweetie
@@ -28,7 +31,7 @@ editedAt: 2008-03-30T17:00-04:00
  C#           G# C#
   I WANT YOUR BRAINS
                 G#
-         Zombie Love
+         ZOMBIE LOVE
 
   Sometimes when
   you're sleeping
