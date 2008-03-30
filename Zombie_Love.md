@@ -1,10 +1,9 @@
 ---
 title: Zombie_Love
-createdAt: 2008-03-30T17:00-04:00
-editedAt: 2008-03-30T17:03-04:00
+createdAt: 2008-03-30T16:50-04:00
+editedAt: 2008-03-30T17:00-04:00
 ---
 
-(With help from Liz and Jason)
 
  G
   Hey sweetie
