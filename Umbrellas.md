@@ -1,10 +1,8 @@
 ---
 title: Umbrellas
-createdAt: 2008-03-30T16:59-04:00
-editedAt: 2008-05-12T23:21-04:00
+createdAt: 2008-03-30T16:55-04:00
+editedAt: 2008-03-30T16:59-04:00
 ---
-
-(with the help of Erik and Liz at least)
 
 Chorus: G D C G / G D CD G
 Verse: G*4 C*4 D*2 C*2 G*3
