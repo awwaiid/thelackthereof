@@ -1,7 +1,7 @@
 ---
 title: SandBox
-createdAt: 2008-03-30T07:20-04:00
-editedAt: 2008-07-29T02:34-04:00
+createdAt: 2007-08-20T07:27-04:00
+editedAt: 2008-03-30T07:20-04:00
 ---
 
 Tags: Test, Tagging Demo, Blah
@@ -15,6 +15,4 @@ Really. Try it out. Down there at the bottom... the "Edit text of this page" lin
 http://thelackthereof.org/pics/tao.png
 
 [[TaoImage]]
-
-Testingtesting
 
