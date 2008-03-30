@@ -1,10 +1,8 @@
 ---
 title: Immaterial_Things
-createdAt: 2008-03-30T17:00-04:00
-editedAt: 2011-11-30T07:52-05:00
+createdAt: 2008-03-30T16:44-04:00
+editedAt: 2008-03-30T17:00-04:00
 ---
-
-(Co-created with Jason)
 
 Em*6 Cm G Em*6 F# A -- Bridge E A E A E B A E
 
