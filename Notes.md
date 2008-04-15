@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2008-04-15T17:19-04:00
-editedAt: 2008-06-30T22:55-04:00
+createdAt: 2007-10-01T23:27-04:00
+editedAt: 2008-04-15T17:19-04:00
 ---
 
 Put this in your .screenrc and your terminal's normal scrollback will work for the screen history! WOOT!!!
@@ -164,11 +164,4 @@ Random thought: Evolved programs work mostly through side-affects. Same is true 
 
 The idea I'm going for is to provide a smooth gradient between one-state 
 sessions, many-state sessions, and state-less sessions.
-
-
-----
-
-Storable continuations and web programming in OCaml (needs a usable API!)
-http://logic.cs.tsukuba.ac.jp/Continuation/program.html
-
 
