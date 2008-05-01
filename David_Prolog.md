@@ -1,7 +1,7 @@
 ---
 title: David_Prolog
-createdAt: 2008-05-01T00:57-04:00
-editedAt: 2008-05-01T01:12-04:00
+createdAt: 2008-05-01T00:50-04:00
+editedAt: 2008-05-01T00:57-04:00
 ---
 
 <code>
@@ -320,30 +320,6 @@ editedAt: 2008-05-01T01:12-04:00
 (test "John loves mary?" '(((?x mary))) (prove '(loves john ?x)))
 
 (test "John loves mary y?" '(((?y mary))) (prove '(loves john ?y)))
-
-
-(test "Eck-1 jane is woman" (prove '(woman jane))
-"fail")
-(test "Eck-2 katy is woman" (prove '(woman katy))
-'())
-(test "Eck-3 katy is first found woman" (prove '(woman ?x))
-'((?x katy)))
-(test "Eck-4 Someone loves y" (prove '(loves ?x y))
-"fail")
-(test "Eck-5 ?x loves ?t" (prove '(loves ?x ?t))
-'((?t mary) (?x john)))
-(test "Eck-6 Who loves katy?" (prove '(loves ?x katy))
-'((?x tim)))
-(test "Eck-7 Who does hank love?" (prove '(loves hank ?e))
-'((?e katy)))
-(test "Eck-8 Who does tim love?" (prove '(loves tim ?x))
-'((?x katy)))
-(test "Eck-9 Someone near jane... and someone else eats?"
-      (prove '((near jane ?x) (eats ?y ?u)))
-      '((?x landfill) (?y hank) (?u quiche)))
-(test "Eck-10 Who eats quiche and loves katy? freak."
-      (prove '((eats ?x quiche) (loves ?x katy)))
-      '((?x hank)))
 
 </code>
 
