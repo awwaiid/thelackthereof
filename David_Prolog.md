@@ -1,7 +1,7 @@
 ---
 title: David_Prolog
-createdAt: 2008-05-01T00:50-04:00
-editedAt: 2008-05-01T00:57-04:00
+createdAt: 2008-04-30T20:33-04:00
+editedAt: 2008-05-01T00:50-04:00
 ---
 
 <code>
@@ -287,40 +287,4 @@ editedAt: 2008-05-01T00:57-04:00
 
 
 </code>
-
-
-<code>
-
-; Test Suite!
-
-(define test
-  (lambda (name expect actual)
-    (string-append
-      (if (equal? expect actual)
-          "pass"
-          "fail"
-      )
-      " ... " name
-    )
-  )
-)
-
-(test "Replace-helper 1"
-  (replace-helper '((man ?x ?x ?y)) '((?x joe) (?y steve)))
-  '((man joe joe steve))
-)
-
-(test "Katy is rich (given)"
-      (prove '(rich katy))
-      '(())
-      )
-
-(test "Jane is a woman" #t (prove '(woman jane)))
-
-(test "John loves mary?" '(((?x mary))) (prove '(loves john ?x)))
-
-(test "John loves mary y?" '(((?y mary))) (prove '(loves john ?y)))
-
-</code>
-
 
