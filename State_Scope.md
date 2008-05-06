@@ -1,7 +1,7 @@
 ---
 title: State_Scope
-createdAt: 2008-05-06T12:52-04:00
-editedAt: 2008-05-06T16:20-04:00
+createdAt: 2008-05-06T12:14-04:00
+editedAt: 2008-05-06T12:52-04:00
 ---
 
 The idea here is that you can group the state of an application into levels or "scopes". Variables themselves already have a scope that is used (conceptualized) in structuring programs. When dealing with web apps scope can be complex. Between invocations of a web (CGI) app, even global variables are lost. State is insetad kept outside the app, either in a filesystem or database, or in client-based communication (cookies or query params).
@@ -14,37 +14,13 @@ State scope is an especially important concept when it comes to understanding an
 
 <graph>
 digraph {
-  graph [truecolor bgcolor="#ff005f00"]
-  node [
-    style=filled
-    fillcolor="#514a9b"
-    shape=box
-    fontcolor="#ffffff"
-    color="#888888"
-    fontname="Helvetica"
-    fontsize=10]
-  edge [ color="#888888" ]
-
-  "Long Term" -> "App Instance";
-  "App Instance" -> "Session";
-  "Session" -> "URL";
-  "URL" -> "View Port";
-  "View Port" -> "View Component";
-
-  "MySQL" -> "Server Instance 1";
-  "MySQL" -> "Server Instance 2";
-  "MySQL" -> "Server Instance 3";
-  "Server Instance 1" -> "Session - User 1";
-  "Server Instance 1" -> "Session - User 2";
-  "Server Instance 1" -> "Session - User 3";
-  "Session - User 2" -> "URL /login";
-  "Session - User 2" -> "URL /register";
-  "Session - User 1" -> "URL /profile";
-  "URL /profile" -> "Window 1";
-  "URL /profile" -> "Window 2";
-  "Window 1" -> "Common Header Widget";
-  "Window 1" -> "User Details Widget";
-  "User Details Widget" -> "Reset Password Widget";
+graph [truecolor bgcolor="#ff005f00"]
+node [style=filled fillcolor="#ffffff" shape=box]
+"Long Term" -> "App Instance";
+"App Instance" -> "Session";
+"Session" -> "URL";
+"URL" -> "View Port";
+"View Port" -> "View Component";
 }
 </graph>
 
