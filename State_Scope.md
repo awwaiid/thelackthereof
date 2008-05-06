@@ -1,6 +1,6 @@
 ---
 title: State_Scope
-createdAt: 2008-05-06T16:21-04:00
+createdAt: 2008-05-06T16:20-04:00
 editedAt: 2008-05-06T16:21-04:00
 ---
 
@@ -23,7 +23,7 @@ digraph {
     color="#888888"
     fontname="Helvetica"
     fontsize=10]
-  edge [ color="#FFFFFF" ]
+  edge [ color="#514a9b" ]
 
   "Long Term" -> "App Instance";
   "App Instance" -> "Session";
