@@ -1,7 +1,7 @@
 ---
 title: State_Scope
-createdAt: 2008-05-06T16:20-04:00
-editedAt: 2008-05-06T16:21-04:00
+createdAt: 2008-05-06T12:52-04:00
+editedAt: 2008-05-06T16:20-04:00
 ---
 
 The idea here is that you can group the state of an application into levels or "scopes". Variables themselves already have a scope that is used (conceptualized) in structuring programs. When dealing with web apps scope can be complex. Between invocations of a web (CGI) app, even global variables are lost. State is insetad kept outside the app, either in a filesystem or database, or in client-based communication (cookies or query params).
@@ -23,7 +23,7 @@ digraph {
     color="#888888"
     fontname="Helvetica"
     fontsize=10]
-  edge [ color="#514a9b" ]
+  edge [ color="#888888" ]
 
   "Long Term" -> "App Instance";
   "App Instance" -> "Session";
@@ -33,6 +33,7 @@ digraph {
 
   "MySQL" -> "Server Instance 1";
   "MySQL" -> "Server Instance 2";
+  "MySQL" -> "Server Instance 3";
   "Server Instance 1" -> "Session - User 1";
   "Server Instance 1" -> "Session - User 2";
   "Server Instance 1" -> "Session - User 3";
