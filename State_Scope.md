@@ -1,7 +1,7 @@
 ---
 title: State_Scope
-createdAt: 2008-05-06T12:14-04:00
-editedAt: 2008-05-06T12:52-04:00
+createdAt: 2008-05-06T12:00-04:00
+editedAt: 2008-05-06T12:14-04:00
 ---
 
 The idea here is that you can group the state of an application into levels or "scopes". Variables themselves already have a scope that is used (conceptualized) in structuring programs. When dealing with web apps scope can be complex. Between invocations of a web (CGI) app, even global variables are lost. State is insetad kept outside the app, either in a filesystem or database, or in client-based communication (cookies or query params).
@@ -14,8 +14,6 @@ State scope is an especially important concept when it comes to understanding an
 
 <graph>
 digraph {
-graph [truecolor bgcolor="#ff005f00"]
-node [style=filled fillcolor="#ffffff" shape=box]
 "Long Term" -> "App Instance";
 "App Instance" -> "Session";
 "Session" -> "URL";
