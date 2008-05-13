@@ -1,7 +1,7 @@
 ---
 title: Umbrellas
-createdAt: 2008-05-12T23:21-04:00
-editedAt: 2013-01-28T10:59-05:00
+createdAt: 2008-03-30T16:59-04:00
+editedAt: 2008-05-12T23:21-04:00
 ---
 
 (with the help of Erik and Liz at least)
@@ -43,14 +43,4 @@ And he just turned and ran!
 [chorus] though I suppose they might exist
 
 [horn]
-
-----
-
-Bonus or alternate verses
-
-What's with those umbrellas?
-Are they apparel, or a roof?
-They walk the line,
-You can't define,
-That's just further proof!
 
