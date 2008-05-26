@@ -1,6 +1,6 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2008-05-26T18:56-04:00
+createdAt: 2007-08-30T14:46-04:00
 editedAt: 2008-05-26T18:56-04:00
 ---
 
@@ -343,9 +343,4 @@ h1.home {
    margin-top: -5em;
 }
 */
-
-div.commentshown { background-color:#ffc; padding-bottom:1ex; }
-    div.commenthidden { display:none; }
-    div.commentshown { display:block; }
-
 
