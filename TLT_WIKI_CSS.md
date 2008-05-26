@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2008-05-26T19:17-04:00
-editedAt: 2008-06-30T23:45-04:00
+createdAt: 2008-05-26T18:56-04:00
+editedAt: 2008-05-26T19:17-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -344,7 +344,7 @@ h1.home {
 }
 */
 
-div.commentshown { background-color:#333; padding: 0.5em; }
+div.commentshown { background-color:#333; padding-bottom:1ex; }
     div.commenthidden { display:none; }
     div.commentshown { display:block; }
 
