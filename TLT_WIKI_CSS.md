@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2008-07-01T00:13-04:00
-editedAt: 2009-02-28T19:59-05:00
+createdAt: 2008-06-30T23:45-04:00
+editedAt: 2008-07-01T00:13-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -166,7 +166,6 @@ div.journal h1 {
   border-style: solid;
   border-width: 0px 0px 1px 0px;
   font-size: 130%;
-  clear: left;
 }
 
 div.journal h1 a {
