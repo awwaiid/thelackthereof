@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2008-06-30T23:45-04:00
-editedAt: 2008-07-01T00:13-04:00
+createdAt: 2008-05-26T19:17-04:00
+editedAt: 2008-06-30T23:45-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -229,15 +229,11 @@ li {
 }
 
 img.imgleft {
-  margin: 1em 1em 1em 0;
-  float: left;
-  clear: left;
+  margin-right: 0.5em;
 }
 
 img.imgright {
-  margin: 1em 0 1em 1em;
-  float: right;
-  clear: left;
+  margin-left: 0.5em;
 }
 
 div.rss strong {
