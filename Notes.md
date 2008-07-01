@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2008-06-30T22:55-04:00
-editedAt: 2009-08-25T23:13-04:00
+createdAt: 2008-04-15T17:19-04:00
+editedAt: 2008-06-30T22:55-04:00
 ---
 
 Put this in your .screenrc and your terminal's normal scrollback will work for the screen history! WOOT!!!
@@ -171,5 +171,4 @@ sessions, many-state sessions, and state-less sessions.
 Storable continuations and web programming in OCaml (needs a usable API!)
 http://logic.cs.tsukuba.ac.jp/Continuation/program.html
 
-left:flower.jpg
 
