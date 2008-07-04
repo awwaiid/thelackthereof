@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Home
-createdAt: 2008-07-03T22:27-04:00
-editedAt: 2008-07-05T00:59-04:00
+createdAt: 2008-07-02T13:59-04:00
+editedAt: 2008-07-03T22:27-04:00
 ---
 
-=== 2 Comments. ===
+=== 1 Comment. ===
 
 Hey Brock:
 
@@ -21,14 +21,5 @@ Thanks!
 DAVE
 
 -- [http://www.coresearchinc.com Anonymous] 2008-07-02 17:59 UTC
-
-
-----
-
-Greetings Dave!
-
-How about you shoot me an email (awwaiid@thelackthereof.org) with your contact information? I don't intend to be on the open job market any time soon... but you never know! If nothing else I can call you if I ever need some sort of self affirmation :)
-
--- [http://thelackthereof.org/ awwaiid] 2008-07-04 02:27 UTC
 
 
