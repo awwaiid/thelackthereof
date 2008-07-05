@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Home
-createdAt: 2008-07-05T00:59-04:00
-editedAt: 2008-07-07T00:50-04:00
+createdAt: 2008-07-03T22:27-04:00
+editedAt: 2008-07-05T00:59-04:00
 ---
 
-=== 3 Comments. ===
+=== 2 Comments. ===
 
 Hey Brock:
 
@@ -30,12 +30,5 @@ Greetings Dave!
 How about you shoot me an email (awwaiid@thelackthereof.org) with your contact information? I don't intend to be on the open job market any time soon... but you never know! If nothing else I can call you if I ever need some sort of self affirmation :)
 
 -- [http://thelackthereof.org/ awwaiid] 2008-07-04 02:27 UTC
-
-
-----
-
-Want it? , <a href="http://www.filesharingplace.com/forums/member.php?u=24347">milfs nice breasts</a>, [url="http://www.filesharingplace.com/forums/member.php?u=24347"]milfs nice breasts[/url], http://www.filesharingplace.com/forums/member.php?u=24347 milfs nice breasts, <a href="http://freeiq.com/monasen?fullbio=1">breast massages</a>, [url="http://freeiq.com/monasen?fullbio=1"]breast massages[/url], http://freeiq.com/monasen?fullbio=1 breast massages, <a href="http://www.cleveland.com/forums/profile.ssf?nickname=u9k1s">itty bitty titties</a>, [url="http://www.cleveland.com/forums/profile.ssf?nickname=u9k1s"]itty bitty titties[/url], http://www.cleveland.com/forums/profile.ssf?nickname=u9k1s itty bitty titties, <a href="http://www.epinions.com/user-mo91mo/show_~View_Profile">girls breast massage girls</a>, [url="http://www.epinions.com/user-mo91mo/show_~View_Profile"]girls breast massage girls[/url], http://www.epinions.com/user-mo91mo/show_~View_Profile girls breast massage girls,
-
--- [http://hg76dks2.weebly.com/ VanDenn] 2008-07-05 04:59 UTC
 
 
