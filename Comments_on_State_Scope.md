@@ -1,10 +1,10 @@
 ---
 title: Comments_on_State_Scope
-createdAt: 2008-07-17T18:34-04:00
-editedAt: 2008-07-17T19:33-04:00
+createdAt: 2008-07-17T15:33-04:00
+editedAt: 2008-07-17T18:34-04:00
 ---
 
-=== 56 Comments. ===
+=== 55 Comments. ===
 What did you make that diagram in?
 
 -- [http://www.metanotes.com/beppu beppu] 2008-05-12 06:21 UTC
@@ -388,12 +388,5 @@ http://impeachment-bush.loadtry.com Impeachment Bush
 http://emmy-nominations-2008.loadtry.com Emmy Nominations 2008
 
 -- [http://emmy-nominations-2008.loadtry.com Emmy Nominations 2008] 2008-07-17 19:33 UTC
-
-
-----
-
-http://project-runway.loadtry.com Project Runway Music
-
--- [http://project-runway.loadtry.com project runway] 2008-07-17 22:34 UTC
 
 
