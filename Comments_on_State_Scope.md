@@ -1,10 +1,10 @@
 ---
 title: Comments_on_State_Scope
-createdAt: 2008-07-19T17:11-04:00
-editedAt: 2008-07-19T22:16-04:00
+createdAt: 2008-07-19T14:39-04:00
+editedAt: 2008-07-19T17:11-04:00
 ---
 
-=== 59 Comments. ===
+=== 58 Comments. ===
 What did you make that diagram in?
 
 -- [http://www.metanotes.com/beppu beppu] 2008-05-12 06:21 UTC
@@ -409,12 +409,5 @@ http://kaley-cuoco.loadtry.com kaley cuoco
 http://motorized-scooters.scootershopdirect.info motorized scooters
 
 -- [http://motorized-scooters.scootershopdirect.info motorized scooters] 2008-07-19 18:39 UTC
-
-
-----
-
-http://gas-scooter.scootershopdirect.info gas scooter companies
-
--- [http://gas-scooter.scootershopdirect.info gas scooter] 2008-07-19 21:11 UTC
 
 
