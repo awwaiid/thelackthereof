@@ -1,10 +1,10 @@
 ---
 title: Comments_on_State_Scope
-createdAt: 2008-07-19T14:39-04:00
-editedAt: 2008-07-19T17:11-04:00
+createdAt: 2008-07-17T19:33-04:00
+editedAt: 2008-07-19T14:39-04:00
 ---
 
-=== 58 Comments. ===
+=== 57 Comments. ===
 What did you make that diagram in?
 
 -- [http://www.metanotes.com/beppu beppu] 2008-05-12 06:21 UTC
@@ -402,12 +402,5 @@ http://project-runway.loadtry.com Project Runway Music
 http://kaley-cuoco.loadtry.com kaley cuoco
 
 -- [http://kaley-cuoco.loadtry.com kaley cuoco] 2008-07-17 23:33 UTC
-
-
-----
-
-http://motorized-scooters.scootershopdirect.info motorized scooters
-
--- [http://motorized-scooters.scootershopdirect.info motorized scooters] 2008-07-19 18:39 UTC
 
 
