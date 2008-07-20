@@ -1,10 +1,10 @@
 ---
 title: Comments_on_State_Scope
-createdAt: 2008-07-20T03:22-04:00
-editedAt: 2008-07-20T09:20-04:00
+createdAt: 2008-07-19T22:16-04:00
+editedAt: 2008-07-20T03:22-04:00
 ---
 
-=== 61 Comments. ===
+=== 60 Comments. ===
 What did you make that diagram in?
 
 -- [http://www.metanotes.com/beppu beppu] 2008-05-12 06:21 UTC
@@ -423,12 +423,5 @@ http://gas-scooter.scootershopdirect.info gas scooter companies
 http://gas-scooters.scootershopdirect.info gas powered scooters
 
 -- [http://gas-scooters.scootershopdirect.info gas scooters] 2008-07-20 02:16 UTC
-
-
-----
-
-http://vespa-scooters.scootershopdirect.info vintage vespa scooters
-
--- [http://vespa-scooters.scootershopdirect.info vespa scooters] 2008-07-20 07:22 UTC
 
 
