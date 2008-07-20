@@ -1,10 +1,10 @@
 ---
 title: Comments_on_State_Scope
-createdAt: 2008-07-20T16:08-04:00
-editedAt: 2008-07-20T19:30-04:00
+createdAt: 2008-07-20T09:20-04:00
+editedAt: 2008-07-20T16:08-04:00
 ---
 
-=== 63 Comments. ===
+=== 62 Comments. ===
 What did you make that diagram in?
 
 -- [http://www.metanotes.com/beppu beppu] 2008-05-12 06:21 UTC
@@ -437,12 +437,5 @@ http://vespa-scooters.scootershopdirect.info vintage vespa scooters
 Great site, http://marynecaise.yourfreehosting.net/paralega81/index.html paralegal dealing with emotion,  ubg,
 
 -- [http://rebecadorsey.hostevo.com/californ87/index.html Dimitri] 2008-07-20 13:20 UTC
-
-
-----
-
-Regards and best wishes, http://evaimhoff.2222mb.com/paralega36/index.html online paralegal degree hawaii,  lvn,
-
--- [http://paulsmith.servik.com/intellec91/index.html Demosthenes] 2008-07-20 20:08 UTC
 
 
