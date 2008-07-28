@@ -1,7 +1,7 @@
 ---
 title: Mathematical_Markup
-createdAt: 2008-07-28T19:37-04:00
-editedAt: 2010-12-02T22:24-05:00
+createdAt: 2008-07-06T14:33-04:00
+editedAt: 2008-07-28T19:37-04:00
 ---
 
 I've taught this wiki to use LaTeX for mathematical markup, using the [http://www.oddmuse.org/cgi-bin/oddmuse/LaTeX_Extension LaTeX module extension] for OddMuse. You simply wrap your math like this: <nowiki>$$ x^2 $$</nowiki> to get something like $$x^2$$. This page is to document some of the ways this can be used. Please choose 'Edit text of this page' at the bottom to play!
@@ -17,8 +17,6 @@ Fractions are done like this: $$ \frac{x^6}{\sqrt{3x}} $$ or this: $$ {dy\over d
 More symbols - $$ \Sigma \Theta \Upsilon \Xi \Omega \alpha \beta \gamma \delta \epsilon \zeta \eta \theta \iota \kappa \lambda \mu \nu \xi \pi \rho \sigma \tau \upsilon \phi \chi \psi \omega $$
 
 $$e^{i\pi}=-1$$
-
-$$x_2^3$$
 
 $$\left(\begin{array}{cc} 1 & 0 \\ 0 & \phi\\ \end{array}\right)$$
 
