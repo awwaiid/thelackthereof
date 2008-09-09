@@ -1,7 +1,7 @@
 ---
 title: Openmoko
-createdAt: 2008-09-09T11:11-04:00
-editedAt: 2008-09-09T15:23-04:00
+createdAt: 2008-09-06T10:46-04:00
+editedAt: 2008-09-09T11:11-04:00
 ---
 
 I got my Openmoko on 2008-09-04!
@@ -45,10 +45,5 @@ After doing a full image-backup of the debian install on the microSD card and pp
 
 We'll see if it keeps working :)
 
-== General Software ==
-Debian has everything! I even got iceweasle (aka firefox) running without any problems at all.
 
-== TODO ==
-* Email
-** http://www.tinymail.org/trac/tmut
 
