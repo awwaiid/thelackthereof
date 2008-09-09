@@ -1,7 +1,7 @@
 ---
 title: Openmoko
-createdAt: 2008-09-09T15:23-04:00
-editedAt: 2008-09-14T22:53-04:00
+createdAt: 2008-09-09T11:11-04:00
+editedAt: 2008-09-09T15:23-04:00
 ---
 
 I got my Openmoko on 2008-09-04!
@@ -49,8 +49,6 @@ We'll see if it keeps working :)
 Debian has everything! I even got iceweasle (aka firefox) running without any problems at all.
 
 == TODO ==
-* http://www.tinymail.org/trac/tmut - mail reader
-* wordtrans-qt
-* dasher
-* wayv
+* Email
+** http://www.tinymail.org/trac/tmut
 
