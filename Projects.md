@@ -1,18 +1,21 @@
 ---
 title: Projects
-createdAt: 2008-09-11T10:21-04:00
-editedAt: 2008-09-11T10:56-04:00
+createdAt: 2008-04-14T13:07-04:00
+editedAt: 2008-09-11T10:21-04:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
 
 == Current Projects ==
 If you were to ask me what I'm working on right now, I might say one of these.
-* [[Openmoko]] - Customizing the Open Phone
-* [[Wayv]] - Building on Mike Bennett's gesture recognition app
 * [[Continuity]] - Continuation-based web-application framework for Perl
 * [[EPFarms Panel]] - A control panel for hosting clients
 * [[Rubik's Cube Solver]] - I finally got my very own Rubik's Cube!
+* [[Chompie]] - Chop a program to pieces
+* [[Oddmuse Editfile]] - Edit a file (especially perl) through oddmuse
+* [[JQuery Autoindent]] - I've always wanted a textbox that auto-indents
+* [[MobileFS]] - Fuse filesystem to cache files for mobile reading
+* [[Dot2html]] - Convert graphviz files to HTML and Javascript
 * [[Web Board Games]] - Web based 2D board games
 
 == Backburner ==
@@ -28,11 +31,6 @@ If you had asked me what I was working on last week, or if you ask me next week,
 * [[Oddmuse Ref Links]] - Module for a sidebar list of incoming links for a page
 * [[Oddmuse Search Tags]] - Module for a simple tagging mechanism
 * [[Polly]] - A very simple perl wrapper around some command-line audio players
-* [[Dot2html]] - Convert graphviz files to HTML and Javascript
-* [[MobileFS]] - Fuse filesystem to cache files for mobile reading
-* [[Chompie]] - Chop a program to pieces
-* [[Oddmuse Editfile]] - Edit a file (especially perl) through oddmuse
-* [[JQuery Autoindent]] - I've always wanted a textbox that auto-indents
 
 == Inactive ==
 I probably won't be doing much with these. This ''could'' mean that they are in a fairly completed state. It could also mean that they are abandoned.
