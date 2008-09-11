@@ -1,7 +1,7 @@
 ---
 title: Projects
-createdAt: 2008-09-11T10:56-04:00
-editedAt: 2008-10-14T11:02-04:00
+createdAt: 2008-09-11T10:21-04:00
+editedAt: 2008-09-11T10:56-04:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
@@ -9,7 +9,7 @@ For a raw directory view of my projects, see the [TLT:projects/ projects directo
 == Current Projects ==
 If you were to ask me what I'm working on right now, I might say one of these.
 * [[Openmoko]] - Customizing the Open Phone
-* [[WayV]] - Building on Mike Bennett's gesture recognition app
+* [[Wayv]] - Building on Mike Bennett's gesture recognition app
 * [[Continuity]] - Continuation-based web-application framework for Perl
 * [[EPFarms Panel]] - A control panel for hosting clients
 * [[Rubik's Cube Solver]] - I finally got my very own Rubik's Cube!
