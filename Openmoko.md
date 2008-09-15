@@ -1,7 +1,7 @@
 ---
 title: Openmoko
-createdAt: 2008-09-14T22:53-04:00
-editedAt: 2008-09-18T12:48-04:00
+createdAt: 2008-09-09T15:23-04:00
+editedAt: 2008-09-14T22:53-04:00
 ---
 
 I got my Openmoko on 2008-09-04!
@@ -47,11 +47,6 @@ We'll see if it keeps working :)
 
 == General Software ==
 Debian has everything! I even got iceweasle (aka firefox) running without any problems at all.
-
-== Perl ==
-CPAN took a reallllyyyyyy long time to run... something about building up some list of something or other. But then it went much faster. The machine (I'm increasingly thinking of this as just-another-machine) crawled to a near standstill that I was only barely convinced it wasn't stuck.
-
-But then... ROCK ON! [[Coro]] works, and thus [[Continuity]] works!
 
 == TODO ==
 * http://www.tinymail.org/trac/tmut - mail reader
