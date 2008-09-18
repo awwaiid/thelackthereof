@@ -1,7 +1,7 @@
 ---
 title: Openmoko
-createdAt: 2008-09-18T12:48-04:00
-editedAt: 2008-09-18T12:49-04:00
+createdAt: 2008-09-14T22:53-04:00
+editedAt: 2008-09-18T12:48-04:00
 ---
 
 I got my Openmoko on 2008-09-04!
@@ -52,9 +52,6 @@ Debian has everything! I even got iceweasle (aka firefox) running without any pr
 CPAN took a reallllyyyyyy long time to run... something about building up some list of something or other. But then it went much faster. The machine (I'm increasingly thinking of this as just-another-machine) crawled to a near standstill that I was only barely convinced it wasn't stuck.
 
 But then... ROCK ON! [[Coro]] works, and thus [[Continuity]] works!
-
-== Misc ==
-The screen is 16bit color, so when you display full color images it downsamples it without dithering. For actual images this is fine, but for fancy graphics with gradients this is sometimes noticeable. You can do "convert -treedepth 5 -colors 1000 -dither infile.png outfile.png" to drop the number of colors in an image. The 1000 is just an example, you should get it as high as you can such that the image still looks good.
 
 == TODO ==
 * http://www.tinymail.org/trac/tmut - mail reader
