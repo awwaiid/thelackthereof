@@ -1,7 +1,7 @@
 ---
 title: Docs
-createdAt: 2008-10-07T12:49-04:00
-editedAt: 2009-02-22T10:25-05:00
+createdAt: 2008-05-13T19:01-04:00
+editedAt: 2008-10-07T12:49-04:00
 ---
 
 I try to keep all of my documents and make them available to anyone who is interested in reading them. For the most part I've been trying to use LaTeX as my source language and then converting to ps, pdf, html, and plain text. One exception that I am now making is Wiki-based documents -- ones that I have composed directly in the wiki. I like having them in the wiki because people can contribute... I like having them in LaTeX because it is fun. Oh well. I've also attempted to sort things out by subject -- since most of my documents have to do with school most of the subjects do too.
@@ -60,7 +60,6 @@ Here is a list of some of my documents. Remember you can access the non-wiki doc
 * [[Zombie Love]]
 * [[Immaterial Things]]
 * [[Got One Shoe]]
-* [[Talking DC Vote Blues]]
 
 == Other / Unsorted ==
 * [[ArcaneJill]]
