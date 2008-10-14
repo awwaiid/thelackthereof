@@ -1,6 +1,6 @@
 ---
 title: Projects
-createdAt: 2008-10-14T11:02-04:00
+createdAt: 2008-09-11T10:56-04:00
 editedAt: 2008-10-14T11:02-04:00
 ---
 
@@ -14,7 +14,6 @@ If you were to ask me what I'm working on right now, I might say one of these.
 * [[EPFarms Panel]] - A control panel for hosting clients
 * [[Rubik's Cube Solver]] - I finally got my very own Rubik's Cube!
 * [[Web Board Games]] - Web based 2D board games
-* [[Continuity::Monitor]] - Inspect running continuity and CGI apps
 
 == Backburner ==
 If you had asked me what I was working on last week, or if you ask me next week, I might mention one of these.
