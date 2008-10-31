@@ -1,7 +1,7 @@
 ---
 title: SandBox
-createdAt: 2008-10-31T11:07-04:00
-editedAt: 2010-09-11T06:38-04:00
+createdAt: 2008-08-26T17:13-04:00
+editedAt: 2008-10-31T11:07-04:00
 ---
 
 Tags: Test, Tagging Demo, Blah
@@ -19,6 +19,4 @@ http://thelackthereof.org/pics/tao.png
 Testingtesting
 
 la la la
-
-Do I have to answer a question to save my edit?
 
