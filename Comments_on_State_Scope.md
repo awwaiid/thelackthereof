@@ -1,10 +1,10 @@
 ---
 title: Comments_on_State_Scope
-createdAt: 2008-11-28T11:35-05:00
-editedAt: 2008-11-29T09:30-05:00
+createdAt: 2008-11-22T23:17-05:00
+editedAt: 2008-11-28T11:35-05:00
 ---
 
-=== 4 Comments. ===
+=== 3 Comments. ===
 What did you make that diagram in?
 
 -- [http://www.metanotes.com/beppu beppu] 2008-05-12 06:21 UTC
@@ -24,12 +24,5 @@ The diagram was made using graphviz, I wrote a plugin to generate it directly fr
 At the very bottom of the page the "Comments on State Scope" link turns into the "State Scope" link when viewing comments. But you're right that it should be up at the top more.
 
 -- [http://thelackthereof.org/ awwaiid] 2008-05-12 13:15 UTC
-
-
-----
-
-Ну во первых, я как всегда против рандома в перелинковке.
-
--- [http://capturingyoutube.hit.bg/news384.html yUsAXGrSEcdMArk] 2008-11-28 16:35 UTC
 
 
