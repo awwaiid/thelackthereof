@@ -1,7 +1,7 @@
 ---
 title: Correspondence_College_of_Codecraft
-createdAt: 2008-12-06T12:06-05:00
-editedAt: 2008-12-06T12:18-05:00
+createdAt: 2008-12-06T12:03-05:00
+editedAt: 2008-12-06T12:06-05:00
 ---
 
 Greetings! Welcome to The Lack Thereof Correspondence College of Coding. This program is a customized self-study system for learning the art and science of computer programming and related technology. We take the unique approach of utilizing traditional "snail" mail for delivery of lessons, though we do offer feedback and other elements via electronic means.
@@ -18,7 +18,7 @@ And of course... because it's fun!
 
 Our hope is to provide a solid foundation for students in their area of interest, ultimately guiding them toward expert level knowledge. The first set of lessons are designed to build this foundation for all students, while later lessons are customized per-student.
 
-Students will first learn how to write interactive text-based programs.
+Students will first learn how to write text-based programs.
 
 == What about advanced lessons? ==
 
