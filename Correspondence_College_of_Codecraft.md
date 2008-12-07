@@ -1,10 +1,10 @@
 ---
 title: Correspondence_College_of_Codecraft
-createdAt: 2008-12-07T15:53-05:00
-editedAt: 2008-12-07T15:54-05:00
+createdAt: 2008-12-06T12:18-05:00
+editedAt: 2008-12-07T15:53-05:00
 ---
 
-Greetings! Welcome to The Lack Thereof Correspondence College of Codecraft. This program is a customized self-study system for learning the art and science of computer programming and related technology. We take the unique approach of utilizing traditional "snail" mail for delivery of lessons, though we do offer feedback and other elements via electronic means.
+Greetings! Welcome to The Lack Thereof Correspondence College of Coding. This program is a customized self-study system for learning the art and science of computer programming and related technology. We take the unique approach of utilizing traditional "snail" mail for delivery of lessons, though we do offer feedback and other elements via electronic means.
 
 == Why Snail Mail? ==
 
