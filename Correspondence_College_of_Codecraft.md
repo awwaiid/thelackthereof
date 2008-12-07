@@ -1,7 +1,7 @@
 ---
 title: Correspondence_College_of_Codecraft
-createdAt: 2008-12-07T15:54-05:00
-editedAt: 2008-12-08T12:09-05:00
+createdAt: 2008-12-07T15:53-05:00
+editedAt: 2008-12-07T15:54-05:00
 ---
 
 Greetings! Welcome to The Lack Thereof Correspondence College of Codecraft. This program is a customized self-study system for learning the art and science of computer programming and related technology. We take the unique approach of utilizing traditional "snail" mail for delivery of lessons, though we do offer feedback and other elements via electronic means.
@@ -37,7 +37,7 @@ Please send an email to awwaiid@thelackthereof.org describing your interests and
 You may, of course, also send your application via post to:
 
   Brock Wilcox
-  The Lack Thereof Correspondence College of Codecraft
+  The Lack Thereof Correspondence College of Coding
   2130 P Street NW #509
   Washington, DC 20037
 
