@@ -1,9 +1,10 @@
 ---
 title: Home
-createdAt: 2009-02-28T20:05-05:00
-editedAt: 2009-12-07T05:42-05:00
+createdAt: 2008-05-12T23:19-04:00
+editedAt: 2009-02-28T20:05-05:00
 ---
 
+http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/blog.rss Blog Feed] &nbsp; &nbsp; http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/wiki.rss Site Feed] &nbsp; &nbsp; http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/projects.rss Project Code Update Feed]
 <journal 5 "^TLT_-_">
 
 ----
