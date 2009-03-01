@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2009-02-28T19:53-05:00
-editedAt: 2009-02-28T20:01-05:00
+createdAt: 2007-08-26T20:35-04:00
+editedAt: 2009-02-28T19:53-05:00
 ---
 
 === Navigation ===
@@ -14,10 +14,6 @@ editedAt: 2009-02-28T20:01-05:00
 === Current Projects ===
 * [[Continuity]]
 * [[EPFarms Panel]]
-
-=== Recent Code ===
-<rss "http://thelackthereof.org/projects.rss">
-* http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/projects.rss Projects RSS Feed]
 
 === Recent Entries ===
 <headlines>
