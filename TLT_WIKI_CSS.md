@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2009-02-28T19:59-05:00
-editedAt: 2009-07-28T10:50-04:00
+createdAt: 2008-07-01T00:13-04:00
+editedAt: 2009-02-28T19:59-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -289,23 +289,6 @@ div.sidebar div.SimpleRc strong {
   display: none;
 }
 
-div.sidebar .rss p {
-  display: inline;
-}
-
-div.sidebar .rss .time,
-div.sidebar .rss li .description {
-  display: none;
-}
-
-div.sidebar .rss li:hover .description {
-  display: block;
-}
-
-body.print div.sidebar {
-  display: none;
-}
-
 body.print div.sidebar {
   display: none;
 }
@@ -367,7 +350,7 @@ h1.home {
 */
 
 div.commentshown { background-color:#333; padding: 0.5em; }
-div.commenthidden { display:none; }
-div.commentshown { display:block; }
+    div.commenthidden { display:none; }
+    div.commentshown { display:block; }
 
 
