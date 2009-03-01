@@ -1,6 +1,6 @@
 ---
 title: SideBar
-createdAt: 2009-02-28T20:02-05:00
+createdAt: 2009-02-28T20:01-05:00
 editedAt: 2009-02-28T20:02-05:00
 ---
 
@@ -19,8 +19,8 @@ editedAt: 2009-02-28T20:02-05:00
 <headlines>
 
 === Recent Code ===
-<rss "http://thelackthereof.org/projects.rss" 10>
-* http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/projects.rss Projects RSS Feed]
+<rss "http://thelackthereof.org/projects.rss">
+http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/projects.rss Projects RSS Feed]
 
 <SimpleChanges>[[Changes|... more changes]]
 * http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/wiki.rss Site RSS Feed]
