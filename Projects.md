@@ -1,7 +1,7 @@
 ---
 title: Projects
-createdAt: 2009-06-07T09:50-04:00
-editedAt: 2010-03-07T13:45-05:00
+createdAt: 2009-02-26T16:04-05:00
+editedAt: 2009-06-07T09:50-04:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
@@ -12,7 +12,7 @@ If you were to ask me what I'm working on right now, I might say one of these.
 * [[WayV]] - Building on Mike Bennett's gesture recognition app
 * [[Continuity]] - Continuation-based web-application framework for Perl
 * [[EPFarms Panel]] - A control panel for hosting clients
-* [[CGI Inspect]] - Inspect running CGI apps
+* [[Continuity Monitor]] - Inspect running continuity and CGI apps
 * [[Perl HtmlUnit]] - A perl interface to the java HtmlUnit library
 
 == Backburner ==
