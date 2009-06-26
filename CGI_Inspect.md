@@ -1,7 +1,7 @@
 ---
 title: CGI_Inspect
-createdAt: 2009-06-26T17:54-04:00
-editedAt: 2011-01-19T22:14-05:00
+createdAt: 2009-06-26T17:52-04:00
+editedAt: 2009-06-26T17:54-04:00
 ---
 
 CGI::Inspect info goes here.
@@ -18,7 +18,7 @@ The easiest way is to get it from CPAN. But if you want something a little more 
   git clone git://github.com/awwaiid/cgi-inspect.git
 
 == YAPC::NA 2009 Presentation ==
-You can get the slides at http://thelackthereof.org/projects/perl/yapc-2009/cgi-inspect/
+You can get the slides at http://thelackthereof.org/projects/perl/yapc-2009/
 
 Abstract:
 
