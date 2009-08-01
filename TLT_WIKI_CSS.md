@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2009-08-01T17:24-04:00
-editedAt: 2009-08-25T23:45-04:00
+createdAt: 2009-07-28T10:50-04:00
+editedAt: 2009-08-01T17:24-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -62,14 +62,14 @@ body {
 
 .tlt-title {
   position: absolute;
-  top: 35px;
-  left: 40px;
+  top: 20px;
+  left: 80px;
 }
 
 .tlt-subtitle {
   position: absolute;
-  top: 20px;
-  left: 40px;
+  top: 70px;
+  left: 80px;
   font-size: small;
   letter-spacing: 2px;
   font-style: italic;
