@@ -1,9 +1,8 @@
 ---
 title: CS421_-_Final_Exam_Study_Guide
-createdAt: 2009-08-02T12:24-04:00
+createdAt: 2009-08-02T15:10-04:00
 editedAt: 2009-08-02T15:10-04:00
 ---
-
 
 == Topics ==
 * Regular Expressions and DFAs
@@ -53,4 +52,11 @@ editedAt: 2009-08-02T15:10-04:00
 ** Lambda-calculus: using Church numerals, applying beta-reduction, representing operations
 ** Parallel programming: fundamentals, MapReduce, async workflows
 
+<graph>
+digraph {
+  E1 -> T1;
+  E1 -> '+';
+  E1 -> E1;
+}
+</graph>
 
