@@ -1,7 +1,7 @@
 ---
 title: GP_References
-createdAt: 2009-08-25T23:28-04:00
-editedAt: 2009-08-25T23:31-04:00
+createdAt: 2009-08-25T23:27-04:00
+editedAt: 2009-08-25T23:28-04:00
 ---
 
 @InProceedings{olson:2002:gecco,
@@ -33,7 +33,7 @@ editedAt: 2009-08-25T23:31-04:00
 		 (ICGA-2002) and the seventh Annual Genetic Programming
 		 Conference (GP-2002)",
 }
-----
+
 @Book{koza:book,
   author =	"John R. Koza",
   title =	"Genetic Programming: On the Programming of Computers
@@ -44,5 +44,4 @@ editedAt: 2009-08-25T23:31-04:00
   keywords =	"genetic algorithms, genetic programming, text book",
   ISBN = 	"0-262-11170-5",
 }
-----
 
