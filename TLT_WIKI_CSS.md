@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2009-08-25T23:45-04:00
-editedAt: 2010-01-25T23:16-05:00
+createdAt: 2009-08-01T17:24-04:00
+editedAt: 2009-08-25T23:45-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -380,22 +380,4 @@ div.commentshown { background-color:#333; padding: 0.5em; }
 div.commenthidden { display:none; }
 div.commentshown { display:block; }
 
-/* Bibtex stuff */
-.minilinkstable {
-  background-color: #000;
-}
-
-.bibtex-table td, .bibtex-table tr,
-.minilinkstable td, minilinkstable tr {
-  border: 0;
-}
-
-.bibtex-table td {
-  border-bottom: 1px solid #ccc;
-}
-
-.bibtex-table {
-  border: 1px solid #ccc;
-  background-color: #222;
-}
 
