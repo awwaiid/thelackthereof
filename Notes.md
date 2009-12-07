@@ -1,7 +1,7 @@
 ---
 title: Notes
-createdAt: 2009-12-06T23:49-05:00
-editedAt: 2010-08-12T21:13-04:00
+createdAt: 2009-12-06T23:41-05:00
+editedAt: 2009-12-06T23:49-05:00
 ---
 
 Put this in your .screenrc and your terminal's normal scrollback will work for the screen history! WOOT!!!
@@ -185,6 +185,4 @@ Proposed name of my n900: [http://en.wikipedia.org/wiki/Friedrich_Koenig Koenig]
 -----
 
 mp3:/docs/music/lateblues.mp3
-
-Oh My Baby mp3:/docs/music/oh_my_baby.mp3
 
