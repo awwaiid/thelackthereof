@@ -1,12 +1,12 @@
 ---
 title: Home
-createdAt: 2010-01-25T22:43-05:00
-editedAt: 2010-02-25T10:08-05:00
+createdAt: 2010-01-15T16:52-05:00
+editedAt: 2010-01-25T22:43-05:00
 ---
 
 <journal 5 "^TLT_-_">
 
 ----
 
-<b>META INFORMATION:</b> This is the technical blog and wiki of [http://thelackthereof.org/ Brock Wilcox (awwaiid)]. Entries focus on my current projects, interests, and sometimes life events. If you'd like you can check out the list of [http://thelackthereof.org/wiki.pl?search=%5eTLT%20-&context=0 All Entries] or the [http://thelackthereof.org/blog.rss RSS Feed]. I also have a [http://www.livejournal.com/users/tlt_feed/ LiveJournal syndication feed] for LJ friends.
+<b>META INFORMATION:</b> This is the technical blog and wiki of [http://thelackthereof.org/ Brock Wilcox (awwaiid)]. Entries focus on my current projects, interests, and sometimes life events. If you'd like you can check out the list of [http://thelackthereof.org/wiki.pl?search=%5eTLT%20-&context=0 All Entries] or the [http://thelackthereof.org/blog.rss RSS Feed]. I also have a [http://www.livejournal.com/users/tlt_feed/ LiveJournal syndication feed] [http://webspacehosting.com Web hosting] and [http://www.cheappoolproducts.com/Pool~Cleaner_12~supplies.html Pool cleaners] for LJ friends.
 
