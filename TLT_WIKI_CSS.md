@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2010-01-25T23:16-05:00
-editedAt: 2010-01-25T23:28-05:00
+createdAt: 2009-08-25T23:45-04:00
+editedAt: 2010-01-25T23:16-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -390,14 +390,12 @@ div.commentshown { display:block; }
   border: 0;
 }
 
-td.bibtex-field {
-  text-align: right;
-  vertical-align: top;
+.bibtex-table td {
+  border-bottom: 1px solid #ccc;
 }
 
-span.bibtex-field {
-  margin-right: 5px;
-  font-weight: bold;
-  font-style: italic;
+.bibtex-table {
+  border: 1px solid #ccc;
+  background-color: #222;
 }
 
