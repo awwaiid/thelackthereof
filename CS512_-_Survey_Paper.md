@@ -1,15 +1,8 @@
 ---
 title: CS512_-_Survey_Paper
-createdAt: 2010-01-26T17:18-05:00
-editedAt: 2010-01-26T17:29-05:00
+createdAt: 2010-01-26T12:04-05:00
+editedAt: 2010-01-26T17:18-05:00
 ---
-
-== Survey Paper Requirements ==
-
-* [http://www.cs.ucf.edu/~lboloni/Teaching/EEL6788_2008/slides/SurveyTutorial.pdf Survey Paper Tutorial (PDF)]
-* http://en.wikipedia.org/wiki/Survey_paper
-* [http://csur.acm.org/ Computing Surveys], and the [http://portal.acm.org/csur/current Current issue]
-* [http://www.elsevier.com/wps/find/journaldescription.cws_home/710138/authorinstructions#25000 Computer Science Review, paper structure instructions]
 
 == Misc articles ==
 
