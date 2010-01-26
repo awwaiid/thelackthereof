@@ -1,7 +1,7 @@
 ---
 title: CS512_-_Survey_Paper
-createdAt: 2010-01-26T17:29-05:00
-editedAt: 2010-01-28T22:37-05:00
+createdAt: 2010-01-26T17:18-05:00
+editedAt: 2010-01-26T17:29-05:00
 ---
 
 == Survey Paper Requirements ==
@@ -10,7 +10,6 @@ editedAt: 2010-01-28T22:37-05:00
 * http://en.wikipedia.org/wiki/Survey_paper
 * [http://csur.acm.org/ Computing Surveys], and the [http://portal.acm.org/csur/current Current issue]
 * [http://www.elsevier.com/wps/find/journaldescription.cws_home/710138/authorinstructions#25000 Computer Science Review, paper structure instructions]
-* [http://www.springerlink.com/content/9p5633hm18x55867/ Frequent pattern mining: current status and future directions] - Possibly a "survey paper" example, with Prof Han as one of the authors (though it is a bit long)
 
 == Misc articles ==
 
