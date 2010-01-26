@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2010-01-25T23:28-05:00
-editedAt: 2010-05-21T16:57-04:00
+createdAt: 2010-01-25T23:16-05:00
+editedAt: 2010-01-25T23:28-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -388,10 +388,6 @@ div.commentshown { display:block; }
 .bibtex-table td, .bibtex-table tr,
 .minilinkstable td, minilinkstable tr {
   border: 0;
-}
-
-table.bibtex-table {
-  border-bottom: 1px solid #888;
 }
 
 td.bibtex-field {
