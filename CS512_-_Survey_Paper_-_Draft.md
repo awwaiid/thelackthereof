@@ -1,19 +1,20 @@
 ---
 title: CS512_-_Survey_Paper_-_Draft
-createdAt: 2010-03-04T21:29-05:00
-editedAt: 2010-03-04T21:36-05:00
+createdAt: 2010-03-04T21:27-05:00
+editedAt: 2010-03-04T21:29-05:00
 ---
 
 % [http://thelackthereof.org/dev/draft/wiki-to-pdf.pl Click here to regenerate PDF], and [http://thelackthereof.org/dev/draft/survey.pdf here is the resulting pdf]
 
 \begin{abstract}
-Software Repositories keep the complete history of any file in the project, including who modified what, when, and the delta of the modification. They can be used to mine important information like how the project evolved, how the developers collaborated, their contributions, important milestones in the project’s development, predict changes in a software system, bring some insight on the design of the software, warn about the change couplings that need to be propagated to the other entities help during program comprehension in general and enlighten dependencies between parts of a system. These applications of data mining to software repository inspire us to summarize current approaches and recent developments.
+Abstract goes here!
 \end{abstract}
 
 \section*{Introduction}
-Software Repositories keep the complete history of any file in the project, including who modified what, when, and the delta of the modification. They can be used to mine important information like how the project evolved, how the developers collaborated, their contributions, important milestones in the project’s development, predict changes in a software system, bring some insight on the design of the software, warn about the change couplings that need to be propagated to the other entities help during program comprehension in general and enlighten dependencies between parts of a system. These applications of data mining to software repository inspire us to summarize current approaches and recent developments.
+This is the introduction and overview.
 
-We will build off of a previous survey, [1], and for each of the major topics discussed we will include some recent developments. We will also consider whether the list of topics needs to be revised, with groups added, removed, or merged. Topics, along with some of the papers we will read, include:
+\section*{Categories}
+List categories...
 
 \begin{itemize}
 \item Metadata analysis
