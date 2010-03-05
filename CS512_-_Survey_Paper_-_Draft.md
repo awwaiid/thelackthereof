@@ -1,10 +1,8 @@
 ---
 title: CS512_-_Survey_Paper_-_Draft
-createdAt: 2010-03-04T21:23-05:00
-editedAt: 2010-03-04T21:25-05:00
+createdAt: 2010-03-04T21:20-05:00
+editedAt: 2010-03-04T21:23-05:00
 ---
-
-% [http://thelackthereof.org/dev/draft/wiki-to-pdf.pl Click here to regenerate PDF], and [http://thelackthereof.org/dev/draft/survey.pdf here is the resulting pdf]
 
 \begin{abstract}
 Abstract goes here!
