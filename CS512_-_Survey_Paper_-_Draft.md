@@ -1,7 +1,7 @@
 ---
 title: CS512_-_Survey_Paper_-_Draft
 createdAt: 2010-03-04T21:25-05:00
-editedAt: 2010-03-04T21:27-05:00
+editedAt: 2010-03-04T21:25-05:00
 ---
 
 % [http://thelackthereof.org/dev/draft/wiki-to-pdf.pl Click here to regenerate PDF], and [http://thelackthereof.org/dev/draft/survey.pdf here is the resulting pdf]
@@ -27,7 +27,7 @@ List categories...
 \item Information-retreival methods
 \item Classification with supervised learning
 \item Social network analsysis
-\end{itemize}
+\end{list}
 
 \section{Metadata analysis}
 
