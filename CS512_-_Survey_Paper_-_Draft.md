@@ -1,6 +1,6 @@
 ---
 title: CS512_-_Survey_Paper_-_Draft
-createdAt: 2010-03-04T21:25-05:00
+createdAt: 2010-03-04T21:23-05:00
 editedAt: 2010-03-04T21:25-05:00
 ---
 
@@ -16,7 +16,7 @@ This is the introduction and overview.
 \section{Categories}
 List categories...
 
-\begin{itemize}
+\begin{list}
 \item Metadata analysis
 \item Static source code analysis
 \item Source code differencing and analysis
