@@ -1,7 +1,7 @@
 ---
 title: Skechiki
-createdAt: 2010-03-07T23:38-05:00
-editedAt: 2010-03-10T22:44-05:00
+createdAt: 2010-03-07T22:15-05:00
+editedAt: 2010-03-07T23:38-05:00
 ---
 
 == Goal ==
@@ -46,6 +46,4 @@ Get the code:
 
   darcs get http://thelackthereof.org/projects/perl/gournal-goo/
 
-== Resources ==
-* https://wiki.ubuntu.com/MeetingLogs/OpWeek1003/Gooey
 
