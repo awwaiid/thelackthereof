@@ -1,7 +1,7 @@
 ---
 title: Talks
-createdAt: 2010-04-27T11:55-04:00
-editedAt: 2011-07-18T16:52-04:00
+createdAt: 2010-04-27T11:54-04:00
+editedAt: 2010-04-27T11:55-04:00
 ---
 
 From time to time I give talks on various topics, usually Perl related. Audiences range from the local Perl Monger group to larger conferences. A significant disadvantage of this list is that my favorite thing to do is live code demos... which don't show up on slides. Maybe I'll see if I can find videos.
@@ -12,7 +12,7 @@ From time to time I give talks on various topics, usually Perl related. Audience
 YAPC::NA 2009
 http://thelackthereof.org/projects/perl/yapc-2009/htmlunit/
 
-== A Web-Based Inspector for (CGI?) Perl Applications ==
+== A Web-Based Inspector for (CGI)? Perl Applications ==
 YAPC::NA 2009
 http://thelackthereof.org/projects/perl/yapc-2009/cgi-inspect/
 
