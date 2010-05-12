@@ -1,7 +1,7 @@
 ---
 title: Projects
-createdAt: 2010-05-12T09:40-04:00
-editedAt: 2010-08-16T02:07-04:00
+createdAt: 2010-03-07T23:46-05:00
+editedAt: 2010-05-12T09:40-04:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
@@ -13,7 +13,6 @@ If you were to ask me what I'm working on right now, I might say one of these.
 * [[CGI Inspect]] - Inspect running CGI apps
 * [[Perl HtmlUnit]] - A perl interface to the java HtmlUnit library
 * [[Skechiki]] - A Perl/GTK sketchbook for small touch-screen devices
-* [[CloSpan, CISpan, FloSpan]] - OCaml implementation of the sequential data mining algorithms
 
 == Backburner ==
 If you had asked me what I was working on last week, or if you ask me next week, I might mention one of these.
