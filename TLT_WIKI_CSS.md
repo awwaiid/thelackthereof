@@ -1,11 +1,10 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2010-05-21T16:57-04:00
-editedAt: 2010-05-22T12:22-04:00
+createdAt: 2010-01-25T23:28-05:00
+editedAt: 2010-05-21T16:57-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
-@import url(http://fonts.googleapis.com/css?family=Cardo);
 
 /* Default theme */
 
