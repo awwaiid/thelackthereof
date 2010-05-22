@@ -1,11 +1,11 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2010-05-22T13:22-04:00
-editedAt: 2010-06-05T14:14-04:00
+createdAt: 2010-05-22T12:22-04:00
+editedAt: 2010-05-22T13:22-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Nobile);
 
 /* Default theme */
 
@@ -30,7 +30,7 @@ body {
   background-color: #000000;
   color: #f8f8f8;
   margin: 0 0 5px 0;
-  font-family: "Droid Sans", arial, sans-serif;
+  font-family: "Nobile", arial, sans-serif;
 }
 
 #shadow-holder {
