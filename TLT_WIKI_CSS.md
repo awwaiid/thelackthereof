@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2010-06-05T14:14-04:00
-editedAt: 2010-06-05T14:21-04:00
+createdAt: 2010-05-22T13:22-04:00
+editedAt: 2010-06-05T14:14-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -178,7 +178,6 @@ div.journal h1 {
   border-width: 0px 0px 1px 0px;
   font-size: 130%;
   clear: left;
-  font-variant: small-caps;
 }
 
 div.journal h1 a {
@@ -405,9 +404,5 @@ span.bibtex-field {
   margin-right: 5px;
   font-weight: bold;
   font-style: italic;
-}
-
-.journalBody p:first-letter {
-  font-size: 300%;
 }
 
