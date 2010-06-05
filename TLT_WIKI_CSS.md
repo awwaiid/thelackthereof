@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2010-06-05T14:22-04:00
-editedAt: 2010-06-07T08:18-04:00
+createdAt: 2010-06-05T14:21-04:00
+editedAt: 2010-06-05T14:22-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -414,6 +414,6 @@ span.bibtex-field {
   font-size: 300%;
   line-height: 0.85em;
   margin-right: 0.1em;
-  margin-bottom: -0.25em;
+  margin-bottom:-0.25em;
 }
 
