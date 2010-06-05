@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2010-06-05T14:21-04:00
-editedAt: 2010-06-05T14:22-04:00
+createdAt: 2010-06-05T14:14-04:00
+editedAt: 2010-06-05T14:21-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -407,13 +407,7 @@ span.bibtex-field {
   font-style: italic;
 }
 
-.journalBody .taglist + p:first-letter,
-.journalBody p:first-child:first-letter {
-  float: left;
-  font-family: Old English, Georgia,serif;
+.journalBody p:first-letter {
   font-size: 300%;
-  line-height: 0.85em;
-  margin-right: 0.1em;
-  margin-bottom:-0.25em;
 }
 
