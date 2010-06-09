@@ -1,12 +1,12 @@
 ---
 title: Perl_hashref_iteration_example
-createdAt: 2003-11-10T11:55-05:00
-editedAt: 2003-11-10T11:55-05:00
+createdAt: 2010-06-08T20:57-04:00
+editedAt: 2010-06-08T20:57-04:00
 ---
 
 Here is an example of iterating over a nested hashref datastructure in Perl.
 
-<pre>
+<code>
 $domaindb = {
   'thelackthereof.org' => {
     'owner' => 'brock',
@@ -27,5 +27,13 @@ $domaindb = {
 foreach $domain (keys %{$domaindb}) {
   print "Domain: $domain\tOwner: $domaindb->{$domain}->{owner}\n";
 }
+</code>
+
+Which outputs:
+<pre>
+Domain: thelackthereof.org      Owner: brock
+Domain: brockwilcox.org         Owner: awwaiid
 </pre>
+
+Fun, eh?
 
