@@ -1,7 +1,7 @@
 ---
 title: Fujitsu_Lifebook_T730
-createdAt: 2010-07-27T16:37-04:00
-editedAt: 2010-07-27T22:04-04:00
+createdAt: 2010-07-27T16:14-04:00
+editedAt: 2010-07-27T16:37-04:00
 ---
 
 I recently got a [http://store.shopfujitsu.com/fpc/Ecommerce/buildseriesbean.do?series=T730 Fujitsu Lifebook T730], the package with these specs:
@@ -44,8 +44,5 @@ Highlights of what works:
 * Sound -- perfect
 * Screen -- perfect. Fully controllable via xrandr and some wacom tool.
 
-== Battery Life ==
-One of my hopes with the extra battery has been to get a significant boost on the battery life.
 
-* Unoptimized, listening to pandora over wifi - 5:00 hours
 
