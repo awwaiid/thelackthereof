@@ -1,7 +1,7 @@
 ---
 title: Fujitsu_Lifebook_T730
-createdAt: 2010-07-27T22:05-04:00
-editedAt: 2010-07-29T08:51-04:00
+createdAt: 2010-07-27T22:04-04:00
+editedAt: 2010-07-27T22:05-04:00
 ---
 
 I recently got a [http://store.shopfujitsu.com/fpc/Ecommerce/buildseriesbean.do?series=T730 Fujitsu Lifebook T730], the package with these specs (from the website):
@@ -35,15 +35,15 @@ So on to linux! I had an Ubuntu 10.04 disk, so I tried that first. Almost everyt
 
 Highlights of what works, what doesn't
 || Feature || Status ||
-|| Pen input || Perfect, though needs some calibration ||
-|| Touch input || <b>No worky yet</b> ||
-|| Screen buttons || Didn't work until I got [http://sourceforge.net/apps/mediawiki/fjbtndrv/index.php?title=Main_Page fjbtndrv], now they work fine ||
-|| Wireless || Perfect ||
-|| Touchpad || Perfect, scrollyness and all. It needs to be more sensitive though. ||
-|| Webcam || Perfect ||
-|| Sound || Perfect ||
-|| Screen || Perfect. Fully controllable via xrandr and some wacom tool. ||
-|| Suspend to RAM || Perfect. Sweetness. ||
+| Pen input | Perfect, though needs some calibration |
+| Touch input | <b>No worky yet</b> |
+| Screen buttons | Didn't work until I got [http://sourceforge.net/apps/mediawiki/fjbtndrv/index.php?title=Main_Page fjbtndrv], now they work fine |
+| Wireless | Perfect |
+| Touchpad | Perfect, scrollyness and all. It needs to be more sensitive though. |
+| Webcam | Perfect |
+| Sound | Perfect |
+| Screen | Perfect. Fully controllable via xrandr and some wacom tool. |
+| Suspend to RAM | Perfect. Sweetness. |
 
 == Battery Life ==
 One of my hopes with the extra battery has been to get a significant boost on the battery life.
