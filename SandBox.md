@@ -1,7 +1,7 @@
 ---
 title: SandBox
-createdAt: 2010-09-11T06:38-04:00
-editedAt: 2010-09-11T06:39-04:00
+createdAt: 2008-10-31T11:07-04:00
+editedAt: 2010-09-11T06:38-04:00
 ---
 
 Tags: Test, Tagging Demo, Blah
@@ -21,6 +21,4 @@ Testingtesting
 la la la
 
 Do I have to answer a question to save my edit?
-
-Crows feet are cool.
 
