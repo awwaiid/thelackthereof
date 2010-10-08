@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Fujitsu_Lifebook_T730
-createdAt: 2010-10-08T05:12-04:00
-editedAt: 2011-10-14T13:53-04:00
+createdAt: 2010-10-03T00:33-04:00
+editedAt: 2010-10-08T05:12-04:00
 ---
 
-=== 3 Comments. ===
+=== 2 Comments. ===
 Hi!
 I got myself a T730 too (a cheaper configuration, though) and found it works pretty well with Ubuntu 10.10 RC. However I cannot get pen input and the touch screen working at the same time. The pen works out-of-the-box but stops working as soon as I create a xorg.conf like yours. Touch works perfectly with a xorg.conf. I also tried removing the definitions for the pen but it's still not responding until I delete xorg.conf completely.
 What which versions of the wacom drivers and X11 are you using in your working configuration? Do you have any other tips for me?
@@ -30,14 +30,5 @@ ii  xserver-xorg-input-wacom                        1:0.10.5-0ubuntu4
 It's also possible that I did something that I've forgotten! Let me know if the above helps, and feel free to email me.
 
 -- [http://thelackthereof.org/ awwaiid] 2010-10-03 04:33 UTC
-
-
-----
-
-Hi there again,
-
-Just wanted to say I built and installed the input driver from git and now it works perfectly without any xorg.conf!
-
--- geloescht 2010-10-08 09:12 UTC
 
 
