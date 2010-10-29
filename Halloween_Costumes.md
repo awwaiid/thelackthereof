@@ -1,14 +1,11 @@
 ---
 title: Halloween_Costumes
-createdAt: 2010-10-29T13:39-04:00
-editedAt: 2010-11-18T08:00-05:00
+createdAt: 2007-10-02T10:35-04:00
+editedAt: 2010-10-29T13:39-04:00
 ---
 
 I never want to be the same thing twice... so:
 
-* 2009 - Tiger
-* 2008 - Orange Cone
-* 2007 -
 * 2006 - Lumberjack
 * 2005 - ... 
 * 2004 - Mario Plant
@@ -16,8 +13,8 @@ I never want to be the same thing twice... so:
 * 2002 -
 * 2001 -
 * 2000 -
-* 1999 - Eggplant, NAU freshman, Flagstaff
-* 1998 - ... nothing? ... went to a party, HS senior
+* 1999 - Eggplant
+* 1998 - ... nothing? ... went to a party
 * 1997 -
 * 1996 -
 * 1995 - 
