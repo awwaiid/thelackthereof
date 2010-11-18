@@ -1,12 +1,11 @@
 ---
 title: Halloween_Costumes
-createdAt: 2010-11-18T08:00-05:00
-editedAt: 2012-04-15T21:26-04:00
+createdAt: 2010-10-29T13:39-04:00
+editedAt: 2010-11-18T08:00-05:00
 ---
 
 I never want to be the same thing twice... so:
 
-* 2010 - Blue Knight
 * 2009 - Tiger
 * 2008 - Orange Cone
 * 2007 -
@@ -35,7 +34,7 @@ I never want to be the same thing twice... so:
 * 1984 - 
 * 1983 - 
 * 1982 - 
-* 1981 - too young? I was zero years (10 months) old.
+* 1981 - too young? I was zero years old.
 
 Robot, Turtle, Zorro.
 
