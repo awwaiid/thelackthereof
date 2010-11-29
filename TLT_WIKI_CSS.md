@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2010-11-29T15:26-05:00
-editedAt: 2011-08-28T06:10-04:00
+createdAt: 2010-06-07T08:18-04:00
+editedAt: 2010-11-29T15:26-05:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -27,11 +27,10 @@ hr {
 }
 
 body {
+  background-color: #000000;
   color: #f8f8f8;
   margin: 0 0 5px 0;
   font-family: "Droid Sans", arial, sans-serif;
-  background: fixed #000000 no-repeat;
-  background-image: -moz-radial-gradient( 0% 0%, circle farthest-side, #000 0, #224 100% );
 }
 
 #shadow-holder {
