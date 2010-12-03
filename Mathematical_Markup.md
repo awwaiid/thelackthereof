@@ -1,18 +1,14 @@
 ---
 title: Mathematical_Markup
-createdAt: 2010-12-02T22:24-05:00
-editedAt: 2011-04-26T02:56-04:00
+createdAt: 2008-07-28T19:37-04:00
+editedAt: 2010-12-02T22:24-05:00
 ---
 
-I've taught this wiki to use LaTeX for mathematical markup, using [http://www.mathjax.org/|MathJax], a Javascript library for rendering mathematical markup.
+I've taught this wiki to use LaTeX for mathematical markup, using the [http://www.oddmuse.org/cgi-bin/oddmuse/LaTeX_Extension LaTeX module extension] for OddMuse. You simply wrap your math like this: <nowiki>$$ x^2 $$</nowiki> to get something like $$x^2$$. This page is to document some of the ways this can be used. Please choose 'Edit text of this page' at the bottom to play!
 
-(Previously I used the [http://www.oddmuse.org/cgi-bin/oddmuse/LaTeX_Extension LaTeX module extension] for OddMuse. But that requires LaTeX be installed and some other messyness, generating images as the output. MathJax is better -- it requires Javascript, but gives lovely copy-pasteable equations).
+We can do nifty integrals, like $$ \int^{\infty}_{0}{x^8} $$. Heck, we can even do summations such as $$ \sum _{i=0} ^{\infty+2} x^2 + 3i $$. Fun, eh?  For limits we can do $$ \lim_{x \rightarrow 0} x^3=0 $$.
 
-You simply wrap your math like this: $ $ x^2 $ $ to get something like $$x^2$$. Or, you could wrap your math with \ ( x^2 \ ) to get an inline equation, \( x^2 \). This page is to document some of the ways this can be used. Please choose 'Edit text of this page' at the bottom to play!
-
-We can do nifty integrals, like: $$ \int^{\infty}_{0}{x^8} $$ Heck, we can even do summations such as: $$ \sum _{i=0} ^{\infty+2} x^2 + 3i $$ Fun, eh?  For limits we can do: $$ \lim_{x \rightarrow 0} x^3=0 $$
-
-Fractions are done like this: \( \frac{x^6}{\sqrt{3x}} \) or this: \( {dy\over dx} \)
+Fractions are done like this: $$ \frac{x^6}{\sqrt{3x}} $$ or this: $$ {dy\over dx} $$
 
 || \Gamma  || $$\Gamma$$  || \Delta  || $$\Delta$$  ||
 || \Lambda || $$\Lambda$$ || \Phi    || $$\Phi$$    ||
@@ -28,11 +24,19 @@ $$\left(\begin{array}{cc} 1 & 0 \\ 0 & \phi\\ \end{array}\right)$$
 
 ----
 
-Some special things like \( \mathcal{P} \) and \(\mathbb{R}\) work, but I might have to turn on some more stuff from MathJax for other things.
+In order to get $$ \mathcal{P} $$ and $$\mathbb{R} $$ to work, I added these to the latex template file:
+<pre>
+   \usepackage{amsmath}
+   \usepackage{amssymb}
+   \usepackage{amsxtra}
+</pre>
+
+The size of the rendered equations can be tweaked by editing the conversion command in the extension.
 
 ----
 
 $$\nabla\cdot\vec{B}=0$$
+
 
 ----
 
@@ -40,8 +44,27 @@ $$\sigma_{xz}^{i-\frac{1}{2},j-\frac{1}{2}}=\mu^{i-\frac{1}{2},j-\frac{1}{2}}(\f
 
 ----
 
-Testing...
+This is some added stuff by rja: $$x^2$$, this is an equation:
+
+\begin{equation}
+\sum_{i \in J}x^i
+\end{equation}
+
+---
+
+Try
 
 $$\sum_{i \in J}x^i$$
 
+Interesting that it decided to make it HUGE.
+
+
+What about:
+
+\begin{equation}
+  (\frac{x^2}{y^3})
+\end{equation}
+
+
+Does it work?
 
