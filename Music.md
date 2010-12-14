@@ -1,12 +1,13 @@
 ---
 title: Music
-createdAt: 2010-12-14T02:11-05:00
-editedAt: 2010-12-17T15:19-05:00
+createdAt: 2010-12-14T01:58-05:00
+editedAt: 2010-12-14T02:11-05:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place.
 
-These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons Attribution-ShareAlike (CC BY-SA)]] License.
+CC BY-NC
+
 
 || Song || Play! ||
 || [[Umbrellas]] || mp3:/docs/music/umbrellas.mp3 ||
