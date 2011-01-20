@@ -1,6 +1,6 @@
 ---
 title: CGI_Inspect
-createdAt: 2011-01-19T22:14-05:00
+createdAt: 2009-06-26T17:54-04:00
 editedAt: 2011-01-19T22:14-05:00
 ---
 
@@ -32,7 +32,7 @@ I've taken this technique and mixed in a splash of Continuity to build an intera
 In this talk I'll show you how to use the tool and how it's built... and how you can add to it with plugins.
 
 == PPW 2008 Presentation ==
-I presented the earlier incarnation of this module, Continuity::Monitor::CGI, at PPW 2008 to about 30 people. If you missed it you can get the [[PPW 2008 Continuity-Monitor Slides]]. Here is the abstract:
+I presented the earlier incarnation of this module, ontinuity::Monitor::CGI, at PPW 2008 to about 30 people. If you missed it you can get the [[PPW 2008 Continuity-Monitor Slides]]. Here is the abstract:
 
 <blockquote>
 One of the tried and true ways of debugging is to sprinkle 'print "Here! $val\n"' around and see what happens or if the program even reaches that point. Simple and effective! Carp::REPL lets you take this a step further by starting an interactive read-eval-print loop (REPL) at an arbitrary point in your program.
