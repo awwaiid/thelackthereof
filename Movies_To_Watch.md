@@ -1,7 +1,7 @@
 ---
 title: Movies_To_Watch
-createdAt: 2011-02-20T16:23-05:00
-editedAt: 2011-03-01T12:29-05:00
+createdAt: 2011-02-11T14:59-05:00
+editedAt: 2011-02-20T16:23-05:00
 ---
 
 == Mike (or things we think he should watch) ==
@@ -13,6 +13,5 @@ editedAt: 2011-03-01T12:29-05:00
 * Wall-E
 * The Great Escape
 * Real Genius
-* Sean of the Dead
 
 
