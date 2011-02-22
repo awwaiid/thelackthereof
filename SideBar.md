@@ -1,14 +1,14 @@
 ---
 title: SideBar
-createdAt: 2011-02-22T13:57-05:00
-editedAt: 2015-01-02T01:02-05:00
+createdAt: 2009-02-28T20:09-05:00
+editedAt: 2011-02-22T13:57-05:00
 ---
 
 === Navigation ===
 * [[Home]]
 * [[Projects]]
-* [[Music]]
 * [[Docs]]
+* [[Notes]]
 
 === Feeds ===
 * http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/blog.rss Blog RSS Feed]
