@@ -1,10 +1,10 @@
 ---
 title: TLT_Drafts
-createdAt: 2011-03-11T10:19-05:00
-editedAt: 2011-03-12T16:14-05:00
+createdAt: 2011-03-11T10:18-05:00
+editedAt: 2011-03-11T10:19-05:00
 ---
 
-= Funky Function Filters in Perl6 =
+h1. Funky Function Filters in Perl6
 
 A while back I wrote about [[TLT - 2006.03.03 - Funky Function Filters|Funky Function Filters]]. Let me refresh your memory - we have a Python and a Ruby snippet and we translate it into Perl5. The code is a toy to show some fancy shmancy lambda (unnamed functions) usage. The idea is to take a list of functions, filter them, and then with the remaining ones show what happens with parameters from -10 to 10.
 
@@ -62,7 +62,7 @@ Whatever to-the-power-of 3
 
 Wait wait... "whatever"? The Whatever-star is a fancy thing from Perl6 that took me a while to work out, and there may still be some nuances that I'm missing.
 
-= Picking Whatever Star =
+h1. Picking Whatever Star
 
 The "Whatever Star" was at first alarming to me, when I learned how to shuffle a list:
 
