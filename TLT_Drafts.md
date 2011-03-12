@@ -1,7 +1,7 @@
 ---
 title: TLT_Drafts
-createdAt: 2011-03-12T16:14-05:00
-editedAt: 2011-03-12T16:54-05:00
+createdAt: 2011-03-11T10:19-05:00
+editedAt: 2011-03-12T16:14-05:00
 ---
 
 = Funky Function Filters in Perl6 =
@@ -84,23 +84,5 @@ Whatever()<0xc6346e8>
 </code>
 
 [https://github.com/rakudo/rakudo/blob/master/src/core/Any-list.pm#L190 Rakudo Any-list pick whatever implementation]
-
-= Debugging Gems =
-
-I've been enjoying the blog entries of Carl Mäsak lately, and not just the [http://strangelyconsistent.org/blog/yapsi-201103-released Yapsi Release Notes]. Though those are awefully awesome.
-
-
-[http://strangelyconsistent.org/blog/im-doing-science-and-im-still-alive I'm Doing Science And I'm Still Alive]
-[http://strangelyconsistent.org/blog/theres-plurality-in-wrongness There's Plurality In Wrongness]
-
-The [http://www.catb.org/jargon/html/P/programming.html Jargon File's definition of programming] defines it as "the art of debugging an empty file".
-[http://perl.plover.com/yak/debruijn/ Debugging the de Bruijn Sequence]
-
-= Rockin At Filter =
-On my way to Safeway, I stopped in at Filter to see how they are doing. The nearby Safeway (The Secret Safeway) is closed, but this is still roughly on the way to The Soviet Safeway anyhow. A seat was open so down I plopped.
-
-First they played the entire Rage Against The Machine, [http://en.wikipedia.org/wiki/The_Battle_of_Los_Angeles_(album) Battle of Los Angeles] album, and now we're on to The Ramones with Blitzkrieg Bop. Sounds like they're going to play this [http://en.wikipedia.org/wiki/Ramones_(Ramones_album) whole album] too.
-
-Good music, good mocha. Where was I on my way to again?
 
 
