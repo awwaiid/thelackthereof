@@ -1,7 +1,7 @@
 ---
 title: TLT_Drafts
-createdAt: 2011-03-12T16:56-05:00
-editedAt: 2011-03-13T00:02-05:00
+createdAt: 2011-03-12T16:55-05:00
+editedAt: 2011-03-12T16:56-05:00
 ---
 
 = Funky Function Filters in Perl6 =
@@ -71,7 +71,7 @@ Wait wait... "whatever"? The Whatever-star is a fancy thing from perl6 that took
 
 # Subref notation
 sub ($x) { $x ** 3 }
-</code>
+{/code}
 
 TODO: .... but that last one should be SLURPY!
 
