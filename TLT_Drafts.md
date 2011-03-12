@@ -1,7 +1,7 @@
 ---
 title: TLT_Drafts
-createdAt: 2011-03-12T16:54-05:00
-editedAt: 2011-03-12T16:55-05:00
+createdAt: 2011-03-12T16:14-05:00
+editedAt: 2011-03-12T16:54-05:00
 ---
 
 = Funky Function Filters in Perl6 =
@@ -36,7 +36,7 @@ for my $f (grep { $_->(-1) >= $_->(1) }
 }
 </code>
 
-Today I thought I'd give a stab at a perl6 translation (using the 2011.01 Rakudo Star release). I started with the perl5 translation, then switched to perl6 idioms.
+Today I thought I'd give a stab at a Perl6 translation (using the 2011.01 Rakudo Star release).
 
 Perl6 translation:
 <code>
@@ -48,7 +48,7 @@ for (* ** 1, * ** 2, * ** 3).grep({ $_.(-1) >= $_.(1) })
 }
 </code>
 
-This is similar in some ways to the perl5 translation, though the grep now shows up on the righthand-side of the list like in Ruby. The biggest difference to me is in the list of lambdas:
+This is similar in some ways to the perl5 translation, though the grep now shows up on the righthand-side of the list like in Ruby. The biggest difference is in the list of lambdas:
 
 <code>
 (* ** 1, * ** 2, * ** 3)
@@ -60,67 +60,30 @@ I mean... what does THAT mean?! Let's take the last one, "* ** 3". Translated in
 Whatever to-the-power-of 3
 </code>
 
-Wait wait... "whatever"? The Whatever-star is a fancy thing from perl6 that took me a while to work out, and there may still be some nuances that I'm missing. In this context it magically makes a closure... er... lambda, that takes one parameter which it puts where you see the '*'.
-
-<code>
-# Whatever-star notation
-* ** 3
-
-# Pointy-block notation
--> $x { $x ** 3 }
-
-# Subref notation
-sub ($x) { $x ** 3 }
-{code}
-
-TODO: .... but that last one should be SLURPY!
+Wait wait... "whatever"? The Whatever-star is a fancy thing from Perl6 that took me a while to work out, and there may still be some nuances that I'm missing.
 
 = Picking Whatever Star =
 
-The "Whatever Star" was at first alarming to me! I first noticed it when I learned how to shuffle an entire list:
+The "Whatever Star" was at first alarming to me, when I learned how to shuffle a list:
 
 <code>
 my $shuffled = ('alice','bob','carol','dave').pick(*);
 </code>
 
-Now... I've tried ".pick(1)" which gets me one at random. Then ".pick(2)" will give me two, and not repeat. If I put in too many then it'll only give me back what it can, in this case all four names. But ".pick(*)" doesn't even look valid! The documentation says that it is the same as ".pick(Inf)". When I picked more than there were, it stopped when there was nothing to pick. So this makes sense... try to pick an infinite number and we'll just get them all. Nice. Still kinda weird about the '*' though.
+Now... I've tried ".pick(1)" which gets me one at random. But ".pick(*)" doesn't even look valid! The documentation says that it is the same as ".pick(Inf)", or in other words "pick out as many as you can, up to infinity". This is ok because if you tell it to pick more than is there, it'll stop when there is nothing else to pick from. Nice.
 
-So then I, mistakenly, thought that maybe "pick" was special. Maybe they hooked it up so that it could, like, "know" that it was being passed this '*', which I learned is named "Whatever". I couldn't have been closer to the truth! Except without the "special" bit. Time to do a bit of exploring!
-
-Let's try to figure out how this works without reverting to such tedious things as reading documentation, source code, or IRC, shall we? RTFM my eye. If pick is special, then I shouldn't be able to add something that behaves similarly. Wait, let's do this formal like.
-
-Theorem: (1,2,3,4).pick(*) is somehow special, and can't be replicated without modifying the compiler.
-
-Proof: Let's start by assuming that it is NOT special. Then we should be able to create our own method that can behave specially when '*' is passed.
-
-First, what class is .pick(*) working on, anyway? Let's ask rakudo.
+So then I, mistakenly, thought that maybe "pick" was special. Maybe they hooked it up so that it could, like, "know" that it was being passed Whatever. I couldn't have been closer to the truth! Except without the "special" bit.
 
 <code>
-> (1,2,3,4,5).WHAT
-Parcel()
-</code>
-
-Parcel. OK, whatever that is. So all we gotta do is slap a new method on there and see what we get. *google google irc*. OK, here we go.
-
-<code>
-> use MONKEY_TYPING; augment class Parcel { method yo($x) { say "I like to eat $x." } }
+> use MONKEY_TYPING; augment class Array { method yo($x) { say $x } }
 !class_init_384
-> (1,2,3,4,5).yo('fishies')
-I like to eat fishies.
+> [1,2,3].yo(77)
+77
+> [1,2,3].yo(*)
+Whatever()<0xc6346e8>
 </code>
 
-Well that was easy :) . Now for the BIG TEST!
-
-<code>
-> (1,2,3,4,5).yo(*)
-I like to eat Whatever()<0xb2f5a7c>.
-</code>
-
-OMG it worked! So I actually get a parameter, and it is an instance of Whatever. Well then.
-
-THEOREM DISPROVED.
-
-I then decided to actually cast about for how things use this. Here's a great example, the [https://github.com/rakudo/rakudo/blob/master/src/core/Any-list.pm#L190 Rakudo Any-list pick whatever implementation]. You can see that they use multi-methods to easily deal with the Whatever case separately from other passed values.
+[https://github.com/rakudo/rakudo/blob/master/src/core/Any-list.pm#L190 Rakudo Any-list pick whatever implementation]
 
 = Debugging Gems =
 
@@ -133,6 +96,11 @@ I've been enjoying the blog entries of Carl Mäsak lately, and not just the [http
 The [http://www.catb.org/jargon/html/P/programming.html Jargon File's definition of programming] defines it as "the art of debugging an empty file".
 [http://perl.plover.com/yak/debruijn/ Debugging the de Bruijn Sequence]
 
+= Rockin At Filter =
+On my way to Safeway, I stopped in at Filter to see how they are doing. The nearby Safeway (The Secret Safeway) is closed, but this is still roughly on the way to The Soviet Safeway anyhow. A seat was open so down I plopped.
 
+First they played the entire Rage Against The Machine, [http://en.wikipedia.org/wiki/The_Battle_of_Los_Angeles_(album) Battle of Los Angeles] album, and now we're on to The Ramones with Blitzkrieg Bop. Sounds like they're going to play this [http://en.wikipedia.org/wiki/Ramones_(Ramones_album) whole album] too.
+
+Good music, good mocha. Where was I on my way to again?
 
 
