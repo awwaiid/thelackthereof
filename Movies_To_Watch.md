@@ -1,7 +1,7 @@
 ---
 title: Movies_To_Watch
-createdAt: 2011-03-17T13:37-04:00
-editedAt: 2011-05-13T10:28-04:00
+createdAt: 2011-03-16T16:28-04:00
+editedAt: 2011-03-17T13:37-04:00
 ---
 
 == Mike (or things we think he should watch) ==
@@ -16,5 +16,4 @@ editedAt: 2011-05-13T10:28-04:00
 * Sean of the Dead
 * Dr. Strangelove
 * I Heart Huckabees
-* Napoleon Dynamite
 
