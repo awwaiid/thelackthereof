@@ -1,12 +1,12 @@
 ---
 title: Keyboard_Number-Symbol_Swap
-createdAt: 2011-03-18T09:59-04:00
-editedAt: 2011-03-18T10:00-04:00
+createdAt: 2011-03-18T09:50-04:00
+editedAt: 2011-03-18T09:59-04:00
 ---
 
 The idea here is that we use the symbols at the top of the keyboard a lot more often than the numbers at the top of the keyboard. In my case because I write a lot of perl :)
 
-Here are the various configurations that you can set to switch the number keys and symbol keys in Linux/X11 -- effectively making it so you don't press shift for the symbols but you DO for the numbers. The first, .Xmodmap, is what actually switches things. The others are to make other applications be OK with the new setup.
+Here are the various configurations that you can set to switch the number keys and symbol keys in Linux/X11. The first, .Xmodmap, is what actually switches things. The others are to make other applications be OK with the new setup.
 
 From: ~/.Xmodmap
 <code>
@@ -27,10 +27,6 @@ keycode  34 = braceleft bracketleft
 keycode  35 = braceright bracketright
 </code>
 
-Once you put your .Xmodmap in place (and do "xmodmap .Xmodmap" to load it), your buttons are swapped! But you might find, as I did, that other applications with key-modifiers expected those same keys to be numbers. Some of them you can just hold down an extra 'shift' for, but some you can't. And that's no fun anyway.
-
-First thing that I fixed is [[Xmonad]]. It uses alt+n to switch workspaces, so I made it so it can additionally use alt+symbol.
-
 From: ~/.xmonad/xmonad.hs
 <code>
 -- This is in my keybinding section
@@ -47,8 +43,6 @@ symbolKeys = [ xK_exclam, xK_at, xK_numbersign
              , xK_parenright]
 </code>
 
-Next is screen. It uses ctrl-a, N to switch to the Nth window. ctrl-a, shift-N works, but is no fun. So this will make it so you do ctrl-a, symbol.
-
 From: ~/.screenrc
 <code>
 # Allow switching using symbols
@@ -63,8 +57,6 @@ bind * select 8
 bind ( select 9
 bind ) select 0
 </code>
-
-Mike does the same thing with Gnome Terminal. He fixed his using the GUI, and it produced this gconf file. You might be able to just drop it in.
 
 From: ~/.gconf/apps/gnome-terminal/keybinding/%gconf.xml
 <code>
