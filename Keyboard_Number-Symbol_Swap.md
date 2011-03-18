@@ -1,7 +1,7 @@
 ---
 title: Keyboard_Number-Symbol_Swap
-createdAt: 2011-03-18T10:00-04:00
-editedAt: 2011-03-18T10:17-04:00
+createdAt: 2011-03-18T09:59-04:00
+editedAt: 2011-03-18T10:00-04:00
 ---
 
 The idea here is that we use the symbols at the top of the keyboard a lot more often than the numbers at the top of the keyboard. In my case because I write a lot of perl :)
@@ -29,7 +29,7 @@ keycode  35 = braceright bracketright
 
 Once you put your .Xmodmap in place (and do "xmodmap .Xmodmap" to load it), your buttons are swapped! But you might find, as I did, that other applications with key-modifiers expected those same keys to be numbers. Some of them you can just hold down an extra 'shift' for, but some you can't. And that's no fun anyway.
 
-First thing that I fixed is my [[XMonad Window Manager]]. It uses alt+n to switch workspaces, so I made it so it can additionally use alt+symbol.
+First thing that I fixed is [[Xmonad]]. It uses alt+n to switch workspaces, so I made it so it can additionally use alt+symbol.
 
 From: ~/.xmonad/xmonad.hs
 <code>
