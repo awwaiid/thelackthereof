@@ -1,16 +1,12 @@
 ---
 title: Keyboard_Number-Symbol_Swap
-createdAt: 2011-03-18T10:17-04:00
-editedAt: 2011-03-18T10:21-04:00
+createdAt: 2011-03-18T10:00-04:00
+editedAt: 2011-03-18T10:17-04:00
 ---
 
 The idea here is that we use the symbols at the top of the keyboard a lot more often than the numbers at the top of the keyboard. In my case because I write a lot of perl :)
 
-Here are the various configurations that you can set to switch the number keys and symbol keys in Linux/X11 -- effectively making it so you don't press shift for the symbols but you DO for the numbers.
-
-== Configuration ==
-
-The first, .Xmodmap, is what actually switches things. The others are to make other applications be OK with the new setup.
+Here are the various configurations that you can set to switch the number keys and symbol keys in Linux/X11 -- effectively making it so you don't press shift for the symbols but you DO for the numbers. The first, .Xmodmap, is what actually switches things. The others are to make other applications be OK with the new setup.
 
 From: ~/.Xmodmap
 <code>
@@ -56,16 +52,16 @@ Next is screen. It uses ctrl-a, N to switch to the Nth window. ctrl-a, shift-N w
 From: ~/.screenrc
 <code>
 # Allow switching using symbols
-bind !  select 1
-bind @  select 2
+bind ! select 1
+bind @ select 2
 bind \# select 3
-bind $  select 4
-bind %  select 5
+bind $ select 4
+bind % select 5
 bind \^ select 6
-bind &  select 7
-bind *  select 8
-bind (  select 9
-bind )  select 0
+bind & select 7
+bind * select 8
+bind ( select 9
+bind ) select 0
 </code>
 
 Mike does the same thing with Gnome Terminal. He fixed his using the GUI, and it produced this gconf file. You might be able to just drop it in.
@@ -106,15 +102,5 @@ From: ~/.gconf/apps/gnome-terminal/keybinding/%gconf.xml
         </entry>
 </gconf>
 </code>
-
-== Results of Usage ==
-
-2011.03.18
-* Entering passwords is tricky
-* I find it very difficult to type :) because I type it so often and fast
-* Most of the time I find myself still pressing shift when I don't need to
-* Less often is not pressing shift when I need numbers
-* Vim line-number or count-based operations have become annoying
-* Mike noted that "select (*)" is easier to type :)
 
 
