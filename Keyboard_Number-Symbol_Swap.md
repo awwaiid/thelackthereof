@@ -1,7 +1,7 @@
 ---
 title: Keyboard_Number-Symbol_Swap
-createdAt: 2011-03-18T10:21-04:00
-editedAt: 2011-03-18T10:33-04:00
+createdAt: 2011-03-18T10:17-04:00
+editedAt: 2011-03-18T10:21-04:00
 ---
 
 The idea here is that we use the symbols at the top of the keyboard a lot more often than the numbers at the top of the keyboard. In my case because I write a lot of perl :)
@@ -115,6 +115,6 @@ From: ~/.gconf/apps/gnome-terminal/keybinding/%gconf.xml
 * Most of the time I find myself still pressing shift when I don't need to
 * Less often is not pressing shift when I need numbers
 * Vim line-number or count-based operations have become annoying
-* Mike noted that "select count(*)" is easier to type :)
+* Mike noted that "select (*)" is easier to type :)
 
 
