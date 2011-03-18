@@ -1,14 +1,14 @@
 ---
 title: Keyboard_Number-Symbol_Swap
-createdAt: 2011-03-18T09:50-04:00
-editedAt: 2011-03-18T09:59-04:00
+createdAt: 2011-03-18T09:49-04:00
+editedAt: 2011-03-18T09:50-04:00
 ---
 
 The idea here is that we use the symbols at the top of the keyboard a lot more often than the numbers at the top of the keyboard. In my case because I write a lot of perl :)
 
-Here are the various configurations that you can set to switch the number keys and symbol keys in Linux/X11. The first, .Xmodmap, is what actually switches things. The others are to make other applications be OK with the new setup.
+Here are the various configurations that you can set to make this work. The first, .Xmodmap, is what actually switches things. The others are to make other applications be OK with the new setup.
 
-From: ~/.Xmodmap
+From: .Xmodmap
 <code>
 ! Swap the numbers and symbols
 keycode  10 = exclam 1
@@ -27,7 +27,7 @@ keycode  34 = braceleft bracketleft
 keycode  35 = braceright bracketright
 </code>
 
-From: ~/.xmonad/xmonad.hs
+From: .xmonad/xmonad.hs
 <code>
 -- This is in my keybinding section
 -- Also switch to spacial workspace for symbol keys
@@ -43,7 +43,7 @@ symbolKeys = [ xK_exclam, xK_at, xK_numbersign
              , xK_parenright]
 </code>
 
-From: ~/.screenrc
+From: .screenrc
 <code>
 # Allow switching using symbols
 bind ! select 1
