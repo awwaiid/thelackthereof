@@ -1,10 +1,8 @@
 ---
 title: Home
-createdAt: 2011-03-27T15:56-04:00
-editedAt: 2011-03-27T16:13-04:00
+createdAt: 2011-02-15T09:23-05:00
+editedAt: 2011-03-27T15:56-04:00
 ---
-
-HELLO SISTER -- http://tlt-home.dyndns.org:5000/
 
 <journal 5 "^TLT_-_">
 
