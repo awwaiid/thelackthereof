@@ -1,7 +1,7 @@
 ---
 title: TLT_Drafts
-createdAt: 2011-04-07T17:49-04:00
-editedAt: 2011-04-07T18:00-04:00
+createdAt: 2011-03-13T11:06-04:00
+editedAt: 2011-04-07T17:49-04:00
 ---
 
 = Funky Function Filters in Perl6 =
@@ -26,7 +26,7 @@ for f in [lambda { |x| x }, lambda { |x| x**2 }, lambda { |x| x**3 }
 end
 </code>
 
-My perl5 translation:
+My Perl5 translation:
 <code>
 for my $f (grep { $_->(-1) >= $_->(1) }
         ((sub{shift}, sub{(shift)**2}, sub{(shift)**3})) {
@@ -36,18 +36,19 @@ for my $f (grep { $_->(-1) >= $_->(1) }
 }
 </code>
 
-Today I thought I'd give a stab at a perl6 translation (using the 2011.01 Rakudo Star release). I started with a straightforward translation from the perl5, then switched to perl6 idioms.
+Today I thought I'd give a stab at a perl6 translation (using the 2011.01 Rakudo Star release). I started with the perl5 translation, then switched to perl6 idioms.
 
 Perl6 translation:
 <code>
-for (* ** 1, * ** 2, * ** 3).grep({ $_.(-1) >= $_.(1) }) -> $f {
+for (* ** 1, * ** 2, * ** 3).grep({ $_.(-1) >= $_.(1) })
+    -> $f {
   for -10 .. 10 -> $x {
     say "$x: { $f.($x) }"
   }
 }
 </code>
 
-The first line is a doozy! This is similar in some ways to the perl5 translation, though the grep now shows up on the righthand-side of the list like in Ruby. The biggest difference to me is in the list of lambdas:
+This is similar in some ways to the perl5 translation, though the grep now shows up on the righthand-side of the list like in Ruby. The biggest difference to me is in the list of lambdas:
 
 <code>
 (* ** 1, * ** 2, * ** 3)
@@ -72,9 +73,7 @@ Wait wait... "whatever"? The Whatever-Star is a fancy thing from perl6 that took
 sub ($x) { $x ** 3 }
 </code>
 
-(Note: that last one should be SLURPY! But I don't know how to do that apparently)
-
-Enjoy... Whatever!
+TODO: .... but that last one should be SLURPY!
 
 = Debugging Gems =
 
