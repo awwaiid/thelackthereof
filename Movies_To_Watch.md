@@ -1,6 +1,6 @@
 ---
 title: Movies_To_Watch
-createdAt: 2011-05-13T10:30-04:00
+createdAt: 2011-05-13T10:28-04:00
 editedAt: 2011-05-13T10:30-04:00
 ---
 
@@ -13,7 +13,7 @@ editedAt: 2011-05-13T10:30-04:00
 * Wall-E
 * The Great Escape
 * Real Genius (DONE)
-* Shawn of the Dead (DONE)
+* Sean of the Dead
 * Dr. Strangelove
 * I Heart Huckabees
 * Napoleon Dynamite
