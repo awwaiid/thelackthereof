@@ -1,7 +1,7 @@
 ---
 title: Movies_To_Watch
 createdAt: 2011-05-13T10:30-04:00
-editedAt: 2011-05-16T11:07-04:00
+editedAt: 2011-05-13T10:30-04:00
 ---
 
 == Mike (or things we think he should watch) ==
@@ -13,7 +13,7 @@ editedAt: 2011-05-16T11:07-04:00
 * Wall-E
 * The Great Escape
 * Real Genius (DONE)
-* Shaun of the Dead (DONE)
+* Shawn of the Dead (DONE)
 * Dr. Strangelove
 * I Heart Huckabees
 * Napoleon Dynamite
