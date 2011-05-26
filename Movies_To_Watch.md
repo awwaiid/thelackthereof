@@ -1,7 +1,7 @@
 ---
 title: Movies_To_Watch
-createdAt: 2011-05-26T18:35-04:00
-editedAt: 2011-05-28T21:18-04:00
+createdAt: 2011-05-16T11:07-04:00
+editedAt: 2011-05-26T18:35-04:00
 ---
 
 == Mike (or things we think he should watch) ==
@@ -19,5 +19,4 @@ editedAt: 2011-05-28T21:18-04:00
 * Napoleon Dynamite
 * Eternal Sunshine of a Spotless Mind
 * The Big Lebowski
-* Raising Arizona
 
