@@ -1,6 +1,6 @@
 ---
 title: Resume
-createdAt: 2004-12-15T01:39-05:00
+createdAt: 2011-06-07T14:40-04:00
 editedAt: 2011-06-07T14:40-04:00
 ---
 
@@ -19,6 +19,6 @@ Contact Information:
 <pre>
   Brock Wilcox
   awwaiid@thelackthereof.org
-  480-206-2341
+  480-353-0210
 </pre>
 
