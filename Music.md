@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2011-06-07T14:36-04:00
-editedAt: 2011-08-08T14:12-04:00
+createdAt: 2011-02-21T20:02-05:00
+editedAt: 2011-06-07T14:36-04:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place.
@@ -18,7 +18,7 @@ These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0
 || Late Blues || mp3:/docs/music/lateblues.mp3 ||
 || Code On My Mind || mp3:/docs/music/code_on_my_mind.mp3 ||
 || I Like Caffeine || mp3:/docs/music/i_like_caffeine.mp3 ||
-|| [[Zombie Love]] || mp3:/docs/music/zombielove.mp3 ||
-|| [[Immaterial Things]] ||
-|| [[Talking DC Vote Blues]] ||
+|| Zombie Love || mp3:/docs/music/zombielove.mp3 ||
+|| Immaterial Things ||
+|| Talking DC Vote Blues ||
 
