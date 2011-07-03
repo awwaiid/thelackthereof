@@ -1,7 +1,7 @@
 ---
 title: POE,_Coro,_AnyEvent,_and_Reflex
-createdAt: 2011-07-03T14:51-04:00
-editedAt: 2011-07-03T16:01-04:00
+createdAt: 2011-07-03T14:49-04:00
+editedAt: 2011-07-03T14:51-04:00
 ---
 
 For [http://www.yapc2011.us/yn2011/ YAPC::NA 2011] I gave a talk, [http://www.yapc2011.us/yn2011/talk/3334 "POE, Reflex, Coro, AnyEvent, .... What and Why"]. Here are the [slides I used for the talk], but they are mostly just large words and there was a lot of talking. The video will appear soon I hope (if it worked), but a written form might be nice -- so here it is!
@@ -11,9 +11,9 @@ For [http://www.yapc2011.us/yn2011/ YAPC::NA 2011] I gave a talk, [http://www.ya
 == Introduction ==
 I hope to give you a very high-level introduction to these four technologies, and a few examples to illustrate their philosophies and usage.
 
-One of the very simple examples I use is called 'sleep sort'. This is a fun little algorithm first introduced by the unique minds of 4chan. The game is to write a simple command line program that takes a list of numbers as arguments, and then print them out in sorted order. The fun bit is how this is done -- for each number argument X they fork and then sleep for X seconds before printing out X. One way to put it is that this is a sort that utilizes time instead of space. Quite bizarre and amusing.
+One of the very simple examples I use is called 'sleep sort'. This is a fun little algorithm first introduced by the unique minds of 4chan. The game is to write a simple command line program that takes a list of numbers as arguments, and then print them out in sorted order. The fun bit is how this is done -- for each number argument X they fork and then sleep for X seconds before printing out X. One way to put it is that this is a sort that utilizes time instead of space. Quite bizzare and amusing.
 
-The examples I use are a bit different because they don't actually fork or use other processes. Instead they work with whatever their concurrency model is to watch for a timeout within the single running process. You'd do similar things with each tool to instead wait for a filehandle to be readable or some data to be ready on a socket.
+The examples I use are a bit different because they don't actually fork or use other processes. Instead they work with whatevery their concurrency model is to watch for a timeout within the single running process. You'd do similar things with each tool to instead wait for a filehandle to be readable or some data to be ready on a socket.
 
 I'll now go through the technologies, following the order in which they appeared on CPAN.
 
@@ -82,7 +82,7 @@ EV::loop
 </code>
 
 == Reflex ==
-This is the newcomer to the scene, currently existing as a layer on top of POE. Rocco has tried over the years with several projects to rise above some of the nitty gritty of POE into the realm of concurrent and reactive objects, and it seems that the approach in Reflex is achieving his goals at last.
+This is the newcomer to the scene, currently existing as a layer on top of POE. Rocco has tried over the years with several projects to rise above some of the nitty gritty of POE into the realm of concurrent and reactive objects, and it seems that the approach in Reflex is acheiving his goals at last.
 
 One thing that strikes me boldly about Reflex: though it is implemented on top of POE, it could just as easily be on top of AnyEvent and change (almost) nothing about the API. I think this fact strongly illustrates the level of abstraction not only of Reflex, but of POE and AnyEvent.
 
