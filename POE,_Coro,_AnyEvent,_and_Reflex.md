@@ -1,7 +1,7 @@
 ---
 title: POE,_Coro,_AnyEvent,_and_Reflex
-createdAt: 2011-07-03T14:49-04:00
-editedAt: 2011-07-03T14:51-04:00
+createdAt: 2011-07-03T12:03-04:00
+editedAt: 2011-07-03T14:49-04:00
 ---
 
 For [http://www.yapc2011.us/yn2011/ YAPC::NA 2011] I gave a talk, [http://www.yapc2011.us/yn2011/talk/3334 "POE, Reflex, Coro, AnyEvent, .... What and Why"]. Here are the [slides I used for the talk], but they are mostly just large words and there was a lot of talking. The video will appear soon I hope (if it worked), but a written form might be nice -- so here it is!
@@ -45,9 +45,7 @@ POE::Kernel->run();
 == Coro ==
 "the only real threads in perl"
 
-Coro was introduced back in 2001. Coro does some deep magic not only in the perl core but in the C stack itself, saving off the important parts of the current running state into a Coro::State object that represents a single thread of execution. This allows for cooperative threading with very flexible control over shared variable scope. You can think of it as threads, you can think of it as continuations/coroutines, and you can think of it a way of implementing the inversion-of-control pattern.
-
-It was insane when introduced in 2001, just as it is insane now, with one very very strong caveat -- it works. Ten years and several major perl revisions later, it friggin WORKS and is very good at what it does. But it's deep magic comes at a price -- the perl debugger and some profiling tools (such as NYTProf) do not deal well with Coro. Maybe someday these tools will adapt to run cleanly under Coro, or Coro will adapt to run under them, or maybe some of the perl core will be adapted to make Coro less invasive. Even with this caveat, I've been happily using Coro for years.
+Coro was introduced back in 2001. Coro does some deep magic not only in the perl core but in the C stack itself, saving off a huge chunk of the current running state into a Coro::State object that represents a single thread of execution. This allows for cooperative threading with very flexible control over shared variables and It was insane then and it was insane now with one very very strong caveat -- it works. Ten years and several major perl revisions later, it friggin WORKS and is very good at what it does. But it's deep magic comes at a price -- the perl debugger and profiling tools (such as NYTProf) do not deal well with Coro.
 
 <code>
 # Sleep sort using Coro
@@ -64,9 +62,6 @@ for my $i (@ARGV) {
 </code>
 
 == AnyEvent ==
-"the DBI of event loop programming"
-
-Introduced in 2005, AnyEvent provides a simple model of event management centering around callbacks.
 
 <code>
 # Sleep sort using AnyEvent
