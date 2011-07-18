@@ -1,7 +1,7 @@
 ---
 title: Talks
-createdAt: 2011-07-18T17:10-04:00
-editedAt: 2011-07-18T17:12-04:00
+createdAt: 2011-07-18T17:09-04:00
+editedAt: 2011-07-18T17:10-04:00
 ---
 
 From time to time I give talks on various topics, usually Perl related. Audiences range from the local Perl Monger group to larger conferences. A significant disadvantage of this list is that my favorite thing to do is live code demos... which don't show up on slides. Maybe I'll see if I can find videos.
@@ -11,7 +11,7 @@ From time to time I give talks on various topics, usually Perl related. Audience
 * [http://thelackthereof.org/projects/perl/oasis-2011/ Source Code]
 * [http://www.presentingperl.org/opw2011/testing-the-interactive-web/ Video recording of the presentation]
 
-<blockquote>In this talk, I will teach the audience the basics of using WWW::HtmlUnit (and WWW::HtmlUnit::Sweet) for scraping and testing javascript-required web applications. We'll go over installation, basic usage, and some real-world examples. The WWW::HtmlUnit module uses the java-based HtmlUnit library, which itself builds off of a suite of libraries including Rhino to simulate a web browser. Among many other useful features, it can execute complex javascript -- it passes the jQuery test suite perfectly, for example. Bringing that power to Perl has allowed developers to go well beyond what WWW::Mechanize can simulate, while avoiding the overhead of a full Selenium setup.</blockquote>
+In this talk, I will teach the audience the basics of using WWW::HtmlUnit (and WWW::HtmlUnit::Sweet) for scraping and testing javascript-required web applications. We'll go over installation, basic usage, and some real-world examples. The WWW::HtmlUnit module uses the java-based HtmlUnit library, which itself builds off of a suite of libraries including Rhino to simulate a web browser. Among many other useful features, it can execute complex javascript -- it passes the jQuery test suite perfectly, for example. Bringing that power to Perl has allowed developers to go well beyond what WWW::Mechanize can simulate, while avoiding the overhead of a full Selenium setup.
 
 == Read Eval PLAY Loop ==
 * Location: [http://pghpw.org/ppw2010/ PPW 2010.10.10]
