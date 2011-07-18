@@ -1,10 +1,10 @@
 ---
 title: Talks
-createdAt: 2011-07-18T17:12-04:00
-editedAt: 2011-07-18T17:13-04:00
+createdAt: 2011-07-18T17:10-04:00
+editedAt: 2011-07-18T17:12-04:00
 ---
 
-From time to time I give talks on various topics, usually Perl related. Audiences range from the local Perl Monger group to larger conferences. Unfortunately for you, I prefer to do crazy things like live code demos and use minimalist slides, so you don't quote get the same effect from these records. Hopefully I can dig up some videos :)
+From time to time I give talks on various topics, usually Perl related. Audiences range from the local Perl Monger group to larger conferences. A significant disadvantage of this list is that my favorite thing to do is live code demos... which don't show up on slides. Maybe I'll see if I can find videos.
 
 == Testing The Interactive Web ==
 * Location: [http://www.perloasis.info/opw2011/ Orlando Perl Workshop (Perl Oasis) 2011.01.15]
