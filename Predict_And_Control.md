@@ -1,10 +1,12 @@
 ---
 title: Predict_And_Control
-createdAt: 2011-07-19T20:45-04:00
-editedAt: 2011-07-19T20:46-04:00
+createdAt: 2011-07-21T07:35-04:00
+editedAt: 2011-07-21T07:35-04:00
 ---
 
-In [[Predicting the future]], I put forth the idea that predicting the future is the embodiment of Free Will. I think that can be refined.
+<blockquote><i>Abstract: I present here a model of Free Will which aims to be of practical use both within one's own life and for understanding and having compassion for other entities. The model is built on defining Free Will as accurate prediction combined with accurate control. Because we can predict and control with varying accuracy about a topic, Free Will becomes a sort of probability field which can be strong or weak for an entity and dimension of will. Finally, I advocate for us each to seek ways of increasing our own Free Will.</i></blockquote>
+
+In [[Predicting the Future]], I put forth the idea that predicting the future is the embodiment of Free Will. I think that can be refined.
 
 There are various ways that people attempt to measure intelligence, IQ being the most famous, though of course having many advocates and enemies. Another framework for intelligence is the "multiple intelligences", which breaks the notion down into a set of categories, each with some independent (perhaps non-numerical) measure. Either way, they both backet out one's abilities and limits into various categories.
 
