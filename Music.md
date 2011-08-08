@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2011-08-08T14:12-04:00
-editedAt: 2011-08-08T14:14-04:00
+createdAt: 2011-06-07T14:36-04:00
+editedAt: 2011-08-08T14:12-04:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place.
@@ -21,6 +21,4 @@ These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0
 || [[Zombie Love]] || mp3:/docs/music/zombielove.mp3 ||
 || [[Immaterial Things]] ||
 || [[Talking DC Vote Blues]] ||
-
-|| Pi Girl || audio:docs/music/pigirl7.mp3 ||
 
