@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2011-08-08T14:15-04:00
-editedAt: 2011-08-08T14:18-04:00
+createdAt: 2011-08-08T14:14-04:00
+editedAt: 2011-08-08T14:15-04:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place.
@@ -23,5 +23,5 @@ These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0
 || [[Talking DC Vote Blues]] ||
 
 || Pi Girl || audio:docs/music/pigirl7.mp3 ||
-|| [[Zombie Love]] || audio:docs/music/zombielove.ogg ||
+|| [[Zombie Love]] || audio:/docs/music/zombielove.ogg ||
 
