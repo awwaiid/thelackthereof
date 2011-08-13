@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Mathematical_Markup
-createdAt: 2011-08-13T06:57-04:00
-editedAt: 2011-08-13T14:45-04:00
+createdAt: 2010-12-02T22:25-05:00
+editedAt: 2011-08-13T06:57-04:00
 ---
 
-=== 7 Comments. ===
+=== 6 Comments. ===
 Thanks for the fix, planetoid
 
 -- awwaiid 2004-02-27 00:19 UTC
@@ -39,12 +39,5 @@ This page has been recently updated, now the extension is much easier to install
 ... and now with the fancy MathJax library, I've abandoned the LaTeX markup extension and switched to the Javascript magicalness.
 
 -- [http://thelackthereof.org/ awwaiid] 2010-12-03 03:25 UTC
-
-
-----
-
-MathJax seems very nice. Can you explain how you integrated it with Oddmuse? Did you write an extension module, or edit current.pl ... ?
-
--- Alec 2011-08-13 10:57 UTC
 
 
