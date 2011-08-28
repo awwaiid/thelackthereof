@@ -1,10 +1,10 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2011-08-28T06:10-04:00
+createdAt: 2010-11-29T15:26-05:00
 editedAt: 2011-08-28T06:10-04:00
 ---
 
-/* CSS for thelackthereof.org wikis */
+/* CSS for thelackthereof.org wiki */
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
 
 /* Default theme */
