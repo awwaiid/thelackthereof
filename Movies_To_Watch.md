@@ -1,14 +1,14 @@
 ---
 title: Movies_To_Watch
-createdAt: 2011-08-29T10:40-04:00
-editedAt: 2011-09-06T10:16-04:00
+createdAt: 2011-05-29T17:32-04:00
+editedAt: 2011-08-29T10:40-04:00
 ---
 
 == Mike (or things we think he should watch) ==
 * Brazil (DONE)
 * Galaxy Quest (DONE)
 * Kung Fu
-* Primer (DONE)
+* Primer
 * Caddyshack (DONE)
 * Wall-E (DONE)
 * The Great Escape
