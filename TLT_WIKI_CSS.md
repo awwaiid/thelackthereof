@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2011-08-31T14:19-04:00
-editedAt: 2012-09-09T20:04-04:00
+createdAt: 2011-08-28T06:10-04:00
+editedAt: 2011-08-31T14:19-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -408,8 +408,5 @@ span.bibtex-field {
   font-style: italic;
 }
 
-object.maxiplayer {
-  vertical-align: middle;
-}
 
 
