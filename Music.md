@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2011-08-31T13:25-04:00
-editedAt: 2011-11-29T23:18-05:00
+createdAt: 2011-08-08T14:35-04:00
+editedAt: 2011-08-31T13:25-04:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place.
@@ -9,7 +9,6 @@ Here you can play all the music I've written or been involved with in one lovely
 These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons Attribution-ShareAlike (CC BY-SA)]] License.
 
 || Song || Play! ||
-|| [[Call On Borbyu]] || mp3:/docs/music/call_on_borbyu.mp3 ||
 || Pi Girl || mp3:/docs/music/pigirl7.mp3 ||
 || [[Umbrellas]] || mp3:/docs/music/umbrellas.mp3 ||
 || [[Got One Shoe]] || mp3:/docs/music/oneshoe.mp3 ||
