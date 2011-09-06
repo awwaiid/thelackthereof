@@ -1,7 +1,7 @@
 ---
 title: Movies_To_Watch
-createdAt: 2011-09-06T10:16-04:00
-editedAt: 2011-09-12T17:10-04:00
+createdAt: 2011-08-29T10:40-04:00
+editedAt: 2011-09-06T10:16-04:00
 ---
 
 == Mike (or things we think he should watch) ==
@@ -15,7 +15,7 @@ editedAt: 2011-09-12T17:10-04:00
 * Real Genius (DONE)
 * Shaun of the Dead (DONE)
 * Dr. Strangelove
-* I Heart Huckabees (DONE)
+* I Heart Huckabees
 * Napoleon Dynamite
 * Eternal Sunshine of a Spotless Mind
 * The Big Lebowski (DONE)
