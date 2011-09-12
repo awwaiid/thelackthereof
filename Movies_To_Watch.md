@@ -1,7 +1,7 @@
 ---
 title: Movies_To_Watch
-createdAt: 2011-09-12T17:10-04:00
-editedAt: 2013-09-21T10:40-04:00
+createdAt: 2011-09-06T10:16-04:00
+editedAt: 2011-09-12T17:10-04:00
 ---
 
 == Mike (or things we think he should watch) ==
@@ -20,5 +20,4 @@ editedAt: 2013-09-21T10:40-04:00
 * Eternal Sunshine of a Spotless Mind
 * The Big Lebowski (DONE)
 * Raising Arizona
-* Logan's Run
 
