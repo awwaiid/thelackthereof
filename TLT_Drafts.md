@@ -1,7 +1,7 @@
 ---
 title: TLT_Drafts
-createdAt: 2011-09-30T10:54-04:00
-editedAt: 2011-10-16T08:55-04:00
+createdAt: 2011-09-30T10:01-04:00
+editedAt: 2011-09-30T10:54-04:00
 ---
 
 = Debugging Gems =
@@ -17,6 +17,4 @@ The [http://www.catb.org/jargon/html/P/programming.html Jargon File's definition
 [http://perl.plover.com/yak/debruijn/ Debugging the de Bruijn Sequence]
 
 http://www.circlemud.org/cdp/hacker/hacker-4.html - "When you find a bug ... your first impulse will be to change the code, kill the manifestation of the bug, and declare it fixed. Not so fast! The bug you observe is often just the symptom of a deeper bug. You should keep pursuing the bug, all the way down. You should grok the bug and cherish it in fullness before causing its discorporation."
-
-http://www.ibm.com/developerworks/web/library/wa-debug/index.html
 
