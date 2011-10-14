@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Fujitsu_Lifebook_T730
-createdAt: 2011-10-14T13:55-04:00
-editedAt: 2011-10-16T08:57-04:00
+createdAt: 2011-10-14T13:53-04:00
+editedAt: 2011-10-14T13:55-04:00
 ---
 
-=== 5 Comments. ===
+=== 4 Comments. ===
 Hi!
 I got myself a T730 too (a cheaper configuration, though) and found it works pretty well with Ubuntu 10.10 RC. However I cannot get pen input and the touch screen working at the same time. The pen works out-of-the-box but stops working as soon as I create a xorg.conf like yours. Touch works perfectly with a xorg.conf. I also tried removing the definitions for the pen but it's still not responding until I delete xorg.conf completely.
 What which versions of the wacom drivers and X11 are you using in your working configuration? Do you have any other tips for me?
@@ -56,22 +56,5 @@ Thanks,
 Shandilya
 
 -- Anonymous 2011-10-14 17:53 UTC
-
-
-----
-
-Hi!
-
-Thank you for posting this great info about the Fujitsu T730 linux setup.  I also got one recently and the tablet/pen features "just worked" with Debian/testing.  However, My eraser seems a little quirky and I haven't tested the multitouch as yet.
-
-HDMI video just worked.  For HDMI audio, see the alsa page; their instructions worked for me:  https://wiki.archlinux.org/index.php/Advanced_Linux_Sound_Architecture#HDMI_Output_Does_Not_Work
-
-You say that your webcam and audio worked perfectly out of the box.  Video and audio output works for me too, but I have not been able to get the internal mic working.  Can you post your alsa version, kernel version and maybe your /etc/modprobe.d/alsa-base.conf file? 
-
-Thanks,
-
-Shandilya
-
--- Anonymous 2011-10-14 17:54 UTC
 
 
