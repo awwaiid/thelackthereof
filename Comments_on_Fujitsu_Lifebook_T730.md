@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Fujitsu_Lifebook_T730
-createdAt: 2011-10-16T08:57-04:00
-editedAt: 2012-01-03T23:08-05:00
+createdAt: 2011-10-14T13:55-04:00
+editedAt: 2011-10-16T08:57-04:00
 ---
 
-=== 6 Comments. ===
+=== 5 Comments. ===
 Hi!
 I got myself a T730 too (a cheaper configuration, though) and found it works pretty well with Ubuntu 10.10 RC. However I cannot get pen input and the touch screen working at the same time. The pen works out-of-the-box but stops working as soon as I create a xorg.conf like yours. Touch works perfectly with a xorg.conf. I also tried removing the definitions for the pen but it's still not responding until I delete xorg.conf completely.
 What which versions of the wacom drivers and X11 are you using in your working configuration? Do you have any other tips for me?
@@ -73,14 +73,5 @@ Thanks,
 Shandilya
 
 -- Anonymous 2011-10-14 17:54 UTC
-
-
-----
-
-My mic also doesn't work, and I never came back to update the page, sorry. I too am interested in getting the mic to work -- I don't really understand why it doesn't.
-
-I also switched from ubuntu to debian (sid!) recently, and the touch/pen worked out of the box. I should try the eraser. One other thing -- the camera is upside-down. I've got a work-around and reported it to the kernel module maintainer.
-
--- [http://thelackthereof.org/ awwaiid] 2011-10-16 12:57 UTC
 
 
