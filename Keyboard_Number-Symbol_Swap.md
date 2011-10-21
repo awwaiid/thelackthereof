@@ -1,10 +1,8 @@
 ---
 title: Keyboard_Number-Symbol_Swap
-createdAt: 2011-10-21T14:49-04:00
-editedAt: 2011-10-21T15:00-04:00
+createdAt: 2011-03-18T10:33-04:00
+editedAt: 2011-10-21T14:49-04:00
 ---
-
-(Instructions for doing this on other OSes or setups are welcome!)
 
 The idea here is that we use the symbols at the top of the keyboard a lot more often than the numbers at the top of the keyboard. In my case because I write a lot of perl :)
 
