@@ -1,7 +1,7 @@
 ---
 title: Keyboard_Number-Symbol_Swap
-createdAt: 2011-10-21T15:00-04:00
-editedAt: 2011-10-21T15:08-04:00
+createdAt: 2011-10-21T14:49-04:00
+editedAt: 2011-10-21T15:00-04:00
 ---
 
 (Instructions for doing this on other OSes or setups are welcome!)
@@ -120,9 +120,5 @@ From: ~/.gconf/apps/gnome-terminal/keybinding/%gconf.xml
 * Less often is not pressing shift when I need numbers
 * Vim line-number or count-based operations have become annoying
 * Mike noted that "select count(*)" is easier to type :)
-
-2011.10.21
-* I am now also using xbindkeys to make 'shift+shift' (left+right) toggle the setup. That way I can easily switch it back if some other poor fool is trying to use my laptop. On my desktop it isn't a problem since I have the number pad.
-* I'm still using this full time, and the main annoying thing is using other people's broken keyboards :)
 
 
