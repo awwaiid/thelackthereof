@@ -1,7 +1,7 @@
 ---
 title: Finding_a_DC_Apartment
-createdAt: 2011-11-21T23:44-05:00
-editedAt: 2011-11-22T20:04-05:00
+createdAt: 2007-06-03T01:48-04:00
+editedAt: 2011-11-21T23:44-05:00
 ---
 
 This is for our DC apartment hunt.
@@ -103,7 +103,4 @@ rent.com phone number: (866) 579-1660 ext. 1400
 $1200/mo, available the 15th 
 Call Carla 202-667-6600
 Roach Infested (bad reviews)
-
-== External Links ==
-[http://www.cheappoolproducts.com/ Pool Supplies]
 
