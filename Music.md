@@ -1,12 +1,12 @@
 ---
 title: Music
-createdAt: 2011-11-30T15:00-05:00
-editedAt: 2011-12-11T00:26-05:00
+createdAt: 2011-11-29T23:26-05:00
+editedAt: 2011-11-30T15:00-05:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place.
 
-These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons Attribution-ShareAlike (CC BY-SA)]] License (or maybe CC BY-NC... feel free to ask).
+These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons Attribution-ShareAlike (CC BY-SA)]] License.
 
 == Misc ==
 
