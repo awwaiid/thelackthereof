@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2011-11-29T23:26-05:00
-editedAt: 2011-11-30T15:00-05:00
+createdAt: 2011-11-29T23:25-05:00
+editedAt: 2011-11-29T23:26-05:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place.
@@ -37,7 +37,7 @@ This was a CD that Jason and I put together from a random selection of our songs
 || SIC || mp3:/docs/music/album1/04_-_SIC.mp3 ||
 || Happiness Blues || mp3:/docs/music/album1/05_-_Happiness_Blues.mp3 ||
 || Zombie Love || mp3:/docs/music/album1/06_-_Zombie_Love.mp3 ||
-|| [[Got One Shoe]] || mp3:/docs/music/album1/07_-_One_Shoe.mp3 ||
+|| [[One Shoe]] || mp3:/docs/music/album1/07_-_One_Shoe.mp3 ||
 || CDOLTM || mp3:/docs/music/album1/08_-_CDOLTM.mp3 ||
 || Groovin || mp3:/docs/music/album1/09_-_Groovin.mp3 ||
 || Shaseys || mp3:/docs/music/album1/10_-_Shaseys.mp3 ||
