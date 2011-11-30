@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2011-11-29T23:22-05:00
-editedAt: 2011-11-29T23:25-05:00
+createdAt: 2011-11-29T23:18-05:00
+editedAt: 2011-11-29T23:22-05:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place.
@@ -22,7 +22,6 @@ These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0
 || [[Zombie Love]] || mp3:/docs/music/zombielove.mp3 ||
 || [[Immaterial Things]] ||
 || [[Talking DC Vote Blues]] ||
-
 
 ----
 
