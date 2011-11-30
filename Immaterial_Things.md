@@ -1,7 +1,7 @@
 ---
 title: Immaterial_Things
-createdAt: 2011-11-30T07:52-05:00
-editedAt: 2015-08-16T16:52-04:00
+createdAt: 2008-03-30T17:00-04:00
+editedAt: 2011-11-30T07:52-05:00
 ---
 
 (Co-created with Jason)
@@ -26,11 +26,11 @@ Why so bothered
 by immaterial things?
 
 Now I wonder
-could she be right?
+does she have a point?
 Should I reconsider
-how I live my life,
+what I been doin'
 Looking at people
-with objectivity,
+with objectivity
 I asked her what's wrong
 with transparency
 
@@ -40,13 +40,11 @@ So I left
 made my way home
 turned on the TV
 watched the world alone
-and it occurred to me
+and it occured to me
 that reality
 is just a buzzword
 for immaterial things
 
 [refrain]
 
-Why so bothered
-by immaterial things?
 
