@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2011-12-11T00:26-05:00
-editedAt: 2012-11-22T01:19-05:00
+createdAt: 2011-11-30T15:00-05:00
+editedAt: 2011-12-11T00:26-05:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place.
@@ -22,7 +22,7 @@ Random songs. Some of these are more proof-of-concept than anything :)
 || Big Brown Spider || mp3:/docs/music/big_brown_spider_test.mp3 ||
 || Late Blues || mp3:/docs/music/lateblues.mp3 ||
 || Code On My Mind || mp3:/docs/music/code_on_my_mind.mp3 ||
-|| [[I Like Caffeine]] || mp3:/docs/music/i_like_caffeine.mp3 ||
+|| I Like Caffeine || mp3:/docs/music/i_like_caffeine.mp3 ||
 || [[Zombie Love]] || mp3:/docs/music/zombielove.mp3 ||
 || [[Talking DC Vote Blues]] || (not recorded yet) ||
 
