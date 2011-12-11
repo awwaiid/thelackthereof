@@ -1,7 +1,7 @@
 ---
 title: Music_Gear_and_Setup
-createdAt: 2011-12-11T00:25-05:00
-editedAt: 2013-02-02T20:18-05:00
+createdAt: 2011-08-27T10:18-04:00
+editedAt: 2011-12-11T00:25-05:00
 ---
 
 I've been exploring the world of Open Source Music Production! Here I detail my setup.
@@ -16,30 +16,18 @@ I've been exploring the world of Open Source Music Production! Here I detail my 
 
 == Software ==
 
-This is where it starts getting complex. I think I'll just highlight the things that I use on a regular basis.
+This is where it starts getting complex.
 
 === Jack ===
 
 Linux / Open Source music generally follows the unix philosophy of having many tools and open protocols to get them working together. With the command line, that's often sockets and pipes. In linux the main thing is [http://jackaudio.org/|Jack] (though I'm learning about OSC also). Jack is basically a software patch-board, allowing you to connect one program to another, so long as they know how to talk to Jack.
 
-Jack-related software:
-* qjackctl - GUI for jack daemon configuration and jack sessions
-* patchage - GUI for jack connections
-* a2jmidid - Turn Alsa midi devices into jack midi
-
 === Ardour ===
 
-I used Audacity for quite a while, but recently got turned on to Ardour. What a fantastic program! I'm using the Ardour3 betas, using it as a multi-track non-destructive editor, mixer, and even midi sequencer.
-
-=== Seq24 ===
-
-This is a fun midi sequencer that I've played with.
-
-=== Hydrogen ===
-
-This drum machine / synthesizer is cool. Among others, I recommend getting the BigMono drum kit, in which drum hits are sampled at different velocities.
+I used Audacity for quite a while, but recently got turned on to Ardour. What a fantastic program!
 
 == Configuration and Helper Scripts ==
 
-I have one script named 'musicstuff.sh' what gets things going, primarily Jack. One of the things that it calls out to is a [http://alsa.opensrc.org/Jack_and_Loopback_device_as_Alsa-to-Jack_bridge Alsa-to-Jack Bridge].
+I have one script named 'musicstuff.sh' what gets things going, primarily Jack.
+
 
