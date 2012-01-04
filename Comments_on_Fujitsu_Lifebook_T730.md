@@ -1,7 +1,7 @@
 ---
 title: Comments_on_Fujitsu_Lifebook_T730
-createdAt: 2012-01-03T23:08-05:00
-editedAt: 2012-06-01T21:59-04:00
+createdAt: 2011-10-16T08:57-04:00
+editedAt: 2012-01-03T23:08-05:00
 ---
 
 === 6 Comments. ===
@@ -56,6 +56,23 @@ Thanks,
 Shandilya
 
 -- Anonymous 2011-10-14 17:53 UTC
+
+
+----
+
+Hi!
+
+Thank you for posting this great info about the Fujitsu T730 linux setup.  I also got one recently and the tablet/pen features "just worked" with Debian/testing.  However, My eraser seems a little quirky and I haven't tested the multitouch as yet.
+
+HDMI video just worked.  For HDMI audio, see the alsa page; their instructions worked for me:  https://wiki.archlinux.org/index.php/Advanced_Linux_Sound_Architecture#HDMI_Output_Does_Not_Work
+
+You say that your webcam and audio worked perfectly out of the box.  Video and audio output works for me too, but I have not been able to get the internal mic working.  Can you post your alsa version, kernel version and maybe your /etc/modprobe.d/alsa-base.conf file? 
+
+Thanks,
+
+Shandilya
+
+-- Anonymous 2011-10-14 17:54 UTC
 
 
 ----
