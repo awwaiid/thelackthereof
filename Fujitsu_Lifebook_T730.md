@@ -1,6 +1,6 @@
 ---
 title: Fujitsu_Lifebook_T730
-createdAt: 2012-01-03T23:06-05:00
+createdAt: 2011-12-31T16:56-05:00
 editedAt: 2012-01-03T23:06-05:00
 ---
 
@@ -106,6 +106,4 @@ Once I got it working, I tried some plugins for firefox and also grabbed Fennec.
 Installing [http://sourceforge.net/apps/mediawiki/fjbtndrv/index.php?title=Main_Page fjbtndrv] made the buttons work. It also comes with a daemon named fscrotd that does the auto-rotate on swivel. Finding it was the hardest part -- it works great.
 
 EDIT (By Erich.me) There is a file you can download in the T730 Driver/Utility downloads on the Fujitsu site called AutoRotationSSD_FJ_v1.00.10.003SSD_W7-32.exe that makes the Auto-Rotate function work poerfectly. I am trying out some of the other T731 Drivers and Utilities and I will post more if any of them add functionality.
-
-(awwaiid asks) Question to Erich.me - how is an .exe useful in linux?
 
