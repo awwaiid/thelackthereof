@@ -1,7 +1,7 @@
 ---
 title: Music_in_Perl
-createdAt: 2012-02-16T12:56-05:00
-editedAt: 2012-02-27T15:40-05:00
+createdAt: 2012-02-16T10:39-05:00
+editedAt: 2012-02-16T12:56-05:00
 ---
 
 Perl MIDI
@@ -15,7 +15,4 @@ Vibrato
 Filters
 * http://en.wikipedia.org/wiki/Low-pass_filter (has code sample)
 * http://en.wikipedia.org/wiki/High-pass_filter (has code sample)
-
-General
-* http://howtomakeelectronicmusic.com/
 
