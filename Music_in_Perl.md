@@ -1,7 +1,7 @@
 ---
 title: Music_in_Perl
-createdAt: 2012-02-27T15:40-05:00
-editedAt: 2012-03-04T21:58-05:00
+createdAt: 2012-02-16T12:56-05:00
+editedAt: 2012-02-27T15:40-05:00
 ---
 
 Perl MIDI
@@ -18,8 +18,4 @@ Filters
 
 General
 * http://howtomakeelectronicmusic.com/
-
-Visualize sound
-* http://youtu.be/G8FU4Nhl_Mg - Slow motion speaker
-* http://youtu.be/_3ZwPwa5I0k - Another
 
