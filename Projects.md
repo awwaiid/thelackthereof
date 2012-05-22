@@ -1,14 +1,13 @@
 ---
 title: Projects
-createdAt: 2012-05-22T19:45-04:00
-editedAt: 2016-01-22T08:55-05:00
+createdAt: 2011-11-05T15:33-04:00
+editedAt: 2012-05-22T19:45-04:00
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
 
 == Current Projects ==
 If you were to ask me what I'm working on right now, I might say one of these.
-* [[NoiseGen]] - Playing with PortAudio and generators
 * [[Continuity]] - Continuation-based web-application framework for Perl
 * [[EPFarms Panel]] - A control panel for hosting clients
 * [[Perl HtmlUnit]] - A perl interface to the java HtmlUnit library
