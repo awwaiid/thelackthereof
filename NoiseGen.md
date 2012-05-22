@@ -1,15 +1,15 @@
 ---
 title: NoiseGen
-createdAt: 2012-05-22T19:57-04:00
-editedAt: 2012-05-30T23:56-04:00
+createdAt: 2012-05-22T19:48-04:00
+editedAt: 2012-05-22T19:57-04:00
 ---
 
 Lately I've been interested in digital audio. While exploring, I ran into the PortAudio library, which makes it really easy to output sound from a variety of languages and on a variety of platforms.
 
 I decided that using generators and combinators would be a good way to play around with this ... and after a while I started wondering what it would look like in different languages.
 
-; Perl: [http://thelackthereof.org/projects/perl/Audio-NoiseGen/ browse] | [http://thelackthereof.org/projects/perl/Audio-NoiseGen/.git git clone] | [http://github.com/awwaiid/perl-noise browse github]
-; Python: [http://thelackthereof.org/projects/python/noisegen/ browse] | [http://thelackthereof.org/projects/python/noisegen/.git git] | [http://github.com/awwaiid/python-noise github]
-; Ruby: [http://thelackthereof.org/projects/ruby/noisegen/ browse] | [http://thelackthereof.org/projects/ruby/noisegen/.git git] | [http://github.com/awwaiid/ruby-noise github]
+* Perl: git clone http://thelackthereof.org/projects/perl/Audio-NoiseGen/.git
+* Python: git clone http://thelackthereof.org/projects/python/noisegen/.git
+* Ruby: git clone http://thelackthereof.org/projects/ruby/noisegen/.git
 
 
