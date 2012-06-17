@@ -1,11 +1,12 @@
 ---
 title: Dynamic_Language_Conference_Brainstorm
-createdAt: 2012-06-17T00:20-04:00
-editedAt: 2012-06-17T22:40-04:00
+createdAt: 2012-06-17T00:19-04:00
+editedAt: 2012-06-17T00:20-04:00
 ---
 
 
-Names:
+
+Names
 * DCDU - DC Dynamic United
 * DDC - Dynamic DC
 * DCD - DC Dynamic
@@ -15,7 +16,7 @@ What makes a language dynamic?
 * No/little compilation
 * Eval
 
-Some dynamic languages/Technologies:
+Some dynamic languages/Technologies
 * Clojure
 * Javascript
 * Nodejs
@@ -24,17 +25,15 @@ Some dynamic languages/Technologies:
 * Python
 * Ruby
 
-Aspects:
 * Open source community?
 * Source-code centric
-** Aka developer centric
 * Celebrate similarities
 * Share new ideas
 * Libraries, applications, platforms
 * Where do you shine, and how can others steal or make it better
 * Stand on each other's shoulders
+*
 
-Example overlapping tech:
 * pydoc, perldoc, rdoc
 * WSGI, Rack, PSGI
 * DBIx::Class, ActiveRecord
