@@ -1,7 +1,7 @@
 ---
 title: Dynamic_Language_Conference_Brainstorm
-createdAt: 2012-06-17T23:04-04:00
-editedAt: 2012-06-18T08:11-04:00
+createdAt: 2012-06-17T22:40-04:00
+editedAt: 2012-06-17T23:04-04:00
 ---
 
 Names:
@@ -63,10 +63,6 @@ Co-located with SPLASH 2012. 6th annual ACM symposium. Very notable lack of "per
 
 == Dynamic Language and Other (local) Groups ==
 * [http://www.meetup.com/Lambda-Lounge-Indy/ Lambda Lounge, Indy]
-* [http://dcphp.net/ DC PHP Developers]
-* [http://dcpython.org/ DC Python]
-* [http://www.dcrug.org/ DC Ruby Users Group]
-* [http://hacdc.org/ HacDC]
-* [http://refresh-dc.org/ Refresh DC]
-* [http://www.lisperati.com/fringedc.html Fringe DC] - Less-mainstream language group, on Hiatus
+
+
 
