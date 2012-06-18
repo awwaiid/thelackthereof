@@ -1,15 +1,15 @@
 ---
 title: Dynamic_Language_Conference_Brainstorm
-createdAt: 2012-06-17T22:40-04:00
-editedAt: 2012-06-17T23:04-04:00
+createdAt: 2012-06-17T00:20-04:00
+editedAt: 2012-06-17T22:40-04:00
 ---
+
 
 Names:
 * DCDU - DC Dynamic United
 * DDC - Dynamic DC
 * DCD - DC Dynamic
 * eval (ēval)
-* late bound
 
 What makes a language dynamic?
 * No/little compilation
@@ -54,15 +54,5 @@ Lots of overlapping philosophies and ideas.
 * Module distribution / Bug tracking
 * Templates
 * Math
-
-== Other Conferences ==
-* [http://www.dynamiclanguages.co.uk/dlc2011/ Dynamic Languages Conference 2011 (UK)] - "The DLC is a cross-language event aimed at Open Source Dynamic Languages, we hope to bring together all the languages in an open forum to discuss and present the manner in which these languages approach and solve tasks at the cutting edge of development technology" Organized by Mark Keating
-* [http://www.dynamic-languages-symposium.org/ Dynamic Languages Symposium (DLS)] - Tucson, Arizona, USA, October 22, 2012
-Co-located with SPLASH 2012. 6th annual ACM symposium. Very notable lack of "perl" in their list of dynamic languages :(
-* [http://swdc.se/dyncon2012/ Dynamic Languages Conference (Stockholm)] - cancelled due to lack of particpants
-
-== Dynamic Language and Other (local) Groups ==
-* [http://www.meetup.com/Lambda-Lounge-Indy/ Lambda Lounge, Indy]
-
 
 
