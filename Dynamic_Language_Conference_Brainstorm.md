@@ -1,7 +1,7 @@
 ---
 title: Dynamic_Language_Conference_Brainstorm
-createdAt: 2012-06-18T08:11-04:00
-editedAt: 2012-06-18T20:26-04:00
+createdAt: 2012-06-17T23:04-04:00
+editedAt: 2012-06-18T08:11-04:00
 ---
 
 Names:
@@ -69,5 +69,4 @@ Co-located with SPLASH 2012. 6th annual ACM symposium. Very notable lack of "per
 * [http://hacdc.org/ HacDC]
 * [http://refresh-dc.org/ Refresh DC]
 * [http://www.lisperati.com/fringedc.html Fringe DC] - Less-mainstream language group, on Hiatus
-* [http://www.meetup.com/node-dc/ Node.DC] - NodeJS, monthly meetings, next June 27
 
