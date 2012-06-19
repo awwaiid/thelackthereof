@@ -1,7 +1,7 @@
 ---
 title: Dynamic_Language_Conference_Brainstorm
-createdAt: 2012-06-18T20:26-04:00
-editedAt: 2012-06-19T15:31-04:00
+createdAt: 2012-06-18T08:11-04:00
+editedAt: 2012-06-18T20:26-04:00
 ---
 
 Names:
@@ -62,7 +62,6 @@ Co-located with SPLASH 2012. 6th annual ACM symposium. Very notable lack of "per
 * [http://swdc.se/dyncon2012/ Dynamic Languages Conference (Stockholm)] - cancelled due to lack of particpants
 
 == Dynamic Language and Other (local) Groups ==
-* [http://www.dctechevents.com/sources/ List of DC Tech Groups/Events]
 * [http://www.meetup.com/Lambda-Lounge-Indy/ Lambda Lounge, Indy]
 * [http://dcphp.net/ DC PHP Developers]
 * [http://dcpython.org/ DC Python]
@@ -71,7 +70,4 @@ Co-located with SPLASH 2012. 6th annual ACM symposium. Very notable lack of "per
 * [http://refresh-dc.org/ Refresh DC]
 * [http://www.lisperati.com/fringedc.html Fringe DC] - Less-mainstream language group, on Hiatus
 * [http://www.meetup.com/node-dc/ Node.DC] - NodeJS, monthly meetings, next June 27
-* [http://www.meetup.com/DCHTML5/ DC HTML5 Meetup]
-* [http://www.dcgroovy.org/ DC Groovy User Group]
-* [http://www.meetup.com/erlang/ Erlang Users of Arlington/DC]
 
