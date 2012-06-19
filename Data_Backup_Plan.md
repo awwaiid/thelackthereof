@@ -1,6 +1,6 @@
 ---
 title: Data_Backup_Plan
-createdAt: 2012-06-19T18:10-04:00
+createdAt: 2012-06-19T18:20-04:00
 editedAt: 2012-06-19T18:20-04:00
 ---
 
@@ -15,11 +15,14 @@ Increasingly, many of my most precious belongings are digital. I'm a packrat (th
 * (UL) Unsorted Importance and Large - Full machine backups, both laptop and mobile phone
 
 == Plans ==
-* Unison for IS, includes offsite
+* Unison for IS
+** Laptop -> Margaret (local) and Mirabel (offsite)
 * Unison for UL of laptops
+** My and Beth's laptops -> Margaret (local)
 * Rsync for UL of phones (because I can't get unison (yet))
+** My phone -> Margaret (local)
 ** Not automated yet!
-* Mirror drives for IL and RL
+* Mirror drives for IL, UL, and RL on Margaret
 
 So the current major hole in my setup is the lack of automation of phone backups, and the lack of offsite storage for all of the "Large" classes.
 
