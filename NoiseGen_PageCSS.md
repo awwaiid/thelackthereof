@@ -1,7 +1,7 @@
 ---
 title: NoiseGen_PageCSS
-createdAt: 2012-06-23T13:27-04:00
-editedAt: 2012-06-23T13:52-04:00
+createdAt: 2012-06-23T13:25-04:00
+editedAt: 2012-06-23T13:27-04:00
 ---
 
 /* hmm */
@@ -71,6 +71,10 @@ body {
 }
 
 .sidebar {
+  display: none;
+}
+
+.footer {
   display: none;
 }
 
