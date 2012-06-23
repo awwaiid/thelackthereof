@@ -1,7 +1,7 @@
 ---
 title: NoiseGen
-createdAt: 2012-06-23T16:55-04:00
-editedAt: 2012-06-23T17:04-04:00
+createdAt: 2012-06-23T15:01-04:00
+editedAt: 2012-06-23T16:55-04:00
 ---
 
 = NoiseGen =
@@ -15,16 +15,6 @@ Digital sound isn't really much more than a stream of floating point numbers fro
 ; Perl: [http://github.com/awwaiid/perl-noise github] | [http://thelackthereof.org/projects/perl/Audio-NoiseGen/ local browse] | [http://thelackthereof.org/projects/perl/Audio-NoiseGen/.git local git]
 ; Python: [http://github.com/awwaiid/python-noise github] | [http://thelackthereof.org/projects/python/noisegen/ local browse] | [http://thelackthereof.org/projects/python/noisegen/.git local git]
 ; Ruby: [http://github.com/awwaiid/ruby-noise github] | [http://thelackthereof.org/projects/ruby/noisegen/ local browse] | [http://thelackthereof.org/projects/ruby/noisegen/.git local git]
-
-  my $lfo = sine( freq => 5 );
-  
-  my $vfreq = sub {
-    $lfo->() * 100 + 440
-  }
-  
-  play( gen =>
-    sine( freq => $vfreq )
-  )
 
 === News ===
 * 2012.06.23 - Presented at YAPC::NA 2012. Video is up on [http://youtu.be/pMZ4ilLzKW8 YouTube]!
