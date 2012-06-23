@@ -1,7 +1,7 @@
 ---
 title: NoiseGen
-createdAt: 2012-06-23T17:04-04:00
-editedAt: 2014-10-01T18:15-04:00
+createdAt: 2012-06-23T16:55-04:00
+editedAt: 2012-06-23T17:04-04:00
 ---
 
 = NoiseGen =
@@ -16,8 +16,6 @@ Digital sound isn't really much more than a stream of floating point numbers fro
 ; Python: [http://github.com/awwaiid/python-noise github] | [http://thelackthereof.org/projects/python/noisegen/ local browse] | [http://thelackthereof.org/projects/python/noisegen/.git local git]
 ; Ruby: [http://github.com/awwaiid/ruby-noise github] | [http://thelackthereof.org/projects/ruby/noisegen/ local browse] | [http://thelackthereof.org/projects/ruby/noisegen/.git local git]
 
-  # Alien Death Ray Sound?
-  
   my $lfo = sine( freq => 5 );
   
   my $vfreq = sub {
