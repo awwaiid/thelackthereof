@@ -1,7 +1,7 @@
 ---
 title: NoiseGen
-createdAt: 2012-06-23T15:01-04:00
-editedAt: 2012-06-23T16:55-04:00
+createdAt: 2012-06-23T14:48-04:00
+editedAt: 2012-06-23T15:01-04:00
 ---
 
 = NoiseGen =
@@ -10,11 +10,11 @@ editedAt: 2012-06-23T16:55-04:00
 
 [[YouTube:pMZ4ilLzKW8]]
 
-Digital sound isn't really much more than a stream of floating point numbers from -1..1 sent to the sound card at a constant rate. So... let's use that concept to generate some noise using simple programming. Here I'm using 'unit generators', built in high-level dynamic programming languages, to make my speakers jump around a bit.
+Get down to the basics of digital audio by generating noise using some simple programming. Here I'm using 'unit generators', built in high-level dynamic programming languages, to make my speakers jump around a bit.
 
-; Perl: [http://github.com/awwaiid/perl-noise github] | [http://thelackthereof.org/projects/perl/Audio-NoiseGen/ local browse] | [http://thelackthereof.org/projects/perl/Audio-NoiseGen/.git local git]
-; Python: [http://github.com/awwaiid/python-noise github] | [http://thelackthereof.org/projects/python/noisegen/ local browse] | [http://thelackthereof.org/projects/python/noisegen/.git local git]
-; Ruby: [http://github.com/awwaiid/ruby-noise github] | [http://thelackthereof.org/projects/ruby/noisegen/ local browse] | [http://thelackthereof.org/projects/ruby/noisegen/.git local git]
+; Perl: [http://thelackthereof.org/projects/perl/Audio-NoiseGen/ browse] | [http://thelackthereof.org/projects/perl/Audio-NoiseGen/.git local git] | [http://github.com/awwaiid/perl-noise browse github]
+; Python: [http://thelackthereof.org/projects/python/noisegen/ browse] | [http://thelackthereof.org/projects/python/noisegen/.git local git] | [http://github.com/awwaiid/python-noise github]
+; Ruby: [http://thelackthereof.org/projects/ruby/noisegen/ browse] | [http://thelackthereof.org/projects/ruby/noisegen/.git local git] | [http://github.com/awwaiid/ruby-noise github]
 
 === News ===
 * 2012.06.23 - Presented at YAPC::NA 2012. Video is up on [http://youtu.be/pMZ4ilLzKW8 YouTube]!
