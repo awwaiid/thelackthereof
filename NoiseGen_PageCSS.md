@@ -1,7 +1,7 @@
 ---
 title: NoiseGen_PageCSS
-createdAt: 2012-06-23T14:45-04:00
-editedAt: 2012-06-23T14:57-04:00
+createdAt: 2012-06-23T14:33-04:00
+editedAt: 2012-06-23T14:45-04:00
 ---
 
 /html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -47,7 +47,6 @@ body {
      background: none repeat scroll 0% 0% #333333;
      border: 1px solid #303030;
      padding: 1em;
-     line-height: 1.5em;
 }
 
 a {
@@ -59,7 +58,9 @@ a:visited {
      color: #FF3333;
 }
 
-.header, #shadow-holder, .sidebar {
+.header,
+#shadow-holder,
+.sidebar {
      display: none;
 }
 
@@ -85,13 +86,9 @@ p {
 }
 
 .footer {
-     border-top: 1px solid #222;
-     font-size: x-small;
+     border-top: 1px solid black;
+     font-size: small;
      padding: 0px;
-}
-
-.footer * {
-  margin-right: 2em;
 }
 
 h2 {
@@ -100,46 +97,17 @@ h2 {
      text-align: center;
 }
 
+
+
 h2 + p {
-     background-color: inherit;
-     border-radius: 0px 0px 0px 0px;
-     border: 0px none;
      float: none;
-     font-size: small;
-     letter-spacing: 5px;
-     margin-top: -2em;
-     text-align: center;
-     width: auto;
-}
-
-dl {
-     clear: both;
-     overflow: auto;
-     background: none repeat scroll 0% 0% #334455;
-     border-radius: 15px 15px 15px 15px;
-     border: 1px solid white;
-     color: #CCCCCC;
-     float: none;
-     font-size: large;
-     margin: 1em;
-     padding: 1em;
-     width: auto;
-}
-
-dt {
-  font-weight: bold;
-  float: left;
-  clear: left;
-}
-
-dd {
-  float: left;
-  display: block;
-  margin: 0;
-  margin-left: 1em;
-}
-
-dt + dd + dt, dt + dd + dt + dd {
-  margin-top: 1em;
+  border-radius: 0;
+  border: 0;
+  width: auto;
+  text-align: center;
+  font-size: small;
+  letter-spacing: 5px;
+  background-color: inherit;
+  margin-top: -2em;
 }
 
