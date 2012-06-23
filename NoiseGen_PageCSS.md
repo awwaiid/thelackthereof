@@ -1,7 +1,7 @@
 ---
 title: NoiseGen_PageCSS
-createdAt: 2012-06-23T16:09-04:00
-editedAt: 2012-06-23T16:21-04:00
+createdAt: 2012-06-23T16:04-04:00
+editedAt: 2012-06-23T16:09-04:00
 ---
 
 @import url(http://fonts.googleapis.com/css?family=Doppio+One);
@@ -144,7 +144,6 @@ h3 {
 
 ul {
      margin-top: 0px;
-     margin-left: 30px;
 }
 
 dl {
