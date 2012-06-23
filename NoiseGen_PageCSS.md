@@ -1,12 +1,10 @@
 ---
 title: NoiseGen_PageCSS
-createdAt: 2012-06-23T16:04-04:00
-editedAt: 2012-06-23T16:09-04:00
+createdAt: 2012-06-23T15:52-04:00
+editedAt: 2012-06-23T16:04-04:00
 ---
 
-@import url(http://fonts.googleapis.com/css?family=Doppio+One);
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+/html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
      border: 0px none;
      font: inherit;
      margin: 0px;
@@ -45,14 +43,16 @@ html {
      margin-top: 3em;
 }
 
+@import url(http://fonts.googleapis.com/css?family=Doppio+One);
+
 body {
-     background: none repeat scroll 0% 0% #2B8178;
+     background: none repeat scroll 0% 0% #2b8178;
      border: 1px solid #303030;
-     font-family: 'Doppio One',sans-serif,verdana;
      line-height: 1.5em;
      margin: 0px auto;
      padding: 0px;
      width: 900px;
+     font-family: 'Doppio One', sans-serif, verdana;
 }
 
 a {
@@ -76,12 +76,13 @@ a:visited {
 p {
      background: none repeat scroll 0% 0% #0E544C;
      border-radius: 15px 15px 15px 15px;
+     border: 1px solid #60C06;
      color: #CCCCCC;
      float: left;
      font-size: large;
      margin: 1em;
      padding: 1em;
-     width: 350px;
+     width: 300px;
 }
 
 p.flashbox {
@@ -99,20 +100,17 @@ p.flashbox {
      border-top: 1px solid #222222;
      font-size: x-small;
      padding: 0px;
-     padding-left: 20px;
 }
 
-.footer a {
+.footer * {
      margin-right: 2em;
-}
-
-.footer br {
-  display: none;
 }
 
 h2 {
      background: url("http://thelackthereof.org/download/NoiseGenHeader.jpg") no-repeat scroll 0% 0% transparent;
-     color: #FFFFFF;
+     color: #D08045;
+     color: #7aC0b9;
+     color: #FFF;
      font-size: 300%;
      height: 120px;
      letter-spacing: 8px;
@@ -132,23 +130,16 @@ h2 + p {
      font-variant: small-caps;
      font-weight: bold;
      letter-spacing: 5px;
-     margin-bottom: 60px;
      margin-top: -100px;
+     margin-bottom: 60px;
      text-align: center;
      width: auto;
-}
-
-h3 {
-     margin: 0px 0px 0px 1em;
-}
-
-ul {
-     margin-top: 0px;
 }
 
 dl {
      background: none repeat scroll 0% 0% #0E544C;
      border-radius: 15px 15px 15px 15px;
+     border: 1px solid #60C06;
      clear: both;
      color: #CCCCCC;
      float: none;
