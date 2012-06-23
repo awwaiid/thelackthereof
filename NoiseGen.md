@@ -1,7 +1,7 @@
 ---
 title: NoiseGen
-createdAt: 2012-06-23T14:33-04:00
-editedAt: 2012-06-23T14:48-04:00
+createdAt: 2012-06-23T13:35-04:00
+editedAt: 2012-06-23T14:33-04:00
 ---
 
 = NoiseGen =
@@ -16,7 +16,7 @@ I decided that using generators and combinators would be a good way to play arou
 ; Python: [http://thelackthereof.org/projects/python/noisegen/ browse] | [http://thelackthereof.org/projects/python/noisegen/.git local git] | [http://github.com/awwaiid/python-noise github]
 ; Ruby: [http://thelackthereof.org/projects/ruby/noisegen/ browse] | [http://thelackthereof.org/projects/ruby/noisegen/.git local git] | [http://github.com/awwaiid/ruby-noise github]
 
-=== News ===
+== News ==
 * 2012.06.23 - Presented at YAPC::NA 2012. Video is up on [http://youtu.be/pMZ4ilLzKW8 YouTube]!
 * 2012.05.31 - Presented NoiseGen at [http://www.meetup.com/Arlington-Ruby/events/63925872/ Arlington Ruby]
 
