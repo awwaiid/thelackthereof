@@ -1,7 +1,7 @@
 ---
 title: NoiseGen_PageCSS
-createdAt: 2012-06-23T16:28-04:00
-editedAt: 2012-06-23T16:30-04:00
+createdAt: 2012-06-23T16:26-04:00
+editedAt: 2012-06-23T16:28-04:00
 ---
 
 @import url(http://fonts.googleapis.com/css?family=Doppio+One);
@@ -78,7 +78,7 @@ p {
      border-radius: 15px 15px 15px 15px;
      color: #CCCCCC;
      float: left;
-     font-size: 21px;
+     font-size: large;
      margin: 1em;
      padding: 1em;
      width: 350px;
