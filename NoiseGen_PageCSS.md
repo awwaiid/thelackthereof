@@ -1,7 +1,7 @@
 ---
 title: NoiseGen_PageCSS
-createdAt: 2012-06-23T14:32-04:00
-editedAt: 2012-06-23T14:33-04:00
+createdAt: 2012-06-23T13:52-04:00
+editedAt: 2012-06-23T14:32-04:00
 ---
 
 /html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -97,17 +97,4 @@ h1 {
      text-align: center;
 }
 
-
-
-h2 + p {
-     float: none;
-  border-radius: 0;
-  border: 0;
-  width: auto;
-  text-align: center;
-  font-size: small;
-  letter-spacing: 5px;
-  background-color: inherit;
-  margin-top: -2em;
-}
 
