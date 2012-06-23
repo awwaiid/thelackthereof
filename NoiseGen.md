@@ -1,16 +1,16 @@
 ---
 title: NoiseGen
-createdAt: 2012-06-23T14:48-04:00
-editedAt: 2012-06-23T15:01-04:00
+createdAt: 2012-06-23T14:33-04:00
+editedAt: 2012-06-23T14:48-04:00
 ---
 
 = NoiseGen =
 
 20-Minute Software Synth
 
-[[YouTube:pMZ4ilLzKW8]]
+Lately I've been interested in digital audio. While exploring, I ran into the PortAudio library, which makes it really easy to output sound from a variety of languages and on a variety of platforms.
 
-Get down to the basics of digital audio by generating noise using some simple programming. Here I'm using 'unit generators', built in high-level dynamic programming languages, to make my speakers jump around a bit.
+I decided that using generators and combinators would be a good way to play around with this ... and after a while I started wondering what it would look like in different languages...
 
 ; Perl: [http://thelackthereof.org/projects/perl/Audio-NoiseGen/ browse] | [http://thelackthereof.org/projects/perl/Audio-NoiseGen/.git local git] | [http://github.com/awwaiid/perl-noise browse github]
 ; Python: [http://thelackthereof.org/projects/python/noisegen/ browse] | [http://thelackthereof.org/projects/python/noisegen/.git local git] | [http://github.com/awwaiid/python-noise github]
