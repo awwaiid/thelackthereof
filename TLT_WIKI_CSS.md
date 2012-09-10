@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2012-09-09T20:04-04:00
-editedAt: 2014-09-29T20:51-04:00
+createdAt: 2011-08-31T14:19-04:00
+editedAt: 2012-09-09T20:04-04:00
 ---
 
 /* CSS for thelackthereof.org wiki */
@@ -110,14 +110,6 @@ img.graph {
 .journal .comment {
   text-align: right;
   font-size: small;
-}
-
-.journal .comment a:before {
-     content: "[ ";
-}
-
-.journal .comment a:after {
-     content: " ]";
 }
 
 code {
