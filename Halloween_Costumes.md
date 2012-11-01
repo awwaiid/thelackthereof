@@ -1,12 +1,11 @@
 ---
 title: Halloween_Costumes
-createdAt: 2012-11-01T13:05-04:00
-editedAt: 2016-10-23T22:47-04:00
+createdAt: 2012-04-15T21:43-04:00
+editedAt: 2012-11-01T13:05-04:00
 ---
 
 I never want to be the same thing twice... so:
 
-* 2012 - Frog Prince
 * 2011 - Spider
 * 2010 - Blue Knight
 * 2009 - Tiger
