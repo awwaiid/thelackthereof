@@ -1,12 +1,12 @@
 ---
 title: Dynamic_Language_Conference_Brainstorm
-createdAt: 2012-11-14T22:05-05:00
-editedAt: 2012-11-14T22:11-05:00
+createdAt: 2012-06-19T15:37-04:00
+editedAt: 2012-11-14T22:05-05:00
 ---
 
 Idea: A regional one/two day two-track conference on software development in dynamic languages. Perhaps even an annual / 6mo event?
 
-Submit the same talks that you would submit to your regional or national language-specific conference ... only here, instead of the speaker before and after you using the same language, they might be using something completely different. But ultimately very similar problems get solved, systems get built, concepts get used.
+Submit the same talks that you would submit to your regional or national language-specific conference ... only here instead of the speaker before and after you using the same language they might be using something completely different. But ultimately very similar problems get solved, systems get built, concepts get used.
 
 Names:
 * DCDU - DC Dynamic United
