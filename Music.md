@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2012-11-22T01:19-05:00
-editedAt: 2013-02-20T16:46-05:00
+createdAt: 2011-12-11T00:26-05:00
+editedAt: 2012-11-22T01:19-05:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place.
@@ -13,7 +13,6 @@ These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0
 Random songs. Some of these are more proof-of-concept than anything :)
 
 || Song || Play! ||
-|| [[Immortal Crowd]] || mp3:/docs/music/immortal_crowd.mp3 ||
 || [[Call On Borbyu]] || mp3:/docs/music/call_on_borbyu.mp3 ||
 || Pi Girl || mp3:/docs/music/pigirl7.mp3 ||
 || [[Umbrellas]] || mp3:/docs/music/umbrellas.mp3 ||
