@@ -1,17 +1,29 @@
 ---
 title: TODO
-createdAt: 2004-06-16T16:13-04:00
-editedAt: 2007-11-12T17:27-05:00
+createdAt: 2013-01-22T12:58-05:00
+editedAt: 2013-01-22T12:58-05:00
 ---
 
-Thinks I need/want to do.
+== CSU ==
+* RamCT discussion -> email forwarder
+* RamCT/website -> iCal
 
-Status: (D) Done, (W) Working on it, (P) Pending something else
+== Projects ==
+* Quiz Game
+* Devel::Vestige
+* Moe
+* Async Devel::ebug
 
-== Job ==
-* (D) Get cellphone with national coverage
-* (D) Get new clothes
-* (W) Apply to lots of places with custom resume
-* Email Jean Shuler
-* Add Rena to references
+== House ==
+* 3 prong outlets
+* Kitchen lighting
+* More rugs
+* External drives setup
+* Kitchen counter reseal
+
+== Coop ==
+* Digitize stuff
+* Set up calendar
+* Watch for April end of renters
+
 
