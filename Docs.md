@@ -1,11 +1,10 @@
 ---
 title: Docs
-createdAt: 2005-01-27T23:46-05:00
-editedAt: 2005-05-11T01:33-04:00
+createdAt: 2013-02-20T16:40-05:00
+editedAt: 2013-02-20T16:40-05:00
 ---
 
-I try to keep all of my documents and make them available to anyone who is interested in reading them. For the most part I've been trying to use LaTeX as my source language and then converting to ps, pdf, html, and plain text. One exception that I am now making is Wiki-based documents -- ones that I have composed directly in the wiki. I like having them in the wiki because people can contribute... I like having them in LaTeX because it is fun. Oh well.
-I've also attempted to sort things out by subject -- since most of my documents have to do with school most of the subjects do too.
+I try to keep all of my documents and make them available to anyone who is interested in reading them. For the most part I've been trying to use LaTeX as my source language and then converting to ps, pdf, html, and plain text. One exception that I am now making is Wiki-based documents -- ones that I have composed directly in the wiki. I like having them in the wiki because people can contribute... I like having them in LaTeX because it is fun. Oh well. I've also attempted to sort things out by subject -- since most of my documents have to do with school most of the subjects do too.
 
 One thing that I would like to change is my mix of self-authored documents and documents that others have written. My plan is to split docs into two directories: [http://thelackthereof.org/docs/ docs] for my stuff and [http://thelackthereof.org/docs/library/ library] for other people's stuff. For the time being they are a little mixed up, but it should be fairly obvious which work was originally composed and which work has come from other sources. If you have any questions, just ask!
 
@@ -23,6 +22,13 @@ Here is a list of some of my documents. Remember you can access the non-wiki doc
 * [[Sphinx Notes]]
 * [[GP for NLP]]
 * [[Web Application Techniques]]
+* [[Debunking Model View Controller]]
+* [[Code Selectors]]
+* [[DOM Templates and AJAX]]
+* [[Efficient CSS Algorithm]]
+* [[REST AJAX and Continuations]]
+* [[ACM Turing Award and the Lag of Innovation]]
+* [[Unison Backup Setup]]
 
 == Movie Reviews ==
 * [[Movie Review - Love Actually]]
@@ -40,15 +46,34 @@ Here is a list of some of my documents. Remember you can access the non-wiki doc
 "What Eric fails to grasp is that it is that [formalizing hacker customs] is not necessary. In his own words Eric has claimed to observe the consistency of these practices throughout his 20 years of experience in the community. This illustrates exactly how unnecessary it is to do any formalization of this code of conduct."
 * [[Response to Richard Epstein Article]]
 * [[The Sociopath In All Of Us]]
+* [[Predicting the Future]]
+* [[Science vs Mathematics]]
+* [[Study of Hobbs' Leviathan]]
 
 == Poems ==
 * [[Zero One Infinity]]
 * [[It's Dark Here Now]]
+* [[The Haiku Game]]
+* [[What Do Creatures Dream]]
+* [[Dim Memories]]
+* [[Code Undone]]
+* [[Honey Honey Honey]]
+
+== Songs ==
+* [[Umbrellas]]
+* [[Zombie Love]]
+* [[Immaterial Things]]
+* [[Got One Shoe]]
+* [[Talking DC Vote Blues]]
 
 == Other / Unsorted ==
+* [[ArcaneJill]]
 * [[Graphics Design]]
 * [[Autobiography]]
 * [[Mutt]] - My mail client
 * [[WST]] - Women's Studies course stuff
 * [[EPFarms ASCII Logo]]
+* [[Linux on the Compaq v2311]]
+* [[Firefox Extensions I Like]]
+
 
