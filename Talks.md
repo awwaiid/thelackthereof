@@ -1,14 +1,10 @@
 ---
 title: Talks
-createdAt: 2013-09-11T22:39-04:00
-editedAt: 2015-06-14T00:26-04:00
+createdAt: 2012-06-23T09:38-04:00
+editedAt: 2013-09-11T22:39-04:00
 ---
 
-From time to time I give talks on various topics. Audiences range from the local Perl Monger group to larger conferences. Unfortunately for you, I prefer to do crazy things like live code demos and use minimalist slides, so you don't quote get the same effect from these records. Hopefully I can dig up some videos :)
-
-== Basic AngularJS ==
-
-[[YouTube:VdB4SUCsmsU]]
+From time to time I give talks on various topics, usually Perl related. Audiences range from the local Perl Monger group to larger conferences. Unfortunately for you, I prefer to do crazy things like live code demos and use minimalist slides, so you don't quote get the same effect from these records. Hopefully I can dig up some videos :)
 
 == NoiseGen ==
 * Presented at: [http://www.meetup.com/Arlington-Ruby/ Arlington Ruby 2012.05.30]
@@ -79,4 +75,5 @@ From time to time I give talks on various topics. Audiences range from the local
 == Web Application Techniques ==
 * Presented at: Linux Users of Northern Arizona
 * [http://thelackthereof.org/docs/cs/Wilcox,%20Brock:%20Web%20Application%20Techniques%20(LUNA%20presentation).oop Slides (OO Impress, .oop)]
+
 
