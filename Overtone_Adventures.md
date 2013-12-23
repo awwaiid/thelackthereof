@@ -1,7 +1,7 @@
 ---
 title: Overtone_Adventures
-createdAt: 2013-12-23T13:36-05:00
-editedAt: 2013-12-23T13:37-05:00
+createdAt: 2013-12-23T12:55-05:00
+editedAt: 2013-12-23T13:36-05:00
 ---
 
 2013-12-22
@@ -36,34 +36,4 @@ Ah! I need to do (use 'overtone.inst.piano) not (:use overtone.inst.piano).
 * Achievement unlocked ... I can now use all the intstruments on the cheat sheet!
 * Now when I do "(piano :note 60) (piano :note 65) (piano :note 69)" (still in REPL) it plays all three notes at once. Need to learn how to sequence things.
 * I think I'll go back to that workshop video
-* At 13:40 they talk about sequencing things
-* Play a piano note in 1 second (at (+ 1000 (now)) (piano))
-* From their tutorial, I created:
-** (defn loop-beats [time] (at (+ 500 time) (kick)) (at (+ 1000 time) (open-hat)) (apply-at (+ 1500 time) loop-beats (+ 1500 time) []))
-** (loop-beats (now))
-** (stop)
-** I don't know exactly what that last [] is for. (odoc apply-at) says it is "argseq" but gives no explanation.
-** In general this is "temorial recursion" -- delays a bit before calling back
-** As far as I can tell this _does_ create new stack frames! Will eventually run out. I know this because I accidentally put the loop-beats recursion in parens which invoked it.
-* Following the tutorial, I transformed it to use a metronome:
-** (def metro (metronome 180))
-** (defn loop-beats [m beat-num] (at (m (+ 0 beat-num)) (kick)) (at (m (+ 1 beat-num)) (open-hat)) (apply-at (m (+ 2 beat-num)) loop-beats m (+ 2 beat-num) []))
-** Get it started: (loop-beats metro (metro))
-** Change the temp live! (metro :bpm 200)
-** Stop it (stop)
-* Instruments take 'notes' (midi numbers), though some things take hz
-* Symbolic notes can be turned into midi numbers via (note :a4)
-* Can map a sequence of symbolic notes to midi numbers (map note [:e4 :d4 :c4])
-* Now I can make a general purpose play-note-sequence function. I'll just make it play on the beat.
-
-<code>
-(defn play-song [metro beat-num notes]
-  (map-indexed (fn [index n]
-    (at (metro (+ index beat-num)) (piano :note (note n)))
-  ) notes)
-)
-</code>
-
-* (play-song metro (metro) [:e4 :d4 :c4 :d4 :e4 :e4 :e4 :a0 :d4 :d4 :d4 :a0 :e4 :e4 :e4 :a0])
-
 
