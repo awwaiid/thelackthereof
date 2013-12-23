@@ -1,10 +1,10 @@
 ---
 title: Overtone_Adventures
-createdAt: 2013-12-23T13:37-05:00
-editedAt: 2013-12-25T00:17-05:00
+createdAt: 2013-12-23T13:36-05:00
+editedAt: 2013-12-23T13:37-05:00
 ---
 
-== 2013-12-22 ==
+2013-12-22
 
 So I've gone through [https://github.com/overtone/overtone/wiki/Getting-Started Overtone Getting Started] a few times, and am up and running. Only trick at all is that I already have my own jackd wrapper script to get jack started. Just like the other times that I went through this tutorial, I get to this point and say "now what?"
 
