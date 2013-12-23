@@ -1,7 +1,7 @@
 ---
 title: Overtone_Adventures
-createdAt: 2013-12-23T12:55-05:00
-editedAt: 2013-12-23T13:36-05:00
+createdAt: 2013-12-22T03:35-05:00
+editedAt: 2013-12-23T12:55-05:00
 ---
 
 2013-12-22
@@ -22,18 +22,5 @@ So I go on a reading spree. Things I learn:
 ** Mentions here as I've seen elsewhere: definst uses macros to send synths to supercollider, so only a specific set of things are OK in there (not arbitrary expressions)
 ** Shows how to sequence things a bit
 
-== 2013-12-23 ==
 
-Today I'm watching [http://youtu.be/lcRQFGtFiyE Overtone and ClojureScript] which is a coding session of someone setting up an web UI to play Overtone stuff. Building a UI like this reminds me of the one-string guitar that I got at an art festival the other day. Clearly home-made, including an energy drink as the echo chamber. And very awesome. Also fun to see someone iterate through their development. Lots of interesting things in there, most of them I can read more or less but doesn't mean I could write them. One thing I noticed was (:use ...) to pull in instrument libs. I'll try that.
-
-The Cheat Sheet is interesting, but I don't know enough to actually use a lot of the things on there. Current mission is to get the instruments working.
-
-Ah! I need to do (use 'overtone.inst.piano) not (:use overtone.inst.piano).
-* Now (piano) plays a note!
-* (odoc note) shows that it takes a bunch of params
-* (piano 60), (piano 65), etc plays some nice piano notes
-* I looked up named parameteters in clojure. (piano :note 65) does what I want
-* Achievement unlocked ... I can now use all the intstruments on the cheat sheet!
-* Now when I do "(piano :note 60) (piano :note 65) (piano :note 69)" (still in REPL) it plays all three notes at once. Need to learn how to sequence things.
-* I think I'll go back to that workshop video
 
