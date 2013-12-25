@@ -1,7 +1,7 @@
 ---
 title: Overtone_Adventures
-createdAt: 2013-12-25T02:14-05:00
-editedAt: 2013-12-26T01:13-05:00
+createdAt: 2013-12-25T01:53-05:00
+editedAt: 2013-12-25T02:14-05:00
 ---
 
 == 2013-12-22 ==
@@ -101,6 +101,4 @@ So that takes midi events specifically from that device (I picked one of my 64 v
 -----------------
 
 http://ibisandbaboon.com/2013/01/13/playing-with-music-and-overtone-i/ - nice intro
-
-http://hg.postspectacular.com/resonate-2013 - need to check out
 
