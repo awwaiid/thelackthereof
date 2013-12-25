@@ -1,7 +1,7 @@
 ---
 title: Overtone_Adventures
-createdAt: 2013-12-25T01:22-05:00
-editedAt: 2013-12-25T01:53-05:00
+createdAt: 2013-12-25T00:17-05:00
+editedAt: 2013-12-25T01:22-05:00
 ---
 
 == 2013-12-22 ==
@@ -71,31 +71,5 @@ Ah! I need to do (use 'overtone.inst.piano) not (:use overtone.inst.piano).
 * Apparently software midi doesn't get immediately detected. "modprobe snd-virmidi" gave me something I can connect to in jack
 * Had to restart overtone
 * Now I have BUNCHES of midi connections when I do (midi-connected-devices)
-
-== 2013-12-25 ==
-
-Good progress today -- I made a hack to get around that BUNCHES of midi issue. I also got [https://github.com/overtone/overtone/wiki/Overtone-in-vim Overtone Vim Integration] working. Well technically I already had it working (had fireplace.vim installed, etc), I just didn't know it. Now I can start up the REPL in one terminal and start up vim in another. In vim do ":Require" and it finds the running REPL and hooks into it. I also added "nnoremap <F1> :Eval (stop)<cr>" to my .vimrc, so that I can jam on F1 to make the noise stop. Here is the file I've got now:
-
-<code>
-(ns noise.core)
-(use 'overtone.live)
-(use 'overtone.inst.piano)
-
-(on-event [:midi :note-on]
-  (fn [e]
-    (let [note (:note e)
-          vel  (:velocity e)
-          device-name (:name (:device e))]
-      (if (= "VirMIDI [hw:1,0,1]" device-name)
-        (piano note vel)
-        ()
-      ) 
-    ) 
-  ) 
-  ::midi-keyboard-handler
-)
-</code>
-
-So that takes midi events specifically from that device (I picked one of my 64 virtual devices at random, seems to work) piped to the piano instrument. Next I'm going to make a new instrument of my own and hook that in!
 
 
