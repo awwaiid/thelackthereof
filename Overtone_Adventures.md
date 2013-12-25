@@ -1,7 +1,7 @@
 ---
 title: Overtone_Adventures
-createdAt: 2013-12-25T01:53-05:00
-editedAt: 2013-12-25T02:14-05:00
+createdAt: 2013-12-25T01:22-05:00
+editedAt: 2013-12-25T01:53-05:00
 ---
 
 == 2013-12-22 ==
@@ -98,7 +98,4 @@ Good progress today -- I made a hack to get around that BUNCHES of midi issue. I
 
 So that takes midi events specifically from that device (I picked one of my 64 virtual devices at random, seems to work) piped to the piano instrument. Next I'm going to make a new instrument of my own and hook that in!
 
------------------
-
-http://ibisandbaboon.com/2013/01/13/playing-with-music-and-overtone-i/ - nice intro
 
