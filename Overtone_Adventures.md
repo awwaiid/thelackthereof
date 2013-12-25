@@ -1,7 +1,7 @@
 ---
 title: Overtone_Adventures
-createdAt: 2013-12-25T00:17-05:00
-editedAt: 2013-12-25T01:22-05:00
+createdAt: 2013-12-23T13:37-05:00
+editedAt: 2013-12-25T00:17-05:00
 ---
 
 == 2013-12-22 ==
@@ -65,11 +65,5 @@ Ah! I need to do (use 'overtone.inst.piano) not (:use overtone.inst.piano).
 </code>
 
 * (play-song metro (metro) [:e4 :d4 :c4 :d4 :e4 :e4 :e4 :a0 :d4 :d4 :d4 :a0 :e4 :e4 :e4 :a0])
-
-* OK. Midi time! Looking at [https://github.com/overtone/overtone/wiki/MIDI Overtone wiki MIDI page]
-* Fired up jack-keyboard (software midi keyboard) since I'm not at home
-* Apparently software midi doesn't get immediately detected. "modprobe snd-virmidi" gave me something I can connect to in jack
-* Had to restart overtone
-* Now I have BUNCHES of midi connections when I do (midi-connected-devices)
 
 
