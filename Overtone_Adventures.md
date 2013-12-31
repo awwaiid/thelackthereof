@@ -1,7 +1,7 @@
 ---
 title: Overtone_Adventures
-createdAt: 2013-12-31T14:40-05:00
-editedAt: 2014-01-15T23:27-05:00
+createdAt: 2013-12-26T01:13-05:00
+editedAt: 2013-12-31T14:40-05:00
 ---
 
 == 2013-12-22 ==
@@ -107,53 +107,5 @@ http://hg.postspectacular.com/resonate-2013 - need to check out
 2013-12-26
 
 This is awesome -- In [http://tgk.github.io/2012/12/the-composing-schemer.html The Composing Schemer] the author uses "core.logic" (which I assume is a clojure lib for doing rule/inference programming) to generate melodies!
-
-== 2013-12-26 ==
-
-Today I'm playing with [http://en.wikipedia.org/wiki/Open_Sound_Control Open Sound Control (OSC)], which is more general-purpose than midi but kinda similar idea. I have an android app on my phone named [https://play.google.com/store/apps/details?id=com.charlieroberts.Control&hl=en Control] which has a few existing UIs, in my case I'm playing with the multi-touch. I set it to have two touch inputs.
-
-In my Overtone REPL I first set it up to listen for OSC events, and dump out whatever events it sees:
-
-<code>
-(def server (osc-server 44100 "osc-clj"))
-(osc-listen server (fn [msg] (println msg)) :debug)
-; Turn off with: (osc-rm-listener server :debug)
-</code>
-
-I got both my laptop and phone on the wifi (which allows peer-to-peer communication) and told the Control app to connect to my laptop server (192.168.0.15 port 44100, in this case). Now when I touch the screen I get a bunch of messages about the generated OSC events. They look like:
-
-<code>
-{:src-port 45161, :src-host 192.168.0.25, :path /multi/1, :type-tag ff, :args (0.36825398 0.3961456)}
-</code>
-
-From this I see that the path I want to react to is "/multi/1" and "/multi/2". Dragging my fingers around, the args are the x and y coordinates normalized to (0..1). For now I'll just make it beep a bit when it gets an event. I'm hooking the first touch up so the X axis generates a frequency, and the second touch up so that the Y axis generates a frequency (just as a test), giving:
-
-<code>
-(osc-handle server "/multi/1" (fn [msg]
-  (let [
-      x (nth (:args msg) 0)
-      y (nth (:args msg) 1)]
-    (demo 0.1 (saw (+ 100 (* 100 x))))
-  )
-))
-
-(osc-handle server "/multi/2" (fn [msg]
-  (let [
-      x (nth (:args msg) 0)
-      y (nth (:args msg) 1)]
-    (demo 0.1 (saw (+ 100 (* 100 y))))
-  )
-))
-</code>
-
-Each touch plays for 1/10th of a second, so if I drag around these overlap a bunch. In fact, if I drag around a lot then something gets backed up and the sound is delayed.
-
-------
-
-BONUS
-
-Control comes with the ability to dynamically create controls, even over OSC itself! This video shows [http://charlie-roberts.com/Control/?p=339 dynmically creating widgets in Control from SuperCollider], which should be straightforward to translate into Overtone.
-
-[http://minimal.be/control/widget-1.html Three part tutorial on creating reactive Control interfaces]
 
 
