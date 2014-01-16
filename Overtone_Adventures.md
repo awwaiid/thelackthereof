@@ -1,7 +1,7 @@
 ---
 title: Overtone_Adventures
-createdAt: 2014-01-15T23:27-05:00
-editedAt: 2014-02-09T15:41-05:00
+createdAt: 2013-12-31T14:40-05:00
+editedAt: 2014-01-15T23:27-05:00
 ---
 
 == 2013-12-22 ==
@@ -156,64 +156,4 @@ Control comes with the ability to dynamically create controls, even over OSC its
 
 [http://minimal.be/control/widget-1.html Three part tutorial on creating reactive Control interfaces]
 
--------
-
-== 2014-01-15 ==
-
-One of my goals is to hook up my midi keyboard to an instrument and then hook up some of my midi knob controllers and/or OSC from my phone to adjust instrument parameters. I only needed one more thing to make this happen -- clojure refs. First I define an instrument that is parameterized:
-
-<code>
-(definst steel-drum [note 60 amp 0.8 sustain 0.1 subfreq 7]
-  (let [freq (midicps note)]
-    (* amp
-       (env-gen (perc envp 1) 1 1 0 1 :action FREE)
-       (+ (square (/ freq 2))
-          (rlpf (saw freq) (* multix freq) 0.2)
-       )
-    )
-  )
-)
-</code>
-
-Next I'll define some refs. I give them the same name, but note that the above names were local to the steel-drum, so are irrelevant here.
-
-<code>
-(def sustain (ref 0.1))
-(def subfreq (ref 7))
-</code>
-
-Now when we get a midi note we need to use these params when we trigger the instrument. As with a previous article, ignore the bit where I'm filtering down my midi device :)
-
-<code>
-(on-event [:midi :note-on]
-  (fn [e]
-    (let [note (:note e)
-          vel  (:velocity e)
-          device-name (:name (:device e))]
-      (if (= "VirMIDI [hw:1,0,1]" device-name)
-        (steel-drum note vel @sustain @subfreq)
-        ()
-      )
-    )
-  )
-  ::midi-steeldrum-handler
-)
-</code>
-
-Great! Now to modify those refs I can do (dosync (ref-set sustain 0.3)) for example. This says start a transaction, and then do an inconsiderate re-assignment of the sustain. That is, do it without regard to what any other transaction might have done. "assign" is nicer than "ref-set", but we don't need to be nice.
-
-To access the current value we can use "@sustain" as we did above. Now what we need to do is listen to some inputs and overwrite the current values. For this I'll use OSC with a x,y touch UI. I'll use the x-coordinate as sustain and the y-coordinate as the subfreq.
-
-<code>
-(osc-handle server "/multi/1" (fn [msg]
-  (let [
-      x (nth (:args msg) 0)
-      y (nth (:args msg) 1)]
-    (dosync (ref-set sustain (/ x 2)))
-    (dosync (ref-set subfreq (* y 20)))
-  )
-))
-</code>
-
-And with that I can drag around on my touch UI and it changes the sustain and underlying frequency of my instrument, so I simultaneously bang on my virtual keyboard and get different sounds!
 
