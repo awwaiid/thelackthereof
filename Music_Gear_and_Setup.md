@@ -1,7 +1,7 @@
 ---
 title: Music_Gear_and_Setup
-createdAt: 2014-02-09T16:32-05:00
-editedAt: 2014-02-09T16:37-05:00
+createdAt: 2014-02-09T16:30-05:00
+editedAt: 2014-02-09T16:32-05:00
 ---
 
 I've been exploring the world of Open Source Music Production! Here I detail my setup.
@@ -40,7 +40,7 @@ apt-get install pulseaudio-module-jack pavucontrol pulseaudio-utils
 apt-get install clojure1.4 leiningen
 
 # Misc
-apt-get install audacity vorbis-tools vlc
+apt-get install audacity
 </code>
 
 === Jackd ===
