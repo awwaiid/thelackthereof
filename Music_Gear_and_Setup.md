@@ -1,7 +1,7 @@
 ---
 title: Music_Gear_and_Setup
-createdAt: 2014-02-09T16:47-05:00
-editedAt: 2014-02-09T16:48-05:00
+createdAt: 2014-02-09T16:41-05:00
+editedAt: 2014-02-09T16:47-05:00
 ---
 
 I've been exploring the world of Open Source Music Production! Here I detail my setup.
@@ -75,7 +75,7 @@ This connects clojure to SuperCollider. Seems like a cool way to write synths an
 
 == Configuration and Helper Scripts ==
 
-I have one script named 'musicstuff.sh' what gets things going, primarily Jack. I plug in my hardware first, then fire it up. It differentiates between when I run in laptop-only mode and when I run with my io2 plugged in. I created those two profiles manually in qjackctl and saved them with the given names.
+I have one script named 'musicstuff.sh' what gets things going, primarily Jack. I plug in my hardware first, then fire it up. It differentiates between when I run in laptop-only mode and when I run with my io2 plugged in.
 
 <code>
 #!/bin/sh
@@ -103,13 +103,4 @@ patchage -A &
 # Magical bridge between legacy ALSA midi and jack
 a2jmidid -e &
 </code>
-
-I also have a shut down script, which just undoes the PulseAudio -> Jack:
-
-<code>
-pacmd set-default-sink 0
-pactl unload-module module-jack-sink
-pactl unload-module module-jack-source
-</code>
-
 
