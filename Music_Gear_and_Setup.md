@@ -1,7 +1,7 @@
 ---
 title: Music_Gear_and_Setup
-createdAt: 2014-02-09T16:48-05:00
-editedAt: 2014-02-09T16:52-05:00
+createdAt: 2014-02-09T16:47-05:00
+editedAt: 2014-02-09T16:48-05:00
 ---
 
 I've been exploring the world of Open Source Music Production! Here I detail my setup.
@@ -78,6 +78,8 @@ This connects clojure to SuperCollider. Seems like a cool way to write synths an
 I have one script named 'musicstuff.sh' what gets things going, primarily Jack. I plug in my hardware first, then fire it up. It differentiates between when I run in laptop-only mode and when I run with my io2 plugged in. I created those two profiles manually in qjackctl and saved them with the given names.
 
 <code>
+#!/bin/sh
+
 # Jack GUI and jackd itself
 if grep -q io2 /proc/asound/cards ; then
   echo "Runing with iO2"
