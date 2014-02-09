@@ -1,7 +1,7 @@
 ---
 title: Music_Gear_and_Setup
 createdAt: 2014-02-09T16:00-05:00
-editedAt: 2014-02-09T16:24-05:00
+editedAt: 2014-02-09T16:00-05:00
 ---
 
 I've been exploring the world of Open Source Music Production! Here I detail my setup.
@@ -18,7 +18,7 @@ I've been exploring the world of Open Source Music Production! Here I detail my 
 
 This is where it starts getting complex. I think I'll just highlight the things that I use on a regular basis.
 
-=== Jackd ===
+=== Jack ===
 
 Linux / Open Source music generally follows the unix philosophy of having many tools and open protocols to get them working together. With the command line, that's often sockets and pipes. In linux the main thing is [http://jackaudio.org/|Jack] (though I'm learning about OSC also). Jack is basically a software patch-board, allowing you to connect one program to another, so long as they know how to talk to Jack.
 
