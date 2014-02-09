@@ -1,6 +1,6 @@
 ---
 title: Music_Gear_and_Setup
-createdAt: 2014-02-09T16:41-05:00
+createdAt: 2014-02-09T16:37-05:00
 editedAt: 2014-02-09T16:41-05:00
 ---
 
@@ -75,32 +75,5 @@ This connects clojure to SuperCollider. Seems like a cool way to write synths an
 
 == Configuration and Helper Scripts ==
 
-I have one script named 'musicstuff.sh' what gets things going, primarily Jack. I plug in my hardware first, then fire it up. It differentiates between when I run in laptop-only mode and when I run with my io2 plugged in.
-
-{code}
-#!/bin/sh
-
-# Jack GUI and jackd itself
-if grep -q io2 /proc/asound/cards ; then
-  echo "Runing with iO2"
-  qjackctl -s -p io2normal &
-else
-  echo "Running with onboard sound"
-  qjackctl -s -p laptopmode &
-fi
-
-# Give jack a few seconds to get started
-sleep 3
-
-# PulseAudio -> Jack
-pacmd load-module module-jack-source channels=2
-pacmd load-module module-jack-sink channels=2
-pacmd set-default-sink jack_out
-
-# Nice GUI connection manager
-patchage -A &
-
-# Magical bridge between legacy ALSA midi and jack
-a2jmidid -e &
-{code}
+I have one script named 'musicstuff.sh' what gets things going, primarily Jack. One of the things that it calls out to is a [http://alsa.opensrc.org/Jack_and_Loopback_device_as_Alsa-to-Jack_bridge Alsa-to-Jack Bridge].
 
