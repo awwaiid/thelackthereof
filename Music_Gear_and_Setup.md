@@ -1,6 +1,6 @@
 ---
 title: Music_Gear_and_Setup
-createdAt: 2014-02-09T16:00-05:00
+createdAt: 2013-02-02T20:18-05:00
 editedAt: 2014-02-09T16:00-05:00
 ---
 
@@ -23,29 +23,21 @@ This is where it starts getting complex. I think I'll just highlight the things 
 Linux / Open Source music generally follows the unix philosophy of having many tools and open protocols to get them working together. With the command line, that's often sockets and pipes. In linux the main thing is [http://jackaudio.org/|Jack] (though I'm learning about OSC also). Jack is basically a software patch-board, allowing you to connect one program to another, so long as they know how to talk to Jack.
 
 Jack-related software:
-; qjackctl: GUI for jack daemon configuration and jack sessions
-; patchage: GUI for jack connections
-; a2jmidid: Turn Alsa midi devices into jack midi
+* qjackctl - GUI for jack daemon configuration and jack sessions
+* patchage - GUI for jack connections
+* a2jmidid - Turn Alsa midi devices into jack midi
 
 === Ardour ===
 
-I used Audacity for quite a while, but recently got turned on to Ardour. What a fantastic program! I'm using the Ardour3, using it as a multi-track non-destructive editor, mixer, and even midi sequencer a bit.
+I used Audacity for quite a while, but recently got turned on to Ardour. What a fantastic program! I'm using the Ardour3 betas, using it as a multi-track non-destructive editor, mixer, and even midi sequencer.
 
-I've also been using this as the main mixing/mastering tool, hooking it in to filters. I like the LV2 calf plugins, like reverb, compression, etc.
+=== Seq24 ===
+
+This is a fun midi sequencer that I've played with.
 
 === Hydrogen ===
 
 This drum machine / synthesizer is cool. Among others, I recommend getting the BigMono drum kit, in which drum hits are sampled at different velocities.
-
-=== Overtone ===
-
-This connects clojure to SuperCollider. Seems like a cool way to write synths and do other (possibly live) algorithmic composition.
-
-=== Misc ===
-; Seq24: This is a fun midi sequencer that I've played with
-; Audacity: Good for doing quick file conversions
-; qsynth: Nice wrapper for fluidsynth, renders midi using soundfonts
-; zynaddsubfx: Super powerful synthesizer (forked as yoshimi, I use that sometimes)
 
 == Configuration and Helper Scripts ==
 
