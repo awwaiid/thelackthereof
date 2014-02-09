@@ -1,7 +1,7 @@
 ---
 title: Music_Gear_and_Setup
-createdAt: 2014-02-09T16:24-05:00
-editedAt: 2014-02-09T16:30-05:00
+createdAt: 2014-02-09T16:00-05:00
+editedAt: 2014-02-09T16:24-05:00
 ---
 
 I've been exploring the world of Open Source Music Production! Here I detail my setup.
@@ -17,31 +17,6 @@ I've been exploring the world of Open Source Music Production! Here I detail my 
 == Software ==
 
 This is where it starts getting complex. I think I'll just highlight the things that I use on a regular basis.
-
-I use Debian sid. Here's some stuff:
-
-<code>
-# Ardour, mixing
-apt-get install ardour3 swh-lv2 calf-plugins tap-plugins
-
-# Synths
-apt-get install zynaddsubfx qsynth fluid-soundfont-gm fluid-soundfont-gs
-
-# Jack stuff
-apt-get install jackd jack-tools jack-keyboard qjackctl pulseaudio-module-jack a2jmidid patchage
-
-# Monitor & Visualize
-apt-get install meterbridge freqtweak
-
-# PulseAudio helpers
-apt-get install pulseaudio-module-jack pavucontrol pulseaudio-utils
-
-# Overtone
-apt-get install clojure1.4 leiningen
-
-# Misc
-apt-get install audacity
-</code>
 
 === Jackd ===
 
