@@ -1,7 +1,7 @@
 ---
 title: Music_Gear_and_Setup
-createdAt: 2014-02-09T16:37-05:00
-editedAt: 2014-02-09T16:41-05:00
+createdAt: 2014-02-09T16:32-05:00
+editedAt: 2014-02-09T16:37-05:00
 ---
 
 I've been exploring the world of Open Source Music Production! Here I detail my setup.
@@ -21,20 +21,20 @@ This is where it starts getting complex. I think I'll just highlight the things 
 I use Debian sid. Here's some stuff:
 
 <code>
-# Jack stuff
-apt-get install jackd jack-tools jack-keyboard qjackctl pulseaudio-module-jack a2jmidid patchage
-
-# PulseAudio helpers
-apt-get install pulseaudio pulseaudio-module-jack pavucontrol pulseaudio-utils
+# Ardour, mixing
+apt-get install ardour3 swh-lv2 calf-plugins tap-plugins
 
 # Synths
 apt-get install zynaddsubfx qsynth fluid-soundfont-gm fluid-soundfont-gs
 
-# Ardour, mixing
-apt-get install ardour3 swh-lv2 calf-plugins tap-plugins
+# Jack stuff
+apt-get install jackd jack-tools jack-keyboard qjackctl pulseaudio-module-jack a2jmidid patchage
 
 # Monitor & Visualize
 apt-get install meterbridge freqtweak
+
+# PulseAudio helpers
+apt-get install pulseaudio-module-jack pavucontrol pulseaudio-utils
 
 # Overtone
 apt-get install clojure1.4 leiningen
@@ -45,7 +45,7 @@ apt-get install audacity vorbis-tools vlc
 
 === Jackd ===
 
-Linux / Open Source music generally follows the unix philosophy of having many tools and open protocols to get them working together. With the command line, that's often sockets and pipes. In linux the main thing is [http://jackaudio.org/|Jack]. Jack is basically a software patch-board, allowing you to connect one program to another, so long as they know how to talk to Jack.
+Linux / Open Source music generally follows the unix philosophy of having many tools and open protocols to get them working together. With the command line, that's often sockets and pipes. In linux the main thing is [http://jackaudio.org/|Jack] (though I'm learning about OSC also). Jack is basically a software patch-board, allowing you to connect one program to another, so long as they know how to talk to Jack.
 
 Jack-related software:
 ; qjackctl: GUI for jack daemon configuration and jack sessions.
@@ -64,14 +64,13 @@ This drum machine / synthesizer is cool. Among others, I recommend getting the B
 
 === Overtone ===
 
-This connects clojure to SuperCollider. Seems like a cool way to write synths and do other (possibly live) algorithmic composition. I'm also playing with connecting via OSC and midi to external devices.
+This connects clojure to SuperCollider. Seems like a cool way to write synths and do other (possibly live) algorithmic composition.
 
 === Misc ===
 ; Seq24: This is a fun midi sequencer that I've played with
 ; Audacity: Good for doing quick file conversions
 ; qsynth: Nice wrapper for fluidsynth, renders midi using soundfonts
 ; zynaddsubfx: Super powerful synthesizer (forked as yoshimi, I use that sometimes)
-; non tools: non-daw, non-mixer, non-sequencer ... lightweight DAW related tools
 
 == Configuration and Helper Scripts ==
 
