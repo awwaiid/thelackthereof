@@ -1,10 +1,10 @@
 ---
 title: Music
-createdAt: 2014-02-09T16:25-05:00
-editedAt: 2014-04-21T21:00-04:00
+createdAt: 2013-12-01T15:08-05:00
+editedAt: 2014-02-09T16:25-05:00
 ---
 
-Here you can play all the music I've written or been involved with in one lovely place. Also check out my [[Music Gear and Setup]]!
+Here you can play all the music I've written or been involved with in one lovely place.
 
 These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons Attribution-ShareAlike (CC BY-SA)]] License (or maybe CC BY-NC... feel free to ask).
 
