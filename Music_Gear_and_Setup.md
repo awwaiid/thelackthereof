@@ -1,7 +1,7 @@
 ---
 title: Music_Gear_and_Setup
-createdAt: 2014-02-09T16:52-05:00
-editedAt: 2017-06-02T21:50-04:00
+createdAt: 2014-02-09T16:48-05:00
+editedAt: 2014-02-09T16:52-05:00
 ---
 
 I've been exploring the world of Open Source Music Production! Here I detail my setup.
@@ -67,12 +67,11 @@ This drum machine / synthesizer is cool. Among others, I recommend getting the B
 This connects clojure to SuperCollider. Seems like a cool way to write synths and do other (possibly live) algorithmic composition. I'm also playing with connecting via OSC and midi to external devices.
 
 === Misc ===
-; qsynth: Nice wrapper for fluidsynth, renders midi using soundfonts.
-; Audacity: Good for doing quick file conversions.
-; zynaddsubfx: Super powerful synthesizer (forked as yoshimi, I use that sometimes).
-; non tools: non-daw, non-mixer, non-sequencer ... lightweight DAW related tools.
-; Seq24: This is a fun midi sequencer that I've played with.
-; [http://charlie-roberts.com/Control/ Control]: Opensource Android application for OSC UI.
+; Seq24: This is a fun midi sequencer that I've played with
+; Audacity: Good for doing quick file conversions
+; qsynth: Nice wrapper for fluidsynth, renders midi using soundfonts
+; zynaddsubfx: Super powerful synthesizer (forked as yoshimi, I use that sometimes)
+; non tools: non-daw, non-mixer, non-sequencer ... lightweight DAW related tools
 
 == Configuration and Helper Scripts ==
 
@@ -103,7 +102,7 @@ patchage -A &
 a2jmidid -e &
 </code>
 
-I also have a shut down script (triggered from qjackctl), which just undoes the PulseAudio -> Jack:
+I also have a shut down script, which just undoes the PulseAudio -> Jack:
 
 <code>
 pacmd set-default-sink 0
