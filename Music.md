@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2014-04-21T21:00-04:00
-editedAt: 2014-04-26T09:55-04:00
+createdAt: 2014-02-09T16:25-05:00
+editedAt: 2014-04-21T21:00-04:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place. Also check out my [[Music Gear and Setup]]!
@@ -13,7 +13,6 @@ These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0
 Random songs. Some of these are more proof-of-concept than anything :)
 
 || Song || Play! ||
-|| [[It Takes All Sorts]] || Editing ||
 || [[Knit Some Shit]] || mp3:/docs/music/knit-some-shit-1.mp3 ||
 || [[Immortal Crowd]] || mp3:/docs/music/immortal_crowd.mp3 ||
 || [[Call On Borbyu]] || mp3:/docs/music/call_on_borbyu.mp3 ||
