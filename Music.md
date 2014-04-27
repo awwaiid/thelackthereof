@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2014-04-26T22:06-04:00
-editedAt: 2015-06-14T11:35-04:00
+createdAt: 2014-04-26T09:55-04:00
+editedAt: 2014-04-26T22:06-04:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place. Also check out my [[Music Gear and Setup]]!
@@ -36,7 +36,7 @@ This was a CD that Jason and I put together from a random selection of our songs
 
 || Song || Play! ||
 || [[Umbrellas]] || mp3:/docs/music/album1/01_-_Umbrellas.mp3 ||
-|| [[Code On My Mind]] || mp3:/docs/music/album1/02_-_Code_On_My_Mind.mp3 ||
+|| Code On My Mind || mp3:/docs/music/album1/02_-_Code_On_My_Mind.mp3 ||
 || [[Immaterial Things]] || mp3:/docs/music/album1/03_-_Immaterial_Things.mp3 ||
 || SIC || mp3:/docs/music/album1/04_-_SIC.mp3 ||
 || Happiness Blues || mp3:/docs/music/album1/05_-_Happiness_Blues.mp3 ||
