@@ -1,174 +1,423 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2014-09-29T20:51-04:00
-editedAt: 2015-06-14T10:08-04:00
+createdAt: 2012-09-09T20:04-04:00
+editedAt: 2014-09-29T20:51-04:00
 ---
 
-/*
- * Globals
- */
+/* CSS for thelackthereof.org wiki */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+/* Default theme */
+
+hr {
+  border-top: 1px solid white;
+  height: 0px;
+}
+
+.footer {
+  clear: both;
+}
+
+.content hr {
+  clear: none;
+}
+
+.gotobar {
+  display: none;
+}
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #555;
+  color: #f8f8f8;
+  margin: 0 0 5px 0;
+  font-family: "Droid Sans", arial, sans-serif;
+  background: fixed #000000 no-repeat;
+  background-image: -moz-radial-gradient( 0% 0%, circle farthest-side, #000 0, #224 100% );
 }
 
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
-  margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  color: #333;
-}
-
-
-/*
- * Override Bootstrap's default container.
- */
-
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
-}
-
-
-/*
- * Masthead for nav
- */
-
-.blog-masthead {
-  background-color: #428bca;
-  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-}
-
-/* Nav links */
-.blog-nav-item {
+#shadow-holder {
+  font-size: 3em;
+  letter-spacing: 10px;
+  padding-bottom: 0;
+  padding-top: 30px;
+  border-bottom: 1px solid #888;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 60px;
+  font-face: courier, courier new, monospace;
+  background-color: #323245;
+  color: white;
+  background: url('/pics/headerbg3.png') repeat-x;
   position: relative;
-  display: inline-block;
-  padding: 10px;
-  font-weight: 500;
-  color: #cdddeb;
-}
-.blog-nav-item:hover,
-.blog-nav-item:focus {
-  color: #fff;
-  text-decoration: none;
+  font-weight: bold;
 }
 
-/* Active state gets a caret at the bottom */
-.blog-nav .active {
-  color: #fff;
+#shadow-holder a {
+  color: #000000;
 }
-.blog-nav .active:after {
+
+.tlt-title-shadow {
   position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -5px;
-  vertical-align: middle;
-  content: " ";
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid;
-  border-left: 5px solid transparent;
+  top: 19px;
+  left: 79px;
+  color: #444;
 }
 
-
-/*
- * Blog name and description
- */
-
-.blog-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.blog-title {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 60px;
-  font-weight: normal;
-}
-.blog-description {
-  font-size: 20px;
-  color: #999;
+.tlt-title {
+  position: absolute;
+  top: 35px;
+  left: 40px;
 }
 
-
-/*
- * Main column and sidebar layout
- */
-
-.blog-main {
-  font-size: 18px;
-  line-height: 1.5;
+.tlt-subtitle {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: small;
+  letter-spacing: 2px;
+  font-style: italic;
+  color: #000000;
 }
 
-/* Sidebar modules for boxing content */
-.sidebar-module {
-  padding: 15px;
-  margin: 0 -15px 15px;
+div.header, div.content, div.footer {
+  margin-left: 5px;
+  margin-right: 5px;
 }
-.sidebar-module-inset {
-  padding: 15px;
-  background-color: #f5f5f5;
-  border-radius: 4px;
-}
-.sidebar-module-inset p:last-child,
-.sidebar-module-inset ul:last-child,
-.sidebar-module-inset ol:last-child {
-  margin-bottom: 0;
+ 
+div.userheader {
+  margin-bottom: 5px;
 }
 
+img.line {
+  background-color: #fff;
+  height: 2px;
+  width: 100%;
+}
 
+img.logo {
+  border-style:none;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
 
-/* Pagination */
-.pager {
-  margin-bottom: 60px;
+img.graph {
+  float: left;
+  margin: 0.5em;
+  border: 1px solid #888;
+}
+
+.journal .comment {
+  text-align: right;
+  font-size: small;
+}
+
+.journal .comment a:before {
+     content: "[ ";
+}
+
+.journal .comment a:after {
+     content: " ]";
+}
+
+code {
+  border: 1px solid #888;
+  background-color: #333340;
+  white-space: pre;
+  display: block;
+  margin: 0.5em 2em 0.5em 2em;
+  padding: 0.5em 1em 0.5em 1em;
+  text-align: left;
+  overflow: auto;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+}
+
+pre {
   text-align: left;
 }
-.pager > li > a {
-  width: 140px;
-  padding: 10px 20px;
-  text-align: center;
-  border-radius: 30px;
+
+div.content pre {
+  line-height: 1.1em;
 }
 
+h1 {
+  border-bottom: 1px solid white;
+  margin-right: 8em;
+}
+
+h2, h3 {
+  margin-bottom: 0.2em;
+}
+
+div.sectionlink {
+  float: right;
+}
+
+div.cal {
+  font-size: 11px;
+}
+
+div.cal a.wanted {
+  color: white;
+}
+
+div.cal a.exists {
+  background-color: #222;
+}
+
+div.cal a.today {
+  color: #ffaaaa;
+}
+
+form {
+  margin-bottom: 0px;
+}
+
+div.journal h1 {
+  margin: 0px;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-left: 0px;
+  border-color: #747477;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  font-size: 130%;
+  clear: left;
+  font-variant: small-caps;
+}
+
+div.journal h1 a {
+  color: #fff;
+}
+
+div.journal hr {
+  margin-top: 1em;
+  margin-bottom: 0px;
+  display: none;
+}
+
+div.journal .journalBody hr {
+  margin-bottom: 1em;
+  border: 0;
+  border-top: 1px solid #333;
+  display: block;
+}
+
+td {
+  border: 1px solid white;
+}
+
+table.user {
+  border-spacing: 0px;
+}
+
+table.user td, table.user th {
+  padding: 2px;
+}
+
+a:link    { color : #aaaaff; text-decoration : none; }
+a:visited { color : #aaaaff; text-decoration : none; }
+a:active  { color : #ff0000; text-decoration : none; }
+a:hover   { color : #88ff88; text-decoration : none; }
+
+/* nor this */
+span.bar a {
+        margin:0;
+        padding:0 1ex 0 1ex;
+        border-left:1px solid white;
+    }
+    span.bar a:first-child, span.bar br + a {
+        padding-left:0;
+        border-left:none;
+    }
+
+.journal h1 { size: large; }
+
+ul { margin-top: 0; }
+
+div.content, div.rc {
+  margin-left: 5em;
+  margin-right: 19em;
+  text-align: justify;
+  line-height: 1.4em;
+}
+
+li {
+  text-align: left;
+}
+
+img.imgleft {
+  margin: 1em 1em 1em 0;
+  float: left;
+  clear: left;
+}
+
+img.imgright {
+  margin: 1em 0 1em 1em;
+  float: right;
+  clear: left;
+}
+
+div.rss strong {
+  font-weight: normal;
+}
+
+div.sidebar {
+  float: right;
+  border-left: 1px solid white;
+  width: 13em;
+  padding-left: 5px;
+  position: relative;
+  top: -4em;
+}
+
+div.sidebar h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid white;
+  margin-right: 10px;
+}
+
+div.sidebar h3 a.outside:before { content:""; }
+div.sidebar h3 a.outside:after { content:""; }
+div.sidebar h3 a { color: white; }
+
+div.sidebar ul {
+  margin-left: 1em;
+  padding-left: 0px;
+}
+
+div.sidebar li {
+  text-indent: -1em;
+  list-style: none;
+  font-size: 14px;
+}
+
+div.sidebar div.SimpleRc ul,
+div.sidebar div.SimpleRc p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+div.sidebar div.SimpleRc strong {
+  font-weight: normal;
+  font-size: 14px;
+  margin-left: 1em;
+  display: none;
+}
+
+div.sidebar .rss p {
+  display: inline;
+}
+
+div.sidebar .rss .time,
+div.sidebar .rss li .description {
+  display: none;
+}
+
+div.sidebar .rss li:hover .description {
+  display: block;
+}
+
+body.print div.sidebar {
+  display: none;
+}
+
+body.print div.sidebar {
+  display: none;
+}
+
+body.print div.content {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 1em;
+}
+
+h2 + br, h3 + br {
+  display: none;
+}
+
+h2 {
+  text-align: left;
+}
+
+.footer p {
+  display: inline;
+}
+
+.taglist {
+  font-size: 80%;
+  font-weight: bold;
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
+h1 span.date,
+.journal span.date {
+  float: right;
+}
+
+.journalBody {
+  margin-bottom: 3em;
+}
+
+h1.home a {
+  color: #000;
+  border-color: #000;
+}
+
+h1.home {
+  border-color: #000;
+}
 
 /*
- * Blog posts
- */
+.journal {
+  float: right;
+  position: relative;
+   margin-top: -5em;
+}
+*/
 
-.blog-post {
-  margin-bottom: 60px;
-}
-.blog-post-title {
-  margin-bottom: 5px;
-  font-size: 40px;
-}
-.blog-post-meta {
-  margin-bottom: 20px;
-  color: #999;
+div.commentshown { background-color:#333; padding: 0.5em; }
+div.commenthidden { display:none; }
+div.commentshown { display:block; }
+
+/* Bibtex stuff */
+.minilinkstable {
+  background-color: #000;
 }
 
-
-/*
- * Footer
- */
-
-.blog-footer {
-  padding: 40px 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: 1px solid #e5e5e5;
+.bibtex-table td, .bibtex-table tr,
+.minilinkstable td, minilinkstable tr {
+  border: 0;
 }
-.blog-footer p:last-child {
-  margin-bottom: 0;
+
+table.bibtex-table {
+  border-bottom: 1px solid #888;
 }
+
+td.bibtex-field {
+  text-align: right;
+  vertical-align: top;
+}
+
+span.bibtex-field {
+  margin-right: 5px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+object.maxiplayer {
+  vertical-align: middle;
+}
+
 
