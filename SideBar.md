@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2015-01-02T01:03-05:00
-editedAt: 2015-01-02T01:04-05:00
+createdAt: 2015-01-02T01:02-05:00
+editedAt: 2015-01-02T01:03-05:00
 ---
 
 === Navigation ===
@@ -19,7 +19,7 @@ editedAt: 2015-01-02T01:04-05:00
 <headlines>
 
 === Recent Code ===
-<rss 10 "https://github.com/awwaiid.rss">
+<rss 10 "https://github.com/awwaiid.atom">
 
 <SimpleChanges>[[Changes|... more changes]]
 
