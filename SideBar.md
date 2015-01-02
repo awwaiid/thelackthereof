@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2015-01-02T01:29-05:00
-editedAt: 2015-01-02T01:30-05:00
+createdAt: 2015-01-02T01:28-05:00
+editedAt: 2015-01-02T01:29-05:00
 ---
 
 === Navigation ===
@@ -19,7 +19,7 @@ editedAt: 2015-01-02T01:30-05:00
 <headlines>
 
 === Recent Code ===
-<include text "http://www.devtacular.com/utilities/atomtorss/?url=https%3a%2f%2fgithub.com%2fawwaiid.atom">
+<include "http://www.devtacular.com/utilities/atomtorss/?url=https%3a%2f%2fgithub.com%2fawwaiid.atom">
 
 <SimpleChanges>[[Changes|... more changes]]
 
