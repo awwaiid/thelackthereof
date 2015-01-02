@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2015-01-02T02:24-05:00
-editedAt: 2015-06-14T10:58-04:00
+createdAt: 2015-01-02T01:32-05:00
+editedAt: 2015-01-02T02:24-05:00
 ---
 
 === Navigation ===
@@ -19,10 +19,7 @@ editedAt: 2015-06-14T10:58-04:00
 <headlines>
 
 === Recent Code ===
-<rss 5 "http://www.devtacular.com/utilities/atomtorss/?url=https%3a%2f%2fgithub.com%2fawwaiid.atom">
-
-=== Tweets ===
-<rss 5 "http://twitrss.me/twitter_user_to_rss/?user=awwaiid">
+<rss 10 "http://www.devtacular.com/utilities/atomtorss/?url=https%3a%2f%2fgithub.com%2fawwaiid.atom">
 
 <SimpleChanges>[[Changes|... more changes]]
 
