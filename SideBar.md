@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2015-01-02T01:02-05:00
-editedAt: 2015-01-02T01:03-05:00
+createdAt: 2011-02-22T13:57-05:00
+editedAt: 2015-01-02T01:02-05:00
 ---
 
 === Navigation ===
@@ -19,7 +19,7 @@ editedAt: 2015-01-02T01:03-05:00
 <headlines>
 
 === Recent Code ===
-<rss 10 "https://github.com/awwaiid.atom">
+<rss 10 "http://thelackthereof.org/projects.rss">
 
 <SimpleChanges>[[Changes|... more changes]]
 
