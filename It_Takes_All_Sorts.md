@@ -1,7 +1,7 @@
 ---
 title: It_Takes_All_Sorts
-createdAt: 2015-02-21T16:08-05:00
-editedAt: 2015-02-21T16:10-05:00
+createdAt: 2014-04-21T21:05-04:00
+editedAt: 2015-02-21T16:08-05:00
 ---
 
 Songwriting: Jason Woys and Brock Wilcox
@@ -9,7 +9,7 @@ Guitar: Jason Woys
 Vocals: Jason Woys and Brock Wilcox
 
 Verses: G E C G
-Chorus: A C G E D C G E
+Chorus: A C E E D C G E
 
 (verse 1)
 A man walks in the door
@@ -28,7 +28,7 @@ Cause that's our lot
 It's simple til it's not
 It's simple til it's not
 It's simple til it's not
-My favorite retort
+My favorite restort
 It takes all sorts (x7)
 
 (verse 2)
@@ -39,7 +39,7 @@ And about her cult d'jour
 
 All you need to be happy,
 Is to get rid of everything,
-But before you do,
+But befor eyou do,
 Could you buy a trinket or two?
 
 (chorus)
