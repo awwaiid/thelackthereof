@@ -1,10 +1,10 @@
 ---
 title: Frog_Prince
-createdAt: 2015-06-14T12:12-04:00
-editedAt: 2015-06-14T12:24-04:00
+createdAt: 2014-04-26T10:00-04:00
+editedAt: 2015-06-14T12:12-04:00
 ---
 
-Listen: audio:docs/music/frog_prince_v5.mp3
+Listen: mp3:/docs/music/frog_prince_v5.mp3
 
 *frog*
 
