@@ -1,14 +1,13 @@
 ---
 title: SideBar
-createdAt: 2015-06-14T18:21-04:00
-editedAt: 2015-08-12T18:30-04:00
+createdAt: 2015-06-14T16:06-04:00
+editedAt: 2015-06-14T18:21-04:00
 ---
 
 === Navigation ===
 * [[Home]]
 * [[Projects]]
 * [[Music]]
-* [[Talks]]
 * [[Docs]]
 
 === Blog ===
