@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2015-06-14T14:16-04:00
-editedAt: 2015-06-14T14:17-04:00
+createdAt: 2015-06-14T11:08-04:00
+editedAt: 2015-06-14T14:16-04:00
 ---
 
 /*
@@ -182,10 +182,5 @@ h6, .h6 {
 }
 .content pre {
   color: #fff;
-}
-
-/* Fine-tune RSS in sidebar */
-.sidebar .rss .time, .sidebar .rss .description {
-  display: none;
 }
 
