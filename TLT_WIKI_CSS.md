@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2015-06-14T11:08-04:00
-editedAt: 2015-06-14T14:16-04:00
+createdAt: 2015-06-14T10:39-04:00
+editedAt: 2015-06-14T11:08-04:00
 ---
 
 /*
@@ -179,8 +179,5 @@ h6, .h6 {
 /* hljs */
 .content .hljs {
   background-color: #111111;
-}
-.content pre {
-  color: #fff;
 }
 
