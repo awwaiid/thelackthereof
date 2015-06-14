@@ -1,7 +1,7 @@
 ---
 title: Talks
-createdAt: 2015-06-14T18:39-04:00
-editedAt: 2015-06-15T15:48-04:00
+createdAt: 2015-06-14T18:37-04:00
+editedAt: 2015-06-14T18:39-04:00
 ---
 
 From time to time I give talks on various topics. Audiences range from the local Perl Monger group to larger conferences. Unfortunately for you, I prefer to do crazy things like live code demos and use minimalist slides, so you don't quote get the same effect from these records. Hopefully I can dig up some videos :)
@@ -16,7 +16,7 @@ From time to time I give talks on various topics. Audiences range from the local
 == 2015-04-11 DCBPW Rakudo ==
 * [http://thelackthereof.org/docs/talks/2015-04-11%20DCBPW%20Rakudo/2015-04-11%20DCBPW%20Rakudo.pdf Slides (pdf)]
 
-<blockquote>Rakudo is an implementation of Perl6 that is increasingly usable in the Real World. I give an overview of the language and then show how I'm using it in my $HOME/bin scripts.</blockquote>
+<blockquote>Rakudo is an implementation of Perl6 that is increasingly useable in the Real World. I give an overview of the language and then show how I'm using it in my $HOME/bin scripts.</blockquote>
 
 == 2015-02-19 Optoro How Webpages Work ==
 * Presented at Optoro company lunch
@@ -96,9 +96,9 @@ From time to time I give talks on various topics. Audiences range from the local
 * Presented at: [http://yapc10.org/yn2009/ YAPC::NA 2009.06.24]
 * [http://thelackthereof.org/projects/perl/yapc-2009/htmlunit/ Source Code]
 
-<blockquote>The mighty WWW::Mechanize is fantastic... right up until you have to deal with some javascript. The HtmlUnit project has build on the Mozilla Rhino engine to create a browser agent that works even against complex javascript. It passes the JQuery test suite, as an example of it's powers.</blockquote>
+<blockquote>The mightly WWW::Mechanize is fantastic... right up until you have to deal with some javascript. The HtmlUnit project has build on the Mozilla Rhino engine to create a browser agent that works even against complex javascript. It passes the JQuery test suite, as an example of it's powers.</blockquote>
 
-<blockquote>We will present the Perl interface to the HtmlUnit library, setting you on the path to scraping and testing those javascript-dependent sites that you've being eying for so long.</blockquote>
+<blockquote>We will present the Perl interface to the HtmlUnit library, setting you on the path to scraping and testing those javascript-dependent sites that you've being eyeing for so long.</blockquote>
 
 == A Web-Based Inspector for (CGI?) Perl Applications ==
 * Presented at: [http://yapc10.org/yn2009/ YAPC::NA 2009.06.24]
