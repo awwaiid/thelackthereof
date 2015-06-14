@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2015-06-14T10:39-04:00
-editedAt: 2015-06-14T11:08-04:00
+createdAt: 2015-06-14T10:14-04:00
+editedAt: 2015-06-14T10:39-04:00
 ---
 
 /*
@@ -173,11 +173,5 @@ h6, .h6 {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
-}
-
-
-/* hljs */
-.content .hljs {
-  background-color: #111111;
 }
 
