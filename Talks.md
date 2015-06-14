@@ -1,64 +1,39 @@
 ---
 title: Talks
-createdAt: 2015-06-14T18:37-04:00
-editedAt: 2015-06-14T18:39-04:00
+createdAt: 2015-06-14T00:47-04:00
+editedAt: 2015-06-14T18:37-04:00
 ---
 
 From time to time I give talks on various topics. Audiences range from the local Perl Monger group to larger conferences. Unfortunately for you, I prefer to do crazy things like live code demos and use minimalist slides, so you don't quote get the same effect from these records. Hopefully I can dig up some videos :)
 
 == 2015-06-14 RubyNation Polyglot Bridges ==
-* Lightning talk at [http://rubynation.org/ RubyNation]
-* Related blog post [[TLT - 2015.06.04 - Polyglot Bridges]]
 * [http://thelackthereof.org/docs/talks/2015-06-14%20RubyNation%20Polyglot%20Bridges/2015-06-14%20RubyNation%20Polyglot%20Bridges.pdf Slides (pdf)]
-
-<blockquote>Python has a fantastic plotting library, matplotlib.pyplot. I show how I used it from Perl6/Rakudo and Ruby. You should join me in Polyglot Bridge Building!</blockquote>
 
 == 2015-04-11 DCBPW Rakudo ==
 * [http://thelackthereof.org/docs/talks/2015-04-11%20DCBPW%20Rakudo/2015-04-11%20DCBPW%20Rakudo.pdf Slides (pdf)]
 
-<blockquote>Rakudo is an implementation of Perl6 that is increasingly useable in the Real World. I give an overview of the language and then show how I'm using it in my $HOME/bin scripts.</blockquote>
-
 == 2015-02-19 Optoro How Webpages Work ==
-* Presented at Optoro company lunch
 * [http://thelackthereof.org/docs/talks/2015-02-19%20Optoro%20How%20Webpages%20Work/2015-02-19%20Optoro%20How%20Webpages%20Work.pdf Slides (pdf)]
 
-<blockquote>Walking through the life of a webpage, we see that browsers assume everything is a document and servers lie when generating dynamic content!</blockquote>
-
 == 2015-02-11 PPDC Language Implementation ==
-* Presented at Polyglot Programming DC
 * [http://thelackthereof.org/docs/talks/2015-02-11%20PPDC%20Language%20Implementation/2015-02-11%20PPDC%20Language%20Implementation.pdf Slides (pdf)]
-
-<blockquote>Implementing a language is fun! Here I walk through the "full stack" briefly, and then we implement a really horrible interpreter. Then a compiler.</blockquote>
 
 == 2014-11-17 RubyConf Time Travel Debugging ==
 * [http://thelackthereof.org/docs/talks/2014-11-17%20RubyConf%20Time%20Travel%20Debugging/2014-11-17%20RubyConf%20Time%20Travel%20Debugging.pdf Slides (pdf)]
 
-<blockquote>Leveraging the power of fork()ing the universe, I demonstrate a Pry plugin that allows traveling between the timeline multiverse!</blockquote>
-
 == 2014-07-01 PPDC Rakudo ==
 * [http://thelackthereof.org/docs/talks/2014-07-01%20PPDC%20Rakudo/2014-07-01%20PPDC%20Rakudo.pdf Slides (pdf)]
-
-<blockquote>There is a new and awesome language implementation -- Rakudo! I go over a few standard, interesting, and insane bits of this dynamic, multi-dispatch, gradually-typed, .... (moar buzzwords)... language.</blockquote>
 
 == 2014-06-11 ArlingtonRuby Time Travel Debugging ==
 * [http://thelackthereof.org/docs/talks/2014-06-11%20ArlingtonRuby%20Time%20Travel%20Debugging/2014-06-11%20ArlingtonRuby%20Time%20Travel%20Debugging.pdf Slides (pdf)]
 
-<blockquote>Leveraging the power of fork()ing the universe, I demonstrate a Pry plugin that allows traveling between the timeline multiverse!</blockquote>
-
 == 2014-06-07 RubyNation Time Travel Debugging ==
-* Lightning talk presented at [http://rubynation.org RubyNation]
 * [http://thelackthereof.org/docs/talks/2014-06-07%20RubyNation%20Time%20Travel%20Debugging/2014-06-07%20RubyNation%20Time%20Travel%20Debugging.pdf Slides (pdf)]
-
-<blockquote>Leveraging the power of fork()ing the universe, I demonstrate a Pry plugin that allows traveling between the timeline multiverse!</blockquote>
 
 == 2014-05-03 DCBPW State in Clojure ==
 * [http://thelackthereof.org/docs/talks/2014-05-03%20DCBPW%20State%20in%20Clojure/2014-05-03%20DCBPW%20State%20in%20Clojure.pdf Slides (pdf)]
 
-<blockquote>Concurrent state is pretty carefully controlled in Clojure. Here I talk about what that means and what we can learn from it.</blockquote>
-
 == Basic AngularJS ==
-* Presented at [http://yapcna.org YAPC::NA 2013]
-* Introduction to AngularJS, almost entirely to force me to learn it.
 
 [[YouTube:VdB4SUCsmsU]]
 
@@ -73,11 +48,9 @@ From time to time I give talks on various topics. Audiences range from the local
 
 == Introduction to Debugging Perl ==
 * DCBPW 2012
-* More talk about Science!
 
 == Art and Science of Debugging ==
 * PPW 2011
-* Lots of talk about Science!
 
 == Testing The Interactive Web ==
 * Presented at: [http://www.perloasis.info/opw2011/ Orlando Perl Workshop (Perl Oasis) 2011.01.15]
