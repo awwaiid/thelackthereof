@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2015-06-14T16:06-04:00
-editedAt: 2015-06-14T18:21-04:00
+createdAt: 2015-06-14T14:26-04:00
+editedAt: 2015-06-14T16:06-04:00
 ---
 
 === Navigation ===
@@ -11,7 +11,6 @@ editedAt: 2015-06-14T18:21-04:00
 * [[Docs]]
 
 === Blog ===
-http://thelackthereof.org/pics/16px-Feed-icon.svg.png [http://thelackthereof.org/blog.rss Blog RSS Feed]
 <headlines>
 
 === Tweets ===
