@@ -1,38 +1,10 @@
 ---
 title: Talks
-createdAt: 2015-06-14T00:26-04:00
-editedAt: 2015-06-14T00:27-04:00
+createdAt: 2013-09-11T22:39-04:00
+editedAt: 2015-06-14T00:26-04:00
 ---
 
 From time to time I give talks on various topics. Audiences range from the local Perl Monger group to larger conferences. Unfortunately for you, I prefer to do crazy things like live code demos and use minimalist slides, so you don't quote get the same effect from these records. Hopefully I can dig up some videos :)
-
-== 2015-06-14 RubyNation Polyglot Bridges ==
-* [http://thelackthereof.org/docs/2015-06-14%20RubyNation%20Polyglot%20Bridges Slides (pdf)]
-
-== 2015-04-11 DCBPW Rakudo ==
-* [http://thelackthereof.org/docs/2015-04-11%20DCBPW%20Rakudo Slides (pdf)]
-
-== 2015-02-19 Optoro How Webpages Work ==
-* [http://thelackthereof.org/docs/2015-02-19%20Optoro%20How%20Webpages%20Work Slides (pdf)]
-
-== 2015-02-11 PPDC Language Implementation ==
-* [http://thelackthereof.org/docs/2015-02-11%20PPDC%20Language%20Implementation Slides (pdf)]
-
-== 2014-11-17 RubyConf Time Travel Debugging ==
-* [http://thelackthereof.org/docs/2014-11-17%20RubyConf%20Time%20Travel%20Debugging Slides (pdf)]
-
-== 2014-07-01 PPDC Rakudo ==
-* [http://thelackthereof.org/docs/2014-07-01%20PPDC%20Rakudo Slides (pdf)]
-
-== 2014-06-11 ArlingtonRuby Time Travel Debugging ==
-* [http://thelackthereof.org/docs/2014-06-11%20ArlingtonRuby%20Time%20Travel%20Debugging Slides (pdf)]
-
-== 2014-06-07 RubyNation Time Travel Debugging ==
-* [http://thelackthereof.org/docs/2014-06-07%20RubyNation%20Time%20Travel%20Debugging Slides (pdf)]
-
-== 2014-05-03 DCBPW State in Clojure ==
-* [http://thelackthereof.org/docs/2014-05-03%20DCBPW%20State%20in%20Clojure Slides (pdf)]
-
 
 == Basic AngularJS ==
 
