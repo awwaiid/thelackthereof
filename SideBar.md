@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2015-06-14T10:58-04:00
-editedAt: 2015-06-14T11:01-04:00
+createdAt: 2015-01-02T02:24-05:00
+editedAt: 2015-06-14T10:58-04:00
 ---
 
 === Navigation ===
@@ -22,8 +22,9 @@ editedAt: 2015-06-14T11:01-04:00
 <rss 5 "http://www.devtacular.com/utilities/atomtorss/?url=https%3a%2f%2fgithub.com%2fawwaiid.atom">
 
 === Tweets ===
-<rss 5 "http://www.devtacular.com/utilities/atomtorss/?url=http%3a%2f%2ftwitrss.me%2ftwitter_user_to_rss%2f%3fuser%3dawwaiid">
+<rss 5 "http://twitrss.me/twitter_user_to_rss/?user=awwaiid">
 
 <SimpleChanges>[[Changes|... more changes]]
 
+<h3>[http://thelackthereof.org/ Blog Calendar]</h3><Calendar>
 
