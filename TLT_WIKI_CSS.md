@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2015-06-14T10:08-04:00
-editedAt: 2015-06-14T10:14-04:00
+createdAt: 2014-09-29T20:51-04:00
+editedAt: 2015-06-14T10:08-04:00
 ---
 
 /*
@@ -25,9 +25,6 @@ h6, .h6 {
   color: #333;
 }
 
-p {
-  margin: 0px 0px 1em;
-}
 
 /*
  * Override Bootstrap's default container.
