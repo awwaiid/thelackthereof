@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
 createdAt: 2015-06-14T21:24-04:00
-editedAt: 2015-06-14T21:40-04:00
+editedAt: 2015-06-14T21:24-04:00
 ---
 
 /*
@@ -200,6 +200,4 @@ h6, .h6 {
 .journal .page {
   border-bottom: 1px solid #888;
 }
-
-.journal .page .comment { display: none; }
 
