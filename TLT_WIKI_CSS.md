@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2015-06-14T21:41-04:00
-editedAt: 2015-06-14T21:42-04:00
+createdAt: 2015-06-14T21:40-04:00
+editedAt: 2015-06-14T21:41-04:00
 ---
 
 /*
@@ -208,22 +208,4 @@ h6, .h6 {
   margin-right: 1em;
   float: right;
 }
-
-@media (max-width: 978px) {
-    .container {
-      padding:0;
-      margin:0;
-    }
-
-    body {
-      padding:0;
-    }
-
-    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
-      margin-left: 0;
-      margin-right: 0;
-      margin-bottom:0;
-    }
-}
-
 
