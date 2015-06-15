@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2015-06-14T21:40-04:00
-editedAt: 2015-06-14T21:41-04:00
+createdAt: 2015-06-14T21:24-04:00
+editedAt: 2015-06-14T21:40-04:00
 ---
 
 /*
@@ -96,7 +96,7 @@ h6, .h6 {
 .blog-title {
   margin-top: 0px;
   margin-bottom: 0;
-  margin-left: 1em;
+  margin-left: 100px;
   font-size: 60px;
   font-weight: bold;
 }
@@ -202,10 +202,4 @@ h6, .h6 {
 }
 
 .journal .page .comment { display: none; }
-
-.logo {
-  vertical-align: text-top;
-  margin-right: 1em;
-  float: right;
-}
 
