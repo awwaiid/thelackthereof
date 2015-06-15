@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2015-06-14T21:42-04:00
-editedAt: 2015-06-15T14:45-04:00
+createdAt: 2015-06-14T21:41-04:00
+editedAt: 2015-06-14T21:42-04:00
 ---
 
 /*
@@ -209,7 +209,7 @@ h6, .h6 {
   float: right;
 }
 
-@media (max-width: 1081px) {
+@media (max-width: 978px) {
     .container {
       padding:0;
       margin:0;
