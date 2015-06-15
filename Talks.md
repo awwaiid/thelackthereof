@@ -1,10 +1,10 @@
 ---
 title: Talks
-createdAt: 2015-06-15T15:48-04:00
-editedAt: 2015-11-22T13:35-05:00
+createdAt: 2015-06-14T18:39-04:00
+editedAt: 2015-06-15T15:48-04:00
 ---
 
-From time to time I give talks on various topics. Audiences range from the local Perl Monger group to larger conferences. Unfortunately for you, I prefer to do crazy things like live code demos and use minimalist slides, so you don't quite get the same effect from these records. Hopefully I can dig up some videos :)
+From time to time I give talks on various topics. Audiences range from the local Perl Monger group to larger conferences. Unfortunately for you, I prefer to do crazy things like live code demos and use minimalist slides, so you don't quote get the same effect from these records. Hopefully I can dig up some videos :)
 
 == 2015-06-14 RubyNation Polyglot Bridges ==
 * Lightning talk at [http://rubynation.org/ RubyNation]
