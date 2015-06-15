@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2015-06-14T21:06-04:00
-editedAt: 2015-06-14T21:07-04:00
+createdAt: 2015-06-14T21:04-04:00
+editedAt: 2015-06-14T21:06-04:00
 ---
 
 /*
@@ -100,10 +100,9 @@ h6, .h6 {
   font-size: 60px;
   font-weight: bold;
 }
-.blog-title a, .blog-title a:hover, .blog-title a:active {
+.blog-title a, .blog-title a:hover {
   color: #000;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
-  text-decoration: none;
 }
 .blog-description {
   font-size: 20px;
