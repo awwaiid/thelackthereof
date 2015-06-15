@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2015-06-14T21:03-04:00
-editedAt: 2015-06-14T21:04-04:00
+createdAt: 2015-06-14T14:17-04:00
+editedAt: 2015-06-14T21:03-04:00
 ---
 
 /*
@@ -90,19 +90,12 @@ h6, .h6 {
 .blog-header {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #444;
-  border-bottom: 1px solid #888;
 }
 .blog-title {
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 0;
-  margin-left: 100px;
   font-size: 60px;
-  font-weight: bold;
-}
-.blog-title a {
-  color: #000;
-  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+  font-weight: normal;
 }
 .blog-description {
   font-size: 20px;
