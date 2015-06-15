@@ -1,6 +1,6 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2015-06-14T21:24-04:00
+createdAt: 2015-06-14T21:07-04:00
 editedAt: 2015-06-14T21:24-04:00
 ---
 
@@ -195,9 +195,5 @@ h6, .h6 {
 /* Fine-tune RSS in sidebar */
 .blog-sidebar .rss .time, .blog-sidebar .rss .description {
   display: none;
-}
-
-.journal .page {
-  border-bottom: 1px solid #888;
 }
 
