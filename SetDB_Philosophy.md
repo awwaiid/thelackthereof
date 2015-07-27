@@ -1,6 +1,6 @@
 ---
 title: SetDB_Philosophy
-createdAt: 2015-07-27T16:52-04:00
+createdAt: 2004-02-22T00:36-05:00
 editedAt: 2015-07-27T16:52-04:00
 ---
 
@@ -12,13 +12,14 @@ First we must get our database theory in line. Relational databases are powerful
 
 ----
 
-img:SetDB_Diagram_1.jpg
+<center>img:SetDB_Diagram_1.jpg</center>
 
 Various JOIN syntaxes:
 * MySQL - http://www.mysql.com/doc/en/JOIN.html
 * Oracle 9i - http://otn.oracle.com/oramag/oracle/01-nov/o61sql.html
 * SQL-92 - http://www.contrib.andrew.cmu.edu/~shadow/sql/sql1992.txt (full spec)
 
+<html>
 (02:49:42) TheOrbTwo: It looks pretty cool, though I'm still not sure abou that stuff on line 9.<br>
 (02:50:45) awwaiid: you mean "my $people = $db->newSet(person, [book]);" ?<br>
 (02:50:47) TheOrbTwo: It'd be highly nifty to guess the schema from a dbh.<br>
@@ -90,5 +91,5 @@ $notes->filter('level = 0', note);<br>
 (03:16:10) TheOrbTwo: This sounds like it could become really interesting -- hope to hear more on it.<br>
 (03:16:19) awwaiid: or if you want SQL greater-than or like or other relationships<br>
 (03:16:25) awwaiid: thanks<br>
-
+</html>
 
