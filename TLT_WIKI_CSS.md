@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2015-08-12T19:07-04:00
-editedAt: 2015-08-13T00:07-04:00
+createdAt: 2015-06-15T14:45-04:00
+editedAt: 2015-08-12T19:07-04:00
 ---
 
 /*
@@ -193,21 +193,8 @@ h6, .h6 {
 }
 
 /* Fine-tune RSS in sidebar */
-.blog-sidebar .rss .time,
-.blog-sidebar .rss .description img,
-.blog-sidebar .rss .description code,
-.blog-sidebar .rss .description .title,
-.blog-sidebar .rss .description span,
-.blog-sidebar .rss .description .more
-{
+.blog-sidebar .rss .time, .blog-sidebar .rss .description {
   display: none;
-}
-
-.blog-sidebar .rss .description blockquote {
-  border: 0;
-  margin: 0;
-  padding: 0;
-  font-size: small;
 }
 
 .journal .page {
