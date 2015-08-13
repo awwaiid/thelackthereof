@@ -1,10 +1,10 @@
 ---
 title: Comments_on_TLT_-_2015.07.26_-_Exploring_Clojure_in_the_REPL
 createdAt: 2015-08-13T02:07-04:00
-editedAt: 2015-08-13T02:08-04:00
+editedAt: 2015-08-13T02:07-04:00
 ---
 
-=== 4 Comments. ===
+=== 3 Comments. ===
 test
 
 -- awwaiid 2015-08-13 04:14 UTC
@@ -20,13 +20,6 @@ test2
 ----
 
 test3
-
--- awwaiid 2015-08-13 06:07 UTC
-
-
-----
-
-test4
 
 -- awwaiid 2015-08-13 06:07 UTC
 
