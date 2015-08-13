@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2015-08-13T00:07-04:00
-editedAt: 2015-08-13T00:08-04:00
+createdAt: 2015-08-12T19:07-04:00
+editedAt: 2015-08-13T00:07-04:00
 ---
 
 /*
@@ -198,8 +198,7 @@ h6, .h6 {
 .blog-sidebar .rss .description code,
 .blog-sidebar .rss .description .title,
 .blog-sidebar .rss .description span,
-.blog-sidebar .rss .description .more,
-.blog-sidebar .rss tweet-text
+.blog-sidebar .rss .description .more
 {
   display: none;
 }
