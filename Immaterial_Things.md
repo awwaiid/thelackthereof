@@ -1,54 +1,52 @@
 ---
 title: Immaterial_Things
-createdAt: 2015-08-16T16:52-04:00
-editedAt: 2015-08-16T16:59-04:00
+createdAt: 2011-11-30T07:52-05:00
+editedAt: 2015-08-16T16:52-04:00
 ---
 
-Created by Brock Wilcox and Jason Woys.
-
-License: You may redistribute and modify this work, as per [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons Attribution-ShareAlike (CC BY-SA)]]
-
-audio:docs/music/album1/03_-_Immaterial_Things
+(Co-created with Jason)
 
 Em*6 Cm G Em*6 F# A -- Bridge E A E A E B A E
 
 Last night I walked
-To the store
+down to the store
 Saw something peculiar
 On the corner
 Standing there naked
-Wearing all her clothes
-I asked her if she knew I could see her soul
+wearing all her clothes
+Asked her if she knew
+I could see her soul
 
-Refrain:
-
-She said
-I get that a lot
+refrain:
+She said I get that a lot
 I wear it under my sleeve
 You're creepin me out, mister
-Why don't you leave?
-Why so bothered by immaterial things?
+so why don't you leave?
+Why so bothered
+by immaterial things?
 
 Now I wonder
-Could she be right?
+could she be right?
 Should I reconsider
-How I live my life,
+how I live my life,
 Looking at people
-With objectivity,
-I asked her what's wrong with transparency
+with objectivity,
+I asked her what's wrong
+with transparency
 
 [refrain]
 
 So I left
-Made my way home
-Turned on the TV
-Watched the world alone
-And it occurred to me
-That reality
-Is just a buzzword for immaterial things
+made my way home
+turned on the TV
+watched the world alone
+and it occurred to me
+that reality
+is just a buzzword
+for immaterial things
 
 [refrain]
 
-Why so bothered by immaterial things?
-
+Why so bothered
+by immaterial things?
 
