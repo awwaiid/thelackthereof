@@ -1,48 +1,54 @@
 ---
 title: Immaterial_Things
-createdAt: 2008-03-30T16:44-04:00
-editedAt: 2008-03-30T17:00-04:00
+createdAt: 2015-08-16T16:59-04:00
+editedAt: 2015-08-16T16:59-04:00
 ---
+
+Written and performed by Brock Wilcox and Jason Woys.
+
+Please share, copy, and modify, under the terms of [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons Attribution-ShareAlike (CC BY-SA)]]!
+
+audio:docs/music/album1/03_-_Immaterial_Things
 
 Em*6 Cm G Em*6 F# A -- Bridge E A E A E B A E
 
 Last night I walked
-down to the store
+To the store
 Saw something peculiar
 On the corner
 Standing there naked
-wearing all her clothes
-Asked her if she knew
-I could see her soul
+Wearing all her clothes
+I asked her if she knew I could see her soul
 
-refrain:
-She said I get that a lot
+Refrain:
+
+She said
+I get that a lot
 I wear it under my sleeve
 You're creepin me out, mister
-so why don't you leave?
-Why so bothered
-by immaterial things?
+Why don't you leave?
+Why so bothered by immaterial things?
 
 Now I wonder
-does she have a point?
+Could she be right?
 Should I reconsider
-what I been doin'
+How I live my life,
 Looking at people
-with objectivity
-I asked her what's wrong
-with transparency
+With objectivity,
+I asked her what's wrong with transparency
 
 [refrain]
 
 So I left
-made my way home
-turned on the TV
-watched the world alone
-and it occured to me
-that reality
-is just a buzzword
-for immaterial things
+Made my way home
+Turned on the TV
+Watched the world alone
+And it occurred to me
+That reality
+Is just a buzzword for immaterial things
 
 [refrain]
+
+Why so bothered by immaterial things?
 
 
