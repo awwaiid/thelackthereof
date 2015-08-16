@@ -1,11 +1,14 @@
 ---
 title: Code_On_My_Mind
-createdAt: 2013-02-20T16:54-05:00
-editedAt: 2015-08-16T16:54-04:00
+createdAt: 2015-08-16T17:00-04:00
+editedAt: 2015-08-16T17:00-04:00
 ---
 
-mp3:/docs/music/code_on_my_mind.mp3
 Written and performed by Brock Wilcox and Jason Woys
+
+Please share, copy, and modify, under the terms of [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons Attribution-ShareAlike (CC BY-SA)]]!
+
+audio:docs/music/code_on_my_mind
 
 Walkin' down the road,
 Thinkin' bout my code all the time,
