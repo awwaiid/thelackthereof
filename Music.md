@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2015-11-05T07:56-05:00
-editedAt: 2015-11-05T07:57-05:00
+createdAt: 2015-11-05T07:55-05:00
+editedAt: 2015-11-05T07:56-05:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place. Also check out my [[Music Gear and Setup]]!
@@ -28,7 +28,7 @@ Random songs. Some of these are more proof-of-concept than anything :)
 ||[[Code On My Mind]]       ||audio:docs/music/code_on_my_mind       ||
 ||[[I Like Caffeine]]       ||audio:docs/music/i_like_caffeine       ||
 ||[[Zombie Love]]           ||audio:docs/music/zombielove            ||
-||[[Talking DC Vote Blues]] ||                     ||
+||[[Talking DC Vote Blues]] ||(not recorded yet)                     ||
 
 == Album 01 ==
 
