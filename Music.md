@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2015-11-05T07:57-05:00
-editedAt: 2016-02-14T22:39-05:00
+createdAt: 2015-11-05T07:56-05:00
+editedAt: 2015-11-05T07:57-05:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place. Also check out my [[Music Gear and Setup]]!
@@ -14,7 +14,7 @@ Random songs. Some of these are more proof-of-concept than anything :)
 
 ||Song                      ||Play!                                  ||
 ||[[Frog Prince]]           ||audio:docs/music/frog_prince_v5        ||
-||[[It Takes All Sorts]]    ||                                ||
+||[[It Takes All Sorts]]    ||Editing                                ||
 ||[[Knit Some Shit]]        ||audio:docs/music/knit-some-shit-1      ||
 ||[[Immortal Crowd]]        ||audio:docs/music/immortal_crowd        ||
 ||[[Call On Borbyu]]        ||audio:docs/music/call_on_borbyu        ||
