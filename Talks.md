@@ -1,30 +1,17 @@
 ---
 title: Talks
-createdAt: 2015-11-22T14:09-05:00
-editedAt: 2015-11-22T14:10-05:00
+createdAt: 2015-11-22T13:46-05:00
+editedAt: 2015-11-22T14:09-05:00
 ---
 
 From time to time I give talks on various topics. Audiences range from the local Perl Monger group to larger conferences. Unfortunately for you, I prefer to do crazy things like live code demos and use minimalist slides, so you don't quite get the same effect from these records. Hopefully I can dig up some videos :)
 
-== 2015-11-11 PolyglotProgrammingDC Random Kinda ==
-* Presented at [http://www.meetup.com/Polyglot-Programming-DC/events/225455011/ Polyglot Programming DC]
-* [https://thelackthereof.org/docs/talks/2015-11-11%20PPDC%20Random%20Kinda/2015-11-11%20PPDC%20Random%20Kinda.pdf Slides (pdf)]
-
-<blockquote>You've probably heard the old adage "use the best tool for the job" many times, yet we often end up with a random blob of text on the screen that makes no sense whatsoever. Or do we?</blockquote>
-
-== 2015-10-07 PolyglotProgrammingDC HTTP Adapters ==
-* Presented at [http://www.meetup.com/Polyglot-Programming-DC/events/224556987/ Polyglot Programming DC]
-* [https://thelackthereof.org/docs/talks/2015-10-07%20PPDC%20HTTP%20Adapters/2015-10-07%20PPDC%20HTTP%20Adapters.pdf Slides (pdf)]
-
-<blockquote>Survey and Philosophy of HTTP Adapter Layers. Overview of a technique for connecting your program to serving web pages. Rack, Ring, PSGI, WSGI, Clack, ... </blockquote>
-
 == 2015-09-15 ClojureDC nREPL Looper ==
-* Presented at [http://www.meetup.com/ClojureDC/events/225047587/ ClojureDC]
 * [https://thelackthereof.org/docs/talks/2015-09-15%20ClojureDC%20nREPL%20Looper/2015-09-15%20ClojureDC%20nREPL%20Looper.pdf Slides (pdf)]
-* https://en.wikipedia.org/wiki/Live_looping - Info on live looping
+* https://en.wikipedia.org/wiki/Live_looping­ - Info on live looping
 * https://github.com/awwaiid/nrepl-looper - Project source code
 
-<blockquote>A guitar-looper-pedal-likeÂ­-thing for your REPL! I present my ongoing project, experimenting with recording console commands along with their timing, and then playing them back in a loop. We can use Overtone (sound) events as a good example, simulating a looper-pedal but feeding it commands instead of audio. We'll touch upon a variety of topics as part of the walk through, from beginner to advanced! </blockquote>
+<blockquote>A guitar-looper-pedal-like­-thing for your REPL! I present my ongoing project, experimenting with recording console commands along with their timing, and then playing them back in a loop. We can use Overtone (sound) events as a good example, simulating a looper-pedal but feeding it commands instead of audio. We'll touch upon a variety of topics as part of the walk through, from beginner to advanced! </blockquote>
 
 == 2015-06-14 RubyNation Polyglot Bridges ==
 * Lightning talk at [http://rubynation.org/ RubyNation]
