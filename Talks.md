@@ -1,7 +1,7 @@
 ---
 title: Talks
-createdAt: 2015-11-22T13:35-05:00
-editedAt: 2015-11-22T13:46-05:00
+createdAt: 2015-06-15T15:48-04:00
+editedAt: 2015-11-22T13:35-05:00
 ---
 
 From time to time I give talks on various topics. Audiences range from the local Perl Monger group to larger conferences. Unfortunately for you, I prefer to do crazy things like live code demos and use minimalist slides, so you don't quite get the same effect from these records. Hopefully I can dig up some videos :)
@@ -34,8 +34,6 @@ From time to time I give talks on various topics. Audiences range from the local
 * [http://thelackthereof.org/docs/talks/2014-11-17%20RubyConf%20Time%20Travel%20Debugging/2014-11-17%20RubyConf%20Time%20Travel%20Debugging.pdf Slides (pdf)]
 
 <blockquote>Leveraging the power of fork()ing the universe, I demonstrate a Pry plugin that allows traveling between the timeline multiverse!</blockquote>
-
-[[YouTube:EpYMRd1ZWDM]]
 
 == 2014-07-01 PPDC Rakudo ==
 * [http://thelackthereof.org/docs/talks/2014-07-01%20PPDC%20Rakudo/2014-07-01%20PPDC%20Rakudo.pdf Slides (pdf)]
