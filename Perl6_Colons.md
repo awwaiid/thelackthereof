@@ -1,12 +1,12 @@
 ---
 title: Perl6_Colons
 createdAt: 2016-01-13T14:22-05:00
-editedAt: 2016-02-09T07:39-05:00
+editedAt: 2016-01-13T14:22-05:00
 ---
 
 I'm collecting all the ways you can use : in Perl 6.
 
-<code>
+{code}
 # namespace
 class A::B {
   # "Smiley" type adverb Str:D
@@ -78,6 +78,6 @@ MYLABEL: for ^100 {
 
 # Twigil for formal named param for a block (like $^x)
 say { $:add ?? $^a + $^b !! $^a - $^b }( 4, 5 ) :!add
-</code>
+{code}
 
 
