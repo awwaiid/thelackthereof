@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Perl6_Colons
-createdAt: 2016-01-21T03:27-05:00
-editedAt: 2016-03-01T05:44-05:00
+createdAt: 2016-01-21T00:50-05:00
+editedAt: 2016-01-21T03:27-05:00
 ---
 
-=== 3 Comments. ===
+=== 2 Comments. ===
 Some uses I know of which do not appear to be in your list:
 
 say :: # Pseudopackage representing null namespace?
@@ -52,14 +52,5 @@ say $a # 42
 use Foo:from<Perl5>;
 
 -- raiph 2016-01-21 05:50 UTC
-
-
-----
-
-Another one:
-
-say so "a" ~~ /<[:Alpha]>/ # Unicode character classes
-
--- raiph 2016-01-21 08:27 UTC
 
 
