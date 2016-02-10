@@ -1,17 +1,21 @@
 ---
 title: Perl6_Colons
-createdAt: 2016-02-09T21:00-05:00
-editedAt: 2016-02-09T21:44-05:00
+createdAt: 2016-02-09T07:39-05:00
+editedAt: 2016-02-09T21:00-05:00
 ---
 
 I'm collecting all the ways you can use : in Perl 6.
 
-=== Namespace ===
-
 <code>
 # namespace
-package A::B { ... }
-class A::B { ... }
+class A::B {
+  # "Smiley" type adverb Str:D
+  # Named param -- adverb with default True value
+  method say-hi(Array[Str:D] :$names) {
+    # precedence dropper
+    say $names.map: {"hi $_"};
+  }
+}
 
 # Namespace separator
 my $x = A::B.new;
@@ -22,29 +26,39 @@ my $x = ::("A::B").new
 # Pseudopackage representing null namespace?
 say ::;
 
-# Anonymous class
-class :: is Int {...}
+class :: is Int {...} # :: stands for an anonymous class
 
 # Call Int method of Int class
 42.Int::Int;
 
-# Treat package X as a hash
-say X::.keys
-</code>
-
-=== Types ===
-
-<code>
 # T takes value's type
 -> Numeric ::T \x { say T}(42);
 
+# Treat package X as a hash
+say X::.keys
+
 # Type adverb (smiley)
 Int:D;
-</code>
 
-=== Binding ===
+# Precedence dropper
+@stuff.map: { $_ + 1 };
 
-<code>
+# Invocant marker
+say-hi($x: names => [<me you>]);
+
+# Prefix operator method
+my $a = 1;
+$a.:<++>; # like ++$a
+
+# signature literal
+my $sig = :(Int $foo);
+
+# signature on Callable &var
+my &f:(Str) = -> Str {};
+
+# object hashes
+my $x = :{ (now) => "when?" };
+
 # Binding
 my $y := $a;
 
@@ -53,34 +67,19 @@ $y =:= $a; # True
 
 # Compile-time (read-only) binding
 my $z ::= $y;
-</code>
 
-=== Signature ===
+# longname
+sub infix:<ya> { ... }
 
-<code>
-# signature literal
-my $sig = :(Int $foo);
-
-# signature on Callable &var
-my &f:(Str) = -> Str {};
-</code>
-
-=== Colon-Pair Syntax ===
-
-<code>
 # Colon-Pair syntax (often seen as adverbs)
 my $x = 'cat';
 :foo           # 'foo' => True
 :foo(5)        # 'foo' => 5
 :foo('dog')    # 'foo' => 'dog'
 :foo($x)       # 'foo' => 'cat'
-
-# Value quoting
 :foo<bar>      # 'foo' => 'bar'
 :foo<bar baz>  # 'foo' => ('bar', 'baz')
 :foo<$x>       # 'foo' => '$x'
-
-# value quoting with interpolation
 :foo<<$x>>     # 'foo' => 'cat'
 :foo<<$x dog>> # 'foo => ('cat', 'dog')
 
@@ -105,40 +104,6 @@ sub b (:foo($a)! is rw) { $a = 42};
 b(:foo($a));
 say $a # 42
 
-</code>
-
-=== Regex ===
-
-<code>
-# Declare vars in regex scope
-my regex foo { :my $var; }
-
-# FUTURE -- http://design.perl6.org/S05.html#Backtracking_control (some of these implemented already, Larry says he plans to do more this year)
-my regex bar { a: b:? c:! :: ::> }
-
-# Unicode character classes
-say so "a" ~~ /<[:Alpha]>/
-</code>
-
-=== Misc ===
-
-<code>
-# Precedence dropper
-@stuff.map: { $_ + 1 };
-
-# Invocant marker
-say-hi($x: names => [<me you>]);
-
-# Prefix operator method
-my $a = 1;
-$a.:<++>; # like ++$a
-
-# object hashes
-my $x = :{ (now) => "when?" };
-
-# longname
-sub infix:<ya> { ... }
-
 # Specific uses of longnames
 use Foo:from<Perl5>;
 
@@ -151,5 +116,16 @@ MYLABEL: for ^100 {
 
 # Twigil for formal named param for a block (like $^x)
 say { $:add ?? $^a + $^b !! $^a - $^b }( 4, 5 ) :!add
+
+# Declare vars in regex scope
+my reex foo { :my $var; }
+
+# FUTURE -- http://design.perl6.org/S05.html#Backtracking_control (some of these implemented already, Larry says he plans to do more this year)
+my regex bar { a: b:? c:! :: ::> }
+
+# Unicode character classes
+say so "a" ~~ /<[:Alpha]>/
+
 </code>
+
 
