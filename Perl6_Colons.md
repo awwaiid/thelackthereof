@@ -1,7 +1,7 @@
 ---
 title: Perl6_Colons
-createdAt: 2016-02-09T21:44-05:00
-editedAt: 2016-03-09T20:38-05:00
+createdAt: 2016-02-09T21:00-05:00
+editedAt: 2016-02-09T21:44-05:00
 ---
 
 I'm collecting all the ways you can use : in Perl 6.
@@ -85,7 +85,7 @@ my $x = 'cat';
 :foo<<$x dog>> # 'foo => ('cat', 'dog')
 
 # Numeric-prefix extraction
-say (:73day) # day => 73
+say (:1day) # day => 1
 
 # False instead of true
 say (:!foo) # foo => False
