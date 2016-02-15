@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2016-02-14T22:39-05:00
-editedAt: 2016-04-27T22:01-04:00
+createdAt: 2015-11-05T07:57-05:00
+editedAt: 2016-02-14T22:39-05:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place. Also check out my [[Music Gear and Setup]]!
@@ -13,7 +13,6 @@ These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0
 Random songs. Some of these are more proof-of-concept than anything :)
 
 ||Song                      ||Play!                                  ||
-||[[Segfault]]              ||audio:docs/music/Segfault_v1_2016-02-14 ||
 ||[[Frog Prince]]           ||audio:docs/music/frog_prince_v5        ||
 ||[[It Takes All Sorts]]    ||                                ||
 ||[[Knit Some Shit]]        ||audio:docs/music/knit-some-shit-1      ||
