@@ -1,7 +1,7 @@
 ---
 title: Segfault
-createdAt: 2016-02-14T22:47-05:00
-editedAt: 2016-02-14T22:55-05:00
+createdAt: 2016-02-14T22:57-05:00
+editedAt: 2016-02-14T22:57-05:00
 ---
 
 Listen: audio:docs/music/Segfault_v1_2016-02-14
@@ -57,11 +57,10 @@ And then it all goes boom!
 Who's fault is my segfault?
 Who's fault is my segfault?
 Who's fault is my segfault?
-Who's fault is my segfault?
 
 Tell me is that memory
 Yours or is it mine?
-Did I just miss a malloc
+Did I just miss a malloc?
 Is it something more divine?
 
 Who's fault is my segfault?
