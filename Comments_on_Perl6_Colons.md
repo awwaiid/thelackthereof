@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Perl6_Colons
-createdAt: 2016-03-01T05:44-05:00
-editedAt: 2016-03-05T22:43-05:00
+createdAt: 2016-01-21T03:27-05:00
+editedAt: 2016-03-01T05:44-05:00
 ---
 
-=== 4 Comments. ===
+=== 3 Comments. ===
 Some uses I know of which do not appear to be in your list:
 
 say :: # Pseudopackage representing null namespace?
@@ -61,13 +61,5 @@ Another one:
 say so "a" ~~ /<[:Alpha]>/ # Unicode character classes
 
 -- raiph 2016-01-21 08:27 UTC
-
-
-----
-
-How about the alternative method calling syntax;
-@measurements.map:  { check_accuracy($_);  fail if $_ < 0 }
-
--- Marty 2016-03-01 10:44 UTC
 
 
