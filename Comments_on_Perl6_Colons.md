@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Perl6_Colons
-createdAt: 2016-03-05T22:43-05:00
-editedAt: 2016-08-26T04:30-04:00
+createdAt: 2016-03-01T05:44-05:00
+editedAt: 2016-03-05T22:43-05:00
 ---
 
-=== 5 Comments. ===
+=== 4 Comments. ===
 Some uses I know of which do not appear to be in your list:
 
 say :: # Pseudopackage representing null namespace?
@@ -69,12 +69,5 @@ How about the alternative method calling syntax;
 @measurements.map:  { check_accuracy($_);  fail if $_ < 0 }
 
 -- Marty 2016-03-01 10:44 UTC
-
-
-----
-
-Greetings Marty -- that last bit is covered as "Precedence dropper" in the misc section.
-
--- awwaiid 2016-03-06 03:43 UTC
 
 
