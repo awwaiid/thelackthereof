@@ -1,7 +1,7 @@
 ---
 title: Module_Level_Polyglot
-createdAt: 2016-03-05T22:53-05:00
-editedAt: 2016-03-08T07:17-05:00
+createdAt: 2016-02-25T12:41-05:00
+editedAt: 2016-03-05T22:53-05:00
 ---
 
 I often see people porting libraries from language to language, and new languages often have a rush to re-implement a bunch of things. Some of this makes sense, some of it is madness.
@@ -16,12 +16,4 @@ Issues:
 
 References:
 * http://blog.deepgram.com/import-a-docker-container-in-python/
-
-== From Perl5 ==
-* Inline::* work pretty darn well
-
-== From Perl6 ==
-* I've been working on Inline::Ruby, which will let you do some pretty fancy things
-* Inline::Perl5 is how you can call Perl5 code at all
-* Lots of others
 
