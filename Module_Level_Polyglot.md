@@ -1,7 +1,7 @@
 ---
 title: Module_Level_Polyglot
-createdAt: 2016-03-08T07:18-05:00
-editedAt: 2016-03-08T07:22-05:00
+createdAt: 2016-03-08T07:17-05:00
+editedAt: 2016-03-08T07:18-05:00
 ---
 
 I often see people porting libraries from language to language, and new languages often have a rush to re-implement a bunch of things. Some of this makes sense, some of it is madness.
@@ -13,7 +13,7 @@ Never implement pyplot again.
 ** Clojure, Scala, others run on the JVM, allowing them to (usually) call and be-called-by other JVM languages
 ** Elm, ClojureScript, others run on JavaScript
 * C-level
-** Compiled languages can output a C-compatible library. Most un-hosted languages you can think of as being hosted on C
+** Compiled languages can output a C-compatible library
 * Embed language
 ** Typically this uses C-bindings for language B, so that from language A's perspective it is calling a C library call
 
