@@ -1,7 +1,7 @@
 ---
 title: Perl6_Colons
-createdAt: 2016-03-09T20:38-05:00
-editedAt: 2016-04-15T09:37-04:00
+createdAt: 2016-02-09T21:44-05:00
+editedAt: 2016-03-09T20:38-05:00
 ---
 
 I'm collecting all the ways you can use : in Perl 6.
@@ -36,7 +36,7 @@ say X::.keys
 
 <code>
 # T takes value's type
--> Numeric ::T \x { say T }(42);
+-> Numeric ::T \x { say T}(42);
 
 # Type adverb (smiley)
 Int:D;
@@ -120,28 +120,18 @@ my regex bar { a: b:? c:! :: ::> }
 say so "a" ~~ /<[:Alpha]>/
 </code>
 
-== Operators as Methods ==
-
-<code>
-my $a = 1;
-$a.infix:["+"](3); # $a + 3
-$a.infix:<+>(3);   # $a + 3, but shorter with quote brackets
-$a.prefix:<++>;    # ++$a
-$a.postfix:<++>;   # ++$a
-$a.:<++>;          # Shorthand for prefix (no param)
-$a.:<+>(3);        # Shorthand for infix (param provided)
-</code>
-
 === Misc ===
 
 <code>
 # Precedence dropper
-@stuff.map({ $_ + 1 }); # Explicit parameter
-@stuff.map: { $_ + 1 }; # Parameters come after ':'
+@stuff.map: { $_ + 1 };
 
-# Invocant marker method invocation
-$x.say-hi(names => [<me you>]);  # Normal way
-say-hi($x: names => [<me you>]); # Invocant marker way
+# Invocant marker
+say-hi($x: names => [<me you>]);
+
+# Prefix operator method
+my $a = 1;
+$a.:<++>; # like ++$a
 
 # object hashes
 my $x = :{ (now) => "when?" };
