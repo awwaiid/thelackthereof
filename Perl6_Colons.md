@@ -1,7 +1,7 @@
 ---
 title: Perl6_Colons
-createdAt: 2016-04-15T09:37-04:00
-editedAt: 2016-09-04T20:50-04:00
+createdAt: 2016-03-09T20:38-05:00
+editedAt: 2016-04-15T09:37-04:00
 ---
 
 I'm collecting all the ways you can use : in Perl 6.
@@ -82,7 +82,7 @@ my $x = 'cat';
 
 # value quoting with interpolation
 :foo<<$x>>     # 'foo' => 'cat'
-:foo<<$x dog>> # 'foo' => ('cat', 'dog')
+:foo<<$x dog>> # 'foo => ('cat', 'dog')
 
 # Numeric-prefix extraction
 say (:73day) # day => 73
