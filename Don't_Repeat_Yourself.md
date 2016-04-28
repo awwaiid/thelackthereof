@@ -1,7 +1,7 @@
 ---
 title: Don't_Repeat_Yourself
-createdAt: 2016-04-27T22:03-04:00
-editedAt: 2016-04-27T22:07-04:00
+createdAt: 2016-04-27T22:09-04:00
+editedAt: 2016-04-27T22:09-04:00
 ---
 
 Listen (acoustic draft): audio:docs/music/dont_repeat_yourself
@@ -16,10 +16,15 @@ Don't repeat yourself
 Yeah the blog post said
 Don't repeat yourself
 
+Don't repeat yourself
+Don't repeat yourself
+Yeah the blog post said
+Don't repeat yourself
+
 But I asked myself
 How can that be
 When such a thing
-Is hypocrasy
+Is hypocrisy
 
 Cause' the other day
 It said the tight coupling
@@ -36,14 +41,19 @@ Don't repeat yourself
 Yeah the blog post said
 Don't repeat yourself
 
+Don't repeat yourself
+Don't repeat yourself
+Yeah the blog post said
+Don't repeat yourself
+
 Spent all last week
 Thinkin bout my code
 All the duplicate lines
 It has to load
 
-I factored out
+Well I factored out
 All the common bits
-Then I sat back
+And then I sat back
 To watch the hits
 
 I got three downloads
