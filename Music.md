@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2016-07-07T23:13-04:00
-editedAt: 2017-02-16T13:26-05:00
+createdAt: 2016-04-27T22:01-04:00
+editedAt: 2016-07-07T23:13-04:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place. Also check out my [[Music Gear and Setup]]!
@@ -20,7 +20,7 @@ Random songs. Some of these are more proof-of-concept than anything :)
 ||[[Knit Some Shit]]        ||audio:docs/music/knit-some-shit-1      ||
 ||[[Immortal Crowd]]        ||audio:docs/music/immortal_crowd        ||
 ||[[Call On Borbyu]]        ||audio:docs/music/call_on_borbyu        ||
-||[[Pi Girl]]                   ||audio:docs/music/pigirl7               ||
+||Pi Girl                   ||audio:docs/music/pigirl7               ||
 ||[[Umbrellas]]             ||audio:docs/music/umbrellas             ||
 ||[[Got One Shoe]]          ||audio:docs/music/oneshoe               ||
 ||Hotel Yorba (cover)       ||audio:docs/music/yorba                 ||
