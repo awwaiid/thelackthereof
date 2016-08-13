@@ -1,6 +1,6 @@
 ---
 title: ICFP_Contest
-createdAt: 2015-08-13T02:46-04:00
+createdAt: 2016-08-12T22:37-04:00
 editedAt: 2016-08-12T22:37-04:00
 ---
 
@@ -17,5 +17,6 @@ I enjoy participating in the [https://en.wikipedia.org/wiki/ICFP_Programming_Con
 * [[ICFP Contest 2013]] - Infer function definitions
 * [[ICFP Contest 2014]] - Packman-alike AI (Lisp and 8-bit)
 * [[ICFP Contest 2015]] - Hexagon Tetris AI
+* [[ICFP Contest 2016]] - Origami
 
 
