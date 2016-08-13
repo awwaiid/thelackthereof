@@ -1,7 +1,7 @@
 ---
 title: ICFP_Contest_2016
-createdAt: 2016-08-12T23:23-04:00
-editedAt: 2016-08-12T23:25-04:00
+createdAt: 2016-08-12T23:22-04:00
+editedAt: 2016-08-12T23:23-04:00
 ---
 
 == Challenge: Folding Origami ==
@@ -19,7 +19,7 @@ I talked Mike into programming in Perl 6 :) . While he and Jason worked on under
 
 After that I did a very basic visualization using cpan:Imager (via [https://github.com/niner/Inline-Perl5 Inline::Perl5]), which Mike then took over and worked on. Then (and we're talking Friday or Saturday) I started working on modeling folding of an origami. And then I got stuck.
 
-left:g_polygon.jpg I didn't realize it until I was taking a shower on Monday morning after the contest, but I was attempting to implement too general of a solution for part of it. The rough idea is to consider an origami as a bunch of polygons. You start off with one, and then when you fold it you end up with two, one of which you reflect along the fold line.
+left:g-polygon.jpg I didn't realize it until I was taking a shower on Monday morning after the contest, but I was attempting to implement too general of a solution for part of it. The rough idea is to consider an origami as a bunch of polygons. You start off with one, and then when you fold it you end up with two, one of which you reflect along the fold line.
 
 So I set out to chop up a polygon given a line, and unfortunately didn't think through my goal clearly enough -- I tried to split ANY polygon. That includes funky looking concave polygons that when you cut with a single line might split into a bunch of pieces. What I realized after the contest was that a single cut starting from a solid piece of paper can never end up that way -- there is no way to cut it into a funky shape! So I lost a lot of time there.
 
