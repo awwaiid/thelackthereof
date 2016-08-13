@@ -1,7 +1,7 @@
 ---
 title: ICFP_Contest_2016
-createdAt: 2016-08-12T23:25-04:00
-editedAt: 2016-08-12T23:26-04:00
+createdAt: 2016-08-12T23:23-04:00
+editedAt: 2016-08-12T23:25-04:00
 ---
 
 == Challenge: Folding Origami ==
@@ -19,13 +19,13 @@ I talked Mike into programming in Perl 6 :) . While he and Jason worked on under
 
 After that I did a very basic visualization using cpan:Imager (via [https://github.com/niner/Inline-Perl5 Inline::Perl5]), which Mike then took over and worked on. Then (and we're talking Friday or Saturday) I started working on modeling folding of an origami. And then I got stuck.
 
-left:g_polygon.jpg:width=200px I didn't realize it until I was taking a shower on Monday morning after the contest, but I was attempting to implement too general of a solution for part of it. The rough idea is to consider an origami as a bunch of polygons. You start off with one, and then when you fold it you end up with two, one of which you reflect along the fold line.
+left:g_polygon.jpg I didn't realize it until I was taking a shower on Monday morning after the contest, but I was attempting to implement too general of a solution for part of it. The rough idea is to consider an origami as a bunch of polygons. You start off with one, and then when you fold it you end up with two, one of which you reflect along the fold line.
 
 So I set out to chop up a polygon given a line, and unfortunately didn't think through my goal clearly enough -- I tried to split ANY polygon. That includes funky looking concave polygons that when you cut with a single line might split into a bunch of pieces. What I realized after the contest was that a single cut starting from a solid piece of paper can never end up that way -- there is no way to cut it into a funky shape! So I lost a lot of time there.
 
 The other thing that cost time was reflection. We cast about for some off the shelf libraries, but got mad at them, so I just started to implement reflection myself. I even thought I had it working, but sometime early on Sunday I realized something was fishy. I switched to an off-the-shelf implementation via cpan:Math::Geometry::Planar and presto! Worked much better. Should have used that from the beginning.
 
-left:origami_fold.jpg:width=200px Meanwhile Mike was both improving the visualization, especially around setitng a useful viewport for shadows that had been moved far away from the axis origins. He also went through and generated images for the exisitng problem, which helped us pick out good test cases. Jason kept at it too, starting to hand-generate us some problems to submit once we got past the lightning round, and hand-solving some of the problems that were provided.
+left:origami_fold.jpg Meanwhile Mike was both improving the visualization, especially around setitng a useful viewport for shadows that had been moved far away from the axis origins. He also went through and generated images for the exisitng problem, which helped us pick out good test cases. Jason kept at it too, starting to hand-generate us some problems to submit once we got past the lightning round, and hand-solving some of the problems that were provided.
 
 After visualizations were working, Mike connected the dots between problems and the origami modeling to calculate a score, making further use of the Planar library. This gave us the final ingredient we needed for automated exploration of simple folds in origami space.
 
