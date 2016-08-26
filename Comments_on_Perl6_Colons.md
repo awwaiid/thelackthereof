@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Perl6_Colons
-createdAt: 2016-08-26T04:30-04:00
-editedAt: 2016-09-04T20:45-04:00
+createdAt: 2016-03-05T22:43-05:00
+editedAt: 2016-08-26T04:30-04:00
 ---
 
-=== 6 Comments. ===
+=== 5 Comments. ===
 Some uses I know of which do not appear to be in your list:
 
 say :: # Pseudopackage representing null namespace?
@@ -76,17 +76,5 @@ How about the alternative method calling syntax;
 Greetings Marty -- that last bit is covered as "Precedence dropper" in the misc section.
 
 -- awwaiid 2016-03-06 03:43 UTC
-
-
-----
-
-The compile-time variable ::?CLASS.
-
-E.g. the following are equivalent:
-
-    class TreeNode { has TreeNode @children; }
-    class TreeNode { has ::?CLASS @children; }
-
--- [http://postcircumfix.com smls] 2016-08-26 08:30 UTC
 
 
