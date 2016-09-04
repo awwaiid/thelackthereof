@@ -1,7 +1,7 @@
 ---
 title: Project_Ideas
-createdAt: 2016-09-04T19:33-04:00
-editedAt: 2016-09-11T02:50-04:00
+createdAt: 2016-08-24T11:18-04:00
+editedAt: 2016-09-04T19:33-04:00
 ---
 
 * Get simplecov results from a single test or execution. Create a copy of the codebase where you delete all uncovered code and then reformat the remaining code -- a minimal codebase to do whatever your test needed.
@@ -18,5 +18,4 @@ editedAt: 2016-09-11T02:50-04:00
 ** Should be able to invoke from the cli or my editor (same thing with vim)
 * Use RNN on source code or revision history. What can we learn?
 * Write a simple Amazon Lambda service to see what it is like
-* Perl 5 and Rakudo plugins for [https://github.com/asdf-vm/asdf asdf version manager]
 
