@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Perl6_Colons
-createdAt: 2016-09-04T20:45-04:00
-editedAt: 2017-07-22T10:39-04:00
+createdAt: 2016-08-26T04:30-04:00
+editedAt: 2016-09-04T20:45-04:00
 ---
 
-=== 7 Comments. ===
+=== 6 Comments. ===
 Some uses I know of which do not appear to be in your list:
 
 say :: # Pseudopackage representing null namespace?
@@ -88,12 +88,5 @@ E.g. the following are equivalent:
     class TreeNode { has ::?CLASS @children; }
 
 -- [http://postcircumfix.com smls] 2016-08-26 08:30 UTC
-
-
-----
-
-That is a bizzaro variable.
-
--- awwaiid 2016-09-05 00:45 UTC
 
 
