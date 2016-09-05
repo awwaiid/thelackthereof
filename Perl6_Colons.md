@@ -1,7 +1,7 @@
 ---
 title: Perl6_Colons
-createdAt: 2016-09-04T20:50-04:00
-editedAt: 2017-07-22T12:00-04:00
+createdAt: 2016-04-15T09:37-04:00
+editedAt: 2016-09-04T20:50-04:00
 ---
 
 I'm collecting all the ways you can use : in Perl 6.
@@ -17,7 +17,7 @@ class A::B { ... }
 my $x = A::B.new;
 
 # Dynamic namespace
-my $x = ::("A::B").new;
+my $x = ::("A::B").new
 
 # Pseudopackage representing null namespace?
 say ::;
@@ -25,14 +25,11 @@ say ::;
 # Anonymous class
 class :: is Int {...}
 
-# Current class in a compile-time var
-class Who { method myname { say ::?CLASS } }
-
 # Call Int method of Int class
 42.Int::Int;
 
 # Treat package X as a hash
-say X::.keys;
+say X::.keys
 </code>
 
 === Types ===
