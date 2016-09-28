@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
 createdAt: 2016-09-28T09:35-04:00
-editedAt: 2016-09-28T09:36-04:00
+editedAt: 2016-09-28T09:35-04:00
 ---
 
 /*
@@ -246,7 +246,7 @@ h6, .h6 {
 
 @media (max-width: 768px) {
   .hljs {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 }
 
