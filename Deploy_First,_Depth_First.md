@@ -1,6 +1,6 @@
 ---
 title: Deploy_First,_Depth_First
-createdAt: 2017-01-22T16:16-05:00
+createdAt: 2017-01-22T16:02-05:00
 editedAt: 2017-01-22T16:16-05:00
 ---
 
@@ -50,10 +50,10 @@ img:depth_first.png
 digraph {
   node [shape=box style=filled fillcolor=lightgray]
   claim [label="Claims Processing"]
-  create [label="Create claim" fillcolor="#44aa44"]
-  transmit [label="Transmit to order system" fillcolor="#aa4444"]
-  manage [label="Claim Management Tool" fillcolor="#8888aa"]
-  refund [label="Execute Refund" fillcolor="#aa88aa"]
+  create [label="Create claim" fillcolor="#00aa00"]
+  transmit [label="Transmit to order system"]
+  manage [label="Claim Management Tool"]
+  refund [label="Execute Refund"]
 
   claim -> create, transmit, manage, refund
 
@@ -61,8 +61,8 @@ digraph {
   create_steps [
     label = "Claim model\nTemplates\nAdd items\nRemove items\nVerify items\nCheck claim status"
     style="dashed,filled"
-    fillcolor="#44aa4488"
-  ]
+    fillcolor="#00cc00"
+    ]
 }
 </graph>
 
@@ -80,92 +80,12 @@ So let's try another strategy. Let's try to get the end-to-end flow working, bre
 Stub out all the "useful" work code and get this working end-to-end as the first task. For example, instead of letting the user create a complete claim, ask them for a single item or just hard-wire it to the last-most item available without any user input. Don't validate or handle errors on transmitting or even handle different products - make a hand-built json string to transmit if you can. And so on. Use Deploy First Development techniques to put your completely wrong but harmless code into production (behind a feature-flag or permission).
 
 img:breadth_first.png
-<graph>
-digraph {
-  node [shape=box style=filled fillcolor=lightgray]
-  claim [label="Claims Processing"]
-  create [label="Create claim" fillcolor="#44aa44"]
-  transmit [label="Transmit to order system" fillcolor="#aa4444"]
-  manage [label="Claim Management Tool" fillcolor="#8888aa"]
-  refund [label="Execute Refund" fillcolor="#aa88aa"]
-
-  claim -> create, transmit, manage, refund
-
-  create -> create_steps
-  create_steps [
-    label = "Claim model\nOne hard-coded instance"
-    style="dashed,filled"
-    fillcolor="#44aa4488"
-  ]
-
-  transmit -> transmit_steps
-  transmit_steps [
-    label = "Hard-coded or .to_json\nPOST to backend\n\nReceive on backend and\nblindly (no verification)\ncreate claim"
-    style="dashed,filled"
-    fillcolor="#aa444488"
-  ]
-
-  manage -> manage_steps
-  manage_steps [
-    label = "UL list of claims\n\nInput box to refund\na claim by id"
-    style="dashed,filled"
-    fillcolor="#8888aa88"
-  ]
-
-  refund -> refund_steps
-  refund_steps [
-    label = "Send hard-coded $$\namount to processor\nfor an order"
-    style="dashed,filled"
-    fillcolor="#aa88aa88"
-  ]
-}
-</graph>
 
 Depending on the complexity of the project, a second breadth-first pass might be a good idea - one that doesn't use any hard-coded values for example. Your goal is to get the project to be minimally-useful. Once the project is minimally-useful, every change after that will make it more-useful!
 
 Once you have the end-to-end flow working, and ideally have some testing methodology worked out (either automated or by-hand), then you can switch into a more depth-first technique. You keep factoring out any hard-coded values until you get the whole project organized and feature-full. If you have been deploying the whole time there are no surprises - it isn't a matter of releasing the project, but instead of granting a wider set of people access to an already-working system.
 
 img:project_overview.png
-<graph>
-digraph {
-  node [shape=box style=filled fillcolor=lightgray]
-  claim [label="Claims Processing"]
-  create [label="Create claim" fillcolor="#44aa44"]
-  transmit [label="Transmit to order system" fillcolor="#aa4444"]
-  manage [label="Claim Management Tool" fillcolor="#8888aa"]
-  refund [label="Execute Refund" fillcolor="#aa88aa"]
-
-  claim -> create, transmit, manage, refund
-
-  create -> create_steps
-  create_steps [
-    label = "Claim model\nTemplates\nAdd items\nRemove items\nVerify items\nCheck claim status"
-    style="dashed,filled"
-    fillcolor="#44aa4488"
-  ]
-
-  transmit -> transmit_steps
-  transmit_steps [
-    label = "Serialize claim\nPOST to backend\nReceive on backend\nBackend claim model"
-    style="dashed,filled"
-    fillcolor="#aa444488"
-  ]
-
-  manage -> manage_steps
-  manage_steps [
-    label = "List of claims\nLook up a claim\nModify a claim\nAdd notes to a claim\nAccept/Reject a claim\nTransmit claim status"
-    style="dashed,filled"
-    fillcolor="#8888aa88"
-  ]
-
-  refund -> refund_steps
-  refund_steps [
-    label = "Update order\nWrite accounting info\nSubmit to processor\nUpdate claim status"
-    style="dashed,filled"
-    fillcolor="#aa88aa88"
-  ]
-}
-</graph>
 
 Draft Notes
 * Give example of depth-first
