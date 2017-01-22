@@ -1,7 +1,7 @@
 ---
 title: Deploy_First,_Depth_First
-createdAt: 2017-01-22T16:02-05:00
-editedAt: 2017-01-22T16:16-05:00
+createdAt: 2017-01-22T16:00-05:00
+editedAt: 2017-01-22T16:02-05:00
 ---
 
 Common project risks:
@@ -48,9 +48,9 @@ img:depth_first.png
 
 <graph>
 digraph {
-  node [shape=box style=filled fillcolor=lightgray]
+  node [shape=box style=filled color=darkgray fillcolor=lightgray]
   claim [label="Claims Processing"]
-  create [label="Create claim" fillcolor="#00aa00"]
+  create [label="Create claim" fillcolor=green]
   transmit [label="Transmit to order system"]
   manage [label="Claim Management Tool"]
   refund [label="Execute Refund"]
@@ -61,7 +61,7 @@ digraph {
   create_steps [
     label = "Claim model\nTemplates\nAdd items\nRemove items\nVerify items\nCheck claim status"
     style="dashed,filled"
-    fillcolor="#00cc00"
+    fillcolor=lightgreen
     ]
 }
 </graph>
