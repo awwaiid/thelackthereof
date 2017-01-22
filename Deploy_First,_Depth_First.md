@@ -1,7 +1,7 @@
 ---
 title: Deploy_First,_Depth_First
-createdAt: 2017-01-22T16:00-05:00
-editedAt: 2017-01-22T16:02-05:00
+createdAt: 2017-01-22T14:39-05:00
+editedAt: 2017-01-22T16:00-05:00
 ---
 
 Common project risks:
@@ -48,6 +48,7 @@ img:depth_first.png
 
 <graph>
 digraph {
+  bgcolor=transparent
   node [shape=box style=filled color=darkgray fillcolor=lightgray]
   claim [label="Claims Processing"]
   create [label="Create claim" fillcolor=green]
