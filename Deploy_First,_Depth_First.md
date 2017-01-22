@@ -1,7 +1,7 @@
 ---
 title: Deploy_First,_Depth_First
 createdAt: 2017-01-22T16:16-05:00
-editedAt: 2017-01-22T16:23-05:00
+editedAt: 2017-01-22T16:16-05:00
 ---
 
 Common project risks:
@@ -44,6 +44,8 @@ A typical project implements a new workflow, usually with several steps or acros
 
 Imagine we were trying to add a new feature to our eCommerce site so that people can submit issues with an order. So here we would say "ok! Let's start by building a Create-Claim UI on our site!". We break that into a few tickets and go to work! Once we have that working pretty well we move on to Transmitting, Processing, etc.
 
+img:depth_first.png
+
 <graph>
 digraph {
   node [shape=box style=filled fillcolor=lightgray]
@@ -77,6 +79,7 @@ So let's try another strategy. Let's try to get the end-to-end flow working, bre
 
 Stub out all the "useful" work code and get this working end-to-end as the first task. For example, instead of letting the user create a complete claim, ask them for a single item or just hard-wire it to the last-most item available without any user input. Don't validate or handle errors on transmitting or even handle different products - make a hand-built json string to transmit if you can. And so on. Use Deploy First Development techniques to put your completely wrong but harmless code into production (behind a feature-flag or permission).
 
+img:breadth_first.png
 <graph>
 digraph {
   node [shape=box style=filled fillcolor=lightgray]
@@ -122,6 +125,7 @@ Depending on the complexity of the project, a second breadth-first pass might be
 
 Once you have the end-to-end flow working, and ideally have some testing methodology worked out (either automated or by-hand), then you can switch into a more depth-first technique. You keep factoring out any hard-coded values until you get the whole project organized and feature-full. If you have been deploying the whole time there are no surprises - it isn't a matter of releasing the project, but instead of granting a wider set of people access to an already-working system.
 
+img:project_overview.png
 <graph>
 digraph {
   node [shape=box style=filled fillcolor=lightgray]
