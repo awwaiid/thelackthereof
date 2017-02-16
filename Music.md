@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2017-02-16T13:26-05:00
-editedAt: 2017-04-13T23:05-04:00
+createdAt: 2016-07-07T23:13-04:00
+editedAt: 2017-02-16T13:26-05:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place. Also check out my [[Music Gear and Setup]]!
@@ -13,7 +13,6 @@ These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0
 Random songs. Some of these are more proof-of-concept than anything :)
 
 ||Song                      ||Play!                                  ||
-||[[Gitmo]] || audio:docs/music/gitmo_v1 ||
 ||[[Don't Repeat Yourself]]              ||audio:docs/music/dont_repeat_yourself ||
 ||[[Segfault]]              ||audio:docs/music/Segfault_v1_2016-02-14 ||
 ||[[Frog Prince]]           ||audio:docs/music/frog_prince_v5        ||
