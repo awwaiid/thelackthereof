@@ -1,6 +1,6 @@
 ---
 title: Gitmo
-createdAt: 2017-02-16T13:32-05:00
+createdAt: 2017-02-16T13:37-05:00
 editedAt: 2017-02-16T13:37-05:00
 ---
 
@@ -40,4 +40,13 @@ President Obama
 When are you gonna
 Get rid of Gitmo
 Let all those people go!
+
+-----
+
+Alternate verses
+
+We're the USA
+Leader for today
+Show the world we know
+Let those people go
 
