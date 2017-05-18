@@ -1,10 +1,10 @@
 ---
 title: Randori
 createdAt: 2017-05-18T11:29-04:00
-editedAt: 2017-05-18T11:31-04:00
+editedAt: 2017-05-18T11:29-04:00
 ---
 
-<i>"Pair Programming Musical Chairs"</i>
+Randori == "Pair Programming Musical Chairs"
 
 * Roles:
 ** <b>Driver</b> -- One person at the keyboard. Don't think, just type (maybe syntax-level -- write a function, extract a method, if they know the language). Only does what the Navigator tells them to do.
