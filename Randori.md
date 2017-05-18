@@ -1,7 +1,7 @@
 ---
 title: Randori
-createdAt: 2017-05-18T11:22-04:00
-editedAt: 2017-05-18T11:29-04:00
+createdAt: 2017-05-18T11:09-04:00
+editedAt: 2017-05-18T11:22-04:00
 ---
 
 Randori == "Pair Programming Musical Chairs"
@@ -15,12 +15,5 @@ Randori == "Pair Programming Musical Chairs"
 * After a fixed amount of time (3-5mins) or event (red/green/refactor) everyone ROTATES! Driver re-joins the choir, Navigator becomes the Driver, a member of the choir becomes the Navigator
 * Do this for a while (1-2 hours maybe, or a nice stopping point) and then everyone reviews
 
-This works well with toy problems and small challenges. I've done it with command-line games especially, but other things also like going through a tutorial or one time we built a Christmas Tree out of pure CSS and a few divs.
-
-* What if I have a lot of participants?
-** Since each rotation is 3-5 minutes, this starts running out of scale at 8-10 participants. You can additionally have an audience, folks sitting in the back who are passive watchers learning and observing. You could leave an empty seat in the choir for people to join/depart. The longer the Randori the more people can participate, of course, but it can't last forever :)
-* What if I have some people who are shy, who don't want to program publicly?
-** That's ok! It's cool to hang out in the audience and watch from afar
-** Set the tone of friendly enthusiasm and you will find it to be contagious :)
-** Remember to let folks know that they are NEVER alone, and at no point are they solely responsible for what is happening; the overall hive mind is working together
+This works well with toy problems and small challenges. I've done it with command-line games especially, but other things also like going through a tutorial or one time we built a Christmas Tree out of pure CSS and a few divs
 
