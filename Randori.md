@@ -1,6 +1,6 @@
 ---
 title: Randori
-createdAt: 2017-05-18T11:29-04:00
+createdAt: 2017-05-18T11:22-04:00
 editedAt: 2017-05-18T11:29-04:00
 ---
 
@@ -23,15 +23,4 @@ This works well with toy problems and small challenges. I've done it with comman
 ** That's ok! It's cool to hang out in the audience and watch from afar
 ** Set the tone of friendly enthusiasm and you will find it to be contagious :)
 ** Remember to let folks know that they are NEVER alone, and at no point are they solely responsible for what is happening; the overall hive mind is working together
-* Physical setup
-** A screen that everyone can see that is projecting from a computer
-** Computer on a table with two chairs, off to the side. This is where the <b>Driver</b> and <b>Navigator</b> sit, so they can see the screen and the <b>Choir-Queue</b> can hear them.
-** Row of chairs for the <b>Choir-Queue</b>, facing the screen
-** More chairs behind that for the general passive audience
-** Upon rotation:
-*** Everyone stands up
-*** Driver heads over to the end of the <b>Choir-Queue</b>
-*** Navigator becomes Driver
-*** First chair in the Choir-Queue becomes Navigator
-*** Everyone in Choir moves down a chair, making room for the previous Driver!
 
