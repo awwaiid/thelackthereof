@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Perl6_Colons
-createdAt: 2017-07-22T10:39-04:00
-editedAt: 2017-07-22T11:37-04:00
+createdAt: 2016-09-04T20:45-04:00
+editedAt: 2017-07-22T10:39-04:00
 ---
 
-=== 8 Comments. ===
+=== 7 Comments. ===
 Some uses I know of which do not appear to be in your list:
 
 say :: # Pseudopackage representing null namespace?
@@ -95,12 +95,5 @@ E.g. the following are equivalent:
 That is a bizzaro variable.
 
 -- awwaiid 2016-09-05 00:45 UTC
-
-
-----
-
-Considering you can create your own slangs that mutate the language grammar... I'd say the number of colon uses is infinite.
-
--- [https://rakudo.party Zoffix] 2017-07-22 14:39 UTC
 
 
