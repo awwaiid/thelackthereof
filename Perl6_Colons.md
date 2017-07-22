@@ -1,15 +1,10 @@
 ---
 title: Perl6_Colons
-createdAt: 2017-07-22T12:00-04:00
-editedAt: 2017-07-23T00:35-04:00
+createdAt: 2016-09-04T20:50-04:00
+editedAt: 2017-07-22T12:00-04:00
 ---
 
 I'm collecting all the ways you can use : in Perl 6.
-
-Larry's 1st Law of Language Redesign: Everyone wants the colon
-Larry's 2nd Law of Language Redesign: Larry gets the colon
-
-A lot of these are variations on a theme, especially the theme of "colon-pair" syntax. Where two uses of the colon look different or are in a different usage context, even if they are technically the same, I'd prefer to illustrate them both.
 
 === Namespace ===
 
@@ -22,14 +17,13 @@ class A::B { ... }
 my $x = A::B.new;
 
 # Dynamic namespace
-my $package_name = "A::B";
-my $x = ::($package_name).new;
+my $x = ::("A::B").new;
 
 # Pseudopackage representing null namespace?
-say :: ;
+say ::;
 
 # Anonymous class
-my $anon_class = class :: is Int {...}
+class :: is Int {...}
 
 # Current class in a compile-time var
 class Who { method myname { say ::?CLASS } }
@@ -41,71 +35,27 @@ class Who { method myname { say ::?CLASS } }
 say X::.keys;
 </code>
 
-=== Binding ===
-
-<code>
-# Binding
-my $y := $a;
-
-# Read-only binding
-my $z ::= $y;
-
-# Container identity
-$y =:= $a; # True
-</code>
-
-=== Colon-Pair Syntax ===
-
-<code>
-# Colon-Pair syntax (often seen as adverbs)
-my $x = 'cat';
-:foo(5)        # 'foo' => 5
-:foo('dog')    # 'foo' => 'dog'
-:foo($x)       # 'foo' => 'cat'
-
-# Value word quoting, no interpolation
-:foo<bar>      # 'foo' => 'bar'
-:foo<bar baz>  # 'foo' => ('bar', 'baz')
-:foo<$x>       # 'foo' => '$x'
-
-# Value word quoting with interpolation
-:foo<<$x>>     # 'foo' => 'cat'
-:foo<<$x dog>> # 'foo' => ('cat', 'dog')
-
-# Numeric-prefix extraction
-say (:73day) # day => 73
-
-# Default to true value
-say (:foo) # foo => True
-
-# False instead of true
-say (:!foo) # foo => False
-
-# Var name as key, content as value
-my $x = 'cat';
-my @foo=1,2;
-:@foo # foo => [1,2]
-:$x   # x   => 'cat'
-
-# Base conversion via colon-pair
-say :16("dead") # 57005
-
-# binding pair in sig:
-my $a;
-sub b (:foo($x)! is rw) { $x = 42};
-b(:foo($a));
-say $a # 42
-</code>
-
 === Types ===
 
 <code>
 # T takes value's type
 -> Numeric ::T \x { say T }(42);
 
-# Type Smileys
-Int:D; # Defined Int
-Int:U; # Undefined Int
+# Type adverb (smiley)
+Int:D;
+</code>
+
+=== Binding ===
+
+<code>
+# Binding
+my $y := $a;
+
+# Container identity
+$y =:= $a; # True
+
+# Compile-time (read-only) binding
+my $z ::= $y;
 </code>
 
 === Signature ===
@@ -114,8 +64,63 @@ Int:U; # Undefined Int
 # signature literal
 my $sig = :(Int $foo);
 
-# signature on Callable &var, not yet implemented
+# signature on Callable &var
 my &f:(Str) = -> Str {};
+</code>
+
+=== Colon-Pair Syntax ===
+
+<code>
+# Colon-Pair syntax (often seen as adverbs)
+my $x = 'cat';
+:foo           # 'foo' => True
+:foo(5)        # 'foo' => 5
+:foo('dog')    # 'foo' => 'dog'
+:foo($x)       # 'foo' => 'cat'
+
+# Value quoting
+:foo<bar>      # 'foo' => 'bar'
+:foo<bar baz>  # 'foo' => ('bar', 'baz')
+:foo<$x>       # 'foo' => '$x'
+
+# value quoting with interpolation
+:foo<<$x>>     # 'foo' => 'cat'
+:foo<<$x dog>> # 'foo' => ('cat', 'dog')
+
+# Numeric-prefix extraction
+say (:73day) # day => 73
+
+# False instead of true
+say (:!foo) # foo => False
+
+# Var name as key, content as value
+my @foo=1,2;
+:@foo # foo => [1,2]
+:@foo # foo => [1,2]
+:$x   # x   => 'cat'
+
+# Base conversion via colon-pair
+say :16("dead") # 57005
+
+# binding pair in sig:
+my $a;
+sub b (:foo($a)! is rw) { $a = 42};
+b(:foo($a));
+say $a # 42
+
+</code>
+
+=== Regex ===
+
+<code>
+# Declare vars in regex scope
+my regex foo { :my $var; }
+
+# FUTURE -- http://design.perl6.org/S05.html#Backtracking_control (some of these implemented already, Larry says he plans to do more this year)
+my regex bar { a: b:? c:! :: ::> }
+
+# Unicode character classes
+say so "a" ~~ /<[:Alpha]>/
 </code>
 
 == Operators as Methods ==
@@ -130,48 +135,18 @@ $a.:<++>;          # Shorthand for prefix (no param)
 $a.:<+>(3);        # Shorthand for infix (param provided)
 </code>
 
-
-=== Regex ===
-
-<code>
-
-  # Regex adverb
-:i/a/  \# Case insensitive, outside
-/:i a/ \# Case insensitive, inside
-
-
-
-# Declare vars in regex scope
-my regex foo { :my $var; }
-
-# FUTURE -- http://design.perl6.org/S05.html#Backtracking_control (some of these implemented already, Larry says he plans to do more this year)
-
-# Backtracking control
-/ a: b?: c*: /
-# similar ones :: ::> ::: NYI
-
-/ .*:? /; \# explicit minimal match
-/ .*? /;  \# short version that is usually used has no colon
-
-# Unicode character classes
-say so "a" ~~ /<[:Alpha]>/
-</code>
-
 === Misc ===
 
 <code>
-# Quote adverb
-Q:w(word of the day); \# :w adverb
-
 # Precedence dropper
 @stuff.map({ $_ + 1 }); # Explicit parameter
 @stuff.map: { $_ + 1 }; # Parameters come after ':'
 
 # Invocant marker method invocation
 $x.say-hi(names => [<me you>]);  # Normal way
-say-hi($x: names => [<me you>]) # Invocant marker way
+say-hi($x: names => [<me you>]); # Invocant marker way
 
-# object hashes, ones with complex keys
+# object hashes
 my $x = :{ (now) => "when?" };
 
 # longname
@@ -189,13 +164,5 @@ MYLABEL: for ^100 {
 
 # Twigil for formal named param for a block (like $^x)
 say { $:add ?? $^a + $^b !! $^a - $^b }( 4, 5 ) :!add
-
-# This one is a stretch...
-# Colons instead of dashes when you invoke cli commands that use MAIN
-sub MAIN ( :$filename ) { ... }
-
-# cmd --filename=file.txt
-# cmd :filename=file.txt
-# cmd :filename \# filename => true
 </code>
 
