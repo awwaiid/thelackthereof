@@ -1,7 +1,7 @@
 ---
 title: Deep_Code_Tracing
-createdAt: 2017-07-30T01:08-04:00
-editedAt: 2017-07-30T01:44-04:00
+createdAt: 2017-07-30T00:57-04:00
+editedAt: 2017-07-30T01:08-04:00
 ---
 
 (Draft blog entry)
@@ -15,7 +15,7 @@ docker run -d -p 9200:9200 -p 5601:5601 nshou/elasticsearch-kibana
 
 We're going to record our traces as a time-series. We unfortunately have to do a small config first, to ES know that our timestamp is ... a timestamp:
 <code>
-curl -v -XPUT 'http://elastic:changeme@localhost:9200/trace' --data-binary -d '
+curl -v -XPUT 'http://elastic:changeme@localhost:9200/trace3' --data-binary -d '
 {
   "mappings": {
     "trace": {
@@ -71,41 +71,28 @@ end
 
 Then I run my tests, which outputs trace_log.json. Now we load it into our ES. I do this in batches of 10k, and then POST it into ES:
 <code>
-cat trace_log.json| jq -c '. | {"index": {"_index": "trace", "_type": "trace"}}, .' | split -l 10000 - load-
+cat trace_log.json| jq -c '. | {"index": {"_index": "trace3", "_type": "trace"}}, .' | split -l 10000 - load-
 
 for f in load-* ; do cat $f | curl -v -XPOST 'http://elastic:changeme@localhost:9200/_bulk' --data-binary @- ; done
 </code>
 
 OK! Now we can finally have some fun!
 
-Given a file, annotate the lines with a list of the tests that touch that line:
-<code>
-FILEPATH=$1
 
-curl -s -XGET "localhost:9200/trace/_search?q=%2Bpath:$FILEPATH%20%2Bline:%5B1%20TO%20100000%5D&sort=timestamp:desc&size=10000&pretty" | jq -r '.hits.hits[]._source| "\(.line) \(.rspec_location)"' | sort -u -n
-</code>
-
-Given a file and a line, list all of the tests that cover that line:
 <code>
 #!/bin/sh
 
 FILEPATH=$1
 LINE=$2
 
-curl -s -XGET "localhost:9200/trace/_search?q=%2Bpath:$FILEPATH%20%2Bline:$LINE&sort=timestamp:desc&size=1000&pretty" | jq -r '.hits.hits[]._source.rspec_location' | sort -u
+curl -s -XGET "localhost:9200/trace3/_search?q=%2Bpath:$FILEPATH%20%2Bline:$LINE&sort=timestamp:desc&size=1000&pretty" | jq -r '.hits.hits[]._source.rspec_location' | sort -u
 </code>
 
-Ideas:
-* Editor:
-  * Add to quickfix all of the tests that get here
-  * Highlight on the screen in a heatmap way the code that leads to the current line and the code that leads away from the current line
-  * Highlight untested lines
-  * Given a test, highlight lines that get executed
-  * Follow a trace within the editor, stepping forward/back/in/out. Choose your own adventure for where to step next
-* Given a test, generate a new copy of the codebase with only enough code to pass that one test
-* Visualize (graphviz) some interesting control flows
-  * Make an interactive (svg+web) trace
-  * Highlight past vs future in different colors
-* Record state in the trace -- local variable contents
+<code>
+FILEPATH=$1
+
+curl -s -XGET "localhost:9200/trace3/_search?q=%2Bpath:work_order.rb%20%2Bline:%5B1%20TO%20100000%5D&sort=timestamp:desc&size=10000&pretty" | jq -r '.hits.hits[]._source| "\(.line) \(.rspec_location)"' | sort -u -n
+</code>
+
 
 
