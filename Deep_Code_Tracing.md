@@ -1,7 +1,7 @@
 ---
 title: Deep_Code_Tracing
-createdAt: 2017-07-30T01:56-04:00
-editedAt: 2017-07-30T02:00-04:00
+createdAt: 2017-07-30T01:47-04:00
+editedAt: 2017-07-30T01:56-04:00
 ---
 
 (Draft blog entry)
@@ -15,7 +15,7 @@ docker run -d -p 9200:9200 -p 5601:5601 nshou/elasticsearch-kibana
 
 We're going to record our traces as a time-series. We unfortunately have to do a small config first, to ES know that our timestamp is ... a timestamp:
 <code>
-curl -v -XPUT 'http://elastic:changeme@localhost:9200/trace' -d '
+curl -v -XPUT 'http://elastic:changeme@localhost:9200/trace' --data-binary -d '
 {
   "mappings": {
     "trace": {
@@ -29,11 +29,11 @@ curl -v -XPUT 'http://elastic:changeme@localhost:9200/trace' -d '
 }'
 </code>
 
-Now we need to write down interesting things during our program execution. In my case, I'm working with a Rails project using RSpec. So I put this code near the top of spec/spec_helper.rb. Once executed, this code will start writing out to 'trace.log' lots and lots of tracing data:
+Now we need to write down interesting things during our program execution. In my case, I'm working with a Rails project using RSpec. So I put this code near the top of spec/spec_helper.rb. Once executed, this code will start writing out to 'trace_log.json' lots and lots of tracing data:
 <code>
 git_sha = `git rev-parse HEAD`.chomp
 trace_seq = 0
-trace_log = File.new('trace.log', 'w')
+trace_log = File.new('trace_log.json', 'w')
 trace_id = SecureRandom.uuid
 trace = TracePoint.new(:line) do |tp|
   next unless tp.path.start_with?(Rails.root.to_s)
@@ -69,9 +69,9 @@ config.after :each do
 end
 </code>
 
-Then I run my tests, which outputs trace.log. Now we load it into our ES. I do this in batches of 10k, and then POST it into ES:
+Then I run my tests, which outputs trace_log.json. Now we load it into our ES. I do this in batches of 10k, and then POST it into ES:
 <code>
-cat trace.log| jq -c '. | {"index": {"_index": "trace", "_type": "trace"}}, .' | split -l 10000 - load-
+cat trace_log.json| jq -c '. | {"index": {"_index": "trace", "_type": "trace"}}, .' | split -l 10000 - load-
 
 for f in load-* ; do cat $f | curl -v -XPOST 'http://elastic:changeme@localhost:9200/_bulk' --data-binary @- ; done
 </code>
