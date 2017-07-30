@@ -1,7 +1,7 @@
 ---
 title: Deep_Code_Tracing
-createdAt: 2017-07-30T02:00-04:00
-editedAt: 2017-07-31T10:29-04:00
+createdAt: 2017-07-30T01:56-04:00
+editedAt: 2017-07-30T02:00-04:00
 ---
 
 (Draft blog entry)
@@ -69,13 +69,11 @@ config.after :each do
 end
 </code>
 
-Then I run my tests, which outputs trace.log. Mine is 123M (after disabling some logging). Now we load it into our ES. I do this in batches of 10k, and then POST it into ES:
+Then I run my tests, which outputs trace.log. Now we load it into our ES. I do this in batches of 10k, and then POST it into ES:
 <code>
-cat trace.log | jq -c '. | {"index": {"_index": "trace", "_type": "trace"}}, .' | split -l 10000 - load-
+cat trace.log| jq -c '. | {"index": {"_index": "trace", "_type": "trace"}}, .' | split -l 10000 - load-
 
-for f in load-* ; do
-  cat $f | curl -XPOST 'http://elastic:changeme@localhost:9200/_bulk' --data-binary @- >/dev/null
-done
+for f in load-* ; do cat $f | curl -v -XPOST 'http://elastic:changeme@localhost:9200/_bulk' --data-binary @- ; done
 </code>
 
 OK! Now we can finally have some fun!
@@ -84,9 +82,7 @@ Given a file, annotate the lines with a list of the tests that touch that line:
 <code>
 FILEPATH=$1
 
-curl -s -XGET "localhost:9200/trace/_search?q=%2Bpath:$FILEPATH%20%2Bline:%5B1%20TO%20100000%5D&sort=timestamp:desc&size=10000&pretty" \
-  | jq -r '.hits.hits[]._source| "\(.line) \(.rspec_location)"' \
-  | sort -u -n
+curl -s -XGET "localhost:9200/trace/_search?q=%2Bpath:$FILEPATH%20%2Bline:%5B1%20TO%20100000%5D&sort=timestamp:desc&size=10000&pretty" | jq -r '.hits.hits[]._source| "\(.line) \(.rspec_location)"' | sort -u -n
 </code>
 
 Given a file and a line, list all of the tests that cover that line:
@@ -96,10 +92,7 @@ Given a file and a line, list all of the tests that cover that line:
 FILEPATH=$1
 LINE=$2
 
-curl -s -XGET \
-  "localhost:9200/trace/_search?q=%2Bpath:$FILEPATH%20%2Bline:$LINE&sort=timestamp:desc&size=1000&pretty" \
-  | jq -r '.hits.hits[]._source.rspec_location' \
-  | sort -u
+curl -s -XGET "localhost:9200/trace/_search?q=%2Bpath:$FILEPATH%20%2Bline:$LINE&sort=timestamp:desc&size=1000&pretty" | jq -r '.hits.hits[]._source.rspec_location' | sort -u
 </code>
 
 Ideas:
