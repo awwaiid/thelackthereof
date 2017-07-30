@@ -1,7 +1,7 @@
 ---
 title: Deep_Code_Tracing
-createdAt: 2017-07-30T01:47-04:00
-editedAt: 2017-07-30T01:56-04:00
+createdAt: 2017-07-30T01:44-04:00
+editedAt: 2017-07-30T01:47-04:00
 ---
 
 (Draft blog entry)
@@ -108,4 +108,14 @@ Ideas:
   * Highlight past vs future in different colors
 * Record state in the trace -- local variable contents
 
+Indent test
+
+* This:
+  * Is:
+    * A:
+      * Test
+      * To
+    * See
+* if indenting
+    * Works
 
