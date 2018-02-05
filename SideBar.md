@@ -1,7 +1,7 @@
 ---
 title: SideBar
 createdAt: 2018-02-04T22:08-05:00
-editedAt: 2018-06-30T15:23-04:00
+editedAt: 2018-02-04T22:08-05:00
 ---
 
 === Navigation ===
@@ -21,6 +21,8 @@ twitter:awwaiid
 
 === Code ===
 github:awwaiid
+<rss 5 "http://www.devtacular.com/utilities/atomtorss/?url=https%3a%2f%2fgithub.com%2fawwaiid.atom">
+<rss 5 "https://github.com/awwaiid.atom">
 <rss 5 "http://feedmix.novaclic.com/atom2rss.php?source=https%3A%2F%2Fgithub.com%2Fawwaiid.atom">
 
 === Wiki Edits ===
