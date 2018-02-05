@@ -1,7 +1,7 @@
 ---
 title: SideBar
-createdAt: 2018-02-04T21:44-05:00
-editedAt: 2018-02-04T21:53-05:00
+createdAt: 2015-11-22T21:40-05:00
+editedAt: 2018-02-04T21:44-05:00
 ---
 
 === Navigation ===
@@ -18,8 +18,6 @@ https://thelackthereof.org/pics/16px-Feed-icon.svg.png [https://thelackthereof.o
 === Tweets ===
 twitter:awwaiid
 <rss 5 "http://www.devtacular.com/utilities/atomtorss/?url=http%3a%2f%2ftwitrss.me%2ftwitter_user_to_rss%2f%3fuser%3dawwaiid">
-
-<rss 5 "https://twitrss.me/twitter_user_to_rss/?user=awwaiid">
 
 === Code ===
 github:awwaiid
