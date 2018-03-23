@@ -1,7 +1,7 @@
 ---
 title: Autobiography
-createdAt: 2004-05-15T10:24-04:00
-editedAt: 2005-11-05T01:21-05:00
+createdAt: 2018-03-22T22:30-04:00
+editedAt: 2018-03-22T22:30-04:00
 ---
 
 I think it would be nice to write an autobiography. Actuall I think it would be neat to write 5 autobiographies, one every 20 years. I've missed the 20-year mark already, so I figure I can start on the first one now. I also want to get started on such a project sooner than later since I will surely forget things, more than I have already forgotten that is.
@@ -24,10 +24,17 @@ So here is the plan: First I will record a timeline of events, a pretty factual 
 * 2001 Summer : Worked at LLNL again
 * 2002 Summer : Worked at AzSites / 944 Magazine
 * 2002-09 : Began working at IHD
-* 2003-05-17 : Married to Elizabeth Ann McCollum
+* 2003-05-17 : Married!
 * 2004-05-08 : Graduated from NAU
-* 2004-05-09 : Moved to Boston
-
+* 2004-05-09 : Moved to Boston for a month, deal on job fell through
+* 2004-06 : Moved to Phoenix
+* 2004-09 : Moved to Flagstaff, began working for Norchem
+* 2005-05 : Moved to Phoenix, began working for SWCA
+* 2005-05 : Became leader of Phoenix Perl Mongers
+* 2007-05? : Moved to DC, began to work at Liquidity Services
+* 2007 : Revive DC Perl Mongers
+* 2013 : Began working for Optoro
+* 2017 : Began working for Framebridge
 
 == Family Tree ==
 <graph>
@@ -51,7 +58,12 @@ digraph {
   "Penny Rosson"
   "Kandy Kay Rosson"
   "Russle Brock Wilcox Sr";
-  "Joseph Rosson Jr (Jody)"
+  "Joseph Rosson Jr (Jody)";
+  "Peggy Wilcox";
+  "Cindy Wilcox";
+  "Billy Wilcox";
+  "Wesley Wilcox";
+  "Harley Wilcox";
   "Robert McCollum";
   "Michael McCollum";
   "Russle Brock Wilcox Jr" [style = "filled", color = "lightgrey"];
@@ -66,7 +78,18 @@ digraph {
   "Garrett Ray Wilcox";
 
   "Russle Brock Wilcox Sr" -> "Russle Eugene Wilcox";
+  "Peggy Wilcox" -> "Russle Eugene Wilcox";
+  "Cindy Wilcox" -> "Russle Eugene Wilcox";
+  "Billy Wilcox" -> "Russle Eugene Wilcox";
+  "Wesley Wilcox" -> "Russle Eugene Wilcox";
+  "Harley Wilcox" -> "Russle Eugene Wilcox";
+
   "Russle Brock Wilcox Sr" -> "Letha Huffman";
+  "Peggy Wilcox" -> "Letha Huffman";;
+  "Cindy Wilcox" -> "Letha Huffman";;
+  "Billy Wilcox" -> "Letha Huffman";;
+  "Wesley Wilcox" -> "Letha Huffman";;
+  "Harley Wilcox" -> "Letha Huffman";;
 
   "Kandy Kay Rosson" -> "Joseph Wesley Rosson";
   "Kandy Kay Rosson" -> "Kay";
@@ -114,4 +137,5 @@ digraph {
 }
 
 </graph>
+
 
