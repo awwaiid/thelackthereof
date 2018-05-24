@@ -1,8 +1,10 @@
 ---
 title: SandBox
-createdAt: 2005-01-31T05:28-05:00
-editedAt: 2005-04-11T14:07-04:00
+createdAt: 2018-05-24T07:19-04:00
+editedAt: 2018-05-24T07:19-04:00
 ---
+
+Tags: Test, Tagging Demo, Blah
 
 This is the SandBox! Please edit this page so you can learn a little about how a wiki works. You can also check out the [[Text Formatting Rules]].
 
@@ -10,21 +12,17 @@ To get you started, here is [[a link to a new page]]. You just surround your lin
 
 Really. Try it out. Down there at the bottom... the "Edit text of this page" link.
 
-[[a bit of random nothing]]
-----
+http://thelackthereof.org/pics/tao.png
 
-[[TestingNewPage]]
+[[TaoImage]]
 
-hello. test. test2. test3. tesst4.
+Testingtesting
 
-testtest
-----
+la la la
 
-Just trying out your question script. Good idea.
-append test
+Do I have to answer a question to save my edit?
 
-test ... very nice, your question script! thanks!
+Hello, I am trying to figure out if your wiki installation suffer of encoding problems like mine.
 
-----
-Trying the question module...
+Voici donc un texte avec des acaractères accentués. Attention les yeux !
 
