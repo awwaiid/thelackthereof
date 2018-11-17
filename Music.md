@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2018-11-16T22:33-05:00
-editedAt: 2019-09-22T20:50-04:00
+createdAt: 2018-04-14T22:24-04:00
+editedAt: 2018-11-16T22:33-05:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place. Also check out my [[Music Gear and Setup]]!
@@ -47,7 +47,7 @@ This was a CD that Jason and I put together from a random selection of our songs
 ||Happiness Blues                 ||audio:docs/music/album1/05_-_Happiness_Blues                 ||
 ||Zombie Love                     ||audio:docs/music/album1/06_-_Zombie_Love                     ||
 ||[[Got One Shoe]]                ||audio:docs/music/album1/07_-_One_Shoe                        ||
-||[[CDOLTM]]                          ||audio:docs/music/album1/08_-_CDOLTM                          ||
+||CDOLTM                          ||audio:docs/music/album1/08_-_CDOLTM                          ||
 ||Groovin                         ||audio:docs/music/album1/09_-_Groovin                         ||
 ||Shaseys                         ||audio:docs/music/album1/10_-_Shaseys                         ||
 ||Marie Laveau (Bobby Bare cover) ||audio:docs/music/album1/11_-_Marie_Laveau_(Bobby_Bare_cover) ||
