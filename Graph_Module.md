@@ -1,10 +1,42 @@
 ---
 title: Graph_Module
-createdAt: 2004-05-13T10:51-04:00
-editedAt: 2005-06-22T16:51-04:00
+createdAt: 2018-12-15T12:29-05:00
+editedAt: 2018-12-15T12:29-05:00
 ---
 
 The graph module uses GraphViz to draw graphs. Here are some examples I've put together, but much fancier thinges are possible. See http://www.research.att.com/sw/tools/graphviz/refs.html for GraphViz documentation, and see http://www.research.att.com/sw/tools/graphviz/examples/ for some examples.
+
+<graph abc>
+  digraph {
+    a -> b - > c;
+  }
+</graph>
+<graph>
+digraph {
+  rankdir=LR;
+  node [ shape=plaintext fontsize=10 ];
+  struct1 [
+    label=<<TABLE border="0" cellborder="1" cellspacing="0" cellpadding="0" width="75">
+      <TR><TD bgcolor="lightgrey">foo</TD></TR>
+      <TR><TD>columnx</TD></TR>
+      <TR><TD>id</TD></TR>
+      <TR><TD port="barid1">bar_id</TD></TR>
+      <TR><TD>baz</TD></TR>
+      </TABLE>
+    >
+  ];
+  struct0 [
+    label=<<TABLE border="0" cellborder="1" cellspacing="0">
+      <TR><TD bgcolor="lightgrey">bar</TD></TR>
+      <TR><TD port="barid0">id</TD></TR>
+      <TR><TD>name</TD></TR>
+      <TR><TD>date</TD></TR>
+      </TABLE>
+    >
+  ];
+  struct1:barid1 -> struct0:barid0;
+}
+</graph>
 
 <graph>
   digraph {
@@ -52,4 +84,6 @@ digraph G {
 	end [shape=Msquare];
 }
 </graph>
+
+----
 
