@@ -1,12 +1,13 @@
 ---
 title: Pocket_Operator_PO-33
 createdAt: 2019-08-25T16:30-04:00
-editedAt: 2019-08-25T22:03-04:00
+editedAt: 2019-08-25T16:30-04:00
 ---
 
 See also [[Music Gear and Setup]]
 
-right:PO33 In 2019 I got a [https://teenage.engineering/products/po/metal#po-33 Pocket Operator PO-33], part of the "Metal" series of devices from [https://teenage.engineering/ Teenage Engineering]. This is a sampler and step-sequencer in a pocket-calculator-esq form factor. Very fun! These are some notes.
+right:PO33
+In 2019 I got a [https://teenage.engineering/products/po/metal#po-33 Pocket Operator PO-33], part of the "Metal" series of devices from [https://teenage.engineering/ Teenage Engineering]. This is a sampler and step-sequencer in a pocket-calculator-esq form factor. Very fun! These are some notes.
 
 Resources:
 * [https://www.reddit.com/r/pocketoperators/ Reddit - r/pocketoperators] - very active community
