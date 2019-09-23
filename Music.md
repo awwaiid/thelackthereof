@@ -1,7 +1,7 @@
 ---
 title: Music
-createdAt: 2019-09-22T20:50-04:00
-editedAt: 2021-07-30T16:44-04:00
+createdAt: 2018-11-16T22:33-05:00
+editedAt: 2019-09-22T20:50-04:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place. Also check out my [[Music Gear and Setup]]!
@@ -13,7 +13,6 @@ These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0
 Random songs. Some of these are more proof-of-concept than anything :)
 
 ||Song                      ||Play!                                  ||
-||[[Livingroom Adeventures]] || audio:docs/music/livingroom_adventures ||
 ||[[Yo Oliver]] || audio:docs/music/yo_oliver_v1 ||
 ||[[White Roses]] || audio:docs/music/electric_accordion_white_roses ||
 ||[[Gitmo]] || audio:docs/music/gitmo_v1 ||
