@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2020-01-20T14:17-05:00
-editedAt: 2020-04-25T12:34-04:00
+createdAt: 2018-07-29T20:41-04:00
+editedAt: 2020-01-20T14:17-05:00
 ---
 
 /*
@@ -254,15 +254,4 @@ h6, .h6 {
     font-size: 2vw;
   }
 }
-
-.imgleft {
-  float: left;
-  margin: 0.5em 0.5em 0.5em 0;
-}
-
-.imgright {
-  float: right;
-  margin: 0.5em 0 0.5em 0.5em;
-}
-
 
