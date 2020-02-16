@@ -1,6 +1,6 @@
 ---
 title: VueJS_Notes
-createdAt: 2020-02-16T17:06-05:00
+createdAt: 2020-02-16T17:12-05:00
 editedAt: 2020-02-16T17:12-05:00
 ---
 
@@ -24,9 +24,9 @@ editedAt: 2020-02-16T17:12-05:00
 * Sugar
   * One of the ways I like to learn and think about things is "what part of this is sugar?"
   * Attributes in components can use (mis-use?) xml namespaces to indicate the usage of the attribute
-  * v-bind:value="foo"
+  * `v-bind:value="foo"`
     * SUGAR: Drop the `v-bind` and you end up with `:value="foo"`
-  * v-on:click="doStuff"
+  * `v-on:click="doStuff"`
     * SUGAR: Replace `v-on:` with `@` and end up with `@click="doStuff"`
   * Not Vue specific, but there are many oft-used JS sugar things
   * My favorite is implicit-object (aka hash) key
