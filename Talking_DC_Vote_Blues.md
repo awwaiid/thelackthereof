@@ -1,6 +1,6 @@
 ---
 title: Talking_DC_Vote_Blues
-createdAt: 2008-10-06T17:45-04:00
+createdAt: 2020-03-03T16:45-05:00
 editedAt: 2020-03-03T16:45-05:00
 ---
 
@@ -13,7 +13,7 @@ were. They did a mathematical analysis to determine the smallest number of
 votes it would take to change the outcome of an election. This depends on the
 popular vote within a state, and the electorial vote between states.
 
-  https://www.msu.edu/~sheppa28/elections.html
+  https://web.archive.org/web/20080923000039/https://www.msu.edu/~sheppa28/elections.html
 
 How about some illustrations?
 
