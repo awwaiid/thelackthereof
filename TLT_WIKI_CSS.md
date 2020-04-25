@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
 createdAt: 2020-04-25T13:42-04:00
-editedAt: 2020-04-25T13:43-04:00
+editedAt: 2020-04-25T13:42-04:00
 ---
 
 /*
@@ -116,7 +116,7 @@ justify-content: flex-start;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
   text-decoration: none;
 }
-.title h2 {
+.subtitle {
   font-size: 20px;
   color: #999;
 }
