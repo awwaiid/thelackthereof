@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2020-04-25T13:56-04:00
-editedAt: 2020-04-25T14:38-04:00
+createdAt: 2020-04-25T13:55-04:00
+editedAt: 2020-04-25T13:56-04:00
 ---
 
 /*
@@ -113,7 +113,7 @@ margin-left: 2em;
 }
 
 .title h1 {
-  margin: 0;
+  margin: 0
   font-size: 80px;
   font-weight: bold;
 }
