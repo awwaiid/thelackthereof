@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
 createdAt: 2020-04-25T13:55-04:00
-editedAt: 2020-04-25T13:56-04:00
+editedAt: 2020-04-25T13:55-04:00
 ---
 
 /*
@@ -113,8 +113,8 @@ margin-left: 2em;
 }
 
 .title h1 {
-  margin: 0
-  font-size: 80px;
+margin: 0
+  font-size: 60px;
   font-weight: bold;
 }
 .title a, .title a:hover, .title a:active, .title a:visited {
