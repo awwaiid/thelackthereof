@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
 createdAt: 2020-04-25T13:40-04:00
-editedAt: 2020-04-25T13:42-04:00
+editedAt: 2020-04-25T13:40-04:00
 ---
 
 /*
@@ -97,7 +97,7 @@ font-family: 'Baloo Bhaina 2', sans-serif !important;
   background-color: #444;
   border-bottom: 1px solid #888;
 }
-.blog-header .container {
+.blog-header container {
 display: flex;
 flex-direction: row;
 align-items: center;
