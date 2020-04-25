@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2020-04-25T13:53-04:00
-editedAt: 2020-04-25T13:54-04:00
+createdAt: 2020-04-25T13:43-04:00
+editedAt: 2020-04-25T13:53-04:00
 ---
 
 /*
@@ -102,10 +102,6 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: flex-start;
-}
-
-.title {
-margin-left: 2em;
 }
 
 .title h1 {
