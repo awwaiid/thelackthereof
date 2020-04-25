@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2020-04-25T12:34-04:00
-editedAt: 2020-04-25T12:37-04:00
+createdAt: 2020-01-20T14:17-05:00
+editedAt: 2020-04-25T12:34-04:00
 ---
 
 /*
@@ -222,11 +222,11 @@ h6, .h6 {
 
 .journal .page .comment { display: none; }
 
-/*
 .logo {
   vertical-align: text-top;
+  margin-right: 0;
+  float: right;
 }
-*/
 
 @media (max-width: 1081px) {
     .container {
