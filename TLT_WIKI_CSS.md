@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2020-04-25T13:43-04:00
-editedAt: 2020-04-25T13:53-04:00
+createdAt: 2020-04-25T13:42-04:00
+editedAt: 2020-04-25T13:43-04:00
 ---
 
 /*
@@ -118,7 +118,7 @@ justify-content: flex-start;
 }
 .title h2 {
   font-size: 20px;
-  color: #ccc;
+  color: #999;
 }
 
 
