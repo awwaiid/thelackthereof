@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2020-04-25T14:39-04:00
-editedAt: 2020-04-25T14:40-04:00
+createdAt: 2020-04-25T14:38-04:00
+editedAt: 2020-04-25T14:39-04:00
 ---
 
 /*
@@ -264,9 +264,6 @@ margin-left: 2em;
   .title h1 {
   font-size: 40px;
 }
-  .title h2 {
-    font-size: 10px;
-  }
 }
 
 .hljs {
