@@ -1,6 +1,6 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2020-04-25T13:42-04:00
+createdAt: 2020-04-25T13:40-04:00
 editedAt: 2020-04-25T13:42-04:00
 ---
 
@@ -111,12 +111,12 @@ justify-content: flex-start;
   font-size: 60px;
   font-weight: bold;
 }
-.title a, .title a:hover, .title a:active, .title a:visited {
+.blog-title a, .blog-title a:hover, .blog-title a:active, .blog-title a:visited {
   color: #000;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
   text-decoration: none;
 }
-.subtitle {
+.blog-description {
   font-size: 20px;
   color: #999;
 }
