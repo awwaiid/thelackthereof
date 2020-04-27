@@ -1,15 +1,20 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2020-04-27T14:45-04:00
-editedAt: 2020-04-29T00:29-04:00
+createdAt: 2020-04-27T14:36-04:00
+editedAt: 2020-04-27T14:45-04:00
 ---
 
 /*
  * Globals
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Baloo Bhaina 2', sans-serif !important;
+font-family: 'Roboto', sans-serif !important;
   color: #555;
 }
 
@@ -20,7 +25,9 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 0;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: 'Baloo Bhaina 2', sans-serif !important;
+font-family: 'Roboto', sans-serif !important;
   font-weight: normal;
   color: #333;
 }
