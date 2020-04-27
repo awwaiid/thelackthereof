@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2020-04-27T14:28-04:00
-editedAt: 2020-04-27T14:36-04:00
+createdAt: 2020-04-27T14:27-04:00
+editedAt: 2020-04-27T14:28-04:00
 ---
 
 /*
@@ -14,7 +14,7 @@ editedAt: 2020-04-27T14:36-04:00
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-family: 'Baloo Bhaina 2', sans-serif !important;
-font-family: 'Roboto', sans-serif !important;
+font-family: 'Roboto', sans-serif;
   color: #555;
 }
 
@@ -27,7 +27,7 @@ h6, .h6 {
   margin-top: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-family: 'Baloo Bhaina 2', sans-serif !important;
-font-family: 'Roboto', sans-serif !important;
+font-family: 'Roboto', sans-serif;
   font-weight: normal;
   color: #333;
 }
