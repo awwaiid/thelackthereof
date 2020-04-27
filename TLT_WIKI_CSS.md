@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2020-04-27T14:36-04:00
-editedAt: 2020-04-27T14:45-04:00
+createdAt: 2020-04-27T14:28-04:00
+editedAt: 2020-04-27T14:36-04:00
 ---
 
 /*
@@ -111,7 +111,7 @@ justify-content: flex-start;
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: flex-start;
+align-items: center;
 height: 100px;
 margin-left: 2em;
 }
@@ -129,8 +129,7 @@ margin-left: 2em;
 .title h2 {
   font-size: 20px;
   color: #ccc;
-  margin: 0;
-  margin-left: 1em;
+  margin: 0
 }
 
 
