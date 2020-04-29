@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2020-04-29T00:54-04:00
-editedAt: 2020-06-30T21:36-04:00
+createdAt: 2020-04-29T00:51-04:00
+editedAt: 2020-04-29T00:54-04:00
 ---
 
 /*
@@ -131,9 +131,6 @@ margin-left: 2em;
   margin-left: 1em;
 }
 
-.blog-logo {
-  margin-right: 1em;
-}
 
 /*
  * Main column and sidebar layout
