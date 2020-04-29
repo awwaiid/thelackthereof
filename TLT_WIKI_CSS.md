@@ -1,7 +1,7 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2020-04-29T00:51-04:00
-editedAt: 2020-04-29T00:54-04:00
+createdAt: 2020-04-29T00:48-04:00
+editedAt: 2020-04-29T00:51-04:00
 ---
 
 /*
@@ -97,12 +97,16 @@ h6, .h6 {
 display: flex;
 flex-direction: row;
 align-items: center;
+<<<<<<< ancestor
+justify-content: flex-start;
+=======
 justify-content: space-between;
 }
 
 .blog-header .container:before,
 .blog-header .container:after {
   content: none;
+>>>>>>> other
 }
 
 .title {
