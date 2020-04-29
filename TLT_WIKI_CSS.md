@@ -1,348 +1,305 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2004-12-12T19:10-05:00
-editedAt: 2005-02-16T02:58-05:00
+createdAt: 2020-04-29T00:54-04:00
+editedAt: 2020-04-29T00:54-04:00
 ---
 
 /*
-<pre>
-*/
-
-/* CSS for thelackthereof.org wiki */
-
-/* Default theme */
-
-hr {
-  clear: both;
-  border-top: 1px solid white;
-  height: 0px;
-}
-
-.content hr {
-  clear: none;
-}
+ * Globals
+ */
 
 body {
-  background-color: #000000;
-  color: #ffffff;
-  margin: 5px 0px 5px 0px;
-  font-family: arial, sans-serif;
+  font-family: 'Roboto', sans-serif !important;
+  color: #555;
 }
 
-a.tlt-title {
-  font-size: large;
-  letter-spacing: 1.5em;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  margin-left: 0px;
-  margin-right: 0px;
-  text-align: center;
-  display: block;
-  font-face: courier, courier new, monospace;
-}
-
-div.header, div.content, div.footer {
-  margin-left: 5px;
-  margin-right: 5px;
-}
- 
-div.userheader {
-  margin-bottom: 5px;
-}
-
-img.line {
-  background-color: #fff;
-  height: 2px;
-  width: 100%;
-}
-
-img.logo {
-  border-style:none;
-  float: right;
-}
-
-img.graph {
-  float: left;
-  margin: 0.5em;
-  border: 1px solid #888;
-}
-
-.journal .comment {
-  text-align: right;
-  font-size: small;
-}
-
-code {
-  border: 1px solid #888;
-  background-color: #111;
-  white-space: pre;
-  display: block;
-  margin-top: 0.5em;
-  margin-left: 2em;
-  margin-right: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  text-align: left;
-}
-
-pre {
-  text-align: left;
-}
-
-h1 {
-  border-bottom: 1px solid white;
-}
-
-h2, h3 {
-  margin-bottom: 0.2em;
-}
-
-div.cal {
-  font-size: 11px;
-}
-
-div.cal a.wanted {
-  color: white;
-}
-
-div.cal a.exists {
-  background-color: #222;
-}
-
-div.cal a.today {
-  color: #ffaaaa;
-}
-
-form {
-  margin-bottom: 0px;
-}
-
-div.journal h1 {
-  margin: 0px;
-  margin-bottom: 0.5em;
-  margin-top: 2px;
-  padding-left: 5px;
-  border: 1px solid white;
-  background-color: #117;
-  font-size: small;
-}
-
-div.journal h1 a {
-  color: #fff;
-}
-
-div.journal hr {
-  margin-top: 1em;
-  margin-bottom: 0px;
-}
-
-td {
-  border: 1px solid white;
-}
-
-table.user {
-  border-spacing: 0px;
-}
-
-table.user td, table.user th {
-  padding: 2px;
-}
-
-a:link    { color : #aaaaff; text-decoration : none; }
-a:visited { color : #aaaaff; text-decoration : none; }
-a:active  { color : #ff0000; text-decoration : none; }
-a:hover   { color : #88ff88; text-decoration : none; }
-
-/* I'm not sure what all browsers these will work on... */
-a.outside:before { content:"["; }
-a.outside:after { content:"]"; }
-
-/* nor this */
-span.bar a {
-        margin:0;
-        padding:0 1ex 0 1ex;
-        border-left:1px solid white;
-    }
-    span.bar a:first-child, span.bar br + a {
-        padding-left:0;
-        border-left:none;
-    }
-
-.journal h1 { size: large; }
-
-ul { margin-top: 0; }
-
-div.content {
-  margin-left: 20px;
-  margin-right: 180px;
-  text-align: justify;
-}
-
-li {
-  text-align: left;
-}
-
-img.imgleft {
-  margin-right: 0.5em;
-}
-
-img.imgright {
-  margin-left: 0.5em;
-}
-
-div.rss strong {
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif !important;
   font-weight: normal;
+  color: #333;
 }
 
-div.sidebar {
-  float: right;
-  border-left: 1px solid white;
-  width: 155px;
-  padding-left: 5px;
+.content p {
+  margin: 0px 0px 1em;
 }
 
-div.sidebar h3 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border-bottom: 1px solid white;
-  margin-right: 10px;
-}
+/*
+ * Override Bootstrap's default container.
+ */
 
-div.sidebar h3 a.outside:before { content:""; }
-div.sidebar h3 a.outside:after { content:""; }
-div.sidebar h3 a { color: white; }
-
-div.sidebar ul {
-  margin-left: 1em;
-  padding-left: 0px;
-}
-
-div.sidebar li {
-  line-spacing: 0px;
-  list-style: square;
-  font-size: 14px;
-}
-
-div.sidebar div.SimpleRc ul,
-div.sidebar div.SimpleRc p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-div.sidebar div.SimpleRc strong {
-  font-weight: normal;
-  font-size: small;
-  margin-left: 1em;
-  display: none;
-}
-
-/* White Theme - all things must be in the body.white space */
-
-body.white {
-  background-color: #ffffff;
-  color: #000000;
-  margin: 5px 0px 5px 0px;
-  font-family: arial, sans-serif;
-}
-
-body.white a.tlt-title {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
-
-body.white img.line {
-  background-color: #000000;
-  height: 2px;
-  width: 100%;
-}
-
-body.white a:link {
-  color : #3d3dab;
-  text-decoration : none;
-  font-weight: bold;
-}
-
-body.white a:visited {
-  color : #3d3dab;
-  text-decoration : none;
-  font-weight: bold;
-}
-
-body.white h1 {
-  border-bottom: 1px solid black;
-}
-
-body.white div.sidebar {
-  border-left: 1px solid black;
-}
-
-body.white div.sidebar h3 {
-  border-bottom: 1px solid black;
-}
-
-body.white div.sidebar h3 a { color: black; }
-
-body.white img.logo {
-  border: 1px solid black;
-  background-color: #aaf;
-  margin: 0.5em;
-}
-
-body.white img.equation {
-  border: 1px solid black;
-  background-color: #aaf;
-  padding: 0.1em;
-}
-
-body.white code {
-  border: 1px solid black;
-  background-color: #bfbfc0;
-}
-
-body.white div.journal h1 {
-  margin: 0px;
-  margin-bottom: 0.5em;
-  margin-top: 2px;
-  padding-left: 5px;
-  border: 1px solid black;
-  background-color: #aaf;
-  font-size: small;
-}
-
-body.white div.journal h1 a {
-  color: #000;
-}
-
-body.white hr {
-  border-top: 1px solid black;
-}
-
-body.white div.cal a.wanted {
-  color: black;
-}
-
-body.white div.cal a.exists {
-  background-color: #eee;
-}
-
-body.white div.cal a.today {
-  color: #f00;
-}
-
-
-body.print div.sidebar {
-  display: none;
-}
-
-body.print div.content {
-  margin-left: 20px;
-  margin-right: 20px;
-  text-align: justify;
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
 }
 
 
 /*
-</pre>
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #444;
+  border-bottom: 1px solid #888;
+}
+.blog-header .container {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+.blog-header .container:before,
+.blog-header .container:after {
+  content: none;
+}
+
+.title {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+height: 100px;
+margin-left: 2em;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 80px;
+  font-weight: bold;
+}
+.title a, .title a:hover, .title a:active, .title a:visited {
+  color: #000;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+}
+.title h2 {
+  font-size: 20px;
+  color: #ccc;
+  margin: 0;
+  margin-left: 1em;
+}
+
+.blog-logo {
+  margin-right: 1em;
+}
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* hljs */
+.content .hljs {
+  background-color: #111111;
+}
+.content pre {
+  color: #fff;
+}
+
+/* Fine-tune RSS in sidebar */
+.blog-sidebar .rss .time,
+.blog-sidebar .rss .description img,
+.blog-sidebar .rss .description code,
+.blog-sidebar .rss .description .title,
+.blog-sidebar .rss .description span,
+.blog-sidebar .rss .description .more,
+.blog-sidebar .rss .description .tweet-text
+{
+  display: none;
+}
+
+.blog-sidebar .rss .description blockquote {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: small;
+}
+
+.journal .page {
+  border-bottom: 1px solid #888;
+}
+
+.journal .date, .date {
+  display: block;
+  font-size: 20px;
+}
+
+.journal .page .comment { display: none; }
+
+/*
+.logo {
+  vertical-align: text-top;
+}
 */
+
+@media (max-width: 1081px) {
+    .container {
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+  .title h1 {
+  font-size: 60px;
+}
+}
+
+.hljs {
+  font-size: 1.2vw;
+}
+
+@media (max-width: 768px) {
+  .hljs {
+    font-size: 2vw;
+  }
+.title {
+  margin-left: 75px;
+}
+
+  .title h1 {
+  font-size: 40px;
+}
+  .title h2 {
+    font-size: 15px;
+  }
+}
+
+.imgleft {
+  float: left;
+  margin: 0.5em 0.5em 0.5em 0;
+}
+
+.imgright {
+  float: right;
+  margin: 0.5em 0 0.5em 0.5em;
+}
+
 
