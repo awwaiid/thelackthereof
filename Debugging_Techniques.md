@@ -1,7 +1,7 @@
 ---
 title: Debugging_Techniques
-createdAt: 2020-05-20T15:01-04:00
-editedAt: 2020-05-21T10:08-04:00
+createdAt: 2020-05-20T15:00-04:00
+editedAt: 2020-05-20T15:01-04:00
 ---
 
 = Debugging Techniques =
@@ -105,7 +105,7 @@ editedAt: 2020-05-21T10:08-04:00
   * wireshark?
 * Science!
   * "Remember kids, the only difference between screwing around and science is writing it down" -- Adam Savage
-    * https://www.reddit.com/r/mythbusters/comments/3wgqgv/the_origin_of_the_remember_kids_the_only/
+    https://www.reddit.com/r/mythbusters/comments/3wgqgv/the_origin_of_the_remember_kids_the_only/
   * The tool of last resort?
   * When things can't fit in our tiny brains
   * Write it as a test
