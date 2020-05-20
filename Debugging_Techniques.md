@@ -1,7 +1,7 @@
 ---
 title: Debugging_Techniques
-createdAt: 2020-05-20T15:00-04:00
-editedAt: 2020-05-20T15:01-04:00
+createdAt: 2020-05-20T14:53-04:00
+editedAt: 2020-05-20T15:00-04:00
 ---
 
 = Debugging Techniques =
@@ -19,9 +19,6 @@ editedAt: 2020-05-20T15:01-04:00
   * Build shortcut to getting to the critical point
     * This is a great spot for leveraging unit/feature specs
     * Have a fast way to re-start -- like a save point in a game
-* Get some visibility
-  * Log-based debugging (print "here")
-  * Debugger-based debugging (binding.pry)
 * Look at the actual database / storage
 * Use a completely different dataset / environment to reproduce
 * Eliminate your environment as the unintended cause of the issue
@@ -86,14 +83,12 @@ editedAt: 2020-05-20T15:01-04:00
   * The datatypes
   * External state is changing (and depended on)
     * Time! My favorite. (TimeCop)
-      * Especially time zones, DST, and holidays
     * Other systems
 * Key tools
   * grep/rg
   * Your editor
   * Pry/irb, js `debugger`+firefox/chrome
   * rspec/capybara
-  * diff
 * Add debugging to your dependencies!
   * bundle open
 * Read code of your dependencies
