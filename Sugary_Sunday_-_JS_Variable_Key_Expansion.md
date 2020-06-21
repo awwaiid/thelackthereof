@@ -1,7 +1,7 @@
 ---
 title: Sugary_Sunday_-_JS_Variable_Key_Expansion
-createdAt: 2020-06-21T13:58-04:00
-editedAt: 2020-06-21T14:02-04:00
+createdAt: 2020-06-21T13:57-04:00
+editedAt: 2020-06-21T13:58-04:00
 ---
 
 = Sugary Sunday - Javascript Object Property Shorthand =
@@ -133,5 +133,5 @@ Adding
 
 You can see that the variable name is handily provided. Here when I had multiple variables I want to log it is even more handy.
 
-*DELICIOUS!*
+DELICIOUS!
 
