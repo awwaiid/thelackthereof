@@ -1,8 +1,8 @@
 ---
 title: HomeTest
 createdAt: 2020-06-21T16:01-04:00
-editedAt: 2020-06-21T16:02-04:00
+editedAt: 2020-06-21T16:01-04:00
 ---
 
-<rss 30 "http://feedmix.novaclic.com/atom2rss.php?source=https%3A%2F%2Fgithub.com%2Fawwaiid.atom" "https://nitter.net/search/rss?f=tweets&q=%40awwaiid&e-replies=on&e-nativeretweets=on">
+<rss 10 "http://feedmix.novaclic.com/atom2rss.php?source=https%3A%2F%2Fgithub.com%2Fawwaiid.atom" "https://nitter.net/search/rss?f=tweets&q=%40awwaiid&e-replies=on&e-nativeretweets=on">
 
