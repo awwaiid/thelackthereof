@@ -1,6 +1,6 @@
 ---
 title: TLT_WIKI_CSS
-createdAt: 2020-06-30T21:36-04:00
+createdAt: 2020-04-29T00:54-04:00
 editedAt: 2020-06-30T21:36-04:00
 ---
 
@@ -46,9 +46,8 @@ h6, .h6 {
 
 .blog-masthead {
   background-color: #428bca;
-/*  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-*/
 }
 
 /* Nav links */
