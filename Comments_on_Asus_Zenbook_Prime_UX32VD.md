@@ -1,10 +1,10 @@
 ---
 title: Comments_on_Asus_Zenbook_Prime_UX32VD
-createdAt: 2022-01-22T01:35-05:00
-editedAt: 2022-01-27T11:17-05:00
+createdAt: 2022-01-19T20:27-05:00
+editedAt: 2022-01-22T01:35-05:00
 ---
 
-=== 5 Comments. ===
+=== 4 Comments. ===
 Great! keep it up
 
 -- [https://www.sanjayjangam.com/hindi/good-thoughts-in-hindi/ Good Thoughts in Hindi] 2022-01-08 08:30 UTC
@@ -29,12 +29,5 @@ Very Nice Keep it up.
 Thanks for the info then!
 
 -- [https://redmondorappliancerepair.com/ Redmondorappliancerepair.com] 2022-01-20 01:27 UTC
-
-
-----
-
-Thanks for sharing
-
--- [https://www.brandsnbehind.com jerry2] 2022-01-22 06:35 UTC
 
 
