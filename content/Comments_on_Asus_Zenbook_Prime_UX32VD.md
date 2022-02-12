@@ -1,6 +1,6 @@
 ---
 title: Comments_on_Asus_Zenbook_Prime_UX32VD
-createdAt: 2022-01-27T11:17-05:00
+createdAt: 2022-01-08T03:30-05:00
 editedAt: 2022-01-27T11:17-05:00
 ---
 

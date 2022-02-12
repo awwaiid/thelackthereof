@@ -1,6 +1,6 @@
 ---
 title: ICFP_Contest_2005
-createdAt: 2005-06-26T03:47-04:00
+createdAt: 2005-06-24T10:42-04:00
 editedAt: 2005-06-26T03:47-04:00
 ---
 

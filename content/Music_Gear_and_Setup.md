@@ -1,6 +1,6 @@
 ---
 title: Music_Gear_and_Setup
-createdAt: 2017-06-02T21:50-04:00
+createdAt: 2011-08-27T10:13-04:00
 editedAt: 2017-06-02T21:50-04:00
 ---
 

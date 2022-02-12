@@ -1,6 +1,6 @@
 ---
 title: Comments_on_Fujitsu_Lifebook_T730
-createdAt: 2016-05-28T23:53-04:00
+createdAt: 2010-10-01T16:31-04:00
 editedAt: 2016-05-28T23:53-04:00
 ---
 

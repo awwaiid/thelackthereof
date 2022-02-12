@@ -1,6 +1,6 @@
 ---
 title: Comments_on_TLT_-_2009.11.15_-_The_Internets_Make_Programming_Easy
-createdAt: 2010-06-08T20:52-04:00
+createdAt: 2010-06-08T09:52-04:00
 editedAt: 2010-06-08T20:52-04:00
 ---
 

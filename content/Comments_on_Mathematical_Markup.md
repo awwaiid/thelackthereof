@@ -1,6 +1,6 @@
 ---
 title: Comments_on_Mathematical_Markup
-createdAt: 2011-08-13T14:45-04:00
+createdAt: 2004-07-17T19:36-04:00
 editedAt: 2011-08-13T14:45-04:00
 ---
 

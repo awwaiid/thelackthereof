@@ -1,6 +1,6 @@
 ---
 title: Efficient_CSS_Algorithm
-createdAt: 2005-11-03T17:11-05:00
+createdAt: 2005-09-08T12:40-04:00
 editedAt: 2005-11-03T17:11-05:00
 ---
 

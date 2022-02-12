@@ -1,6 +1,6 @@
 ---
 title: Ruby_vs_Perl6
-createdAt: 2012-06-03T16:37-04:00
+createdAt: 2006-03-10T13:09-05:00
 editedAt: 2012-06-03T16:37-04:00
 ---
 

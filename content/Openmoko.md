@@ -1,6 +1,6 @@
 ---
 title: Openmoko
-createdAt: 2008-09-18T12:49-04:00
+createdAt: 2008-09-06T10:20-04:00
 editedAt: 2008-09-18T12:49-04:00
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: ACM_Turing_Award_and_the_Lag_of_Innovation
-createdAt: 2006-03-01T17:20-05:00
+createdAt: 2006-03-01T16:39-05:00
 editedAt: 2006-03-01T17:20-05:00
 ---
 

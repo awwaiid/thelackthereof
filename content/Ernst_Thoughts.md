@@ -1,6 +1,6 @@
 ---
 title: Ernst_Thoughts
-createdAt: 2008-02-05T00:35-05:00
+createdAt: 2008-02-04T18:36-05:00
 editedAt: 2008-02-05T00:35-05:00
 ---
 

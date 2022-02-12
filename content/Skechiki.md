@@ -1,6 +1,6 @@
 ---
 title: Skechiki
-createdAt: 2010-03-10T22:44-05:00
+createdAt: 2010-03-07T22:15-05:00
 editedAt: 2010-03-10T22:44-05:00
 ---
 

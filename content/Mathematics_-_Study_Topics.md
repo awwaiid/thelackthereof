@@ -1,6 +1,6 @@
 ---
 title: Mathematics_-_Study_Topics
-createdAt: 2009-07-19T18:23-04:00
+createdAt: 2009-07-03T16:46-04:00
 editedAt: 2009-07-19T18:23-04:00
 ---
 

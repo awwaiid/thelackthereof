@@ -1,6 +1,6 @@
 ---
 title: Dynamic_Language_Conference_Brainstorm
-createdAt: 2012-11-14T22:11-05:00
+createdAt: 2012-06-17T00:19-04:00
 editedAt: 2012-11-14T22:11-05:00
 ---
 

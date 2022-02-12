@@ -1,6 +1,6 @@
 ---
 title: Mathematical_Markup
-createdAt: 2011-04-26T02:56-04:00
+createdAt: 2004-06-18T06:26-04:00
 editedAt: 2011-04-26T02:56-04:00
 ---
 

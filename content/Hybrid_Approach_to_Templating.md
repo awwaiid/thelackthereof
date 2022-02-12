@@ -1,6 +1,6 @@
 ---
 title: Hybrid_Approach_to_Templating
-createdAt: 2008-02-22T00:48-05:00
+createdAt: 2008-02-22T00:46-05:00
 editedAt: 2008-02-22T00:48-05:00
 ---
 

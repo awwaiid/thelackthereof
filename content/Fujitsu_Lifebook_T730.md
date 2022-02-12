@@ -1,6 +1,6 @@
 ---
 title: Fujitsu_Lifebook_T730
-createdAt: 2012-01-03T23:06-05:00
+createdAt: 2010-07-27T16:14-04:00
 editedAt: 2012-01-03T23:06-05:00
 ---
 

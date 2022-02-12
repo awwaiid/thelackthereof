@@ -1,6 +1,6 @@
 ---
 title: Don't_Repeat_Yourself
-createdAt: 2016-04-27T22:09-04:00
+createdAt: 2016-04-27T22:03-04:00
 editedAt: 2016-04-27T22:09-04:00
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Linux_on_the_Lenovo_3000_v100
-createdAt: 2007-05-08T01:06-04:00
+createdAt: 2007-01-04T00:32-05:00
 editedAt: 2007-05-08T01:06-04:00
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Firefox_Extensions_I_Like
-createdAt: 2007-04-12T18:46-04:00
+createdAt: 2006-01-30T19:43-05:00
 editedAt: 2007-04-12T18:46-04:00
 ---
 

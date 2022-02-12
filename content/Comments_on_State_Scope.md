@@ -1,6 +1,6 @@
 ---
 title: Comments_on_State_Scope
-createdAt: 2008-11-29T09:30-05:00
+createdAt: 2008-07-05T08:38-04:00
 editedAt: 2008-11-29T09:30-05:00
 ---
 

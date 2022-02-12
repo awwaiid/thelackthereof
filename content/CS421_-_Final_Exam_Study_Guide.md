@@ -1,6 +1,6 @@
 ---
 title: CS421_-_Final_Exam_Study_Guide
-createdAt: 2009-08-02T15:10-04:00
+createdAt: 2009-08-02T12:24-04:00
 editedAt: 2009-08-02T15:10-04:00
 ---
 

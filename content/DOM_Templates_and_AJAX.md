@@ -1,6 +1,6 @@
 ---
 title: DOM_Templates_and_AJAX
-createdAt: 2005-07-19T19:15-04:00
+createdAt: 2005-07-19T19:00-04:00
 editedAt: 2005-07-19T19:15-04:00
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Meta_Information
-createdAt: 2006-02-26T13:46-05:00
+createdAt: 2006-02-24T19:54-05:00
 editedAt: 2006-02-26T13:46-05:00
 ---
 

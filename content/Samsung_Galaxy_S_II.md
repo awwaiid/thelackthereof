@@ -1,6 +1,6 @@
 ---
 title: Samsung_Galaxy_S_II
-createdAt: 2011-12-20T15:54-05:00
+createdAt: 2011-12-15T08:15-05:00
 editedAt: 2011-12-20T15:54-05:00
 ---
 

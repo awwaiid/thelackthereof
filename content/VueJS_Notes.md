@@ -1,6 +1,6 @@
 ---
 title: VueJS_Notes
-createdAt: 2020-02-16T17:12-05:00
+createdAt: 2020-02-16T17:06-05:00
 editedAt: 2020-02-16T17:12-05:00
 ---
 

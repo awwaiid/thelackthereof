@@ -1,6 +1,6 @@
 ---
 title: Thoughts_on_Automatic_Parallelization
-createdAt: 2003-10-24T01:44-04:00
+createdAt: 2003-09-21T05:15-04:00
 editedAt: 2003-10-24T01:44-04:00
 ---
 
