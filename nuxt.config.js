@@ -52,7 +52,17 @@ export default {
   axios: {},
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+  content: {
+    markdown: {
+      remarkPlugins: [
+        ['remark-wiki-link', {
+          // pageResolver: (name) => [name.replace(/ /g, '_').toLowerCase()],
+          pageResolver: (name) => [name.replace(/ /g, '_')],
+          hrefTemplate: (permalink) => `/${permalink}`
+        }]
+      ]
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

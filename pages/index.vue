@@ -24,8 +24,8 @@ export default {
   },
   async fetch() {
     const pages = await this.$content("/")
-      .only(['title', 'description', 'img', 'slug', 'author', 'createdAt', 'editedAt'])
-      .sortBy('createdAt', 'desc')
+      .only(['title', 'description', 'img', 'slug', 'createdAt', 'editedAt'])
+      .sortBy('editedAt', 'desc')
       .fetch();
     this.pages = pages;
   },
