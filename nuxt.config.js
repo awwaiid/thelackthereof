@@ -1,8 +1,6 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+  target: 'server',
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'thelackthereof',
     htmlAttrs: {
@@ -15,43 +13,41 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', href: '/brock-logo-outline-80x100.png' }
     ]
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
+  css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
     '@nuxtjs/google-fonts',
   ],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/proxy'
   ],
 
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
+  publicRuntimeConfig: {
+    baseURL: process.env.BASE_URL || 'http://localhost:3000',
+    axios: {
+      baseURL: process.env.BASE_URL || 'http://localhost:3000'
+    }
+  },
+
   axios: {},
 
-  // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
     markdown: {
       remarkPlugins: [
@@ -59,18 +55,27 @@ export default {
           // pageResolver: (name) => [name.replace(/ /g, '_').toLowerCase()],
           pageResolver: (name) => [name.replace(/ /g, '_')],
           hrefTemplate: (permalink) => `/${permalink}`
-        }]
+        }],
+        // 'remark-gfm'
       ]
     }
   },
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  },
+  build: {},
 
   googleFonts: {
     families: {
       "Nutino": true
     }
+  },
+
+  // Get around CORS
+  proxy: {
+    '/proxy/github': {
+      target: 'https://github.com',
+      // changeOrigin: true,
+      pathRewrite: { '^/proxy/github': '/' },
+    },
   }
+
 }
