@@ -2,7 +2,7 @@ FROM node:16-bullseye
 
 WORKDIR /app
 
-COPY package.json yarn.lock /app
+COPY package.json yarn.lock /app/
 RUN yarn install --frozen-lockfile
 
 COPY . /app
