@@ -184,9 +184,9 @@ Proposed name of my n900: [http://en.wikipedia.org/wiki/Friedrich_Koenig Koenig]
 
 -----
 
-mp3:/docs/music/lateblues.mp3
+audio:docs/music/lateblues
 
-Oh My Baby mp3:/docs/music/oh_my_baby.mp3
+Oh My Baby audio:docs/music/oh_my_baby
 
 ----
 

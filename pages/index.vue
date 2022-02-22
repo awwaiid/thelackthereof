@@ -7,22 +7,23 @@
       :href="item.link"
       class="border-2 border-black rounded-lg m-2 p-2 shadow-xl bg-red-400"
     >
-      <div v-html="item.content" class="github-rss-item" />
+      <div v-cloak v-html="item.content" class="github-rss-item" />
+      <!-- <div>{{item.content}}</div> -->
     </a>
 
-      <NuxtLink
-        v-for="page in pages"
-        :key="page.slug"
-        :to="{ name: 'slug', params: { slug: page.slug } }"
-        class="border-2 border-black rounded-lg m-2 p-2 shadow-xl bg-yellow-500"
-      >
-        <div class="text-xs">
-          Created <span>{{ shortDate(page.createdAt) }}</span>
-          /
-          Edited <span>{{ shortDate(page.editedAt) }}</span>
-        </div>
-        <div v-html="cleanTitle(page.title)"></div>
-      </NuxtLink>
+    <NuxtLink
+      v-for="page in pages"
+      :key="page.slug"
+      :to="{ name: 'slug', params: { slug: page.slug } }"
+      class="border-2 border-black rounded-lg m-2 p-2 shadow-xl bg-yellow-500"
+    >
+      <div class="text-xs">
+        Created <span>{{ shortDate(page.createdAt) }}</span>
+        /
+        Edited <span>{{ shortDate(page.editedAt) }}</span>
+      </div>
+      <div v-html="cleanTitle(page.title)"></div>
+    </NuxtLink>
   </div>
 </template>
 
@@ -41,19 +42,27 @@ export default {
     };
   },
   async fetch() {
-    const pages = await this.$content("/")
-      .only(['title', 'description', 'img', 'slug', 'createdAt', 'editedAt'])
-      .sortBy('editedAt', 'desc')
-      .fetch();
-    this.pages = pages;
-    const parser = new RssParser();
-    const feed = await parser.parseURL(`${this.$config.baseURL}/proxy/github/awwaiid.atom`);
-    // const feedResponse = await this.$axios.$get("https://github.com/awwaiid.atom");
-    // this.feed = feedResponse;
-    // const feed = new window.DOMParser().parseFromString(feedResponse, "text/xml");
-    // const feed = new JSDOM(feedResponse, { contentType: "text/xml" });
-    this.feed = feed;
-    // const items = feed.querySelectorAll("item");
+    try {
+      const pages = await this.$content("/")
+        .only(['title', 'description', 'img', 'slug', 'createdAt', 'editedAt'])
+        .sortBy('editedAt', 'desc')
+        .fetch();
+      this.pages = pages;
+    } catch (e) {
+      console.error("Error loading content", e);
+    }
+    try {
+      const parser = new RssParser();
+      const feed = await parser.parseURL(`${this.$config.baseURL}/proxy/github/awwaiid.atom`);
+      // const feedResponse = await this.$axios.$get("https://github.com/awwaiid.atom");
+      // this.feed = feedResponse;
+      // const feed = new window.DOMParser().parseFromString(feedResponse, "text/xml");
+      // const feed = new JSDOM(feedResponse, { contentType: "text/xml" });
+      this.feed = feed;
+      // const items = feed.querySelectorAll("item");
+    } catch (e) {
+      console.error("Error loading github RSS", e);
+    }
   },
   methods: {
     cleanTitle(value) {
@@ -91,5 +100,9 @@ export default {
 .github-rss-item .Box {
   margin: 0;
   padding: 0;
+}
+
+[v-cloak] {
+  display: none;
 }
 </style>

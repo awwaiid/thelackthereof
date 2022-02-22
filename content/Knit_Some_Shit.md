@@ -4,10 +4,10 @@ createdAt: 2015-06-14T12:10-04:00
 editedAt: 2015-06-14T12:10-04:00
 ---
 
-Listen: audio:docs/music/knit-some-shit-1.mp3 ||
+Listen: audio:docs/music/knit-some-shit-1
 
 Artists: Elizabeth Woys and Brock Wilcox
-Copy and Share: under the terms of [http://creativecommons.org/licenses/by-nc/3.0/|Creative Commons Attribution-NonCommercial] license!
+Copy and Share: under the terms of [[http://creativecommons.org/licenses/by-nc/3.0/|Creative Commons Attribution-NonCommercial]] license!
 
 == Chords ==
 A, D, A E, (A, D, E)

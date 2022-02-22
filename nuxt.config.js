@@ -1,3 +1,5 @@
+import tweakMarkdown from './plugins/tweakMarkdown';
+
 export default {
   target: 'server',
 
@@ -20,7 +22,9 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    // "~/plugins/vue-audio-visual.js"
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -51,17 +55,25 @@ export default {
   content: {
     markdown: {
       remarkPlugins: [
+        '~/plugins/oddmuse-headings',
+        'remark-breaks',
         ['remark-wiki-link', {
           // pageResolver: (name) => [name.replace(/ /g, '_').toLowerCase()],
           pageResolver: (name) => [name.replace(/ /g, '_')],
           hrefTemplate: (permalink) => `/${permalink}`
         }],
-        // 'remark-gfm'
       ]
     }
   },
 
-  build: {},
+  hooks: {
+    "content:file:beforeParse": tweakMarkdown
+  },
+
+
+  build: {
+    // transpile: ['vue-audio-visual']
+  },
 
   googleFonts: {
     families: {

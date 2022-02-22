@@ -4,7 +4,7 @@ createdAt: 2011-08-31T13:34-04:00
 editedAt: 2015-06-14T11:52-04:00
 ---
 
-Listen: audio:docs/music/call_on_borbyu.mp3
+Listen: audio:docs/music/call_on_borbyu
 
 Artists: Elizabeth Woys and Brock Wilcox
 Copy and Share: under the terms of [http://creativecommons.org/licenses/by-nc/3.0/|Creative Commons Attribution-NonCommercial] license!

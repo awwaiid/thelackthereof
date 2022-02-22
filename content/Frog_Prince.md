@@ -13,9 +13,9 @@ Copy and Share: under the terms of [http://creativecommons.org/licenses/by-nc/3.
 == Remixes ==
 I uploaded this to [http://ccmixter.org ccMixter] and some people actually remixed it!
 
-* [http://ccmixter.org/files/charliecharles/48685 Charlie Charles - The Prince] audio:docs/music/frog_prince/charliecharles_-_The_Prince.mp3
-* [http://ccmixter.org/files/Dan_Mantau/48698 Dan Mantau - Frog Prince] audio:docs/music/frog_prince/Dan_Mantau_-_Frog_Prince.mp3
-* [http://ccmixter.org/files/Reiswerk/49738 Reiswerk - Frog Prince] audio:docs/music/frog_prince/Reiswerk_-_Frog_Prince.mp3
+* [http://ccmixter.org/files/charliecharles/48685 Charlie Charles - The Prince] audio:docs/music/frog_prince/charliecharles_-_The_Prince
+* [http://ccmixter.org/files/Dan_Mantau/48698 Dan Mantau - Frog Prince] audio:docs/music/frog_prince/Dan_Mantau_-_Frog_Prince
+* [http://ccmixter.org/files/Reiswerk/49738 Reiswerk - Frog Prince] audio:docs/music/frog_prince/Reiswerk_-_Frog_Prince
 * [https://youtu.be/KhV3k7_GYd0 Manny Arquette - Frog Prince Video]
 
 == Lyrics ==

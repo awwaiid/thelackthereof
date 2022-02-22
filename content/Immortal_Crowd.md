@@ -4,7 +4,7 @@ createdAt: 2012-11-22T10:49-05:00
 editedAt: 2012-12-06T17:59-05:00
 ---
 
-Listen: mp3:/docs/music/immortal_crowd.mp3
+Listen: audio:docs/music/immortal_crowd
 
 Artists: Jason Woys and Brock Wilcox
 Creation: 2012-11-21
