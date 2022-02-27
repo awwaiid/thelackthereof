@@ -54,6 +54,9 @@ export default {
 
   content: {
     markdown: {
+      prism: {
+        theme: 'prismjs/themes/prism-twilight.css'
+      },
       remarkPlugins: [
         '~/plugins/oddmuse-headings',
         'remark-breaks',
@@ -77,7 +80,7 @@ export default {
 
   googleFonts: {
     families: {
-      "Nutino": true
+      "Nunito": true
     }
   },
 

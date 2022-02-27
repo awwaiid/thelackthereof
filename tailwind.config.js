@@ -7,7 +7,7 @@ export default {
       // brown: "#644934",
     }),
     fontFamily: {
-      serif: ["Nutino"]
+      serif: ["Nunito"]
     }
   },
   plugins: [

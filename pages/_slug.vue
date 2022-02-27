@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="glassmorphism m-2 p-2 rounded-lg shadow-xl">
     <h1 class="text-2xl" v-html="cleanTitle(page.title)"></h1>
     <div class="text-xs mb-4">Created {{ shortDate(page.createdAt) }} / Edited {{ shortDate(page.updatedAt) }}</div>
-    <nuxt-content class="prose prose-lg" :document="modifiedPage(page)" />
+    <nuxt-content class="prose prose-lg" :document="page" />
   </div>
 </template>
 
@@ -27,12 +27,6 @@ export default {
     },
     shortDate(timestamp) {
       return timestamp?.replace(/(\d+-\d+-\d+).*/, "$1");
-    },
-    modifiedPage(page) {
-      console.log("page:", page);
-      // page = page.replace(/\[(\S+) (.*?)\]/g, "($1)[$2]");
-
-      return page;
     }
   }
 }

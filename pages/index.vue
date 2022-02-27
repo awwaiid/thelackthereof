@@ -2,21 +2,24 @@
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
 
     <a
-      v-for="item in feed.items"
+      v-for="item in githubFeedLimit"
       :key="item.id"
       :href="item.link"
-      class="border-2 border-black rounded-lg m-2 p-2 shadow-xl bg-red-400"
+      class="glassmorphism m-2 p-2 rounded-lg shadow-xl"
     >
+      <!-- class="border-2 border-black rounded-lg m-2 p-2 shadow-xl bg-red-400" -->
+      <img class="float-right" width="32px" src="/social-media-icons/github.png" />
       <div v-cloak v-html="item.content" class="github-rss-item" />
       <!-- <div>{{item.content}}</div> -->
     </a>
 
     <NuxtLink
-      v-for="page in pages"
+      v-for="page in pages.slice(0, pageCount)"
       :key="page.slug"
       :to="{ name: 'slug', params: { slug: page.slug } }"
-      class="border-2 border-black rounded-lg m-2 p-2 shadow-xl bg-yellow-500"
+      class="rounded-lg m-2 p-2 shadow-xl glassmorphism"
     >
+      <a href="/"><img class="float-right" width="32px" src="/brock-logo-circle-icon-48x48.png"></a>
       <div class="text-xs">
         Created <span>{{ shortDate(page.createdAt) }}</span>
         /
@@ -38,7 +41,8 @@ export default {
   data() {
     return {
       pages: [],
-      feed: {}
+      feed: {},
+      pageCount: 8
     };
   },
   async fetch() {
@@ -53,6 +57,7 @@ export default {
     }
     try {
       const parser = new RssParser();
+      console.log(`fetching ${this.$config.baseURL}/proxy/github/awwaiid.atom`);
       const feed = await parser.parseURL(`${this.$config.baseURL}/proxy/github/awwaiid.atom`);
       // const feedResponse = await this.$axios.$get("https://github.com/awwaiid.atom");
       // this.feed = feedResponse;
@@ -62,6 +67,15 @@ export default {
       // const items = feed.querySelectorAll("item");
     } catch (e) {
       console.error("Error loading github RSS", e);
+    }
+  },
+  computed: {
+    githubFeedLimit() {
+      if (this.feed.items) {
+        return this.feed.items.slice(0, 4);
+      } else {
+        return [];
+      }
     }
   },
   methods: {
@@ -80,7 +94,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .github-rss-item .avatar,
 .github-rss-item .avatar-user,
 .github-rss-item code,
@@ -105,4 +119,6 @@ export default {
 [v-cloak] {
   display: none;
 }
+
+
 </style>
