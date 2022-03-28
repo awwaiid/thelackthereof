@@ -4,8 +4,6 @@ createdAt: 2020-02-16T17:06-05:00
 editedAt: 2020-02-16T17:12-05:00
 ---
 
-= VueJS Notes =
-
 * Vuex
   * Makes me think of Software Transactional Memory
   * Mutations are synchronous

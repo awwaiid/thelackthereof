@@ -1,24 +1,30 @@
 <template>
-  <div class="m-2">
-    <div class="m-2 flex items-center">
-      <a href="/"><img src="/brock-logo-outline-80x100.png"></a>
-      <div class="ml-4 flex-grow">
-        <a href="/">
-          <h1 class="lg:text-2xl font-bold">THE LACK THEREOF</h1>
-          <h2 class="text-xs italic">Various musings of Brock Wilcox (@awwaiid)</h2>
-        </a>
+  <div>
+    <div class="header text-white">
+      <div class="flex items-center header-content">
+        <div class="ml-4 flex-grow header-title">
+
+          <NuxtLink to="/">
+            <h1 class="sm:text-2xl font-bold">THE LACK THEREOF</h1>
+            <h2 class="text-xs italic">Various musings of Brock Wilcox (@awwaiid)</h2>
+          </NuxtLink>
+        </div>
+        <div class="grid grid-cols-3">
+          <a class="social-logo m-1" href="https://www.github.com/awwaiid"><img width="32px" src="/social-media-icons/github.png" /></a>
+          <a class="social-logo m-1" href="https://www.twitter.com/awwaiid/"><img width="32px" src="/social-media-icons/twitter.png" /></a>
+          <a class="social-logo m-1" href="https://www.instagram.com/awwaiid/"><img width="32px" src="/social-media-icons/instagram.png" /></a>
+          <a class="social-logo m-1" href="https://www.linkedin.com/in/brockwilcox/"><img width="32px" src="/social-media-icons/linkedin.png" /></a>
+          <a class="social-logo m-1" href="https://soundcloud.com/awwaiid"><img width="32px" src="/social-media-icons/soundcloud.png" /></a>
+          <a class="social-logo m-1" href="https://www.youtube.com/user/awwaiid"><img width="32px" src="/social-media-icons/youtube.png" /></a>
+          <a class="social-logo m-1" href="https://www.tiktok.com/@awwaiid"><img width="32px" src="/social-media-icons/tiktok.png" /></a>
+          <a class="social-logo m-1" href="mailto:awwaiid@thelackthereof.org"><img width="32px" src="/social-media-icons/email.png" /></a>
+          <a class="social-logo m-1" href="/"><img width="32px" src="/brock-logo-circle-icon-48x48.png" /></a>
+        </div>
       </div>
-      <div class="grid grid-cols-3">
-        <a class="m-1" href="https://www.github.com/awwaiid"><img width="32px" src="/social-media-icons/github.png" /></a>
-        <a class="m-1" href="https://www.twitter.com/awwaiid/"><img width="32px" src="/social-media-icons/twitter.png" /></a>
-        <a class="m-1" href="https://www.instagram.com/awwaiid/"><img width="32px" src="/social-media-icons/instagram.png" /></a>
-        <a class="m-1" href="https://www.linkedin.com/in/brockwilcox/"><img width="32px" src="/social-media-icons/linkedin.png" /></a>
-        <a class="m-1" href="https://soundcloud.com/awwaiid"><img width="32px" src="/social-media-icons/soundcloud.png" /></a>
-        <a class="m-1" href="https://www.youtube.com/user/awwaiid"><img width="32px" src="/social-media-icons/youtube.png" /></a>
-        <a class="m-1" href="https://www.tiktok.com/@awwaiid"><img width="32px" src="/social-media-icons/tiktok.png" /></a>
-        <a class="m-1" href="mailto:awwaiid@thelackthereof.org"><img width="32px" src="/social-media-icons/email.png" /></a>
-        <a class="m-1" href="/"><img width="32px" src="/brock-logo-circle-icon-48x48.png" /></a>
-      </div>
+    </div>
+
+    <div class="flex items-center">
+      <NuxtLink to="/" class="logo-link" />
     </div>
 
     <div class="m-4">
@@ -29,19 +35,74 @@
 
 <style>
 body {
-    height: 100vh;
+    /* height: 100vh;
     display: flex;
-    background-image: url(/bg/orange-land.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #a8803c;
+    background-color: #afa299;
+     background-size: cover; */
 
   font-family: Nunito, sans-serif;
 }
 
+.logo-link {
+  border: 3px solid black;
+  padding: 3px;
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-image: url(/brock-logo-outline-80x100.png);
+  background-position:50% 50%;
+  background-repeat:no-repeat;
+  background-size: 50%;
+  position: relative;
+  top: -28px;
+  left: 10px;
+  margin-bottom: -35px;
+}
+.header-title {
+  position: relative;
+  top: -10px;
+}
+
+.header {
+  background-image: url(/bg/babbage-banner-1500x500.jpeg);
+  background-size: 100% auto;
+  color: rgb(199 191 176);
+
+  /* -webkit-text-stroke: 2px white; */
+}
+
+.header-content {
+  border-bottom: 3px solid black;
+  background: linear-gradient(
+  to right,
+  hsl(0, 0%, 0%) 0%,
+  hsla(0, 0%, 0%, 0.964) 7.4%,
+  hsla(0, 0%, 0%, 0.918) 15.3%,
+  hsla(0, 0%, 0%, 0.862) 23.4%,
+  hsla(0, 0%, 0%, 0.799) 31.6%,
+  hsla(0, 0%, 0%, 0.73) 39.9%,
+  hsla(0, 0%, 0%, 0.655) 48.2%,
+  hsla(0, 0%, 0%, 0.577) 56.2%,
+  hsla(0, 0%, 0%, 0.497) 64%,
+  hsla(0, 0%, 0%, 0.417) 71.3%,
+  hsla(0, 0%, 0%, 0.337) 78.1%,
+  hsla(0, 0%, 0%, 0.259) 84.2%,
+  hsla(0, 0%, 0%, 0.186) 89.6%,
+  hsla(0, 0%, 0%, 0.117) 94.1%,
+  hsla(0, 0%, 0%, 0.054) 97.6%,
+  hsla(0, 0%, 0%, 0) 100%
+);
+
+}
+
+.social-logo {
+  border-radius: 50%;
+  background-color: rgb(199 191 176);
+}
+
 .glassmorphism {
-  background-color: hsla(0, 0%, 97%, 0.2);
+  background-color: hsla(0, 0%, 97%, 0.75);
   border: 1px solid hsla(0, 0%, 97%, 0.4);
   /* -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px); */
@@ -57,15 +118,37 @@ body {
     background-attachment: fixed;
     /* background-image: -moz-element(body); */
 
-    background-image: url(/bg/orange-land.jpg);
+    /* background-image: url(/bg/orange-land.jpg); */
+    background-image: url(/bg/babbage-banner-1500x500.jpeg);
+    background-size: cover;
     content: "";
-    filter: blur(2px);
+    filter: blur(4px);
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
     z-index: -1;
   }
 /* } */
 
+.prose li {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1.1em;
+}
+  .prose-lg > ul > li > *:last-child {
+    margin-bottom: 0;
+}
+
+.prose-lg > ul > li > *:first-child {
+    margin-top: 0;
+}
+
+  .prose-lg ul > li::before {
+    width: 0.3333333em;
+    height: 0.3333333em;
+    top: 0.3em;
+    left: 0.2222222em;
+    background-color: black;
+}
 
 
 </style>
