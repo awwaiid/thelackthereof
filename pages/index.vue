@@ -1,26 +1,7 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-
-    <!--
-    <a
-      v-for="item in githubFeedLimit"
-      :key="item.id"
-      :href="item.link"
-      class="m-2 p-2 rounded-lg shadow border border-gray-300 overflow-hidden"
-    >
-      <img class="float-right" width="32px" src="/social-media-icons/github.png" />
-      <div v-cloak v-html="item.content" class="github-rss-item" />
-    </a>
-    -->
-
-    <div
-      v-for="page in pages.slice(0, pageCount)"
-      :key="page.slug"
-      class="rounded-lg m-2 p-2 shadow border border-gray-300 overflow-hidden"
-    >
-      <PageTile :page="page" />
-    </div>
-
+  <div>
+    <TagNavBar />
+    <PageTileList :pages="pages.slice(0, pageCount)" />
     <button class="m-2 p-2 rounded-lg shadow border border-gray-300" @click="morePages">
       Load More
     </button>
@@ -45,7 +26,7 @@ export default {
   async fetch() {
     try {
       const pages = await this.$content("/")
-        .only(['title', 'description', 'img', 'slug', 'createdAt', 'updatedAt'])
+        .only(['title', 'description', 'img', 'slug', 'createdAt', 'updatedAt', 'tags'])
         .sortBy('updatedAt', 'desc')
         .fetch();
       this.pages = pages;
