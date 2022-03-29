@@ -1,7 +1,8 @@
 ---
 title: Comments_on_TLT_-_2006.10.21_-_Tempe_Alien_Landing_Base_Construction
+tags: []
 createdAt: 2006-10-21T19:05-04:00
-editedAt: 2006-10-22T11:57-04:00
+updatedAt: 2006-10-22T11:57-04:00
 ---
 
 === 3 Comments. ===

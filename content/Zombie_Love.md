@@ -1,7 +1,8 @@
 ---
 title: Zombie_Love
+tags: []
 createdAt: 2008-03-30T16:50-04:00
-editedAt: 2008-03-30T17:04-04:00
+updatedAt: 2008-03-30T17:04-04:00
 ---
 
 Recorded March 27 with Liz on guitar: [http://thelackthereof.org/docs/music/zombielove.ogg zombielove.ogg]

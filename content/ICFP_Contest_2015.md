@@ -1,7 +1,8 @@
 ---
 title: ICFP_Contest_2015
+tags: []
 createdAt: 2015-08-13T02:48-04:00
-editedAt: 2015-08-13T02:48-04:00
+updatedAt: 2015-08-13T02:48-04:00
 ---
 
 == Challenge: Hexagon Tetris AI ==

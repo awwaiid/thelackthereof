@@ -1,7 +1,8 @@
 ---
 title: SetDB_Code_Examples
+tags: []
 createdAt: 2004-02-24T01:29-05:00
-editedAt: 2004-02-24T01:29-05:00
+updatedAt: 2004-02-24T01:29-05:00
 ---
 
 Here is some actual working code from SetDB 0.2:

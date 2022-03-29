@@ -1,7 +1,8 @@
 ---
 title: Predict_And_Control
+tags: []
 createdAt: 2011-07-19T20:45-04:00
-editedAt: 2011-07-21T07:35-04:00
+updatedAt: 2011-07-21T07:35-04:00
 ---
 
 <blockquote><i>Abstract: I present here a model of Free Will which aims to be of practical use both within one's own life and for understanding and having compassion for other entities. The model is built on defining Free Will as accurate prediction combined with accurate control. Because we can predict and control with varying accuracy about a topic, Free Will becomes a sort of probability field which can be strong or weak for an entity and dimension of will. Finally, I advocate for us each to seek ways of increasing our own Free Will.</i></blockquote>

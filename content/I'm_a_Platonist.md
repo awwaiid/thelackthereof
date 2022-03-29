@@ -1,7 +1,8 @@
 ---
 title: I'm_a_Platonist
+tags: []
 createdAt: 2004-08-24T16:32-04:00
-editedAt: 2004-08-24T16:32-04:00
+updatedAt: 2004-08-24T16:32-04:00
 ---
 
 From http://wikipedia.org/ we see that [http://en.wikipedia.org/wiki/Platonism Platonism] can be defind along these lines:

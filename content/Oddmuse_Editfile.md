@@ -1,7 +1,8 @@
 ---
 title: Oddmuse_Editfile
+tags: []
 createdAt: 2007-07-15T23:03-04:00
-editedAt: 2007-07-15T23:03-04:00
+updatedAt: 2007-07-15T23:03-04:00
 ---
 
 I like to do documentation both directly in a program (like with POD) and in an associated wiki (like here). I do not, however, want to duplicate effort.

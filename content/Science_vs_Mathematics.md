@@ -1,7 +1,8 @@
 ---
 title: Science_vs_Mathematics
+tags: []
 createdAt: 2005-07-22T00:29-04:00
-editedAt: 2005-07-22T00:29-04:00
+updatedAt: 2005-07-22T00:29-04:00
 ---
 
 (originally written up at [[TLT - 2005.04.25]])

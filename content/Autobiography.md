@@ -1,7 +1,8 @@
 ---
 title: Autobiography
+tags: []
 createdAt: 2004-05-15T10:24-04:00
-editedAt: 2018-03-22T22:30-04:00
+updatedAt: 2018-03-22T22:30-04:00
 ---
 
 I think it would be nice to write an autobiography. Actuall I think it would be neat to write 5 autobiographies, one every 20 years. I've missed the 20-year mark already, so I figure I can start on the first one now. I also want to get started on such a project sooner than later since I will surely forget things, more than I have already forgotten that is.

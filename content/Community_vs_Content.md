@@ -1,7 +1,8 @@
 ---
 title: Community_vs_Content
+tags: []
 createdAt: 2004-03-20T03:47-05:00
-editedAt: 2004-03-20T03:47-05:00
+updatedAt: 2004-03-20T03:47-05:00
 ---
 
 Quoting with permission, March 20, 2004:

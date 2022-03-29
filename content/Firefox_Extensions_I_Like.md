@@ -1,7 +1,8 @@
 ---
 title: Firefox_Extensions_I_Like
+tags: []
 createdAt: 2006-01-30T19:43-05:00
-editedAt: 2007-04-12T18:46-04:00
+updatedAt: 2007-04-12T18:46-04:00
 ---
 
 * [https://addons.mozilla.org/extensions/moreinfo.php?id=785 Tab X]

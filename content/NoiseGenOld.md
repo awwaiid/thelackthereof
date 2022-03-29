@@ -1,7 +1,8 @@
 ---
 title: NoiseGenOld
+tags: []
 createdAt: 2012-06-23T16:32-04:00
-editedAt: 2012-06-23T16:32-04:00
+updatedAt: 2012-06-23T16:32-04:00
 ---
 
 Lately I've been interested in digital audio. While exploring, I ran into the PortAudio library, which makes it really easy to output sound from a variety of languages and on a variety of platforms.

@@ -1,7 +1,8 @@
 ---
 title: Mutt
+tags: []
 createdAt: 2004-02-09T14:11-05:00
-editedAt: 2004-02-09T14:11-05:00
+updatedAt: 2004-02-09T14:11-05:00
 ---
 
 == A Guys Best Friend ==

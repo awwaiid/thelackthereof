@@ -1,7 +1,8 @@
 ---
 title: ArcaneJill
+tags: []
 createdAt: 2005-05-11T01:39-04:00
-editedAt: 2005-05-11T01:39-04:00
+updatedAt: 2005-05-11T01:39-04:00
 ---
 
 Arcanejill (or Archanejill) is the Sony Z505JSK which was kindly donated to my by Adam. She has been the most wonderful computer, let alone laptop, which I have had the pleasure to own. I haven't given her enough credit, or even utilized her quite as much as I could perhaps... but damn I'd miss her if she was gone!

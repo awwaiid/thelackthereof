@@ -1,7 +1,8 @@
 ---
 title: ODB
+tags: []
 createdAt: 2005-08-17T19:56-04:00
-editedAt: 2005-08-17T19:56-04:00
+updatedAt: 2005-08-17T19:56-04:00
 ---
 
 == Object DataBase ==

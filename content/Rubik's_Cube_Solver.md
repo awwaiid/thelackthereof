@@ -1,7 +1,8 @@
 ---
 title: Rubik's_Cube_Solver
+tags: []
 createdAt: 2006-08-29T02:53-04:00
-editedAt: 2006-08-29T02:53-04:00
+updatedAt: 2006-08-29T02:53-04:00
 ---
 
 I finally got my own Rubik's Cube! The things were initially marketed the year I was born, and though I adore puzzles of the sort I never did get one. I hinted and hinted but friends and family never got me one. They must've assumed that I already had one or something.

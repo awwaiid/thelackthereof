@@ -1,7 +1,8 @@
 ---
 title: Debunking_Model_View_Controller
+tags: []
 createdAt: 2005-07-01T20:45-04:00
-editedAt: 2005-07-01T20:45-04:00
+updatedAt: 2005-07-01T20:45-04:00
 ---
 
 = In a Web-Application Context =

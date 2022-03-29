@@ -1,7 +1,8 @@
 ---
 title: Unison_Backup_Setup
+tags: []
 createdAt: 2006-03-18T03:00-05:00
-editedAt: 2006-03-18T03:24-05:00
+updatedAt: 2006-03-18T03:24-05:00
 ---
 
 I use [http://www.cis.upenn.edu/~bcpierce/unison/ Unison] to keep my important files synchronized between machines. This is a description of how I have it arranged and to some degree automated.

@@ -1,7 +1,8 @@
 ---
 title: Census_Data_Extraction
+tags: []
 createdAt: 2006-03-06T14:41-05:00
-editedAt: 2006-06-16T04:49-04:00
+updatedAt: 2006-06-16T04:49-04:00
 ---
 
 I'v been working for some time now on extracting some 2000 and 1990 census data. After a few failed starts, here I'll document what I've actually come up with. A bit.

@@ -1,7 +1,8 @@
 ---
 title: Brock's_Journal_-_2004.01.16
+tags: []
 createdAt: 2004-01-16T12:51-05:00
-editedAt: 2004-01-16T12:51-05:00
+updatedAt: 2004-01-16T12:51-05:00
 ---
 
 I was reading some random news article and noticed an advertisement with a cool logo from http://www.rackspace.co.uk/ and so I went to the site to get a better look. Pretty good looking, I thought, so I left it open so I could show Chelseya sometime.

@@ -1,7 +1,8 @@
 ---
 title: SetDB_Philosophy
+tags: []
 createdAt: 2004-02-22T00:36-05:00
-editedAt: 2015-07-27T16:52-04:00
+updatedAt: 2015-07-27T16:52-04:00
 ---
 
 === The Problem ===

@@ -1,7 +1,8 @@
 ---
 title: WYSIWYG
+tags: []
 createdAt: 2004-01-22T02:08-05:00
-editedAt: 2004-01-22T02:08-05:00
+updatedAt: 2004-01-22T02:08-05:00
 ---
 
 === What You See Is What You Get ===

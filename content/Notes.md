@@ -1,7 +1,8 @@
 ---
 title: Notes
+tags: []
 createdAt: 2005-01-26T15:13-05:00
-editedAt: 2010-08-12T21:13-04:00
+updatedAt: 2010-08-12T21:13-04:00
 ---
 
 Put this in your .screenrc and your terminal's normal scrollback will work for the screen history! WOOT!!!

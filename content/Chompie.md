@@ -1,7 +1,8 @@
 ---
 title: Chompie
+tags: []
 createdAt: 2007-07-15T22:57-04:00
-editedAt: 2007-07-15T22:59-04:00
+updatedAt: 2007-07-15T22:59-04:00
 ---
 
 I saw this really cool presentation at CodeCon one time... and stole their idea. I'll have to find a link.

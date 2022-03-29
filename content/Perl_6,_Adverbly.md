@@ -1,7 +1,8 @@
 ---
 title: Perl_6,_Adverbly
+tags: []
 createdAt: 2016-01-25T09:25-05:00
-editedAt: 2016-01-25T09:25-05:00
+updatedAt: 2016-01-25T09:25-05:00
 ---
 
 Work-In-Progress

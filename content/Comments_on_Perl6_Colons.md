@@ -1,7 +1,8 @@
 ---
 title: Comments_on_Perl6_Colons
+tags: []
 createdAt: 2016-01-21T00:03-05:00
-editedAt: 2017-07-22T11:37-04:00
+updatedAt: 2017-07-22T11:37-04:00
 ---
 
 === 9 Comments. ===

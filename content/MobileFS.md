@@ -1,7 +1,8 @@
 ---
 title: MobileFS
+tags: []
 createdAt: 2007-11-15T23:06-05:00
-editedAt: 2008-01-21T20:54-05:00
+updatedAt: 2008-01-21T20:54-05:00
 ---
 
 This is a Fuse filesystem to ease going mobile. At home I have a central server for music files, for example. But the archive is too big to take with me. I don't usually listen to _all_ of the songs, however, really I only listen to certain ones.

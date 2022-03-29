@@ -1,7 +1,8 @@
 ---
 title: Don't_Repeat_Yourself
+tags: []
 createdAt: 2016-04-27T22:03-04:00
-editedAt: 2016-04-27T22:09-04:00
+updatedAt: 2016-04-27T22:09-04:00
 ---
 
 Listen (acoustic draft): audio:docs/music/dont_repeat_yourself

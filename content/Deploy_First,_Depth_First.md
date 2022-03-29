@@ -1,7 +1,8 @@
 ---
 title: Deploy_First,_Depth_First
+tags: []
 createdAt: 2017-01-22T14:07-05:00
-editedAt: 2017-01-22T16:23-05:00
+updatedAt: 2017-01-22T16:23-05:00
 ---
 
 Common project risks:

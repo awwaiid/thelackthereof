@@ -1,7 +1,8 @@
 ---
 title: Robits
+tags: []
 createdAt: 2004-02-03T19:58-05:00
-editedAt: 2004-02-03T19:58-05:00
+updatedAt: 2004-02-03T19:58-05:00
 ---
 
 == Intelligent Robots and Programs==

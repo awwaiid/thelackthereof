@@ -1,7 +1,8 @@
 ---
 title: Galaxy_Note_Unlock_Notes
+tags: []
 createdAt: 2012-07-23T08:08-04:00
-editedAt: 2012-07-23T08:08-04:00
+updatedAt: 2012-07-23T08:08-04:00
 ---
 
 sg3 unlock -- flip "lock" bit in nv_data.bin

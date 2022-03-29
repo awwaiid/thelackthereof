@@ -1,7 +1,8 @@
 ---
 title: Continuity
+tags: []
 createdAt: 2005-01-21T19:05-05:00
-editedAt: 2008-12-20T16:31-05:00
+updatedAt: 2008-12-20T16:31-05:00
 ---
 
 I think maybe this is outdated. You should go over to [http://continuity.tlt42.org/ the continuity website] now.

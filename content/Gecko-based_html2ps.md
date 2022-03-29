@@ -1,7 +1,8 @@
 ---
 title: Gecko-based_html2ps
+tags: []
 createdAt: 2005-02-25T10:46-05:00
-editedAt: 2005-03-02T17:18-05:00
+updatedAt: 2005-03-02T17:18-05:00
 ---
 
 This is an idea I (and lots of other people) have been toying with for a long time. Well its about time that I actually DO something about it.

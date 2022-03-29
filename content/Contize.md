@@ -1,7 +1,8 @@
 ---
 title: Contize
+tags: []
 createdAt: 2004-07-24T15:56-04:00
-editedAt: 2007-09-28T12:28-04:00
+updatedAt: 2007-09-28T12:28-04:00
 ---
 
 == Fake Continuations for a Perl Object ==

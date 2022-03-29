@@ -1,7 +1,8 @@
 ---
 title: Project_-_GOE_(abstract)
+tags: ["project","code"]
 createdAt: 2003-08-31T19:15-04:00
-editedAt: 2003-08-31T19:19-04:00
+updatedAt: 2003-08-31T19:19-04:00
 ---
 
 

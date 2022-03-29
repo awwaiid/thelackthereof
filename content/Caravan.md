@@ -1,7 +1,8 @@
 ---
 title: Caravan
+tags: []
 createdAt: 2010-08-16T02:07-04:00
-editedAt: 2010-08-16T02:29-04:00
+updatedAt: 2010-08-16T02:29-04:00
 ---
 
 For my cs512 class (Advanced Data Mining), I'm re-implementing CloSpan and CISpan, and am going to add to them FloSpan (or whatever I call it). In order to do this, I've built up some common libraries and I'm calling the overall framework 'Caravan'. I've actually started from scratch twice already!

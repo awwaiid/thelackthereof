@@ -1,7 +1,8 @@
 ---
 title: The_Haiku_Game
+tags: []
 createdAt: 2006-05-14T16:03-04:00
-editedAt: 2006-05-14T16:03-04:00
+updatedAt: 2006-05-14T16:03-04:00
 ---
 
 We pick a random object or topic for the other person to write a haiku.

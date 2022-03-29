@@ -1,7 +1,8 @@
 ---
 title: Linux_on_the_Lenovo_3000_v100
+tags: []
 createdAt: 2007-01-04T00:32-05:00
-editedAt: 2007-05-08T01:06-04:00
+updatedAt: 2007-05-08T01:06-04:00
 ---
 
 Just got a brand new Lenovo 3000 v100 0763-4CU, and thought I'd throw up some notes.

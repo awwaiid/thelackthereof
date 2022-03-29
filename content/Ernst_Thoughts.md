@@ -1,7 +1,8 @@
 ---
 title: Ernst_Thoughts
+tags: []
 createdAt: 2008-02-04T18:36-05:00
-editedAt: 2008-02-05T00:35-05:00
+updatedAt: 2008-02-05T00:35-05:00
 ---
 
 == Merge the Model and View ==

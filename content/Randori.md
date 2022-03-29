@@ -1,7 +1,8 @@
 ---
 title: Randori
+tags: []
 createdAt: 2017-04-26T15:37-04:00
-editedAt: 2017-05-18T11:31-04:00
+updatedAt: 2017-05-18T11:31-04:00
 ---
 
 <i>"Pair Programming Musical Chairs"</i>

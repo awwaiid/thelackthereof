@@ -1,7 +1,8 @@
 ---
 title: WayV
+tags: []
 createdAt: 2008-09-11T10:22-04:00
-editedAt: 2008-09-11T10:34-04:00
+updatedAt: 2008-09-11T10:34-04:00
 ---
 
 From Mike Bennett's WayV page, WayV is...

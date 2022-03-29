@@ -1,7 +1,8 @@
 ---
 title: Study_of_Hobbs'_Leviathan
+tags: []
 createdAt: 2007-03-18T13:29-04:00
-editedAt: 2007-03-25T14:30-04:00
+updatedAt: 2007-03-25T14:30-04:00
 ---
 
 Moved to http://aspbc.42t.org/Brock

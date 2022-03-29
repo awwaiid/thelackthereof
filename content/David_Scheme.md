@@ -1,7 +1,8 @@
 ---
 title: David_Scheme
+tags: []
 createdAt: 2008-02-07T21:16-05:00
-editedAt: 2008-02-08T01:32-05:00
+updatedAt: 2008-02-08T01:32-05:00
 ---
 
 <code>

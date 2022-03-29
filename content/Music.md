@@ -1,7 +1,8 @@
 ---
 title: Music
+tags: ["project","music"]
 createdAt: 2010-11-27T14:22-05:00
-editedAt: 2021-07-30T16:44-04:00
+updatedAt: 2021-07-30T16:44-04:00
 ---
 
 Here you can play all the music I've written or been involved with in one lovely place. Also check out my [[Music Gear and Setup]]!

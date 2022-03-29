@@ -1,7 +1,8 @@
 ---
 title: BTCTradingCo
+tags: []
 createdAt: 2011-07-24T16:52-04:00
-editedAt: 2011-07-24T16:52-04:00
+updatedAt: 2011-07-24T16:52-04:00
 ---
 
 Initial total balance:

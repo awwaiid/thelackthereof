@@ -1,7 +1,8 @@
 ---
 title: Linux_on_the_Compaq_v2311
+tags: []
 createdAt: 2005-09-02T13:19-04:00
-editedAt: 2005-09-02T13:19-04:00
+updatedAt: 2005-09-02T13:19-04:00
 ---
 
 This is the machine that Beth got, I'll toss notes here on what I had to do to make it work. Specifically I will be talking about Debian Sarge using Pure64 (purely amd64-based system).

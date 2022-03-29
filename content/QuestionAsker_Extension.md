@@ -1,7 +1,8 @@
 ---
 title: QuestionAsker_Extension
+tags: []
 createdAt: 2005-02-06T17:10-05:00
-editedAt: 2005-02-06T17:10-05:00
+updatedAt: 2005-02-06T17:10-05:00
 ---
 
 If you attempt to edit the pages of this wiki, you must answer a question before the save will be processed. Why is this, you ask? I'll tell you. Robots and underpaid chinamen. Thats why.

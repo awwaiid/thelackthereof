@@ -1,7 +1,8 @@
 ---
 title: Pizza_Sauce
+tags: []
 createdAt: 2010-11-14T15:46-05:00
-editedAt: 2010-11-14T15:46-05:00
+updatedAt: 2010-11-14T15:46-05:00
 ---
 
 * 1 (15 ounce) can tomato sauce

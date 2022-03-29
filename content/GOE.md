@@ -1,7 +1,8 @@
 ---
 title: GOE
+tags: []
 createdAt: 2004-05-19T01:06-04:00
-editedAt: 2004-05-19T01:06-04:00
+updatedAt: 2004-05-19T01:06-04:00
 ---
 
 == Goe Object Environment ==

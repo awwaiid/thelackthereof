@@ -1,7 +1,8 @@
 ---
 title: Zero_One_Infinity
+tags: []
 createdAt: 2003-11-16T03:26-05:00
-editedAt: 2003-11-16T03:28-05:00
+updatedAt: 2003-11-16T03:28-05:00
 ---
 
   Night then day then night

@@ -1,7 +1,8 @@
 ---
 title: Thoughts_and_issues_with_web-based_DB_programming
+tags: []
 createdAt: 2004-05-19T12:07-04:00
-editedAt: 2004-05-19T12:07-04:00
+updatedAt: 2004-05-19T12:07-04:00
 ---
 
 As a job I have often done web-based database programming. Over the course of time I've been annoyed by various things (like a good little programmer) and have slowly contemplated how to get rid of these annoyances. Most of the issues I have spring from lazyness, which is a [[Good Thing]] of course.

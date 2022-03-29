@@ -1,7 +1,8 @@
 ---
 title: Things_I_Love
+tags: []
 createdAt: 2006-03-11T16:29-05:00
-editedAt: 2006-03-11T16:50-05:00
+updatedAt: 2006-03-11T16:50-05:00
 ---
 
 In no particular order, these are a few of my favorite things!

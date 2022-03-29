@@ -1,7 +1,8 @@
 ---
 title: Draft_TLT_-_2006.01.11
+tags: []
 createdAt: 2006-01-11T09:44-05:00
-editedAt: 2006-01-11T19:06-05:00
+updatedAt: 2006-01-11T19:06-05:00
 ---
 
 <blockquote><i>A brief description of my journey (so far) through continuation-land in Perl. I talk about wanting continuations, faking them, using real ones, desparing at their non-first-class nature, and finally how I am coming out of my depression to create work-arounds.</i></blockquote>

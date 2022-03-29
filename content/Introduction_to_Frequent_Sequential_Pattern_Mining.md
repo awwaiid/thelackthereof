@@ -1,7 +1,8 @@
 ---
 title: Introduction_to_Frequent_Sequential_Pattern_Mining
+tags: []
 createdAt: 2010-05-12T09:55-04:00
-editedAt: 2010-05-12T09:55-04:00
+updatedAt: 2010-05-12T09:55-04:00
 ---
 
 Here are some links for now:

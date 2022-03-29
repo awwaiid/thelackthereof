@@ -1,7 +1,8 @@
 ---
 title: Sphinx_Notes
+tags: []
 createdAt: 2004-10-07T02:41-04:00
-editedAt: 2004-10-07T02:41-04:00
+updatedAt: 2004-10-07T02:41-04:00
 ---
 
 These are just some collection of notes about getting Sphinx to do what I want it to do. Wish me luck.

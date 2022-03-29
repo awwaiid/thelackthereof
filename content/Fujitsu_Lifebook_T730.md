@@ -1,7 +1,8 @@
 ---
 title: Fujitsu_Lifebook_T730
+tags: []
 createdAt: 2010-07-27T16:14-04:00
-editedAt: 2012-01-03T23:06-05:00
+updatedAt: 2012-01-03T23:06-05:00
 ---
 
 I recently got a [http://store.shopfujitsu.com/fpc/Ecommerce/buildseriesbean.do?series=T730 Fujitsu Lifebook T730], the package with these specs (from the website):

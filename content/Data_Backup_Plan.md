@@ -1,7 +1,8 @@
 ---
 title: Data_Backup_Plan
+tags: []
 createdAt: 2012-06-19T18:10-04:00
-editedAt: 2012-06-19T18:20-04:00
+updatedAt: 2012-06-19T18:20-04:00
 ---
 
 Remember this rule: If you do not have a backup, GO MAKE ONE NOW!

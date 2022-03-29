@@ -1,7 +1,8 @@
 ---
 title: Pinpoint
+tags: []
 createdAt: 2015-10-18T15:56-04:00
-editedAt: 2015-10-18T15:56-04:00
+updatedAt: 2015-10-18T15:56-04:00
 ---
 
 Pinpoint is some pretty fun slide software that I like. Homepage: https://wiki.gnome.org/Apps/Pinpoint

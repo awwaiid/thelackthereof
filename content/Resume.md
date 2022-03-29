@@ -1,7 +1,8 @@
 ---
 title: Resume
+tags: []
 createdAt: 2004-12-15T01:39-05:00
-editedAt: 2011-06-07T14:40-04:00
+updatedAt: 2011-06-07T14:40-04:00
 ---
 
 === Brock Wilcox - Programmer ==

@@ -1,7 +1,8 @@
 ---
 title: ICFP_Contest_2005
+tags: []
 createdAt: 2005-06-24T10:42-04:00
-editedAt: 2005-06-26T03:47-04:00
+updatedAt: 2005-06-26T03:47-04:00
 ---
 
 This is to help coordinate efforts on the ICFP Contest 2005.

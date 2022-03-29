@@ -1,7 +1,8 @@
 ---
 title: Ruby_Perl_Rosetta_Stone
+tags: []
 createdAt: 2014-03-02T14:45-05:00
-editedAt: 2014-03-02T14:45-05:00
+updatedAt: 2014-03-02T14:45-05:00
 ---
 
 A map from Ruby to Perl tools, narrowed to ones that I use or recommend.

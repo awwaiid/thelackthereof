@@ -1,7 +1,8 @@
 ---
 title: Continuations_Not_Harmful
+tags: []
 createdAt: 2006-05-27T13:08-04:00
-editedAt: 2006-05-27T13:08-04:00
+updatedAt: 2006-05-27T13:08-04:00
 ---
 
 There has been a debate recently about the harmfulness of continuations, specifically in a web-context.

@@ -1,7 +1,8 @@
 ---
 title: OddMuse_Pingback
+tags: []
 createdAt: 2004-03-20T01:44-05:00
-editedAt: 2004-03-20T01:45-05:00
+updatedAt: 2004-03-20T01:45-05:00
 ---
 
 See http://thelackthereof.org/projects/perl/oddmuse_pingback/ for source (and darcs repo).

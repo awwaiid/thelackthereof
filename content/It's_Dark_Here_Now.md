@@ -1,7 +1,8 @@
 ---
 title: It's_Dark_Here_Now
+tags: []
 createdAt: 2004-05-14T17:05-04:00
-editedAt: 2004-05-14T17:05-04:00
+updatedAt: 2004-05-14T17:05-04:00
 ---
 
   it's dark here now

@@ -1,7 +1,8 @@
 ---
 title: 59_Bacon
+tags: []
 createdAt: 2004-06-02T18:56-04:00
-editedAt: 2004-06-02T18:56-04:00
+updatedAt: 2004-06-02T18:56-04:00
 ---
 
 This is where Beth and I live in Waltham, MA.

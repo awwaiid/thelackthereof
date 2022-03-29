@@ -1,7 +1,8 @@
 ---
 title: Got_One_Shoe
+tags: []
 createdAt: 2008-05-13T19:03-04:00
-editedAt: 2008-05-13T19:03-04:00
+updatedAt: 2008-05-13T19:03-04:00
 ---
 
 Got one shoe,

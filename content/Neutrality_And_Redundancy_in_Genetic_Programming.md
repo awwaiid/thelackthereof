@@ -1,7 +1,8 @@
 ---
 title: Neutrality_And_Redundancy_in_Genetic_Programming
+tags: []
 createdAt: 2011-01-01T20:52-05:00
-editedAt: 2011-01-01T20:52-05:00
+updatedAt: 2011-01-01T20:52-05:00
 ---
 
 I'm very interested in [[Neutral Evolution]] in Genetic Programming (and Genetic Algorithms, I suppose), especially through redundancy in the genotype and genotype-phenotype mapping. I have a couple ideas that I want to test out.

@@ -1,7 +1,8 @@
 ---
 title: Jobs
+tags: []
 createdAt: 2004-06-25T14:14-04:00
-editedAt: 2005-04-03T20:26-04:00
+updatedAt: 2005-04-03T20:26-04:00
 ---
 
 This page is to help me organize my job search.

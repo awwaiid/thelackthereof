@@ -1,7 +1,8 @@
 ---
 title: Contributing
+tags: []
 createdAt: 2010-05-11T22:33-04:00
-editedAt: 2010-05-11T22:33-04:00
+updatedAt: 2010-05-11T22:33-04:00
 ---
 
 I welcome contributions to the projects on this site. That's part of why I make them all opensource -- share and share alike :) . I want to make it easy to do so -- here are some ways:

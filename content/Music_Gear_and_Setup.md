@@ -1,7 +1,8 @@
 ---
 title: Music_Gear_and_Setup
+tags: []
 createdAt: 2011-08-27T10:13-04:00
-editedAt: 2017-06-02T21:50-04:00
+updatedAt: 2017-06-02T21:50-04:00
 ---
 
 I've been exploring the world of Open Source Music Production! Here I detail my setup.

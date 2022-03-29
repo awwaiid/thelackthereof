@@ -1,7 +1,8 @@
 ---
 title: The_Sociopath_In_All_Of_Us
+tags: []
 createdAt: 2005-01-08T15:05-05:00
-editedAt: 2005-01-08T15:05-05:00
+updatedAt: 2005-01-08T15:05-05:00
 ---
 
 (work in progress)

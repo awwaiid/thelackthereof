@@ -1,7 +1,8 @@
 ---
 title: Curried_Wild_Rice_and_Squash_Soup
+tags: []
 createdAt: 2009-03-12T15:20-04:00
-editedAt: 2009-03-12T15:20-04:00
+updatedAt: 2009-03-12T15:20-04:00
 ---
 
 From [http://allrecipes.com/Recipe/Curried-Wild-Rice-and-Squash-Soup/Detail.aspx allrecipes.com], submitted by Connie Dempsey.

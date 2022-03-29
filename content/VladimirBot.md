@@ -1,7 +1,8 @@
 ---
 title: VladimirBot
+tags: []
 createdAt: 2003-10-10T01:35-04:00
-editedAt: 2003-10-10T01:42-04:00
+updatedAt: 2003-10-10T01:42-04:00
 ---
 
 == A personal information robot ==

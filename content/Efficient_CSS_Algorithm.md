@@ -1,7 +1,8 @@
 ---
 title: Efficient_CSS_Algorithm
+tags: []
 createdAt: 2005-09-08T12:40-04:00
-editedAt: 2005-11-03T17:11-05:00
+updatedAt: 2005-11-03T17:11-05:00
 ---
 
 While thinking about [[Code Selectors]] I started contemplating how CSS gets applied to a webpage. Based on my readings, it is done <i>the hard way</i>. (stick link in here to mozilla's description of the process). I've also been using the improved PHP fork of html2ps, but the more CSS you use the slower it gets. So here is an idea for a CSS algorithm, at least for the context selector.

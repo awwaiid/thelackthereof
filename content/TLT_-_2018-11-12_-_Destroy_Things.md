@@ -1,7 +1,8 @@
 ---
 title: TLT_-_2018-11-12_-_Destroy_Things
+tags: ["blog"]
 createdAt: 2018-11-12T23:02-05:00
-editedAt: 2018-11-12T23:02-05:00
+updatedAt: 2018-11-12T23:02-05:00
 ---
 
 I think it's important to learn through destruction. I like to proble the edges of things, and one of the best ways of knowing where IS the edge is to go over it. So ... let's go over the edge.

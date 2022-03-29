@@ -1,7 +1,8 @@
 ---
 title: Manager_Philosophy
+tags: []
 createdAt: 2016-11-04T21:37-04:00
-editedAt: 2016-11-04T21:37-04:00
+updatedAt: 2016-11-04T21:37-04:00
 ---
 
 * Meet people where they're at

@@ -1,7 +1,8 @@
 ---
 title: Comments_on_Fujitsu_Lifebook_T730
+tags: []
 createdAt: 2010-10-01T16:31-04:00
-editedAt: 2016-05-28T23:53-04:00
+updatedAt: 2016-05-28T23:53-04:00
 ---
 
 === 9 Comments. ===

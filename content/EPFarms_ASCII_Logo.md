@@ -1,7 +1,8 @@
 ---
 title: EPFarms_ASCII_Logo
+tags: []
 createdAt: 2005-01-27T23:47-05:00
-editedAt: 2005-02-14T23:47-05:00
+updatedAt: 2005-02-14T23:47-05:00
 ---
 
 Erik:

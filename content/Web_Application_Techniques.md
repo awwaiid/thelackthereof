@@ -1,7 +1,8 @@
 ---
 title: Web_Application_Techniques
+tags: []
 createdAt: 2004-11-30T23:06-05:00
-editedAt: 2004-11-30T23:06-05:00
+updatedAt: 2004-11-30T23:06-05:00
 ---
 
 These are notes in preparation for a talk I'll be giving to LUNA.

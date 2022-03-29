@@ -1,7 +1,8 @@
 ---
 title: Samsung_Galaxy_S_II
+tags: []
 createdAt: 2011-12-15T08:15-05:00
-editedAt: 2011-12-20T15:54-05:00
+updatedAt: 2011-12-20T15:54-05:00
 ---
 
 Just got me a SGS2 from T-Mobile only to quickly discover that the T-Mobile version is actually a slightly different phone than the unlocked SGS2... not necessarily a bad thing since the max 4G speed is higher and the screen is a bit bigger. But very irritating when I went to drop Cyanogenmod on it.

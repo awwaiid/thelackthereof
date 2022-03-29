@@ -1,7 +1,8 @@
 ---
 title: VladimirBot_Module_API
+tags: []
 createdAt: 2003-09-22T11:56-04:00
-editedAt: 2003-09-22T12:56-04:00
+updatedAt: 2003-09-22T12:56-04:00
 ---
 
 [[VladimirBot]] is split into modules, each one specializing in a specific task. You could think of it as experts if you like. The modules each get a turn trying to figure out the sentence and decide whether or not they can do something with it. If they can't then the next module gets a chance... and so on.

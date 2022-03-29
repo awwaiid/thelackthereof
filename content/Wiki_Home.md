@@ -1,7 +1,8 @@
 ---
 title: Wiki_Home
+tags: []
 createdAt: 2004-02-14T23:34-05:00
-editedAt: 2004-02-18T19:38-05:00
+updatedAt: 2004-02-18T19:38-05:00
 ---
 
 Welcome to [http://thelackthereof.org/ thelackthereof.org] wiki. I've decided that I want to have some content on my website besides a bunch of broken directories, so I'm going to utilize my wiki for overviews of content and then point to the directories from there. I've tried all kinds of things in the past -- making indexes in each directory describing it, automatically basing descriptions on files... xml, mhtml, straight perl... but none of them are sustainable because they are too difficult to maintain (because it takes effort). So now we try the wiki way!

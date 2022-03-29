@@ -1,7 +1,8 @@
 ---
 title: Comments_on_TLT_-_2008.11.29_-_DNA_Memory
+tags: []
 createdAt: 2009-06-13T00:00-04:00
-editedAt: 2009-06-13T18:08-04:00
+updatedAt: 2009-06-13T18:08-04:00
 ---
 
 === 2 Comments. ===

@@ -1,7 +1,8 @@
 ---
 title: Dot2html
+tags: []
 createdAt: 2007-12-17T00:32-05:00
-editedAt: 2007-12-17T00:32-05:00
+updatedAt: 2007-12-17T00:32-05:00
 ---
 
 I've always wanted some sort of slick web-based wysiwyg-ish graphviz editor. My first step toward that is to convert a graphviz specification file (.dot file) into HTML and javascript. The javascript is mostly for drawing lines.

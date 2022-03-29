@@ -1,7 +1,8 @@
 ---
 title: REST_AJAX_and_Continuations
+tags: []
 createdAt: 2006-02-28T12:26-05:00
-editedAt: 2006-03-04T04:19-05:00
+updatedAt: 2006-03-04T04:19-05:00
 ---
 
 <i>Summary: The three amigos are a perfect match for one another, each making up for the other's weaknesses. REST gives us nice URLs, AJAX (and javascript as a whole) gives us more client-power, and continuations turns the world inside-out on the server side.</i>

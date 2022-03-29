@@ -1,7 +1,8 @@
 ---
 title: Contextual_Webapp_Language
+tags: []
 createdAt: 2005-08-02T19:48-04:00
-editedAt: 2005-08-02T19:48-04:00
+updatedAt: 2005-08-02T19:48-04:00
 ---
 
 I like to think of programming as language-building. You are using standard ways to extend the programming language you are working in, building up something that expresses the algorithms of your domain.

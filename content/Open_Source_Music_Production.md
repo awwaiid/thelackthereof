@@ -1,7 +1,8 @@
 ---
 title: Open_Source_Music_Production
+tags: []
 createdAt: 2011-05-26T18:41-04:00
-editedAt: 2011-05-26T18:43-04:00
+updatedAt: 2011-05-26T18:43-04:00
 ---
 
 == Communities and Resources ==

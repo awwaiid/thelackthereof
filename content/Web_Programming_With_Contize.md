@@ -1,7 +1,8 @@
 ---
 title: Web_Programming_With_Contize
+tags: []
 createdAt: 2004-10-17T19:01-04:00
-editedAt: 2004-10-17T19:01-04:00
+updatedAt: 2004-10-17T19:01-04:00
 ---
 
 [[Contize]] was developed specifically to abstract away some of the difficulties of creating web-based applications. Unfortunately it sigificantly altered what I would call ''intuitive'' web programming. Now various state-maintenance techniques can be replaced with more traditional (and straightforward) programming.

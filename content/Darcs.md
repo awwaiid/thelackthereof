@@ -1,7 +1,8 @@
 ---
 title: Darcs
+tags: []
 createdAt: 2004-02-19T20:56-05:00
-editedAt: 2004-02-19T20:56-05:00
+updatedAt: 2004-02-19T20:56-05:00
 ---
 
 == David's Advanced Revision Control System ==

@@ -1,7 +1,8 @@
 ---
 title: ICFP_Contest
+tags: []
 createdAt: 2015-08-13T02:46-04:00
-editedAt: 2016-08-12T22:37-04:00
+updatedAt: 2016-08-12T22:37-04:00
 ---
 
 I enjoy participating in the [https://en.wikipedia.org/wiki/ICFP_Programming_Contest International Conference for Functional Programming Contest], an annual coding marathon.

@@ -1,7 +1,8 @@
 ---
 title: Fujitsu_Lifebook_T730_dmesg
+tags: []
 createdAt: 2010-07-27T21:30-04:00
-editedAt: 2010-07-27T21:30-04:00
+updatedAt: 2010-07-27T21:30-04:00
 ---
 
 <code>

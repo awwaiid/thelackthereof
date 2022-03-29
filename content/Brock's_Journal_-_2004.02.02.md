@@ -1,7 +1,8 @@
 ---
 title: Brock's_Journal_-_2004.02.02
+tags: []
 createdAt: 2004-02-03T01:48-05:00
-editedAt: 2004-02-03T01:48-05:00
+updatedAt: 2004-02-03T01:48-05:00
 ---
 
 Well I've been spending lots of time on my [[Resume]] and am pleased with the current results. Now the next trick is to get a good cover letter or three going. Unfortunately I understand the formula behind resume writing, but I don't have a clue when it comes to writing cover letters.

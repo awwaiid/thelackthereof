@@ -1,7 +1,8 @@
 ---
 title: On_Adding_a_True_Predicate_Logic_Layer_to_Relation_Databases
+tags: []
 createdAt: 2004-02-13T01:52-05:00
-editedAt: 2004-02-13T01:52-05:00
+updatedAt: 2004-02-13T01:52-05:00
 ---
 
 See [[SetDB]] for more recent work regarding this subject. This predicate logic stuff was interesting and all, but way too complicated. I am now working on a much more simple and programmer-centric theory on how programming a DB should be. The remainder is here as a reminder of a method which doesn't work, or at least needs a lot more work.

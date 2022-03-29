@@ -1,7 +1,8 @@
 ---
 title: Response_to_Richard_Epstein_Article
+tags: []
 createdAt: 2004-10-23T18:59-04:00
-editedAt: 2004-10-23T18:59-04:00
+updatedAt: 2004-10-23T18:59-04:00
 ---
 
 Response to [http://news.ft.com/cms/s/78d9812a-2386-11d9-aee5-00000e2511c8.html Epstein, Richard: Why open source is unsustainable]

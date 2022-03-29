@@ -1,7 +1,8 @@
 ---
 title: Perl_hashref_iteration_example
+tags: []
 createdAt: 2003-11-10T11:55-05:00
-editedAt: 2010-06-08T20:57-04:00
+updatedAt: 2010-06-08T20:57-04:00
 ---
 
 Here is an example of iterating over a nested hashref datastructure in Perl.

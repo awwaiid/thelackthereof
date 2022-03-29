@@ -1,7 +1,8 @@
 ---
 title: Use_Everywhere
+tags: []
 createdAt: 2010-03-07T23:49-05:00
-editedAt: 2010-03-07T23:49-05:00
+updatedAt: 2010-03-07T23:49-05:00
 ---
 
 I strongly believe that new versions of perl should enable all the features by default. Every time I write "use 5.010" at the top of my programs I am bothered... so now I can do:

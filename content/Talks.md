@@ -1,7 +1,8 @@
 ---
 title: Talks
+tags: []
 createdAt: 2010-04-27T11:54-04:00
-editedAt: 2015-11-22T14:10-05:00
+updatedAt: 2015-11-22T14:10-05:00
 ---
 
 From time to time I give talks on various topics. Audiences range from the local Perl Monger group to larger conferences. Unfortunately for you, I prefer to do crazy things like live code demos and use minimalist slides, so you don't quite get the same effect from these records. Hopefully I can dig up some videos :)

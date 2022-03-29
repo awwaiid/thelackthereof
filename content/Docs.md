@@ -1,7 +1,8 @@
 ---
 title: Docs
+tags: []
 createdAt: 2005-01-27T23:46-05:00
-editedAt: 2013-02-20T16:40-05:00
+updatedAt: 2013-02-20T16:40-05:00
 ---
 
 I try to keep all of my documents and make them available to anyone who is interested in reading them. For the most part I've been trying to use LaTeX as my source language and then converting to ps, pdf, html, and plain text. One exception that I am now making is Wiki-based documents -- ones that I have composed directly in the wiki. I like having them in the wiki because people can contribute... I like having them in LaTeX because it is fun. Oh well. I've also attempted to sort things out by subject -- since most of my documents have to do with school most of the subjects do too.

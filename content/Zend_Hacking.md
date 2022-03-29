@@ -1,7 +1,8 @@
 ---
 title: Zend_Hacking
+tags: []
 createdAt: 2005-06-11T18:53-04:00
-editedAt: 2005-06-17T17:12-04:00
+updatedAt: 2005-06-17T17:12-04:00
 ---
 
 Zend (PHP) isn't really documented all that much, besides the source itself. It looks like once you understand the beast the documentation wouldn't be all that necessary -- silly I know, but thats the way it looks.

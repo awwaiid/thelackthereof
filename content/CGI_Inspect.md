@@ -1,7 +1,8 @@
 ---
 title: CGI_Inspect
+tags: []
 createdAt: 2009-05-30T01:24-04:00
-editedAt: 2011-01-19T22:14-05:00
+updatedAt: 2011-01-19T22:14-05:00
 ---
 
 CGI::Inspect info goes here.

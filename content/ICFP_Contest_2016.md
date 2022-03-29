@@ -1,7 +1,8 @@
 ---
 title: ICFP_Contest_2016
+tags: []
 createdAt: 2016-08-12T23:22-04:00
-editedAt: 2016-08-12T23:34-04:00
+updatedAt: 2016-08-12T23:34-04:00
 ---
 
 == Challenge: Folding Origami ==

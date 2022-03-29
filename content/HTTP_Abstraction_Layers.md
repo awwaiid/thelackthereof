@@ -1,7 +1,8 @@
 ---
 title: HTTP_Abstraction_Layers
+tags: []
 createdAt: 2015-10-07T22:43-04:00
-editedAt: 2015-10-07T22:48-04:00
+updatedAt: 2015-10-07T22:48-04:00
 ---
 
 These are protocols or APIs or libraries that roughly abstract away HTTP serving from your application. Most of them take the form of:

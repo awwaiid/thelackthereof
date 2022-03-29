@@ -1,7 +1,8 @@
 ---
 title: Perl6_Colons
+tags: []
 createdAt: 2016-01-13T14:22-05:00
-editedAt: 2017-07-23T00:35-04:00
+updatedAt: 2017-07-23T00:35-04:00
 ---
 
 I'm collecting all the ways you can use : in Perl 6.

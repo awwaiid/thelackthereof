@@ -1,7 +1,8 @@
 ---
 title: Code_Selectors
+tags: []
 createdAt: 2005-07-22T12:49-04:00
-editedAt: 2006-03-06T14:58-05:00
+updatedAt: 2006-03-06T14:58-05:00
 ---
 
 Lets contemplate the relationship between HTML and CSS. Imagine that each HTML tag is an object, in the OOP sense of the word. It has a set of attributes, things like align, border, color. It also has one method, render(). When render() is called the object looks at its attributes and decides on how to render itself.

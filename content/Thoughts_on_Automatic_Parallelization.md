@@ -1,7 +1,8 @@
 ---
 title: Thoughts_on_Automatic_Parallelization
+tags: []
 createdAt: 2003-09-21T05:15-04:00
-editedAt: 2003-10-24T01:44-04:00
+updatedAt: 2003-10-24T01:44-04:00
 ---
 
 I talked to John Neuburger the other day and it got me to thinking again about automatically parallelizing programs. So, as promised by the title of this page, here are some of my thoughts on the subject.

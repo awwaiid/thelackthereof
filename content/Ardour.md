@@ -1,7 +1,8 @@
 ---
 title: Ardour
+tags: []
 createdAt: 2013-04-14T11:57-04:00
-editedAt: 2013-04-14T11:57-04:00
+updatedAt: 2013-04-14T11:57-04:00
 ---
 
 == Building in Debian ==

@@ -1,7 +1,8 @@
 ---
 title: Oddmuse_Search_Tags
+tags: []
 createdAt: 2006-11-19T23:35-05:00
-editedAt: 2006-11-19T23:35-05:00
+updatedAt: 2006-11-19T23:35-05:00
 ---
 
 This is an extremely simple Oddmuse module for tagging. It works by looking for a line like:

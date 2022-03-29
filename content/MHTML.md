@@ -1,7 +1,8 @@
 ---
 title: MHTML
+tags: []
 createdAt: 2006-04-04T01:48-04:00
-editedAt: 2006-04-04T01:48-04:00
+updatedAt: 2006-04-04T01:48-04:00
 ---
 
 At some point a long time ago I thought it would be cool to have macros in HTML.  I originally wrote it in Perl, but then switched over to OCaml. I used it both in an interpreted (#!/usr/bin/mhtml) context and a pre-compiled context. The idea was to add a few tags, such as <macro>, which would allow me to add some magic tags to HTML in a natural way.

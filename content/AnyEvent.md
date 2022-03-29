@@ -1,7 +1,8 @@
 ---
 title: AnyEvent
+tags: []
 createdAt: 2011-03-15T21:11-04:00
-editedAt: 2011-03-15T21:11-04:00
+updatedAt: 2011-03-15T21:11-04:00
 ---
 
 These are some notes on AnyEvent, hopefully handy for putting together conference presentations or other articles.

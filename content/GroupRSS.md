@@ -1,7 +1,8 @@
 ---
 title: GroupRSS
+tags: []
 createdAt: 2006-02-24T15:20-05:00
-editedAt: 2006-02-24T15:20-05:00
+updatedAt: 2006-02-24T15:20-05:00
 ---
 
 This is the aggregated RSS of upcoming events from several Phoenix-area groups.

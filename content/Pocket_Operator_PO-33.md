@@ -1,7 +1,8 @@
 ---
 title: Pocket_Operator_PO-33
+tags: []
 createdAt: 2019-08-25T16:14-04:00
-editedAt: 2019-08-25T22:03-04:00
+updatedAt: 2019-08-25T22:03-04:00
 ---
 
 See also [[Music Gear and Setup]]

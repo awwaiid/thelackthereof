@@ -1,7 +1,8 @@
 ---
 title: Continuity_Monitor
+tags: []
 createdAt: 2008-10-14T11:04-04:00
-editedAt: 2008-10-14T11:06-04:00
+updatedAt: 2008-10-14T11:06-04:00
 ---
 
 This, along with Continuity::Monitor::CGI, allows you to inspect a running web application.

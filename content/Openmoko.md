@@ -1,7 +1,8 @@
 ---
 title: Openmoko
+tags: []
 createdAt: 2008-09-06T10:20-04:00
-editedAt: 2008-09-18T12:49-04:00
+updatedAt: 2008-09-18T12:49-04:00
 ---
 
 I got my Openmoko on 2008-09-04!

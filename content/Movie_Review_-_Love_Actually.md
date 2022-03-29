@@ -1,7 +1,8 @@
 ---
 title: Movie_Review_-_Love_Actually
+tags: []
 createdAt: 2003-11-18T02:34-05:00
-editedAt: 2003-11-18T02:34-05:00
+updatedAt: 2003-11-18T02:34-05:00
 ---
 
 I must admit I went into this movie with a bad attitude. I wasn't quite sure if I wanted to see a movie, and wasn't quite sure if this was the sort of movie I'd like to see even if I did want to see a movie. The thing that scared me the most was the whole "from the makers of Bridget Jone's Diary" thing.

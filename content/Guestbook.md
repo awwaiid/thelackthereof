@@ -1,7 +1,8 @@
 ---
 title: Guestbook
+tags: []
 createdAt: 2004-01-16T13:08-05:00
-editedAt: 2004-01-16T13:08-05:00
+updatedAt: 2004-01-16T13:08-05:00
 ---
 
 Please let me know that you've visited my site!

@@ -1,7 +1,8 @@
 ---
 title: Links_TODO
+tags: []
 createdAt: 2016-12-20T16:15-05:00
-editedAt: 2016-12-20T16:15-05:00
+updatedAt: 2016-12-20T16:15-05:00
 ---
 
 Martin Prescher, CTO, AutoGravity - Scrapping the Monolith

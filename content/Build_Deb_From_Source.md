@@ -1,7 +1,8 @@
 ---
 title: Build_Deb_From_Source
+tags: []
 createdAt: 2011-04-05T16:44-04:00
-editedAt: 2011-04-05T16:44-04:00
+updatedAt: 2011-04-05T16:44-04:00
 ---
 
 Had to fix some malloc bug in xbindkeys. Didn't want to wait for the next version, so did:

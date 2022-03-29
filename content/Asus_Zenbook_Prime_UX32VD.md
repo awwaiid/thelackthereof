@@ -1,7 +1,8 @@
 ---
 title: Asus_Zenbook_Prime_UX32VD
+tags: []
 createdAt: 2013-02-02T20:25-05:00
-editedAt: 2013-02-02T20:25-05:00
+updatedAt: 2013-02-02T20:25-05:00
 ---
 
 I upgraded from my trusty [[Fujitsu Lifebook T730]] in early 2013.

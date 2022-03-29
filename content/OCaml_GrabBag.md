@@ -1,7 +1,8 @@
 ---
 title: OCaml_GrabBag
+tags: []
 createdAt: 2004-12-11T03:10-05:00
-editedAt: 2004-12-11T03:10-05:00
+updatedAt: 2004-12-11T03:10-05:00
 ---
 
 I wrote GrabBag as a datastructure to hold genetically evolving programs (see [[OGPF]]). Unlike most collections, this one assumes that when you add an element you don't care where it goes (unordered insertion) and that when you pull out an element you specifically want a uniformly random element.

@@ -1,7 +1,8 @@
 ---
 title: Ideas
+tags: []
 createdAt: 2003-09-24T10:06-04:00
-editedAt: 2003-09-24T10:06-04:00
+updatedAt: 2003-09-24T10:06-04:00
 ---
 
 

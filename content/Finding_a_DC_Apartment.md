@@ -1,7 +1,8 @@
 ---
 title: Finding_a_DC_Apartment
+tags: []
 createdAt: 2007-05-27T19:51-04:00
-editedAt: 2011-11-22T20:04-05:00
+updatedAt: 2011-11-22T20:04-05:00
 ---
 
 This is for our DC apartment hunt.

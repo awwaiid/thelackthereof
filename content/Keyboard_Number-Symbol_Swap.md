@@ -1,7 +1,8 @@
 ---
 title: Keyboard_Number-Symbol_Swap
+tags: []
 createdAt: 2011-03-18T09:49-04:00
-editedAt: 2011-10-21T15:09-04:00
+updatedAt: 2011-10-21T15:09-04:00
 ---
 
 (Instructions for doing this on other OSes or setups are welcome!)

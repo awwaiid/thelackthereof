@@ -1,7 +1,8 @@
 ---
 title: Mathematical_Markup
+tags: []
 createdAt: 2004-06-18T06:26-04:00
-editedAt: 2011-04-26T02:56-04:00
+updatedAt: 2011-04-26T02:56-04:00
 ---
 
 There's something wrong here - all mathematics is blacked out, as it too the page header.

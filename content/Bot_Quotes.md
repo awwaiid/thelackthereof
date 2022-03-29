@@ -1,7 +1,8 @@
 ---
 title: Bot_Quotes
+tags: []
 createdAt: 2004-06-04T03:11-04:00
-editedAt: 2004-06-04T03:11-04:00
+updatedAt: 2004-06-04T03:11-04:00
 ---
 
 == Robots say the darndest things ==

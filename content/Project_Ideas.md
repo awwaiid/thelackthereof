@@ -1,7 +1,8 @@
 ---
 title: Project_Ideas
+tags: []
 createdAt: 2016-08-24T11:10-04:00
-editedAt: 2016-09-11T02:50-04:00
+updatedAt: 2016-09-11T02:50-04:00
 ---
 
 * Get simplecov results from a single test or execution. Create a copy of the codebase where you delete all uncovered code and then reformat the remaining code -- a minimal codebase to do whatever your test needed.

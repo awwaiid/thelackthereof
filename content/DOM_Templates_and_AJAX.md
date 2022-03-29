@@ -1,7 +1,8 @@
 ---
 title: DOM_Templates_and_AJAX
+tags: []
 createdAt: 2005-07-19T19:00-04:00
-editedAt: 2005-07-19T19:15-04:00
+updatedAt: 2005-07-19T19:15-04:00
 ---
 
 Part of the new Javascript craze is a combination of two things:
