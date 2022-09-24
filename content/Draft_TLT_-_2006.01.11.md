@@ -29,7 +29,7 @@ I've gotten so used to the side-effects of this technique that they no longer bo
 
 ** Real Continuations
 
-Finally I began working in earnest on a continuation server using cpan:Coro, which I call [http://continuity.tlt42.org|Continuity].
+Finally I began working in earnest on a continuation server using cpan:Coro, which I call [http://continuity.tlt42.org Continuity].
 
 * I love first-class continuations
 

@@ -10,15 +10,15 @@
           </NuxtLink>
         </div>
         <div class="grid grid-cols-3">
-          <a class="social-logo m-1" href="https://www.github.com/awwaiid"><img width="32px" src="/social-media-icons/github.png" /></a>
-          <a class="social-logo m-1" href="https://www.twitter.com/awwaiid/"><img width="32px" src="/social-media-icons/twitter.png" /></a>
-          <a class="social-logo m-1" href="https://www.instagram.com/awwaiid/"><img width="32px" src="/social-media-icons/instagram.png" /></a>
-          <a class="social-logo m-1" href="https://www.linkedin.com/in/brockwilcox/"><img width="32px" src="/social-media-icons/linkedin.png" /></a>
-          <a class="social-logo m-1" href="https://soundcloud.com/awwaiid"><img width="32px" src="/social-media-icons/soundcloud.png" /></a>
-          <a class="social-logo m-1" href="https://www.youtube.com/user/awwaiid"><img width="32px" src="/social-media-icons/youtube.png" /></a>
-          <a class="social-logo m-1" href="https://www.tiktok.com/@awwaiid"><img width="32px" src="/social-media-icons/tiktok.png" /></a>
-          <a class="social-logo m-1" href="mailto:awwaiid@thelackthereof.org"><img width="32px" src="/social-media-icons/email.png" /></a>
-          <a class="social-logo m-1" href="/"><img width="32px" src="/brock-logo-circle-icon-48x48.png" /></a>
+          <NuxtLink class="social-logo m-1" href="https://www.github.com/awwaiid"><img width="32" src="/social-media-icons/github.png" /></NuxtLink>
+          <NuxtLink class="social-logo m-1" href="https://www.twitter.com/awwaiid/"><img width="32" src="/social-media-icons/twitter.png" /></NuxtLink>
+          <NuxtLink class="social-logo m-1" href="https://www.instagram.com/awwaiid/"><img width="32" src="/social-media-icons/instagram.png" /></NuxtLink>
+          <NuxtLink class="social-logo m-1" href="https://www.linkedin.com/in/brockwilcox/"><img width="32" src="/social-media-icons/linkedin.png" /></NuxtLink>
+          <NuxtLink class="social-logo m-1" href="https://soundcloud.com/awwaiid"><img width="32" src="/social-media-icons/soundcloud.png" /></NuxtLink>
+          <NuxtLink class="social-logo m-1" href="https://www.youtube.com/user/awwaiid"><img width="32" src="/social-media-icons/youtube.png" /></NuxtLink>
+          <NuxtLink class="social-logo m-1" href="https://www.tiktok.com/@awwaiid"><img width="32" src="/social-media-icons/tiktok.png" /></NuxtLink>
+          <NuxtLink class="social-logo m-1" href="mailto:awwaiid@thelackthereof.org"><img width="32" src="/social-media-icons/email.png" /></NuxtLink>
+          <NuxtLink class="social-logo m-1" href="/"><img width="32" src="/brock-logo-circle-icon-48x48.png" /></NuxtLink>
         </div>
       </div>
     </div>
@@ -28,7 +28,7 @@
     </div>
 
     <div class="m-4">
-      <Nuxt />
+      <slot />
     </div>
   </div>
 </template>

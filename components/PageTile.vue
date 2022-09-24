@@ -1,9 +1,6 @@
 <template>
-  <NuxtLink
-    v-if="page"
-    :to="{ name: 'slug', params: { slug: page.slug } }"
-  >
-    <a href="/"><img class="float-right" width="32px" src="/brock-logo-circle-icon-48x48.png"></a>
+  <NuxtLink :to="page._path">
+    <NuxtLink href="/"><img class="float-right" width="32" src="/brock-logo-circle-icon-48x48.png"></NuxtLink>
     <div class="text-xs">
       <span>{{ shortDate(page.createdAt) }}</span>
       <span v-if="shortDate(page.createdAt) != shortDate(page.updatedAt)">
@@ -12,8 +9,10 @@
     </div>
     <!-- eslint-disable-next-line vue/no-v-html -->
     <div v-html="cleanTitle(page.title)"></div>
-    <div v-for="tag in page.tags" :key="tag" class="flex justify-end">
-      <NuxtLink class="tag rounded-full border pl-2 pr-2 text-black border-black" :to="'/tag/' + tag">{{ tag }}</NuxtLink>
+    <div class="flex justify-end">
+      <div v-for="tag in page.tags" :key="tag">
+        <NuxtLink class="tag rounded-full border pl-2 pr-2 ml-2 text-black border-2 border-black" :to="'/tag/' + tag">{{ tag }}</NuxtLink>
+      </div>
     </div>
   </NuxtLink>
 </template>

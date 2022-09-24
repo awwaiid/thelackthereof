@@ -1,0 +1,17 @@
+{
+  "name": "website-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "feedly": "node fetch-feedly.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-feedly-developer-client": "^0.0.3",
+    "sanitize-filename": "^1.6.3"
+  }
+}
