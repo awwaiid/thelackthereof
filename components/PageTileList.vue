@@ -3,7 +3,7 @@
     <div
       v-for="page in pages"
       :key="page._path"
-      class="rounded-lg m-2 p-2 shadow border border-gray-300 overflow-hidden"
+      class="rounded-lg m-2 p-2 shadow border border-gray-600 overflow-hidden"
     >
       <PageTile :page="page" />
     </div>

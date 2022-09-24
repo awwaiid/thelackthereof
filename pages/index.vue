@@ -2,9 +2,9 @@
   <div>
     <TagNavBar />
     <PageTileList :pages="pages.slice(0, pageCount)" />
-    <button class="m-2 p-2 rounded-lg shadow border border-gray-300" @click="morePages">
+    <!-- <button class="m-2 p-2 rounded-lg shadow border border-gray-300" @click="morePages">
       Load More
-    </button>
+    </button> -->
   </div>
 </template>
 
@@ -13,6 +13,7 @@
 
   const { data: pages } = await useAsyncData("posts-list", () =>
     queryContent("/")
+    .sort({ createdAt: -1})
     .sort({ updatedAt: -1})
     .limit(pageCount)
     .find()

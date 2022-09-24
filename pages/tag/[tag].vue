@@ -11,7 +11,7 @@
 <script setup lang="ts">
   const route = useRoute();
 
-  const pageCount = ref(16);
+  const pageCount = ref(100);
 
   const { data: pages } = await useAsyncData("tags-pages-list-" + route.params.tag, () =>
     queryContent("/")

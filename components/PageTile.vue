@@ -1,18 +1,30 @@
 <template>
   <NuxtLink :to="page._path">
-    <NuxtLink href="/"><img class="float-right" width="32" src="/brock-logo-circle-icon-48x48.png"></NuxtLink>
-    <div class="text-xs">
-      <span>{{ shortDate(page.createdAt) }}</span>
-      <span v-if="shortDate(page.createdAt) != shortDate(page.updatedAt)">
-        → {{ shortDate(page.updatedAt) }}
-      </span>
-    </div>
-    <!-- eslint-disable-next-line vue/no-v-html -->
-    <div v-html="cleanTitle(page.title)"></div>
-    <div class="flex justify-end">
-      <div v-for="tag in page.tags" :key="tag">
-        <NuxtLink class="tag rounded-full border pl-2 pr-2 ml-2 text-black border-2 border-black" :to="'/tag/' + tag">{{ tag }}</NuxtLink>
+    <div class="flex flex-row">
+
+      <div class="flex justify-between w-full">
+
+        <div class="flex flex-col">
+          <div class="font-bold" v-html="cleanTitle(page.title)"></div>
+          <div class="text-xs">
+            <span>{{ shortDate(page.createdAt) }}</span>
+            <span v-if="shortDate(page.createdAt) != shortDate(page.updatedAt)">
+              → {{ shortDate(page.updatedAt) }}
+            </span>
+          </div>
+        </div>
+
+        <div class="text-right text-xs text-slate-400">
+          <div v-for="tag in page.tags" :key="tag">
+            <NuxtLink class="tag pl-2 pr-2 ml-2" :to="'/tag/' + tag">{{ tag }}</NuxtLink>
+          </div>
+        </div>
+
       </div>
+    </div>
+
+    <div class="m-4 pl-2 text-xs border-l-8 border-slate-200">
+      <Markdown>{{ page.description }}</Markdown>
     </div>
   </NuxtLink>
 </template>
@@ -27,6 +39,7 @@ export default {
       return value
         ?.replace(/_/g, ' ')
         ?.replace(/TLT - /, '')
+        ?.replace(/\d\d\d\d[.-]\d\d[.-]\d\d - /, '')
         ?.replace(/ - /g, "<br/>");
     },
     shortDate(timestamp) {
@@ -41,6 +54,8 @@ export default {
 
 <style>
 .tag {
-  background-color: rgb(199 191 176);
+  /*background-color: rgb(199 191 176);*/
+  /* background-color: #888;
+  color: rgb(199 191 176); */
 }
 </style>

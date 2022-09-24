@@ -22,6 +22,7 @@
     return value
       ?.replace(/_/g, ' ')
       ?.replace(/TLT - /, '')
+      ?.replace(/\d\d\d\d[.-]\d\d[.-]\d\d - /, '')
       ?.replace(/ - /g, "<br/>");
   }
 
