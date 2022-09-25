@@ -14,9 +14,18 @@
 <script setup lang="ts">
   const route = useRoute();
 
-  const { data: page } = await useAsyncData(route.path, () =>
+  let { data: page } = await useAsyncData(route.path, () =>
     queryContent(route.path).findOne()
   );
+
+  // Fallback for legacy routes
+  if (!page.value) {
+    const path = route.path.replace(/_/g, "-");
+    let response = await useAsyncData(path, () =>
+      queryContent(path).findOne()
+    );
+    page = response.data;
+  }
 
   function cleanTitle(value) {
     return value

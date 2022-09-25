@@ -24,7 +24,7 @@
     </div>
 
     <div class="m-4 pl-2 text-xs border-l-8 border-slate-200">
-      <Markdown>{{ page.description }}</Markdown>
+      <ContentSlot>{{ page.description }}</ContentSlot>
     </div>
   </NuxtLink>
 </template>
