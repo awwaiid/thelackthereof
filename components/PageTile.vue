@@ -25,7 +25,9 @@
 
     <div class="m-4 ml-2 pl-2 text-xs border-l-8 border-slate-200 flex">
       <div class="basis-2/3 grow"><ContentSlot>{{ page.description }}</ContentSlot></div>
-      <img v-if="page.image" :src="page.image" class="basis-1/3 w-full ml-1">
+      <div v-if="page.image" class="basis-1/3 ml-1">
+        <img class="w-full" :src="page.image">
+      </div>
     </div>
   </NuxtLink>
 </template>

@@ -14,7 +14,7 @@ If you were to ask me what I'm working on right now, I might say one of these.
 == Backburner ==
 If you had asked me what I was working on last week, or if you ask me next week, I might mention one of these.
 * [[Mizik]] - A game of memory, sound, shape
-* [[Covid Can I Do It]] - An interactive harm-reduction database built during the COVID pandemic
+* [[COVID Can I Do It]] - An interactive harm-reduction dataset built during the COVID pandemic
 
 == Inactive ==
 I probably won't be doing much with these. This ''could'' mean that they are in a fairly completed state. It could also mean that they are abandoned. But feel free to ask me about them anyway!
