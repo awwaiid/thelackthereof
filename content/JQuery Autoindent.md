@@ -1,6 +1,6 @@
 ---
 title: JQuery_Autoindent
-tags: []
+tags: ["project"]
 createdAt: 2007-07-29T22:54-04:00
 updatedAt: 2007-08-07T16:08-04:00
 ---

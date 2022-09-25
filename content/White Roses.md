@@ -1,6 +1,6 @@
 ---
 title: White_Roses
-tags: []
+tags: ["music"]
 createdAt: 2017-04-13T23:06-04:00
 updatedAt: 2017-04-13T23:06-04:00
 ---

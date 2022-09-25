@@ -1,6 +1,6 @@
 ---
 title: Rubik's_Cube_Solver
-tags: []
+tags: ["project"]
 createdAt: 2006-08-29T02:53-04:00
 updatedAt: 2006-08-29T02:53-04:00
 ---

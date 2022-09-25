@@ -1,6 +1,6 @@
 ---
 title: Gitmo
-tags: []
+tags: ["music"]
 createdAt: 2017-02-16T13:32-05:00
 updatedAt: 2017-02-16T13:37-05:00
 ---

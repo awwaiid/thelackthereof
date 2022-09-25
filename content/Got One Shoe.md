@@ -1,6 +1,6 @@
 ---
 title: Got_One_Shoe
-tags: []
+tags: ["music"]
 createdAt: 2008-05-13T19:03-04:00
 updatedAt: 2008-05-13T19:03-04:00
 ---

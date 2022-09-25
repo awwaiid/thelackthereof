@@ -1,6 +1,6 @@
 ---
 title: Segfault
-tags: []
+tags: ["music"]
 createdAt: 2016-02-14T22:47-05:00
 updatedAt: 2016-02-14T22:57-05:00
 ---

@@ -1,9 +1,12 @@
 ---
 title: Pocket_Operator_PO-33
+image: /content/PO33
 tags: []
 createdAt: 2019-08-25T16:14-04:00
 updatedAt: 2019-08-25T22:03-04:00
 ---
+
+The Pocket Operator PO-33 Knock-Out is a super fun sampler and step-sequencer made by Teenage Engineering! I got one in August 2019, and am using it to play around with sample-based music.
 
 See also [[Music Gear and Setup]]
 

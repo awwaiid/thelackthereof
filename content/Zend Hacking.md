@@ -1,6 +1,6 @@
 ---
 title: Zend_Hacking
-tags: []
+tags: ["project"]
 createdAt: 2005-06-11T18:53-04:00
 updatedAt: 2005-06-17T17:12-04:00
 ---

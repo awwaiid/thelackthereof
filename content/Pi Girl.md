@@ -1,6 +1,6 @@
 ---
 title: Pi_Girl
-tags: []
+tags: ["music"]
 createdAt: 2016-07-07T23:18-04:00
 updatedAt: 2016-07-07T23:18-04:00
 ---

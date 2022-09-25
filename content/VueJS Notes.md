@@ -5,6 +5,8 @@ createdAt: 2020-02-16T17:06-05:00
 updatedAt: 2020-02-16T17:12-05:00
 ---
 
+A brain-dump of some things I ran into while learning VueJS and related technology (Vuex).
+
 * Vuex
   * Makes me think of Software Transactional Memory
   * Mutations are synchronous

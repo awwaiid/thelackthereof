@@ -1,6 +1,6 @@
 ---
 title: WayV
-tags: []
+tags: ["project"]
 createdAt: 2008-09-11T10:22-04:00
 updatedAt: 2008-09-11T10:34-04:00
 ---

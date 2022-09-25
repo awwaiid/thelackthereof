@@ -2,7 +2,7 @@
 title: Projects
 tags: ["project"]
 createdAt: 2005-01-04T11:35-05:00
-updatedAt: 2016-01-22T09:00-05:00
+updatedAt: 2022-09-25
 ---
 
 For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
@@ -14,6 +14,7 @@ If you were to ask me what I'm working on right now, I might say one of these.
 == Backburner ==
 If you had asked me what I was working on last week, or if you ask me next week, I might mention one of these.
 * [[Mizik]] - A game of memory, sound, shape
+* [[Covid Can I Do It]] - An interactive harm-reduction database built during the COVID pandemic
 
 == Inactive ==
 I probably won't be doing much with these. This ''could'' mean that they are in a fairly completed state. It could also mean that they are abandoned. But feel free to ask me about them anyway!
@@ -28,7 +29,7 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 * [[Dot2html]] - Convert graphviz files to HTML and Javascript
 * [[EPFarms Panel]] - A control panel for hosting clients
 * [[GOE]] - Smalltalk-like environment for Perl
-* [[Gecko-based html2ps]] - Render html -> postscript using the gecko 
+* [[Gecko-based html2ps]] - Render html -> postscript using the gecko
 * [[Graph Module]] - OddMuse plugin to make GraphViz graphs (complete)
 * [[JQuery Autoindent]] - I've always wanted a textbox that auto-indents
 * [[MHTML]] - An HTML (XML?) Macro language (complete? old)
@@ -49,7 +50,7 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 * [[Perl 6 Use Libs From Ruby]] - Perl 6 to Ruby bridge
 * [[Perl HtmlUnit]] - A perl interface to the java HtmlUnit library
 * [[Polly]] - A very simple perl wrapper around some command-line audio players
-* [[Rubik's Cube Solver]] - I finally got my very own Rubik's Cube!
+* [[Rubiks Cube Solver]] - I finally got my very own Rubik's Cube!
 * [[Scrutiny Debugger]] - PSGI/Plack Middleware providing a debugger
 * [[SetDB]] - A set-theoretical datbase interface
 * [[Skechiki]] - A Perl/GTK sketchbook for small touch-screen devices

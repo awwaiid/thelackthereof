@@ -1,6 +1,6 @@
 ---
 title: Census_Data_Extraction
-tags: []
+tags: ["project"]
 createdAt: 2006-03-06T14:41-05:00
 updatedAt: 2006-06-16T04:49-04:00
 ---

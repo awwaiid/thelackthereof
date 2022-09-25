@@ -1,6 +1,6 @@
 ---
 title: Contize
-tags: []
+tags: ["project"]
 createdAt: 2004-07-24T15:56-04:00
 updatedAt: 2007-09-28T12:28-04:00
 ---

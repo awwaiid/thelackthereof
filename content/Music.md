@@ -17,7 +17,7 @@ Random songs. Some of these are more proof-of-concept than anything :)
 | -------------------------- | ----------------------------------------------- |
 | [[Livingroom Adeventures]] | audio:docs/music/livingroom_adventures          |
 | [[Gitmo]]                  | audio:docs/music/gitmo_v1                       |
-| [[Don't Repeat Yourself]]  | audio:docs/music/dont_repeat_yourself           |
+| [[Dont Repeat Yourself]]   | audio:docs/music/dont_repeat_yourself           |
 | [[Segfault]]               | audio:docs/music/Segfault_v1_2016-02-14         |
 | [[Frog Prince]]            | audio:docs/music/frog_prince_v5                 |
 | [[It Takes All Sorts]]     |                                                 |

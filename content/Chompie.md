@@ -1,6 +1,6 @@
 ---
 title: Chompie
-tags: []
+tags: ["project"]
 createdAt: 2007-07-15T22:57-04:00
 updatedAt: 2007-07-15T22:59-04:00
 ---

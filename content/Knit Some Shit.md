@@ -1,6 +1,6 @@
 ---
 title: Knit_Some_Shit
-tags: []
+tags: ["music"]
 createdAt: 2015-06-14T12:10-04:00
 updatedAt: 2015-06-14T12:10-04:00
 ---

@@ -1,6 +1,6 @@
 ---
 title: GOE
-tags: []
+tags: ["project"]
 createdAt: 2004-05-19T01:06-04:00
 updatedAt: 2004-05-19T01:06-04:00
 ---

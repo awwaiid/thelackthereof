@@ -1,6 +1,6 @@
 ---
 title: Scrutiny_Debugger
-tags: []
+tags: ["project"]
 createdAt: 2011-11-05T15:46-04:00
 updatedAt: 2011-11-05T15:46-04:00
 ---

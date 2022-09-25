@@ -1,6 +1,6 @@
 ---
 title: Frog_Prince
-tags: []
+tags: ["music"]
 createdAt: 2014-04-26T10:00-04:00
 updatedAt: 2015-08-16T16:32-04:00
 ---

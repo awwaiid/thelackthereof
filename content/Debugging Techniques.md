@@ -1,11 +1,11 @@
 ---
 title: Debugging_Techniques
-tags: []
+tags: ["code"]
 createdAt: 2020-05-20T14:53-04:00
 updatedAt: 2020-05-21T10:08-04:00
 ---
 
-= Debugging Techniques =
+A brain-dump of various approaches to debugging (code) things that I like.
 
 * Development is mostly debugging
   * You could even say that it is ALL debugging

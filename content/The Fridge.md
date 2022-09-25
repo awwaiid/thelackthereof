@@ -1,6 +1,6 @@
 ---
 title: The_Fridge
-tags: []
+tags: ["project"]
 createdAt: 2005-06-09T14:27-04:00
 updatedAt: 2005-06-09T14:27-04:00
 ---

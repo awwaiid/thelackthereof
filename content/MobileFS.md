@@ -1,6 +1,6 @@
 ---
 title: MobileFS
-tags: []
+tags: ["project"]
 createdAt: 2007-11-15T23:06-05:00
 updatedAt: 2008-01-21T20:54-05:00
 ---

@@ -1,6 +1,6 @@
 ---
 title: Zombie_Love
-tags: []
+tags: ["music"]
 createdAt: 2008-03-30T16:50-04:00
 updatedAt: 2008-03-30T17:04-04:00
 ---

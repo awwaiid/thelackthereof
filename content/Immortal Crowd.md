@@ -1,6 +1,6 @@
 ---
 title: Immortal_Crowd
-tags: []
+tags: ["music"]
 createdAt: 2012-11-22T10:49-05:00
 updatedAt: 2012-12-06T17:59-05:00
 ---

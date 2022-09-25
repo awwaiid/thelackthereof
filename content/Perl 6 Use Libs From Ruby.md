@@ -1,6 +1,6 @@
 ---
 title: Perl_6_Use_Libs_From_Ruby
-tags: []
+tags: ["project"]
 createdAt: 2016-01-22T09:02-05:00
 updatedAt: 2016-01-22T09:02-05:00
 ---

@@ -1,6 +1,6 @@
 ---
 title: White_Elephant_Gift_Selecter
-tags: []
+tags: ["project"]
 createdAt: 2016-05-22T21:30-04:00
 updatedAt: 2016-05-22T21:30-04:00
 ---

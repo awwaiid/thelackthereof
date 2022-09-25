@@ -1,6 +1,6 @@
 ---
 title: Yo_Oliver
-tags: []
+tags: ["music"]
 createdAt: 2018-04-14T22:30-04:00
 updatedAt: 2018-04-14T22:30-04:00
 ---

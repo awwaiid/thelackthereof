@@ -1,6 +1,6 @@
 ---
 title: I_Like_Caffeine
-tags: []
+tags: ["music"]
 createdAt: 2011-12-11T00:40-05:00
 updatedAt: 2011-12-11T00:40-05:00
 ---

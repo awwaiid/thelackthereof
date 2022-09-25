@@ -1,6 +1,6 @@
 ---
 title: NoiseGen
-tags: []
+tags: ["project"]
 createdAt: 2012-05-22T19:48-04:00
 updatedAt: 2014-10-01T18:15-04:00
 ---

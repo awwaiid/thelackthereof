@@ -1,6 +1,6 @@
 ---
 title: CGI_Inspect
-tags: []
+tags: ["project"]
 createdAt: 2009-05-30T01:24-04:00
 updatedAt: 2011-01-19T22:14-05:00
 ---

@@ -27,6 +27,8 @@
       <NuxtLink to="/" class="logo-link" />
     </div>
 
+    <NuxtLoadingIndicator />
+
     <div class="m-4">
       <slot />
     </div>

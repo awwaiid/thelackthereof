@@ -1,6 +1,6 @@
 ---
 title: Talking_DC_Vote_Blues
-tags: []
+tags: ["music"]
 createdAt: 2008-10-06T17:45-04:00
 updatedAt: 2020-03-03T16:45-05:00
 ---

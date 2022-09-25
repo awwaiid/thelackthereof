@@ -1,6 +1,6 @@
 ---
 title: Caravan
-tags: []
+tags: ["project"]
 createdAt: 2010-08-16T02:07-04:00
 updatedAt: 2010-08-16T02:29-04:00
 ---

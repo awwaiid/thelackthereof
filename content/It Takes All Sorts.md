@@ -1,6 +1,6 @@
 ---
 title: It_Takes_All_Sorts
-tags: []
+tags: ["music"]
 createdAt: 2014-04-21T21:05-04:00
 updatedAt: 2015-02-21T16:10-05:00
 ---

@@ -1,6 +1,6 @@
 ---
 title: Don't_Repeat_Yourself
-tags: []
+tags: ["music"]
 createdAt: 2016-04-27T22:03-04:00
 updatedAt: 2016-04-27T22:09-04:00
 ---

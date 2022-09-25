@@ -1,6 +1,6 @@
 ---
 title: Web_Board_Games
-tags: []
+tags: ["project"]
 createdAt: 2008-04-14T13:08-04:00
 updatedAt: 2008-04-14T13:08-04:00
 ---
