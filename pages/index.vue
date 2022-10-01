@@ -2,14 +2,14 @@
   <div>
     <TagNavBar />
     <PageTileList :pages="pages.slice(0, pageCount)" />
-    <!-- <button class="m-2 p-2 rounded-lg shadow border border-gray-300" @click="morePages">
+    <button class="m-2 p-2 rounded-lg shadow border border-gray-300" @click="morePages">
       Load More
-    </button> -->
+    </button>
   </div>
 </template>
 
 <script setup lang="ts">
-  const pageCount = ref(1600);
+  const pageCount = ref(100);
 
   const { data: pages } = await useAsyncData("posts-list", () =>
     queryContent("/")
@@ -20,7 +20,7 @@
   );
 
   function morePages() {
-    pageCount.value += 16;
+    pageCount.value += 100;
   }
 
 </script>

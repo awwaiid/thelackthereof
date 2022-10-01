@@ -6,7 +6,10 @@ export default defineNuxtConfig({
   ],
 
   nitro: {
-    plugins: ['~/server/plugins/content.ts']
+    plugins: ['~/server/plugins/content.ts'],
+    prerender: {
+      routes: ['/rss.xml']
+    }
   },
 
   vue: {
@@ -19,20 +22,23 @@ export default defineNuxtConfig({
     ignored: ['public/docs']
   },
 
-  head: {
-    title: 'thelackthereof',
-    htmlAttrs: {
-      lang: 'en'
+  app: {
+    head: {
+      title: 'thelackthereof',
+      htmlAttrs: {
+        lang: 'en'
+      },
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'description', name: 'description', content: 'Blog and content about programming, projects, the universe, etc, by Brock Wilcox (@awwaiid)' },
+        { name: 'format-detection', content: 'telephone=no' }
+      ],
+      link: [
+        { rel: 'icon', href: '/brock-logo-outline-80x100.png' },
+        { rel: "alternate", "type": "application/rss+xml", title: "The Lack Thereof (@awwaiid / Brock Wilcox)", href: "/rss.xml" }
+      ]
     },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
-    ],
-    link: [
-      { rel: 'icon', href: '/brock-logo-outline-80x100.png' }
-    ]
   },
 
   googleFonts: {
@@ -40,6 +46,13 @@ export default defineNuxtConfig({
       "Nunito": true
     }
   },
+
+  content: {
+    highlight: {
+      theme: 'github-light',
+      preload: ['diff', 'json', 'js', 'ts', 'css', 'shell', 'html', 'md', 'yaml', 'vue', 'python', 'ruby', 'perl']
+    }
+  }
 
 
 })

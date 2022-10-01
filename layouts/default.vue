@@ -2,14 +2,16 @@
   <div>
     <div class="header text-white">
       <div class="flex items-center header-content">
-        <div class="ml-4 flex-grow header-title">
 
+        <div class="ml-4 flex-grow header-title">
           <NuxtLink to="/">
             <h1 class="sm:text-2xl font-bold">THE LACK THEREOF</h1>
             <h2 class="text-xs italic">Various musings of Brock Wilcox (@awwaiid)</h2>
           </NuxtLink>
         </div>
-        <div class="grid grid-cols-3">
+
+        <div class="grid grid-cols-3 mr-2">
+          <NuxtLink class="social-logo m-1" href="/rss.xml"><img width="32" src="/social-media-icons/rss.png" /></NuxtLink>
           <NuxtLink class="social-logo m-1" href="https://www.github.com/awwaiid"><img width="32" src="/social-media-icons/github.png" /></NuxtLink>
           <NuxtLink class="social-logo m-1" href="https://www.twitter.com/awwaiid/"><img width="32" src="/social-media-icons/twitter.png" /></NuxtLink>
           <NuxtLink class="social-logo m-1" href="https://www.instagram.com/awwaiid/"><img width="32" src="/social-media-icons/instagram.png" /></NuxtLink>
@@ -18,14 +20,15 @@
           <NuxtLink class="social-logo m-1" href="https://www.youtube.com/user/awwaiid"><img width="32" src="/social-media-icons/youtube.png" /></NuxtLink>
           <NuxtLink class="social-logo m-1" href="https://www.tiktok.com/@awwaiid"><img width="32" src="/social-media-icons/tiktok.png" /></NuxtLink>
           <NuxtLink class="social-logo m-1" href="mailto:awwaiid@thelackthereof.org"><img width="32" src="/social-media-icons/email.png" /></NuxtLink>
-          <NuxtLink class="social-logo m-1" href="/"><img width="32" src="/brock-logo-circle-icon-48x48.png" /></NuxtLink>
+          <!-- <NuxtLink class="social-logo m-1" href="/"><img width="32" src="/brock-logo-circle-icon-48x48.png" /></NuxtLink> -->
         </div>
+      </div>
+
+      <div class="flex items-center logo-link-wrapper">
+        <NuxtLink to="/" class="logo-link" />
       </div>
     </div>
 
-    <div class="flex items-center">
-      <NuxtLink to="/" class="logo-link" />
-    </div>
 
     <NuxtLoadingIndicator />
 
@@ -45,6 +48,11 @@ body {
   font-family: Nunito, sans-serif;
 }
 
+.logo-link-wrapper {
+  position: relative;
+  margin-bottom: 35px;
+}
+
 .logo-link {
   border: 3px solid black;
   padding: 3px;
@@ -56,10 +64,9 @@ body {
   background-position:50% 50%;
   background-repeat:no-repeat;
   background-size: 50%;
-  position: relative;
+  position: absolute;
   top: -28px;
   left: 10px;
-  margin-bottom: -35px;
 }
 .header-title {
   position: relative;
@@ -70,6 +77,10 @@ body {
   background-image: url(/bg/babbage-banner-1500x500.jpeg);
   background-size: 100% auto;
   color: rgb(199 191 176);
+
+  /* opacity: 0.85;
+  position: sticky;
+  top: 0; */
 
   /* -webkit-text-stroke: 2px white; */
 }
@@ -152,5 +163,17 @@ body {
     background-color: black;
 }
 
+.prose code::before {
+  display: none;
+}
+
+.prose code::after {
+  display: none;
+}
+
+.prose pre {
+  background-color: #dcd5c8;
+  font-size: 0.8em;
+}
 
 </style>
