@@ -49,7 +49,12 @@ export default defineNuxtConfig({
 
   content: {
     highlight: {
-      theme: 'github-light',
+      // theme: 'github-light',
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark',
+        sepia: 'monokai'
+      },
       preload: ['diff', 'json', 'js', 'ts', 'css', 'shell', 'html', 'md', 'yaml', 'vue', 'python', 'ruby', 'perl']
     }
   }

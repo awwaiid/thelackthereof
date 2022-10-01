@@ -5,7 +5,7 @@ createdAt: 2009-09-22T14:08-04:00
 updatedAt: 2009-09-22T14:08-04:00
 ---
 
-<code>
+```
   # blah.pl
   use Continuity;
   use Continuity::Adapt::PSGI;
@@ -16,7 +16,7 @@ updatedAt: 2009-09-22T14:08-04:00
     my $request = shift;
     $request->print("Hello")->next->print("world!");
   }
-</code>
+```
 
 Then execute with "plackup blah.pl". This will work by magically overriding ->loop to return a subref, so when blah.pl is eval'ed it will actually do some magical inversion-of-control.
 

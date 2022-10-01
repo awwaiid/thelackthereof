@@ -33,13 +33,13 @@ Recently I did a clean install to an SSD drive, and copied all of my stuff over.
 
 First I mounted my old disk at /mnt and used find to get a list of files that I want to fix, which are all in my 'tlt' directory. After some trial and error (and verification!), I ended up with this:
 
-<code>
+```
 find /home/awwaiid/tlt ! \( -newer wiki_data/visitors \) -printf '%p\n' > files.txt
-</code>
+```
 
 Then I started looking at rsync to see if it could somehow just sync timestamps. Nothing immediately obvious, and the internet didn't help, so I decided I'd just do it with a perl script. I only have to do this once, so it doesn't have to be particularly fast or clean or anything. I built it up experimentally -- I had to look up how to do 'stat' and such since I don't do that often. And I think I've <i>never</i> used ustat.
 
-<code>
+```
 #!/usr/bin/env perl
 
 use v5.14;
@@ -64,17 +64,17 @@ foreach my $file (@files) {
     }
   }
 }
-</code>
+```
 
 After doing some experiments to make sure it isn't going to eat my data much, I kicked it off! I piped the output to fixes.txt and started tailing that. But just tailing the file got boring, so before long I started to wonder how long this was going to take and how far it had gotten. Well... using 'wc' will give me a line-count of the two files. Each line of the original file will (mostly) generate 3 lines in the output file. So all we have to do is count output lines, divide by 3, and then divide by the total, and va la! Let's toss that into watch so we can watch the percentage grow.
 
-<code>
+```
 watch -x perl -E '
   $files = `wc -l files.txt`;
   $fixes = `wc -l fixes.txt`;
   say ((($fixes / 3) / $files)*100)
 '
-</code>
+```
 
 So we have all SORTS of lazyness going on here. My favorite is that 'wc -l files.txt' actually returns a number AND the file name. But we just pretend it is a number, which works :)
 

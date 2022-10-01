@@ -17,7 +17,7 @@ Digital sound isn't really much more than a stream of floating point numbers fro
 ; Python: [http://github.com/awwaiid/python-noise github] | [http://thelackthereof.org/projects/python/noisegen/ local browse] | [http://thelackthereof.org/projects/python/noisegen/.git local git]
 ; Ruby: [http://github.com/awwaiid/ruby-noise github] | [http://thelackthereof.org/projects/ruby/noisegen/ local browse] | [http://thelackthereof.org/projects/ruby/noisegen/.git local git]
 
-<code>
+```
   # Alien Death Ray Sound?
   
   my $lfo = sine( freq => 5 );
@@ -29,7 +29,7 @@ Digital sound isn't really much more than a stream of floating point numbers fro
   play( gen =>
     sine( freq => $vfreq )
   )
-</code>
+```
 
 === News ===
 * 2012.06.23 - Presented at YAPC::NA 2012. Video is up on [http://youtu.be/pMZ4ilLzKW8 YouTube]!

@@ -30,7 +30,7 @@ How much you have to coordinate the workings of the genotype and fitness test de
 
 == Genotype ==
 Genotypes define and manipulate individual genomes. Here is the basic signature which a genotype must implement:
-<code>
+```
 module type Sig = sig
   type t
   val combine: t -> t -> t
@@ -39,17 +39,17 @@ module type Sig = sig
   val to_string: t -> string
   val of_string: string -> t
 end
-</code>
+```
 
 Here is an additional signature that I have some things require (FGenotype):
-<code>
+```
 module type Sig = sig
   type t
   val print: t -> unit
   val to_string: t -> string
   val eval: float -> t -> float
 end
-</code>
+```
 
 One debate I'm currently having with myself is whether Genotypes should be responsible for evaluating themselves. One the one had self-evaluation makes the genotype more modular, keeping the fitness test from having this job. On the flip side the fitness test must then know how to communicate the problem setup to the genotype.
 

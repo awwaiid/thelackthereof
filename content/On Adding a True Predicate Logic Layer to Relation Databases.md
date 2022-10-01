@@ -26,13 +26,13 @@ Select all people: <code> @people = </code>$$ \{ \forall x | (person(x) \rightar
 foreach $addr (@addresses) {
   print "Street: $addr->{'street'}\n";
 }
-</code>
+```
 
 <code>@addresses = </code>
 $$ \forall x \forall a (person(x) \rightarrow has\_address(x,a) \rightarrow a)  $$<code>;
 foreach $addr (@addresses) {
   print "Street: $addr->{'street'}\n";
 }
-</code>
+```
 
 

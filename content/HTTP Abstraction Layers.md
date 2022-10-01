@@ -7,7 +7,7 @@ updatedAt: 2015-10-07T22:48-04:00
 
 These are protocols or APIs or libraries that roughly abstract away HTTP serving from your application. Most of them take the form of:
 
-<code>
+```
 function(request_environment) {
    # Look at the request environment, build some output
    return [ 200, { "Content-Type": "text/html" }, [ some_output ] ]

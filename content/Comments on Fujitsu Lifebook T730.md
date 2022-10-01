@@ -20,11 +20,11 @@ Lukas
 
 Hmm... no, I don't think I ever had quite that problem while I went through all of my experiments. For versions, dpkg says:
 
-<code>
+```
 ii  xorg                                            1:7.5+5ubuntu1
 ii  xserver-xorg-core                               2:1.7.6-2ubuntu7.3
 ii  xserver-xorg-input-wacom                        1:0.10.5-0ubuntu4
-</code>
+```
 
 ... I suggest you try 10.04 (even just the boot CD) with the xorg I provided and see if that works. It might indicate that I'll have an issue once I upgrade if it does :)
 

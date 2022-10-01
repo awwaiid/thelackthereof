@@ -29,7 +29,7 @@ As you can see, optional components are:
 
 Here is a regular expression which can get all of these things:
 
-<code>
+```
   $filename =~ /
     ^(.*?)                   # Artist Name
     \ -\ (.*?)               # Album Name
@@ -40,7 +40,7 @@ Here is a regular expression which can get all of these things:
     \ -\ (.*?)               # Track Name
     \.(\w+)$                 # File extension
   /x;
-</code>
+```
 
 * $1 - Artist Name
 * $2 - Album Name

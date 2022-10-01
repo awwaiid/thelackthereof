@@ -6,7 +6,7 @@ updatedAt: 2005-02-08T13:00-05:00
 ---
 
 
-<code>
+```
   $num = int(rand(10)) + 1;
   print "Try to guess my number! You get one try.\n";
   print "Your guess: ";
@@ -17,7 +17,7 @@ updatedAt: 2005-02-08T13:00-05:00
   } else {
     print "Sorry... you guessed $guess, but my number was $num.\n";
   }
-</code>
+```
 
   
 

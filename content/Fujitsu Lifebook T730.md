@@ -63,7 +63,7 @@ Now the pen/eraser inputs were listed out of the box in xinput --list, so I mist
 
 Finally I went ahead and created an /etc/X11/xorg.conf. I was really reluctant to do that because I thought I'd end up having to have the full config, like in the old days. But no! I only had to specify the things I wanted to override, in this case some details on the touch screen. Everything else was still auto detected! Here is my _entire_ xorg.conf:
 
-<code>
+```
 Section "InputDevice"
   Driver        "wacom"
   Identifier    "stylus"
@@ -96,7 +96,7 @@ Section "ServerLayout"
         InputDevice    "eraser"    "SendCoreEvents"
         InputDevice    "touch"     "SendCoreEvents"    # Only a few TabletPCs support this type
 EndSection
-</code>
+```
 
 I haven't done calibration yet, looks like that is a bit of a manual process right now (they are transitioning codebases over at LinuxWacom). But it is close enough to be useable anyway :)
 

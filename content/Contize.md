@@ -13,7 +13,7 @@ Contize is a sort of proxy object. You create an instance of your original objec
 
 This is a pretty trick concept, and the best way to get your brain around the whole thing is to contemplate why I created it in the first place, namely so that I can do [[Continuation-based Web Programming]] in Perl CGI programs (See [[Web Programming With Contize]]. Well... actually the ''best'' way to make sense of this is to see some code, and the most relevant code is CGI programming stuff. So lets see some!
 
-<code>
+```
 #!/usr/bin/perl
 
 package WebGuess;
@@ -99,7 +99,7 @@ until($::q->param('done')) {
 
 # We won't get here until that exits cleanly (never!)
 print "Done.";
-</code>
+```
 
 Now this is long and maybe a bit complicated... but it shows the idea (and some warts that I am still working out, such as having to re-eval through Data::Dumper to fix the sessionization of the main object).
 

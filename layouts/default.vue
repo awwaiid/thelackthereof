@@ -174,6 +174,7 @@ body {
 .prose pre {
   background-color: #dcd5c8;
   font-size: 0.8em;
+  color: #101112;
 }
 
 </style>

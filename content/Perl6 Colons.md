@@ -14,7 +14,7 @@ A lot of these are variations on a theme, especially the theme of "colon-pair" s
 
 === Namespace ===
 
-<code>
+```
 # namespace
 package A::B { ... }
 class A::B { ... }
@@ -40,11 +40,11 @@ class Who { method myname { say ::?CLASS } }
 
 # Treat package X as a hash
 say X::.keys;
-</code>
+```
 
 === Binding ===
 
-<code>
+```
 # Binding
 my $y := $a;
 
@@ -53,11 +53,11 @@ my $z ::= $y;
 
 # Container identity
 $y =:= $a; # True
-</code>
+```
 
 === Colon-Pair Syntax ===
 
-<code>
+```
 # Colon-Pair syntax (often seen as adverbs)
 my $x = 'cat';
 :foo(5)        # 'foo' => 5
@@ -96,32 +96,32 @@ my $a;
 sub b (:foo($x)! is rw) { $x = 42};
 b(:foo($a));
 say $a # 42
-</code>
+```
 
 === Types ===
 
-<code>
+```
 # T takes value's type
 -> Numeric ::T \x { say T }(42);
 
 # Type Smileys
 Int:D; # Defined Int
 Int:U; # Undefined Int
-</code>
+```
 
 === Signature ===
 
-<code>
+```
 # signature literal
 my $sig = :(Int $foo);
 
 # signature on Callable &var, not yet implemented
 my &f:(Str) = -> Str {};
-</code>
+```
 
 === Operators as Methods ===
 
-<code>
+```
 my $a = 1;
 $a.infix:["+"](3); # $a + 3
 $a.infix:<+>(3);   # $a + 3, but shorter with quote brackets
@@ -129,12 +129,12 @@ $a.prefix:<++>;    # ++$a
 $a.postfix:<++>;   # ++$a
 $a.:<++>;          # Shorthand for prefix (no param)
 $a.:<+>(3);        # Shorthand for infix (param provided)
-</code>
+```
 
 
 === Regex ===
 
-<code>
+```
 
   # Regex adverb
 :i/a/  # Case insensitive, outside
@@ -153,11 +153,11 @@ my regex foo { :my $var; }
 
 # Unicode character classes
 say so "a" ~~ /<[:Alpha]>/
-</code>
+```
 
 === Misc ===
 
-<code>
+```
 # Quote adverb
 Q:w(word of the day); \# :w adverb
 
@@ -198,5 +198,5 @@ sub MAIN ( :$filename ) { ... }
 # cmd --filename=file.txt
 # cmd :filename=file.txt
 # cmd :filename \# filename => true
-</code>
+```
 

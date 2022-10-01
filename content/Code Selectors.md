@@ -17,7 +17,7 @@ This is a technique to provide bits of your program with context-based implicit 
 
 Example:
 
-<code>
+```
 procedure a() {
   x(true);
 }
@@ -33,11 +33,11 @@ procedure x(flag) {
     print "b";
   }
 }
-</code>
+```
 
 becomes:
 
-<code>
+```
 selector(qw(x), {
   flag => true # By default flag is true
 });
@@ -61,15 +61,15 @@ procedure x() {
     print "b";
   }
 }
-</code>
+```
 
 In this example the resulting code is longer than the original. But imagine that instead of just 'a' and 'b' calling 'x', there were instead like 20 things that call 'x', but you only want to pass false when 'b' calls 'x'. Or perhaps you only send false when 'a' calls 'b' calls 'c' calls 'x'.
 
-<code>
+```
 selector(qw(a b c x), {
   flag => false # But when called from b(), flag is false
 });
-</code>
+```
 
 Now we're starting to encode some more serious logic here. This example is clearly contrived, but see below for the real-world problem which inspired this technique. I'll try to think up a less symbolic example while keeping the simplicity. Suggestions welcome.
 
@@ -91,7 +91,7 @@ So lets see. Lets have a $context var that gets passed to these objects when the
 
 I'm working on a timesheet application. Each timesheet has rows (for each project worked on during the timesheet's time period), each row has cells, one for each day of the time period, containing the number of hours they worked on that day on that project. Additionally, in some contexts the rows are grouped by the type of project.
 
-<code>
+```
   /* By default, we show a non-editable version of the row */
   row {
     header: show;
@@ -106,11 +106,11 @@ I'm working on a timesheet application. Each timesheet has rows (for each projec
     cells: show;
     editable: yes;
   }
-</code>
+```
 
 I'm not actually suggesting we use selectors like this, it is a mere abstraction. Using actual selectors would be like using XML configuration files, and I am very against that. Instead I'd implement it in code at the very least. Like this:
 
-<code>
+```
   $context['row']['attrs'] = {
     'header' => 'show',
     'cells' => 'hide',
@@ -124,11 +124,11 @@ I'm not actually suggesting we use selectors like this, it is a mere abstraction
     'cells' => 'show',
     'editable' => true,
   };
-</code>
+```
 
 or somethin'. maybe a function call would be better, like
 
-<code>
+```
   context('view','timesheet', 'row', {
     'header' => 'hide',
     'cells' => 'show',
@@ -139,7 +139,7 @@ or somethin'. maybe a function call would be better, like
   if($header eq 'show') {
     # show the header
   }
-</code>
+```
 
 that way it could assign things in reverse-order... cause we are really going to want to know, as a 'row', what attributes we currently have given the context of "view -> timesheet". Plus the above selectors are just the "contained in" selectors, we might also want class, id, immediate-child, sibling, etc (just think of all the [http://www.w3.org/TR/REC-CSS2/selector.html css2 selectors]).
 

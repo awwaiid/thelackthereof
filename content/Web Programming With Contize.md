@@ -9,14 +9,14 @@ updatedAt: 2004-10-17T19:01-04:00
 
 == The Goal ==
 Eventually we are going to be writing code in a style that is remenicent of a command-line script. As a very breif example, you might see code like:
-<code>
+```
 sub getTwo {
   my $self = shift;
   my $num1 = $self->prompt("Enter first number");
   my $num2 = $self->prompt("Enter second number");
   $self->disp("The sum is $num1 + $num2 = " . ($num1 + $num2));
 }
-</code>
+```
 
 From the user's view this would be three web pages. A page asking for the first number, a page asking for the second number, and a page displaying their sum. Notice that we send and receive input and output to the user in a much more direct fasion that in standard CGI script style.
 

@@ -5,7 +5,7 @@ createdAt: 2008-04-30T20:27-04:00
 updatedAt: 2008-05-01T01:12-04:00
 ---
 
-<code>
+```
 ;; David E Smith
 ;; CS-396 Homework Four
 ;; "Logic is a Fickle Master, Part 2"
@@ -355,5 +355,5 @@ updatedAt: 2008-05-01T01:12-04:00
       '((?x hank)))
 
 
-</code>
+```
 

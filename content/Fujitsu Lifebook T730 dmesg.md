@@ -5,7 +5,7 @@ createdAt: 2010-07-27T21:30-04:00
 updatedAt: 2010-07-27T21:30-04:00
 ---
 
-<code>
+```
 [    0.000000] Initializing cgroup subsys cpuset
 [    0.000000] Initializing cgroup subsys cpu
 [    0.000000] Linux version 2.6.32-24-generic-pae (buildd@vernadsky) (gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5) ) #38-Ubuntu SMP Mon Jul 5 10:54:21 UTC 2010 (Ubuntu 2.6.32-24.38-generic-pae 2.6.32.15+drm33.5)
@@ -1668,6 +1668,6 @@ updatedAt: 2010-07-27T21:30-04:00
 [1266874879.059752]   groups: 3 (cpu_power = 589) 1 (cpu_power = 589)
 [1266874879.059756]   domain 1: span 0-3 level MC
 [1266874879.059757]    groups: 1,3 (cpu_power = 1178) 0,2 (cpu_power = 1178)
-</code>
+```
 
 

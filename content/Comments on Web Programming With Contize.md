@@ -8,15 +8,15 @@ updatedAt: 2004-10-12T19:34-04:00
 === 2 Comments. ===
 Regarding the session issue, my favorite web-based programming tool (cpan:HTML::Mason) has solved this a little better with an extension called cpan:MasonX::Request::WithApacheSession.  It's a lightweight wrapper around cpan:Apache::Session, such that you can store objects using the $m API:
 
-<code>
+```
 my $now = DateTime->now();
 $now->add( 'minutes' => 10 );
 $m->session->{expires} = $now;
-</code>
+```
 
 The only problem I've seen with this so far is that you can't store cpan:Class::DBI objects directly in the session, but that'll be a problem with any session handler, b/c of the way Class::DBI overloads various operators, like scalar().
 
-<code>
+```
 ## Ask::Program is a Class::DBI subclass
 my ($prog) = Ask::Program->search( name => $ENV{PROGRAM} );
 
@@ -26,7 +26,7 @@ $m->session->{program} = $prog;
 ## this does, but requires yet another call to Class::DBI to turn it back into an object
 $m->session->{program} = $prog->id;
 
-</code>
+```
 
 Of course, this assumes you're using mod_perl on the backend, which, if you're using Mason, you probably are anyway.  Though it occurs to me that if you're using mod_perl, there may be a lighterweight way to go about all of this anyway.
 

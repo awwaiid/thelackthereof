@@ -9,7 +9,7 @@ Just some brain-storming here.
 
 I've been going back and forth between an inline, DSL-style template and an external, DOM-manipulation template. Here's what the DSL looks like:
 
-<code>
+```
 my $doc = DSL->new(
   html => [
     head => [
@@ -23,9 +23,9 @@ my $doc = DSL->new(
     '--' => sub { $count-- },
   ]
 );
-</code>
+```
 
-<code>
+```
 <html>
   <head>
     <title>Magical Page</title>
@@ -44,7 +44,7 @@ $doc = DOM->new_from('template.html');
 $doc->set('#counter' => $count);
 $doc->set_callback('#add' => sub { $count++ });
 $doc->set_callback('#sub' => sub { $count-- });
-</code>
+```
 
 Each has advantages and disadvantages altering the balances between abstraction and maintainability. In the DSL it is very easy to add in loops and subroutine calls that generate various bits of the structure. Callbacks (simple ones at least) can be put inline.
 

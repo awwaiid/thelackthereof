@@ -21,7 +21,7 @@ This is where it starts getting complex. I think I'll just highlight the things 
 
 I use Debian sid. Here's some stuff:
 
-<code>
+```
 # Jack stuff
 apt install jackd jack-tools jack-keyboard qjackctl pulseaudio-module-jack a2jmidid patchage
 
@@ -42,7 +42,7 @@ apt install clojure1.4 leiningen
 
 # Misc
 apt install audacity vorbis-tools vlc
-</code>
+```
 
 === Jackd ===
 
@@ -79,7 +79,7 @@ This connects clojure to SuperCollider. Seems like a cool way to write synths an
 
 I have one script named 'musicstuff.sh' what gets things going, primarily Jack. I plug in my hardware first, then fire it up. It differentiates between when I run in laptop-only mode and when I run with my io2 plugged in. I created those two profiles manually in qjackctl and saved them with the given names.
 
-<code>
+```
 # Jack GUI and jackd itself
 if grep -q io2 /proc/asound/cards ; then
   echo "Runing with iO2"
@@ -102,14 +102,14 @@ patchage -A &
 
 # Magical bridge between legacy ALSA midi and jack
 a2jmidid -e &
-</code>
+```
 
 I also have a shut down script (triggered from qjackctl), which just undoes the PulseAudio -> Jack:
 
-<code>
+```
 pacmd set-default-sink 0
 pactl unload-module module-jack-sink
 pactl unload-module module-jack-source
-</code>
+```
 
 

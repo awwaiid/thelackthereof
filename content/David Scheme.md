@@ -5,7 +5,7 @@ createdAt: 2008-02-07T21:16-05:00
 updatedAt: 2008-02-08T01:32-05:00
 ---
 
-<code>
+```
 ; ---------------------------------------------
 ; Part I
 
@@ -372,5 +372,5 @@ updatedAt: 2008-02-08T01:32-05:00
 (test "Eck TTT - move 6" (ttplay 'o 3 1) '((x _ _) (_ _ o) (o _ x)))
 ;(test "Eck TTT - move 7 (win)" (ttplay 'x 2 2) '(the winner is: x)
 
-</code>
+```
 

@@ -45,5 +45,5 @@ while(my $person = $people->fetchNext())
     $book->{title} .= ' sucks!';
   }
 }
-</code>
+```
 

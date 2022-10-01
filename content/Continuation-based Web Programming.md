@@ -15,13 +15,13 @@ High level programming languages are meant to move beyond such limitations, howe
 
 In a continuation-like system the programming style is a bit different. Here is an example... we will display a page asking for a number, then a second page asking for another number, and finally a third page displaying their total (perlish-pseudo-code).
 
-<code>
+```
 sub addTwo {
   $num1 = getNum("Enter the first number");
   $num2 = getNum("Enter the second number");
   print "The total is " . $num1 + $num2;
 }
-</code>
+```
 
 The flow of this program is obvious. The strange bit is that the calls to getNum actually halt the entire program, waiting for a response. Once a response is attained the program picks up where it left off, processing the result and returning the given number.
 

@@ -25,7 +25,7 @@ Here are some ideas:
 == Code Selectors ==
 Rather than having completely different Views (aka "modes") for a Model, instead have a more fine-grained list of attributes that are used for rendering. These attributes might be things like flags for showing or not showing a label, or indicating that the instance should be editable or read-only.
 
-<code>
+```
 # Could set the attribute directly
 $person->attr( show_label => 0 )->render_on($div);
 
@@ -38,6 +38,6 @@ $style->add_selector(
 );
 # and then later
 $person->render_on($div);
-</code>
+```
 
 

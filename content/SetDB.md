@@ -42,7 +42,7 @@ Translating "(person, [book])" into the "person -> has_book -> book" relationshi
 
 === Desired Code Features ===
 Here is some proposed stuff I want to work:
-<code>
+```
   $east_siders = $everyone->filter([school, [address]], "side = 'east'");
 
   $non_east_siders = $everyone->minus($east_siders);
@@ -61,7 +61,7 @@ Here is some proposed stuff I want to work:
   $c->uniqueSize(); # Number of unduplicated elements in $c
   $c->duplicates; # Set of things which are duplicated in $c
   $c->unique(); # Remove duplicates
-</code>
+```
 
 
 === See Also ===

@@ -7,9 +7,9 @@ updatedAt: 2010-08-12T21:13-04:00
 
 Put this in your .screenrc and your terminal's normal scrollback will work for the screen history! WOOT!!!
 
-<code>
+```
 termcapinfo * ti@:te@
-</code>
+```
 
 [http://www.amazon.com/gp/registry/wishlist/1N05N79GCH3EG My Amazon Wish List]
 
