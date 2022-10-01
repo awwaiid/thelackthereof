@@ -171,10 +171,16 @@ body {
   display: none;
 }
 
+.prose p code {
+  background-color: #dcd5c8;
+  padding: 0.25em;
+  border-radius: 0.375rem;
+}
 .prose pre {
   background-color: #dcd5c8;
   font-size: 0.8em;
   color: #101112;
+  max-width: 40ch;
 }
 
 </style>

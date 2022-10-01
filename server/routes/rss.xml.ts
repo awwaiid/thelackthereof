@@ -27,7 +27,7 @@ export default defineEventHandler(async (event) => {
   for (const doc of docs) {
     let image = "";
     if (doc.image) {
-      image = `<img src="${doc.image}"><br/>\n`;
+      image = `<img src="https://thelackthereof.org${doc.image}"><br/>\n`;
     }
     feed.item({
       title: cleanTitle(doc.title) ?? '-',
