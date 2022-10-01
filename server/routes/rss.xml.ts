@@ -1,6 +1,13 @@
 import { serverQueryContent } from '#content/server';
 import RSS from 'rss';
 
+function cleanTitle(value) {
+  return value
+    ?.replace(/_/g, ' ')
+    ?.replace(/TLT - /, '')
+    ?.replace(/\d\d\d\d[.-]\d\d[.-]\d\d - /, '')
+}
+
 export default defineEventHandler(async (event) => {
 
   const feed = new RSS({
@@ -20,13 +27,13 @@ export default defineEventHandler(async (event) => {
   for (const doc of docs) {
     let image = "";
     if (doc.image) {
-      image = `<img src="${doc.image}"><br/>`;
+      image = `<img src="${doc.image}"><br/>\n`;
     }
     feed.item({
-      title: doc.title ?? '-',
+      title: cleanTitle(doc.title) ?? '-',
       url: `https://thelackthereof.org${doc._path}`,
       date: doc.createdAt,
-      description: '<![CDATA[' + image + doc.description + ']]>'
+      description: image + doc.description
     });
   }
 
