@@ -15,5 +15,9 @@
     "rss": "^1.2.2",
     "sass": "^1.53.0",
     "vue-audio-visual": "^2.5.0"
+  },
+  "dependencies": {
+    "@akebifiky/remark-simple-plantuml": "^1.0.2",
+    "remark-breaks": "^3.0.2"
   }
 }

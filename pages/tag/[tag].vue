@@ -16,6 +16,7 @@
   const { data: pages } = await useAsyncData("tags-pages-list-" + route.params.tag, () =>
     queryContent("/")
     .where({ tags: { $contains: route.params.tag } })
+    .where({ draft: { $ne: true }})
     .sort({ createdAt: -1})
     .sort({ updatedAt: -1})
     .limit(pageCount)

@@ -56,8 +56,12 @@ export default defineNuxtConfig({
         sepia: 'monokai'
       },
       preload: ['diff', 'json', 'js', 'ts', 'css', 'shell', 'html', 'md', 'yaml', 'vue', 'python', 'ruby', 'perl']
+    },
+    markdown: {
+      remarkPlugins: {
+        "@akebifiky/remark-simple-plantuml": true,
+        "remark-breaks": true
+      }
     }
   }
-
-
 })

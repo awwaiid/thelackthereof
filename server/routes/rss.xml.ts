@@ -19,6 +19,7 @@ export default defineEventHandler(async (event) => {
 
   const docs =
     await serverQueryContent(event)
+    .where({ draft: { $ne: true }})
     .sort({ createdAt: -1})
     .sort({ updatedAt: -1})
     .limit(20)

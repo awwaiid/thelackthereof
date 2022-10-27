@@ -13,6 +13,7 @@
 
   const { data: pages } = await useAsyncData("posts-list", () =>
     queryContent("/")
+    .where({ draft: { $ne: true }})
     .sort({ createdAt: -1})
     .sort({ updatedAt: -1})
     .limit(pageCount)

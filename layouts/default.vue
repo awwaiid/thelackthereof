@@ -180,7 +180,8 @@ body {
   background-color: #dcd5c8;
   font-size: 0.8em;
   color: #101112;
-  max-width: 40ch;
+  /* max-width: 80ch; */
+  max-width: 90vw;
 }
 
 </style>
