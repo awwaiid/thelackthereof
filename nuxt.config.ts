@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   ],
 
   nitro: {
-    plugins: ['~/server/plugins/content.ts'],
+    // plugins: ['~/server/plugins/content.ts'],
     prerender: {
       routes: ['/rss.xml']
     }
@@ -48,15 +48,15 @@ export default defineNuxtConfig({
   },
 
   content: {
-    highlight: {
-      // theme: 'github-light',
-      theme: {
-        default: 'github-light',
-        dark: 'github-dark',
-        sepia: 'monokai'
-      },
-      preload: ['diff', 'json', 'js', 'ts', 'css', 'shell', 'html', 'md', 'yaml', 'vue', 'python', 'ruby', 'perl']
-    },
+    // highlight: {
+    //   theme: 'github-light',
+    //   theme: {
+    //     default: 'github-light',
+    //     dark: 'github-dark',
+    //     sepia: 'monokai'
+    //   },
+    //   preload: ['diff', 'json', 'js', 'ts', 'css', 'shell', 'html', 'md', 'yaml', 'vue', 'python', 'ruby', 'perl']
+    // },
     markdown: {
       remarkPlugins: {
         "@akebifiky/remark-simple-plantuml": true,
