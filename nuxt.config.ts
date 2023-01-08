@@ -3,6 +3,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
+    'nuxt-delay-hydration',
   ],
 
   nitro: {
@@ -63,5 +64,11 @@ export default defineNuxtConfig({
         "remark-breaks": true
       }
     }
+  },
+
+  delayHydration: {
+    mode: 'mount',
+    // enables nuxt-delay-hydration in dev mode for testing
+    debug: process.env.NODE_ENV === 'development'
   }
 })

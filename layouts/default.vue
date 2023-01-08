@@ -74,8 +74,9 @@ body {
 }
 
 .header {
-  background-image: url(/bg/babbage-banner-1500x500.jpeg);
-  background-size: 100% auto;
+  background-image: url(/bg/babbage-banner-800-worse.jpeg);
+  background-size: cover;
+  background-position: center;
   color: rgb(199 191 176);
 
   /* opacity: 0.85;

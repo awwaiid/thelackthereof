@@ -1,13 +1,16 @@
 ---
 title: Deploy First, Breadth First
-tags: []
-createdAt: 2017-01-22T14:07-05:00
-updatedAt: 2023-01-07
+tags: ["programming"]
+createdAt: 2017-01-22
+updatedAt: 2023-01-08
 ---
 
 An exploration of mitigating project risks with frequent deploys and prioritizing end-to-end execution.
 
-Common project risks:
+## Common project risks
+
+Introducing change to a project always comes with some risk. Some examples:
+
 * Breaking existing functionality
 * Not building the "right" thing
 * Specified wrong
@@ -15,12 +18,13 @@ Common project risks:
 * Not handling data scale
 * Difficult deploy
 * Difficult rollback
+* Difficult to work on (local setup)
 * Taking longer than expected to develop
 * Developing without value being delivered
 
-Here are too key strategies to help mitigate some of these risks!
+Here are two key strategies to help mitigate some of these risks!
 
-== Deploy First ==
+## Deploy First
 
 The first thing you should do when working on a project is deploy. Then you know that you can do it with the existing code.
 
@@ -28,9 +32,19 @@ The second thing you should do when working on a project is to write a stub of w
 
 Here's what usually happens: You wait until the end of the project to deploy. Then you realize that you can't deploy, because you need a new database or because your deploy script doesn't work or because this is a new service that has never been deployed before and you simply don't know how. So you start working on deploying it into a staging environment. But then you have to go around and build a staging environment and get all of your stuff working there. Then you test. But you STILL can't deploy to production, and you don't know how long it will take. So finally you get your prod stuff set up and deploy, 2 weeks after you intended to be done with the project.
 
-So let's flip this. Work out how to deploy null code, zero changes, into prod. If there is no real code, there can be no real errors, so you don't need to put it into staging first. Next put it into staging, since you'll need that in the future. Now you know exactly how much labor it will take to get your thing into production - none.
+```plantuml
+@startgantt
+[Prototype design] lasts 10 days
+then [Claim system] lasts 10 days
+then [transmit system] lasts 10 days
+then [mgmt system] lasts 10 days
+then [refund system] lasts 10 days
+then [deploy] lasts 10 days
+@endgantt
+```
 
-Typical way:
+
+Typical way to do that last deploy:
 * Get it running on your machine, working pretty well
 * Put in a PR
 * Help get it running on someone else's machine, working pretty well
@@ -41,9 +55,11 @@ Typical way:
 
 This stacks up a severe unknown right at the end.
 
+So let's flip this. Work out how to deploy null code, zero changes, into prod. If there is no real code, there can be no real errors, so you don't need to put it into staging first. Next put it into staging, since you'll need that in the future. Now you know exactly how much labor it will take to get your thing into production - none.
+
 Putting something in prod immediately might seem scary, but really this strategy has the least and most isolated risk. Put your empty code behind a feature flag or if safe and non-contradicting put it on a new page that isn't linked.
 
-== Breadth First ==
+## Breadth First
 
 A typical project implements a new workflow, usually with several steps or across a few systems. We take the project and break it into features with each feature feeding data into the next. Then we sort based on the data flow and begin implementing features.
 
@@ -51,12 +67,13 @@ Imagine we were trying to add a new feature to our eCommerce site so that people
 
 ```plantuml
 digraph g {
+  label="Depth First Example"
   node [shape=box style=filled fillcolor=lightgray]
   claim [label="Claims Processing"]
   create [label="Create claim" fillcolor="#44aa44"]
-  transmit [label="Transmit to order system" fillcolor="#aa4444"]
-  manage [label="Claim Management Tool" fillcolor="#8888aa"]
-  refund [label="Execute Refund" fillcolor="#aa88aa"]
+  transmit [label="Transmit to order system\n(unstarted)" fillcolor="#aa4444"]
+  manage [label="Claim Management Tool\n(unstarted)" fillcolor="#8888aa"]
+  refund [label="Execute Refund\n(unstarted)" fillcolor="#aa88aa"]
 
   claim -> create, transmit, manage, refund
 
@@ -84,6 +101,7 @@ Stub out all the "useful" work code and get this working end-to-end as the first
 
 ```plantuml
 digraph g {
+  label="Breadth First Example"
   node [shape=box style=filled fillcolor=lightgray]
   claim [label="Claims Processing"]
   create [label="Create claim" fillcolor="#44aa44"]
@@ -125,10 +143,27 @@ digraph g {
 
 Depending on the complexity of the project, a second breadth-first pass might be a good idea - one that doesn't use any hard-coded values for example. Your goal is to get the project to be minimally-useful. Once the project is minimally-useful, every change after that will make it more-useful!
 
+This also opens the possibility of parallel development.
+
+```plantuml
+@startgantt
+[Prototype design] lasts 10 days
+then [Simple claim system] lasts 1 days
+then [Simple transmit system] lasts 1 days
+then [Simple mgmt system] lasts 1 days
+then [Simple refund system] lasts 1 days
+then [Full Claim system] lasts 10 days
+[Full tramnsmit system] lasts 10 days and starts at [Simple refund system]'s end
+[Full mgmt system] lasts 10 days and starts at [Simple refund system]'s end
+[Full refund system] lasts 10 days and starts at [Simple refund system]'s end
+@endgantt
+```
+
 Once you have the end-to-end flow working, and ideally have some testing methodology worked out (either automated or by-hand), then you can switch into a more depth-first technique. You keep factoring out any hard-coded values until you get the whole project organized and feature-full. If you have been deploying the whole time there are no surprises - it isn't a matter of releasing the project, but instead of granting a wider set of people access to an already-working system.
 
 ```plantuml
 digraph g {
+  label="Breadth First Example"
   node [shape=box style=filled fillcolor=lightgray]
   claim [label="Claims Processing"]
   create [label="Create claim" fillcolor="#44aa44"]
@@ -168,7 +203,8 @@ digraph g {
 }
 ```
 
-Draft Notes
+## Notes for article improvement
+
 * Give example of depth-first
   * Why this is natural
   * How it misses important end-to-end questions
@@ -195,13 +231,9 @@ Draft Notes
   * Maybe breadth-first is more BDD
 * First pass only?
   * After end-to-end flow is established, depth on an individual piece can continue to lock in value
+  * Once the first pass is done you can more safely parallel-path develop the sub-components
 * Psychology of BF-vs-DF
   * https://arpitonline.com/2010/04/10/on-breadth-first-and-depth-first-thinking/ - says that breadth-first is indicative of a happy state of mind and is more conductive to out of hte box thinking, and that tension/pressure puts you into depth-first mode.
     * "So concept in breadth first mode, execute in depth first."
   * http://www.dubberly.com/articles/middle-out-design.html - I was joking about calling it middle-out (Silicon Valley reference), and JoshC actually googled it and found this interesting article.
-
---------
-
-Notes
-* Especially good for new Infrastructure and Architecture
 
