@@ -57,4 +57,3 @@ This was a CD that Jason and I put together from a random selection of our songs
 | Marie Laveau (Bobby Bare cover) | audio:docs/music/album1/11_-_Marie_Laveau_(Bobby_Bare_cover) |
 | Late Blues                      | audio:docs/music/album1/12_-_Late_Blues                      |
 
-

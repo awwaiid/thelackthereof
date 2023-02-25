@@ -21,6 +21,8 @@
   },
   "dependencies": {
     "@akebifiky/remark-simple-plantuml": "^1.0.2",
+    "feed": "^4.2.2",
+    "hast-util-to-html": "^8.0.4",
     "remark-breaks": "^3.0.2"
   }
 }

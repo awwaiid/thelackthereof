@@ -1,9 +1,9 @@
 ---
 draft: true
-title: template
+title: TEMPLATE_TITLE
 tags: ["blog"]
-createdAt: 
-updatedAt: 
+createdAt: TEMPLATE_DATE
+updatedAt: TEMPLATE_DATE
 ---
 
 (summary)
