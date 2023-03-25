@@ -11,7 +11,7 @@
         </div>
 
         <div class="grid grid-cols-3 mr-2">
-          <NuxtLink class="social-logo m-1" href="/rss.xml"><img width="32" src="/social-media-icons/rss.png" /></NuxtLink>
+          <a class="social-logo m-1" href="/rss.xml"><img width="32" src="/social-media-icons/rss.png" /></a>
           <NuxtLink class="social-logo m-1" href="https://www.github.com/awwaiid"><img width="32" src="/social-media-icons/github.png" /></NuxtLink>
           <NuxtLink class="social-logo m-1" href="https://www.twitter.com/awwaiid/"><img width="32" src="/social-media-icons/twitter.png" /></NuxtLink>
           <NuxtLink class="social-logo m-1" href="https://www.instagram.com/awwaiid/"><img width="32" src="/social-media-icons/instagram.png" /></NuxtLink>
@@ -183,6 +183,17 @@ body {
   color: #101112;
   /* max-width: 80ch; */
   max-width: 90vw;
+}
+
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+  /* background-color: red; */
+}
+audio {
+    /* filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%); */
+    width: 200px;
+    height: 25px;
+    display: inline;
+  /* background-color: red; */
 }
 
 </style>

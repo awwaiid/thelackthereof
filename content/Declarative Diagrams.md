@@ -1,7 +1,7 @@
 ---
 draft: true
 title: Declarative Diagrams
-image: https://www.plantuml.com/plantuml/png/IybCBqeio51mLwZcAahCoqx9BBBr2UBAoqz9LOZcAiv8B4YrJSglu8hbKb18LD2rKqW24SbSjG00
+image: https://www.plantuml.com/plantuml/png/IybCBqeio51mLwZcAahCoqx9BBBr2UBAoqz9LOZcAiv8B4YrJSglu8hbKb18LD2rKqW24SbSjG00.png
 tags: []
 createdAt: 2022-10-01
 updatedAt: 2022-10-01

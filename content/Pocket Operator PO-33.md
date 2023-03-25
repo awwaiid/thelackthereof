@@ -1,6 +1,6 @@
 ---
 title: Pocket_Operator_PO-33
-image: /content/PO33
+image: /content/PO33.jpg
 tags: []
 createdAt: 2019-08-25T16:14-04:00
 updatedAt: 2019-08-25T22:03-04:00

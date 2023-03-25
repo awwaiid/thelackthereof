@@ -76,7 +76,7 @@ export default defineEventHandler(async (event) => {
     // image_url: 'https://thelackthereof.org/brock-logo-outline-80x100.png'
 
     feed.addItem({
-      id: doc._id,
+      id: new URL(doc._path, 'https://thelackthereof.org').href,
       title: doc.title,
       image:
         doc.image
