@@ -2,7 +2,7 @@
 title: My Little Dog
 tags: ["music"]
 createdAt: 2023-02-04
-updatedAt: 2023-02-04
+updatedAt: 2023-03-25
 ---
 
 Song inspired by Hoda The Dog lounging about in the living room sun!
@@ -28,9 +28,27 @@ My little dog
 C
 laying in my living room
 G
-And I think the day
+And I think her day
 D                  G
-is gunna be a good one
+is gonna be a good one
+
+G
+My little dog
+C
+laying in my living room
+G
+she's laying in
+D
+a patch of sun
+
+G
+My little dog
+C
+laying in my living room
+G
+And I think her day
+D                  G
+is gonna be a good one
 
 C
 She's laying there
@@ -48,6 +66,23 @@ D
 But I bet it's something
 G
 real fun
-```
 
+G
+My little dog
+C
+laying in my living room
+G
+she's laying in
+D
+a patch of sun
+
+G
+My little dog
+C
+laying in my living room
+G
+And I think her day
+D                  G
+is gonna be a good one
+```
 
