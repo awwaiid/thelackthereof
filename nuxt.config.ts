@@ -13,11 +13,11 @@ export default defineNuxtConfig({
     }
   },
 
-  vue: {
-    compilerOptions: {
-      isCustomElement: tag => ['av-waveform', 'AvWaveform'].includes(tag)
-    }
-  },
+  // vue: {
+  //   compilerOptions: {
+  //     isCustomElement: tag => ['av-waveform', 'AvWaveform'].includes(tag)
+  //   }
+  // },
 
   webpack: {
     ignored: ['public/docs']
