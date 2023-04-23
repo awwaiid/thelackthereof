@@ -9,6 +9,11 @@
       </div>
       <!-- <nuxt-content class="prose prose-lg" :document="page" /> -->
       <ContentRenderer :value="page" />
+      <div v-if="page.mastodonThread">
+        <MastodonThread
+            :link="page.mastodonThread"
+        />
+      </div>
     </div>
   </div>
 </template>

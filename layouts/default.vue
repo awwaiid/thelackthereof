@@ -13,7 +13,8 @@
         <div class="grid grid-cols-3 mr-2">
           <a class="social-logo m-1" href="/rss.xml"><img width="32" src="/social-media-icons/rss.png" /></a>
           <NuxtLink class="social-logo m-1" href="https://www.github.com/awwaiid"><img width="32" src="/social-media-icons/github.png" /></NuxtLink>
-          <NuxtLink class="social-logo m-1" href="https://www.twitter.com/awwaiid/"><img width="32" src="/social-media-icons/twitter.png" /></NuxtLink>
+          <!-- <NuxtLink class="social-logo m-1" href="https://www.twitter.com/awwaiid/"><img width="32" src="/social-media-icons/twitter.png" /></NuxtLink> -->
+          <NuxtLink class="social-logo m-1" rel="me" href="https://mastodon.social/@awwaiid/"><img width="32" src="/social-media-icons/mastodon.png" /></NuxtLink>
           <NuxtLink class="social-logo m-1" href="https://www.instagram.com/awwaiid/"><img width="32" src="/social-media-icons/instagram.png" /></NuxtLink>
           <NuxtLink class="social-logo m-1" href="https://www.linkedin.com/in/brockwilcox/"><img width="32" src="/social-media-icons/linkedin.png" /></NuxtLink>
           <NuxtLink class="social-logo m-1" href="https://soundcloud.com/awwaiid"><img width="32" src="/social-media-icons/soundcloud.png" /></NuxtLink>
