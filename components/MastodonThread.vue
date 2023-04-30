@@ -1,15 +1,21 @@
 <template>
   <hr>
-  Comment and share by <a :href="link">replying on Mastodon</a>!
+  Comment by <a :href="link">replying on Mastodon</a>!
 
   <div v-if="replies" v-for="reply in replies">
     <div class="border border-black rounded-lg m-2 bg-slate-200" style="margin-left: calc(var(--mastodon-comment-indent) * ${depth})">
       <div class="flex m-2">
-        <img :src="reply.account.avatar_static" class="m-0 border border-black rounded-lg" style="height: 6em">
-        <div class="ml-5 flex flex-col">
-          <a class="name" :href="reply.account.url" rel="nofollow">{{ reply.account.display_name }}</a>
-          <a class="user" :href="reply.account.url" rel="nofollow">{{ user_account(reply.account) }}</a>
-          <a class="date" :href="reply.url" rel="nofollow">{{ reply.created_at.substr(0, 10) }} {{ reply.created_at.substr(11, 8) }}</a>
+        <div class="flex flex-col">
+          <img :src="reply.account.avatar_static" class="m-0 border border-black rounded-lg" style="height: 5em; width: 5em">
+          <a class="whitespace-nowrap text-xs rounded-full border border-2 border-black pl-2 pr-2 mt-2 no-underline bg-black text-white" :href="reply.url" rel="nofollow">View / Reply</a>
+        </div>
+        <div class="ml-3 flex flex-col text-xs grow">
+          <div class="flex flex-wrap justify-between">
+            <a class="break-all" :href="reply.account.url" rel="nofollow">{{ reply.account.display_name }}</a>
+            <a class="break-all" :href="reply.account.url" rel="nofollow">{{ user_account(reply.account) }}</a>
+            <a class="break-all" :href="reply.url" rel="nofollow">{{ reply.created_at.substr(0, 10) }} {{ reply.created_at.substr(11, 8) }}</a>
+          </div>
+          <div class="ml-2" v-html="cleanHtml(reply.content)" />
         </div>
         <!-- <div class="flex flex-col justify-around"> -->
         <!--   <div> -->
@@ -23,7 +29,6 @@
         <!--   </div> -->
         <!-- </div> -->
       </div>
-      <div class="ml-2 not-prose" v-html="cleanHtml(reply.content)" />
     </div>
   </div>
 </template>
