@@ -3,6 +3,7 @@ import { Feed } from 'feed';
 import { serverQueryContent } from '#content/server';
 
 export default defineEventHandler(async (event) => {
+  const query = getQuery(event);
   // Obtain all docs and init RSS feed creator
 
   const currentYear = new Date().getFullYear();
@@ -18,9 +19,13 @@ export default defineEventHandler(async (event) => {
     // feed_url: `https://thelackthereof.org/rss.xml`,
     // image_url: 'https://thelackthereof.org/brock-logo-outline-80x100.png'
   // const docs = await serverQueryContent(event).sort({ date: -1 }).find();
+  let tagSearch = {};
+  if (query.tags) {
+    tagSearch = { tags: { $contains: query.tags } };
+  }
   const docs =
     await serverQueryContent(event)
-    .where({ draft: { $ne: true }})
+    .where({ draft: { $ne: true }, ...tagSearch})
     .sort({ createdAt: -1})
     .sort({ updatedAt: -1})
     .limit(20)
