@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   modules: [
+    'nuxt-content-assets',
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
