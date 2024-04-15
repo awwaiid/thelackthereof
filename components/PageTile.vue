@@ -1,6 +1,6 @@
 <template>
   <NuxtLink :to="page._path">
-    <div class="flex flex-row">
+    <div class="flex flex-row border-b-2">
 
       <div class="flex justify-between w-full">
 
@@ -23,11 +23,11 @@
       </div>
     </div>
 
-    <div class="m-4 ml-2 pl-2 text-xs border-l-8 border-slate-200 flex">
-      <div class="basis-2/3 grow"><ContentSlot>{{ page.description }}</ContentSlot></div>
-      <div v-if="page.image" class="basis-1/3 ml-1">
-        <img class="w-full" :src="page.image">
+    <div class="m-2 flex flex-col">
+      <div v-if="page.image" class="basis-1/3 pb-2 flex justify-center">
+        <img class="w-max max-h-40" :src="page.image">
       </div>
+      <div class="basis-2/3 grow mb-4"><ContentSlot>{{ page.description }}</ContentSlot></div>
     </div>
   </NuxtLink>
 </template>

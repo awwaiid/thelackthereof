@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6">
     <div
       v-for="page in pages"
       :key="page._path"
