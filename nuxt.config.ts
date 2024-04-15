@@ -10,7 +10,8 @@ export default defineNuxtConfig({
   nitro: {
     // plugins: ['~/server/plugins/content.ts'],
     prerender: {
-      routes: ['/rss.xml']
+      routes: ['/rss.xml'],
+      failOnError: false,
     }
   },
 

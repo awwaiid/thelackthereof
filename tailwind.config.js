@@ -17,10 +17,17 @@ module.exports = {
     },
     extend: {
       typography: {
+        slate: {
+          css: {
+            '--tw-prose-bullets': '#000000',
+          },
+        },
         DEFAULT: {
           css: {
             'blockquote p:first-of-type::before': false,
             'blockquote p:first-of-type::after': false,
+            '--tw-prose-bullets': '#000000',
+            '--tw-prose-slate-bullets': '#000000',
           },
         },
       },
