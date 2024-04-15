@@ -1,18 +1,17 @@
 <template>
-  <NuxtLink :to="page._path">
     <div class="flex flex-row border-b-2">
-
       <div class="flex justify-between w-full">
-
-        <div class="flex flex-col">
-          <div class="font-bold" v-html="cleanTitle(page.title)"></div>
-          <div class="text-xs">
-            <span>{{ shortDate(page.createdAt) }}</span>
-            <span v-if="shortDate(page.createdAt) != shortDate(page.updatedAt)">
-              → {{ shortDate(page.updatedAt) }}
-            </span>
+        <NuxtLink :to="page._path">
+          <div class="flex flex-col">
+            <div class="font-bold" v-html="cleanTitle(page.title)"></div>
+            <div class="text-xs">
+              <span>{{ shortDate(page.createdAt) }}</span>
+              <span v-if="shortDate(page.createdAt) != shortDate(page.updatedAt)">
+                → {{ shortDate(page.updatedAt) }}
+              </span>
+            </div>
           </div>
-        </div>
+        </NuxtLink>
 
         <div class="text-right text-xs text-slate-400">
           <div v-for="tag in page.tags" :key="tag">
@@ -23,6 +22,7 @@
       </div>
     </div>
 
+  <NuxtLink :to="page._path">
     <div class="m-2 flex flex-col">
       <div v-if="page.image" class="basis-1/3 pb-2 flex justify-center">
         <img class="w-max max-h-40" :src="page.image">
