@@ -1,7 +1,7 @@
 ---
 draft: true
 title: TEMPLATE_TITLE
-tags: ["blog"]
+tags: [TEMPLATE_TAGS]
 createdAt: TEMPLATE_DATE
 updatedAt: TEMPLATE_DATE
 ---
