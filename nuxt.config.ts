@@ -38,7 +38,7 @@ export default defineNuxtConfig({
         { name: 'format-detection', content: 'telephone=no' }
       ],
       link: [
-        { rel: 'icon', href: '/brock-logo-outline-80x100.png' },
+        { rel: 'icon', href: '/brock-logo-outline-icon-48x48.png' },
         { rel: "alternate", "type": "application/rss+xml", title: "The Lack Thereof (@awwaiid / Brock Wilcox)", href: "/rss.xml" }
       ]
     },
