@@ -51,4 +51,5 @@ In no particular order, these are a few of my favorite things!
 * Whiteboards and Chalkboards
 * Nerd Clubs
 * Dancing
+* Regexes
 
