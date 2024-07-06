@@ -39,6 +39,24 @@
   </div>
 </template>
 
+<script>
+export default {
+  // mounted() {
+  //   let gtmScript = document.createElement('script')
+  //   gtpScript.setAttribute('src', 'https://www.googletagmanager.com/gtag/js?id=G-7FLNGJSFBK');
+  //   document.head.appendChild(gtmScript);
+  //   let gtagScript = document.createElement('script')
+  //   gtagScript.innerHTML = `
+  //     window.dataLayer = window.dataLayer || [];
+  //     function gtag(){dataLayer.push(arguments);}
+  //     gtag('js', new Date());
+  //     gtag('config', 'G-7FLNGJSFBK');
+  //   `;
+  //   document.head.appendChild(gtagScript);
+  // }
+}
+</script>
+
 <style>
 body {
     /* height: 100vh;

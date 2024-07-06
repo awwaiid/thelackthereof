@@ -5,12 +5,13 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     'nuxt-delay-hydration',
+    "@nuxtjs/seo"
   ],
 
   nitro: {
     // plugins: ['~/server/plugins/content.ts'],
     prerender: {
-      routes: ['/rss.xml'],
+      routes: ['/rss.xml', '/shares.rss.xml'],
       failOnError: false,
     }
   },
