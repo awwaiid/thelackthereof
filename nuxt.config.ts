@@ -4,14 +4,15 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    'nuxt-delay-hydration'
+    'nuxt-delay-hydration',
+    "@nuxt/image"
   ],
 
   nitro: {
     // plugins: ['~/server/plugins/content.ts'],
     prerender: {
-      routes: ['/rss.xml', '/shares.rss.xml'],
-      failOnError: false,
+      routes: ['/', '/rss.xml', '/shares.rss.xml'],
+      failOnError: true,
     }
   },
 
@@ -72,5 +73,11 @@ export default defineNuxtConfig({
     mode: 'mount',
     // enables nuxt-delay-hydration in dev mode for testing
     debug: process.env.NODE_ENV === 'development'
-  }
+  },
+
+  image: {
+    dir: 'content'
+  },
+
+  compatibilityDate: '2024-07-06'
 })

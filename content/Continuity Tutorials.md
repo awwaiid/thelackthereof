@@ -1,5 +1,5 @@
 ---
-title: Continuity_Tutorials
+title: Continuity Tutorials
 tags: []
 createdAt: 2004-10-17T18:56-04:00
 updatedAt: 2005-07-31T11:09-04:00
@@ -7,7 +7,8 @@ updatedAt: 2005-07-31T11:09-04:00
 
 == Do As I Do ==
 Lets try a simple method. I'll show you code, then I'll talk about it. Here is our first example... it isn't exactly a hello world but it'll do.
-```
+
+```perl
 #!/usr/bin/perl
 
 use strict;
@@ -23,10 +24,9 @@ sub main {
   $self->disp("
     Total of $a + $b is: " . ($a + $b) . ".
     So there.
-    <a href='#'>Reload</a>
-    ");
+  ");
 }
-  
+
 sub getNum {
   my ($self, $msg) = @_;
   my $f = $self->disp(qq{
@@ -46,14 +46,14 @@ my $c = new Continuity(
 
 $c->go();
 ```
+
 Here we have two modules going, and in fact you may want to split this into two scripts. All this program does is prompt for a first number, then prompt for a second number, and then show the sum. Very boring, but lovely for pointing out some features. Lets go by way of execution-flow.
 
 First, besides doing some declaration stuff, lets look at the Main package. Here we create a new Continuity object, and give it some settings. There is only one manditory parameter, appname. This corresponds to the name of our class, the one which actually holds the application. This one is named Addnums, and you can see its definition above. Addnums doesn't want to worry about printing the standard html header, nor does it want to print out the form tags, so we ask Continuity to take care of these things.
 
 Once we have our Continuity object set up, and have named it $c, we tell it to GO! And that it does.
 
-
-<graph>
+```graphviz
 digraph {
 
   addTwo -> "First getNum";
@@ -69,9 +69,9 @@ digraph {
   addTwo -> "Display Result";
 
 }
-</graph>
+```
 
-<graph>
+```graphviz
 digraph {
   graph [size="8,8"];
   "Start, recieve user input" -> "Check State";
@@ -86,5 +86,5 @@ digraph {
   "Display HTML for second num, next state is 'Sum'" -> Exit;
   "Display HTML for total, no next state" -> Exit;
 }
-</graph>
+```
 

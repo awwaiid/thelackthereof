@@ -1,6 +1,6 @@
 ---
 title: Mizik Game
-image: "/content/mizik-demo.gif"
+image: img/mizik-demo.gif
 tags: ["project"]
 createdAt: 2022-09-25
 updatedAt: 2022-09-25

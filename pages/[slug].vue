@@ -8,7 +8,11 @@
         / Edited {{ shortDate(page.updatedAt) }}
       </div>
       <!-- <nuxt-content class="prose prose-lg" :document="page" /> -->
-      <ContentRenderer :value="page" />
+      <ContentRenderer :value="page">
+        <template #empty>
+          <p>No content!</p>
+        </template>
+      </ContentRenderer>
       <div v-if="page.mastodonThread">
         <MastodonThread
             :link="page.mastodonThread"
@@ -32,6 +36,11 @@
       queryContent(path).findOne()
     );
     page = response.data;
+  }
+
+  if (!page.value) {
+    console.error("Page not found", route.path);
+    page = "not found";
   }
 
   function cleanTitle(value) {
