@@ -4,8 +4,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    'nuxt-delay-hydration',
-    "@nuxtjs/seo"
+    'nuxt-delay-hydration'
   ],
 
   nitro: {

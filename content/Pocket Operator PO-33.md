@@ -1,6 +1,6 @@
 ---
 title: Pocket_Operator_PO-33
-image: /content/PO33.jpg
+image: img/PO33.jpg
 tags: []
 createdAt: 2019-08-25T16:14-04:00
 updatedAt: 2019-08-25T22:03-04:00
@@ -10,7 +10,7 @@ The Pocket Operator PO-33 Knock-Out is a super fun sampler and step-sequencer ma
 
 See also [[Music Gear and Setup]]
 
-right:PO33 In 2019 I got a [https://teenage.engineering/products/po/metal#po-33 Pocket Operator PO-33], part of the "Metal" series of devices from [https://teenage.engineering/ Teenage Engineering]. This is a sampler and step-sequencer in a pocket-calculator-esq form factor. Very fun! These are some notes.
+right:PO33.jpg In 2019 I got a [https://teenage.engineering/products/po/metal#po-33 Pocket Operator PO-33], part of the "Metal" series of devices from [https://teenage.engineering/ Teenage Engineering]. This is a sampler and step-sequencer in a pocket-calculator-esq form factor. Very fun! These are some notes.
 
 Resources:
 * [https://www.reddit.com/r/pocketoperators/ Reddit - r/pocketoperators] - very active community
