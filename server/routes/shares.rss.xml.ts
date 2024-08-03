@@ -10,10 +10,25 @@ async function modifyFeed(feedUrl, newDescription) {
   const parser = new xml2js.Parser();
   const result = await parser.parseStringPromise(xmlString);
 
-  // Update the description
+  // Update the description and de-duplicate
   if (result.rss && result.rss.channel && result.rss.channel.length > 0) {
     result.rss.channel[0].description = [newDescription];
     result.rss.channel[0].link = ["https://thelackthereof.org/shares"];
+    result.rss.channel[0]["atom:link"] = [{ "$": { href: "https://thelackthereof.org/shares.rss.xml", rel: "self", type: "application/rss+xml" } }];
+
+    // Remove duplicates and filter out some sections
+    const seen = new Set();
+    result.rss.channel[0].item = result.rss.channel[0].item.filter(item => {
+      const key = item.link[0];
+      if (seen.has(key)) {
+        return false;
+      }
+      if (item.title[0].includes("[Saved For Later]")) {
+        return false;
+      }
+      seen.add(key);
+      return true;
+    });
   }
 
   // Convert back to XML
