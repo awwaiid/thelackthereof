@@ -5,7 +5,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "deploy": "nuxt generate && unison -batch -ui text pegasus"
+    "build": "nuxt build",
+    "deploy-static": "nuxt generate && unison -batch -ui text pegasus",
+    "deploy-dynamic": "unison -batch -ui text pegasus && ssh pegasus 'cd tlt && docker compose up -d --build web-nuxt'"
   },
   "devDependencies": {
     "@nuxt/content": "^2.13.1",

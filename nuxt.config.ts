@@ -66,7 +66,11 @@ export default defineNuxtConfig({
         "@akebifiky/remark-simple-plantuml": true,
         "remark-breaks": true
       }
+    },
+    experimental: {
+      search: true
     }
+
   },
 
   delayHydration: {
