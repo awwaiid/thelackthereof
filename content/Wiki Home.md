@@ -14,7 +14,7 @@ Because of the nonlinear nature of my design, please keep in mind that just wiki
 Things to do here:
 * View my [[Resume]] and job-related information.
 * Please play and learn wikiness in the [[SandBox]]!
-* This wiki can do [[mathematical markup]].
+* This wiki can do [[Mathematical Markup]].
 * See my list of [[Projects]].
 * Learn about my [[Docs]].
 * Look at the CSS for this wiki, [[TLT WIKI CSS]]
