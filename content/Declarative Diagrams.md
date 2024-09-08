@@ -1,17 +1,18 @@
 ---
-draft: true
 title: Declarative Diagrams
 image: https://www.plantuml.com/plantuml/png/IybCBqeio51mLwZcAahCoqx9BBBr2UBAoqz9LOZcAiv8B4YrJSglu8hbKb18LD2rKqW24SbSjG00.png
 tags: []
 createdAt: 2022-10-01
-updatedAt: 2022-10-01
+updatedAt: 2024-09-07
 ---
+
+I love diagrams! I love code! Mashing them together is delightful :)
 
 The idea here is to write some markup, like we do with HTML, and just like with HTML/CSS we let the computer do the heavy lifting to decide what pixels go where. I long ago fell in love with GraphViz. More recently I've expanded that love to PlantUML! Let's take a look.
 
 [List of Awesome Diagramming tools](https://github.com/shubhamgrg04/awesome-diagramming)
 
-## GraphViz
+## GraphViz (via PlantUML)
 
 We'll start off with some simple GraphViz. This is basically a set of nodes and edges plus a bunch of hints about how we want it arranged. So we can be simple:
 ```
@@ -101,6 +102,7 @@ digraph G {
   b -> d [ label="alt" constraint=false ]
 }
 ```
+
 ```plantuml
 digraph G {
 
@@ -221,5 +223,24 @@ endif
 :Eat ice cream;
 
 stop
+```
+
+## Mermaid
+
+I don't like it as much as PlantUML when it comes to the syntax, but Mermaid is increasingly popular and available. Specifically, you can put Mermaid directly in markdown and github will render it!
+
+```
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
 

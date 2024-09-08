@@ -2,13 +2,16 @@
 title: Projects
 tags: ["project"]
 createdAt: 2005-01-04T11:35-05:00
-updatedAt: 2022-09-25
+updatedAt: 2024-09-07
 ---
 
-For a raw directory view of my projects, see the [TLT:projects/ projects directory].  The raw view is sorted roughly by language... but it is difficult from the direct listings to figure out which projects are worth looking at. Thus I present here a list of programming-related projects, and the tools and languages I might use to create them.
+I present here a very incomplete list of programming-related projects, and the tools and languages I might use to create them.
+
+Also see [the awwaiid github repo](https://github.com/awwaiid) for more projects!
 
 == Current Projects ==
 If you were to ask me what I'm working on right now, I might say one of these.
+* [[Human Essentials]] - Part of the Ruby For Good organization; inventory control for diaper and period-supply banks
 * [[REPL Looper]] - Making music with a code console
 
 == Backburner ==

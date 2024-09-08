@@ -2,7 +2,7 @@
 title: About
 tags: []
 createdAt: 2004-12-12T02:32-05:00
-updatedAt: 2005-05-01T14:11-04:00
+updatedAt: 2024-08-31
 ---
 
 This is the website and wiki of me, Brock Wilcox a.k.a. [[awwaiid]]. Please see the [[Home]] page if you would like a less philosophical introduction to this site. Otherwise, read on!
