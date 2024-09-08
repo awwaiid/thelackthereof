@@ -63,7 +63,9 @@ export default defineNuxtConfig({
     // },
     markdown: {
       remarkPlugins: {
-        "@akebifiky/remark-simple-plantuml": true,
+        "@akebifiky/remark-simple-plantuml": {
+          baseUrl: "https://www.plantuml.com/plantuml/svg"
+        },
         "remark-breaks": true
       }
     },
