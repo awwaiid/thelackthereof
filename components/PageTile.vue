@@ -3,7 +3,7 @@
       <div class="flex justify-between w-full">
         <NuxtLink :to="page._path">
           <div class="flex flex-col">
-            <div class="font-bold" v-html="cleanTitle(page.title)"></div>
+            <div class="font-bold" style="font-variant: small-caps" v-html="cleanTitle(page.title)"></div>
             <div class="text-xs">
               <span>{{ shortDate(page.createdAt) }}</span>
               <span v-if="shortDate(page.createdAt) != shortDate(page.updatedAt)">

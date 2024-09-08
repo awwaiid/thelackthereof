@@ -223,4 +223,8 @@ audio {
   /* background-color: red; */
 }
 
+h1, h2, h3, h4 {
+  font-variant: small-caps;
+}
+
 </style>

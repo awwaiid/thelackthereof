@@ -2,7 +2,7 @@
   <div v-if="page" class="flex justify-center">
     <div class="prose prose-lg prose-slate">
       <!-- eslint-disable-next-line vue/no-v-html -->
-      <h1 class="text-2xl" v-html="cleanTitle(page.title)"></h1>
+      <h1 class="text-2xl" style="font-variant: small-caps" v-html="cleanTitle(page.title)"></h1>
       <div class="text-xs mb-4">
         Created {{ shortDate(page.createdAt) }}
         / Edited {{ shortDate(page.updatedAt) }}
