@@ -12,6 +12,7 @@ Also see [the awwaiid github repo](https://github.com/awwaiid) for more projects
 == Current Projects ==
 If you were to ask me what I'm working on right now, I might say one of these.
 * [[Human Essentials]] - Part of the Ruby For Good organization; inventory control for diaper and period-supply banks
+* [[LLM Token Tree Visualization]] - Visualize LLM token selection
 * [[REPL Looper]] - Making music with a code console
 
 == Backburner ==
