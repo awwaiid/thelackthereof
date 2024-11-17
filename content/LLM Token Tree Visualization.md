@@ -1,11 +1,14 @@
 ---
 title: LLM Token Tree Visualization
+image: img/Token_Tree_-_Simple_With_Counts.png
 tags: [project]
 createdAt: 2024-09-08
 updatedAt: 2024-09-14
 ---
 
+
 Each token is one choice from many forking paths. Let's see some of the other possibilities. Also try the [Live LLM Token Tree Visualization Tool](https://thelackthereof.org/token-tree/)!
+
 
 ## The Next-Token Machine
 
