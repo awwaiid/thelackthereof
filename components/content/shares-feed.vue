@@ -24,7 +24,7 @@ export default {
   async mounted() {
 
     this.categoryDescriptions = {
-      'Cool stuff': 'Things that are ... you know ... *cool*',
+      'Cool/Interesting Stuff': 'Things that are ... you know ... *cool* or *interesting*',
       'Inline dev tools': 'I\'m interested in developer tooling that is integrated into the application itself, or can be used for interactive testing, or things like `binding.pry` that can be dropped inline',
       'ML/AI': 'Things that I find interesting in the world of machine learning and artificial intelligence',
       'Music & Art Making': 'Usually overlapping with code, but not necessarily',
@@ -32,7 +32,7 @@ export default {
       'Programming learning': 'I like to learn about learning and teaching',
       'WASM Event Horizon': 'The rise of WebAssembly is fascinating ... it is a new target platform on top of everything and may bring my desired "cross-language module re-use" into a practical realm. Be the JVM. Or something.',
       'Blog Inspiration': 'Things that inspire me to write, in theory',
-      'Recurse': 'Stuff related to the Recurse Center',
+      'Recurse': 'Stuff related to the Recurse Center or my project there',
       'Software Engineering / Day Job': 'Things related to the craft of software engineering',
     };
 
@@ -45,7 +45,9 @@ export default {
       let fullTitle = item.querySelector('title').textContent;
       console.log(fullTitle);
       let match = fullTitle.match(/\[(.+)\]\s*(.+)/);
-      let sectionList = match[1].replace('Software Engineering, Day Job', 'Software Engineering / Day Job');
+      let sectionList = match[1];
+      sectionList = sectionList.replace('Software Engineering, Day Job', 'Software Engineering / Day Job');
+      sectionList = sectionList.replace(/Cool stuff/, 'Cool/Interesting Stuff');
       let sections = sectionList.split(/,/);
       let title = match[2];
       let link = item.querySelector('link').textContent;

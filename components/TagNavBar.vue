@@ -7,6 +7,7 @@
     <NuxtLink class="tag rounded-full border border-2 pl-2 pr-2 text-black border-black" :class="isProject" to="/tag/project">project</NuxtLink>
     <NuxtLink class="tag rounded-full border border-2 pl-2 pr-2 text-black border-black" :class="isRecurseCenter" to="/tag/recurse-center">recurse-center</NuxtLink>
     <NuxtLink class="tag rounded-full border border-2 pl-2 pr-2 text-black border-black" :class="isRubyforgood" to="/tag/rubyforgood">rubyforgood</NuxtLink>
+    <NuxtLink class="tag rounded-full border border-2 pl-2 pr-2 text-black border-black" :class="isShare" to="/tag/share">share</NuxtLink>
   </div>
 </template>
 
@@ -21,4 +22,5 @@
   const isProject = computed(() => ({ 'text-white bg-black': route.path === '/tag/project' }));
   const isRecurseCenter = computed(() => ({ 'text-white bg-black': route.path === '/tag/recurse-center' }));
   const isRubyforgood = computed(() => ({ 'text-white bg-black': route.path === '/tag/rubyforgood' }));
+  const isShare = computed(() => ({ 'text-white bg-black': route.path === '/tag/share' }));
 </script>
