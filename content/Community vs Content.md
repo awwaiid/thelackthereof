@@ -175,7 +175,7 @@ Quoting with permission, March 20, 2004:
 
 <Sunir> i hope it was enlightening
 
-=== See Also ===
+### See Also
 * http://www.usemod.com/cgi-bin/mb.pl?CommunityOverContent
 * http://www.usemod.com/cgi-bin/mb.pl?ContentOverCommunity
 

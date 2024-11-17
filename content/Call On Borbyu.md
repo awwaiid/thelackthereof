@@ -12,7 +12,7 @@ Copy and Share: under the terms of [http://creativecommons.org/licenses/by-nc/3.
 
 We wrote this song for Jason's birthday!
 
-== Lyrics ==
+## Lyrics
 
 There once was a man
 Made of fire and ice

@@ -7,7 +7,7 @@ updatedAt: 2006-03-04T04:19-05:00
 
 <i>Summary: The three amigos are a perfect match for one another, each making up for the other's weaknesses. REST gives us nice URLs, AJAX (and javascript as a whole) gives us more client-power, and continuations turns the world inside-out on the server side.</i>
 
-== The three amigos. ==
+## The three amigos.
 
 Each of the three have aspects I'm interested in, along with giant cans of worms I don't care about for the present discussion.
 
@@ -20,7 +20,7 @@ The part I care about: Fetch stuff from the server and display the result in the
 <b><i>Continuations</i></b>
 The part I care about: Re-Inversion of control... make it so that the server-side is an ongoing processess instead of one that terminates between each request. Effectively stop programming state machines though explicit lists of states and transfers. Instead use the language's built-in control structures.
 
-== Desires and goals. ==
+## Desires and goals.
 
 I want simple, memorable, URLs which reflect the current state of the application and a linkable jump-point. I'd like for the back button to go back to the most recent linkable spot.
 
@@ -28,7 +28,7 @@ I used to try to make every link on the page secretly be a button. That way when
 
 But the point is that I want that functionality; if someone is in the middle of a complex process but then navigates to the front-page I want to make sure they get the chance to save their work (or at least that their work is transparently saved).
 
-== Progressive enhancement. ==
+## Progressive enhancement.
 
 Lets start with the base case -- lynx with no javascript. We have two basic things here. First we have RESTful URLs to things. Second we have POST forms for complex processes. Each page gets a PageID, so we can detect if they are trying to re-post a form (and either deal with it or abort). Generally we POST back to the current URL.
 

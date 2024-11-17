@@ -5,7 +5,7 @@ createdAt: 2007-06-19T13:38-04:00
 updatedAt: 2007-06-19T16:42-04:00
 ---
 
-=== 2 Comments. ===
+### 2 Comments.
 Brilliant. I had the exact same problem and this fixed it. Thanks for posting this!
 
 -- Dan 2007-06-19 17:38 UTC

@@ -5,7 +5,7 @@ createdAt: 2006-05-06T01:41-04:00
 updatedAt: 2006-05-06T10:02-04:00
 ---
 
-=== 2 Comments. ===
+### 2 Comments.
 That's beautiful.
 
 -- [http://www.mousetrout.org ab] 2006-05-06 05:41 UTC

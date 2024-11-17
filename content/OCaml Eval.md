@@ -5,14 +5,14 @@ createdAt: 2004-04-18T13:48-04:00
 updatedAt: 2004-04-18T13:48-04:00
 ---
 
-== Evaluate OCaml Code Dynamically ==
+## Evaluate OCaml Code Dynamically
 This is a horrid thing that you probably shouldn't do. That said -- sometimes it would be nice to evaluate some arbitrary OCaml code at runtime (in [[Genetic Programming]], for example). Based on some code in the interactive toplevel module this isn't hard to do.
 
-=== Get The Code ===
+### Get The Code
 * Source directory: http://thelackthereof.org/projects/ocaml/eval/
 * <nowiki>darcs get http://thelackthereof.org/projects/ocaml/eval/</nowiki>
 
-=== Usage ===
+### Usage
 
   evaltest.ml
   -----------

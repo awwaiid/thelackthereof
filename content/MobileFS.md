@@ -11,15 +11,15 @@ So I created a caching filesystem. When I open a file it copies it to my laptop'
 
 It is NOT meant for distributed work, this is pretty targeted for this one use case of a large amount of basically read-only data of which you want to cache only the most recently (or most frequently) used bit.
 
-== Features ==
+## Features
 * Looks like it works!
 * For mp3/ogg files it waits until 15 seconds or so into the song before caching
 * That also means it ignores pure id3 reads and song length checks
 * Transparently reads files from cache if source unavailable (even in the middle of a song!)
 
-== Code ==
+## Code
 darcs get http://thelackthereof.org/projects/perl/mobilefs
 
-== Recent Development Feed ==
+## Recent Development Feed
 <rss 5 http://thelackthereof.org/darcs-rss/feed/perl-mobilefs.rss>
 

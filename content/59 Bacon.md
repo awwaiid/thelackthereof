@@ -7,12 +7,12 @@ updatedAt: 2004-06-02T18:56-04:00
 
 This is where Beth and I live in Waltham, MA.
 
-== Waltham Websites ==
+## Waltham Websites
 * http://www.discoverwaltham.com/
 * [http://www.landmarktheatres.com/Market/Boston/EmbassyCinemaB.htm Landmark Embassy Cinema] - 0.8 Miles away
 * [http://movies.yahoo.com/showtimes/showtimes.html?z=waltham%2C+ma&r=sim Waltham area theatres] (showtimes)
 
-== Aerial view ==
+## Aerial view
 Here is the path from Openratings to my house. Maps are thanks to http://www.state.ma.us/mgis/mapping.htm, the Massachusetts Geographic Information System. Annotations may be added later.
 
 http://thelackthereof.org/docs/gimpart/waltham/Waltham%20City.jpg

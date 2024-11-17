@@ -5,7 +5,7 @@ createdAt: 2006-10-21T19:05-04:00
 updatedAt: 2006-10-22T11:57-04:00
 ---
 
-=== 3 Comments. ===
+### 3 Comments.
 You so completely fail. You know the subject of this post is actually "People of Earth!".
 
 -- [http://mousetrout.org mouset ] 2006-10-21 23:05 UTC

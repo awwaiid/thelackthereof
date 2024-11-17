@@ -9,7 +9,7 @@ CGI::Inspect info goes here.
 
 This, along with Continuity::Monitor::CGI, allows you to inspect a running web application.
 
-== Code ==
+## Code
 The easiest way is to get it from CPAN. But if you want something a little more raw:
 
   # Real Darcs Repo
@@ -18,7 +18,7 @@ The easiest way is to get it from CPAN. But if you want something a little more 
   # Github mirror
   git clone git://github.com/awwaiid/cgi-inspect.git
 
-== YAPC::NA 2009 Presentation ==
+## YAPC::NA 2009 Presentation
 You can get the slides at http://thelackthereof.org/projects/perl/yapcna-2009/cgi-inspect/
 
 Abstract:
@@ -32,7 +32,7 @@ I've taken this technique and mixed in a splash of Continuity to build an intera
 <blockquote>
 In this talk I'll show you how to use the tool and how it's built... and how you can add to it with plugins.
 
-== PPW 2008 Presentation ==
+## PPW 2008 Presentation
 I presented the earlier incarnation of this module, Continuity::Monitor::CGI, at PPW 2008 to about 30 people. If you missed it you can get the [[PPW 2008 Continuity-Monitor Slides]]. Here is the abstract:
 
 <blockquote>

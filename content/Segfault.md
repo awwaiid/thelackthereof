@@ -10,7 +10,7 @@ Listen: audio:docs/music/Segfault_v1_2016-02-14
 Artist: Brock Wilcox
 Copy and Share: under the terms of [http://creativecommons.org/licenses/by-nc/3.0/|Creative Commons Attribution-NonCommercial] license!
 
-== Lyrics ==
+## Lyrics
 
 There's a little gremlin
 Living in my code

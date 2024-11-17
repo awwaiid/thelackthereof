@@ -9,18 +9,18 @@ I present here a very incomplete list of programming-related projects, and the t
 
 Also see [the awwaiid github repo](https://github.com/awwaiid) for more projects!
 
-== Current Projects ==
+## Current Projects
 If you were to ask me what I'm working on right now, I might say one of these.
 * [[Human Essentials]] - Part of the Ruby For Good organization; inventory control for diaper and period-supply banks
 * [[LLM Token Tree Visualization]] - Visualize LLM token selection
 * [[REPL Looper]] - Making music with a code console
 
-== Backburner ==
+## Backburner
 If you had asked me what I was working on last week, or if you ask me next week, I might mention one of these.
 * [[Mizik]] - A game of memory, sound, shape
 * [[Covid Can I Do It]] - An interactive harm-reduction dataset built during the COVID pandemic
 
-== Inactive ==
+## Inactive
 I probably won't be doing much with these. This ''could'' mean that they are in a fairly completed state. It could also mean that they are abandoned. But feel free to ask me about them anyway!
 * [[An Introduction to Programming via Perl]]
 * [[CGI Inspect]] - Inspect running CGI apps
@@ -69,7 +69,7 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 
 ----
 
-== Tools ==
+## Tools
 * [[I love Vim]] - my preferred IDE
 * See a [[Screenshot on 2003.10.17]]
 * [[Darcs]] - revision/branch management. It's fun.

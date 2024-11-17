@@ -19,7 +19,7 @@ use everywhere 'MooseX::Declare; use 5.010',
   use_here => 1;
 ```
 
-== Code ==
+## Code
 * darcs get http://thelackthereof.org/projects/perl/everywhere
 * cpan:everywhere
 

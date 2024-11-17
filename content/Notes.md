@@ -13,7 +13,7 @@ termcapinfo * ti@:te@
 
 [http://www.amazon.com/gp/registry/wishlist/1N05N79GCH3EG My Amazon Wish List]
 
-== New News Item ==
+## New News Item
 
 there is an image to the left
 blah
@@ -112,7 +112,7 @@ Full screen degraded digital video - if you get only every nth packet you get ev
 
 Centralized Logic - The core happenings of a program should all be in one spot, easily readable and understandable. Web-MVC spreads things out too much. This is part of the CSS power -- a central spot describing the look of a wide variety of things. Behaviour -- a central spot describing the behaviour of a wide variety of things.
 
-== MIT Courses I Should Self-Take ==
+## MIT Courses I Should Self-Take
 * [http://ocw.mit.edu/OcwWeb/Mathematics/18-404JTheory-of-ComputationFall2002/CourseHome/index.htm
 18.404J / 6.840J Theory of Computation, Fall 2002]
 * [http://ocw.mit.edu/OcwWeb/Electrical-Engineering-and-Computer-Science/6-844Spring2003/CourseHome/index.htm 
@@ -176,7 +176,7 @@ left:flower.jpg
 
 -----
 
-== Chicken Dance ==
+## Chicken Dance
 [[YouTube:nstI0bjTqwQ]]
 
 ----

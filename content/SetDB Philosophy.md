@@ -5,10 +5,10 @@ createdAt: 2004-02-22T00:36-05:00
 updatedAt: 2015-07-27T16:52-04:00
 ---
 
-=== The Problem ===
+### The Problem
 I've never quite been satisfied as a programmer of databases... when wearing my database designer hat I get to think in terms of relational set theory. When I put on my programmer hat I get to think in terms of rows. No fun at all. I decided that it would be Cool to let my programmer-hat-person get a better view of the database.
 
-=== Database Design Theory ===
+### Database Design Theory
 First we must get our database theory in line. Relational databases are powerful tools which can be understood in a variety of ways. Having a mathematical background, I prefer to think of a database as sets (or multisets in some cases) and functions relating one set to another. Most folks with a background in programming datastructures see them as nodes and pointers, and I sometimes slip into this tendancy.
 
 ----

@@ -20,7 +20,7 @@ updatedAt: 2016-04-27T21:45-04:00
 * Don't Repeat Yourself
 
 
-== Don't Repeat Yourself ==
+## Don't Repeat Yourself
 
 Don't repeat yourself
 Don't repeat yourself

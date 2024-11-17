@@ -13,15 +13,15 @@ These are some notes on AnyEvent, hopefully handy for putting together conferenc
 
 CPAN: cpan:AnyEvent
 
-== History ==
+## History
 
 How did AE come about?
 
-== Technology ==
+## Technology
 
 The killer combo -- libev + Coro + AnyEvent. But with AE there are many backends
 
-== Speed ==
+## Speed
 
 http://lists.schmorp.de/pipermail/anyevent/2010q4/000068.html
 

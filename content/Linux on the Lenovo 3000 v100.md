@@ -13,7 +13,7 @@ I installed with Debian etch (nightly-build of the installer) and it got almost 
 
 Right now the thing that I really really want is suspend-to-ram, but I can't quite get it to work. It suspends for 10-15 seconds just fine, and I can wake it up. But if I suspend it for any longer it won't wake back up.
 
-== Overview ==
+## Overview
 
 || Device || Model         || Status || Notes                                                              ||
 || Video  || intel 945GM) || works  || graphics accelleration works. dual screen with alternate xorg.conf ||
@@ -27,7 +27,7 @@ Right now the thing that I really really want is suspend-to-ram, but I can't qui
 || Firewire || Ricoh || untested || ||
 || card reader || Ricoh || untested || ||
 
-== Output of lspci ==
+## Output of lspci
 
 ```
 00:00.0 Host bridge: Intel Corporation Mobile 945GM/PM/GMS/940GML and 945GT Express Memory Controller Hub (rev 03)
@@ -55,7 +55,7 @@ Right now the thing that I really really want is suspend-to-ram, but I can't qui
 0a:07.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL-8139/8139C/8139C+ (rev 10)
 ```
 
-== Output of lsusb ==
+## Output of lsusb
 Bus 004 Device 002: ID 08ff:1600 AuthenTec, Inc. 
 Bus 004 Device 001: ID 0000:0000  
 Bus 003 Device 001: ID 0000:0000  
@@ -66,7 +66,7 @@ Bus 005 Device 002: ID 0a5c:2101 Broadcom Corp.
 Bus 005 Device 001: ID 0000:0000  
 Bus 002 Device 001: ID 0000:0000  
 
-== Wireless ==
+## Wireless
 This one uses an Atheros chipset, unlike all of the other v100's up to this point.
 
 MadWifi now works with this card, as per http://madwifi.org/ticket/1001. I got it working by simply grabbing the [http://svn.madwifi.org/branches/madwifi-hal-0.9.30.13/ madwifi-hal-0.9.30.13] svn with a straigt make && make install.
@@ -79,7 +79,7 @@ I slightly followed the [http://www.thinkwiki.org/wiki/How_to_install_ndiswrappe
 
 I'm not sure if it will work in 802.11n mode or not.
 
-== Audio ==
+## Audio
 This works out of the box in many distributions... but not the one I installed. I thought briefly that it was my specific kernel, but then I found a note saying that it might just be some module parameters.
 http://www.puzzle.ch/samsung_q35.html
 Added "options snd-hda-intel index=0 single_cmd=1 model=laptop-eapd"
@@ -94,10 +94,10 @@ modprobe snd-hda-intel index=0 single_cmd=1 model=3stack-dig
 which effectively loads the _wrong_ sound card driver, but one that does the trick :)
 
 
-== Video ==
+## Video
 Debian set up the 1280x800 resolution out of the box. I've since enabled graphic accelleration and figured out a dual-monitor mode. I have to swich Xorg configs to go from single to multi-monitor. I have an experimental version that sort-of switches dynamically using xrandr... but it doesn't work.
 
-=== Lenovo 3000 v100 945GM Xorg i810 single-screen config ===
+### Lenovo 3000 v100 945GM Xorg i810 single-screen config
 ```
 # /etc/X11/xorg.conf (xorg X Window System server configuration file)
 #
@@ -235,7 +235,7 @@ Option "Composite" "Enable"
 EndSection
 ```
 
-=== Lenovo 3000 v100 945GM Xorg i810 dual-screen config ===
+### Lenovo 3000 v100 945GM Xorg i810 dual-screen config
 ```
 Section "ServerLayout"
 	Identifier     "X.org Configured"

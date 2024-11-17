@@ -9,28 +9,28 @@ Moved to http://aspbc.42t.org/Brock
 
 We've started a book club to study political philosophy, and are starting with Hobbs. Here are some random notes.
 
-== Part I ==
+## Part I
 Mostly setup I think.
 
-=== Chapter 6 ===
+### Chapter 6
 Defines lots of vocabulary, including Good and Evil.
 
 Starts to build a language to talk about the state of nature.
 
-=== Chapter 7 ===
+### Chapter 7
 About the goals of discourse.
 
 Science vs Opinion.
 
 Even opinion has some strucuture, but science has more.
 
-=== Chapter 8 ===
+### Chapter 8
 Goes on and on about madness. One interesting thing is he talks about group-think -- a nation which is mad where the individuals are only a little mad.
 
-=== Chapter 9 ===
+### Chapter 9
 Breaks down the areas of knowledge.
 
-=== Chapter 10 ===
+### Chapter 10
 Power is based on the ability to control people. Which is driven based on the people being controlled -- their willingness to be controlled.
 
 

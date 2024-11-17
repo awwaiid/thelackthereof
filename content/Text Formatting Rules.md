@@ -14,7 +14,7 @@ The most important rules are very simple:
 
 '''With these three simple rules, you can already start writing text.'''
 
-== Local Links ==
+## Local Links
 
 Local pages are linked using various link patterns.
 
@@ -45,7 +45,7 @@ Result:
 
 (disabled on this wiki)
 
-== URLs ==
+## URLs
 
 '''Plain URLs get hyperlinked.'''
 
@@ -98,7 +98,7 @@ Result:
 
 (disabled on this wiki)
 
-== Bullet List ==
+## Bullet List
 
 '''List items start with one or more asterisks (*).'''  The number of
 asterisks indicates the indentation level.
@@ -118,7 +118,7 @@ Result:
 * Another item
 ** One More
 
-== Numbered List ==
+## Numbered List
 
 '''Numbered list items start with one or more hashes (#).'''
 The number of hashes indicates the indentation level.
@@ -138,7 +138,7 @@ Result:
 # Another item
 ## One More
 
-== Definition List ==
+## Definition List
 
 '''Definition lists start with a semicolon <nowiki>(;), and a colon (:)</nowiki> between term and definition.'''  The number of semicolons indicates the indentation level.
 An empty line ends the list.
@@ -157,7 +157,7 @@ Result:
 ;bar: a generic placeholder
 ;;baz: a variation
 
-== Tables ==
+## Tables
 
 '''Table rows start and end with two vertical bars (||), with two
 vertical bars between cells.'''  Empty cells fuse with the next cell;
@@ -175,7 +175,7 @@ Result:
 ||foo||bar||
 ||||bar||
 
-== Indented Paragraphs ==
+## Indented Paragraphs
 
 '''Indented paragraphs start with one or more colons <nowiki>(:)</nowiki>.'''
 The number of colons indicates the indentation level.
@@ -195,7 +195,7 @@ Result:
 : Another item
 :: One More
 
-== Headings ==
+## Headings
 
 '''Headings are enclosed in equal signs (=) on a line of their own.'''
 You can use up to six equal signs to produce headers of level one to
@@ -206,16 +206,16 @@ or three equal signs is recommended (== like this ==).
 Example:
 
 <pre>
-=== Heading 3 ===
-==== Heading 4 ====
+### Heading 3
+#### Heading 4
 </pre>
 
 Result:
 
-=== Heading 3 ===
-==== Heading 4 ====
+### Heading 3
+#### Heading 4
 
-== Horizontal line ==
+## Horizontal line
 
 '''Four or more consecutive hyphens on a line of their own (----) are
 replaced with a horizontal line.'''
@@ -230,7 +230,7 @@ Result:
 
 ----
 
-== Source code ==
+## Source code
 
 '''Lines starting with spaces are shown using a fixed width font with
 whitespace preserved.'''  I suggest to use uniform indentation of
@@ -246,7 +246,7 @@ Result:
 
     foo bar
 
-== Traditional wiki markup ==
+## Traditional wiki markup
 
 '''Two and three apostrophes are used for emphasis and strong emphasis'''.
 
@@ -260,7 +260,7 @@ Result:
 
 ''two apostrophes'' and '''three apostrophes'''
 
-== HTML tags ==
+## HTML tags
 
 '''Some HTML tags are also allowed.'''
 These tags are used exactly like HTML tags.
@@ -285,7 +285,7 @@ Supported tags without extra configuration:
 
 See [[HTML]].
 
-== Disable Text Formatting Rules ==
+## Disable Text Formatting Rules
 
 The following tags will '''disable text formatting rules''':
 

@@ -10,7 +10,7 @@ Listen: audio:docs/music/pigirl7
 Artists: Brock Wilcox and Jason Woys
 Copy and Share: under the terms of [http://creativecommons.org/licenses/by-nc/3.0/|Creative Commons Attribution-NonCommercial] license!
 
-== Lyrics ==
+## Lyrics
 Girl with Pi tattoo
 I just wanna sit next to you
 Only reason I stayed in school

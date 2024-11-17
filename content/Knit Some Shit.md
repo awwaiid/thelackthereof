@@ -10,10 +10,10 @@ Listen: audio:docs/music/knit-some-shit-1
 Artists: Elizabeth Woys and Brock Wilcox
 Copy and Share: under the terms of [[http://creativecommons.org/licenses/by-nc/3.0/|Creative Commons Attribution-NonCommercial]] license!
 
-== Chords ==
+## Chords
 A, D, A E, (A, D, E)
 
-== Lyrics ==
+## Lyrics
 
 [verse 1]
 Come on people, come gather round,

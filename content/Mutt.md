@@ -5,7 +5,7 @@ createdAt: 2004-02-09T14:11-05:00
 updatedAt: 2004-02-09T14:11-05:00
 ---
 
-== A Guys Best Friend ==
+## A Guys Best Friend
 I just discovered that Mutt can do transparent zlib (de)compression of my email folders! Great, eh? All I had to do was add a couple hooks:
 
   open-hook \\.gz$ "gzip -cd %f > %t"

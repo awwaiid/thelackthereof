@@ -10,7 +10,7 @@ Listen: audio:docs/music/gitmo_v1
 Artist: Brock Wilcox
 Copy and Share: under the terms of [http://creativecommons.org/licenses/by-nc/3.0/|Creative Commons Attribution-NonCommercial] license!
 
-== Lyrics ==
+## Lyrics
 
 President Obama
 You know you wanna

@@ -5,7 +5,7 @@ createdAt: 2013-12-22T02:52-05:00
 updatedAt: 2014-02-09T15:41-05:00
 ---
 
-== 2013-12-22 ==
+## 2013-12-22
 
 So I've gone through [https://github.com/overtone/overtone/wiki/Getting-Started Overtone Getting Started] a few times, and am up and running. Only trick at all is that I already have my own jackd wrapper script to get jack started. Just like the other times that I went through this tutorial, I get to this point and say "now what?"
 
@@ -23,7 +23,7 @@ So I go on a reading spree. Things I learn:
 ** Mentions here as I've seen elsewhere: definst uses macros to send synths to supercollider, so only a specific set of things are OK in there (not arbitrary expressions)
 ** Shows how to sequence things a bit
 
-== 2013-12-23 ==
+## 2013-12-23
 
 Today I'm watching [http://youtu.be/lcRQFGtFiyE Overtone and ClojureScript] which is a coding session of someone setting up an web UI to play Overtone stuff. Building a UI like this reminds me of the one-string guitar that I got at an art festival the other day. Clearly home-made, including an energy drink as the echo chamber. And very awesome. Also fun to see someone iterate through their development. Lots of interesting things in there, most of them I can read more or less but doesn't mean I could write them. One thing I noticed was (:use ...) to pull in instrument libs. I'll try that.
 
@@ -73,7 +73,7 @@ Ah! I need to do (use 'overtone.inst.piano) not (:use overtone.inst.piano).
 * Had to restart overtone
 * Now I have BUNCHES of midi connections when I do (midi-connected-devices)
 
-== 2013-12-25 ==
+## 2013-12-25
 
 Good progress today -- I made a hack to get around that BUNCHES of midi issue. I also got [https://github.com/overtone/overtone/wiki/Overtone-in-vim Overtone Vim Integration] working. Well technically I already had it working (had fireplace.vim installed, etc), I just didn't know it. Now I can start up the REPL in one terminal and start up vim in another. In vim do ":Require" and it finds the running REPL and hooks into it. I also added "nnoremap <F1> :Eval (stop)<cr>" to my .vimrc, so that I can jam on F1 to make the noise stop. Here is the file I've got now:
 
@@ -109,7 +109,7 @@ http://hg.postspectacular.com/resonate-2013 - need to check out
 
 This is awesome -- In [http://tgk.github.io/2012/12/the-composing-schemer.html The Composing Schemer] the author uses "core.logic" (which I assume is a clojure lib for doing rule/inference programming) to generate melodies!
 
-== 2013-12-26 ==
+## 2013-12-26
 
 Today I'm playing with [http://en.wikipedia.org/wiki/Open_Sound_Control Open Sound Control (OSC)], which is more general-purpose than midi but kinda similar idea. I have an android app on my phone named [https://play.google.com/store/apps/details?id=com.charlieroberts.Control&hl=en Control] which has a few existing UIs, in my case I'm playing with the multi-touch. I set it to have two touch inputs.
 
@@ -159,7 +159,7 @@ Control comes with the ability to dynamically create controls, even over OSC its
 
 -------
 
-== 2014-01-15 ==
+## 2014-01-15
 
 One of my goals is to hook up my midi keyboard to an instrument and then hook up some of my midi knob controllers and/or OSC from my phone to adjust instrument parameters. I only needed one more thing to make this happen -- clojure refs. First I define an instrument that is parameterized:
 
@@ -220,7 +220,7 @@ And with that I can drag around on my touch UI and it changes the sustain and un
 
 --------
 
-== Overtone + midi + jackd + a2jmidid + linux ==
+## Overtone + midi + jackd + a2jmidid + linux
 * Show midi events, good for debugging: (event-debug-on)
 * Get a list of connected devices: (midi-connected-devices)
 * I have jackd set up, and can use my midi keyboard with other jack-based synths

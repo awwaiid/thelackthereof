@@ -31,7 +31,7 @@ Thus, we can think of measuring potential Free Will by a combination of these tw
 
 Finally, we can think about Kinetic (or Active) Free Will, which is when you actually exert free will by predicting and controlling the future.
 
-== A Call To Arms ==
+## A Call To Arms
 You have before you several tasks of betterment available, based on the above definitions. Ultimately, the idea is to increase your Kinetic Free Will.
 
 * Improve your ability to predict

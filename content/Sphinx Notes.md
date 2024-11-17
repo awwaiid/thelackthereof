@@ -7,14 +7,14 @@ updatedAt: 2004-10-07T02:41-04:00
 
 These are just some collection of notes about getting Sphinx to do what I want it to do. Wish me luck.
 
-== 2004.10.06 ==
+## 2004.10.06
 Working on using the hub4 regression test to make this thing work. I converted a voicemail to a raw audio file with
 
   sox bethmom-packet8_voiceMessage.au -r 16000 -w -s -x bethmom2.raw
 
 the trickiest part to figure out was the -x to switch endianness. I'm running through another example now to see how well it works, then I'll run the above through. It is certainly not fast the way I have it set up now.
 
-== Component overview ==
+## Component overview
 (From http://harvee.org/pipermail/ossri/2004-September/000826.html)
 
 There are a number of components that play a role here.
@@ -67,7 +67,7 @@ model, and will give you coverage for your task.  Since it
 is much more general, however, it may perform *slightly*
 poorer in accuracy for your specific task.
 
-== See Also ==
+## See Also
 * http://cmusphinx.sourceforge.net/sphinx4/ - Sphinx4 Main Page
 * http://harvee.org/pipermail/ossri/2004-September/000826.html - Overview of major Sphinx4 components
 

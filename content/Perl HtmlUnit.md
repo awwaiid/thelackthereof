@@ -11,7 +11,7 @@ This is kinda like WWW::Mechanize, in that it is a library that acts as a browse
 
 This implementation is a very straightforward use of Inline::Java.
 
-== Code ==
+## Code
 
 * [http://search.cpan.org/perldoc?WWW::HtmlUnit HtmlUnit on CPAN]
 * darcs get http://thelackthereof.org/projects/perl/WWW-HtmlUnit

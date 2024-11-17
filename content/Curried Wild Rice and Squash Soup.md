@@ -7,7 +7,7 @@ updatedAt: 2009-03-12T15:20-04:00
 
 From [http://allrecipes.com/Recipe/Curried-Wild-Rice-and-Squash-Soup/Detail.aspx allrecipes.com], submitted by Connie Dempsey.
 
-== INGREDIENTS ==
+## INGREDIENTS
 
 * 1 cup uncooked wild rice
 * 3 cups water
@@ -21,7 +21,7 @@ From [http://allrecipes.com/Recipe/Curried-Wild-Rice-and-Squash-Soup/Detail.aspx
 * 1 1/4 teaspoons salt
 * 1/2 teaspoon ground black pepper
 
-== DIRECTIONS ==
+## DIRECTIONS
 
 # In a pot, bring the wild rice and water to a boil. Reduce heat to low, cover, and simmer 45 minutes.
 # Place the squash in a medium pot with enough water to cover, and bring to a boil. Cook 15 minutes, or until tender. Drain, return to the pot, and mash. Mix in the chicken broth and orange juice.

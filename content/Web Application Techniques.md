@@ -7,7 +7,7 @@ updatedAt: 2004-11-30T23:06-05:00
 
 These are notes in preparation for a talk I'll be giving to LUNA.
 
-== Client / Server Structure ==
+## Client / Server Structure
 The basic structure of the web is one of clients and servers. A web server sits around waiting for someone to request a document from it. That someone is a client. The basic steps are these:
 # Client requests document ("http://www.yahoo.com/")
 # Server receives request

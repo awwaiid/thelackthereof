@@ -5,7 +5,7 @@ createdAt: 2006-03-03T20:00-05:00
 updatedAt: 2006-03-05T16:13-05:00
 ---
 
-=== 4 Comments. ===
+### 4 Comments.
 Perl6 will have a "prove guido wrong" operator.
 
 -- mid 2006-03-04 01:00 UTC

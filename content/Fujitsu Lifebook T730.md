@@ -28,7 +28,7 @@ I recently got a [http://store.shopfujitsu.com/fpc/Ecommerce/buildseriesbean.do?
 
 Plus I got the extra battery for the swappable bay.
 
-== Ubuntu Linux 10.04 (Lucid) on the Fujitsu Lifebook T730 ==
+## Ubuntu Linux 10.04 (Lucid) on the Fujitsu Lifebook T730
 
 I thought I'd boot into windows to make sure all the hardware worked before replacing it with linux, but after it rebooted for the 4th time while doing it's configuration I gave up and killed it. I didn't even make it to the desktop. So unfortunately that means I can't do much of a comparison there.
 
@@ -48,12 +48,12 @@ Highlights of what works, what doesn't
 
 (Note that this info probably exactly applies for Linux on the Fujitsu Lifebook T900 and TH900 and probably a few others, since they have extremely similar hardware).
 
-== Battery Life ==
+## Battery Life
 One of my hopes with the extra battery has been to get a significant boost on the battery life.
 
 * Unoptimized, listening to pandora over wifi - 5:00 hours
 
-== Touch Input ==
+## Touch Input
 I thrashed about for a few days before I got the touch input to work -- and most of the thrashing was because I didn't try to actually follow the directions linearly, as usual. Here are the two main resources that I found useful:
 
 * [http://linuxwacom.sourceforge.net/index.php/howto/main Linux Wacom Project HOWTO]
@@ -103,7 +103,7 @@ I haven't done calibration yet, looks like that is a bit of a manual process rig
 Once I got it working, I tried some plugins for firefox and also grabbed Fennec. Fun!
 
 
-== Screen Buttons and Swivel Auto Rotate ==
+## Screen Buttons and Swivel Auto Rotate
 Installing [http://sourceforge.net/apps/mediawiki/fjbtndrv/index.php?title=Main_Page fjbtndrv] made the buttons work. It also comes with a daemon named fscrotd that does the auto-rotate on swivel. Finding it was the hardest part -- it works great.
 
 ----

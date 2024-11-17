@@ -5,7 +5,7 @@ createdAt: 2003-11-16T03:29-05:00
 updatedAt: 2009-02-07T18:36-05:00
 ---
 
-=== 2 Comments. ===
+### 2 Comments.
 See: [[Zero One Infinity]]
 
 At this point I hadn't written many Haikus. This one is an okay start... but I think it is a bit judgemental. More needs to be left to the reader to figure out.

@@ -46,7 +46,7 @@ We traverse the tree. Lets traverse down to the first 'c' tag. Now we traverse t
 
 Each node has three things -- its tag name, its ID, and its class list.
 
-== See Also ==
+## See Also
 * http://www.dillo.org/CSS.v1.txt
 * http://cthedot.de/cssutils/
 * http://www.w3.org/Style/CSS/SAC/

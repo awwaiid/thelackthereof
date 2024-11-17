@@ -11,7 +11,7 @@ Artists: Jason Woys and Brock Wilcox
 Creation: 2012-11-21
 Copy, Share, and Create: under the terms of [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons Attribution-ShareAlike (CC BY-SA)]] license
 
-== Lyrics ==
+## Lyrics
 How our faces felt they
 swelled from the blood
 We drained our river and sank

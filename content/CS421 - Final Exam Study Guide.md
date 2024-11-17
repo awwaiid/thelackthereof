@@ -5,7 +5,7 @@ createdAt: 2009-08-02T12:24-04:00
 updatedAt: 2009-08-02T15:10-04:00
 ---
 
-== Topics ==
+## Topics
 * Regular Expressions and DFAs
 ** Be able to tell when a string is in the language of a regular expresion or DFA
 ** Be able to construct simple DFAs/Regular Expression given a description of the strings they should accept. 

@@ -5,15 +5,15 @@ createdAt: 2004-04-19T23:37-04:00
 updatedAt: 2004-04-19T23:37-04:00
 ---
 
-== Group ==
+## Group
 * Mikell Coleman
 * Brock Wilcox
 * Erin Kelly
 
-== Topic ==
+## Topic
 Our topic is domestic violence cases involving women in the United States. We will be looking at how this type of violence affects women in all facets of their lives, including relationships, work, child rearing, and general health. One organization which we will discuss that addresses this issue is the Arizona Colalition Against Domestic Violence. This organization produces educational material, conduct training, and operate a legal advocacy hotline, among other things.
 
-== Outline ==
+## Outline
 [[WST Outline]]
 # Background information on domestic violence against women
 # How domestic violence affects women in their day-to-day lives
@@ -24,7 +24,7 @@ Our topic is domestic violence cases involving women in the United States. We wi
 ## Protests
 # Other things that can be done
 
-== Bibliography (MLA Format) ==
+## Bibliography (MLA Format)
 * Baumgardner, Jennifer, and Amy Richards. <u>Manifesta: Young Women, Feminism, and the Future</u>. Farrar, Straus and Giroux, 2000.
 ISBN: 0374526222.
 * Buchwald, Emilie, Pamela R. Fletcher, and Martha Roth. <u>Transforming a Rape Culture</u>. Reprint edition (January 1995). Milkweed Editions, 1994.

@@ -5,7 +5,7 @@ createdAt: 2016-08-12T23:22-04:00
 updatedAt: 2016-08-12T23:34-04:00
 ---
 
-== Challenge: Folding Origami ==
+## Challenge: Folding Origami
 This year the ICFP will be held in Nara, Japan. The contest was organized by members of The University of Electro-Communications. I checked out their website since that sounded like a weird school name, and see that they are also hosting "The Joint Conference of the 8th International Conference on ESP in Asia & the 3rd International Symposium on Innovative Teaching and Research in ESP in Japan". Unfortunately "ESP" here is for "English for Specific Purposes" rather than the usual usage.
 
 Unlike other years, the contest started at 00:00 UTC, which is 8:00pm Thursday, and lasted until 8:00pm Saturday. This was a nice schedule to start with, getting to roll into the contest right after work, but it did leave me jazzed up on Sunday night after it was over.

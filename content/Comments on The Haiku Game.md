@@ -5,7 +5,7 @@ createdAt: 2006-06-01T00:54-04:00
 updatedAt: 2006-06-01T00:54-04:00
 ---
 
-=== 1 Comment. ===
+### 1 Comment.
 ah-hahaha.
 
 Why, that sounds like the greatest game EVAR!

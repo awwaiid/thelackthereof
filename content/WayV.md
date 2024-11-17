@@ -11,14 +11,14 @@ From Mike Bennett's WayV page, WayV is...
 
 The main site is at http://www.stressbunny.com/wayv/ and the current version is 0.3 (released 2003-08-14).
 
-== Code ==
+## Code
 You can get my modifications to this app via:
 
 darcs get http://thelackthereof.org/projects/c/wayv
 
 All I've done so far is to slightly improve the directional weight for pattern matching. Before a straight up and a straight down both got a score of 0 (lower is better), and then the "down" score was divided by two since the direction was correct. But 0/2 == 0 ! So I add one and scale a bit.
 
-== Plan ==
+## Plan
 I'm exploring data input mechanisms for the [[Openmoko]], and ran into this app. It's pretty neat, but there are some things it doesn't do or could do better that I'd like to add. I'm starting with WayV, but might end up starting a different WayV-inspired project.
 
 Things to add:

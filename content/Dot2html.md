@@ -9,6 +9,6 @@ I've always wanted some sort of slick web-based wysiwyg-ish graphviz editor. My 
 
   darcs get http://thelackthereof.org/projects/perl/dot2html
 
-== Recent Development Feed ==
+## Recent Development Feed
 <rss 5 http://thelackthereof.org/darcs-rss/feed/perl-dot2html.rss>
 

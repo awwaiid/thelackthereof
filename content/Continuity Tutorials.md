@@ -5,7 +5,7 @@ createdAt: 2004-10-17T18:56-04:00
 updatedAt: 2005-07-31T11:09-04:00
 ---
 
-== Do As I Do ==
+## Do As I Do
 Lets try a simple method. I'll show you code, then I'll talk about it. Here is our first example... it isn't exactly a hello world but it'll do.
 
 ```perl

@@ -5,7 +5,7 @@ createdAt: 2009-07-03T16:46-04:00
 updatedAt: 2009-07-19T18:23-04:00
 ---
 
-== Integers ==
+## Integers
 Topics include:
 * types of #s
 * operations (plus, minus, multiplication)
@@ -19,7 +19,7 @@ Topics include:
 ** odd + odd, odd + even, even * even, etc
 ** 5's, 10's
 
-== L3 ==
+## L3
 * Properties of operators
 * Properties of integers
 ** positive, negative

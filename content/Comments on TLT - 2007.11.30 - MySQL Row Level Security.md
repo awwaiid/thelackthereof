@@ -5,7 +5,7 @@ createdAt: 2008-07-01T11:16-04:00
 updatedAt: 2008-07-07T00:51-04:00
 ---
 
-=== 1 Comment. ===
+### 1 Comment.
 This is Grrrrreat!
 
 - Tony the Tiger

@@ -5,7 +5,7 @@ createdAt: 2004-07-24T15:56-04:00
 updatedAt: 2007-09-28T12:28-04:00
 ---
 
-== Fake Continuations for a Perl Object ==
+## Fake Continuations for a Perl Object
 
 <i><b>NOTE:</b> I'm not doing any active work on this project. This project spawned [[Continuity]] and that's where I've followed it :)</i>
 
@@ -105,7 +105,7 @@ Now this is long and maybe a bit complicated... but it shows the idea (and some 
 
 As a much larger example, and also to work out more problems (both conceptual and practical) I am working on [[EPFarms Panel]] as a testbed application for this method and this module.
 
-== See Also ==
+## See Also
 * cpan:Contize on CPAN
 * [[Web Programming With Contize]]
 * [[Continuation-based Web Programming]]

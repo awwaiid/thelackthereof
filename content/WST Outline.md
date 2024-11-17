@@ -7,7 +7,7 @@ updatedAt: 2004-04-20T00:18-04:00
 
 Outline for WST
 
-= Domestic Violence =
+# Domestic Violence
 
 A. Definition by our organization
 
@@ -31,7 +31,7 @@ C. History
 
 D. Statistics
 
-= ACADV =
+# ACADV
 A. Formed in 1980 to:
   1. Increase public awareness about DV
   2. Enhance safety and services for DV victims

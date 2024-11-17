@@ -5,7 +5,7 @@ createdAt: 2006-04-30T00:01-04:00
 updatedAt: 2006-05-02T18:36-04:00
 ---
 
-=== 2 Comments. ===
+### 2 Comments.
 Hi,
 
 I sent you an email about your OGPF project. I just thought I'd leave a comment to notify you here because I've had terrible luck with emailing people about genetic programming issues thus far (you'd be surprised at how terrible researchers are at responding to emails from people who actually bother to carefully read their papers!).

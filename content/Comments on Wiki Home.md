@@ -5,7 +5,7 @@ createdAt: 2004-02-20T17:34-05:00
 updatedAt: 2007-07-17T13:10-04:00
 ---
 
-=== 2 Comments. ===
+### 2 Comments.
 
 This is just a spot to put comments addressing [[Home]].
 ----

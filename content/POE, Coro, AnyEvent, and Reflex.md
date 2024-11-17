@@ -9,7 +9,7 @@ For [http://www.yapc2011.us/yn2011/ YAPC::NA 2011] I gave a talk, [http://www.ya
 
 ----
 
-== Introduction ==
+## Introduction
 I hope to give you a very high-level introduction to these four technologies, and a few examples to illustrate their philosophies and usage.
 
 One of the very simple examples I use is called 'sleep sort'. This is a fun little algorithm first introduced by the unique minds of 4chan. The game is to write a simple command line program that takes a list of numbers as arguments, and then print them out in sorted order. The fun bit is how this is done -- for each number argument X they fork and then sleep for X seconds before printing out X. One way to put it is that this is a sort that utilizes time instead of space. Quite bizarre and amusing. Here's an example of this using fork that the reset of our samples resembles; note that it sits there forever and will require a ^C to terminate.
@@ -30,7 +30,7 @@ The examples I use are a bit different because they don't actually fork or use o
 
 I'll now go through the technologies, following the order in which they appeared on CPAN.
 
-== POE ==
+## POE
 "portable multitasking and networking framework for any event loop"
 
 First hitting CPAN in 1998, POE was actually started a few years before that by Rocco, who says he initially created it to help write games. At least partly due to its age, POE has a large community and many useful tools on CPAN. I ran into POE when wanting to create an IRC bot, for example.
@@ -55,7 +55,7 @@ POE::Session->create(
 POE::Kernel->run();
 ```
 
-== Coro ==
+## Coro
 "the only real threads in perl"
 
 Coro was introduced back in 2001. Coro does some deep magic not only in the perl core but in the C stack itself, saving off the important parts of the current running state into a Coro::State object that represents a single thread of execution. This allows for cooperative threading with very flexible control over shared variable scope. You can think of it as threads, you can think of it as continuations/coroutines, and you can think of it a way of implementing the inversion-of-control pattern.
@@ -76,7 +76,7 @@ for my $i (@ARGV) {
 }
 ```
 
-== AnyEvent ==
+## AnyEvent
 "the DBI of event loop programming"
 
 Introduced in 2005, AnyEvent provides a simple model of event management centering around callbacks.
@@ -94,7 +94,7 @@ for my $i (@ARGV) {
 EV::loop
 ```
 
-== Reflex ==
+## Reflex
 This is the newcomer to the scene, currently existing as a layer on top of POE. Rocco has tried over the years with several projects to rise above some of the nitty gritty of POE into the realm of concurrent and reactive objects, and it seems that the approach in Reflex is achieving his goals at last.
 
 One thing that strikes me boldly about Reflex: though it is implemented on top of POE, it could just as easily be on top of AnyEvent and change (almost) nothing about the API. I think this fact strongly illustrates the level of abstraction not only of Reflex, but of POE and AnyEvent.
@@ -112,7 +112,7 @@ foreach my $num (@ARGV) {
 Reflex->run_all();
 ```
 
-== The Monster ==
+## The Monster
 I claimed at some point that these technologies could work together. Well... Let's Do This!
 
 Here is sleep sort using POE, Coro, AnyEvent, and Reflex. It is a simple example, and I wouldn't be surprised if you have to do more work if you want to do more IO-like tasks rather than simple timers. It uses AnyEvent::Impl::POE, which allows POE to be the actual event loop and AnyEvent to tap in, running it's own pending events when POE lets it. Reflex sits on top of the POE event loop. Coro notices AnyEvent is loaded, so it loads Coro::AnyEvent and switches coroutines when AnyEvent lets it. I think.

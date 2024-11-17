@@ -5,7 +5,7 @@ createdAt: 2006-02-28T21:37-05:00
 updatedAt: 2006-06-22T20:18-04:00
 ---
 
-=== 3 Comments. ===
+### 3 Comments.
 I just want to make sure that my comments are still working...
 
 -- [http://thelackthereof.org/ awwaiid] 2006-03-01 02:37 UTC

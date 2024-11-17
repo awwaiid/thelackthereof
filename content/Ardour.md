@@ -5,7 +5,7 @@ createdAt: 2013-04-14T11:57-04:00
 updatedAt: 2013-04-14T11:57-04:00
 ---
 
-== Building in Debian ==
+## Building in Debian
 
 While I do like the idea of supporting Ardour development through donations, I don't quite care for the way it is pushed on the website. So I decided to follow their path of OK-ness for not immediately paying: build from source.
 

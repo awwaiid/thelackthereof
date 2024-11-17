@@ -11,6 +11,6 @@ Just got me a SGS2 from T-Mobile only to quickly discover that the T-Mobile vers
 * [http://rootzwiki.com/topic/10426-rom-cyanogenmod-7-self-kang-for-tmo-sgs2-alphafied-2-237-updated-2051-est-28nov/ Alpha Cyanogenmod from Kang]
 * [http://forum.xda-developers.com/showthread.php?t=1319242 Summary of ROMs available for T-Mobile SGS2]
 
-== Apps ==
+## Apps
 * [http://code.google.com/p/android-wifi-tether/ Wifi Tether] - Nice GPL tethering
 

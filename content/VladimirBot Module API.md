@@ -9,7 +9,7 @@ updatedAt: 2003-09-22T12:56-04:00
 
 The modules add themselves to a global list when they are loaded, and then they get called in an order dependent upon this list. That means that the most general modules (ones that will catch sentences which other, more domain-specific modules may have caught otherwise) should be loaded first so that they effectively end up on the bottom of the stack.
 
-=== Module Structure ===
+### Module Structure
 Modules have a main entrypoint where they get a chance to parse the current sentence. If the module can't figure the sentence out then it can give up and the next module will give it a whack. If, however, it does figure it out then the module returns the response directly.
 
 The first thing a module should do is add itself to the global module list array. So for the VladimirBot::News module:

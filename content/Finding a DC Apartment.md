@@ -7,7 +7,7 @@ updatedAt: 2011-11-22T20:04-05:00
 
 This is for our DC apartment hunt.
 
-== Goal ==
+## Goal
 * Efficiency or 1 bedroom
 * On-site laundry
 * Near grocery store
@@ -16,11 +16,11 @@ This is for our DC apartment hunt.
 * $1500 range (less is better! :) )
 * Cats!
 
-== Map ==
+## Map
 
 Check out the [http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=102663918102075192671.00000112a135f6d87a229&om=1&ll=38.909686,-77.042849&spn=0.00915,0.015514&z=16 Current Google Map] of these locations.
 
-== Apartments ==
+## Apartments
 
 || Eval || Name                                || Address             || Size       || Price       || Notes ||
 ||      || [http://thewestpark.com/ West Park] || 2130 P Street 20037 || studio/1br || $1400/$1700 ||       ||
@@ -57,7 +57,7 @@ Washington, DC 20009
 Probably interested in a 1br, since these are very small and very cheap (like above).
 
 
-== Possibilities Added By Elizabeth ==
+## Possibilities Added By Elizabeth
 
 http://washingtondc.craigslist.org/doc/apa/340793871.html
 
@@ -91,7 +91,7 @@ If you want more information you can email me on wardenstaci@yahoo.com or email 
 ______________________________________________________________
 
 
-== Eliminated Apartments ==
+## Eliminated Apartments
 
 http://washingtondc.craigslist.org/doc/apa/338416610.html
 Barclay/Ravenel 

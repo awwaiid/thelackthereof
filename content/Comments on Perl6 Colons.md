@@ -5,7 +5,7 @@ createdAt: 2016-01-21T00:03-05:00
 updatedAt: 2017-07-22T11:37-04:00
 ---
 
-=== 9 Comments. ===
+### 9 Comments.
 Some uses I know of which do not appear to be in your list:
 
 say :: # Pseudopackage representing null namespace?

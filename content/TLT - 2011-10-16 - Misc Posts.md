@@ -5,7 +5,7 @@ createdAt: 2011-03-11T08:23-05:00
 updatedAt: 2011-10-16T09:10-04:00
 ---
 
-= Debugging Gems =
+# Debugging Gems
 Tags: Perl, Debugging, Programming, Science
 
 I've been enjoying the blog entries of Carl Mäsak lately, and not just the [http://strangelyconsistent.org/blog/yapsi-201103-released Yapsi Release Notes]. Though those are awefully awesome.
@@ -24,7 +24,7 @@ http://www.ibm.com/developerworks/web/library/wa-debug/index.html
 
 ----------------
 
-= Timestamp Fix =
+# Timestamp Fix
 Tags: Perl, Hacking, Programming
 
 In MJD's talk at PPW, he mentioned that one of the things he likes best about the (historical) perl community is a get-things-done attitude when it comes to code. He showed a little snippet that wasn't necessarily the most sustainable or quickest execution way, but worked. Inspiring!

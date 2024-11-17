@@ -11,9 +11,9 @@ Also See:
 * [[Create Tracker Item]]
 * [[Tracker Search]]
 
-== Open Tracker Items ==
+## Open Tracker Items
 <compilation "^[^"]*status: open" nobody>
 
-== Closed Tracker Items ==
+## Closed Tracker Items
 <compilation 10 "^[^"]*status: closed" nobody>
 

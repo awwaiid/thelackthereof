@@ -5,7 +5,7 @@ createdAt: 2009-06-13T00:00-04:00
 updatedAt: 2009-06-13T18:08-04:00
 ---
 
-=== 2 Comments. ===
+### 2 Comments.
 Thanks for adding links!
 
 -- [http://thelackthereof.org/ awwaiid] 2009-06-13 04:00 UTC

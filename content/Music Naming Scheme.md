@@ -5,15 +5,15 @@ createdAt: 2004-09-26T01:35-04:00
 updatedAt: 2006-05-02T18:37-04:00
 ---
 
-== Preamble ==
+## Preamble
 This naming scheme is a joint effort between Brock, Jason, and Erik. The goal is to have a common file naming scheme so that we can share music.
 
-== Directory Structure ==
+## Directory Structure
 Artist/Album/file
 
 Artist and Album have underscores. Actual filenames contain spaces.
 
-== File Structure ==
+## File Structure
 Generally, files will be named like this:
 
   Artist Name - Album Name - 00 - Track Title.ext
@@ -51,10 +51,10 @@ Here is a regular expression which can get all of these things:
 * $7 - Track Name
 * $8 - File extension
 
-== Capitalization ==
+## Capitalization
 All the first letters of each word shall be capitalized. All other letters will be lowercase, exept for acronyms of course.
 
-== Artist Names ==
+## Artist Names
 Artists will be named as "Firstname Lastname" (<b>not</b> inverted).
 
 What about the "The" artists? "The Who" "The Refreshments" "The Cranberries"?

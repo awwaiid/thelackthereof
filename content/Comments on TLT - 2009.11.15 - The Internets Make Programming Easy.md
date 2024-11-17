@@ -5,7 +5,7 @@ createdAt: 2010-06-08T09:52-04:00
 updatedAt: 2010-06-08T20:52-04:00
 ---
 
-=== 2 Comments. ===
+### 2 Comments.
 The good ol C++. 
 Btw, What's the g++ i see at the starting comment line of yr coding?
 

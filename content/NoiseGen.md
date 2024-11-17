@@ -5,7 +5,7 @@ createdAt: 2012-05-22T19:48-04:00
 updatedAt: 2014-10-01T18:15-04:00
 ---
 
-= NoiseGen =
+# NoiseGen
 
 20-Minute Software Synth
 
@@ -31,7 +31,7 @@ Digital sound isn't really much more than a stream of floating point numbers fro
   )
 ```
 
-=== News ===
+### News
 * 2012.06.23 - Presented at YAPC::NA 2012. Video is up on [http://youtu.be/pMZ4ilLzKW8 YouTube]!
 * 2012.05.31 - Presented NoiseGen at [http://www.meetup.com/Arlington-Ruby/events/63925872/ Arlington Ruby]
 

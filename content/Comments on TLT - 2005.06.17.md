@@ -5,7 +5,7 @@ createdAt: 2005-06-17T20:54-04:00
 updatedAt: 2005-08-15T17:44-04:00
 ---
 
-=== 3 Comments. ===
+### 3 Comments.
 Oh no. This actually made me cry. I haven't seen him in ages, but he was definitely loved. Give Beth and her mom a hug for me.
 
 -- mandies 2005-06-18 00:54 UTC

@@ -5,7 +5,7 @@ createdAt: 2006-01-15T17:42-05:00
 updatedAt: 2006-02-25T03:44-05:00
 ---
 
-=== 3 Comments. ===
+### 3 Comments.
 I really enjoyed this post. I think it's good to look at what developers should have to worry about and what they should be able to leave to the framework.
 
 I think programming for the back button every time is a pretty good idea. A lot of usability problems are caused by people going back to a page that was generated from an old state. I have this problem on Reddit. As you may or may not have noticed yet, whether or not a page has been viewed by a logged-in user is stored on the server, and regardless of what computer you're on, the links you've already seen are the visted (purple) color. The CSS, though, says to show the link the color the server tells it to, regardless of whether the browser says it's visited. Apparently, they either left out this detail, or they decided that since multiple users could be using a computer, they didn't want the chance that something would come up as read if someone *else* read it.

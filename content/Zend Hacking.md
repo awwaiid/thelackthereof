@@ -11,7 +11,7 @@ Well I'm going to try writing a Zend extension. So I'm having a look at APD and 
 
 Tips / Documentation recommendations are appreciated if anyone out there knows of some magical wiki in the sky diagraming and analyzing all the components.
 
-== Goal ==
+## Goal
 Well for anyone who doesn't know, I am obsessed with [[Continuation-based Web Programming]]. To this end I've created [[Contize]] for Perl and PHP (which is just a hack, not really continuations). I've examined cpan:Coro::Cont to see if I can get these continuations to serialize, but even the author of that module things it isn't possible. At work I'm doing all of this in PHP, so this is an experiment to see if I can hack up Zend to do (serializable) continuations.
 
 So I want a few functions:
@@ -37,10 +37,10 @@ So maybe like:
     return $result3 ;
   }
 
-== Files ==
+## Files
 * http://lxr.php.net/source/ZendEngine2/zend_globals.h - especially see the Zend Executor Globals (and maybe the compiler gloabals too)
 
-== Notes ==
+## Notes
 OK, I have a basic thing going now. Just ripped stuff out of various examples and grabbed call_user_func_array.
 * hold the current status of a call
 * hold the return state, or a set of pointers, so we can jump directly out of a func

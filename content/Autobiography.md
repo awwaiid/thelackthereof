@@ -11,7 +11,7 @@ I'm also happy for this to be a semi-autobiography, so if there is anyone out th
 
 So here is the plan: First I will record a timeline of events, a pretty factual account. Then (randomly) I will elaborate on some of these.
 
-== Timeline ==
+## Timeline
 * 1980-07-18 : Parents married
 * 1980-12-14 : Born
 * 1987 : Family got first computer (Apple ][e)
@@ -37,7 +37,7 @@ So here is the plan: First I will record a timeline of events, a pretty factual 
 * 2013 : Began working for Optoro
 * 2017 : Began working for Framebridge
 
-== Family Tree ==
+## Family Tree
 <graph>
 digraph {
   size = "6,20";

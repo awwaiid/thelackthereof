@@ -57,13 +57,13 @@ We don't have a common runtime -- you can't just call a perl sub from a python o
 
 There are interesting design decisions made between one project and the next within a language, and you get a whole other view when comparing projects from a variety of languages.
 
-== Other Conferences ==
+## Other Conferences
 * [http://www.dynamiclanguages.co.uk/dlc2011/ Dynamic Languages Conference 2011 (UK)] - "The DLC is a cross-language event aimed at Open Source Dynamic Languages, we hope to bring together all the languages in an open forum to discuss and present the manner in which these languages approach and solve tasks at the cutting edge of development technology" Organized by Mark Keating
 * [http://www.dynamic-languages-symposium.org/ Dynamic Languages Symposium (DLS)] - Tucson, Arizona, USA, October 22, 2012
 Co-located with SPLASH 2012. 6th annual ACM symposium. Very notable lack of "perl" in their list of dynamic languages :(
 * [http://swdc.se/dyncon2012/ Dynamic Languages Conference (Stockholm)] - cancelled due to lack of particpants
 
-== Dynamic Language and Other (local) Groups ==
+## Dynamic Language and Other (local) Groups
 * [http://www.dctechevents.com/sources/ List of DC Tech Groups/Events]
 * [http://www.meetup.com/Lambda-Lounge-Indy/ Lambda Lounge, Indy]
 * [http://dcphp.net/ DC PHP Developers]

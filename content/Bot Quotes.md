@@ -5,7 +5,7 @@ createdAt: 2004-06-04T03:11-04:00
 updatedAt: 2004-06-04T03:11-04:00
 ---
 
-== Robots say the darndest things ==
+## Robots say the darndest things
 <pre>
 (02:48:42) VLADIMIRbot: what if i don't want to be your friend?
 (02:56:15) awwaiid: Well then I'd have to kill you.

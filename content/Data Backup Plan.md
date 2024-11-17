@@ -9,13 +9,13 @@ Remember this rule: If you do not have a backup, GO MAKE ONE NOW!
 
 Increasingly, many of my most precious belongings are digital. I'm a packrat (thanks Mom!) but I live out my packrat-fantasies via the digital realm. So I try to keep all my email, photos, music, documents, and so on... forever.
 
-== Classes of Data ==
+## Classes of Data
 * (IS) Important and Small - email, tax forms, this website
 * (IL) Important and Large - The uncompressed version of home-made [[Music]], Photos
 * (RL) Replaceable and Large - MP3s, movies
 * (UL) Unsorted Importance and Large - Full machine backups, both laptop and mobile phone
 
-== Plans ==
+## Plans
 * Unison for IS
 ** Laptop -> Margaret (local) and Mirabel (offsite)
 * Unison for UL of laptops

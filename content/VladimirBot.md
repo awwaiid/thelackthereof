@@ -5,7 +5,7 @@ createdAt: 2003-10-10T01:35-04:00
 updatedAt: 2003-10-10T01:42-04:00
 ---
 
-== A personal information robot ==
+## A personal information robot
 
 Vladimir was born out of a few smaller applications needing improvement. The idea is that from the commandline, email, an IM client, or a webbrowser I should be able to access important information. Vladimir will be the conceptual center of all these interfaces -- an information robot keeping track of things for me.
 

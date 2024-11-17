@@ -5,7 +5,7 @@ createdAt: 2008-07-05T08:38-04:00
 updatedAt: 2008-11-29T09:30-05:00
 ---
 
-=== 3 Comments. ===
+### 3 Comments.
 What did you make that diagram in?
 
 -- [http://www.metanotes.com/beppu beppu] 2008-05-12 06:21 UTC

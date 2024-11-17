@@ -10,7 +10,7 @@ Listen (acoustic draft): audio:docs/music/dont_repeat_yourself
 Artist: Brock Wilcox
 Copy and Share: under the terms of [http://creativecommons.org/licenses/by-nc/3.0/|Creative Commons Attribution-NonCommercial] license!
 
-== Lyrics ==
+## Lyrics
 
 Don't repeat yourself
 Don't repeat yourself

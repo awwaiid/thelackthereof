@@ -5,7 +5,7 @@ createdAt: 2004-10-12T19:34-04:00
 updatedAt: 2004-10-12T19:34-04:00
 ---
 
-=== 2 Comments. ===
+### 2 Comments.
 Regarding the session issue, my favorite web-based programming tool (cpan:HTML::Mason) has solved this a little better with an extension called cpan:MasonX::Request::WithApacheSession.  It's a lightweight wrapper around cpan:Apache::Session, such that you can store objects using the $m API:
 
 ```

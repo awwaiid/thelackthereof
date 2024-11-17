@@ -7,7 +7,7 @@ updatedAt: 2015-10-18T15:56-04:00
 
 Pinpoint is some pretty fun slide software that I like. Homepage: https://wiki.gnome.org/Apps/Pinpoint
 
-== My Slide Software Criteria ==
+## My Slide Software Criteria
 * Mostly-live edit, ideally in vim
 * Simple markup, ideally diffable
 * Big word centered in screen by default

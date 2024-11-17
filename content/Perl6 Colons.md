@@ -12,7 +12,7 @@ Larry's 2nd Law of Language Redesign: Larry gets the colon
 
 A lot of these are variations on a theme, especially the theme of "colon-pair" syntax. Where two uses of the colon look different or are in a different usage context, even if they are technically the same, I'd prefer to illustrate them both.
 
-=== Namespace ===
+### Namespace
 
 ```
 # namespace
@@ -42,7 +42,7 @@ class Who { method myname { say ::?CLASS } }
 say X::.keys;
 ```
 
-=== Binding ===
+### Binding
 
 ```
 # Binding
@@ -55,7 +55,7 @@ my $z ::= $y;
 $y =:= $a; # True
 ```
 
-=== Colon-Pair Syntax ===
+### Colon-Pair Syntax
 
 ```
 # Colon-Pair syntax (often seen as adverbs)
@@ -98,7 +98,7 @@ b(:foo($a));
 say $a # 42
 ```
 
-=== Types ===
+### Types
 
 ```
 # T takes value's type
@@ -109,7 +109,7 @@ Int:D; # Defined Int
 Int:U; # Undefined Int
 ```
 
-=== Signature ===
+### Signature
 
 ```
 # signature literal
@@ -119,7 +119,7 @@ my $sig = :(Int $foo);
 my &f:(Str) = -> Str {};
 ```
 
-=== Operators as Methods ===
+### Operators as Methods
 
 ```
 my $a = 1;
@@ -132,7 +132,7 @@ $a.:<+>(3);        # Shorthand for infix (param provided)
 ```
 
 
-=== Regex ===
+### Regex
 
 ```
 
@@ -155,7 +155,7 @@ my regex foo { :my $var; }
 say so "a" ~~ /<[:Alpha]>/
 ```
 
-=== Misc ===
+### Misc
 
 ```
 # Quote adverb

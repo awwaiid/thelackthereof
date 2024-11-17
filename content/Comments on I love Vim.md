@@ -5,7 +5,7 @@ createdAt: 2008-09-28T23:13-04:00
 updatedAt: 2008-09-29T08:39-04:00
 ---
 
-=== 1 Comment. ===
+### 1 Comment.
 Sorry to add to this post so long after you wrote it, but I wanted to
 thank you for your ecumenical comments about Vim. You managed a minor
 miracle: you praised your favorite editor without starting a flame

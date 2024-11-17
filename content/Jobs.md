@@ -7,7 +7,7 @@ updatedAt: 2005-04-03T20:26-04:00
 
 This page is to help me organize my job search.
 
-== Job Search Sites ==
+## Job Search Sites
 
 [http://information-technology.careerbuilder.com/it.ic/Arizona_Tempe Career Builder - Tempe, AZ]
 
@@ -15,7 +15,7 @@ This page is to help me organize my job search.
 
 [http://plug.phoenix.az.us/modules.php?op=modload&name=News&file=index&catid=4 Plug News on jobs]
 
-== Job applications ==
+## Job applications
 
 Status: (A) Applied, (P) Pending, (K) Kill<br>
 Detail: (C) Custom converleter, (G) Genetic coverleter, (F) Form application

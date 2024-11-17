@@ -7,39 +7,39 @@ updatedAt: 2011-06-14T23:28-04:00
 
 These are some notes on AnyEvent, hopefully handy for putting together conference presentations or other articles.
 
-== AnyEvent ==
+## AnyEvent
 "the DBI of event loop programming"
 
 "EV, Event, Glib, Tk, Perl, Event::Lib, Irssi, rxvt-unicode, IO::Async, Qt and POE are various supported event loops/environments."
 
 CPAN: cpan:AnyEvent
 
-=== History ===
+### History
 
 How did AE come about?
 
-=== Technology ===
+### Technology
 
 The killer combo -- libev + Coro + AnyEvent. But with AE there are many backends
 
-=== Speed ===
+### Speed
 
 http://lists.schmorp.de/pipermail/anyevent/2010q4/000068.html
 
-== Coro ==
+## Coro
 Cooperative Multitasking for Perl
 
 
-== libev (EV) ==
+## libev (EV)
 
-=== History ===
+### History
 * Created in 2007
 * Meant to replace libevent
 * Very fast
 * Very cross-platform
 * Very non-blocking
 
-=== Users ===
+### Users
 Things that depend/make use of libev:
 * Awesome (window manager)
 * i3 (window manager)
@@ -51,7 +51,7 @@ Things that depend/make use of libev:
 * rxvt-unicode
 * libevhdns (async dns resolver)
 
-=== Language bindings ===
+### Language bindings
 * Perl
 * Pythong
 * Ruby
@@ -60,7 +60,7 @@ Things that depend/make use of libev:
 * Lua
 
 
-== The Killer Combo? ==
+## The Killer Combo?
 
 ----
 

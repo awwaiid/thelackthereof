@@ -11,7 +11,7 @@ One thing that I would like to change is my mix of self-authored documents and d
 
 Here is a list of some of my documents. Remember you can access the non-wiki documents directly through [http://thelackthereof.org/docs/ docs]. Wiki documents tend to be shorter, more dynamically changing, and more interrelated. The LaTeX documents (which will have []'s around their titles) tend to be longer, more static, and possibly more in-depth.
 
-== Computer Science and Programming ==
+## Computer Science and Programming
 * [[Thoughts on Automatic Parallelization]]
 * [[Perl hashref iteration example]]
 * [[On Adding a True Predicate Logic Layer to Relation Databases]]
@@ -31,7 +31,7 @@ Here is a list of some of my documents. Remember you can access the non-wiki doc
 * [[ACM Turing Award and the Lag of Innovation]]
 * [[Unison Backup Setup]]
 
-== Movie Reviews ==
+## Movie Reviews
 * [[Movie Review - Love Actually]]
 * [[Movie Review - Star Trek II The Wrath of Khan]]
 * [[Movie Review - Novocaine]]
@@ -41,7 +41,7 @@ Here is a list of some of my documents. Remember you can access the non-wiki doc
 * [[Movie Review - Zoolander]]
 * [[Movie Review - The Matrix Reloaded]]
 
-== Philosophy ==
+## Philosophy
 * [http://thelackthereof.org/docs/phi/epistempology/gettier/ Wilcox, Brock: On the Gettier Problem]
 * [http://thelackthereof.org/docs/phi/ethics_markets/essay_6/ Wilcox, Brock: Critical Review of Homesteading the Noosphere] <br>
 "What Eric fails to grasp is that it is that [formalizing hacker customs] is not necessary. In his own words Eric has claimed to observe the consistency of these practices throughout his 20 years of experience in the community. This illustrates exactly how unnecessary it is to do any formalization of this code of conduct."
@@ -51,7 +51,7 @@ Here is a list of some of my documents. Remember you can access the non-wiki doc
 * [[Science vs Mathematics]]
 * [[Study of Hobbs' Leviathan]]
 
-== Poems ==
+## Poems
 * [[Zero One Infinity]]
 * [[It's Dark Here Now]]
 * [[The Haiku Game]]
@@ -60,14 +60,14 @@ Here is a list of some of my documents. Remember you can access the non-wiki doc
 * [[Code Undone]]
 * [[Honey Honey Honey]]
 
-== Songs ==
+## Songs
 * [[Umbrellas]]
 * [[Zombie Love]]
 * [[Immaterial Things]]
 * [[Got One Shoe]]
 * [[Talking DC Vote Blues]]
 
-== Other / Unsorted ==
+## Other / Unsorted
 * [[ArcaneJill]]
 * [[Graphics Design]]
 * [[Autobiography]]

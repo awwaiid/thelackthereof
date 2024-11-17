@@ -5,7 +5,7 @@ createdAt: 2005-05-11T04:43-04:00
 updatedAt: 2005-05-17T00:02-04:00
 ---
 
-=== 5 Comments. ===
+### 5 Comments.
 Some of those vaio stories are pretty funny.
 
 Seems like your new job is easier to swallow morally than the last one.

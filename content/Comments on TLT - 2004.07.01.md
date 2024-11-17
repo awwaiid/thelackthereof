@@ -5,7 +5,7 @@ createdAt: 2004-07-15T15:14-04:00
 updatedAt: 2004-07-15T15:14-04:00
 ---
 
-=== 3 Comments. ===
+### 3 Comments.
 I believe the word you are looking for is ''refactoring''.
 
 Also may I point out that good code probably does ''not'' read as a good book, although it probably is ''readable''. 

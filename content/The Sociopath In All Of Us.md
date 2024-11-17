@@ -7,7 +7,7 @@ updatedAt: 2005-01-08T15:05-05:00
 
 (work in progress)
 
-== How do we change ourselves? ==
+## How do we change ourselves?
 Most of us want to change, to improve ourselves in one way or another. We want to be healthier, smarter, more successfull, more friends, less pain. Sometimes when faced with difficult situations we find ourselves falling apart instead of pulling together. Or maybe its as simple as wanting to not be late to every event... late to our own funerals. The media wants us to change, to become thin and beautiful and rich. Nobody is perfect, but we all seek perfection.
 
 Of course, I say most but not all. Some of us seem content with their current existence. They live with their imperfection and so in their own way have reached a peaceful state. Balance. I don't wish to address them now, however.

@@ -5,14 +5,14 @@ createdAt: 2010-10-19T13:38-04:00
 updatedAt: 2010-10-19T15:22-04:00
 ---
 
-== Operating System ==
+## Operating System
 * Debian (usually unstable)
 * Ubuntu
 * Maemo :)
 * Windows in a VM for testing stuff
 * Someday I'll set up MacOS in a VM too :)
 
-== "Desktop" ==
+## "Desktop"
 * Mutt
 * irssi
 * pidgin
@@ -22,37 +22,37 @@ updatedAt: 2010-10-19T15:22-04:00
 * polly
 * OpenOffice
 
-== Editing Files ==
+## Editing Files
 * Vim!
 * perl -pie
 * cat | sort | uniq | wc -l
 
-== Revision Control ==
+## Revision Control
 * Darcs
 * Git
 * Mercurial
 
-== Websites / Webapps / Webstuff ==
+## Websites / Webapps / Webstuff
 * Oddmuse
 * JQuery
 * Wget / Curl
 * Vimperator
 
-== Music ==
+## Music
 * Audacity
 * Jackd / qjackctl
 * Hydrogen
 
-== Graphics ==
+## Graphics
 * Gimp
 * Inkscape
 * gqview
 
-== Searching ==
+## Searching
 * Ack
 * Recoll
 
-== Misc Tools ==
+## Misc Tools
 * GNU Screen
 * Unison
 * rsync

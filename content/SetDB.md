@@ -5,12 +5,12 @@ createdAt: 2004-06-12T01:31-04:00
 updatedAt: 2006-03-06T14:33-05:00
 ---
 
-=== A Set-Theoretical Database Interface ===
+### A Set-Theoretical Database Interface
 There have been quite a few RDBMS->OO Mappers (see http://poop.sourceforge.net/) but none of them have satisfied me. Usually this is because they map on a table-to-object basis, whereas I want something a bit more abstract. Thus was born SetDB. SetDB allows the programmer to view a database in the same way that a database designer would -- as sets of things and relationships between the sets. In general a programmer only sees this world when composing SQL, and from then on sees only a series of rows.
 
 SetDB is a work in progress and the state of the project reflects that fact. Just a warning!
 
-=== Vocabulary ===
+### Vocabulary
 * ''Values'' are things like names or phone numbers or zip codes or such.
 * A ''tuple'' holds a bunch of values.
 * A ''set'' contains a bunch of same-structured tuples.
@@ -20,7 +20,7 @@ SetDB is a work in progress and the state of the project reflects that fact. Jus
 * ''Compound sets'' are sets which can have other sets as values.
 * Doing "$everyone = $db->newSet(person, [address]);" is really creating a compound set.
 
-=== Things that are done ===
+### Things that are done
 * See [[SetDB Code Examples]]
 * Inferring connecting tables
 * Sets with simple childsets
@@ -28,7 +28,7 @@ SetDB is a work in progress and the state of the project reflects that fact. Jus
 * Simple tuple updates
 * Internal simple filters
 
-=== Things to be done ===
+### Things to be done
 * Sets with complex childsets (like path information)
 * Adding new tuples
 * Advanced tuple updates (updating complex childsets)
@@ -37,10 +37,10 @@ SetDB is a work in progress and the state of the project reflects that fact. Jus
 * Set aliases
 * Set operations (union, minus, intersection)
 
-=== Inferring Connecting Tables ===
+### Inferring Connecting Tables
 Translating "(person, [book])" into the "person -> has_book -> book" relationship is done by building an undirected network of all the relationships and doing a breadth-first search to find this sort of path.
 
-=== Desired Code Features ===
+### Desired Code Features
 Here is some proposed stuff I want to work:
 ```
   $east_siders = $everyone->filter([school, [address]], "side = 'east'");
@@ -64,7 +64,7 @@ Here is some proposed stuff I want to work:
 ```
 
 
-=== See Also ===
+### See Also
 * TLT:projects/perl/setdb/ for currentish code
 * do "darcs get http://thelackthereof.org/projects/perl/setdb" to join development (see [[Darcs]])
 * [[Thoughts and issues with web-based DB programming]]
@@ -79,7 +79,7 @@ Here is some proposed stuff I want to work:
 
 ----
 
-=== On Adding Records ===
+### On Adding Records
 It only makes sense to add records one layer away from a given context. That is -- if I have a person who has books, and each book has a list of places where it was published, then it would make sense to add a new book for that person. It would not make sense, however, to add a new place of publication for that person. So... an example schema would be:
 <graph>
 digraph {

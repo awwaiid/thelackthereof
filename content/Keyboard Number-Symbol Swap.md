@@ -11,7 +11,7 @@ The idea here is that we use the symbols at the top of the keyboard a lot more o
 
 Here are the various configurations that you can set to switch the number keys and symbol keys in Linux/X11 -- effectively making it so you don't press shift for the symbols but you DO for the numbers.
 
-== Configuration ==
+## Configuration
 
 The first, .Xmodmap, is what actually switches things. The others are to make other applications be OK with the new setup.
 
@@ -112,7 +112,7 @@ From: ~/.gconf/apps/gnome-terminal/keybinding/%gconf.xml
 </gconf>
 ```
 
-== Results of Usage ==
+## Results of Usage
 
 2011.03.18
 * Entering passwords is tricky

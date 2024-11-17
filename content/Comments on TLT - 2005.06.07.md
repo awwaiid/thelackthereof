@@ -5,7 +5,7 @@ createdAt: 2005-06-23T16:59-04:00
 updatedAt: 2005-06-24T23:27-04:00
 ---
 
-=== 6 Comments. ===
+### 6 Comments.
 The regular employees (not me - I'm a contractor) here at USGS are getting a commercial timecard system. I think their whole system could be made in a couple of days - it looks as if zero usability testing was done and all but the most simple features break. The manager can't figure out how to work with multiple projects. It apparently stores what project she's in in her session. It sounds like a real piece of junk. I would guess that the program was selected only on the basis of features, not design quality.
 
 I suspect that if someone complained that they had to use the program every day, the out-of-towners who bought the program would say something to the effect of "at least you're only using it for a few minutes every day".

@@ -15,10 +15,10 @@ Planned algorithms:
 
 See [[Introduction to Frequent Sequential Pattern Mining]] for some background information on what this is all about, and what it is good for.
 
-== The Paper ==
+## The Paper
 Since this is an assignment, I'm going to be writing a paper. Someday I'll link to it.
 
-== Get The Code ==
+## Get The Code
 As usual, my code is in darcs, grab it with:
 
   # Original, modular version
@@ -29,7 +29,7 @@ As usual, my code is in darcs, grab it with:
 
 or from my github mirror. See [[Contributing]] for general hacking info.
 
-== Use The Code ==
+## Use The Code
 
 I should put together an example usage :)
 

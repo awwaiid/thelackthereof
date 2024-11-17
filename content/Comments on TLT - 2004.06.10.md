@@ -5,7 +5,7 @@ createdAt: 2004-06-10T23:19-04:00
 updatedAt: 2004-06-10T23:19-04:00
 ---
 
-=== 2 Comments. ===
+### 2 Comments.
 Rawr. Mad love, Rosebud. If I need to kick ass, I certainly will. :)
 
 I miss you, friend. If you need anything at all, particularly regarding the destruction of the universe, let me know.

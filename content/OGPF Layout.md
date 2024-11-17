@@ -34,7 +34,7 @@ How much you have to coordinate the workings of the genotype and fitness test de
 * Selection Method - Embodies the workflow of pulling things out of the population, testing, eliminating, manipulating, and putting back.  Uses the other three modules to get this done.
 
 
-== Genotype ==
+## Genotype
 Genotypes define and manipulate individual genomes. Here is the basic signature which a genotype must implement:
 ```
 module type Sig = sig

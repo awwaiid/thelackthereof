@@ -5,7 +5,7 @@ createdAt: 2005-09-11T02:32-04:00
 updatedAt: 2005-09-11T22:03-04:00
 ---
 
-=== 2 Comments. ===
+### 2 Comments.
 The idea similiar to dynamic scope, as I understand it.  Dynamic scope is very unpopular in languages these days but I guess Lisp has it.  I've only read about it, but I understand it's very useful for some applications.
 
 -- evan from lj 2005-09-11 06:32 UTC
