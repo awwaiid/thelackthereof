@@ -1,11 +1,14 @@
 ---
 title: Human Essentials
+image: img/human_essentials_admin.png
 tags: ["project"]
 createdAt: 2024-09-07
 updatedAt: 2024-09-07
 ---
 
 Part of the Ruby For Good organization; inventory control for diaper and period-supply banks.
+
+![human essentials admin](img/human_essentials_admin.png)
 
 See the [Human Essentials Github repo](https://github.com/rubyforgood/human_essentials) for the main project itself. I am but one contributor, though I've been working on this project very steadily since 2022 (with some smaller contributions in 2018-2019).
 

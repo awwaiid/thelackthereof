@@ -1,11 +1,14 @@
 ---
 title: Unison Backup Setup
+image: img/unison_sync_screenshot.png
 tags: []
 createdAt: 2006-03-18
 updatedAt: 2024-04-18
 ---
 
 I use [Unison File Synchronizer](https://github.com/bcpierce00/unison) to keep my important files synchronized between machines. This is a description of how I have it arranged and automated. I have been using this setup since 2006!
+
+![unison sync screenshot](img/unison_sync_screenshot.png)
 
 ## Directory Setup
 

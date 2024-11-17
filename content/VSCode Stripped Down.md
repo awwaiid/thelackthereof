@@ -1,11 +1,14 @@
 ---
 title: VSCode Stripped Down
+image: img/vscode_tiny_screenshot.png
 tags: []
 createdAt: 2024-09-22
 updatedAt: 2024-09-24
 ---
 
 VSCode is quite cool and I'd like to be good with it, but my fingers and brain refuse to adapt without some explicit work. Here are some of the things I'm doing to make it a bit more comfortable for me, a long-time vim user.
+
+![vscode tiny screenshot](img/vscode_tiny_screenshot.png)
 
 ## VSCode
 
