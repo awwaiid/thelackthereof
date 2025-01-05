@@ -13,7 +13,7 @@ module.exports = {
     //   // brown: "#644934",
     // }),
     fontFamily: {
-      serif: ["Nunito"]
+      serif: ["Atkinson Hyperlegible", "Nunito"]
     },
     extend: {
       typography: {

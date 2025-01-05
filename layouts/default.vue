@@ -64,7 +64,7 @@ body {
     background-color: #afa299;
      background-size: cover; */
 
-  font-family: Nunito, sans-serif;
+  font-family: "Atkinson Hyperlegible", Nunito, sans-serif;
 }
 
 .logo-link-wrapper {
@@ -225,6 +225,14 @@ audio {
 
 h1, h2, h3, h4 {
   font-variant: small-caps;
+}
+
+.prose img {
+  border: 1px solid #ccc;
+}
+
+.prose {
+  line-height: 1.5em;
 }
 
 </style>

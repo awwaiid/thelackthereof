@@ -47,7 +47,8 @@ export default defineNuxtConfig({
 
   googleFonts: {
     families: {
-      "Nunito": true
+      "Nunito": true,
+      "Atkinson Hyperlegible": true,
     }
   },
 
