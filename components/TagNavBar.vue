@@ -15,12 +15,12 @@
   const route = useRoute();
 
   // This is a horrible way to do this haha
-  const isAll = computed(() => ({ 'text-white bg-black': route.path === '/' }));
-  const isBlog = computed(() => ({ 'text-white bg-black': route.path === '/tag/blog' }));
-  const isMusic = computed(() => ({ 'text-white bg-black': route.path === '/tag/music' }));
-  const isCode = computed(() => ({ 'text-white bg-black': route.path === '/tag/code' }));
-  const isProject = computed(() => ({ 'text-white bg-black': route.path === '/tag/project' }));
-  const isRecurseCenter = computed(() => ({ 'text-white bg-black': route.path === '/tag/recurse-center' }));
-  const isRubyforgood = computed(() => ({ 'text-white bg-black': route.path === '/tag/rubyforgood' }));
-  const isShare = computed(() => ({ 'text-white bg-black': route.path === '/tag/share' }));
+  const isAll = computed(() => ({ 'text-white bg-black': route.path === '/', 'bg-white': route.path !== '/' }));
+  const isBlog = computed(() => ({ 'text-white bg-black': route.path === '/tag/blog', 'bg-white': route.path !== '/tag/blog' }));
+  const isMusic = computed(() => ({ 'text-white bg-black': route.path === '/tag/music', 'bg-white': route.path !== '/tag/music' }));
+  const isCode = computed(() => ({ 'text-white bg-black': route.path === '/tag/code', 'bg-white': route.path !== '/tag/code' }));
+  const isProject = computed(() => ({ 'text-white bg-black': route.path === '/tag/project', 'bg-white': route.path !== '/tag/project' }));
+  const isRecurseCenter = computed(() => ({ 'text-white bg-black': route.path === '/tag/recurse-center', 'bg-white': route.path !== '/tag/recurse-center' }));
+  const isRubyforgood = computed(() => ({ 'text-white bg-black': route.path === '/tag/rubyforgood', 'bg-white': route.path !== '/tag/rubyforgood' }));
+  const isShare = computed(() => ({ 'text-white bg-black': route.path === '/tag/share', 'bg-white': route.path !== '/tag/share' }));
 </script>

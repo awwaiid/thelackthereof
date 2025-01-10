@@ -1,6 +1,8 @@
 <template>
   <div>
-    <TagNavBar />
+    <div class="flex flex-row justify-between flex-wrap mx-4 sm:mx-0">
+      <TagNavBar />
+    </div>
     <PageTileList :pages="pages.slice(0, pageCount)" />
     <button class="m-2 p-2 rounded-lg shadow border border-gray-300" @click="morePages">
       Load More

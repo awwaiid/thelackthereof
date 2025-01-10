@@ -33,7 +33,7 @@
 
     <NuxtLoadingIndicator />
 
-    <div class="m-4">
+    <div class="m-0 sm:m-4">
       <slot />
     </div>
   </div>
@@ -65,6 +65,7 @@ body {
      background-size: cover; */
 
   font-family: "Atkinson Hyperlegible", Nunito, sans-serif;
+  background-color: #f4f3f0;
 }
 
 .logo-link-wrapper {

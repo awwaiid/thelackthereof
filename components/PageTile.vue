@@ -1,4 +1,5 @@
 <template>
+  <div class="bg-white">
     <div class="flex flex-row border-b-2">
       <div class="flex justify-between w-full">
         <NuxtLink :to="page._path">
@@ -30,6 +31,7 @@
       <div class="basis-2/3 grow mb-4"><ContentSlot>{{ page.description }}</ContentSlot></div>
     </div>
   </NuxtLink>
+  </div>
 </template>
 
 <script>

@@ -1,13 +1,12 @@
 <template>
   <div v-if="page" class="flex justify-center">
-    <div class="prose prose-slate">
+    <div class="prose prose-slate rounded-lg p-8 shadow border-y sm:border-x border-gray-600 bg-white">
       <!-- eslint-disable-next-line vue/no-v-html -->
       <h1 class="text-2xl" style="font-variant: small-caps" v-html="cleanTitle(page.title)"></h1>
       <div class="text-xs mb-4">
         Created {{ shortDate(page.createdAt) }}
         / Edited {{ shortDate(page.updatedAt) }}
       </div>
-      <!-- <nuxt-content class="prose prose-lg" :document="page" /> -->
       <ContentRenderer :value="page">
         <template #empty>
           <p>No content!</p>

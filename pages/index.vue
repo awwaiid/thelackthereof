@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex flex-row justify-between flex-wrap">
+    <div class="flex flex-row justify-between flex-wrap mx-4 sm:mx-0">
       <TagNavBar />
       <div>Search: <input v-model="search" size=10 class="border border-black"></div>
     </div>
