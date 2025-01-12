@@ -228,12 +228,17 @@ h1, h2, h3, h4 {
   font-variant: small-caps;
 }
 
-.prose img {
-  border: 1px solid #ccc;
-}
+/* .prose img { */
+/*   border: 1px solid #ccc; */
+/* } */
 
 .prose {
   line-height: 1.5em;
+}
+
+img[src*="plantuml.com/plantuml/svg"] {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 </style>
