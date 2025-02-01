@@ -65,6 +65,39 @@ Now we *want* the sidebar for a bunch of things, like messing with the file-tree
 
 And now my fingers can hit `ctrl+k ctrl+k` as often as they like to focus on the editor alone.
 
+## Sidebar Terminals and Navigation
+
+I've had the same general "IDE" layout for years -- the left full-height side of my screen for editing, the right side divvied into a stack of terminals. Here is a screenshot from 2003!
+
+![Screensot from 2003](img/Screenshot_on_2003.10.17.jpg)
+
+What I like about this is that I often bounce back and forth, running some cli tool or interactive build thing on the right, editing on the left. Maybe one of my terminals is running the service, the other for doing some interactive debugging. There are a lot of advantages to using the terminal that is embedded in vscode, so I'd like this to work there.
+
+Moving the terminals to the side is easy, you can click some button to do that. Great! But now ... getting in and out of them is annoying. In my window manager I generally have two ways to move between windows -- move the mouse or hit a keybinding. Hover-focus in vscode is not going to happen, but the keybinding will do. My window manager uses `Super+H` and `Super+R` (Super is aka the Windows key) to move focus left and right, but I don't want to use `Super` inside of vscode (I still give it to the window manager). After some looking at what things would collide with, I'm going with `Ctrl+RightArrow` to move from the editor to terminal, `Ctrl+LeftArrow` to move back, and then `Ctrl+DownArrow` and `Ctrl+UpArrow` to move between stacked terminals.
+
+```
+{
+  "key": "ctrl+right",
+    "command": "workbench.action.terminal.focus",
+    "when": "editorFocus"
+},
+{
+  "key": "ctrl+left",
+  "command": "workbench.action.focusActiveEditorGroup",
+  "when": "terminalFocus"
+},
+{
+  "key": "ctrl+down",
+  "command": "workbench.action.terminal.focusNextPane",
+  "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+},
+{
+  "key": "ctrl+up",
+  "command": "workbench.action.terminal.focusPreviousPane",
+  "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+},
+```
+
 ## I Can See Clearly Now
 
 One of the dumbest things .... the background is solid black. I have this silly wallpaper that I can see through all of my terminal windows, and I'm used to it being there. I looked into transparency for the background, and possibly because I live in Linux-land (Wayland/Sway) ... no workey. I tried a few different plugins and CSS overrides and so on.
@@ -106,5 +139,5 @@ alias vim="code -nw"
 ## Things that I wish were different
 
 * Opening a new window instead of inline-terminal-editing is jarring, but I'm getting used to it
-* When I do have multiple panes open I would love to pretend these are more or less windows like my in window manager. BUT ... [there is no focus-follows-mouse](https://github.com/microsoft/vscode/issues/93772)!
-* This transparent background not being quite right is still bothering me
+* When I do have multiple panes open I would love to pretend these are more or less windows like my in window manager. BUT ... [there is no focus-follows-mouse](https://github.com/microsoft/vscode/issues/93772)! I added some keybindings that help though.
+* I'm still not convinced on the transparent background
