@@ -8,12 +8,12 @@ updatedAt: 2017-07-31T10:29-04:00
 Let's have some fun with tracing code!
 
 Here is a nice way to get Elasticsearch+Kibana up and running:
-```
+```sh
 docker run -d -p 9200:9200 -p 5601:5601 nshou/elasticsearch-kibana
 ```
 
 We're going to record our traces as a time-series. We unfortunately have to do a small config first, to ES know that our timestamp is ... a timestamp:
-```
+```sh
 curl -v -XPUT 'http://elastic:changeme@localhost:9200/trace' -d '
 {
   "mappings": {
@@ -29,7 +29,7 @@ curl -v -XPUT 'http://elastic:changeme@localhost:9200/trace' -d '
 ```
 
 Now we need to write down interesting things during our program execution. In my case, I'm working with a Rails project using RSpec. So I put this code near the top of spec/spec_helper.rb. Once executed, this code will start writing out to 'trace.log' lots and lots of tracing data:
-```
+```ruby
 git_sha = `git rev-parse HEAD`.chomp
 trace_seq = 0
 trace_log = File.new('trace.log', 'w')
@@ -59,7 +59,7 @@ trace.enable
 ```
 
 I have some stuff in there that is specific to RSpec. Later in the same file I put this config to track the current test being executed:
-```
+```ruby
 config.before :each do
   $rspec_example = example
 end
@@ -69,7 +69,7 @@ end
 ```
 
 Then I run my tests, which outputs trace.log. With this tracing turned on, it went at about half the normal speed. Mine is 123M (after disabling some logging). Now we load it into our ES. I do this in batches of 10k, and then POST it into ES:
-```
+```sh
 cat trace.log \
   | jq -c '. | {"index": {"_index": "trace", "_type": "trace"}}, .' \
   | split -l 10000 - load-
@@ -90,7 +90,7 @@ Load up http://localhost:5601/
 * Click into discover, and now you can slice and dice some stuff!
 
 Given a file, annotate the lines with a list of the tests that touch that line:
-```
+```sh
 FILEPATH=$1
 
 curl -s -XGET "localhost:9200/trace/_search?q=%2Bpath:$FILEPATH%20%2Bline:%5B1%20TO%20100000%5D&sort=timestamp:desc&size=10000&pretty" \
@@ -99,7 +99,7 @@ curl -s -XGET "localhost:9200/trace/_search?q=%2Bpath:$FILEPATH%20%2Bline:%5B1%2
 ```
 
 Given a file and a line, list all of the tests that cover that line:
-```
+```sh
 #!/bin/sh
 
 FILEPATH=$1

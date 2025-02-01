@@ -53,8 +53,8 @@ First, besides doing some declaration stuff, lets look at the Main package. Here
 
 Once we have our Continuity object set up, and have named it $c, we tell it to GO! And that it does.
 
-```graphviz
-digraph {
+```plantuml
+digraph G {
 
   addTwo -> "First getNum";
   "First getNum" -> "wait for input 1";
@@ -71,8 +71,8 @@ digraph {
 }
 ```
 
-```graphviz
-digraph {
+```plantuml
+digraph G {
   graph [size="8,8"];
   "Start, recieve user input" -> "Check State";
   "Check State" -> "First";
