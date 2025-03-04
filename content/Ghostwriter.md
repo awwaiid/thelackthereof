@@ -1,7 +1,7 @@
 ---
 title: Ghostwriter
 image: https://github.com/awwaiid/ghostwriter/raw/main/docs/simple-chihuahua.jpg
-tags: [project]
+tags: ["project"]
 createdAt: 2024-11-17
 updatedAt: 2024-11-17
 ---

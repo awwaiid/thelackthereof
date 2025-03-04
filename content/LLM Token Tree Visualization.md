@@ -1,7 +1,7 @@
 ---
 title: LLM Token Tree Visualization
 image: img/Token_Tree_-_Simple_With_Counts.png
-tags: [project]
+tags: ["project"]
 createdAt: 2024-09-08
 updatedAt: 2024-09-14
 ---
