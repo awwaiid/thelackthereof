@@ -13,36 +13,34 @@ Here are a bunch of songs! Some of these are more proof-of-concept than anything
 
 | Song                            | Play!                                                        |
 | --------------------------      | -----------------------------------------------              |
-| [[Wanda Vision Jam]]            | audio:docs/music/wandavision_jam                             |
-| [[My Little Dog]]               | audio:docs/music/rpm2023/My_Little_Dog_r3_20230211_2112      |
-| [[Livingroom Adventures]]       | audio:docs/music/livingroom_adventures                       |
-| [[Gitmo]]                       | audio:docs/music/gitmo_v1                                    |
-| [[Dont Repeat Yourself]]        | audio:docs/music/dont_repeat_yourself                        |
-| [[Segfault]]                    | audio:docs/music/Segfault_v1_2016-02-14                      |
+| [[Got One Shoe]]                | audio:docs/music/oneshoe                                     |
 | [[Frog Prince]]                 | audio:docs/music/frog_prince_v5                              |
-| [[It Takes All Sorts]]          |                                                              |
+| [[Umbrellas]]                   | audio:docs/music/umbrellas                                   |
+| [[I Like Caffeine]]             | audio:docs/music/i_like_caffeine                             |
+| [[Segfault]]                    | audio:docs/music/Segfault_v1_2016-02-14                      |
 | [[Knit Some Shit]]              | audio:docs/music/knit-some-shit-1                            |
+| Late Blues                      | audio:docs/music/lateblues                                   |
+| [[Immaterial Things]]           | audio:docs/music/album1/03_-_Immaterial_Things               |
+| [[CDOLTM]]                      | audio:docs/music/album1/08_-_CDOLTM                          |
+| [[Code On My Mind]]             | audio:docs/music/code_on_my_mind                             |
+| [[Dont Repeat Yourself]]        | audio:docs/music/dont_repeat_yourself                        |
+| [[My Little Dog]]               | audio:docs/music/rpm2023/My_Little_Dog_r3_20230211_2112      |
 | [[Immortal Crowd]]              | audio:docs/music/immortal_crowd                              |
 | [[Call On Borbyu]]              | audio:docs/music/call_on_borbyu                              |
 | [[Pi Girl]]                     | audio:docs/music/pigirl7                                     |
-| [[Umbrellas]]                   | audio:docs/music/umbrellas                                   |
-| [[Got One Shoe]]                | audio:docs/music/oneshoe                                     |
+| [[Gitmo]]                       | audio:docs/music/gitmo_v1                                    |
 | Hotel Yorba (cover)             | audio:docs/music/yorba                                       |
-| I Knew A Girl                   | audio:docs/music/i_knew_a_girl                               |
-| Big Brown Spider                | audio:docs/music/big_brown_spider_test                       |
-| Late Blues                      | audio:docs/music/lateblues                                   |
-| [[Code On My Mind]]             | audio:docs/music/code_on_my_mind                             |
-| [[I Like Caffeine]]             | audio:docs/music/i_like_caffeine                             |
 | [[Zombie Love]]                 | audio:docs/music/zombielove                                  |
-| [[Yo Oliver]]                   | audio:docs/music/yo_oliver_v1                                |
-| [[White Roses]]                 | audio:docs/music/electric_accordion_white_roses              |
-| [[Talking DC Vote Blues]]       |                                                              |
-| [[Immaterial Things]]           | audio:docs/music/album1/03_-_Immaterial_Things               |
-| SIC                             | audio:docs/music/album1/04_-_SIC                             |
+| Big Brown Spider                | audio:docs/music/big_brown_spider_test                       |
+| I Knew A Girl                   | audio:docs/music/i_knew_a_girl                               |
 | Happiness Blues                 | audio:docs/music/album1/05_-_Happiness_Blues                 |
-| Zombie Love                     | audio:docs/music/album1/06_-_Zombie_Love                     |
-| [[CDOLTM]]                      | audio:docs/music/album1/08_-_CDOLTM                          |
 | Groovin                         | audio:docs/music/album1/09_-_Groovin                         |
 | Shaseys                         | audio:docs/music/album1/10_-_Shaseys                         |
 | Marie Laveau (Bobby Bare cover) | audio:docs/music/album1/11_-_Marie_Laveau_(Bobby_Bare_cover) |
-
+| SIC                             | audio:docs/music/album1/04_-_SIC                             |
+| [[Livingroom Adventures]]       | audio:docs/music/livingroom_adventures                       |
+| [[Wanda Vision Jam]]            | audio:docs/music/wandavision_jam                             |
+| [[Yo Oliver]]                   | audio:docs/music/yo_oliver_v1                                |
+| [[White Roses]]                 | audio:docs/music/electric_accordion_white_roses              |
+| [[It Takes All Sorts]]          |                                                              |
+| [[Talking DC Vote Blues]]       |                                                              |
