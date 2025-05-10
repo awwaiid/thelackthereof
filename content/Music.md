@@ -5,11 +5,11 @@ createdAt: 2010-11-27T14:22-05:00
 updatedAt: 2023-03-25
 ---
 
-Here you can play all the music I've written or been involved with in one lovely place. Also check out my [[Music Gear and Setup]]!
+START HERE! This page is an overview; much of the music I've written or been involved with in one lovely place. Also check out my [[Music Gear and Setup]]!
 
 These works are licensed under a [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons Attribution-ShareAlike (CC BY-SA)]] License (or maybe CC BY-NC... feel free to ask).
 
-Here are a bunch of songs! Some of these are more proof-of-concept than anything :) . These include both solo efforts and collaborations, follow the links to learn more and maybe get some lyrics.
+Here are a bunch of songs! Some of these are more proof-of-concept than anything :) . These include both solo efforts and collaborations, follow the links to learn more and maybe get some lyrics, variations, and background.
 
 | Song                            | Play!                                                        |
 | --------------------------      | -----------------------------------------------              |
