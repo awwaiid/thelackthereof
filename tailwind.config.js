@@ -28,6 +28,8 @@ module.exports = {
             'blockquote p:first-of-type::after': false,
             '--tw-prose-bullets': '#000000',
             '--tw-prose-slate-bullets': '#000000',
+            '--tw-prose-hr': '#000000',
+            '--tw-prose-slate-hr': '#000000',
             'strong a': { fontWeight: 600 },
           },
         },
