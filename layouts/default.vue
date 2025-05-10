@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="sm:bg-stone-100">
     <div class="header text-white">
       <div class="flex items-center header-content">
 
@@ -58,6 +58,16 @@ export default {
 </script>
 
 <style>
+
+html {
+  font-size: 20px;
+}
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 18px;
+  }
+}
 body {
     /* height: 100vh;
     display: flex;
@@ -65,7 +75,8 @@ body {
      background-size: cover; */
 
   font-family: "Atkinson Hyperlegible", Nunito, sans-serif;
-  background-color: #f4f3f0;
+  /* background-color: #f4f3f0; */
+  background-color: #fff;
 }
 
 .logo-link-wrapper {
@@ -239,6 +250,11 @@ h1, h2, h3, h4 {
 img[src*="plantuml.com/plantuml/svg"] {
   margin-left: auto;
   margin-right: auto;
+}
+
+hr {
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
 }
 
 </style>

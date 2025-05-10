@@ -1,6 +1,6 @@
 <template>
   <div v-if="page" class="flex justify-center">
-    <div class="prose prose-slate rounded-lg p-8 shadow border-y sm:border-x border-gray-600 bg-white">
+    <div class="prose prose-slate sm:rounded-lg p-2 sm:p-8 sm:shadow sm:border-y sm:border-x sm:border-gray-600 bg-white">
       <!-- eslint-disable-next-line vue/no-v-html -->
       <h1 class="text-2xl" style="font-variant: small-caps" v-html="cleanTitle(page.title)"></h1>
       <div class="text-xs mb-4">
