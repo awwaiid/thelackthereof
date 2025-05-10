@@ -1,12 +1,5 @@
 export default defineNuxtConfig({
-  modules: [
-    'nuxt-content-assets',
-    '@nuxt/content',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts',
-    'nuxt-delay-hydration',
-    "@nuxt/image"
-  ],
+  modules: ['nuxt-content-assets', '@nuxt/content', '@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', 'nuxt-delay-hydration', "@nuxt/image", 'nuxt-gtag'],
 
   nitro: {
     // plugins: ['~/server/plugins/content.ts'],
@@ -14,6 +7,10 @@ export default defineNuxtConfig({
       routes: ['/', '/rss.xml', '/shares.rss.xml'],
       failOnError: true,
     }
+  },
+
+  gtag: {
+    id: 'G-7FLNGJSFBK'
   },
 
   // vue: {
