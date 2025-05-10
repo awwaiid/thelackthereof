@@ -14,16 +14,20 @@
 <script setup lang="ts">
   const pageCount = ref(100);
 
-  const searchInput = ref('');
   const search  = ref('');
-  let results = await searchContent(search);
-  const resultPaths = computed(() => results.value.map((page) => page.id.replace(/\#.*$/, '')));
 
-  const { data: pages } = await useAsyncData("posts-list", () => {
+  const { data: pages } = await useAsyncData("posts-list", async () => {
+
     let query = queryContent("/");
 
-    if (resultPaths.value.length > 0) {
-      query = query.where({ "_path": { $in: resultPaths.value.slice(0, 20) }});
+    if (search.value) {
+      console.log(`Searching for [${search.value}]`);
+      let results = await searchContent(search);
+      let resultPaths = results.value.map((page) => page.id.replace(/\#.*$/, ''));
+
+      if (resultPaths.length > 0) {
+        query = query.where({ "_path": { $in: resultPaths.slice(0, 20) }});
+      }
     }
 
     return query
@@ -32,7 +36,7 @@
       .sort({ updatedAt: -1})
       .limit(pageCount)
       .find();
-  }, { watch: [pageCount, resultPaths] });
+  }, { watch: [search, pageCount] });
 
   function morePages() {
     pageCount.value += 100;
