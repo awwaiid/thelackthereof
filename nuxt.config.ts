@@ -80,7 +80,10 @@ export default defineNuxtConfig({
   },
 
   image: {
-    dir: 'content'
+    dir: 'content',
+    ipx: {
+      maxAge: 86400 // 24h
+    }
   },
 
   compatibilityDate: '2024-07-06'
