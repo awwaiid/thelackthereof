@@ -7,7 +7,7 @@
     "preview": "nuxt preview",
     "deploy-static": "nuxt generate && unison -batch -ui text pegasus",
     "deploy-dynamic": "unison -batch -retry 3 -ui text pegasus && ssh pegasus 'cd tlt && docker compose up -d --build web-nuxt'",
-    "server-start": "npm install && npm run build && npm run preview"
+    "server-start": "npm run dev"
   },
   "devDependencies": {
     "@nuxt/content": "^2.13.1",
@@ -29,6 +29,7 @@
     "@akebifiky/remark-simple-plantuml": "^1.0.2",
     "@d0rich/nuxt-content-mermaid": "^0.3.0",
     "feed": "^4.2.2",
+    "gray-matter": "^4.0.3",
     "hast-util-to-html": "^8.0.4",
     "log-timestamp": "^0.3.0",
     "nuxt-content-assets": "^1.3.3",

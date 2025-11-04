@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     }
   },
 
+  routeRules: {
+    '/admin/**': { prerender: false }
+  },
+
   gtag: {
     id: 'G-7FLNGJSFBK'
   },

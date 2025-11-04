@@ -6,3 +6,6 @@ node_modules
 .output
 .env
 dist
+content/_admin-preview.md
+content/_preview-*.md
+/.playwright-mcp
