@@ -4,7 +4,7 @@
       <TagNavBar />
       <div>Search: <input v-model="search" size=10 class="border border-black"></div>
     </div>
-    <PageTileList :pages="pages.slice(0, pageCount)" />
+    <PageTileList :pages="pages?.slice(0, pageCount) || []" />
     <button class="m-2 p-2 rounded-lg shadow border border-gray-300" @click="morePages">
       Load More
     </button>
@@ -13,29 +13,45 @@
 
 <script setup lang="ts">
   const pageCount = ref(100);
+  const search = ref('');
 
-  const search  = ref('');
+  // Fetch search sections for Fuse.js
+  const { data: searchSections } = await useAsyncData('search-sections', () =>
+    queryCollectionSearchSections('content', {
+      ignoredTags: ['code', 'pre']
+    })
+  );
 
   const { data: pages } = await useAsyncData("posts-list", async () => {
+    let queryBuilder = queryCollection('content');
 
-    let query = queryContent("/");
-
-    if (search.value) {
+    if (search.value && searchSections.value) {
       console.log(`Searching for [${search.value}]`);
-      let results = await searchContent(search);
-      let resultPaths = results.value.map((page) => page.id.replace(/\#.*$/, ''));
+
+      // Import and configure Fuse.js
+      const Fuse = await import('fuse.js').then(m => m.default);
+      const fuse = new Fuse(searchSections.value, {
+        keys: ['content', 'title'],
+        threshold: 0.3
+      });
+
+      const results = fuse.search(search.value);
+      const resultPaths = results
+        .map(result => result.item.id.replace(/#.*$/, ''))
+        .filter((path, index, self) => self.indexOf(path) === index)
+        .slice(0, 20);
 
       if (resultPaths.length > 0) {
-        query = query.where({ "_path": { $in: resultPaths.slice(0, 20) }});
+        queryBuilder = queryBuilder.where('path', 'IN', resultPaths);
       }
     }
 
-    return query
-      .where({ draft: { $ne: true }})
-      .sort({ createdAt: -1})
-      .sort({ updatedAt: -1})
-      .limit(pageCount)
-      .find();
+    return queryBuilder
+      .where('draft', 'IS NOT', 1)
+      .order('createdAt', 'DESC')
+      .order('updatedAt', 'DESC')
+      .limit(pageCount.value)
+      .all();
   }, { watch: [search, pageCount] });
 
   function morePages() {

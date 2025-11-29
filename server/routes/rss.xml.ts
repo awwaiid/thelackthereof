@@ -1,6 +1,4 @@
-import { toHtml } from 'hast-util-to-html';
 import { Feed } from 'feed';
-import { serverQueryContent } from '#content/server';
 
 export default defineEventHandler(async (event) => {
   const query = getQuery(event);

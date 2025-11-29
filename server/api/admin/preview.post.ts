@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { serverQueryContent } from '#content/server';
 
 export default defineEventHandler(async (event) => {
   const body = await readBody(event);
@@ -46,13 +45,13 @@ export default defineEventHandler(async (event) => {
         await new Promise(resolve => setTimeout(resolve, 50));
       }
 
-      doc = await serverQueryContent(event, '_admin-preview').findOne();
+      doc = await queryCollection(event, 'content').path('/_admin-preview').first();
 
       if (doc) {
-        console.log('[Preview] serverQueryContent returned doc with title:', doc.title);
+        console.log('[Preview] queryCollection returned doc with title:', doc.title);
         break;
       } else {
-        console.log(`[Preview] Attempt ${attempt + 1}: serverQueryContent returned null/undefined`);
+        console.log(`[Preview] Attempt ${attempt + 1}: queryCollection returned null/undefined`);
       }
     }
 
@@ -64,7 +63,7 @@ export default defineEventHandler(async (event) => {
     if (!doc) {
       console.error('[Preview] ERROR: All retry attempts failed!');
       console.error('[Preview] Content dir:', contentDir);
-      console.error('[Preview] File was written but serverQueryContent could not find it');
+      console.error('[Preview] File was written but queryCollection could not find it');
     }
 
     return {

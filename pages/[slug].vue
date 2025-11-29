@@ -39,14 +39,14 @@
   const route = useRoute();
 
   let { data: page, pending } = await useAsyncData(route.path, () =>
-    queryContent(route.path).findOne()
+    queryCollection('content').path(route.path).first()
   );
 
   // Fallback for legacy routes
   if (!page.value && !pending.value) {
     const path = route.path.replace(/_/g, "-");
     let response = await useAsyncData(path, () =>
-      queryContent(path).findOne()
+      queryCollection('content').path(path).first()
     );
     page = response.data;
     pending = response.pending;

@@ -2,7 +2,7 @@
   <div class="bg-white">
     <div class="flex flex-row border-b-2">
       <div class="flex justify-between w-full">
-        <NuxtLink :to="page._path">
+        <NuxtLink :to="page.path">
           <div class="flex flex-col">
             <div class="font-bold" style="font-variant: small-caps" v-html="cleanTitle(page.title)"></div>
             <div class="text-xs">
@@ -23,12 +23,12 @@
       </div>
     </div>
 
-  <NuxtLink :to="page._path">
+  <NuxtLink :to="page.path">
     <div class="m-2 flex flex-col">
       <div v-if="page.image" class="basis-1/3 pb-2 flex justify-center">
-        <img class="w-max max-h-40" :src="page.image">
+        <img class="w-max max-h-40" :src="imageUrl(page.image)">
       </div>
-      <div class="basis-2/3 grow mb-4"><ContentSlot>{{ page.description }}</ContentSlot></div>
+      <div class="basis-2/3 grow mb-4">{{ page.description }}</div>
     </div>
   </NuxtLink>
   </div>
@@ -52,6 +52,15 @@ export default {
         return "";
       }
       return timestamp.replace(/(\d+-\d+-\d+).*/, "$1");
+    },
+    imageUrl(imagePath) {
+      // If it's already an absolute URL, return as-is
+      if (imagePath?.match(/^https?:\/\//)) {
+        return imagePath;
+      }
+      // Use IPX image handler (same as ContentRenderer does)
+      // The /_ipx/_/ prefix tells Nuxt Image to process the image from the content dir
+      return imagePath ? `/_ipx/_/${imagePath}` : '';
     }
   }
 };

@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ['nuxt-content-assets', '@nuxt/content', '@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', 'nuxt-delay-hydration', "@nuxt/image", 'nuxt-gtag'],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', 'nuxt-delay-hydration', "@nuxt/image", 'nuxt-gtag'],
 
   nitro: {
     // plugins: ['~/server/plugins/content.ts'],
@@ -54,27 +54,24 @@ export default defineNuxtConfig({
   },
 
   content: {
-    highlight: {
-      theme: 'github-light',
-      theme: {
-        default: 'github-light',
-        dark: 'github-dark',
-        sepia: 'monokai'
-      },
-      preload: ['diff', 'json', 'js', 'ts', 'css', 'shell', 'html', 'md', 'yaml', 'vue', 'python', 'ruby', 'perl', 'cpp', 'clojure']
-    },
-    markdown: {
-      remarkPlugins: {
-        "@akebifiky/remark-simple-plantuml": {
-          baseUrl: "https://www.plantuml.com/plantuml/svg"
+    build: {
+      markdown: {
+        highlight: {
+          theme: {
+            default: 'github-light',
+            dark: 'github-dark',
+            sepia: 'monokai'
+          },
+          preload: ['diff', 'json', 'js', 'ts', 'css', 'shell', 'html', 'md', 'yaml', 'vue', 'python', 'ruby', 'perl', 'cpp', 'clojure']
         },
-        "remark-breaks": true
+        remarkPlugins: {
+          "@akebifiky/remark-simple-plantuml": {
+            baseUrl: "https://www.plantuml.com/plantuml/svg"
+          },
+          "remark-breaks": true
+        }
       }
-    },
-    experimental: {
-      search: true
     }
-
   },
 
   delayHydration: {
