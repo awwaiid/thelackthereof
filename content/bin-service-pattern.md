@@ -1,3 +1,8 @@
+---
+createdAt: 2025-10-0
+updatedAt: '2025-09-30'
+title: 'A DX/DevOps Pattern: bin/service'
+---
 # A DX/DevOps Pattern: bin/service
 
 One pattern I like a lot is a `bin/service` wrapper. In each of your services (I like to call them [[Macro Service]] instead of [[Microservice]]).

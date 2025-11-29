@@ -1,9 +1,11 @@
 ---
 title: Projects
-image: https://www.plantuml.com/plantuml/svg/ROqn3i8m40JxUyKgFKym4gAYInzHd3adje0xomuIKfI_KuM0v7fsPYLDXNF4X8K0DGaOQkGSdBVtbO2B1CRXYAulPYDinDdq5lBSOP1KdBSv_kxwbt-a6jlmv5d5z1ysodk7y2tkFW4B2klTLNw6Lc1pjiELrWy0
-tags: ["project"]
-createdAt: 2005-01-04T11:35-05:00
-updatedAt: 2024-11-17
+image: >-
+  https://www.plantuml.com/plantuml/svg/ROqn3i8m40JxUyKgFKym4gAYInzHd3adje0xomuIKfI_KuM0v7fsPYLDXNF4X8K0DGaOQkGSdBVtbO2B1CRXYAulPYDinDdq5lBSOP1KdBSv_kxwbt-a6jlmv5d5z1ysodk7y2tkFW4B2klTLNw6Lc1pjiELrWy0
+tags:
+  - project
+createdAt: '2005-01-04T11:35-05:00'
+updatedAt: '2025-11-28'
 ---
 
 I present here a very incomplete list of programming-related projects, and the tools and languages I might use to create them.
@@ -26,12 +28,17 @@ Also see [the awwaiid github repo](https://github.com/awwaiid) for more projects
 If you were to ask me what I'm working on right now, I might say one of these.
 * [[Ghostwriter]] - Use the reMarkable2 as an interface to vision-LLMs. Ghost in the machine!
 * [[Human Essentials]] - Part of the Ruby For Good organization; inventory control for diaper and period-supply banks
-* [[LLM Token Tree Visualization]] - Visualize LLM token selection
+* [[REPL Looper]] - Making music with a code console
+* [[Fairy Lights]] - Programming decorative LED lights in my living room and Christmas tree
+* [[Chompie]] - Chomp a codebase down to the bone
+* [[METL]] - Research around extracting and using Formal Models from an existing codebase
+* [[Meta TLT]] - Messing around with this website or tooling
 
 ## Backburner
 If you had asked me what I was working on last week, or if you ask me next week, I might mention one of these.
 * [[Mizik]] - A game of memory, sound, shape
-* [[REPL Looper]] - Making music with a code console
+* [[Gremllm]] - Put a monster into your codebase
+* [[Task Seeder]] - Interactively rank your tasks using different tournament and sorting algorithms
 
 ## Inactive
 I probably won't be doing much with these. This ''could'' mean that they are in a fairly completed state. It could also mean that they are abandoned. But feel free to ask me about them anyway!
@@ -39,7 +46,6 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 * [[CGI Inspect]] - Inspect running CGI apps
 * [[Caravan]] - OCaml implementation of the sequential data mining algorithms
 * [[Census Data Extraction]] - Small project to help a researcher correlate some data
-* [[Chompie]] - Chop a program to pieces
 * [[Continuity]] - Continuation-based web-application framework for Perl
 * [[Contize]] - Provide a perl object with a way to fake continuations (complete and abandonded)
 * [[Covid Can I Do It]] - An interactive harm-reduction dataset built during the COVID pandemic
@@ -50,6 +56,7 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 * [[Gecko-based html2ps]] - Render html -> postscript using the gecko
 * [[Graph Module]] - OddMuse plugin to make GraphViz graphs (complete)
 * [[JQuery Autoindent]] - I've always wanted a textbox that auto-indents
+* [[LLM Token Tree Visualization]] - Visualize LLM token selection
 * [[MHTML]] - An HTML (XML?) Macro language (complete? old)
 * [[MobileFS]] - Fuse filesystem to cache files for mobile reading
 * [[Module Level Polyglot]] - Advocacy and projects, sharing libs between langs
