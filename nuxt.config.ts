@@ -92,6 +92,7 @@ export default defineNuxtConfig({
   vite: {
     server: {
       allowedHosts: true,
+      hmr: false,  // Disable hot module replacement
     },
   },
 
