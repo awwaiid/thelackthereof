@@ -9,13 +9,24 @@
         <span class="truncate max-w-[200px]">{{ frontmatter.title || 'Untitled' }}</span>
         <span v-if="lastSaved" class="text-gray-400">{{ lastSaved }}</span>
       </div>
-      <button
-        @click="save"
-        :disabled="saving"
-        class="px-2 py-1 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50"
-      >
-        {{ saving ? '...' : 'Save' }}
-      </button>
+      <div class="flex gap-2">
+        <button
+          @click="saveAndVisit"
+          :disabled="saving"
+          class="px-2 py-1 text-sm bg-green-600 text-white rounded hover:bg-green-700 disabled:opacity-50"
+          title="Save and navigate to page"
+        >
+          {{ saving ? '...' : 'Save & Visit' }}
+        </button>
+        <button
+          @click="save"
+          :disabled="saving"
+          class="px-2 py-1 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50"
+          title="Save without leaving editor"
+        >
+          {{ saving ? '...' : 'Save' }}
+        </button>
+      </div>
     </div>
 
     <!-- Mobile Tab Switcher -->
@@ -318,6 +329,43 @@ async function save() {
 
     lastSaved.value = new Date().toLocaleTimeString();
     emit('saved', response);
+  } catch (error: any) {
+    alert('Error saving file: ' + (error.data?.message || error.message));
+  } finally {
+    saving.value = false;
+  }
+}
+
+async function saveAndVisit() {
+  saving.value = true;
+  try {
+    const response = await $fetch('/api/admin/file', {
+      method: 'POST',
+      body: {
+        path: props.filename,
+        frontmatter: frontmatter.value,
+        content: content.value,
+        isNew: props.isNew,
+        isBlog: props.isBlog
+      }
+    });
+
+    lastSaved.value = new Date().toLocaleTimeString();
+
+    // Navigate to the page view
+    if (response.path) {
+      // Convert filename to slug: "My Page.md" → "/my-page"
+      const slug = '/' + response.path
+        .replace(/\.md$/, '')
+        .toLowerCase()
+        .replace(/\s+/g, '-')
+        .replace(/_/g, '-')
+        .replace(/\./g, '-');
+
+      await navigateTo(slug);
+    } else {
+      alert('Page saved but could not navigate (no path returned)');
+    }
   } catch (error: any) {
     alert('Error saving file: ' + (error.data?.message || error.message));
   } finally {

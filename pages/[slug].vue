@@ -57,6 +57,17 @@
     // Don't assign a string - leave page.value as null for proper 404 handling
   }
 
+  // Update page state for footer component using composable
+  const pageState = usePageState();
+  watchEffect(() => {
+    pageState.value = {
+      exists: !!page.value,
+      path: page.value?.path || route.path,
+      filename: page.value ? `${page.value.stem}.${page.value.extension}` : null
+    };
+    console.log('[slug.vue] Updated pageState:', pageState.value, 'page.value.stem:', page.value?.stem, 'page.value.extension:', page.value?.extension);
+  });
+
   function cleanTitle(value) {
     return value
       ?.replace(/_/g, ' ')

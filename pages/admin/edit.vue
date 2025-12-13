@@ -48,10 +48,13 @@ onMounted(async () => {
       isNew.value = true;
       isBlog.value = route.query.new === 'blog';
 
+      // Get pre-filled title from query param if provided
+      const prefilledTitle = (route.query.title as string) || '';
+
       // Initialize with template
       frontmatter.value = {
         draft: true,
-        title: '',
+        title: prefilledTitle,
         tags: isBlog.value ? ['blog'] : [],
         createdAt: new Date().toISOString().split('T')[0],
         updatedAt: new Date().toISOString().split('T')[0]

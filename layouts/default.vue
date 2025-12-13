@@ -36,6 +36,9 @@
     <div class="m-0 sm:m-4">
       <slot />
     </div>
+
+    <!-- Admin footer with edit/create links -->
+    <PageFooter />
   </div>
 </template>
 

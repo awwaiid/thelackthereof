@@ -87,5 +87,13 @@ export default defineNuxtConfig({
     }
   },
 
+  devtools: { enabled: false },
+
+  vite: {
+    server: {
+      allowedHosts: true,
+    },
+  },
+
   compatibilityDate: '2024-07-06'
 })
