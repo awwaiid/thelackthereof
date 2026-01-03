@@ -6,6 +6,10 @@ export default defineEventHandler((event) => {
     return;
   }
 
+  // Special case: /api/admin/auth-check should not trigger browser auth popup
+  // It just checks if auth is present without challenging the user
+  const isAuthCheck = path.startsWith('/api/admin/auth-check');
+
   // Get credentials from environment
   const adminUser = process.env.ADMIN_USER || 'admin';
   const adminPassword = process.env.ADMIN_PASSWORD || 'changeme';
@@ -14,9 +18,13 @@ export default defineEventHandler((event) => {
   const authHeader = event.node.req.headers.authorization;
 
   if (!authHeader || !authHeader.startsWith('Basic ')) {
-    // No auth provided, request it
+    // No auth provided
     event.node.res.statusCode = 401;
-    event.node.res.setHeader('WWW-Authenticate', 'Basic realm="Admin Area"');
+    // Only send WWW-Authenticate header if NOT the auth-check endpoint
+    // This prevents browser popup on regular pages that check auth status
+    if (!isAuthCheck) {
+      event.node.res.setHeader('WWW-Authenticate', 'Basic realm="Admin Area"');
+    }
     return 'Authentication required';
   }
 
@@ -28,7 +36,10 @@ export default defineEventHandler((event) => {
   if (username !== adminUser || password !== adminPassword) {
     // Invalid credentials
     event.node.res.statusCode = 401;
-    event.node.res.setHeader('WWW-Authenticate', 'Basic realm="Admin Area"');
+    // Only send WWW-Authenticate header if NOT the auth-check endpoint
+    if (!isAuthCheck) {
+      event.node.res.setHeader('WWW-Authenticate', 'Basic realm="Admin Area"');
+    }
     return 'Invalid credentials';
   }
 

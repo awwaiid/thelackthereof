@@ -24,7 +24,7 @@
 </template>
 
 <script setup>
-import { computed } from 'vue';
+import { computed, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { slugToTitle } from '~/lib/pathUtils';
 
@@ -32,6 +32,14 @@ const route = useRoute();
 
 // Get page state from composable
 const pageState = usePageState();
+
+// Get admin auth state
+const { isAuthenticated, checkAuth } = useAdminAuth();
+
+// Check auth status on mount (client-side only)
+onMounted(() => {
+  checkAuth();
+});
 
 // Hide footer on admin pages
 const showFooter = computed(() => {
@@ -45,6 +53,9 @@ const pageExists = computed(() => {
 });
 
 const editUrl = computed(() => {
+  // Only show edit link if authenticated
+  if (!isAuthenticated.value) return null;
+
   const filename = pageState.value?.filename;
   console.log('[PageFooter] filename:', filename, 'pageState:', pageState.value);
   if (!filename) return null;
@@ -53,6 +64,8 @@ const editUrl = computed(() => {
 
 // For 404 pages, generate create URL with pre-filled title
 const createUrl = computed(() => {
+  // Only show create link if authenticated
+  if (!isAuthenticated.value) return null;
   if (pageExists.value) return null;
 
   const title = slugToTitle(route.path);

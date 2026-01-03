@@ -354,15 +354,18 @@ async function saveAndVisit() {
 
     // Navigate to the page view
     if (response.path) {
-      // Convert filename to slug: "My Page.md" → "/my-page"
-      const slug = '/' + response.path
-        .replace(/\.md$/, '')
-        .toLowerCase()
-        .replace(/\s+/g, '-')
-        .replace(/_/g, '-')
-        .replace(/\./g, '-');
+      // Query Nuxt Content to get the actual path instead of calculating it
+      // This ensures we match Nuxt Content's slug generation exactly
+      const filename = response.path.replace(/\.md$/, '');
+      const page = await queryCollection('content')
+        .where('stem', '=', filename)
+        .first();
 
-      await navigateTo(slug);
+      if (page?.path) {
+        await navigateTo(page.path);
+      } else {
+        alert('Page saved but could not find it in content (try refreshing)');
+      }
     } else {
       alert('Page saved but could not navigate (no path returned)');
     }
