@@ -1,8 +1,16 @@
+import tweakMarkdown from './lib/tweakMarkdown';
+
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', 'nuxt-delay-hydration', "@nuxt/image", 'nuxt-gtag'],
+  modules: [
+    '@nuxt/content',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
+    'nuxt-delay-hydration',
+    "@nuxt/image",
+    'nuxt-gtag'
+  ],
 
   nitro: {
-    // plugins: ['~/server/plugins/content.ts'],
     prerender: {
       routes: ['/', '/rss.xml', '/shares.rss.xml'],
       failOnError: true,
@@ -69,6 +77,9 @@ export default defineNuxtConfig({
             baseUrl: "https://www.plantuml.com/plantuml/svg"
           },
           "remark-breaks": true
+        },
+        rehypePlugins: {
+          "rehype-wrap-text": false
         }
       }
     }
@@ -94,6 +105,12 @@ export default defineNuxtConfig({
       allowedHosts: true,
       hmr: false,  // Disable hot module replacement
     },
+  },
+
+  hooks: {
+    'content:file:beforeParse'(ctx) {
+      tweakMarkdown(ctx);
+    }
   },
 
   compatibilityDate: '2024-07-06'
