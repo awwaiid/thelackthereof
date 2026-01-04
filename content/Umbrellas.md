@@ -1,16 +1,16 @@
 ---
 title: Umbrellas
-tags: ["music"]
-createdAt: 2008-03-30T16:55-04:00
-updatedAt: 2015-08-16T16:59-04:00
+tags:
+  - music
+createdAt: '2008-03-30T16:55-04:00'
+updatedAt: '2015-08-16T16:59-04:00'
 ---
+audio:docs/music/umbrellas
 
 Lyrics by Brock Wilcox.
 Performance and music composition by Brock Wilcox, Elizabeth Mastry, Jason Woys, Erik Summerfield (at least!).
 
 Please share, copy, and modify, under the terms of [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons Attribution-ShareAlike (CC BY-SA)]]!
-
-audio:docs/music/umbrellas
 
 Chorus: G D C G / G D CD G
 Verse: G*4 C*4 D*2 C*2 G*3

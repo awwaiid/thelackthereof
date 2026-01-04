@@ -1,14 +1,17 @@
 ---
 title: Zombie_Love
-tags: ["music"]
-createdAt: 2008-03-30T16:50-04:00
-updatedAt: 2008-03-30T17:04-04:00
+tags:
+  - music
+createdAt: '2008-03-30T16:50-04:00'
+updatedAt: '2008-03-30T17:04-04:00'
 ---
+Recorded March 27 with Liz on guitar
 
-Recorded March 27 with Liz on guitar: [http://thelackthereof.org/docs/music/zombielove.ogg zombielove.ogg]
+audio:docs/music/zombielove
 
 (With help from Liz and Jason)
 
+```
  G
   Hey sweetie
  D
@@ -51,4 +54,4 @@ Recorded March 27 with Liz on guitar: [http://thelackthereof.org/docs/music/zomb
   And I can't even cry
 
   [refrain]
-
+```

@@ -11,6 +11,14 @@
       </div>
       <div class="flex gap-2">
         <button
+          @click="viewInNewTab"
+          :disabled="props.isNew"
+          class="px-2 py-1 text-sm bg-gray-600 text-white rounded hover:bg-gray-700 disabled:opacity-50"
+          title="View page in new tab (without saving)"
+        >
+          View
+        </button>
+        <button
           @click="saveAndVisit"
           :disabled="saving"
           class="px-2 py-1 text-sm bg-green-600 text-white rounded hover:bg-green-700 disabled:opacity-50"
@@ -335,6 +343,29 @@ async function save() {
     alert('Error saving file: ' + (error.data?.message || error.message));
   } finally {
     saving.value = false;
+  }
+}
+
+async function viewInNewTab() {
+  try {
+    // Query Nuxt Content to get the actual path
+    const filename = props.filename?.replace(/\.md$/, '');
+    if (!filename) {
+      alert('Cannot view: no filename');
+      return;
+    }
+
+    const page = await queryCollection('content')
+      .where('stem', '=', filename)
+      .first();
+
+    if (page?.path) {
+      window.open(page.path, '_blank');
+    } else {
+      alert('Could not find page in content (try saving first)');
+    }
+  } catch (error: any) {
+    alert('Error opening page: ' + (error.data?.message || error.message));
   }
 }
 

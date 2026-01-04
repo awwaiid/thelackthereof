@@ -1,7 +1,7 @@
 ---
 title: Projects
 image: >-
-  https://www.plantuml.com/plantuml/svg/ROqn3i8m40JxUyKgFKym4gAYInzHd3adje0xomuIKfI_KuM0v7fsPYLDXNF4X8K0DGaOQkGSdBVtbO2B1CRXYAulPYDinDdq5lBSOP1KdBSv_kxwbt-a6jlmv5d5z1ysodk7y2tkFW4B2klTLNw6Lc1pjiELrWy0
+  https://www.plantuml.com/plantuml/png/ROqn3i8m40JxUyKgFKym4gAYInzHd3adje0xomuIKfI_KuM0v7fsPYLDXNF4X8K0DGaOQkGSdBVtbO2B1CRXYAulPYDinDdq5lBSOP1KdBSv_kxwbt-a6jlmv5d5z1ysodk7y2tkFW4B2klTLNw6Lc1pjiELrWy0
 tags:
   - project
 createdAt: '2005-01-04T11:35-05:00'
