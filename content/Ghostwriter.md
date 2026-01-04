@@ -1,9 +1,10 @@
 ---
 title: Ghostwriter
-image: https://github.com/awwaiid/ghostwriter/raw/main/docs/simple-chihuahua.jpg
-tags: ["project"]
-createdAt: 2024-11-17
-updatedAt: 2024-11-17
+image: 'https://github.com/awwaiid/ghostwriter/raw/main/docs/simple-chihuahua.jpg'
+tags:
+  - project
+createdAt: '2024-11-17T00:00:00.000Z'
+updatedAt: '2024-11-17T00:00:00.000Z'
 ---
 
 Use the reMarkable2 as an interface to vision-LLMs. Ghost in the machine!

@@ -5,7 +5,7 @@ image: >-
 tags:
   - project
 createdAt: '2005-01-04T11:35-05:00'
-updatedAt: '2025-11-28'
+updatedAt: '2026-01-03'
 ---
 
 I present here a very incomplete list of programming-related projects, and the tools and languages I might use to create them.
@@ -26,6 +26,7 @@ Also see [the awwaiid github repo](https://github.com/awwaiid) for more projects
 
 ## Current Projects
 If you were to ask me what I'm working on right now, I might say one of these.
+* [[Rotae Versantur]] - Norns Monome+Arc based four track recorder
 * [[Ghostwriter]] - Use the reMarkable2 as an interface to vision-LLMs. Ghost in the machine!
 * [[Human Essentials]] - Part of the Ruby For Good organization; inventory control for diaper and period-supply banks
 * [[REPL Looper]] - Making music with a code console

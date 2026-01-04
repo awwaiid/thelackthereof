@@ -1,47 +1,43 @@
+import { getCookie } from 'h3';
+import { getSession } from '~/server/utils/session';
+
 export default defineEventHandler((event) => {
   const path = event.node.req.url || '';
 
+  // Extract pathname without query params for matching
+  const pathname = path.split('?')[0];
+
   // Only protect /admin routes and /api/admin/* routes
-  if (!path.startsWith('/admin') && !path.startsWith('/api/admin')) {
+  if (!pathname.startsWith('/admin') && !pathname.startsWith('/api/admin')) {
     return;
   }
 
-  // Special case: /api/admin/auth-check should not trigger browser auth popup
-  // It just checks if auth is present without challenging the user
-  const isAuthCheck = path.startsWith('/api/admin/auth-check');
-
-  // Get credentials from environment
-  const adminUser = process.env.ADMIN_USER || 'admin';
-  const adminPassword = process.env.ADMIN_PASSWORD || 'changeme';
-
-  // Get Authorization header
-  const authHeader = event.node.req.headers.authorization;
-
-  if (!authHeader || !authHeader.startsWith('Basic ')) {
-    // No auth provided
-    event.node.res.statusCode = 401;
-    // Only send WWW-Authenticate header if NOT the auth-check endpoint
-    // This prevents browser popup on regular pages that check auth status
-    if (!isAuthCheck) {
-      event.node.res.setHeader('WWW-Authenticate', 'Basic realm="Admin Area"');
-    }
-    return 'Authentication required';
+  // Exempt login endpoints from auth check
+  if (pathname === '/admin/login' || pathname === '/api/admin/login') {
+    return;
   }
 
-  // Decode and verify credentials
-  const base64Credentials = authHeader.split(' ')[1];
-  const credentials = Buffer.from(base64Credentials, 'base64').toString('utf-8');
-  const [username, password] = credentials.split(':');
+  // Get session ID from cookie
+  const sessionId = getCookie(event, 'admin_session');
 
-  if (username !== adminUser || password !== adminPassword) {
-    // Invalid credentials
-    event.node.res.statusCode = 401;
-    // Only send WWW-Authenticate header if NOT the auth-check endpoint
-    if (!isAuthCheck) {
-      event.node.res.setHeader('WWW-Authenticate', 'Basic realm="Admin Area"');
+  // Check if session exists and is valid
+  const session = sessionId ? getSession(sessionId) : null;
+
+  if (!session) {
+    // For API endpoints, return 401
+    if (path.startsWith('/api/admin')) {
+      event.node.res.statusCode = 401;
+      return { error: 'Authentication required' };
     }
-    return 'Invalid credentials';
+
+    // For page routes, redirect to login with returnTo
+    const returnTo = encodeURIComponent(path);
+    event.node.res.statusCode = 302;
+    event.node.res.setHeader('Location', `/admin/login?returnTo=${returnTo}`);
+    return 'Redirecting to login';
   }
 
   // Authentication successful, continue
+  // Optionally attach session data to event context for use in endpoints
+  event.context.session = session;
 });

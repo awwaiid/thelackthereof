@@ -48,8 +48,8 @@
 
     return queryBuilder
       .where('draft', 'IS NOT', 1)
-      .order('createdAt', 'DESC')
       .order('updatedAt', 'DESC')
+      .order('createdAt', 'DESC')
       .limit(pageCount.value)
       .all();
   }, { watch: [search, pageCount] });

@@ -268,7 +268,7 @@ const props = defineProps<{
 
 const emit = defineEmits(['saved']);
 
-// Helper function to convert ISO date to YYYY-MM-DD
+// Helper function to convert ISO date to YYYY-MM-DD (only for initial load)
 function toDateInputValue(dateString: string | undefined): string {
   if (!dateString) return new Date().toISOString().split('T')[0];
   // Handle both ISO timestamps and YYYY-MM-DD format
@@ -294,15 +294,17 @@ const activeTab = ref('meta');
 const editorTextarea = ref<HTMLTextAreaElement>();
 const previewComponent = ref<any>();
 
-// Date fields that work with date inputs
-const createdAtDate = computed({
-  get: () => toDateInputValue(frontmatter.value.createdAt),
-  set: (value) => { frontmatter.value.createdAt = value; }
+// Date fields - use simple string refs to avoid validation during typing
+const createdAtDate = ref(toDateInputValue(frontmatter.value.createdAt));
+const updatedAtDate = ref(toDateInputValue(frontmatter.value.updatedAt));
+
+// Sync date refs back to frontmatter when they change
+watch(createdAtDate, (newValue) => {
+  frontmatter.value.createdAt = newValue;
 });
 
-const updatedAtDate = computed({
-  get: () => toDateInputValue(frontmatter.value.updatedAt),
-  set: (value) => { frontmatter.value.updatedAt = value; }
+watch(updatedAtDate, (newValue) => {
+  frontmatter.value.updatedAt = newValue;
 });
 
 // Watch tagsString and update frontmatter.tags
