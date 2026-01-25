@@ -24,7 +24,7 @@ Here is a collection of links to other things of interest. Feel free to add your
 * http://www.cnn.com/
 * http://wire.ap.org/ - Associated Press news wire
 * http://www.reuters.com/
-* http://news.google.com/ - Automatically aggragated news by Google
+* http://news.google.com/ - Automatically aggregated news by Google
 * [http://scoreboard.keynote.com/scoreboard/Main.aspx?Login=Y&Username=public&Password=public Internet Health Report]
 
 ## Programming

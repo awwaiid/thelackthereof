@@ -18,7 +18,7 @@ References:
 Relational Databases (RDBs for short) are intended to provide a predicate logic like view of stored data. In their current state, however, RDBs do not keep track of high-level relationships and instead rely on the user (the programmer or program querying the data) to manage said relationships.
 
 
-Lets first toy around a cross between some mathematical syntax and perl for our various operations.
+Let's first toy around a cross between some mathematical syntax and perl for our various operations.
 
 Select all people: <code> @people = </code>$$ \{ \forall x | (person(x) \rightarrow x) \} $$<code>;</code>. The idea here would be that <code>@people</code> would be a tied array, allowing you to access the returned results arbitrarily without a big performance hit. Similarly we could return just the first result from this like this: <code>$person = </code> $$ \{ \exists x | (person(x) \rightarrow x) \} $$ <code>;</code>.
 

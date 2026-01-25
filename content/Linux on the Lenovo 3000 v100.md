@@ -16,8 +16,8 @@ Right now the thing that I really really want is suspend-to-ram, but I can't qui
 ## Overview
 
 || Device || Model         || Status || Notes                                                              ||
-|| Video  || intel 945GM) || works  || graphics accelleration works. dual screen with alternate xorg.conf ||
-|| Audio  || ICH7 82801G rev 02) || mostly-works || must run script to swich to headphones-only mode ||
+|| Video  || intel 945GM) || works  || graphics acceleration works. dual screen with alternate xorg.conf ||
+|| Audio  || ICH7 82801G rev 02) || mostly-works || must run script to switch to headphones-only mode ||
 || Ethernet || RTL-8139 || works ||   ||
 || Wireless || Atheros  || works || svn madwifi driver, or ndiswrapper ||
 || Webcam   || 5602 ALi Corp || no-linux || works in vmware+windows w/ usb2 ||
@@ -69,7 +69,7 @@ Bus 002 Device 001: ID 0000:0000
 ## Wireless
 This one uses an Atheros chipset, unlike all of the other v100's up to this point.
 
-MadWifi now works with this card, as per http://madwifi.org/ticket/1001. I got it working by simply grabbing the [http://svn.madwifi.org/branches/madwifi-hal-0.9.30.13/ madwifi-hal-0.9.30.13] svn with a straigt make && make install.
+MadWifi now works with this card, as per http://madwifi.org/ticket/1001. I got it working by simply grabbing the [http://svn.madwifi.org/branches/madwifi-hal-0.9.30.13/ madwifi-hal-0.9.30.13] svn with a straight make && make install.
 
 Previously:
 
@@ -95,7 +95,7 @@ which effectively loads the _wrong_ sound card driver, but one that does the tri
 
 
 ## Video
-Debian set up the 1280x800 resolution out of the box. I've since enabled graphic accelleration and figured out a dual-monitor mode. I have to swich Xorg configs to go from single to multi-monitor. I have an experimental version that sort-of switches dynamically using xrandr... but it doesn't work.
+Debian set up the 1280x800 resolution out of the box. I've since enabled graphic acceleration and figured out a dual-monitor mode. I have to switch Xorg configs to go from single to multi-monitor. I have an experimental version that sort-of switches dynamically using xrandr... but it doesn't work.
 
 ### Lenovo 3000 v100 945GM Xorg i810 single-screen config
 ```

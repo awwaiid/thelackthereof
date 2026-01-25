@@ -14,7 +14,7 @@ Move To DC! Here's how:
 ** [http://maps.google.com/maps?f=q&hl=en&q=washington+dc Google Map]
 ** [http://www.wmata.com/metrorail/systemmap.cfm Metro Map]
 
-Northwest quadrant recommnded
+Northwest quadrant recommended
 
 that would be dupont, foggy bottom, adams morgan, columbia heights, etc.
 

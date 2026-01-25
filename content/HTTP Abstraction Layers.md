@@ -18,7 +18,7 @@ Which is to say, an "application" is defined as a function that takes in a reque
 
 Variations are mostly around the body. Instead of a static string, several of these adapters allow a callback or promise of some sort, allowing for chunked or streaming results, and possibly even server-push results.
 
-One of the coolest things this abstraction provides is an easy concept of "middleware". All you have to do is wrap this function (your "applicaiton") with another function that filters the input (request), calls your applicaiton-function, and then filters the response. This makes it easy to do lots of things neutral to your main application -- from logging to validating.
+One of the coolest things this abstraction provides is an easy concept of "middleware". All you have to do is wrap this function (your "application") with another function that filters the input (request), calls your application-function, and then filters the response. This makes it easy to do lots of things neutral to your main application -- from logging to validating.
 
 Note that some of these languages have multiple choices of API, and some have multiple implementations of the same API.
 

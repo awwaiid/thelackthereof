@@ -13,10 +13,10 @@ Beyond just merging the View into the Model, in concept the View can actually be
 ## Data Type Implies View Type
 If the datatype is a short string, then we'll probably want a short text input field. If it is a date, we'll probably want a date-selector. If it is long text we'll want a textarea. At this low level the type in the Model has a nearly one-to-one correspondence with the type in the View.
 
-This abstraction can often continue without intervention at higher levels. Lists, tuples, and unions can be expressed in the View in a straightforward mannor.
+This abstraction can often continue without intervention at higher levels. Lists, tuples, and unions can be expressed in the View in a straightforward manner.
 
 ## Problem: Multiple Views
-In MVC it is easy to have multiple views for a single model (or accross model objects). How can this be done if the Model and View are merged?
+In MVC it is easy to have multiple views for a single model (or across model objects). How can this be done if the Model and View are merged?
 
 Here are some ideas:
 * Give the Model a sense of it's rendering context.

@@ -48,7 +48,7 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 * [[Caravan]] - OCaml implementation of the sequential data mining algorithms
 * [[Census Data Extraction]] - Small project to help a researcher correlate some data
 * [[Continuity]] - Continuation-based web-application framework for Perl
-* [[Contize]] - Provide a perl object with a way to fake continuations (complete and abandonded)
+* [[Contize]] - Provide a perl object with a way to fake continuations (complete and abandoned)
 * [[Covid Can I Do It]] - An interactive harm-reduction dataset built during the COVID pandemic
 * [[DHTML Combo]] - A combo box made using DHTML/Javascript
 * [[Dot2html]] - Convert graphviz files to HTML and Javascript
@@ -65,7 +65,7 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 * [[OCaml Eval]] - Evaluate OCaml code dynamically (complete, old)
 * [[OCaml GrabBag]] - Datastructure for a random-retrieval collection (complete)
 * [[OGPF]] - OCaml Genetic Programming Framework
-* [[OddMuse Pingback]] - A pingback server for oddmuse comment pages (abandonded)
+* [[OddMuse Pingback]] - A pingback server for oddmuse comment pages (abandoned)
 * [[Oddmuse EditSection]] - Edit things on a per-section basis in oddmuse
 * [[Oddmuse Editfile]] - Edit a file (especially perl) through oddmuse
 * [[Oddmuse Ref Links]] - Module for a sidebar list of incoming links for a page
@@ -86,7 +86,7 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 * [[WayV]] - Building on Mike Bennett's gesture recognition app
 * [[Web Board Games]] - Web based 2D board games
 * [[White Elephant Gift Selecter]] - Web app to pick the perfect gift!
-* [[Zend Hacking]] - Feeling my way around (abandonded)
+* [[Zend Hacking]] - Feeling my way around (abandoned)
 
 
 ----

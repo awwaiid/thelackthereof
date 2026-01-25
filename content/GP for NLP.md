@@ -9,7 +9,7 @@ So I was reading  the [http://ocw.mit.edu/OcwWeb/Electrical-Engineering-and-Comp
 
 So, the new idea. I will create a list of things myself or others might say to Vladimir. I will also create the appropriate semantic representation I want for each of the sentences. Then I hand this off to a GP to create the grammar and translator. Perhaps, however, a simple grammar is not enough. In that case I'd get my GP to output actual code to be run. Hmm.
 
-The biggest issue is the knowledge representation language, I think. I've been thinking about this a lot lately, which is why I was reading the MIT course. But for this domain I think a fairly simple knowledge representation will work well. The two fundamental things which need to be expresible are the obvious -- querying the existing knowledge and adding new knowledge. The real question is whether the knowledge should encompas rules in addition to facts.
+The biggest issue is the knowledge representation language, I think. I've been thinking about this a lot lately, which is why I was reading the MIT course. But for this domain I think a fairly simple knowledge representation will work well. The two fundamental things which need to be expressible are the obvious -- querying the existing knowledge and adding new knowledge. The real question is whether the knowledge should encompass rules in addition to facts.
 
 
 

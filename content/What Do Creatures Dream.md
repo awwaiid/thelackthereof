@@ -10,7 +10,7 @@ updatedAt: 2009-02-22T10:26-05:00
   Between a dream and reality?
 
   Even we
-  Somtimes
+  Sometimes
   Cannot
 
   When we awake in the night

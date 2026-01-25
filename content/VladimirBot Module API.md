@@ -20,7 +20,7 @@ This should be done on load (outside of any function). Then, when it is this mod
 
  parse($sentence)
 
-Fun, eh? So lets build a module... We can stick with our trusty news module. In this module the only thing we are looking for is the word "news." This is a very simplistic view of the conversational world, but it will serve its illustrative purpose. In all actuality each module gets to parse the sentence however it wants, so long as it gets the job done.
+Fun, eh? So let's build a module... We can stick with our trusty news module. In this module the only thing we are looking for is the word "news." This is a very simplistic view of the conversational world, but it will serve its illustrative purpose. In all actuality each module gets to parse the sentence however it wants, so long as it gets the job done.
 
   package VladimirBot::News;
   use strict;

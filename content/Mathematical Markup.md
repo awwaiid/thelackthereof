@@ -10,7 +10,7 @@ There's something wrong here - all mathematics is blacked out, as it too the pag
 
 I've taught this wiki to use LaTeX for mathematical markup, using [http://www.mathjax.org/|MathJax], a Javascript library for rendering mathematical markup.
 
-(Previously I used the [http://www.oddmuse.org/cgi-bin/oddmuse/LaTeX_Extension LaTeX module extension] for OddMuse. But that requires LaTeX be installed and some other messyness, generating images as the output. MathJax is better -- it requires Javascript, but gives lovely copy-pasteable equations).
+(Previously I used the [http://www.oddmuse.org/cgi-bin/oddmuse/LaTeX_Extension LaTeX module extension] for OddMuse. But that requires LaTeX be installed and some other messiness, generating images as the output. MathJax is better -- it requires Javascript, but gives lovely copy-pasteable equations).
 
 You simply wrap your math like this: $ $ x^2 $ $ to get something like $$x^2$$. Or, you could wrap your math with \ ( x^2 \ ) to get an inline equation, \( x^2 \). This page is to document some of the ways this can be used. Please choose 'Edit text of this page' at the bottom to play!
 

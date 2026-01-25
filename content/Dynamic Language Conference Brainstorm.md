@@ -61,7 +61,7 @@ There are interesting design decisions made between one project and the next wit
 * [http://www.dynamiclanguages.co.uk/dlc2011/ Dynamic Languages Conference 2011 (UK)] - "The DLC is a cross-language event aimed at Open Source Dynamic Languages, we hope to bring together all the languages in an open forum to discuss and present the manner in which these languages approach and solve tasks at the cutting edge of development technology" Organized by Mark Keating
 * [http://www.dynamic-languages-symposium.org/ Dynamic Languages Symposium (DLS)] - Tucson, Arizona, USA, October 22, 2012
 Co-located with SPLASH 2012. 6th annual ACM symposium. Very notable lack of "perl" in their list of dynamic languages :(
-* [http://swdc.se/dyncon2012/ Dynamic Languages Conference (Stockholm)] - cancelled due to lack of particpants
+* [http://swdc.se/dyncon2012/ Dynamic Languages Conference (Stockholm)] - cancelled due to lack of participants
 
 ## Dynamic Language and Other (local) Groups
 * [http://www.dctechevents.com/sources/ List of DC Tech Groups/Events]

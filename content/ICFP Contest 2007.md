@@ -41,7 +41,7 @@ One of the prefixes turned night into day in the image, getting us much closer t
 
 The second prefix pointed us to a user manual. The manual page had fairly specific instructions for finding other manual pages, but I never did figure it out. My understanding was that it was really easy, so I either overlooked it or tried it and messed it up somehow.
 
-Come about 2 in the morning we saw that we weren't going to get any farther with either of our approaches. Jason had grids getting flood filled with colors, but it didn't provide an advantage as far as number of pixesl correct over the night-to-day prefix. And I dug around more in the code but didn't make any further breakthroughs.
+Come about 2 in the morning we saw that we weren't going to get any farther with either of our approaches. Jason had grids getting flood filled with colors, but it didn't provide an advantage as far as number of pixels correct over the night-to-day prefix. And I dug around more in the code but didn't make any further breakthroughs.
 
 So we called it a night! It was great fun!
 

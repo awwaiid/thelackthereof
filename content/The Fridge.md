@@ -10,7 +10,7 @@ Ideas:
 * Fridges expire after n days of disuse
 * Fridges get options
 ** Public/Private fridges (by view-password)
-** Limit to the number of words. When you get >n words, the first word would dissapear
+** Limit to the number of words. When you get >n words, the first word would disappear
 
 So the front page would be a list of fridges
 

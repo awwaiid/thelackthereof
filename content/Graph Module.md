@@ -5,7 +5,7 @@ createdAt: 2004-05-13T10:51-04:00
 updatedAt: 2018-12-15T12:29-05:00
 ---
 
-The graph module uses GraphViz to draw graphs. Here are some examples I've put together, but much fancier thinges are possible. See http://www.research.att.com/sw/tools/graphviz/refs.html for GraphViz documentation, and see http://www.research.att.com/sw/tools/graphviz/examples/ for some examples.
+The graph module uses GraphViz to draw graphs. Here are some examples I've put together, but much fancier things are possible. See http://www.research.att.com/sw/tools/graphviz/refs.html for GraphViz documentation, and see http://www.research.att.com/sw/tools/graphviz/examples/ for some examples.
 
 ```plantuml
 digraph G {

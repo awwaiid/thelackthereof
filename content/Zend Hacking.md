@@ -5,7 +5,7 @@ createdAt: 2005-06-11T18:53-04:00
 updatedAt: 2005-06-17T17:12-04:00
 ---
 
-Zend (PHP) isn't really documented all that much, besides the source itself. It looks like once you understand the beast the documentation wouldn't be all that necessary -- silly I know, but thats the way it looks.
+Zend (PHP) isn't really documented all that much, besides the source itself. It looks like once you understand the beast the documentation wouldn't be all that necessary -- silly I know, but that's the way it looks.
 
 Well I'm going to try writing a Zend extension. So I'm having a look at APD and eAccelerator and Zend itself to see what is going on in there. They make it relatively easy to do an extension, with magical build scripts and such.
 

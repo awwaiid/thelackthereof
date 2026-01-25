@@ -15,7 +15,7 @@ I wish to instead take a step back toward a more general definition of intellige
 
 A lot of things can be used to predict the future, and there are a lot of different types of predictions that you can make. So you might be able to predict where a thrown ball will land based on some very quick parabolic curve heuristics. Or you might predict what emotion a written story will have on a reader. And there are several degrees of accuracy in predictions. The most obvious is how far into the future you can predict. Another is how fine-grained is the prediction itself - there is a big difference between predicting that tomorrow it will be hotter than today, and predicting that it will be 5.21 degrees hotter.
 
-The tools that we use to predict the future are talked about a lot in intelligence tests. Typically, IQ will be broken down into short/long term memory, quantitative reasoning, spacial reasoning, and so on. Ultimately it is the prediction itself that matters though.
+The tools that we use to predict the future are talked about a lot in intelligence tests. Typically, IQ will be broken down into short/long term memory, quantitative reasoning, spatial reasoning, and so on. Ultimately it is the prediction itself that matters though.
 
 Next we contemplate the concept of control. Being able to control something is often called "will". Now of course all will comes down to controlling yourself - whether it be pronouncing a death sentence or grasping and turning a doorknob. But we can abstract that away a bit, and just think in terms of giving orders or opening doors. Either way, we are attempting to control something.
 

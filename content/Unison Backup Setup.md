@@ -44,7 +44,7 @@ Unison is kinda like rsync, except smarter (stateful). It keeps a database on ea
 
 I have three machines on which I want an up-to-date copy of 'tlt'. They are my own computer (Feline), my website host (Mirabel), and my laptop (Jill). Generally I will sync Feline->Mirabel and Jill->Mirabel, but I could do other combinations (and often do Jill->Feline).
 
-Lets say I am using Feline and want to sync with Mirabel. If you simply run 'unison' it will interactively prompt you for the local and remote directory you wish to synchronize, and step you through the initial sync. It'll remember too, and when you re-run it will sync what it can and ask you about conflicts. Try it a couple times, its fun.
+Let's say I am using Feline and want to sync with Mirabel. If you simply run 'unison' it will interactively prompt you for the local and remote directory you wish to synchronize, and step you through the initial sync. It'll remember too, and when you re-run it will sync what it can and ask you about conflicts. Try it a couple times, it's fun.
 
 It stores its settings in preference files inside of ~/.unison/. Here is the preference file I use (2024) for vorm->pegasus. Really the only tricky thing is the ignore paths, which I add to every now and then.
 

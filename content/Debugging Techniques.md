@@ -78,7 +78,7 @@ A brain-dump of various approaches to debugging (code) things that I like.
     * Log state at various points of execution
   * Read the error message
     * Sometimes ... often ... it will actually TELL you what is wrong
-    * Even when it is vague or lying it is a good stating point to trace backwards from
+    * Even when it is vague or lying it is a good starting point to trace backwards from
     * Often it comes with a stack trace -- read the stack trace!
   * Read the log entries just before the error message
   * Trace forward and backward from the error

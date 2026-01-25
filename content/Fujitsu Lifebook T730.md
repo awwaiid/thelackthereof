@@ -108,7 +108,7 @@ Installing [http://sourceforge.net/apps/mediawiki/fjbtndrv/index.php?title=Main_
 
 ----
 
-EDIT (By Erich.me) There is a file you can download in the T730 Driver/Utility downloads on the Fujitsu site called AutoRotationSSD_FJ_v1.00.10.003SSD_W7-32.exe that makes the Auto-Rotate function work poerfectly. I am trying out some of the other T731 Drivers and Utilities and I will post more if any of them add functionality.
+EDIT (By Erich.me) There is a file you can download in the T730 Driver/Utility downloads on the Fujitsu site called AutoRotationSSD_FJ_v1.00.10.003SSD_W7-32.exe that makes the Auto-Rotate function work perfectly. I am trying out some of the other T731 Drivers and Utilities and I will post more if any of them add functionality.
 
 (awwaiid asks) Question to Erich.me - how is an .exe useful in linux?
 

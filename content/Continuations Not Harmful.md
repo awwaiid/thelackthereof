@@ -13,7 +13,7 @@ Gilad Bracha [http://blogs.sun.com/roller/page/gbracha?entry=will_continuations_
 "Summary: In the short term, continuation based web servers are very nice. Seaside is the nicest one I’ve seen. But ultimately they are just a phase, and we can already see how we will outgrow that phase. Since continuation-based servers won’t be all that significant in the long term, and given the huge lead times and costs of adding continuations to the JVM, it makes little sense to support them."
 </blockquote>
 
-Ian Griffiths [http://www.interact-sw.co.uk/iangblog/2006/05/21/webcontinuations Continuations for User Journeys in Web Applications Considered Harmful] (5/21/2006) - IanG gives a short introduction to continuations, showing how it is usefull over HTTP. Then he cites several things which make it a bad idea: Abandonded sessions, thread affinity, web farms, back button breaking, and browser-branching breaking.
+Ian Griffiths [http://www.interact-sw.co.uk/iangblog/2006/05/21/webcontinuations Continuations for User Journeys in Web Applications Considered Harmful] (5/21/2006) - IanG gives a short introduction to continuations, showing how it is useful over HTTP. Then he cites several things which make it a bad idea: Abandoned sessions, thread affinity, web farms, back button breaking, and browser-branching breaking.
 
 Avi Bryant [http://smallthought.com/avi/?p=14 Ongoing Continuations] (May 21st, 2006) "Ultimately, I think all three models - state via REST, state via continuations or closures, state via Ajax - are important, and the job of a good web developer is to choose, for each user interaction, when to use which one."
 

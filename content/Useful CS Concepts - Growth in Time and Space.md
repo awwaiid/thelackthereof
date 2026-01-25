@@ -5,7 +5,7 @@ createdAt: 2015-10-11T20:57-04:00
 updatedAt: 2015-10-11T20:57-04:00
 ---
 
-Lets say you are solving a problem with 100 inputs. How much longer will it take (time) and how much more memory will you use (space) to solve the problem with 101 inputs? How much time & space will you use to solve it with 1000 inputs? A million inputs?
+Let's say you are solving a problem with 100 inputs. How much longer will it take (time) and how much more memory will you use (space) to solve the problem with 101 inputs? How much time & space will you use to solve it with 1000 inputs? A million inputs?
 
 Why and when do you care?
 

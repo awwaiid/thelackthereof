@@ -19,7 +19,7 @@ Ode to Duane II (Brock, 2006)
 
 Summertime (Beth, 2006)
   sun glaring red dawn
-  accross the glistening desert
+  across the glistening desert
   summertime has come
 
 Go Board (Brock, 2006)

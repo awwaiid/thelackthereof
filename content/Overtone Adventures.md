@@ -44,7 +44,7 @@ Ah! I need to do (use 'overtone.inst.piano) not (:use overtone.inst.piano).
 ** (loop-beats (now))
 ** (stop)
 ** I don't know exactly what that last [] is for. (odoc apply-at) says it is "argseq" but gives no explanation.
-** In general this is "temorial recursion" -- delays a bit before calling back
+** In general this is "temporal recursion" -- delays a bit before calling back
 ** As far as I can tell this _does_ create new stack frames! Will eventually run out. I know this because I accidentally put the loop-beats recursion in parens which invoked it.
 * Following the tutorial, I transformed it to use a metronome:
 ** (def metro (metronome 180))
@@ -153,7 +153,7 @@ Each touch plays for 1/10th of a second, so if I drag around these overlap a bun
 
 BONUS
 
-Control comes with the ability to dynamically create controls, even over OSC itself! This video shows [http://charlie-roberts.com/Control/?p=339 dynmically creating widgets in Control from SuperCollider], which should be straightforward to translate into Overtone.
+Control comes with the ability to dynamically create controls, even over OSC itself! This video shows [http://charlie-roberts.com/Control/?p=339 dynamically creating widgets in Control from SuperCollider], which should be straightforward to translate into Overtone.
 
 [http://minimal.be/control/widget-1.html Three part tutorial on creating reactive Control interfaces]
 

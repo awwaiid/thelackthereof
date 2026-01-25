@@ -11,7 +11,7 @@ Greetings! Welcome to The Lack Thereof's Correspondence College of Codecraft. Th
 
 Good question! Modern internet-based lessons, even many modern books, offer the source code for the lesson in a digital form. While it is convenient for the student to copy-paste or directly save the sample code for the lesson, we feel that the act of manually typing the lesson in allows the pupil's fingers to learn what it feels like to write a program.
 
-It isn't possible to enter a program, either one received through correspondence or one of your own design, without mistakes. As the student finds and fixes mistakes they will learn one of the most essential aspects of programming -- debugging. The student will also have the opprotunity to take shortcuts and make minor modifications while entering the program, which is the beginning of creative alterations and eventually full on software designing.
+It isn't possible to enter a program, either one received through correspondence or one of your own design, without mistakes. As the student finds and fixes mistakes they will learn one of the most essential aspects of programming -- debugging. The student will also have the opportunity to take shortcuts and make minor modifications while entering the program, which is the beginning of creative alterations and eventually full on software designing.
 
 And of course... because it's fun!
 
@@ -23,7 +23,7 @@ Students will first learn how to write interactive text-based programs.
 
 ## What about advanced lessons?
 
-Currently the college is only offering beginning lessons. As our student base advances we will continuously consider the most appropriate mechanisem to best push their knowledge forward. But for now we are starting with snail mail correspondence of beginner-level lessons only.
+Currently the college is only offering beginning lessons. As our student base advances we will continuously consider the most appropriate mechanism to best push their knowledge forward. But for now we are starting with snail mail correspondence of beginner-level lessons only.
 
 ## What language do you teach?
 

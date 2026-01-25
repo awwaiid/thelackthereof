@@ -12,7 +12,7 @@ Talking DC Vote Blues
 Today I saw an analysis of historical Presidential Elections and how close they
 were. They did a mathematical analysis to determine the smallest number of
 votes it would take to change the outcome of an election. This depends on the
-popular vote within a state, and the electorial vote between states.
+popular vote within a state, and the electoral vote between states.
 
   https://web.archive.org/web/20080923000039/https://www.msu.edu/~sheppa28/elections.html
 
@@ -23,7 +23,7 @@ all in florida of course, 269 votes would have changed the outcome.
 
 In contrast, to change the results of the 1972 Nixon-McGovern election you'd
 change votes in 26 states starting with Alaska and working your way down the
-list. You'd have to change over 3 million votes to do it the most effecient way
+list. You'd have to change over 3 million votes to do it the most efficient way
 possible.
 
 So I'm looking at this site, which contains all sorts of information about

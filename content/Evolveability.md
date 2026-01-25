@@ -5,7 +5,7 @@ createdAt: 2009-08-02T16:56-04:00
 updatedAt: 2009-08-02T16:56-04:00
 ---
 
-Litterally, the measure of how evolveable a genetic programming system is.
+Literally, the measure of how evolveable a genetic programming system is.
 
 So then comes the question -- what is this?
 

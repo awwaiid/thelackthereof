@@ -153,7 +153,7 @@ then [Simple transmit system] lasts 1 days
 then [Simple mgmt system] lasts 1 days
 then [Simple refund system] lasts 1 days
 then [Full Claim system] lasts 10 days
-[Full tramnsmit system] lasts 10 days and starts at [Simple refund system]'s end
+[Full transmit system] lasts 10 days and starts at [Simple refund system]'s end
 [Full mgmt system] lasts 10 days and starts at [Simple refund system]'s end
 [Full refund system] lasts 10 days and starts at [Simple refund system]'s end
 @endgantt
@@ -233,7 +233,7 @@ digraph g {
   * After end-to-end flow is established, depth on an individual piece can continue to lock in value
   * Once the first pass is done you can more safely parallel-path develop the sub-components
 * Psychology of BF-vs-DF
-  * https://arpitonline.com/2010/04/10/on-breadth-first-and-depth-first-thinking/ - says that breadth-first is indicative of a happy state of mind and is more conductive to out of hte box thinking, and that tension/pressure puts you into depth-first mode.
+  * https://arpitonline.com/2010/04/10/on-breadth-first-and-depth-first-thinking/ - says that breadth-first is indicative of a happy state of mind and is more conductive to out of the box thinking, and that tension/pressure puts you into depth-first mode.
     * "So concept in breadth first mode, execute in depth first."
   * http://www.dubberly.com/articles/middle-out-design.html - I was joking about calling it middle-out (Silicon Valley reference), and JoshC actually googled it and found this interesting article.
 

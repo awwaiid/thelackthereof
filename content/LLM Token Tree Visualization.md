@@ -45,7 +45,7 @@ A LOT of tokens are bits of sentences with a space in them already, rather than 
 
 A lot of models have a 32,000 token vocabulary. That is to say, there are 32,000 possible different tokens that could come next after the context. At each step these are fully ranked and weighted -- so the top-ranked might be choice-1, the second-best choice would be choice-2, and so on. Each of the tokens is assigned a weight (a "logprob", or logarithmic probability), and then ranking is basically the sorted list based on this weight.
 
-There are typically two token selection layers. First, most implementations narrow down to the top 40 or so possible tokens. Next they use a "temperature" multiplier and use the weights to randomly pick one of the tokens. If there is only one really-good choice, then the weights will make it so that it is VERY unlikely, if not impossibe, for some worse token to be chosen.
+There are typically two token selection layers. First, most implementations narrow down to the top 40 or so possible tokens. Next they use a "temperature" multiplier and use the weights to randomly pick one of the tokens. If there is only one really-good choice, then the weights will make it so that it is VERY unlikely, if not impossible, for some worse token to be chosen.
 
 We can see this by running the same prompt over and over again. Each time we run it we'll note each token, and then we'll build out a tree based on how the tokens showed up time after time.
 

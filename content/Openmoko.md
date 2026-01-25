@@ -45,7 +45,7 @@ I installed xournal in debian. It is a bit slow, though turning off its xinput s
 In debian the only real finger-friendly app I've used so far has been zhone itself. And for that fingers worked great. The om 2008.08 install had several finger-friendly apps that worked pretty well... system load or feedback did make it feel a bit odd sometimes. Om 2008.08 also has apps with the magical finger scroll stuff.
 
 ## Suspend
-After doing a full image-backup of the debian install on the microSD card and pplying the suggested suspend/resume scripts, suspend seems to work!
+After doing a full image-backup of the debian install on the microSD card and applying the suggested suspend/resume scripts, suspend seems to work!
 
 We'll see if it keeps working :)
 

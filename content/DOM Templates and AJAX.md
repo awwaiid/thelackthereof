@@ -13,9 +13,9 @@ The combination means that small parts of the screen can be updated without doin
 
 I've worked out a technique which will allow us to keep this feature and degrade and keep the back button. To do this you need an intelligent templating engine (server-side), which I call the Infusor. The infusor starts with a template as a base, and then infuses DOM changes provided by the rest of your program. The infusor is aware of the context of the request, and whether the browser is expecting a full page or just DOM updates.
 
-Correspondingly, there is a bit of javascript running on the client which passes extra parameters to the script letting it know to return just DOM changes, and then accepts and incorporates those DOM changes. The js is installed only on browsers which can handle the whole featurset required.
+Correspondingly, there is a bit of javascript running on the client which passes extra parameters to the script letting it know to return just DOM changes, and then accepts and incorporates those DOM changes. The js is installed only on browsers which can handle the whole feature set required.
 
-If the client, for example, turns off javascript in the middle of a session with the application there is no issue. The Infusor does not get the extra parameter requestiong DOM changes and instead sends the entire content. Like magic we degrade gracefully. The same is true if javascript is off and then suddenly gets turned on again.
+If the client, for example, turns off javascript in the middle of a session with the application there is no issue. The Infusor does not get the extra parameter requesting DOM changes and instead sends the entire content. Like magic we degrade gracefully. The same is true if javascript is off and then suddenly gets turned on again.
 
 As to the back button -- we take a page from continuation-based web programming here. Each output gets a unique page ID. If the infusor is asked to output the same page ID a second time, it sends the entire page instead of the DOM update.
 

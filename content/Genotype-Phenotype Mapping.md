@@ -5,7 +5,7 @@ createdAt: 2004-04-06T01:12-04:00
 updatedAt: 2004-04-06T01:12-04:00
 ---
 
-Biologically speaking, a Genotype is the DNA, a Phenotype is a John or Bob or Mary. As genetically-identical twins illustrate, just because you have the DNA for a trait doesn't mean that your actual person will exibit that trait. This is not so clean as it sounds, of course. There are tons and tons of factors in this mapping from the detailed DNA to the final (and ever changing) phenotype.
+Biologically speaking, a Genotype is the DNA, a Phenotype is a John or Bob or Mary. As genetically-identical twins illustrate, just because you have the DNA for a trait doesn't mean that your actual person will exhibit that trait. This is not so clean as it sounds, of course. There are tons and tons of factors in this mapping from the detailed DNA to the final (and ever changing) phenotype.
 
 But... I'm not so interested in Biology.
 

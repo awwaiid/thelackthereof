@@ -15,7 +15,7 @@ updatedAt: 2004-05-14T17:05-04:00
   i cannot be
   what i am not
   
-  no self-fullfilling
+  no self-fulfilling
   prophecy
   can come between
   my love and me

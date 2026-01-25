@@ -22,7 +22,7 @@ About the goals of discourse.
 
 Science vs Opinion.
 
-Even opinion has some strucuture, but science has more.
+Even opinion has some structure, but science has more.
 
 ### Chapter 8
 Goes on and on about madness. One interesting thing is he talks about group-think -- a nation which is mad where the individuals are only a little mad.
