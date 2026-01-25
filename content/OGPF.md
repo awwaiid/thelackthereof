@@ -6,7 +6,7 @@ updatedAt: 2005-04-23T22:19-04:00
 ---
 
 ## OCaml Genetic Programming Framework
-One of the greatest strengths of [[OCaml]] is in data structure manipulation, which is essentially what makes up a genetic programming framework. Thus OCaml is an excellent choice for such an endevor.
+One of the greatest strengths of [[OCaml]] is in data structure manipulation, which is essentially what makes up a genetic programming framework. Thus OCaml is an excellent choice for such an endeavor.
 
 The goal of [[OGPF]] is to create a modular framework for building genetic programming systems in [[OCaml]]. It is additionally an experiment in modular framework design, making heavy use of [[Functors]]. OGPF seeks to be a clean, elegant, and efficient solution to the question "How do I do genetic programming in OCaml?"
 
@@ -26,7 +26,7 @@ Other things that this thing needs (long-term stuff):
 * UI for managing runs
 * Statistical analysis of runs
 * Graphs of said statistics
-* History / Geneology in runs (also for analysis)
+* History / Genealogy in runs (also for analysis)
 * Preemption of runs
 
 ## Documentation

@@ -86,7 +86,7 @@ OK! Now we can finally have some fun!
 
 Load up http://localhost:5601/
 * Set index name to "trace"
-* Accept the timestamp field it automatically pics
+* Accept the timestamp field it automatically picks
 * Click into discover, and now you can slice and dice some stuff!
 
 Given a file, annotate the lines with a list of the tests that touch that line:

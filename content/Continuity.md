@@ -22,7 +22,7 @@ sub addTwo {
 
 Now looking at this code it is very clear what is going on. First we prompt the user for the first number by calling the getNum method. At this point the progam is suspended, waiting for input from the user. The user sees a webpage with the prompt and an input box. Once they submit their answer, the program picks up where it left off, putting the value given into $a. The process is repeated for getting the second number and putting it into $b.
 
-And thats the idea. This uses some Deep Magic called Continuations to make this work. Unfortunately Perl doesn't directly support this programming language concept (yet), so Continuity utilizes the [[Contize]] module to let Perl ''pretend'' that it has this power. In the tutorials we'll see how this will slightly change the way you code your applications.
+And that's the idea. This uses some Deep Magic called Continuations to make this work. Unfortunately Perl doesn't directly support this programming language concept (yet), so Continuity utilizes the [[Contize]] module to let Perl ''pretend'' that it has this power. In the tutorials we'll see how this will slightly change the way you code your applications.
 
 
 ## Tutorial

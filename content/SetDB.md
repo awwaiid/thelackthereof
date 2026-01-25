@@ -102,7 +102,7 @@ So in this setup it would make sense to add a book to a person, or add a locatio
 
 Things would be different, however, if we were using: (person, [book, location]). Here we are interpolating the book and its location into single tuples (so we would possibly have repeated books). Adding a record would imply adding both a book and a location.
 
-Actually... When we refer to (person, [book]) this is equivalent to (person, [has_book, book]). Then when we add a book, we also need to add a has_book. Thus a new entry in a subset means a new entry in all of the tables in that subset, including any linking tables. hmm. But as I said above it doesn't make sense to add too many linking tables. So there must be a way to tell the difference. Lets set up a situation...
+Actually... When we refer to (person, [book]) this is equivalent to (person, [has_book, book]). Then when we add a book, we also need to add a has_book. Thus a new entry in a subset means a new entry in all of the tables in that subset, including any linking tables. hmm. But as I said above it doesn't make sense to add too many linking tables. So there must be a way to tell the difference. Let's set up a situation...
 
-Take (person, [publisher]) -> (person, [has_book, book, has_publisher, publisher]). It is actually ambiguous to add a publisher in this case... too many inferred tables and we don't know which ones need new records and which ones don't. But in the case that there is only ONE connecting table, we definately want an entry.
+Take (person, [publisher]) -> (person, [has_book, book, has_publisher, publisher]). It is actually ambiguous to add a publisher in this case... too many inferred tables and we don't know which ones need new records and which ones don't. But in the case that there is only ONE connecting table, we definitely want an entry.
 

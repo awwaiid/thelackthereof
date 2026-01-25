@@ -5,7 +5,7 @@ createdAt: 2008-05-06T12:00-04:00
 updatedAt: 2008-05-06T16:30-04:00
 ---
 
-The idea here is that you can group the state of an application into levels or "scopes". Variables themselves already have a scope that is used (conceptualized) in structuring programs. When dealing with web apps scope can be complex. Between invocations of a web (CGI) app, even global variables are lost. State is insetad kept outside the app, either in a filesystem or database, or in client-based communication (cookies or query params).
+The idea here is that you can group the state of an application into levels or "scopes". Variables themselves already have a scope that is used (conceptualized) in structuring programs. When dealing with web apps scope can be complex. Between invocations of a web (CGI) app, even global variables are lost. State is instead kept outside the app, either in a filesystem or database, or in client-based communication (cookies or query params).
 
 In order to better conceptualize the state of a program in the face of such complexity we introduce the idea of State Scope based on a zoomed-out understanding of the state change flow. We consider scope not in terms of program syntax structure, but rather in any place we can identify continuously existing state through the running (or even between runs) of the app.
 

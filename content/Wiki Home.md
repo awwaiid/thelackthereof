@@ -9,7 +9,7 @@ Welcome to [http://thelackthereof.org/ thelackthereof.org] wiki. I've decided th
 
 Also, a lot of my friends have, over the years, taken to keeping online journals. This is sort of a social phenomenon -- it is a neat way to keep a whole lot of people up-to-date on the happenings in your life and visa versa. I did it for a while, but I am too distractable and inconsistent for it to work out in a nice neat little way. I've decided that I will create a different sort of an online journal here in the form of a Quinean Web of Beliefs. Sort of. When I do have date-based things, I'll put them in [[TLT]]. Best of both worlds!
 
-Because of the nonlinear nature of my design, please keep in mind that just wiki pages get old and the ideals of the author change. The Edited Date will give you clues... but only clues unfortunately. Thats the tradeoff for being nonlinear! Oh, and unless specified otherwise, all reflexive personal pronouns ("I", "my", "me") refer to me (Brock). But that doesn't mean that you can't contribute! In fact, please leave me a comment! Just go to [[Comments on The Lack Thereof]]
+Because of the nonlinear nature of my design, please keep in mind that just wiki pages get old and the ideals of the author change. The Edited Date will give you clues... but only clues unfortunately. That's the tradeoff for being nonlinear! Oh, and unless specified otherwise, all reflexive personal pronouns ("I", "my", "me") refer to me (Brock). But that doesn't mean that you can't contribute! In fact, please leave me a comment! Just go to [[Comments on The Lack Thereof]]
 
 Things to do here:
 * View my [[Resume]] and job-related information.

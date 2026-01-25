@@ -17,7 +17,7 @@ Thus the concept of Graviton has become popular. A Graviton is a subatomic parti
 ## Beyond Gravity
 Gravity itself is a minor role in the life of a graviton. As gravitons flow through all matter -- living, dead, dense lead, and even sponges -- it causes subtle influences which explain a lot more about our world than just gravity. 
 
-Lets start with Dark Matter. Dark matter is the missing variable which balances the total weight of the universe. Dark matter essentially gives off gravitons but is otherwise so far undetectable. Well that is because dark matter ''is'' gravitons. Once set free after the Big Bang, large amounts of gravitons filled the void of space, pushing and pulling until they spread out over everything. They, in fact, encouraged the expansion which followed the big bang... pulling things apart.
+Let's start with Dark Matter. Dark matter is the missing variable which balances the total weight of the universe. Dark matter essentially gives off gravitons but is otherwise so far undetectable. Well that is because dark matter ''is'' gravitons. Once set free after the Big Bang, large amounts of gravitons filled the void of space, pushing and pulling until they spread out over everything. They, in fact, encouraged the expansion which followed the big bang... pulling things apart.
 
 Second is the concept of soul. When a human dies their body instantly loses some weight... that is it instantly loses a significant amount of graviton-generating power. The center of a life is the soul... the gravitons which add coherence to it as a being.
 

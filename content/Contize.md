@@ -11,7 +11,7 @@ updatedAt: 2007-09-28T12:28-04:00
 
 Contize is a sort of proxy object. You create an instance of your original object, and then give it to Contize. Contize then takes over that object (and you work with the Contize object but pretend it is still the original) and lets the object pretend that it can be suspended and restarted.
 
-This is a pretty trick concept, and the best way to get your brain around the whole thing is to contemplate why I created it in the first place, namely so that I can do [[Continuation-based Web Programming]] in Perl CGI programs (See [[Web Programming With Contize]]. Well... actually the ''best'' way to make sense of this is to see some code, and the most relevant code is CGI programming stuff. So lets see some!
+This is a pretty trick concept, and the best way to get your brain around the whole thing is to contemplate why I created it in the first place, namely so that I can do [[Continuation-based Web Programming]] in Perl CGI programs (See [[Web Programming With Contize]]. Well... actually the ''best'' way to make sense of this is to see some code, and the most relevant code is CGI programming stuff. So let's see some!
 
 ```
 #!/usr/bin/perl

@@ -19,7 +19,7 @@ So here is the plan: First I will record a timeline of events, a pretty factual 
 * 1995 : Switch from Dysart to Peoria school district
 * 1998 : Began using GNU/Linux all the time
 * 1999-01 : Family moved to Idaho, he remained in Surprise
-* 1999-05 : Graduated from Centenial HS
+* 1999-05 : Graduated from Centennial HS
 * 1999-09 : Began attending NAU as a CSE Major
 * 1999-09 : Met Beth
 * 2000 Summer : Went to LLNL, worked for Jean S

@@ -11,9 +11,9 @@ Vladimir was born out of a few smaller applications needing improvement. The ide
 
 In addition to talking to me, Vladimir will talk to other people too. My ultimate goal is to tell people to "email Vladimir" and set up an appointment with me. Because of this I am investigating natural language interfaces to Vladimir. Natural language is a funny thing -- not nearly as efficient as cryptic short commands, but significantly more user-friendly.
 
-Vladimir is structured through several layers. The outter shell is a very slim interface to the command line or email or AIM (etc). These interfaces do the bare necessities of their respective protocol, getting the conversation out and passing it on to the main layer.
+Vladimir is structured through several layers. The outer shell is a very slim interface to the command line or email or AIM (etc). These interfaces do the bare necessities of their respective protocol, getting the conversation out and passing it on to the main layer.
 
-The main layer is more of a moderator, allowing all the modules a chance to respond to whatever input he received. An arbitrator of sorts. The modules themselves do a lot of work. They each (in turn) get a whack at handling the input and handling it in some way. One thing I'm toying around with is an idea of "context levels" to assist the moderator. Heres a rundown:
+The main layer is more of a moderator, allowing all the modules a chance to respond to whatever input he received. An arbitrator of sorts. The modules themselves do a lot of work. They each (in turn) get a whack at handling the input and handling it in some way. One thing I'm toying around with is an idea of "context levels" to assist the moderator. Here's a rundown:
 
 Context Levels
 * 0 - None. There is no need to reference any other part of any conversation.
