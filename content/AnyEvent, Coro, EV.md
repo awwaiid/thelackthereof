@@ -53,7 +53,7 @@ Things that depend/make use of libev:
 
 ### Language bindings
 * Perl
-* Pythong
+* Python
 * Ruby
 * C#
 * C / C++

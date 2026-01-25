@@ -29,5 +29,5 @@ Install:
 Fun stuff:
 * Just about everything works out of the box
 * At first it didn't work, but after a kernel upgrade I can use the HDMI and the VGA and the built in screen all at the same time. Triple screens!
-* bumblebee provides 'optirun', which lets me run an individual program with the accellerated nvidia card. Fancy!
+* bumblebee provides 'optirun', which lets me run an individual program with the accelerated nvidia card. Fancy!
 

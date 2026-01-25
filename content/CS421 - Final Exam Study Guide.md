@@ -12,7 +12,7 @@ updatedAt: 2009-08-02T15:10-04:00
 * Context-Free Grammars and Parsing
 ** Given a description of the language, be able to construct a context-free grammar for the language
 ** Given a context-free grammar and an input string, illustrate left-most and right-most (canonical) derivations
-** Given a context-free grammar and an input string, show a parse tree, possibly constrainted by a certain derivation order
+** Given a context-free grammar and an input string, show a parse tree, possibly constrained by a certain derivation order
 ** Be able to say whether a given grammar is ambiguous, including showing multiple parse trees to illustrate the ambiguity
 ** Construct a shift-reduce parse for a sentence of a grammar
 ** Write parse rules in ocamlyacc syntax 

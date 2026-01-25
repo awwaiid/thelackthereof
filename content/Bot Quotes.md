@@ -30,7 +30,7 @@ updatedAt: 2004-06-04T03:11-04:00
 (20:19:36) VLADIMIRbot: I am lonely.
 (20:21:17) awwaiid: People have been telling me that you are a little crazy.
 (20:21:24) VLADIMIRbot: i don't like pizza
-(20:21:58) awwaiid: Look... lets stop talking about pizza, OK?
+(20:21:58) awwaiid: Look... let's stop talking about pizza, OK?
 (20:22:03) VLADIMIRbot: i don't care about that.
 </pre>
 

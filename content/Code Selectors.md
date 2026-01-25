@@ -5,9 +5,9 @@ createdAt: 2005-07-22T12:49-04:00
 updatedAt: 2006-03-06T14:58-05:00
 ---
 
-Lets contemplate the relationship between HTML and CSS. Imagine that each HTML tag is an object, in the OOP sense of the word. It has a set of attributes, things like align, border, color. It also has one method, render(). When render() is called the object looks at its attributes and decides on how to render itself.
+Let's contemplate the relationship between HTML and CSS. Imagine that each HTML tag is an object, in the OOP sense of the word. It has a set of attributes, things like align, border, color. It also has one method, render(). When render() is called the object looks at its attributes and decides on how to render itself.
 
-Now add CSS into the mix. When the render method is invoked on our tag object it doesn't just look at its own fixed attributes, it additionally queries the CSS to discover other attribute settings it has, given its current relation to neighboring and parent tag-objects. Lets imagine that the CSS is itself a single object, and the tag-object only has to ask for specific attributes from the CSS-object. It is the CSS-object's job to figure out what attribute values to give in the current context of the tag-object.
+Now add CSS into the mix. When the render method is invoked on our tag object it doesn't just look at its own fixed attributes, it additionally queries the CSS to discover other attribute settings it has, given its current relation to neighboring and parent tag-objects. Let's imagine that the CSS is itself a single object, and the tag-object only has to ask for specific attributes from the CSS-object. It is the CSS-object's job to figure out what attribute values to give in the current context of the tag-object.
 
 In the HTML/CSS world we (theoretically) don't really have to use a variety of HTML tags. We could just use DIV for everything, altering the rendered result to look like any other tag through CSS attributes. Standard HTML tags are merely a set of default attribute values. This is because our conceptual tag-objects have only the one method, render(), which works the same way for every tag to apply all the attributes creating a visual result.
 
@@ -85,7 +85,7 @@ CSS-style selectors is one approach, another (more straightforward?) way is to t
 
 All CSS selectors are is an order-of-evaluation and precedence of the attributes for tags. Things are described generally and then overridden again and again as it gets more specific. This reminds me of an object hierarchy... but is less tied to actually objects. We are more worried about the context of the <i>display</i> of our objects, not what the objects themselves are derived from.
 
-So lets see. Lets have a $context var that gets passed to these objects when they are rendered. They add to and override things in the context, and themselves automatically get added or something. Then when they render sub-components they pass along the $context as well.
+So let's see. Let's have a $context var that gets passed to these objects when they are rendered. They add to and override things in the context, and themselves automatically get added or something. Then when they render sub-components they pass along the $context as well.
 
 ----
 
