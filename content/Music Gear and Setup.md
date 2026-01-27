@@ -82,7 +82,7 @@ I have one script named 'musicstuff.sh' what gets things going, primarily Jack. 
 ```
 # Jack GUI and jackd itself
 if grep -q io2 /proc/asound/cards ; then
-  echo "Runing with iO2"
+  echo "Running with iO2"
   qjackctl -s -p io2normal &
 else
   echo "Running with onboard sound"

@@ -76,7 +76,7 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 * [[Polly]] - A very simple perl wrapper around some command-line audio players
 * [[Rubiks Cube Solver]] - I finally got my very own Rubik's Cube!
 * [[Scrutiny Debugger]] - PSGI/Plack Middleware providing a debugger
-* [[SetDB]] - A set-theoretical datbase interface
+* [[SetDB]] - A set-theoretical database interface
 * [[Skechiki]] - A Perl/GTK sketchbook for small touch-screen devices
 * [[Sport Logo Quiz Game]] - Test your knowledge of sport team logos!
 * [[The Fridge]] - A javascript/php refrigerator (complete)
@@ -85,7 +85,7 @@ I probably won't be doing much with these. This ''could'' mean that they are in 
 * [[VladimirBot]] - Personal assistant bot
 * [[WayV]] - Building on Mike Bennett's gesture recognition app
 * [[Web Board Games]] - Web based 2D board games
-* [[White Elephant Gift Selecter]] - Web app to pick the perfect gift!
+* [[White Elephant Gift Selector]] - Web app to pick the perfect gift!
 * [[Zend Hacking]] - Feeling my way around (abandoned)
 
 

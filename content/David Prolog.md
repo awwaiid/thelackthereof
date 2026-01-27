@@ -30,7 +30,7 @@ updatedAt: 2008-05-01T01:12-04:00
 ; ***** Begin provided code
 
 ;; load-file is a simple function that loads the definitions from a file
-;; It recursives calls itself, reading one line at a time; on the recursive return, it cons'es
+;; It recursively calls itself, reading one line at a time; on the recursive return, it cons'es
 ;; all of the lines together in a giant list, which it returns to caller.
 (define load-file
   (lambda (port)
@@ -72,7 +72,7 @@ updatedAt: 2008-05-01T01:12-04:00
 (define unify (lambda (goal matchto)
                 (unifyhelp goal matchto '( () () ))))
 
-;; the meat of unification.  Wrapper just passes emtpy bind list to start things off.
+;; the meat of unification.  Wrapper just passes empty bind list to start things off.
 (define unifyhelp 
   (lambda (goal matchto binds) 
     (cond ((and (null? goal) (null? matchto)) binds  ) ;; both empty. We're done!
@@ -99,7 +99,7 @@ updatedAt: 2008-05-01T01:12-04:00
 
 ;;  OVERVIEW:  It is a given that variables in the fact base are independent, i.e., when you see ?x in one clause, it's
 ;;  different from the ?x that appears in another clause.  But the fact that these two variables LOOK the same can be
-;;  a huge pain in the butt in the unification process.  To avoid huge headaches, its best to just make all variables
+;;  a huge pain in the butt in the unification process.  To avoid huge headaches, it's best to just make all variables
 ;; in the fact base unique right from the start!  The UNIQUE function (aided by its helpers) below does this.  Simply
 ;; put, it takes every variable it finds in an input clause, and replaces it with a unique, newly-generated variable.  
 ;; Of course, appearances of the same variable within the same clause must be replaced by the same new unique variable
@@ -147,8 +147,8 @@ updatedAt: 2008-05-01T01:12-04:00
     ))
 
 ;;  Another simple helper function.  Deep-replace does a replace of a TARGET item withe a NEWONE item in some input list. The
-;; reason it is "deep" is that the input list may be mulitply nested, ie, it replaces the target item no matter how deeply it's
-;; buring in the nested input list.  Used to replace variables with values in goal lists as we go along. There are lots of ways to
+;; reason it is "deep" is that the input list may be multiply nested, ie, it replaces the target item no matter how deeply it's
+;; buried in the nested input list.  Used to replace variables with values in goal lists as we go along. There are lots of ways to
 ;; implement this simple function; this is just one way to do it...
 (define deep-replace 
   (lambda (target newone alist)
@@ -200,7 +200,7 @@ updatedAt: 2008-05-01T01:12-04:00
 (define check-goals
   (lambda (goallist currentfactlist)
     (let ((result (cons-goals goallist currentfactlist)))
-      ; This is wrong, goals are interdependant.
+      ; This is wrong, goals are interdependent.
       (if (member #t result)
         "fail"
         (car result)

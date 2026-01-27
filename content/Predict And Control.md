@@ -9,7 +9,7 @@ updatedAt: 2011-07-21T07:35-04:00
 
 In [[Predicting the Future]], I put forth the idea that predicting the future is the embodiment of Free Will. I think that can be refined.
 
-There are various ways that people attempt to measure intelligence, IQ being the most famous, though of course having many advocates and enemies. Another framework for intelligence is the "multiple intelligences", which breaks the notion down into a set of categories, each with some independent (perhaps non-numerical) measure. Either way, they both backet out one's abilities and limits into various categories.
+There are various ways that people attempt to measure intelligence, IQ being the most famous, though of course having many advocates and enemies. Another framework for intelligence is the "multiple intelligences", which breaks the notion down into a set of categories, each with some independent (perhaps non-numerical) measure. Either way, they both bracket out one's abilities and limits into various categories.
 
 I wish to instead take a step back toward a more general definition of intelligence, one which overlaps with some of the categories presented in other measures of intelligence. Namely, I propose that "intelligence" is equivalent to "ability to accurately predict the future".
 

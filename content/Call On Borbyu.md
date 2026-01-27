@@ -55,7 +55,7 @@ To a perfect quest
 [chorus]
 
 When Borbyu arrived
-The towns people cheered
+The townspeople cheered
 Then suddenly the dragon
 From nowhere appeared
 

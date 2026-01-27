@@ -46,7 +46,7 @@ I never want to be the same thing twice... so:
 Robot
 Turtle
 Zorro
-Andy (of Ragedy Anne).
+Andy (of Raggedy Ann).
 Friar tuck?
 
 WWHH -- [[Wilcox Waddell Halloween Hayride]]

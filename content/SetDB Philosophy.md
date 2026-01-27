@@ -9,7 +9,7 @@ updatedAt: 2015-07-27T16:52-04:00
 I've never quite been satisfied as a programmer of databases... when wearing my database designer hat I get to think in terms of relational set theory. When I put on my programmer hat I get to think in terms of rows. No fun at all. I decided that it would be Cool to let my programmer-hat-person get a better view of the database.
 
 ### Database Design Theory
-First we must get our database theory in line. Relational databases are powerful tools which can be understood in a variety of ways. Having a mathematical background, I prefer to think of a database as sets (or multisets in some cases) and functions relating one set to another. Most folks with a background in programming datastructures see them as nodes and pointers, and I sometimes slip into this tendancy.
+First we must get our database theory in line. Relational databases are powerful tools which can be understood in a variety of ways. Having a mathematical background, I prefer to think of a database as sets (or multisets in some cases) and functions relating one set to another. Most folks with a background in programming datastructures see them as nodes and pointers, and I sometimes slip into this tendency.
 
 ----
 
@@ -31,7 +31,7 @@ Various JOIN syntaxes:
 (02:52:04) awwaiid: you can see the result with the nested while loops
 (02:53:19) awwaiid: oh, missed the 'use DBI' line. grr.
 (02:53:43) TheOrbTwo: Heh, it's always nice to test the code before you post it...
-(02:54:22) awwaiid: well I had this exact thing, then decided I should chop some since nobody could use this without going and getting the reset of the modules anyway, and then you talked me into adding back the chopped bits :)
+(02:54:22) awwaiid: well I had this exact thing, then decided I should chop some since nobody could use this without going and getting the rest of the modules anyway, and then you talked me into adding back the chopped bits :)
 (02:56:02) TheOrbTwo: Hm, I read the code in /projects/perl/setdb, and am left with two thoughts: Where do those magic subs come from, and where's the rest of it?  It seems too simple.
 (02:56:24) awwaiid: that uses SetDB::Set and SetDB::Tuple
 (02:56:32) awwaiid: most of the work is in SetDB::Set
@@ -65,7 +65,7 @@ $notes->filter('level = 0', note);
 (03:05:17) awwaiid: self referential tables are confusing, so it makes sense that the code which manipulates them would be confusing too. For example, the 'note' in the second line there refers to the first 'note' in (note, [note])
 (03:05:36) awwaiid: (though this is all theoretical since, as I said, I have not actually implemented filters yet)
 (03:06:21) TheOrbTwo: Oh, I was thinking more in terms of "give me the tree underneath note ID $n": $tree = $db->newSet('note', {id=>$n}, ['note' => ['parent_note']]);
-(03:06:40) TheOrbTwo: BTW, the questions are from PM's database orginization.
+(03:06:40) TheOrbTwo: BTW, the questions are from PM's database organization.
 (03:07:48) TheOrbTwo: (Where that hashref specifies what's required of the 'note' preceeding it, and the inner arrayref specifies the path used to get to a note from a note.
 (03:07:59) awwaiid: I was thinking of reserving hash-refs for table renaming. so $db->newSet(person, [has_book, book, [wrote_book, {person => author}]]);
 (03:08:00) awwaiid: :)

@@ -31,7 +31,7 @@ In no particular order, these are a few of my favorite things!
 * Sherlock Holmes
 * Coffee Shops
 * The Internet
-* Daniel C Dennet
+* Daniel C Dennett
 * Clever Hacks
 * Magic Tricks
 * Mathematical Puzzles

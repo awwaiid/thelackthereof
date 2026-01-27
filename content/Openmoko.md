@@ -25,7 +25,7 @@ Just like the latest Om distro, but with apps and some minor fixes already insta
 I dropped the latest qtopia on there. It looks nice, but not being able to run gtk apps killed it for me. Again, I haven't tested the phone call abilities because it was before I had the sim card. I went back to Om 2008.08.
 
 ; Debian :
-So far this is my favorite. I used their fancy install script to nuke my 8gig microSD card and set everything up. It took something like 2 hours to run, and had no issues at all. Once running, via ssh (since zhone-only is the default UI and there is no terminal to be found) I switched to xfce and have been having a wonderful time ever since. Zhone itself can run in a window in xfce. With this distro I have apt-get access to all of debian and a full linux desktop. Easier to start out full and complex and widdle back down to simplicity, I say!
+So far this is my favorite. I used their fancy install script to nuke my 8gig microSD card and set everything up. It took something like 2 hours to run, and had no issues at all. Once running, via ssh (since zhone-only is the default UI and there is no terminal to be found) I switched to xfce and have been having a wonderful time ever since. Zhone itself can run in a window in xfce. With this distro I have apt-get access to all of debian and a full linux desktop. Easier to start out full and complex and whittle back down to simplicity, I say!
 
 ## MicroSD Card
 I got the SanDisk 8gb card, and so far it works perfectly.
@@ -50,7 +50,7 @@ After doing a full image-backup of the debian install on the microSD card and ap
 We'll see if it keeps working :)
 
 ## General Software
-Debian has everything! I even got iceweasle (aka firefox) running without any problems at all.
+Debian has everything! I even got iceweasel (aka firefox) running without any problems at all.
 
 ## Perl
 CPAN took a reallllyyyyyy long time to run... something about building up some list of something or other. But then it went much faster. The machine (I'm increasingly thinking of this as just-another-machine) crawled to a near standstill that I was only barely convinced it wasn't stuck.

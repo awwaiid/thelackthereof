@@ -9,5 +9,5 @@ We were reluctant to watch this movie at first because it seemed like it would b
 
 Though Adam contributes to our madness as well.
 
-This movie is hilarious. Watch it. Or die in a freak gassoline fight accident!
+This movie is hilarious. Watch it. Or die in a freak gasoline fight accident!
 

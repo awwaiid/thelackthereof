@@ -142,7 +142,7 @@ updatedAt: 2008-02-08T01:32-05:00
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Here is my skeleton for checkwin.  You can decide whether you want to use it or not.  The bottom
 ;; line is that we need a way to check rows, cols, diags in the board --- and yet only rows are easily
-;; accessible in our board represention.   The answer: build yourself linear reprs
+;; accessible in our board representation.   The answer: build yourself linear reprs
 ;; of cols and diags first, then check to see if there is a "win" along any of them!  
 ;; So make-cols makes me a list of the cols; make-diags makes me a list of the diags.  I then just
 ;; check each for winner (all x's or all o's) and or the result together.  If one of the results is positive,
@@ -352,9 +352,9 @@ updatedAt: 2008-02-08T01:32-05:00
 
 (set! ttboard '((_ o _) (_ x _) (_ _ x)))
 
-(test "Premaid board - Ech checkposition 1" (checkposition 2 2) #f)
-(test "Premaid board - Ech checkposition 2" (checkposition 23 555) #f)
-(test "Premaid board - Ech checkposition 3" (checkposition 1 1) #t)
+(test "Premade board - Eck checkposition 1" (checkposition 2 2) #f)
+(test "Premade board - Eck checkposition 2" (checkposition 23 555) #f)
+(test "Premade board - Eck checkposition 3" (checkposition 1 1) #t)
 
 (ttnew-game)
 

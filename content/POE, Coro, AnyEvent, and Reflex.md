@@ -12,7 +12,7 @@ For [http://www.yapc2011.us/yn2011/ YAPC::NA 2011] I gave a talk, [http://www.ya
 ## Introduction
 I hope to give you a very high-level introduction to these four technologies, and a few examples to illustrate their philosophies and usage.
 
-One of the very simple examples I use is called 'sleep sort'. This is a fun little algorithm first introduced by the unique minds of 4chan. The game is to write a simple command line program that takes a list of numbers as arguments, and then print them out in sorted order. The fun bit is how this is done -- for each number argument X they fork and then sleep for X seconds before printing out X. One way to put it is that this is a sort that utilizes time instead of space. Quite bizarre and amusing. Here's an example of this using fork that the reset of our samples resembles; note that it sits there forever and will require a ^C to terminate.
+One of the very simple examples I use is called 'sleep sort'. This is a fun little algorithm first introduced by the unique minds of 4chan. The game is to write a simple command line program that takes a list of numbers as arguments, and then print them out in sorted order. The fun bit is how this is done -- for each number argument X they fork and then sleep for X seconds before printing out X. One way to put it is that this is a sort that utilizes time instead of space. Quite bizarre and amusing. Here's an example of this using fork that the rest of our samples resembles; note that it sits there forever and will require a ^C to terminate.
 
 ```
 use 5.12.0;

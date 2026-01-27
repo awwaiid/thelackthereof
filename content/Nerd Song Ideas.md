@@ -35,7 +35,7 @@ Don't repeat yourself
 But I asked myself
 How can that be
 When such a thing
-Is hypocrasy
+Is hypocrisy
 
 Cause' the other day
 It said the tight coupling

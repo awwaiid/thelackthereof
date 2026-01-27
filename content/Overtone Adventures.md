@@ -34,7 +34,7 @@ Ah! I need to do (use 'overtone.inst.piano) not (:use overtone.inst.piano).
 * (odoc note) shows that it takes a bunch of params
 * (piano 60), (piano 65), etc plays some nice piano notes
 * I looked up named parameteters in clojure. (piano :note 65) does what I want
-* Achievement unlocked ... I can now use all the intstruments on the cheat sheet!
+* Achievement unlocked ... I can now use all the instruments on the cheat sheet!
 * Now when I do "(piano :note 60) (piano :note 65) (piano :note 69)" (still in REPL) it plays all three notes at once. Need to learn how to sequence things.
 * I think I'll go back to that workshop video
 * At 13:40 they talk about sequencing things

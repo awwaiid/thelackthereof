@@ -52,7 +52,7 @@ Here is a regular expression which can get all of these things:
 * $8 - File extension
 
 ## Capitalization
-All the first letters of each word shall be capitalized. All other letters will be lowercase, exept for acronyms of course.
+All the first letters of each word shall be capitalized. All other letters will be lowercase, except for acronyms of course.
 
 ## Artist Names
 Artists will be named as "Firstname Lastname" (<b>not</b> inverted).

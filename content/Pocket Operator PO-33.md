@@ -18,7 +18,7 @@ Resources:
 Data
 * Sound 1-8, "Melodic"
   * Single sound per button
-* Sound 9-16, "Drump"
+* Sound 9-16, "Drum"
   * 16 sound-slices per button
   * Each slice is an independent thing
 

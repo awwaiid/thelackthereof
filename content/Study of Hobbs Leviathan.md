@@ -1,5 +1,5 @@
 ---
-title: Study_of_Hobbs'_Leviathan
+title: Study_of_Hobbes'_Leviathan
 tags: []
 createdAt: 2007-03-18T13:29-04:00
 updatedAt: 2007-03-25T14:30-04:00
@@ -7,7 +7,7 @@ updatedAt: 2007-03-25T14:30-04:00
 
 Moved to http://aspbc.42t.org/Brock
 
-We've started a book club to study political philosophy, and are starting with Hobbs. Here are some random notes.
+We've started a book club to study political philosophy, and are starting with Hobbes. Here are some random notes.
 
 ## Part I
 Mostly setup I think.

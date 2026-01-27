@@ -77,7 +77,7 @@ Quoting with permission, March 20, 2004:
 
 <Sunir> software is interesting in that while all information is both bits + encoding, software makes the encoding also bits
 
-<awwaiid> though your analogy seems to be becomming inappropriate when comparing post-modern=community, modern=document-centric, etc
+<awwaiid> though your analogy seems to be becoming inappropriate when comparing post-modern=community, modern=document-centric, etc
 
 <Sunir> software then incorporates time
 
@@ -143,11 +143,11 @@ Quoting with permission, March 20, 2004:
 
 <Sunir> which is why you need the community to decode the text; it's not very clear to outside observers.
 
-<Sunir> trust me, most pepole don't understand what we write 
+<Sunir> trust me, most people don't understand what we write 
 
 <Sunir> ok, onto your question
 
-<Sunir> Coyplefting doesn't stop people from accessing the text.
+<Sunir> Copylefting doesn't stop people from accessing the text.
 
 <awwaiid> I see. So by the time they understand the wiki they are basically part of the community, sharing the common language
 

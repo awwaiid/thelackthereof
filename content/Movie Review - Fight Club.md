@@ -7,7 +7,7 @@ updatedAt: 2004-05-27T22:32-04:00
 
 I've enjoyed this movie each and every time I've seen it. That is saying quite a bit because I've seen it quite a few times. The funny thing is that I like it philosophically and as a work of art... but in general I am opposed to the bloody violence in most films. This movie somehow escapes my blood-o-meter.
 
-The subtlties of the film itself are amazing. Each little bit is thought out and put in its place. From the camera angles and the light use of CGI to the subtle plot hints it is indeed a masterpiece.
+The subtleties of the film itself are amazing. Each little bit is thought out and put in its place. From the camera angles and the light use of CGI to the subtle plot hints it is indeed a masterpiece.
 
 Oh. And I love Edward Norton.
 

@@ -29,7 +29,7 @@ keycode  17 = asterisk 8
 keycode  18 = parenleft 9
 keycode  19 = parenright 0
 
-! And the curleys while we're at it
+! And the curlies while we're at it
 keycode  34 = braceleft bracketleft
 keycode  35 = braceright bracketright
 ```

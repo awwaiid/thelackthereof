@@ -46,7 +46,7 @@ http://www.pst.informatik.uni-muenchen.de/~rauschma/cgi-bin/read/wiki.cgi?Contin
 
 A good introduction to quantum computing / entanglement - http://plato.stanford.edu/entries/qt-entangle/
 
-[http://www.sciam.com/print_version.cfm?articleID=000CB565-F330-11BE-AD0683414B7F0000 artilce on self-esteem]
+[http://www.sciam.com/print_version.cfm?articleID=000CB565-F330-11BE-AD0683414B7F0000 article on self-esteem]
 
 
 [[Create Tracker Item]] or [[Tracker Status]]
@@ -159,7 +159,7 @@ left:Miko_In_Window.jpg This is Miko in the window.
 
 ----
 
-Random thought: Evolved programs work mostly through side-affects. Same is true of evolved biological systems... need to be analyzed not based on intent but rather on influence. What parts of this process can _possibly_ affect this other process?
+Random thought: Evolved programs work mostly through side-effects. Same is true of evolved biological systems... need to be analyzed not based on intent but rather on influence. What parts of this process can _possibly_ affect this other process?
 
 ----
 

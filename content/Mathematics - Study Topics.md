@@ -10,7 +10,7 @@ Topics include:
 * types of #s
 * operations (plus, minus, multiplication)
 ** Properties of operations
-** Commutitive, associative, distributive
+** Commutative, associative, distributive
 * vocabulary, synonyms, phrases
 * negative numbers
 * number line (introduction)

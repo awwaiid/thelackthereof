@@ -57,5 +57,5 @@ module type Sig = sig
 end
 ```
 
-One debate I'm currently having with myself is whether Genotypes should be responsible for evaluating themselves. One the one had self-evaluation makes the genotype more modular, keeping the fitness test from having this job. On the flip side the fitness test must then know how to communicate the problem setup to the genotype.
+One debate I'm currently having with myself is whether Genotypes should be responsible for evaluating themselves. On the one hand self-evaluation makes the genotype more modular, keeping the fitness test from having this job. On the flip side the fitness test must then know how to communicate the problem setup to the genotype.
 
