@@ -8,7 +8,7 @@ updatedAt: 2011-10-16T09:10-04:00
 # Debugging Gems
 Tags: Perl, Debugging, Programming, Science
 
-I've been enjoying the blog entries of Carl Mäsak lately, and not just the [http://strangelyconsistent.org/blog/yapsi-201103-released Yapsi Release Notes]. Though those are awefully awesome.
+I've been enjoying the blog entries of Carl Mï¿½sak lately, and not just the [http://strangelyconsistent.org/blog/yapsi-201103-released Yapsi Release Notes]. Though those are awfully awesome.
 
 
 [http://strangelyconsistent.org/blog/im-doing-science-and-im-still-alive I'm Doing Science And I'm Still Alive]
