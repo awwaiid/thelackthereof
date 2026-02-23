@@ -65,7 +65,6 @@
       path: page.value?.path || route.path,
       filename: page.value ? `${page.value.stem}.${page.value.extension}` : null
     };
-    console.log('[slug.vue] Updated pageState:', pageState.value, 'page.value.stem:', page.value?.stem, 'page.value.extension:', page.value?.extension);
   });
 
   function cleanTitle(value) {

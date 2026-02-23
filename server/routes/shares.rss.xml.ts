@@ -18,7 +18,7 @@ async function modifyFeed(feedUrl, newDescription) {
 
     // Remove duplicates and filter out some sections
     const seen = new Set();
-    result.rss.channel[0].item = result.rss.channel[0].item.filter(item => {
+    result.rss.channel[0].item = (result.rss.channel[0].item || []).filter(item => {
       const key = item.link[0];
       if (seen.has(key)) {
         return false;

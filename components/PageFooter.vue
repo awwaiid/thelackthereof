@@ -47,9 +47,7 @@ const showFooter = computed(() => {
 });
 
 const pageExists = computed(() => {
-  const exists = pageState.value?.exists || false;
-  console.log('[PageFooter] pageExists:', exists, 'pageState:', pageState.value);
-  return exists;
+  return pageState.value?.exists || false;
 });
 
 const editUrl = computed(() => {
@@ -57,7 +55,6 @@ const editUrl = computed(() => {
   if (!isAuthenticated.value) return null;
 
   const filename = pageState.value?.filename;
-  console.log('[PageFooter] filename:', filename, 'pageState:', pageState.value);
   if (!filename) return null;
   return `/admin/edit?file=${encodeURIComponent(filename)}`;
 });

@@ -41,7 +41,7 @@ export function createSession(username: string): SessionData {
  * Get a session by ID
  * Returns null if session doesn't exist or has expired
  */
-export function getSession(sessionId: string): SessionData | null {
+export function getAdminSession(sessionId: string): SessionData | null {
   const session = sessions.get(sessionId);
 
   if (!session) {

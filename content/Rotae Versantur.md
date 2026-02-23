@@ -30,12 +30,12 @@ Equipment:
   * Toggle Rolling vs Stopped
 * Turn a Wheel
   * Set [MODE] for that track
-  * Amp, Seek, Pan, Reverb
+  * Amp, Pan, Reverb, Tone
 * Button + Wheel 1
-  * Set MODE
-  * Amp, Seek, Pan, Reverb
+  * Seek
 * Button + Wheel 2
-  * Select muted tracks (?)
+  * Set MODE
+  * Amp, Pan, Reverb, Tone
 * Button + Wheel 3
   * Select recording track
 * Button + Wheel 4
@@ -44,3 +44,4 @@ Equipment:
 ## Thoughts
 
 This is a non-DAW setup, the idea being that we want more than a single recording but less than the distraction of an overly powerful computer. Four track recorders have been used to make a lot of great things, they appear to be sufficient for some complex pieces. Why buy one when I could buy something even more expensive and write some Lua and Supercollider code?
+

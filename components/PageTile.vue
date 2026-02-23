@@ -23,8 +23,8 @@
       </div>
     </div>
 
-  <NuxtLink :to="page.path">
-    <div class="m-2 flex flex-col">
+  <NuxtLink :to="page.path" custom v-slot="{ navigate }">
+    <div class="m-2 flex flex-col cursor-pointer" @click="navigate">
       <div v-if="page.image && !previewHasImage" class="basis-1/3 pb-2 flex justify-center">
         <img class="w-max max-h-40" :src="imageUrl(page.image)">
       </div>

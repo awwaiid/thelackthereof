@@ -1,5 +1,5 @@
 import { getCookie } from 'h3';
-import { getSession } from '~/server/utils/session';
+import { getAdminSession } from '~/server/utils/session';
 
 export default defineEventHandler((event) => {
   const path = event.node.req.url || '';
@@ -21,7 +21,7 @@ export default defineEventHandler((event) => {
   const sessionId = getCookie(event, 'admin_session');
 
   // Check if session exists and is valid
-  const session = sessionId ? getSession(sessionId) : null;
+  const session = sessionId ? getAdminSession(sessionId) : null;
 
   if (!session) {
     // For API endpoints, return 401
