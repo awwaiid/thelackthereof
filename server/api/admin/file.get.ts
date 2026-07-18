@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { getContentDir } from '~/server/utils/contentDir';
 
 export default defineEventHandler(async (event) => {
   const query = getQuery(event);
@@ -21,15 +22,7 @@ export default defineEventHandler(async (event) => {
     });
   }
 
-  // In production, process.cwd() might be .output, so we need to find content dir
-  let contentDir = path.join(process.cwd(), 'content');
-
-  // If content doesn't exist at cwd, try parent directory (production build scenario)
-  if (!fs.existsSync(contentDir)) {
-    contentDir = path.join(process.cwd(), '..', 'content');
-  }
-
-  const filePath = path.join(contentDir, filename);
+  const filePath = path.join(getContentDir(), filename);
 
   try {
     if (!fs.existsSync(filePath)) {

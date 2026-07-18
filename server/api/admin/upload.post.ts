@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { getContentDir } from '~/server/utils/contentDir';
 
 export default defineEventHandler(async (event) => {
   try {
@@ -27,15 +28,7 @@ export default defineEventHandler(async (event) => {
     // Security: sanitize filename
     filename = filename.replace(/[^a-zA-Z0-9._-]/g, '_');
 
-    // In production, process.cwd() might be .output, so we need to find content dir
-    let contentDir = path.join(process.cwd(), 'content');
-
-    // If content doesn't exist at cwd, try parent directory (production build scenario)
-    if (!fs.existsSync(contentDir)) {
-      contentDir = path.join(process.cwd(), '..', 'content');
-    }
-
-    const imgDir = path.join(contentDir, 'img');
+    const imgDir = path.join(getContentDir(), 'img');
 
     // Ensure img directory exists
     if (!fs.existsSync(imgDir)) {

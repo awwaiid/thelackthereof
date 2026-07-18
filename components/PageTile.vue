@@ -26,7 +26,8 @@
   <NuxtLink :to="page.path" custom v-slot="{ navigate }">
     <div class="m-2 flex flex-col cursor-pointer" @click="navigate">
       <div v-if="page.image && !previewHasImage" class="basis-1/3 pb-2 flex justify-center">
-        <img class="w-max max-h-40" :src="imageUrl(page.image)">
+        <NuxtImg v-if="!page.image?.match(/^https?:\/\//)" class="w-max max-h-40" :src="'/' + page.image" width="400" />
+        <img v-else class="w-max max-h-40" :src="page.image">
       </div>
       <div class="basis-2/3 grow mb-4">
         <!-- Render formatted preview if body exists -->
@@ -110,15 +111,6 @@ export default {
       }
       return timestamp.replace(/(\d+-\d+-\d+).*/, "$1");
     },
-    imageUrl(imagePath) {
-      // If it's already an absolute URL, return as-is
-      if (imagePath?.match(/^https?:\/\//)) {
-        return imagePath;
-      }
-      // Use IPX image handler (same as ContentRenderer does)
-      // The /_ipx/_/ prefix tells Nuxt Image to process the image from the content dir
-      return imagePath ? `/_ipx/_/${imagePath}` : '';
-    }
   }
 };
 </script>

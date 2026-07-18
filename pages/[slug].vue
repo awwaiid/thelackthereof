@@ -38,23 +38,39 @@
 <script setup lang="ts">
   const route = useRoute();
 
+  function canonicalize(path: string): string {
+    return path.replace(/_/g, '-').toLowerCase();
+  }
+
   let { data: page, pending } = await useAsyncData(route.path, () =>
     queryCollection('content').path(route.path).first()
   );
 
-  // Fallback for legacy routes
+  // Fallback for legacy URLs: canonicalize (lowercase + underscores→dashes)
+  // and redirect to the canonical path if it resolves.
   if (!page.value && !pending.value) {
-    const path = route.path.replace(/_/g, "-");
-    let response = await useAsyncData(path, () =>
-      queryCollection('content').path(path).first()
-    );
-    page = response.data;
-    pending = response.pending;
+    const canonical = canonicalize(route.path);
+    if (canonical !== route.path) {
+      const fallback = await queryCollection('content').path(canonical).first();
+      if (fallback) {
+        await navigateTo(canonical, { redirectCode: 301 });
+      } else {
+        // Try with /tlt- prefix (legacy blog paths without the prefix).
+        const withPrefix = '/tlt' + canonical;
+        const prefixed = await queryCollection('content').path(withPrefix).first();
+        if (prefixed) {
+          await navigateTo(withPrefix, { redirectCode: 301 });
+        }
+      }
+    }
   }
 
   if (!page.value) {
     console.error("Page not found", route.path);
-    // Don't assign a string - leave page.value as null for proper 404 handling
+    if (import.meta.server) {
+      const event = useRequestEvent();
+      if (event) setResponseStatus(event, 404);
+    }
   }
 
   // Update page state for footer component using composable

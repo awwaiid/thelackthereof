@@ -1,4 +1,26 @@
+import { readdirSync } from 'node:fs';
 import tweakMarkdown from './lib/tweakMarkdown';
+
+function slugForFile(filename: string): string {
+  return filename
+    .replace(/\.md$/, '')
+    .replace(/ - /g, '-')
+    .replace(/ /g, '-')
+    .toLowerCase();
+}
+
+function collectContentRoutes(): string[] {
+  return readdirSync('content')
+    .filter(f => f.endsWith('.md') && !f.startsWith('_'))
+    .map(f => '/' + slugForFile(f));
+}
+
+const securityHeaders = {
+  'Strict-Transport-Security': 'max-age=31536000; includeSubDomains',
+  'X-Content-Type-Options': 'nosniff',
+  'Referrer-Policy': 'strict-origin-when-cross-origin',
+  'X-Frame-Options': 'SAMEORIGIN'
+};
 
 export default defineNuxtConfig({
   modules: [
@@ -6,33 +28,26 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     'nuxt-delay-hydration',
-    "@nuxt/image",
+    '@nuxt/image',
     'nuxt-gtag'
   ],
 
   nitro: {
     prerender: {
-      routes: ['/', '/rss.xml', '/shares.rss.xml'],
-      failOnError: true,
+      routes: ['/', '/rss.xml', '/shares.rss.xml', ...collectContentRoutes()],
+      crawlLinks: true,
+      failOnError: false,
+      ignore: ['/admin', '/_admin-preview']
     }
   },
 
   routeRules: {
-    '/admin/**': { prerender: false }
+    '/**': { headers: securityHeaders },
+    '/admin/**': { prerender: false, headers: { ...securityHeaders, 'X-Robots-Tag': 'noindex, nofollow' } }
   },
 
   gtag: {
     id: 'G-7FLNGJSFBK'
-  },
-
-  // vue: {
-  //   compilerOptions: {
-  //     isCustomElement: tag => ['av-waveform', 'AvWaveform'].includes(tag)
-  //   }
-  // },
-
-  webpack: {
-    ignored: ['public/docs']
   },
 
   app: {
@@ -49,15 +64,15 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', href: '/brock-logo-outline-icon-48x48.png' },
-        { rel: "alternate", "type": "application/rss+xml", title: "The Lack Thereof (@awwaiid / Brock Wilcox)", href: "/rss.xml" }
+        { rel: 'alternate', type: 'application/rss+xml', title: 'The Lack Thereof (@awwaiid / Brock Wilcox)', href: '/rss.xml' }
       ]
     },
   },
 
   googleFonts: {
     families: {
-      "Nunito": true,
-      "Atkinson Hyperlegible": true,
+      'Nunito': true,
+      'Atkinson Hyperlegible': true,
     }
   },
 
@@ -73,13 +88,13 @@ export default defineNuxtConfig({
           preload: ['diff', 'json', 'js', 'ts', 'css', 'shell', 'html', 'md', 'yaml', 'vue', 'python', 'ruby', 'perl', 'cpp', 'clojure']
         },
         remarkPlugins: {
-          "@akebifiky/remark-simple-plantuml": {
-            baseUrl: "https://www.plantuml.com/plantuml/svg"
+          '@akebifiky/remark-simple-plantuml': {
+            baseUrl: 'https://www.plantuml.com/plantuml/svg'
           },
-          "remark-breaks": true
+          'remark-breaks': true
         },
         rehypePlugins: {
-          "rehype-wrap-text": false
+          'rehype-wrap-text': false
         }
       }
     }
@@ -87,14 +102,13 @@ export default defineNuxtConfig({
 
   delayHydration: {
     mode: 'mount',
-    // enables nuxt-delay-hydration in dev mode for testing
     debug: process.env.NODE_ENV === 'development'
   },
 
   image: {
     dir: 'content',
     ipx: {
-      maxAge: 86400 // 24h
+      maxAge: 86400
     }
   },
 
@@ -102,8 +116,7 @@ export default defineNuxtConfig({
 
   vite: {
     server: {
-      allowedHosts: true,
-      hmr: false,  // Disable hot module replacement
+      allowedHosts: true
     },
   },
 
@@ -113,5 +126,5 @@ export default defineNuxtConfig({
     }
   },
 
-  compatibilityDate: '2024-07-06'
+  compatibilityDate: '2026-05-16'
 })

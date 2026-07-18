@@ -1,5 +1,8 @@
 {
   "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -7,7 +10,7 @@
     "preview": "nuxt preview",
     "deploy-static": "nuxt generate && unison -batch -ui text pegasus",
     "deploy-dynamic": "unison -batch -retry 3 -ui text pegasus && ssh pegasus 'cd tlt && docker compose up -d --build web-nuxt'",
-    "server-start": "npm run dev"
+    "server-start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "@nuxt/content": "^3.13.0",

@@ -68,21 +68,13 @@ function minimarkToHtml(node: any, baseUrl = 'https://thelackthereof.org'): stri
 
 export default defineEventHandler(async (event) => {
   const query = getQuery(event);
-  // Obtain all docs and init RSS feed creator
 
-  const currentYear = new Date().getFullYear();
   const feed = new Feed({
     id: 'rss',
-    // title: "Mac's Journal - RSS feed",
-    // description: "RSS feed for the latest Mac's Journal articles",
-    // link: 'https://journal.maciejpedzi.ch',
-    // copyright: `${currentYear} Maciej Pedzich`
     title: 'The Lack Thereof',
     link: 'https://thelackthereof.org/',
   });
-    // feed_url: `https://thelackthereof.org/rss.xml`,
-    // image_url: 'https://thelackthereof.org/brock-logo-outline-80x100.png'
-  // Build query with Nuxt Content v3 API
+
   let queryBuilder = queryCollection(event, 'content')
     .where('draft', 'IS NOT', 1);
 
@@ -95,8 +87,6 @@ export default defineEventHandler(async (event) => {
     .order('updatedAt', 'DESC')
     .limit(20)
     .all();
-
-  // 'rehype-urls', url => (url.host ? url : new URL(url.href, process.env.BASE_URL))
 
   for (const doc of docs) {
     // Convert minimark body to HTML
@@ -121,6 +111,4 @@ export default defineEventHandler(async (event) => {
 
   appendHeader(event, 'Content-Type', 'application/xml');
   return feed.rss2();
-  // Optionally:
-  // return feed.atom1();
 });
